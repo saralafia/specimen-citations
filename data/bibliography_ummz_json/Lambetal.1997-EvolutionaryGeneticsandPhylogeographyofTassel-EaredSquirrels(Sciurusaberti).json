@@ -1,0 +1,2655 @@
+{
+    "paper_id": "Lambetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:29:17.302134Z"
+    },
+    "title": "EVOLUTIONARY GENETICS AND PHYLOGEOGRAPHY OF TASSEL-EARED SQUIRRELS (SCIURUS ABERTJ)",
+    "authors": [
+        {
+            "first": "Trip",
+            "middle": [],
+            "last": "Lamb",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Thomas",
+            "middle": [
+                "R"
+            ],
+            "last": "Jones",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Peter",
+            "middle": [
+                "J"
+            ],
+            "last": "Wettstein",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "The tassel-eared squirrel (Sciurus aherti) is confined to a montane archipelago of mixed conifer forests in the American Southwest. Explanations for its fragmented distribution vary, invoking historical scenarios that stress late-Pleistocene vicariance, dispersal, or some combination thereof. To test among these hypotheses, we examined the phylogeography of S. aberti, as determined by variation in mtDNA restriction sites among 22 populations sampled range-wide. Genetic distance and maximum-parsimony analyses revealed three distinct lineages of mtDNA, which in turn form two major phylogeographic assemblages; eastern (Mexico; New Mexico-Colorado-Utah) and western (Arizona-southwestern New Mexico). Comparisons between the maximum-parsimony tree and an area cladogram of regional mountain ranges showed marked topological discordance, dismissing late-Pleistocene vicariance as a principal phylogeographic factor. Certain mtDNA data support the post-Pleistocene dispersal hypothesis, in which squirrels dispersed northward in conjunction with the rapid range expansion of ponderosa pines (Pinus ponderosa). However, divergence levels observed between assemblages (1.8%) also suggest a significant, underlying vicariant event responsible for major separation of lineages during the early Pleistocene. Thus, the evolutionary genetics of S. aberti has been influenced profoundly, and perhaps repeatedly, by climatic change during the Pleistocene.",
+    "pdf_parse": {
+        "paper_id": "Lambetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "The tassel-eared squirrel (Sciurus aherti) is confined to a montane archipelago of mixed conifer forests in the American Southwest. Explanations for its fragmented distribution vary, invoking historical scenarios that stress late-Pleistocene vicariance, dispersal, or some combination thereof. To test among these hypotheses, we examined the phylogeography of S. aberti, as determined by variation in mtDNA restriction sites among 22 populations sampled range-wide. Genetic distance and maximum-parsimony analyses revealed three distinct lineages of mtDNA, which in turn form two major phylogeographic assemblages; eastern (Mexico; New Mexico-Colorado-Utah) and western (Arizona-southwestern New Mexico). Comparisons between the maximum-parsimony tree and an area cladogram of regional mountain ranges showed marked topological discordance, dismissing late-Pleistocene vicariance as a principal phylogeographic factor. Certain mtDNA data support the post-Pleistocene dispersal hypothesis, in which squirrels dispersed northward in conjunction with the rapid range expansion of ponderosa pines (Pinus ponderosa). However, divergence levels observed between assemblages (1.8%) also suggest a significant, underlying vicariant event responsible for major separation of lineages during the early Pleistocene. Thus, the evolutionary genetics of S. aberti has been influenced profoundly, and perhaps repeatedly, by climatic change during the Pleistocene.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Some 26 species of nonvoIant forest mammals are confined to a montane archipelago of mixed-conifer forests in the American Southwest, including Arizona, New Mexico, Colorado, and southern Utah (Lomolino et aI., 1989) . Explanations for their present distribution patterns vary, invoking historical scenarios that stress vicariant events, dispersal events, or some combination of these two processes (Davis and Brown, 1989; Lomolino et aI., 1989; McKee, 1941; Patterson, 1984; Sullivan, 1985) . For example, all three hypotheses have been offered to account for the fragmented distribution of the tassel-eared squirrel (Sciurus aherti), a prominent spe-cies in conifer forests of the Rocky Mountains Disjunct populations of S, aberti were traditionally considered to be vicari ant relicts of a widespread, essentially continuous distribution within a vast Pleistocene coniferous forest (McKee, 1941) . Increasing aridity during the Holocene caused the coniferous forest and its contingent of squirrels to fragment, forming remnant montane populations (McKee, 1941) . A competing view suggests that post-Pleistocene dispersal, including extensive migration across unsuitable habitat, accounts for much of the present distribution of S. aberti (Davis and Brown, 1989) . A third view holds that there was an inceptive vicariant component from which major dispersal ensued during the Pleistocene and continued post-Pleistocene to the present (Lomolino et aI., 1989) .",
+                "cite_spans": [
+                    {
+                        "start": 193,
+                        "end": 216,
+                        "text": "(Lomolino et aI., 1989)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 399,
+                        "end": 422,
+                        "text": "(Davis and Brown, 1989;",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 423,
+                        "end": 445,
+                        "text": "Lomolino et aI., 1989;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 446,
+                        "end": 458,
+                        "text": "McKee, 1941;",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 459,
+                        "end": 475,
+                        "text": "Patterson, 1984;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 476,
+                        "end": 491,
+                        "text": "Sullivan, 1985)",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 885,
+                        "end": 898,
+                        "text": "(McKee, 1941)",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1050,
+                        "end": 1063,
+                        "text": "(McKee, 1941)",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1241,
+                        "end": 1264,
+                        "text": "(Davis and Brown, 1989)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 1437,
+                        "end": 1460,
+                        "text": "(Lomolino et aI., 1989)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "General correlative support for the two (largely compatible) dispersal hypotheses is provided by significant relationships between richness of mammalian species and current isolation of montane habitats, as well as between species richness and area (bOlh P < 0.01; Lomolino et aI., 1989) .",
+                "cite_spans": [
+                    {
+                        "start": 249,
+                        "end": 264,
+                        "text": "(bOlh P < 0.01;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 265,
+                        "end": 287,
+                        "text": "Lomolino et aI., 1989)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "These correlations can neither support nor refute an underlying vicariant component, which also may have influenced the montane fauna of the region. An alternative assessment involves examining genetic structure of populations, whose pattern and magnitude may reveal clues to historical demographic and biogeographic events. In particular, variation among mitochondrial-DNA (mtDNA) haplotypes can be used to associate intraspecific phylogenies with geographic distribution. Variation in mt-DNA examined in this context forms the basis of intraspecific phylogeography, which can be broadly defined as the processes that govern geographic distributions of genealogical lineages (A vise et aI., 1987) . A phylogeographic approach often allows the detection of, and distinction between, past demographic conditions (dispersal) and historical environmental disjunctions (vicariance). Here we report the phylogeography of S. aberti based on variation of mtDNA detected by restriction-site analysis. We compare phylogeographic structure in mtDNA of S. aberti with competing biogeographic predictions based on late-Pleistocene vicariant versus dispersal events. In this respect, our survey provides important baseline data regarding a genetic approach to the biogeographic history of the montane mammalian fauna in the American Southwest. The mtDNA lineages uncovered in our survey also allow comparisons to subspecific designations for S. aberti. Our data complement and extend recent molecular surveys by Wettstein et al. (1994 Wettstein et al. ( , 1995 , which examined variation of mtDNA to establish a temporal framework for the evolution of the major histocompatibility complex and T-cell receptor genes in S. aberti (Wettstein and States, 1986a, 1986b; Wettstein et aI., 1990) .",
+                "cite_spans": [
+                    {
+                        "start": 676,
+                        "end": 697,
+                        "text": "(A vise et aI., 1987)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1499,
+                        "end": 1521,
+                        "text": "Wettstein et al. (1994",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1522,
+                        "end": 1547,
+                        "text": "Wettstein et al. ( , 1995",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1715,
+                        "end": 1729,
+                        "text": "(Wettstein and",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1730,
+                        "end": 1751,
+                        "text": "States, 1986a, 1986b;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1752,
+                        "end": 1775,
+                        "text": "Wettstein et aI., 1990)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "A highly specialized herbivore, the tassel-eared squirrel feeds largely, if not entirely, on the seeds and inner bark of ponderosa pine (Pinus ponderosa) and associated hypogeous fungi (Hall, 1981; Keith, 1965) . The dietary selectivity of the squirrel is underscored by preferences for particular target trees that exhibit significantly lower levels of oleoresin monoterpenes and reduced rates of xylem flow (Snyder, 1992) . Squirrels also rely on pines for cover, and although individuals occasionally are observed in other habitats, reproducing populations are restricted to forests of ponderosa pine (Hall, 1981; Keith, 1965) . The close ecological ties of squirrels to host trees are clearly revealed in their discontinuous, although largely coincident, distributions in montane settings from southern Wyoming to northern Durango, Mexico. It should be noted, however, that S. aberti is absent from the majority of ponderosa pine forests, which are widespread throughout western North America (Little, 1971) . The discrepancy in respective ranges indicates that this herbivore-host relationship does not involve reciprocal dependency.",
+                "cite_spans": [
+                    {
+                        "start": 185,
+                        "end": 197,
+                        "text": "(Hall, 1981;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 198,
+                        "end": 210,
+                        "text": "Keith, 1965)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 409,
+                        "end": 423,
+                        "text": "(Snyder, 1992)",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 604,
+                        "end": 616,
+                        "text": "(Hall, 1981;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 617,
+                        "end": 629,
+                        "text": "Keith, 1965)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 997,
+                        "end": 1011,
+                        "text": "(Little, 1971)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Morphological variation among disjunct populations of S. aberti is evident, and nine geographic races have been described by differences in cranial features and coloration of pelage. In the most recent taxonomic revision, Hoffmeister and Diersing (1978) dismissed the systematic value of coloration of pelage and concluded that S. aberti comprised six subspecies, based on multivariate analysis of external and cranial measurements. We made a special effort to secure representatives of each of the classically defined and currently recognized geographic races.",
+                "cite_spans": [
+                    {
+                        "start": 222,
+                        "end": 253,
+                        "text": "Hoffmeister and Diersing (1978)",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "We collected 95 squirrels, representing 22 locales throughout the range of the species (Table  TABLE l .~Sample locales, mountain ranges, sample sizes, and subspecies of the tassel-eared squirrel (Sciurus aberti). Locales are depicted in Fig. 1 Fig. 1 ; Appendix I). Samples of liver were stabilized in MSB-EDTA buffer (Lansman et aI., 1981) within 10 min of collection and held at 4\u00b0C for 2-7 days before processing. About 1 g of liver was homogenized in fresh MSB-EDTA buffer, from which closed-circular mtDNA was isolated by CsCI-gradient centrifugation (Lansman et aI., 1981) . Purified samples of mtDNA were digested separately with the 18 informative endonucleases listed in Table 2 . Samples also were digested with Bam HI, but this enzyme proved uninformative (Le., generating either one or no restriction fragments), and these data were not included for analysis. Digestion fragments were end-labeled with 35S-dNTPs, separated through 1-1.8% agarose gels, and revealed by autoradiography. Restriction-site changes involving small fragments (200-600 bp) were confirmed using 2.5-3.5% Nusieve GTG aga- Distinct restriction profiles for each endonuclease were identified by an uppercase letter code, with \"e\" designating the most common profile. Each squirrel was assigned a composite genotype of mtDNA (its haplotype or clonal designation) compiled from the restriction profiles across all enzymes. Size polymorphism was negligible, and differences in patterns of fragments could be readily attributed to transformations involving simple losses or gains of specific restriction sites. Inferred site data for the genotypes were assembled in a presence-absence matrix, and estimates of nucleotide-se- quence divergence (P) between genotypes of mtDNA were calculated by the site approach of Nei and Li (1979) . method using arithmetic means (UPGMA), using p-values as input matrix to the NJOIN and SAHN programs. respectively, of NTSYS-pc (Rohlf, 1992) . In addition, maximum-parsimony analysis of the restriction-site data was conducted using the branch-and-bound search procedure",
+                "cite_spans": [
+                    {
+                        "start": 319,
+                        "end": 341,
+                        "text": "(Lansman et aI., 1981)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 557,
+                        "end": 579,
+                        "text": "(Lansman et aI., 1981)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1795,
+                        "end": 1812,
+                        "text": "Nei and Li (1979)",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 1943,
+                        "end": 1956,
+                        "text": "(Rohlf, 1992)",
+                        "ref_id": "BIBREF40"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 87,
+                        "end": 102,
+                        "text": "(Table  TABLE l",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 238,
+                        "end": 244,
+                        "text": "Fig. 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 245,
+                        "end": 251,
+                        "text": "Fig. 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 681,
+                        "end": 688,
+                        "text": "Table 2",
+                        "ref_id": "TABREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "(ka) 14 (ab) (ab) (ab) 1 (ab) 18 (ab) 9 (ab) 11 (ab) 10 (ab) 12 \"-'- \u2022 I I / ~ i ~ ,\" , ,. , :. '-.. 1 (fe) (fe) 13 (ab) 19 (ch) 20 (ch) 3 (fe) 5 (ab) 4 (fe) 6 (ab) , o to 7 (ab) , .e l ..... -iJ-r\u2022--.-...... _-' . , . 8 (ab) \"l! ------~------21 ~~ JL-~Y:'--\\ 22 (du) / ,-'ill i -,j. .\", '\"'\"\\.. \\ ID ) FIG. l.--Collection",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "Haplotypes were clustered by neighbor-joining analysis (Saitou and Nei, 1987) , and alternatively. by using the unweighted pair-group of PAUP (Swofford. 1993) , with presence-absence of sites as character states. Although general statements exist regarding putative relationships among North American sciurids (Allen, 1915; Burt, 1960) , no comprehensive cladistic analysis has been reported. In the absence of a reliable phylogeny, we selected two species, Sciurus niger and S. carolinensis, as potential outgroup taxa. A bootstrap analysis involving 1,000 iterations (Bootstrap option in PAUP) was conducted to estimate confidence limits for the topological patterns revealed by parsimony analysis.",
+                "cite_spans": [
+                    {
+                        "start": 55,
+                        "end": 77,
+                        "text": "(Saitou and Nei, 1987)",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 142,
+                        "end": 158,
+                        "text": "(Swofford. 1993)",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 310,
+                        "end": 323,
+                        "text": "(Allen, 1915;",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 324,
+                        "end": 335,
+                        "text": "Burt, 1960)",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "The IS-enzyme assay generated a total of 81 restriction sites (X = 70/individual) and identified 21 haplotypes of mtDNA (Table  2 ; Appendix II). Geographic localization was an evident feature of distribution of haplotypes; 13 of the 21 clones were observed only at single locales, and in effect, characterized populations of squirrels inhabiting specific mountain ranges (Table 2) . Perhaps the best example of such a diagnostic haplotype involved clone i, which appears restricted to the Kaibab Plateau and was found in all nine squirrels sampled there. The more geographically wide-spread haplotypes (e.g., a, h, p, r) were distributed across I) the Mogollon Plateau of central Arizona and southwestern New Mexico, or 2) the eastern front of the Rocky Mountains from northern New Mexico to northern Colorado. Both geographic settings support nearly continuous stretches of ponderosa pine forests (Little, 1971) .",
+                "cite_spans": [
+                    {
+                        "start": 899,
+                        "end": 913,
+                        "text": "(Little, 1971)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 120,
+                        "end": 129,
+                        "text": "(Table  2",
+                        "ref_id": "TABREF3"
+                    },
+                    {
+                        "start": 372,
+                        "end": 381,
+                        "text": "(Table 2)",
+                        "ref_id": "TABREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "The neighbor-joining tree (Fig. 2 ) revealed two major genetic groupings, henceforth called the eastern and western assemblages, which are separated by an average sequence divergence of p = 0.0183. The eastern assemblage contains 12 haplotypes and encompasses a much larger area, ranging from northern Colorado to southern Chihuahua. Geographic structure is evident within the assemblage, which can be partitioned into three well-defined subunits. The most genetically distinct of these is the Mexican subunit, confined to the Sierra Ma-dre Occidental and differing from the other two subunits at p = 0.0079. A second subunit is rather broadly distributed from the Sangre de Cristo Mountains of northern New Mexico, north through Colorado along the eastern front of the Rocky Mountains (sample locales 1, 2, 3, and 4). The third subunit lies west of the Rio Grande Valley in a region roughly defined by the Jemez, San Juan, Zuni, Abajo, and Chuska ranges (sample locales 5, 6, 7, 8, 13, 19, and 20) .",
+                "cite_spans": [
+                    {
+                        "start": 971,
+                        "end": 998,
+                        "text": "5, 6, 7, 8, 13, 19, and 20)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 26,
+                        "end": 33,
+                        "text": "(Fig. 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "The western assemblage, comprising nine haplotypes, is considerably more homogeneous both genetically and geographically. Seven haplotypes (a-f, h) are variously represented in the Datil, San Mateo, Pinos Altos, and Mogollon Mountains of southwestern New Mexico, as well as in Arizona along the Mogollon Plateau north to the Coconino Plateau. As noted previously, the Kaibab Plateau is characterized by an eighth unique, although closely related, haplotype (i). The ninth western haplotype (g) appears restricted to the Chuska Mountains, where it was observed in roughly equivalent frequency with two eastern haplotypes, j and k, the latter of which also appears restricted to the Chuskas.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "Both eastern and western assemblages were also resolved in the UPGMA analysis, as were the three subunits of the eastern assemblage. The branching topology for the UPGMA phenogram differed only slightly from that of the neighbor-joining tree with respect to hierarchical arrangements within both subunits and, therefore, is not illustrated.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "Maximum-parsimony analysis of 31 variable restriction sites (Appendix II) resulted in a single most-parsimonious tree involving 34 steps, with a relatively high consistency index of 0.870, excluding uninform_ ative characters. The digestion-fragment profiles between S. aberti and the outgroup taxa (S. niger and S. carolinensis) were so distinct that it was not possible to interpret particular changes of sites across species. With so little phylogenetic information provided by either S. niger or S. carolinensis, r e (15 16) , a (9, 10, 12, 16, 18) / (16, 17) h (15, 16, 17) I i 14Western g (19, 20) d 17b 10c(ll,12) we concluded that their role as outgroups (with respect to the restriction-site data) was inappropriate. Thus, the maximum-parsimony tree was rooted mid-point in the absence of an outgroup. The maximum-parsimony tree depicts the same major groupings (assemblages and subunits) resolved by both genetic-distance analyses (Fig. 3) . The eastern versus western clades differ by nine unique restriction-site changes and are supported by a bootstrap value of 100%. a (8, 9, 10, 12, 16, 18) h (IS, 16, 17) i 14-",
+                "cite_spans": [
+                    {
+                        "start": 533,
+                        "end": 536,
+                        "text": "(9,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 537,
+                        "end": 540,
+                        "text": "10,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 541,
+                        "end": 544,
+                        "text": "12,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 545,
+                        "end": 548,
+                        "text": "16,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 549,
+                        "end": 552,
+                        "text": "18)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 555,
+                        "end": 559,
+                        "text": "(16,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 560,
+                        "end": 563,
+                        "text": "17)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 566,
+                        "end": 570,
+                        "text": "(15,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 571,
+                        "end": 574,
+                        "text": "16,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 575,
+                        "end": 578,
+                        "text": "17)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 595,
+                        "end": 599,
+                        "text": "(19,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 600,
+                        "end": 603,
+                        "text": "20)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1083,
+                        "end": 1086,
+                        "text": "(8,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1087,
+                        "end": 1089,
+                        "text": "9,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1090,
+                        "end": 1093,
+                        "text": "10,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1094,
+                        "end": 1097,
+                        "text": "12,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1098,
+                        "end": 1101,
+                        "text": "16,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1102,
+                        "end": 1105,
+                        "text": "18)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1108,
+                        "end": 1112,
+                        "text": "(IS,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1113,
+                        "end": 1116,
+                        "text": "16,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1117,
+                        "end": 1120,
+                        "text": "17)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 521,
+                        "end": 528,
+                        "text": "(15 16)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 941,
+                        "end": 949,
+                        "text": "(Fig. 3)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "j (8,19,20) k (19) r - 1 (6,7 ) m (13) n (5) Eastern q (3) 0(4) P (2,3,4) r (1,2) t(21) ~ s (21,22) u",
+                        "eq_num": "("
+                    }
+                ],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "---i=== d (17) r e (IS, 16) Western 1 ---f (16, 17) 1 ----g (19, 20) '--_ _ C (11, 12) L -_ _ _ _ b (10) r ---j (8, 19, 20) I ---k (19) I (6, 7) m (13) 53 '--_ _ n (5) 0 (4) q (3) Eastern 100 p (2, 3,4) r (I, 2) S (21,22) 82 t (21) U (21) FIG.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "3.-Maximum-parsimony tree of haplotypes of mtDNA for Sciurus aberti. Mid-point rooting was used in the absence of an appropriate outgroup. Numbers above the branches indicate the proportion of bootstrap replicates that supported the depicted groupings. Numbers in parentheses are collection locales (Table 2) . niferous forests are dominated by ponderosa pines (Hall, 1981; Keith, 1965) . No comparable data exist for S. aberti in Mexico, where Madrean, montane-coniferous, forests are often of mixed-species composition (Styles, 1993) . Nonetheless, in the absence of data to the contrary, a reconstruction of the evolutionary history of the squirrels requires a biogeographic perspective on ponderosa pines.",
+                "cite_spans": [
+                    {
+                        "start": 361,
+                        "end": 373,
+                        "text": "(Hall, 1981;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 374,
+                        "end": 386,
+                        "text": "Keith, 1965)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 521,
+                        "end": 535,
+                        "text": "(Styles, 1993)",
+                        "ref_id": "BIBREF44"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 299,
+                        "end": 308,
+                        "text": "(Table 2)",
+                        "ref_id": "TABREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "Although much remains to be understood about the Pleistocene distribution of ponderosa pines. it is clear that this species was absent from the northern part of its current range. Among data from Wisconsinan-aged middens of packrats in Arizona and New Mexico, ponderosa pines are recorded only from the San Andres Mountains in southcentral New Mexico (ca. 14,900 years ago-Van Devender, 1990a) and in the Santa Catalina Mountains near Tucson, Arizona (ca. 18,000-11,900 years ago; Van Devender, I 990b). Although data are lacking for many of the mountain islands currently supporting ponderosa pines, the data on packrat middens clearly demonstrate that pine forests did not extend north of the 35th parallel during the Wisconsinan glaciation (Betancourt et aI., 1990; Van Devender, 1990a ",
+                "cite_spans": [
+                    {
+                        "start": 743,
+                        "end": 768,
+                        "text": "(Betancourt et aI., 1990;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 769,
+                        "end": 788,
+                        "text": "Van Devender, 1990a",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": ", I 990b ).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "The earliest definitive records of ponderosa pine north of the 35th parallel include 10,400 years ago from the Mogollon Plateau (Anderson, 1993) 10,300 years ago from the Abajo Mountains, Utah (Betancourt, 1990),9,100 years ago from the eastern Grand Canyon (Cole, 1990) , and 8,300 years ago from Chaco Canyon, New Mexico. Once established, however, the pines soon became abundant, dominating the Chaco Canyon site by ca. 6,700 years ago and the Abajo Mountains by ca. 7,200 years ago (Betancourt, 1990) . It is apparent that ponderosa pine experienced a rapid expansion in the Holocene from the south, and although a refugium has yet to be confirmed (Anderson, 1993) , the species likely was \"an important component of montane communities in the highlands south of 35\u00b0 [N] , and probably was most prevalent in the Sierra Madre Occidental\" (Betancourt et aI., 1990:443) . Ponderosa pines presumably reached their present distribution via long-distance dispersal or island hopping during the early Holocene (Betancourt et aI., 1990) . Genetic data for Great Basin populations of Douglas fir (Pseudotsuga menziesii) support a similar pattern of rapid post-glacial expansion northward (Betancourt et aI., 1991; Schnable et aI., 1993) .",
+                "cite_spans": [
+                    {
+                        "start": 128,
+                        "end": 144,
+                        "text": "(Anderson, 1993)",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 258,
+                        "end": 270,
+                        "text": "(Cole, 1990)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 486,
+                        "end": 504,
+                        "text": "(Betancourt, 1990)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 652,
+                        "end": 668,
+                        "text": "(Anderson, 1993)",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 771,
+                        "end": 774,
+                        "text": "[N]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 841,
+                        "end": 870,
+                        "text": "(Betancourt et aI., 1990:443)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1007,
+                        "end": 1032,
+                        "text": "(Betancourt et aI., 1990)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1183,
+                        "end": 1208,
+                        "text": "(Betancourt et aI., 1991;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1209,
+                        "end": 1231,
+                        "text": "Schnable et aI., 1993)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "Thus, the paleo-distribution of ponderosa pines offers little support for McKee's (1941) scenario in which current pines and populations of squirrels are considered vicariant remnants of a vast, late-Pleistocene pine forest. Indeed, the data from middens suggest that about one-third of the present range was uninhabitable during the Wisconsinan glaciation. Additional evidence against the role of post-Pleistocene vicariance in shaping phylogeographic structure in S. aberti is apparent when the maximumparsimony tree (Fig. 3 ) is compared to a geographical, or area cladogram (sensu Kluge, 1988) . Sullivan (1994) the American Southwest. The area c1adogram that Sullivan (1994) generated for this region depicts the fragmentation sequence of biotic communities from the late Wisconsinan to the present, thereby providing a hypothesis for genetic differentiation among populations of S. aberti sundered by the fragmentation of contiguous pine forests. Figure 4 illustrates the method for constructing an area c1adogram for a series of hypothetical mountain ranges. Range A, separated from other ranges by the lowest elevation, is the first to become isolated and thus forms the lowest branch of the cladogram. Range C is the terminal taxon, the last to sever connections to other ranges. However, ranges Band E are unresolved in the cladogram (despite the fact that they represent different geographic areas) because both experienced isolation at the same elevation. Thus, it is not possible to distinguish cladistically between them; such unresolved nodes cannot be compared using the criteria outlined by Kluge (1988) .",
+                "cite_spans": [
+                    {
+                        "start": 585,
+                        "end": 597,
+                        "text": "Kluge, 1988)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 600,
+                        "end": 615,
+                        "text": "Sullivan (1994)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1608,
+                        "end": 1620,
+                        "text": "Kluge (1988)",
+                        "ref_id": "BIBREF26"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 519,
+                        "end": 526,
+                        "text": "(Fig. 3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 953,
+                        "end": 961,
+                        "text": "Figure 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "Using this general approach, we examined topographical maps (United States Geological Survey I :500,000 and I: 100,000) of the region to identify the highest elevational contours connecting mountains inhabited by S. aberti. The result was an area cladogram depicting the mountain ranges encompassed by the current distribution of the squirrels (Fig. SA) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 344,
+                        "end": 353,
+                        "text": "(Fig. SA)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "Before interpreting the area cladogram, we offer two caveats regarding our vicariance model and null models for montane biogeography in general (e.g., Sullivan, 1994) . First, it is nearly impossible to avoid unresolved nodes in any vicariance model for montane organisms. If the elevation limits of biotic communities are altered by climatic change, then coincident fragmentation of geographically disparate mountain islands is inevitable. Second, our vicariance model makes biological assumptions that undoubtedly are violated, most notably that biotic communities are predictable at given elevations. Elevationallimits for both modern and paleo-communities are approximations at best, as local edaphic and microclimatic conditions often support communities that would not otherwise be predicted by elevation (Betancourt et aI., 1990; Pase and Brown, 1994) . For example, at ca. 34\u00b015' and 2,100 m, Rocky Mountain-montane-conifer forest occurs on and below the Mogollon Plateau, but grassland dominates the Plains of San Agustin, New Mexico, which in tum is surrounded by montane-conifer forests of the Rocky Mountains at slightly higher elevations. In other instances, sites separated by low elevations might actually be connected via canyons that support communities associated with higher elevations. Thus, sites that are connected or separated in our area cladogram by objective criteria might not conform with apparent limits imposed by elevation. However, none of this precludes resolution of these conflicts with additional evidence (sensu Kluge and Wolf, 1993) , How do these caveats temper an interpretation of our vicariance hypothesis? The distribution of S. aberti encompasses several mountain ranges whose montane-conifer forests would have been isolated at about the same elevation and time period, yielding an area cladogram with several unresolved nodes (Fig. Sa) . As a result, we cannot compare on a fine scale, i.e., range by range, the level of concordance between the area cladogram and the phylogeny from maximum-parsimony analysis. In broadscale comparison, however, the area cladogram and maximum-parsimony tree display substantial topological discordance (Fig. 5) . First, the maximum-parsimony tree reveals two major assemblages of mtDNA, partitioned east and west, but there is nothing in topology of the area cladogram that predicts an east-west split. Moreover, terminal lineages of the maximum-parsimony tree such as the haplotypes Kaibab Plateau and Sierra Ancha should form basal branches accroding to our geographical hypothesis. Thus, our mtDNA data falsify the hypothesis predicted by our model and indicate that post-Pleistocene vicariance was not a major factor in the evolutionary genetics of S. aberti.",
+                "cite_spans": [
+                    {
+                        "start": 151,
+                        "end": 166,
+                        "text": "Sullivan, 1994)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 811,
+                        "end": 836,
+                        "text": "(Betancourt et aI., 1990;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 837,
+                        "end": 858,
+                        "text": "Pase and Brown, 1994)",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 1549,
+                        "end": 1570,
+                        "text": "Kluge and Wolf, 1993)",
+                        "ref_id": "BIBREF27"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1872,
+                        "end": 1881,
+                        "text": "(Fig. Sa)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2182,
+                        "end": 2190,
+                        "text": "(Fig. 5)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "If the paleo-distribution of ponderosa pines offers little support for post-Pleistocene vicariance in S. aberti, it strongly corroborates the role of dispersal. Davis and Brown (1989) argued that S. aberti dispersed across woodland (non-ponderosa pine) barriers or along corridors in a northward expansion roughly contemporaneous with that of the island-hopping pines during the late Wisconsinan-early Holocene. Lomolino et al. (1989) offered strong support that similar dispersal across woodland barriers at this time played a central role in determining geographic distribution of several montane-forest mammals in the American Southwest. These studies suggest that many of the populations of squirrels in OUf survey derive from a substantive northward wave of dispersal. What aspects of the mtDNA data are consistent with, or have bearing on, a dispersal-dominated history for S. aberti in its northern range? Diversity of haplotypes does appear greater below 36\u00b0N than above (14 haplotypes versus seven) despite a comparable number of sampling locales (11 versus 10). This distribution pattern of haplotypes is consistent with a recent, rapid, range expansion, where effective population size (N e ) and thus diversity of haplotypes of the dispersal contingent are expected to be reduced proportionally.",
+                "cite_spans": [
+                    {
+                        "start": 161,
+                        "end": 183,
+                        "text": "Davis and Brown (1989)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 412,
+                        "end": 434,
+                        "text": "Lomolino et al. (1989)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "The geographic distribution of certain haplotypes also allows us to postulate the direction of dispersal in some cases. For example, the Kaibab haplotype (i) probably is derived from the Coconino Plateau-Mogollon Plateau h haplotype (Figs. 2 and 3) , with which it shares a restriction-site gain. The Jemez Mountains-Mount Taylor I and Elk Ridge m baplotypes share a site loss and a site gain (Fig. 3 ), suggesting a northwestern New Mexico origin for the populations in Utah. On a broader scale, dispersal northward in New Mexico likely proceeded in two directions, represented by the two distinct lineages of mtDNA (j, k, 1, m, nand 0, p, g, r; Figs. 2 and 3 ). The Sangre de Cristo populations are sister groups to the northern-Colorado haplotype (r), suggesting dispersal along the Front Range of the Rocky Mountains.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 233,
+                        "end": 248,
+                        "text": "(Figs. 2 and 3)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 393,
+                        "end": 400,
+                        "text": "(Fig. 3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 647,
+                        "end": 660,
+                        "text": "Figs. 2 and 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "Despite strong inferential evidence for post-Pleistocene dispersal, the phylogeographic structure observed among haplotypes suggests that S. aberti has been subject to significant, earlier vicariant events as well. Eastern and western assemblages of mtDNA differ by a minimum of nine restriction sites and at a sequence-divergence estimate of 1.8%. Assuming the general rate estimate of 2% sequence divergence per million years for evolution of mammalian mtDNA (Brown et aI., 1979 (Brown et aI., , 1982 is appropriate (if not somewhat conservative- Martin and Palumbi, 1993) for S. aberti, then the eastern and western assemblages trace to an early Pleistocene separation. Thus, the evolutionary genetics of S. aberti has been altered profoundly and perhaps repeatedly by climatic change throughout the Pleistocene. An intriguing bit of evidence to this effect involves the presence of ponderosa pines in Wyoming during the Sangamonian interglacial (Baker, 1986) .",
+                "cite_spans": [
+                    {
+                        "start": 461,
+                        "end": 480,
+                        "text": "(Brown et aI., 1979",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 481,
+                        "end": 502,
+                        "text": "(Brown et aI., , 1982",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 549,
+                        "end": 574,
+                        "text": "Martin and Palumbi, 1993)",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 949,
+                        "end": 962,
+                        "text": "(Baker, 1986)",
+                        "ref_id": "BIBREF10"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "Subspecies and variation of mtDNA.-It is well established, both theoretically and empirically, that a gene tree (e.g., mtDNA) can differ topologically from the species tree through which it has been transmitted (Avise, 1994) . Thus, phylogeographic structure among lineages of mtDNA in S. aberti need not coincide with existing subspecific designations or the environmentalgeographical boundaries currently separating subspecies. Our mtDNA data support some of the subspecies limits defined by Hoffmeister and Diersing (1978) , but call into question the validity of others as cohesive evolutionary units. For example, our data support the monophyly of S. a.ferreus, (haplotypes 0, p, q, r) , although the mtDNA distinction is not great, involving just two site changes relative to other haplotypes of the eastern assemblage. The Mexican haplotypes, although distinct from other eastern haplotypes, form an unresolved trichotomy in our maximum-parsimony analysis. Moreover, haplotype s is represented in both S.",
+                "cite_spans": [
+                    {
+                        "start": 211,
+                        "end": 224,
+                        "text": "(Avise, 1994)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 494,
+                        "end": 525,
+                        "text": "Hoffmeister and Diersing (1978)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 667,
+                        "end": 690,
+                        "text": "(haplotypes 0, p, q, r)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "a. barberi and S. a. durangi, suggesting that either little genetic differentiation or, possibly, secondary contact has occurred between these taxa. Our data speak more clearly to the subspecies S. a. aberti, S. a. chuscensis, and S. a. kaibabensis. According to Hoffmeister and DiersiIig (1978) , S. a. aberti comprises all populations of the Mogollon Plateau, populations in western New Mexico (exclusive of the Chuska Mountains), populations in the San Juan Mountains (formerly S. a. mimus), and populations in the Abajo Mountains-Elk Ridge (formerly S. a. navajo). As presently defined, S. a. aberti includes haplotypes from both eastern and western assemblages, although these respective clones do not OCCur sympatrically. Our data suggest distinct evolutionary histories for the two assemblages, and therefore, challenges the validity of a single S. a. aberti composed of such highly divergent genetic lineages. The distribution of the eastern haplotype contingent of S. a. aberti is largely coincident with the western range of the former subspecies s. a. mimus. Sciurus a. chuscensis also is characterized by haplotypes from both the eastern and western assemblages. However, it differs from the situation for S. a. aberti in a most important respect, and, in fact, provides an empirical example of a rare phylogeographic outcome; one in which pronounced phylogenetic discontinuities (i.e., distinct haplotypes) occur without spatial separation. One tenable explanation for such a pattern involves secondary contact between allopatrically evolved assemblages or geographic races (Avise et aI., 1984) . Admixture of divergent eastern and western haplotypes in the Chuska Range (Chuska Mountains, Defiance Plateau), which lies between 35-36\u00b0N in northeastern Arizona, is consistent with the northern expansion of (and presumably secondary contact between) eastern and western assemblages. Did the contact zone in the Chuska Mountains involve the dispersal of squirrels of the eastern assemblage into a western-assemblage resident population, or vice versa? It is interesting to note that S. a. chuscensis is represented by one western haplotype (g), which differs from other western haplotypes by a single site loss, and by two eastern haplotypes, one differing by a single site gain (k) and the other identical to the haplotype in the Zuni Mountains (j). Thus, minimal divergence of nucleotides observed between the haplotypes in the Chuska Range and their respective assemblages indicate that none have undergone extended isolation in the Chuska Range, and that dispersal of eastern and western ancestral forms to this region may have been roughly contemporaneous. In the absence of nuclear gene markers or morphological indices, conclusions about the extent and direction of mitochondrial gene flow are compromised. A future survey analyzing both nuclear and mitochondrial genes is required to fully disclose patterns of dispersal and introgression in the Chuska Range.",
+                "cite_spans": [
+                    {
+                        "start": 263,
+                        "end": 295,
+                        "text": "Hoffmeister and DiersiIig (1978)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1587,
+                        "end": 1607,
+                        "text": "(Avise et aI., 1984)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "The genetic status of S. a. kaibabensis bears special mention because squirrels assignable to this subspecies differ markedly in color of pelage from the typical countershading of other S. aberti, with dark gray to black be1Iies and solid white tails (Cockrum, 1960) . Confined to the Kaibab Plateau, S. a. kaibabensis originally was described as a separate species (Merriam, 1904) and for years served as a standard example of aIIopatric speciation in college biology texts (e.g., Hardin and Bajema, 1978; Keeton, 1980; Wallace et aI., 1981) . Nash and Seaman (1977) summarized the available literature for S. aberti and continued to recognize S. kaibabensis. More recently, the tenor of the example has been altered, stressing population differentiation in response to geographic isolation (e.g., Campbell, 1993; McFadden and Keeton, 1995) . Both explanations identify an ancestral population sundered by regional events that formed the Grand Canyon and subsequently gave rise to distinctive northern (kaibabensis) and southern (aberti) rim forms.",
+                "cite_spans": [
+                    {
+                        "start": 251,
+                        "end": 266,
+                        "text": "(Cockrum, 1960)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 366,
+                        "end": 381,
+                        "text": "(Merriam, 1904)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 482,
+                        "end": 506,
+                        "text": "Hardin and Bajema, 1978;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 507,
+                        "end": 520,
+                        "text": "Keeton, 1980;",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 521,
+                        "end": 542,
+                        "text": "Wallace et aI., 1981)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 545,
+                        "end": 567,
+                        "text": "Nash and Seaman (1977)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 799,
+                        "end": 814,
+                        "text": "Campbell, 1993;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 815,
+                        "end": 841,
+                        "text": "McFadden and Keeton, 1995)",
+                        "ref_id": "BIBREF33"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "However, disparate lines of evidence suggest that populations of S. aberti from the Grand Canyon area probably were not in position, spatially or temporally, to have been separated by formation of the Canyon (ca. 4-5 X 10 6 years ago- Lucchitta, 1979) . To reiterate, evidence from packrat middens from the Wisconsinan glaciation demonstrates that ponderosa pines were absent from the southcentral Colorado Plateau, including the Grand Canyon, until ca. 10,300 years ago (Betancourt, 1990; Cole, 1990) . Thus, without a base of ponderosa pines, it is unlikely that the Kaibab Plateau could have sustained an isolated population of S. aberti. In addition, S. a. kaibabensis exhibits limited morphological change relative to populations of S. a. aberti. Hoffmeister and Diersing (1978) stressed that cluster analysis of cranial and external characters revealed little, if any, differentiation between specimens from the Kaibab Plateau (n = 20) and those from the Coconino and Mogollon plateaus (n = 88). Moreover, dark-bellied specimens are observed in other parts of the range, and white-bellied individuals are occasionally sighted on the Kaibab Plateau (Hoffmeister and Diersing, 1978) . Wettstein and States (1986a) have suggested that variation in coat color may involve a single gene, like the agouti locus of Mus, and that aberrant color patterns in S. aberti might result from new retroviral insertions, just as those reported in mice (Jenkins et aI., 1981) .",
+                "cite_spans": [
+                    {
+                        "start": 235,
+                        "end": 251,
+                        "text": "Lucchitta, 1979)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 471,
+                        "end": 489,
+                        "text": "(Betancourt, 1990;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 490,
+                        "end": 501,
+                        "text": "Cole, 1990)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 752,
+                        "end": 783,
+                        "text": "Hoffmeister and Diersing (1978)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 1154,
+                        "end": 1186,
+                        "text": "(Hoffmeister and Diersing, 1978)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 1189,
+                        "end": 1217,
+                        "text": "Wettstein and States (1986a)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1441,
+                        "end": 1463,
+                        "text": "(Jenkins et aI., 1981)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "OUf mtDNA data for S. Q. kaibabensis are consistent with the phenetic and paleoclimatic interpretations above. With just two unique site changes, the Kaibab haplotype, i, exhibits minimal divergence (p = 0.004) from others in the western assemblage. One would anticipate a p some 20-fold higher (p = 0.090) than the observed value, had an ancestral Kaibab population persisted in continuous isolation following the inception of the Grand Canyon. Complementing the distance analyses, the maximum-parsimony tree depicts the Kaibab haplotype lying well within the western clade. As noted previously, the Kaibab haplotype shares a unique HindIII site gain with haplotype h (in effect, a synapomorphy) found in four of the six individuals from the Coconino Plateau (i.e., South Rim of the Grand Canyon) sample. Collectively, the genetic, morphologic, and paleoclimatic data offer strong support for a late-Pleistocene origin for S. a. kaibabensis via northward dispersal from central Arizona. Xhal   III   II   111   II   III 11   III   II   III   II   111   II   111   II   III   II   III   11   III   11   III   II   111   II   III   11   III   11   III   II   III   II   III   11   III   II   III   11   III   II   III ",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 988,
+                        "end": 1216,
+                        "text": "Xhal   III   II   111   II   III 11   III   II   III   II   111   II   111   II   III   II   III   11   III   11   III   II   111   II   III   11   III   11   III   II   III   II   III   11   III   II   III   11   III   II   III",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "JOllnza/ of Mamma/o8Y, 78{ I): 117-133, 1997",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/jmammal/article/78/1/117/872143 by guest on 07 October 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/jmammal/article/78/1/117/872143 by guest on 07 October 2021February 1997",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "~ :; w w Downloaded from https://academic.oup.com/jmammal/article/78/1/117/872143 by guest on 07 October 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "This research was supported by an East Carolina University College Research Award and Faculty Travel Awards to T. Lamb, and by grants",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACKNOWLEDGMENTS",
+                "sec_num": null
+            },
+            {
+                "text": " Foresman and Co., London, United Kingdom, 1140 pp. WETTSTEIN ",
+                "cite_spans": [
+                    {
+                        "start": 1,
+                        "end": 47,
+                        "text": "Foresman and Co., London, United Kingdom, 1140",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 52,
+                        "end": 61,
+                        "text": "WETTSTEIN",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "annex",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "GM-41260 and AI-18972 from the National Institutes of Health to P. 1. Wettstein. We thank R",
+                "authors": [],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "GM-41260 and AI-18972 from the National In- stitutes of Health to P. 1. Wettstein. We thank R.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Betancourt provided insightful discussion about ponderosa pines. We gratefully acknowledge B",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Anderson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "S. Anderson and J. Betancourt provided insight- ful discussion about ponderosa pines. We grate- fully acknowledge B. Balderrama H. and G.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Chihuahuan samples were obtained on permits (Permiso de Caceria) 4884 and 4885, issued by Secretaria de Desarollo Urbano y Ecologia (SE-DUE)",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Quintana",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "For",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Support In Chihuahua",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Quintana M. for logistic support in Chihuahua. Chihuahuan samples were obtained on permits (Permiso de Caceria) 4884 and 4885, issued by Secretaria de Desarollo Urbano y Ecologia (SE- DUE). Other samples were secured through col- lecting permits provided by the state fish and game departments of Arizona, Colorado, New Mexico, and Utah, and by the Navajo Fish and Wildlife Branch of the Navajo Nation. LITERATURE CITED",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Review of the South American Sciuridae. Bulletin of the American Museum of Natural History",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Allen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1915,
+                "venue": "",
+                "volume": "34",
+                "issue": "",
+                "pages": "146--309",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "ALLEN, J. A. 1915. Review of the South American Sciuridae. Bulletin of the American Museum of Nat- ural History, 34:146-309.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "A 35,000 year vegetation and climate history from Potato Lake",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "",
+                "volume": "40",
+                "issue": "",
+                "pages": "351--359",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "ANDERSON, R. S. 1993. A 35,000 year vegetation and climate history from Potato Lake, Mogollon Rim, Arizona. Quaternary Research, 40:351-359.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Molecular markers, natural history, and evolution",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Avise",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "",
+                "volume": "511",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "AVISE, J. C. 1994. Molecular markers, natural history, and evolution. Chapman and Hall, Inc., New York, 511 pp.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Characterization of mitochondrial DNA variability in a hybrid swarm between subspecies of bluegill sunfish (Lepomis machrochirus)",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "Saunders"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "Evolution",
+                "volume": "38",
+                "issue": "",
+                "pages": "931--941",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "C. SAUNDERS. 1984. Characterization of mitochon- drial DNA variability in a hybrid swarm between subspecies of bluegill sunfish (Lepomis machrochi- rus). Evolution, 38:931-941.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Intraspecific phylogeography; the mitochondrial DNA bridge between population genetics and systematics",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Avise",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Al",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Annual Review of Ecology and Systematics",
+                "volume": "18",
+                "issue": "",
+                "pages": "489--522",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "AVISE, J. C., ET AL 1987. Intraspecific phylogeogra- phy; the mitochondrial DNA bridge between popu- lation genetics and systematics. Annual Review of Ecology and Systematics, 18:489-522.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Sangamonian (?) and Wisconsinan paleoenvironments in Yenowstone National Park",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Baker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "",
+                "volume": "97",
+                "issue": "",
+                "pages": "717--736",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "BAKER, R. G. 1986. Sangamonian (?) and Wisconsi- nan paleoenvironments in Yenowstone National Park. Geological Society of America Bulletin, 97: 717-736.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Late Quaternary biogeog_ raphy of the Colorado Plateau",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Betancourt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Packrat middens: the last 40,000 years of biotic change",
+                "volume": "467",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "BETANCOURT, J. L. 1990. Late Quaternary biogeog_ raphy of the Colorado Plateau. Pp. 259-293, in Packrat middens: the last 40,000 years of biotic change (J. L. Betancourt, T. R. Van Devender, and P. S. Martin, eds.). University of Arizona Press, Tuc- son, 467 pp.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Synthesis and prospectus",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Betancollrt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Van Devender",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Martin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Packrat middens: the last 40,000 years of biotic change",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "BETANCOllRT, J. L., T. R. VAN DEVENDER, AND P. S. MARTIN. 1990. Synthesis and prospectus. Pp. 435- 448, in Packrat middens: the last 40,000 years of biotic change (J. L. Betancourt, T. R. Van Devender, and P S. Martin, eds.). University of Arizona Press, Tucson, 467 pp.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Fossil and genetic history of a pinyon pine",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Betancourt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Schuster",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Mition",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "",
+                "volume": "72",
+                "issue": "",
+                "pages": "1685--1697",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "BETANCOURT, J. L., W. S. SCHUSTER, J. B. MITION, AND R. S. ANDERSON. 1991. Fossil and genetic history of a pinyon pine (Pinus edulis) isolate. Ecology, 72: 1685-1697.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Rapid evolution of animal mitochondrial DNA",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "George",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Jr",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Wilson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1979,
+                "venue": "Proceedings of the National Academy of Sciences",
+                "volume": "76",
+                "issue": "",
+                "pages": "1967--1971",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "BROWN, W. M., M. GEORGE, JR, AND A. C. WILSON. 1979. Rapid evolution of animal mitochondrial DNA. Proceedings of the National Academy of Sci- ences, 76:1967-1971.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Mitochondrial DNA sequences of primates: tempo and mode of evolution",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Preger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "Journal of Molecular Evolution",
+                "volume": "18",
+                "issue": "",
+                "pages": "225--239",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "BROWN, W. M., E. M. PREGER, A. WANG, AND A. C. WILSON. 1982. Mitochondrial DNA sequences of primates: tempo and mode of evolution. Journal of Molecular Evolution, 18:225-239.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Bacula of North American mammals. Miscellaneous Publications of the Museum of Zoology",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Burt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1960,
+                "venue": "",
+                "volume": "113",
+                "issue": "",
+                "pages": "1--75",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "BURT, W. H. 1960. Bacula of North American mam- mals. Miscellaneous Publications of the Museum of Zoology, University of Michigan, 113:1-75.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "California. 1190 pp. COCKRUM, E. L. 1960. The Recent mammals of Arizona: their taxonomy and distribution",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Campbell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Biology",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "CAMPBELL, N. A. 1993. Biology. The Benjamin/Cum_ mings Publishing Co. Inc., Redwood City. Califor- nia. 1190 pp. COCKRUM, E. L. 1960. The Recent mammals of Ari- zona: their taxonomy and distribution. University of Arizona Press, Tucson, 276 pp.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Late Quaternary vegetation gradients through the Grand Canyon",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Cole",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Packrat middens: the last 40,000 years of biotic change",
+                "volume": "467",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "COLE, K. L. 1990. Late Quaternary vegetation gradi- ents through the Grand Canyon. Pp. 240-258, in Packrat middens: the last 40,000 years of biotic change (J. L. Betancourt, T R. Van Devender, and P. S. Martin, eds.). University of Arizona Press, Tuc- son, 467 pp.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Role of post-Pleistocene dispersal in detennining the modern distribution of Abert's squirrel. The Great Basin Naturalist",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Davis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "",
+                "volume": "49",
+                "issue": "",
+                "pages": "425--434",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "DAVIS, R, AND D. E. BROWN. 1989. Role of post- Pleistocene dispersal in detennining the modern dis- tribution of Abert's squirrel. The Great Basin Natu- ralist. 49:425-434.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "A field study of the Kaibab squirrel in Grand Canyon National Park. Wildlife Monographs",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Hall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "",
+                "volume": "75",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "HALL, J. G. 1981. A field study of the Kaibab squirrel in Grand Canyon National Park. Wildlife Mono- graphs, 75: I-54.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Biology: its principles and implications",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hardin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Bajema",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1978,
+                "venue": "",
+                "volume": "790",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "HARDIN, G. J., AND C. BAJEMA. 1978. Biology: its principles and implications. W. H. Freeman and Company, San Francisco, California, 790 pp.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Review of the tassel-eared squirrels of the subgenus Otosciurus",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hoffmeister",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Diersing",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1978,
+                "venue": "Journal of Mammalogy",
+                "volume": "59",
+                "issue": "",
+                "pages": "402--413",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "HOFFMEISTER, D. E, AND V. E. DIERSING. 1978. Review of the tassel-eared squirrels of the subgenus Otos- ciurus. Journal of Mammalogy, 59:402-413.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Dilute (d) coat colour mutation of DBN2J mice is associated with the site of integration of an ecotropic MuLV genome",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [
+                            "N A N G"
+                        ],
+                        "last": "Jenkins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Copeland",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Taylor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Lee",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "Nature",
+                "volume": "293",
+                "issue": "",
+                "pages": "370--374",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "JENKINS. N. A. N. G. COPELAND, B. A. TAYLOR, AND B. K. LEE. 1981. Dilute (d) coat colour mutation of DBN2J mice is associated with the site of integra- tion of an ecotropic MuLV genome. Nature, 293: 370-374.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Biological science",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Keeton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "KEETON, W. T 1980. Biological science. W. W. Norton & Company, Inc., New York, lO80 pp.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "The Abert squirrel and its dependence on ponderosa pine",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Keiti~",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1965,
+                "venue": "Ecology",
+                "volume": "46",
+                "issue": "",
+                "pages": "150--163",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "KEITI~, J. 0. 1965. The Abert squirrel and its depen- dence on ponderosa pine. Ecology, 46:150-163.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Parsimony in vicariance biogeography: a quantitative method and a Greater Antillean example",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Kluge",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Systematic Zoology",
+                "volume": "37",
+                "issue": "",
+                "pages": "315--328",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "KLUGE, A. G. 1988. Parsimony in vicariance bioge- ography: a quantitative method and a Greater Antil- lean example. Systematic Zoology, 37:315-328.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Cladistics: what's in a word?",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Kluge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "Wolf"
+                        ],
+                        "last": "And",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Cladistics",
+                "volume": "9",
+                "issue": "",
+                "pages": "183--199",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "KLUGE, A G. AND, A J. WOLF. 1993. Cladistics: what's in a word? Cladistics, 9:183-199.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "The use of restriction endonucleases to measure mitochondrial DNA sequence relatedness in natural populations. III. Techniques and potential applications",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Lansman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Shade",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Shapira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Vise",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "Journal of Molecular Evolution",
+                "volume": "17",
+                "issue": "",
+                "pages": "214--226",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "LANSMAN, R A., R. O. SHADE, J. E SHAPIRA, AND J. C. A VISE. 1981. The use of restriction endonucleases to measure mitochondrial DNA sequence relatedness in natural populations. III. Techniques and potential applications. Journal of Molecular Evolution, 17: 214-226.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "United States Department of Agriculture Miscellaneous Publications",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Litile",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Jr",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1971,
+                "venue": "",
+                "volume": "1",
+                "issue": "",
+                "pages": "1--1146",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "LITILE, E. L., JR. 1971. Atlas of United States trees: conifers and important hardwoods. United States Department of Agriculture Miscellaneous Publica- tions, 1:1-1146.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Island biogeography of montane forest mammals in the American Southwest",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Lomollno",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Davis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Ecology",
+                "volume": "70",
+                "issue": "",
+                "pages": "180--194",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "LOMOLlNO, M. v., J. H. BROWN. AND R DAVIS. 1989. Island biogeography of montane forest mammals in the American Southwest. Ecology, 70:180-194.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Late Cenozoic uplift of the southwestern Colorado Plateau and adjacent lower Colorado River region",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Lucchllta",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1979,
+                "venue": "",
+                "volume": "61",
+                "issue": "",
+                "pages": "63--95",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "LUCCHllTA, L 1979. Late Cenozoic uplift of the south- western Colorado Plateau and adjacent lower Colo- rado River region. Technophysics, 61:63-95.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Body size, metabolic rate, generation time and the molecular clock",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Martin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "And S. R Palumbi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Proceedings of the National Academy of Sciences",
+                "volume": "90",
+                "issue": "",
+                "pages": "4087--4091",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MARTIN, A P., AND S. R PALUMBI. 1993. Body size, metabolic rate, generation time and the molecular clock. Proceedings of the National Academy of Sci- ences, 90:4087-4091.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Biology: an exploration of life",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Mcfadden",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Keeton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "",
+                "volume": "996",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "McFADDEN, C. H., AND W. T. KEETON. 1995. Biology: an exploration of life. W. W. Norton & Company, Inc., New York, 996 pp.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Distribution of the tassel-eared squirrels",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [
+                            "E D"
+                        ],
+                        "last": "Mckee",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1941,
+                "venue": "",
+                "volume": "14",
+                "issue": "",
+                "pages": "12--20",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "McKEE. E. D. 1941. Distribution of the tassel-eared squirrels. Plateau, 14: 12-20.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Two new squirrels of the Abert group",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Merriam",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1904,
+                "venue": "Proceedings of the Biological Society of Washington",
+                "volume": "17",
+                "issue": "",
+                "pages": "129--130",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MERRIAM, C. H. 1904. Two new squirrels of the Abert group. Proceedings of the Biological Society of Washington, 17: 129-130.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Mathematical model for studying genetic variation in tenus of restriction en-donucJeases",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W.-H",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1979,
+                "venue": "Proceedings of the National Academy of Sciences",
+                "volume": "75",
+                "issue": "",
+                "pages": "3359--3362",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "NEI, M., AND W.-H LI. 1979. Mathematical model for studying genetic variation in tenus of restriction en- donucJeases. Proceedings of the National Academy of Sciences, 75:3359-3362.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Rocky Mountain (Petran) and Madrean montane conifer forests",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Pase",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Biotic communities: southwestern United States and northwestern Mexico",
+                "volume": "342",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "PASE, C. P., AND D. E. BROWN. 1994. Rocky Mountain (Petran) and Madrean montane conifer forests. Pp. 43-48, in Biotic communities: southwestern United States and northwestern Mexico (D. E. Brown, ed.). University of Utah Press, Salt Lake City, 342 pp.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Mammalian extinctions and biogeography in the southern Rocky Mountains",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Patrerson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "",
+                "volume": "354",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "PATrERSON, B. D. 1984. Mammalian extinctions and biogeography in the southern Rocky Mountains. Pp. 247-293, in Extinctions (M. H. Nitecki, ed.). The University of Chicago Press. Chicago, 354 pp.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "NTSYS-pc: numerical taxonomy and multivariate analysis system. Version 1.70. Setauket",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Rohlf",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "ROHLF, E J. 1992. NTSYS-pc: numerical taxonomy and multivariate analysis system. Version 1.70. Se- tauket, New York, chapters paged separately.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "The neighbor-joining method: a new method for reconstructing phylogenetic trees",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Saitou",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Molecular Biology and Evolution",
+                "volume": "4",
+                "issue": "",
+                "pages": "406--425",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "SAITOU, N., AND M. NEI. 1987. The neighbor-joining method: a new method for reconstructing phyloge- netic trees. Molecular Biology and Evolution, 4: 406-425.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Influence of Quaternary history on the population genetic structure of Douglas-fir (Pseudotsuga menziesii) in the Great Basin",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Schnabel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Hamrick",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Wells",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Canadian Journal of Forest Research",
+                "volume": "23",
+                "issue": "",
+                "pages": "1900--1906",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "SCHNABEL, A, J. L. HAMRICK, AND P. V. WELLS. 1993. Influence of Quaternary history on the population genetic structure of Douglas-fir (Pseudotsuga men- ziesii) in the Great Basin. Canadian Journal of Forest Research, 23: 1900-1906.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Selective herbivory by Albert's squirrel mediated by chemical variability in ponderosa pine",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Snyder",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Ecology",
+                "volume": "73",
+                "issue": "",
+                "pages": "1730--1741",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "SNYDER, M. A. 1992. Selective herbivory by Albert's squirrel mediated by chemical variability in ponder- osa pine. Ecology, 73:1730-1741.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Micro-evolutionary differentiation and biogeographic structure among coniferous forest populations of the Mexican woodrat (Neotoma mexicana) in the American Southwest: a (est of the vicariance hypothesis",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Styles",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Biological diversity of Mexico: origins and distribution",
+                "volume": "812",
+                "issue": "",
+                "pages": "369--389",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "STYLES, B. 1993. Genus Pillus: a Mexican purview. Pp. 397-420, in Biological diversity of Mexico: or- igins and distribution (To P. Rammamoorthy, R Bye, A Lot, and J. Fa, eds.). Oxford University Press, New York, 812 pp. ---. 1994. Micro-evolutionary differentiation and biogeographic structure among coniferous forest populations of the Mexican woodrat (Neotoma mex- icana) in the American Southwest: a (est of the vi- cariance hypothesis. Journal of Biogeography, 21: 369-389.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Phyletic, biogeographic, and ecologic relationships among montane populations of least chipmunks (Eutamius minimus) in the Southwest",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Sullivan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "Systematic Zoology",
+                "volume": "34",
+                "issue": "",
+                "pages": "419--448",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "SULLIVAN, R M. 1985. Phyletic, biogeographic, and ecologic relationships among montane populations of least chipmunks (Eutamius minimus) in the Southwest. Systematic Zoology, 34:419-448.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "PAUP: phylogenetic analysis using parsimony, Version 3.1.1. Illinois Natural History Survey",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Swofford",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "",
+                "volume": "257",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "SWOFFORD, D. L. 1993. PAUP: phylogenetic analysis using parsimony, Version 3.1.1. Illinois Natural His- tory Survey, Champaign, 257 pp.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Late Quaternary vegetation and climate of the Sonoran Desert, United States and Mexico",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Van Devender",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Van Devender",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Martin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "ill Packrat middens: the last 40,000 years of biotic change (1. L. Betancourt",
+                "volume": "1",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "VAN DEVENDER, T R. I 990a. Late Quaternary vege- tation and climate of the Chichuahuan Desert, Unit- ed States and Mexico. Pp. 104-133, in Packrat mid- dens: the last 40,000 years of biotic change (J. L. Betancourt. T. R. Van Devender, and P. S. Martin, eds.). University of Arizona Press, Tucson, 467 pp. ---. 1990b. Late Quaternary vegetation and cli- mate of the Sonoran Desert, United States and Mex- ico. Pp. 134-165, ill Packrat middens: the last 40,000 years of biotic change (1. L. Betancourt, 1: R Van Devender, and P. S. Martin. cds.). University of Arizona Press, Tucson, 467 pp.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Biology the science of life. Scott, S. a. aberti. ARIZONA-Coconino Plateau (15): vicinity of Hull Tank; vicinity of Grandview Lookout; Skinner Ridge; Coconino Wash",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Wallace",
+                        "suffix": ""
+                    },
+                    {
+                        "first": ".",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Klng",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Sanders",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Ferl",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "Anderson Mesa; W Flagstaff. Mogollon Plateau (17): vicinity of Gentry Lookout. Sierra Ancha (18): Workman Creek. NEW MEX-ICO-Jemez Mountains",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "WALLACE, R. A., 1. L. KlNG, G. P. SANDERS, AND R. J. FERL. 1981. Biology the science of life. Scott, S. a. aberti. ARIZONA-Coconino Plateau (15): vicinity of Hull Tank; vicinity of Grand- view Lookout; Skinner Ridge; Coconino Wash, San Francisco Mountains (16): Anderson Mesa; W Flagstaff. Mogol- lon Plateau (17): vicinity of Gentry Lookout. Si- erra Ancha (18): Workman Creek. NEW MEX- ICO-Jemez Mountains (6): vicinity of La Cue- va Forest Service Station (MSB 61584);",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Zuni Mountains (8): ca. 7.0 miles S, 1.5 miles W Bluewater State Park (MSB 61572-61574)~ vicinity of Cerro Colorado (MSB 61575, 61583)",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Along Rio Cebolla",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "San Juan Mountains",
+                "volume": "",
+                "issue": "5",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "along Rio Cebolla (MSB 61576). Zuni Mountains (8): ca. 7.0 miles S, 1.5 miles W Bluewater State Park (MSB 61572-61574)~ vicinity of Cerro Colorado (MSB 61575, 61583). San Juan Moun- tains (5): Valle Grande Peak (MSB 61577); ca.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "MSB 61590); ca. 2.5 miles N, 2.0 miles W Mount Taylor (MSB 61595); ca. 1.0 mile N, 4.5 miles W Mount Taylor",
+                "authors": [
+                    {
+                        "first": "Mount",
+                        "middle": [],
+                        "last": "Taylor",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "Beartrap Canyon (MSB 61591). Datil Mountains",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mount Taylor (7): ca. 1.0 mile S, 1.5 miles W Mount Taylor (MSB 61590); ca. 2.5 miles N, 2.0 miles W Mount Taylor (MSB 61595); ca. 1.0 mile N, 4.5 miles W Mount Tay- lor, San Mateo Mountains (10): Beartrap Canyon (MSB 61591). Datil Mountains (9): ca. 10.5 miles N. 4.0 miles W Datil (MSB 61597- 61598). Mogollon Mountains (11): ca. 12.0 miles S, 5.5 miles E Reserve (MSB 61596). Pi- nos Altos Range (12): vicinity of Lookout Point (MSB 61592);",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Sapillo Creek (MSB 61599); vicinity of Signal Peak",
+                "authors": [],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "61593--61594",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sapillo Creek (MSB 61599); vi- cinity of Signal Peak (MSB 61593-61594).",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Defiance Plateau (20): Defiance Plateau on road 9000",
+                "authors": [],
+                "year": null,
+                "venue": "S of Laguna Arareco",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "S. a. chuscensis. ARIZONA-Chuska Moun- tains (19): Tsaile Creek on road 7500. Defiance Plateau (20): Defiance Plateau on road 9000. S. a. durangi. CHIHUAHUA-Sierra Madre Oc- cidental (22): S of Laguna Arareco, ca. 6.5 km S, 5.5 km E Creel (UMMZ).",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "NEW MEXICO-Sangre de Cristo Mountains (4): vicinity of Truchas (MSB 61579-61581). Cimarron Range (3): near McCrystal Creek Campground",
+                "authors": [],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pike's Peak region (2). NEW MEXICO-Sangre de Cristo Mountains (4): vicinity of Truchas (MSB 61579-61581). Cimarron Range (3): near McCrystal Creek Campground (MSB 61585-",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "ARIZONA-Kaibab Plateau (14): Orderville Canyon",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "Q"
+                        ],
+                        "last": "Kaibabensis",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "S. Q. kaibabensis. ARIZONA-Kaibab Pla- teau (14): Orderville Canyon; Jolly Sink;",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "text": "21) Scale: -----is approximately equal to the distance of 0.00163 FIG. 2.-Neighbor-joining tree of haplotypes of mtDNA for Sciurus aberti. Numbers in parentheses are collection locales represented by haplotypes(Table 2).",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF1": {
+                "text": "Biogeographic inferences from phylogeography of squirrels.-Our discussion of biogeography requ\u2022ires an important initial assumption; the historical distribution of S. aberti was closely tied with that of P. ponderosa. All available data currently support this association, although ecological studies of S. aberti have been limited to the United States, where montane-co-Vol. 78, No.1",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF2": {
+                "text": "espoused the utility of this approach for testing vicariance hypotheses for montane mammals in c representation of post-Wisconsinan subdivision of montane conifer forests and the geographical c1adogram constructed from the sequence of fragmentation. 1 = approximate lower elevation, 2,300 m, of montane (Petran and Madrean) conifer forest at present(Pase and Brown, 1994); 2 = lower limit of montane conifer forest of 1,800 m at an arbitrary early Holocene time; 3 = approximate lower limit, 1,500 m, of montane conifer forest during late Wisconsinan(Betancourt et aI., 1990; modified fromSullivan, 1994).",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF3": {
+                "text": "-a) Geographical cladogram illustrating the sequence of fragmentation and isolation of montane (Petran and Madrean) conifer forest on mountains within the range of Sciurus aberti. The nodes indicate the highest elevation that separates mountain clades. Abbreviations include: S = Sierra; S. Madre = Sierra Madre Occidental; Jemez = Jemez Mountains, San Juan Mountains, Ahajo Mountains-Elk Ridge; Sangre = Sangre de Cristo Mountains; SFP/MP = San Francisco Peaks region and western Mogollon Plateau; Mogrrular = Mogollon and Tularosa mountains. Our genetic analysis did not include samples from the Black Range, Magdalena Mountains, or White Mountains; they are included here for completeness. b) Maximum-parsimony tree of haplotypes from Fig. 3 collapsed into regional geographies: hap!otypes a-d, f, g = Chuskas, Mogollons, Sierra Anchas, Mogollon Plateau, San Francisco Peaks area, Datils, Pinos Altos, San Mateos; II = Mogollon Plateau, Coconino Plateau; i = Kaibab Plateau; e = San Francisco Peaks area, Coconino Plateau; s, t, U = Sierra Madre Occidental; 0, p, q, r = Sangre de Cristos, Medicine Bow Range; j, k, II = Chuskas, Zunis, San Juans; { = Jemez, Mount Taylor; III = Elk Ridge.",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "TABREF0": {
+                "text": "and detailed in Appendix /.",
+                "type_str": "table",
+                "num": null,
+                "content": "<table><tr><td>State and</td><td/></tr><tr><td>locality number</td><td>Mountain range</td></tr><tr><td>COLORADO</td><td/></tr><tr><td>1</td><td>Medicine Bow</td></tr><tr><td>2</td><td>Pike's Peak</td></tr><tr><td>NEW MEXICO</td><td/></tr><tr><td>3</td><td>Cimarron</td></tr><tr><td>4</td><td>Sangre de Cristo</td></tr><tr><td>5</td><td>San Juan</td></tr><tr><td>6</td><td>Jemez</td></tr><tr><td>7</td><td>Mount Taylor</td></tr><tr><td>8</td><td>Zuni</td></tr><tr><td>9</td><td>Datil</td></tr><tr><td>10</td><td>San Mateo</td></tr><tr><td>11</td><td>Mogollon Mountains</td></tr><tr><td>12</td><td>Pinos Altos</td></tr><tr><td>UTAH</td><td/></tr><tr><td>13</td><td>Elk Ridge</td></tr><tr><td>ARIZONA</td><td/></tr><tr><td>14</td><td>Kaibab Plateau</td></tr><tr><td>15</td><td>Coconino Plateau</td></tr><tr><td>16</td><td>San Francisco</td></tr><tr><td>17</td><td>Mogollon Plateau</td></tr><tr><td>18</td><td>Sierra Ancha</td></tr><tr><td>19</td><td>Chuska</td></tr><tr><td>20</td><td>Defiance Plateau</td></tr><tr><td>CHIHUAHUA</td><td/></tr><tr><td>21</td><td>Sierra Madre Occidental</td></tr><tr><td>22</td><td>Sierra Madre Occidental</td></tr><tr><td>1;</td><td/></tr></table>"
+            },
+            "TABREF2": {
+                "text": "locales superimposed on a distribution map of ponderosa pine modified fromLittle (1971). Numbers correspond to the locales listed inTable 1. Subspecific designations for each locale, based on Hoffmeister and Diersing (978), are encoded as follows: ab = aberti; ba = barberi; ch = chuscensis; du = durangi; fe = ferreus; ka = kaihabensis. Cross marks in New Mexico and Arizona represent 35\u00b0N IOSOW and 35\u00b0N llOoW, respectively.",
+                "type_str": "table",
+                "num": null,
+                "content": "<table/>"
+            },
+            "TABREF3": {
+                "text": "-Description and distribution of mtDNA haplotypes observed in Sciurus aberti. Letters of the composite genotypes refer to digestion profiles produced by the following endonucleases (from left to right): Ava!, AvaIl,Bell, BglI, BgUI, BstEll, CIa!, Eeo01091, EeoRI, EeoRV, HhaJ, Hindlll,  Pst!, Pvull, Saci, Spel, Stul, and XbaJ.",
+                "type_str": "table",
+                "num": null,
+                "content": "<table><tr><td>Haplo-</td><td/><td>Mountain range</td><td/><td>Species</td></tr><tr><td>type</td><td>Composite genotype</td><td>(locality code)</td><td>n</td><td>represented</td></tr><tr><td>a</td><td>CCCCCCCCCCCCCCCCCC</td><td>Datil (9)</td><td/><td>aberti</td></tr><tr><td/><td/><td>Pinos Altos (12)</td><td/><td>aberti</td></tr><tr><td/><td/><td>San Mateo (10)</td><td/><td>aberti</td></tr><tr><td/><td/><td>San Francisco (16)</td><td/><td>aberti</td></tr><tr><td/><td/><td>Sierra Ancha (18)</td><td/><td>aberti</td></tr><tr><td>b</td><td>CCCCCCCCCBCCCCCCCC</td><td>San Mateo (10)</td><td/><td>aberti</td></tr><tr><td>c</td><td>CCCCBCCCCCCCCCCCCC</td><td>Pinos Altos (12)</td><td/><td>aberti</td></tr><tr><td/><td/><td>Mogollon Mountains (1 I)</td><td/><td>aberti</td></tr><tr><td>d</td><td>CCCCCCCCCCCCCCCBCC</td><td>Mogollon Plateau (17)</td><td/><td>aberti</td></tr><tr><td>e</td><td>CCBCCCCCCCCCCCCCCC</td><td>San Francisco (16)</td><td/><td>aberti</td></tr><tr><td/><td/><td>Coconino Plateau (15)</td><td/><td>aberti</td></tr><tr><td>f</td><td>CCCCDCCCCCCCCCCCCC</td><td>Mogollon Plateau (17)</td><td/><td>aberti</td></tr><tr><td/><td/><td>San Francisco (16)</td><td/><td>aberti</td></tr><tr><td>g</td><td>CCCCCCCCCCCCCCCACC</td><td>Chuska (19)</td><td>5</td><td>chuscensis</td></tr><tr><td/><td/><td>Defiance Plateau (20)</td><td>3</td><td>chuscensis</td></tr><tr><td>h</td><td>CCCCCCCCCCCDCCCCCC</td><td>Mogollon Plateau (17)</td><td/><td>aberti</td></tr><tr><td/><td/><td>San Francisco (16)</td><td/><td>aberti</td></tr><tr><td/><td/><td>Coconino Plateau (15)</td><td/><td>aberti</td></tr><tr><td/><td>CCCBCCCCCDCDCCCCCC</td><td>Kaibab Plateau (14)</td><td>9</td><td>kaibabensis</td></tr><tr><td>j</td><td>CBDCCBCBCFCCCBCECC</td><td>Chuska (19)</td><td/><td>chuscensis</td></tr><tr><td/><td/><td>Defiance Plateau (20)</td><td/><td>chuscensis</td></tr><tr><td/><td/><td>Zuni (8)</td><td>5</td><td>aberti</td></tr><tr><td>k</td><td>BBDCCBCBCFCCCBCECC</td><td>Chuska (19)</td><td/><td>chuscensis</td></tr><tr><td/><td>CBDCCBCBCFCCCBCECC</td><td>Jemez (6)</td><td/><td>aberti</td></tr><tr><td/><td/><td>Mount Taylor (7)</td><td>3</td><td>aberti</td></tr><tr><td>m</td><td>CBDCCBCBBFDCCBCDCC</td><td>Elk Ridge (l3)</td><td/><td>aberti</td></tr><tr><td>n</td><td>CBDCCBCBCFCBCBCECC</td><td>San Juan (5)</td><td/><td>aberti</td></tr><tr><td>0</td><td>CBECCACBCFCCCBCECC</td><td>Sangre de Cristo (4)</td><td/><td>ferreus</td></tr><tr><td>p</td><td>CBECCBCBCFCCCBCECC</td><td>Sangre de Cristo (4)</td><td/><td>/erreus</td></tr><tr><td/><td/><td>Cimarron (3)</td><td>3</td><td>ferreus</td></tr><tr><td/><td/><td>Pike's Peak (2)</td><td/><td>ferreus</td></tr><tr><td>q</td><td>CBECEBCBCFCBCBCECC</td><td>Cimarron (3)</td><td/><td>ferreus</td></tr><tr><td>c</td><td>CBHCCBCBCFCCCBCECC</td><td>Medicine Bow (1)</td><td/><td>ferreus</td></tr><tr><td colspan=\"2\">, CBFCCBCBCGCCCCBECC</td><td>Pike's Peak (2) Sierra Madre Occidental (21.22)</td><td/><td>ferreus barber;</td></tr><tr><td/><td/><td/><td/><td>durangj</td></tr><tr><td/><td>CBFCCACBCGCCCCBECC</td><td>Sierra Madre Occidental (21)</td><td/><td>barberi</td></tr><tr><td>u</td><td>DBFCCBCBCGCCCCBECC</td><td>Sierra Madre Occidental (21)</td><td/><td>barberi</td></tr></table>"
+            }
+        }
+    }
+}

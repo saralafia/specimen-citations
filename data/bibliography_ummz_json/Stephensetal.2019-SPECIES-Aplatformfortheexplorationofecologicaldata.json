@@ -1,0 +1,2917 @@
+{
+    "paper_id": "Stephensetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:33:02.049618Z"
+    },
+    "title": "SPECIES: A platform for the exploration of ecological data",
+    "authors": [
+        {
+            "first": "Christopher",
+            "middle": [
+                "R"
+            ],
+            "last": "Stephens",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Universidad Nacional Aut\u00f3noma de M\u00e9xico",
+                "location": {
+                    "settlement": "Mexico City",
+                    "country": "Mexico"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Ra\u00fal",
+            "middle": [],
+            "last": "Sierra-Alcocer",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Universidad Nacional Aut\u00f3noma de M\u00e9xico",
+                "location": {
+                    "settlement": "Mexico City",
+                    "country": "Mexico"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "|",
+            "middle": [],
+            "last": "Constantino Gonz\u00e1lez-Salazar",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Universidad Nacional Aut\u00f3noma de M\u00e9xico",
+                "location": {
+                    "settlement": "Mexico City",
+                    "country": "Mexico"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Juan",
+            "middle": [
+                "M"
+            ],
+            "last": "Barrios",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Comisi\u00f3n Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO)",
+                "location": {
+                    "settlement": "Mexico City",
+                    "country": "Mexico"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Juan",
+            "middle": [],
+            "last": "Carlos",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Salazar",
+            "middle": [],
+            "last": "Carrillo",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Comisi\u00f3n Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO)",
+                "location": {
+                    "settlement": "Mexico City",
+                    "country": "Mexico"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "|",
+            "middle": [],
+            "last": "Everardo",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Robredo",
+            "middle": [],
+            "last": "Ezquivelzeta",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Comisi\u00f3n Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO)",
+                "location": {
+                    "settlement": "Mexico City",
+                    "country": "Mexico"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Enrique",
+            "middle": [],
+            "last": "Del Callejo Canal",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Universidad Nacional Aut\u00f3noma de M\u00e9xico",
+                "location": {
+                    "settlement": "Mexico City",
+                    "country": "Mexico"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.",
+    "pdf_parse": {
+        "paper_id": "Stephensetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "A fundamental goal of ecology is to understand, model, and quantify ecological associations, some of which may represent ecological interactions, both biotic and abiotic, at different geographical and temporal scales (Kissling et al., 2012; Wisz et al., 2013) . Two important, associated conceptual frameworks are that of niche and community, where both biotic and abiotic factors play important roles, for instance, in defining the niche of a taxon (Sober\u00f3n, 2007) and its geographic distribution. However, it has been a challenge to incorporate both types of factor into distribution modeling (Ara\u00fajo & Luoto, 2007; Kissling et al., 2012) . Most progress has been made using environmental layers and different statistical models (Qiao, Sober\u00f3n, & Peterson, 2015; Vaz, Cunha, & Nabout, 2015) to map the relationship between them and an output variable, such as the propensity for the presence of a given species. In terms of community, one of the most popular representations is as a network, such as a food web (Pimm, Lawton, & Cohen, 1991) . Such networks normally represent only known direct ecological interactions (V\u00e1zquez, Morris, & Jordano, 2005) , such as predation (Ives & Carpenter, 2007) , as opposed to more indirect interactions, such as facilitation (Valiente-Banuet & Verd\u00fa, 2007) . SPECIES uses both perspectives, the niche and network perspectives, to explore associations found in the data between groups of species and/or abiotic spatial features. In this way, the analyst can focus on any subset of potential associations of interest to examine which ones have a ready known or plausible ecological interpretation and also what that interpretation may be.",
+                "cite_spans": [
+                    {
+                        "start": 217,
+                        "end": 240,
+                        "text": "(Kissling et al., 2012;",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 241,
+                        "end": 259,
+                        "text": "Wisz et al., 2013)",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 450,
+                        "end": 465,
+                        "text": "(Sober\u00f3n, 2007)",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 595,
+                        "end": 617,
+                        "text": "(Ara\u00fajo & Luoto, 2007;",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 618,
+                        "end": 640,
+                        "text": "Kissling et al., 2012)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 731,
+                        "end": 764,
+                        "text": "(Qiao, Sober\u00f3n, & Peterson, 2015;",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 765,
+                        "end": 792,
+                        "text": "Vaz, Cunha, & Nabout, 2015)",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1013,
+                        "end": 1042,
+                        "text": "(Pimm, Lawton, & Cohen, 1991)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 1120,
+                        "end": 1154,
+                        "text": "(V\u00e1zquez, Morris, & Jordano, 2005)",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 1175,
+                        "end": 1199,
+                        "text": "(Ives & Carpenter, 2007)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 1265,
+                        "end": 1296,
+                        "text": "(Valiente-Banuet & Verd\u00fa, 2007)",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| INTRODUC TI ON",
+                "sec_num": "1"
+            },
+            {
+                "text": "In addition to the complexity of characterizing or classifying associations, such as interactions, the degree of multifactoriality in ecological systems is such that the number of actual or potential associations and interactions is much greater than the number of observed, or observable, ones. Even under the assumption that all potential pairwise interactions were observable, the number of associations that we would have to check grows quadratically with the number of species present in an area. For example, in the SNIB database, if we use cells with 8 km per side, we obtain some cells with the presence of more than a thousand animal species. If we add plants, then we get cells with more than 3,000 species. That is, we would have to study, respectively, more than 499,500 and 4,498,500 associations, some of which do, or could, represent pairwise interactions.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| INTRODUC TI ON",
+                "sec_num": "1"
+            },
+            {
+                "text": "Of course, no one would attempt such an enterprise, as biological knowledge and observation are important guides with which to look for specific interactions. However, as we do not have an a priori understanding of all the potential biotic relations that are worth investigating, the question then arises: Can we reduce the search space using proxy data, such as occurrence data? The general approach of using occurrence data to potentially characterize ecological interactions has a long history and is still a theme of debate (Bell, 2005; Connor & Simberloff, 1979 , 1983 Diamond, ; Gilpin & Diamond, 1982; Hubbell, ; Simberloff & Connor, 1984; Ulrich, Almeida-Neto, & Gotelli, 2009; Ulrich et al., 2017) . In the case of biotic factors, its quantification has been chiefly associated with the analysis of presence-absence matrices (Arita, Christen, Rodr\u00edguez, & Sober\u00f3n, 2012; Gaston, Chown, & Evans, 2008) . In the case of abiotic interactions, standard distribution modeling (Ara\u00fajo & Guisan, 2006; Rangel & Loyola, 2012) is an attempt to do this. However, a theoretical and computational framework in which both biotic and abiotic factors of arbitrary spatial resolution may be integrated at both the niche and community levels has been, until recently, lacking.",
+                "cite_spans": [
+                    {
+                        "start": 528,
+                        "end": 540,
+                        "text": "(Bell, 2005;",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 541,
+                        "end": 566,
+                        "text": "Connor & Simberloff, 1979",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 567,
+                        "end": 573,
+                        "text": ", 1983",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 574,
+                        "end": 584,
+                        "text": "Diamond, ;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 585,
+                        "end": 608,
+                        "text": "Gilpin & Diamond, 1982;",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 609,
+                        "end": 619,
+                        "text": "Hubbell, ;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 620,
+                        "end": 646,
+                        "text": "Simberloff & Connor, 1984;",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 647,
+                        "end": 685,
+                        "text": "Ulrich, Almeida-Neto, & Gotelli, 2009;",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 686,
+                        "end": 706,
+                        "text": "Ulrich et al., 2017)",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 834,
+                        "end": 879,
+                        "text": "(Arita, Christen, Rodr\u00edguez, & Sober\u00f3n, 2012;",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 880,
+                        "end": 909,
+                        "text": "Gaston, Chown, & Evans, 2008)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 980,
+                        "end": 1003,
+                        "text": "(Ara\u00fajo & Guisan, 2006;",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 1004,
+                        "end": 1026,
+                        "text": "Rangel & Loyola, 2012)",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| INTRODUC TI ON",
+                "sec_num": "1"
+            },
+            {
+                "text": "SPECIES is a software platform for doing just that. It is an exploratory tool designed to help in the construction of ecological hypotheses. It is meant to be part of a researcher toolset that opens access to information hidden in large databases like SNIB or GBIF.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| INTRODUC TI ON",
+                "sec_num": "1"
+            },
+            {
+                "text": "Although such historical data suffer from several problems, in particular data bias due to incomplete observation efforts, it is undeniable that such databases also contain valuable information that has been assembled with great effort by many institutions and individuals, and which could lead to new insights and results in ecology and related fields. SPECIES can quickly process millions of records for thousands of species in order to detect and quantify correlations between biotic or abiotic features represented by spatial distributions of arbitrary resolution. Of course, correlation is not causation and, as is well known, such geographic correlations must be interpreted by a specialist in the context of the question being asked (the selection of groups of species and abiotic factors) and the specialist knowledge.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| INTRODUC TI ON",
+                "sec_num": "1"
+            },
+            {
+                "text": "For a deeper discussion of its underlying theoretical framework, we refer the reader to (Gonz\u00e1lez-Salazar, Stephens, & Marquet, 2013; Sierra & Stephens, 2012; Stephens et al., 2009) . This framework has been applied to various systems, principally in the prediction of host-vector interactions in zoonoses (Gonz\u00e1lez-Salazar & Stephens, 2012; Gonz\u00e1lez-Salazar et al., 2013; Rengifo-Correa, Stephens, Morrone, T\u00e9llez-Rend\u00f3n, & Gonz\u00e1lez-Salazar, 2017; Stephens et al., 2009) , where the predictions have been validated by empirical observation (Berzunza-Cruz et al., 2015; Stephens et al., 2016) .",
+                "cite_spans": [
+                    {
+                        "start": 107,
+                        "end": 133,
+                        "text": "Stephens, & Marquet, 2013;",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 134,
+                        "end": 158,
+                        "text": "Sierra & Stephens, 2012;",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 159,
+                        "end": 181,
+                        "text": "Stephens et al., 2009)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 306,
+                        "end": 341,
+                        "text": "(Gonz\u00e1lez-Salazar & Stephens, 2012;",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 342,
+                        "end": 372,
+                        "text": "Gonz\u00e1lez-Salazar et al., 2013;",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 373,
+                        "end": 448,
+                        "text": "Rengifo-Correa, Stephens, Morrone, T\u00e9llez-Rend\u00f3n, & Gonz\u00e1lez-Salazar, 2017;",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 449,
+                        "end": 471,
+                        "text": "Stephens et al., 2009)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 541,
+                        "end": 569,
+                        "text": "(Berzunza-Cruz et al., 2015;",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 570,
+                        "end": 592,
+                        "text": "Stephens et al., 2016)",
+                        "ref_id": "BIBREF33"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| INTRODUC TI ON",
+                "sec_num": "1"
+            },
+            {
+                "text": "The SPECIES platform takes as input any spatio-temporal variable X defined over a region \ue23e and time interval \ue240 , where, for example, X could be the presence of a specific organism, or a real-valued variable such as average annual temperature. Partitioning \ue23e into a grid, \ue233 with N cells, we obtain a collection of N sites, c i , i = 1, \u2026 ,N . In the current version, SPECIES 1.0, we use uniform, rectangular grids of 8, 16, 32, and 64 km per cell side. For Boolean spatial variables, the mapping from \ue23e to \ue233 is straightforward: Let c i be a site, we then define X such that X = 1 if c i contains a point where X = 1 and zero otherwise. To treat all variables on the same footing, we transform any non-Boolean variable into a discrete set of Boolean variables by dividing its range into a number of discrete intervals. In the current version, each such variable is divided into 10 such intervals (deciles). Importantly, it is this mapping which brings all variables to the same spatial resolution, as defined by \ue233. For example, if we have a real-valued variable X , such as \"Annual Mean Temperature,\" since in SPECIES 1.0, the principal mapping is \"presence/no presence\", 1 X is discretized by splitting it into ten \"presence/no presence\" variables X 1 , \u2026 X 10 . This means that for an environmental layer, if there are pixels in a cell (site) corresponding to a particular range/bin, then the cell contains a \"presence\" of that variable range. Analogously, we could extend this logic from a spatial region to a spatio-temporal region, \ue23e \u00d7 \ue240 . Note that, although converting all variables to Boolean type allows for a fair comparison of all variables, independent of their spatial resolution, in the discretization process, some information may be lost due to the coarse graining. This can, of course, be reduced by considering more bins, as long as in each bin there are enough data points. The result of this process can be easily conceptualized as a big presence-absence matrix (PAM), a familiar analytical tool in macroecology and biogeography (Arita et al., 2012; McCoy & Heck, 1987) . The distinction with standard PAMs (which are species \u00d7 locations matrices) is that in SPECIES, rows represent species and any other type of \"presence/no presence\" variable, and columns are grid cells.",
+                "cite_spans": [
+                    {
+                        "start": 2047,
+                        "end": 2067,
+                        "text": "(Arita et al., 2012;",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 2068,
+                        "end": 2087,
+                        "text": "McCoy & Heck, 1987)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| MATERIAL S AND ME THODS",
+                "sec_num": "2"
+            },
+            {
+                "text": "Let X and Y be two Boolean variables, then the degree of cooccurrence between them is measured with respect to the null hypothesis that X is independent of Y, that is P(X|Y) = P(X). As we do not know the underlying probability distributions, we must estimate them from data. For example, P (X) = N X \u2215N, where N X is the number of cells with the presence of feature X, and N is the total number of grid cells. Note that, when the Boolean variable of interest is a species presence, we do not assume that P (X) = N X \u2215N is an unbiased estimator of the real number of counts of presences in any cell, as would be found from a systematic sampling and documentation of the range of species. In this case, in general, P (X) = N X \u2215N would be an underestimate, due to incomplete observation efforts (Bojorquez-Tapia, Azuara, Ezcurra, & Flores-Villela, 1995; Sober\u00f3n, 2007; Sober\u00f3n, Llorente, & O\u00f1ate, 2000; Yesson et al., 2007) . To test the dependence of X and Y relative to the null hypothesis, we calculate the estimator, P (X|Y) = N X,Y \u2215N Y , of the conditional probability P(X|Y),",
+                "cite_spans": [
+                    {
+                        "start": 793,
+                        "end": 851,
+                        "text": "(Bojorquez-Tapia, Azuara, Ezcurra, & Flores-Villela, 1995;",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 852,
+                        "end": 866,
+                        "text": "Sober\u00f3n, 2007;",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 867,
+                        "end": 900,
+                        "text": "Sober\u00f3n, Llorente, & O\u00f1ate, 2000;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 901,
+                        "end": 921,
+                        "text": "Yesson et al., 2007)",
+                        "ref_id": "BIBREF42"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| MATERIAL S AND ME THODS",
+                "sec_num": "2"
+            },
+            {
+                "text": "where N X,Y is the number of cells with X = 1 and Y = 1, that is, where the spatial features the variables represent co-occur. Once again, we do not assume that, in the case of species presence, P (X|Y) = N X,Y \u2215N Y is an unbiased estimator of the real number of co-occurrences of presences in any cell.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| MATERIAL S AND ME THODS",
+                "sec_num": "2"
+            },
+            {
+                "text": "As the null hypothesis corresponds to a binomial process with probability P (X), we may naturally use a binomial test to determine the statistical significance of the degree of co-occurrence using standard hypothesis testing. We denote the corresponding test statistic as . Explicitly",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| MATERIAL S AND ME THODS",
+                "sec_num": "2"
+            },
+            {
+                "text": "The conditional probability estimators P (X|Y) and P (Y|X), and the statistical diagnostic (X|Y), are the base building blocks from which species distributions, species niches, and communities can be constructed. The statistic (X|Y) measures the degree of statistical significance of the co-occurrence between X and Y. Although the existence of a significant co-occurrence is not a sufficient condition for the existence of an interaction between X and Y, it is a necessary condition, and therefore can serve as a filter on the space of associations to indicate from which subset biotic interactions are most likely to be found. Thus, potential biotic interactions may be explored in SPECIES, though a confirmation of the interaction requires data other than co-occurrence data. A ranking of species as covariates in terms of (X|Y), for example, has been used to identify disease hosts (Gonz\u00e1lez-Salazar & Stephens, 2012; Gonz\u00e1lez-Salazar et al., 2013; Rengifo-Correa et al., 2017; Stephens et al., 2009 Stephens et al., , 2016 . In Section 3.1, as use cases, we show how it is consistent with identifying known food sources for two species: Panthera onca and Baronia brevicaunis.",
+                "cite_spans": [
+                    {
+                        "start": 886,
+                        "end": 921,
+                        "text": "(Gonz\u00e1lez-Salazar & Stephens, 2012;",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 922,
+                        "end": 952,
+                        "text": "Gonz\u00e1lez-Salazar et al., 2013;",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 953,
+                        "end": 981,
+                        "text": "Rengifo-Correa et al., 2017;",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 982,
+                        "end": 1003,
+                        "text": "Stephens et al., 2009",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1004,
+                        "end": 1027,
+                        "text": "Stephens et al., , 2016",
+                        "ref_id": "BIBREF33"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| MATERIAL S AND ME THODS",
+                "sec_num": "2"
+            },
+            {
+                "text": "We take as a mathematical representation of the niche for a taxon, C, the probability function P(C|X), where X represents the set of potential niche variables under consideration-both abiotic and biotic-present in a given site. In SPECIES 1.0, the posterior probability P(C|X) is calculated using Bayes' theorem and the Na\u00efve Bayes' approximation (NBA; Stephens, Huerta, & Linares, 2017) . In principle, other models could be used, such as MaxEnt, or logistic regression.",
+                "cite_spans": [
+                    {
+                        "start": 353,
+                        "end": 387,
+                        "text": "Stephens, Huerta, & Linares, 2017)",
+                        "ref_id": "BIBREF34"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "We use the Na\u00efve Bayes approximation for its transparency and ease, and speed of calculation.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "Usually, rather than a direct estimation of P(C|X), the score function is used, where C is the set complement of C, that is, in the present case those cells where there is no presence of C. Using Bayes theorem and the Na\u00efve Bayes approximation for the likelihood,",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "P(X\ufffdC) = \u220f N i=1 P(X i \ufffdC), we have",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "In SPECIES 1.0, biotic niche variables are considered to be presence/no presence, so that P (",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "X i |C) = N C,X i \u2215N C , where N C,X i is the num-",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "ber of cells with presence of the target taxon/group C and presence of the niche variable",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "X i . Similarly, P (X i |C) = NC ,X i \u2215NC, where NC ,X i is the",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "number of cells with presence of the niche variable X i but no pres-",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "ence of the taxon/group C. When N C,X i = 0 or N C,X i = N X i , leading to P (X i |C) = 0 or P (X i |C) = 0",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": ", some degree of smoothing must be implemented. Currently, we use a standard Laplace correction.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "Note that by converting all variables, both abiotic and biotic, to one or more Boolean variables we can, using the Naive Bayes",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "(1)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "(X\ufffdY)= N Y \ufffdP (X\ufffdY)\u2212P(X) \ufffd \u221a N YP (X)(1\u2212P(X)) = N Y \ufffd N X,Y N Y \u2212 N X N \ufffd \ufffd N Y \ufffd N X N \ufffd\ufffd 1\u2212 N X N \ufffd = N X,Y \u2212N Y N X N \ufffd N Y \ufffd N X N \ufffd\ufffd 1\u2212 N X N \ufffd .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "(2) S(C|X) = ln P (C|X)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "P(C|X) ,",
+                        "eq_num": "(3)"
+                    }
+                ],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "S(C\ufffdX)= \u2211 i=1 ln \ufffdP (X i \ufffdC) P(X i \ufffdC) \ufffd + ln \ufffdP (C) P(C) \ufffd = \u2211 i=1 ln \ufffd N C,Xi N C N Xi \u2212N C,Xi N\u2212Nc \ufffd + ln \ufffd N C N\u2212N C \ufffd = \u2211 i=1 ln \ufffd N C,Xi (N\u2212N C ) N C (N Xi \u2212N C,Xi ) \ufffd + ln \ufffd N C N\u2212N c \ufffd .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "approximation, compare the contributions of any variables to the presence of any given species. Thus, we may, for example, consider if the presence of a given prey species for a predator is associated with a greater score than a given annual temperature range. A high score for a given variable, X i , indicates that the variable discriminates well between presence and no presence of the target species. However, it does not tell us \"why\" it has a high score. Such a high score may be consistent with current knowledge; for example, a high score associated with a known prey species of a given predator; or it may be indicative of a potential interaction, for example, a prey species that has not been observed as such. This latter is purely an inference, however, and must be confirmed by a suitable experiment.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "Another advantage of the Na\u00efve Bayes approximation is that it allows for a simple evaluation of the impact of variable aggregation.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "For instance, it is possible to determine the relative contribution as niche variables of bats versus rodents, or biotic versus abiotic variables as a whole. The overall contribution of a group of variables depends on both the predictability inherent in each factor and the number of factors in the group. The platform uses fivefold cross-validation to generate model evaluation metrics. We use recall/sensitivity 2 as the principle performance measure.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "Often the Na\u00efve Bayes approximation is itself naively criticized due to its independence assumption. However, it remains as one of the most universally used (across multiple problem areas) machine learning algorithms. Despite its simplicity and its apparently strong assumption of independence between variables, it has proved to be a very robust classifier, even in problems, such as text analysis, where it is known that there are strong correlations between features.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "Indeed, the NBA can be very competitive with respect to many other seemingly more advanced techniques in terms of performance, say, considering the area under the ROC curve (Zhang & Su, 2008) . There have been several papers explaining why it works so well, and this has been analyzed in detail recently, where it was shown that it is inevitable that the signed deviations from independence can largely cancel out between different feature combinations thus leading to the robust performance of the algorithm as being an emergent property (Stephens, Huerta, et al., 2017) .",
+                "cite_spans": [
+                    {
+                        "start": 173,
+                        "end": 191,
+                        "text": "(Zhang & Su, 2008)",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 539,
+                        "end": 571,
+                        "text": "(Stephens, Huerta, et al., 2017)",
+                        "ref_id": "BIBREF34"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "In summary, SPECIES allows for the construction of species distribution models using both biotic and abiotic drivers of arbitrary spatial resolution, which can be compared both in terms of their magnitude and sign. However, the precise ecological interpretation of the contribution of a given niche variable requires further knowledge. This is the case for both abiotic and biotic drivers.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "The basic hypothesis that co-occurrence associations can be used to explore possible ecological interactions is also applicable at the community level, where we consider multiple taxa/groups, forming a network whose nodes are defined by any group labels, and whose weighted links are defined using a statistical co-occurrence measure, such as . SPECIES allows the user to select groups of features of interest, which can be made of biotic or abiotic variables, or to filter associations according to their statistical significance. The GUI and visualization client were created with standard web technologies: HMTL5, JavaScript, and CSS3. Additionally, for interactive maps and visualizations, we use Leaflet and D3 (Data Driven Documents). The GUI is composed of two principal parts: niche and community. In the niche map, as seen in Figure 1 , data for the target taxon are displayed for each cell, allowing for a review of the principal niche contributions there.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 835,
+                        "end": 843,
+                        "text": "Figure 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Niche and community inference",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "In community, there are three visualization components showing linked views of the data (Figure 2a ",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 88,
+                        "end": 98,
+                        "text": "(Figure 2a",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| SYS TEM DE S I G N",
+                "sec_num": "3"
+            },
+            {
+                "text": "In this section, we present two brief working examples, for a more detailed discussion please refer to the tutorial in the Supporting Information Appendix S1.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| E X AMPLE S",
+                "sec_num": "4"
+            },
+            {
+                "text": "As a first use case, we consider the ecological niche of the jaguar.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "We first select the jaguar by its scientific name, Panthera onca. The system then displays relevant information about the species.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "In the corresponding map (Figure 3c) , the system displays the collection points for the chosen species. Clicking on a point yields the meta-data for that register (Figure 4a ). If we decide a particular observation is not appropriate, we can remove it by clicking on the eraser icon and then clicking on the point to be removed.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 25,
+                        "end": 36,
+                        "text": "(Figure 3c)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 164,
+                        "end": 174,
+                        "text": "(Figure 4a",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "We can then iteratively choose the covariate groups for the niche model. For example, we may first choose only abiotic variables (Figure 5a ), generating the corresponding potential distribution map (Figure 5b) . We may then add a group of biotic variables-for example, the mammals in the database-and rerun the analysis.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 129,
+                        "end": 139,
+                        "text": "(Figure 5a",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 199,
+                        "end": 210,
+                        "text": "(Figure 5b)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "Even high dimensional analyses with many covariates run quickly thanks to the efficiency of the Na\u00efve Bayes algorithm and SPECIES' data model. When the user enables the validation option in the initial setup, the system displays a curve over the bar graph which shows the average of the cumulative proportion of presences in each decile averaged over the five iterations (Figure 6d ). This curve represents the recall of the model and is a measure of its predictive power.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 371,
+                        "end": 381,
+                        "text": "(Figure 6d",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "By comparing the performance of the abiotic and biotic variables used in jaguar's niche model in terms of recall, we can see that the biotic covariates choses lead to a model that is more predictive than the abiotic one. In this context, this means that the chosen biotic covariates are more predictive than the abiotic ones in determining those optimal niche regions associated with the highest probability to find the jaguar. However, when we generate a model that integrates both covariate types, the model performance increases even further. corresponding change, should be an important factor in determining its range. Reviewing the species in the top decile we note that, of 18 confirmed jaguar preys distributed in Mexico (Aranda, 1994; \u00c1vila-N\u00e1jera, Palomares, Ch\u00e1vez, Tigar, & Mendoza, 2018; Ch\u00e1vez, Ceballos, & Am\u00edn, 2007) , 15 are in the top decile, while 12 (80% of preys) are in the top 20 highest ranked species by",
+                "cite_spans": [
+                    {
+                        "start": 729,
+                        "end": 743,
+                        "text": "(Aranda, 1994;",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 744,
+                        "end": 800,
+                        "text": "\u00c1vila-N\u00e1jera, Palomares, Ch\u00e1vez, Tigar, & Mendoza, 2018;",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 801,
+                        "end": 832,
+                        "text": "Ch\u00e1vez, Ceballos, & Am\u00edn, 2007)",
+                        "ref_id": "BIBREF8"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": ". In summary, a model that includes different covariate types not only leads to more accurate prediction models, but also leads to a much fuller and more comprehensive understanding of the species niche.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "Thus, the species list ranked by (high to low values) serves as a predictive model, with the hypothesis that the highest ranked species correspond to those species most likely to exhibit a biotic interaction, without any pretense to stating that there definitely exists a biotic interaction. Given that co-occurrence is a necessary but not sufficient condition for an interaction, such a statistical",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "F I G U R E 1",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "The user can explore detailed information associated with each cell association does not prove that there is a direct \"causal\" interaction between these taxa. However, such inferences can be checked and confirmed against current knowledge, as with the jaguar preys, or may be used to construct new hypotheses that may be then checked empirically.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "The jaguar example may be repeated for any number of species in the SNIB. For instance, selecting the butterfly species",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "Baronia brevicornis and building a model with biotic covariates comprising the plant genus Acacia (with 85 species), one notes that the highest corresponds to Acacia cochliacantha, which is its unique food resource (Sober\u00f3n & Townsend Peterson, 2005 ). On the other hand, selecting a columnar cactus species (Pachycereus pringlei) and building a model with biotic covariates comprising 853 bird species we note that the fifth species in the ranked list is a woodpecker (Colaptes chrysoides), a bird species that, at first glance, one would not normally expect to be associated with cacti. However, reviewing the literature, we found that this woodpecker nests mainly in this species thereby establishing a nontrophic biotic relationship (Zwartjes & Nordell, 1998 The network graph is an interactive visualization. The color intensity of the edges is proportional to the significance of the correlation between the nodes it connects, while node size is proportional to the number of grid cells occupied by the variable. On the search bar above the network, the user can type a name and the nodes that match the name will be highlighted. When the user points to a node, an info-box pops up with the name of the variable and its number of occurrences. If the user clicks on the node the map on the right will then display the known distribution of that variable, and the neighbors of the node will be highlighted.",
+                "cite_spans": [
+                    {
+                        "start": 215,
+                        "end": 249,
+                        "text": "(Sober\u00f3n & Townsend Peterson, 2005",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 737,
+                        "end": 762,
+                        "text": "(Zwartjes & Nordell, 1998",
+                        "ref_id": "BIBREF44"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "The data associated with the network may be downloaded as a CSV file which can then be included in any third party network analysis tool.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "As with the niche interpretation, the inferred relations inherent in the network are not sufficient to unambiguously identify biotic interaction. However, the network does offer a visualization of the structure of statistical dependencies between our target nodes which, by exploring different network metrics we may be led to discover species pattern associations which, in turn, may inform us about potential biotic relationships. In our example, we selected Chagas vectors (triatomine species) and potential mammal hosts. The resulting network comprised 22 triatomine species and 390 mammals. We first identified which vector species were most connected (i.e., highest network degree), as these represent the vectors with the greatest potential to infect multiple hosts, such as Triatoma dimidiata (239 links).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "Furthermore, another nine vector species are linked to more than 100 mammals, and these species represent a high risk of",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "Chagas transmission.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "On the other hand, we can also check the mammal network degree focusing on confirmed hosts of Chagas disease (36 species;",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "Rengifo-Correa et al., 2017), of which 58% have a network degree <10 links, and which should be candidates for surveillance plans.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "Dividing the species list ranked by into quartiles, we found that with biotic variables other than purely taxonomic labels.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Ecological niche inference",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "A challenge for the SPECIES platform when using large numbers of predictor variables is how to identify, disentangle and, most importantly, interpret any observed statistically significant relationships. For example, to what degree a significant correlation is associated with a known, or plausible, \"direct\" interaction, such as in parasitism or predation, versus a known or plausible \"indirect\" interaction, such as the relation between a carnivore and a plant that is a principle food source of one of its prey species. Presently, we take a pragmatic approach, identifying an \"interaction\" as any variable that contributes to the presence probability of a given species. Such hypotheses can be tested by more detailed empirical analysis, as has been done in the case of the interaction between disease vectors and disease hosts (Stephens et al., 2016) .",
+                "cite_spans": [
+                    {
+                        "start": 831,
+                        "end": 854,
+                        "text": "(Stephens et al., 2016)",
+                        "ref_id": "BIBREF33"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Methodology",
+                "sec_num": "5.2"
+            },
+            {
+                "text": "Additionally, there is the important question of how to disentangle confounding factors. For instance, to determine whether a potential biotic relation is confounded by a shared climate preference.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Methodology",
+                "sec_num": "5.2"
+            },
+            {
+                "text": "The methodology behind the SPECIES platform can be used to",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Methodology",
+                "sec_num": "5.2"
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "(c)",
+                        "eq_num": "(d)"
+                    }
+                ],
+                "section": "| Methodology",
+                "sec_num": "5.2"
+            },
+            {
+                "text": "F I G U R E 6 (Continued) estimate the degree of confounding (Stephens, S\u00e1nchez-Cordero, & Gonz\u00e1lez Salazar, 2017) . The next version of SPECIES will include this functionality.",
+                "cite_spans": [
+                    {
+                        "start": 61,
+                        "end": 114,
+                        "text": "(Stephens, S\u00e1nchez-Cordero, & Gonz\u00e1lez Salazar, 2017)",
+                        "ref_id": "BIBREF35"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Methodology",
+                "sec_num": "5.2"
+            },
+            {
+                "text": "SPECIES is an open-access web application, with an open-access API. Although this philosophy has been present since its inception, there remain several improvements to make in the near future in terms of documentation and code organization before welcoming and interacting in an organized environment with a potentially large community of contributors.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Open source project",
+                "sec_num": "5.3"
+            },
+            {
+                "text": "SPECIES is a powerful, flexible, easy to use analysis platform, based on a well-founded methodology and with descriptive output. It is a system that allows for the exploration and incorporation of ecological data-both abiotic and biotic-of arbitrary spatio-temporal resolution, and its subsequent integration into predictive models for both ecological niche and geographic distribution, while allowing for a direct comparison of the relative contributions of different variable types. It also provides an ecosystemic, community-based analysis for inferring relations between different biota, such as the relation between disease vectors and potential disease",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| CON CLUS IONS",
+                "sec_num": "6"
+            },
+            {
+                "text": "hosts. An important philosophical difference between SPECIES and other modeling systems is that it is based on using large, existing datasets as a basis for modeling. The motivation for this is that ecological niches and communities are much more multi-factorial than can be comprehended via small, bespoke datasets with relatively few variables. The data model behind SPECIES is optimized to carry out such high dimensional computations on the fly in order to support fast hypothesis prototyping and testing.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| CON CLUS IONS",
+                "sec_num": "6"
+            },
+            {
+                "text": "This work has been supported by the CONABIO and by DGAPA-PAPIIT grant IG200217. We are grateful for feedback from the participants in the SPECIES workshops. We are also grateful to",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACK N OWLED G M ENTS",
+                "sec_num": null
+            },
+            {
+                "text": "Ra\u00fal Jim\u00e9nez for many useful conversations and his support of the SPECIES project. We are also grateful to Jos\u00e9 Sarukh\u00e1n and Victor S\u00e1nchez-Cordero for their support.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACK N OWLED G M ENTS",
+                "sec_num": null
+            },
+            {
+                "text": "None declared. ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "CO N FLI C T O F I NTE R E S T",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "All data used in SPECIES 1.0 are publicly available at the following ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DATA ACCE SS I B I LIT Y",
+                "sec_num": null
+            },
+            {
+                "text": "We use presence/no presence as the principle point-collection datasets available in SPECIES are presence only.2 Recall = true positives/(true positives + false negatives).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "E N D N OTE S 1",
+                "sec_num": null
+            },
+            {
+                "text": "Ra\u00fal Sierra-Alcocer https://orcid.org/0000-0002-6686-2266Constantino Gonz\u00e1lez-Salazar https://orcid. org/0000-0001-7347-714X",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "O RCI D",
+                "sec_num": null
+            },
+            {
+                "text": "Additional supporting information may be found online in the Supporting Information section at the end of the article. https://doi.org/10.1002/ece3.4800",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "R E FE R E N C E S S U PP O RTI N G I N FO R M ATI O N",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Importancia de los pecaries (Tayassu spp.) en la alimentaci\u00f3n del jaguar (Panthera onca)",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Aranda",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Acta Zool\u00f3gica Mexicana (Nueva Serie)",
+                "volume": "62",
+                "issue": "",
+                "pages": "11--22",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Aranda, M. (1994). Importancia de los pecaries (Tayassu spp.) en la ali- mentaci\u00f3n del jaguar (Panthera onca). Acta Zool\u00f3gica Mexicana (Nueva Serie), 62, 11-22.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Five (or so) challenges for species distribution modelling",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ara\u00fajo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Guisan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Journal of Biogeography",
+                "volume": "33",
+                "issue": "10",
+                "pages": "1677--1688",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-2699.2006.01584.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ara\u00fajo, M. B., & Guisan, A. (2006). Five (or so) challenges for species distribution modelling. Journal of Biogeography, 33(10), 1677-1688. https://doi.org/10.1111/j.1365-2699.2006.01584.x",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "The importance of biotic interactions for modelling species distributions under climate change",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ara\u00fajo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Luoto",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Global Ecology and Biogeography",
+                "volume": "16",
+                "issue": "6",
+                "pages": "743--753",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1466-8238.2007.00359.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ara\u00fajo, M. B., & Luoto, M. (2007). The importance of biotic interac- tions for modelling species distributions under climate change. Global Ecology and Biogeography, 16(6), 743-753. https://doi. org/10.1111/j.1466-8238.2007.00359.x",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "The presence-absence matrix reloaded: The use and interpretation of rangediversity plots",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Arita",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Christen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Rodr\u00edguez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sober\u00f3n",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Global Ecology and Biogeography",
+                "volume": "21",
+                "issue": "2",
+                "pages": "282--292",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1466-8238.2011.00662.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Arita, H. T., Christen, A., Rodr\u00edguez, P., & Sober\u00f3n, J. (2012). The pres- ence-absence matrix reloaded: The use and interpretation of range- diversity plots. Global Ecology and Biogeography, 21(2), 282-292. https://doi.org/10.1111/j.1466-8238.2011.00662.x",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Jaguar (Panthera onca) and puma (Puma concolo) diets in Quintana Roo",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "\u00c1vila-N\u00e1jera",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Palomares",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Ch\u00e1vez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Tigar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Mendoza",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Mexico. Animal Biodiversity and Conservation",
+                "volume": "41",
+                "issue": "2",
+                "pages": "257--266",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "\u00c1vila-N\u00e1jera, D. M., Palomares, F., Ch\u00e1vez, C., Tigar, B., & Mendoza, G. D. (2018). Jaguar (Panthera onca) and puma (Puma concolo) diets in Quintana Roo, Mexico. Animal Biodiversity and Conservation, 41(2), 257-266.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "The co-distribution of species in relation to the neutral theory of community ecology",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Bell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Ecology",
+                "volume": "86",
+                "issue": "",
+                "pages": "1757--1770",
+                "other_ids": {
+                    "DOI": [
+                        "10.1890/04-1028"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Bell, G. (2005). The co-distribution of species in relation to the neutral theory of community ecology. Ecology, 86, 1757-1770. https://doi. org/10.1890/04-1028",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Leishmania (L.) mexicana infected bats in Mexico: Novel potential reservoirs",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Berzunza-Cruz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "\u00c1",
+                        "middle": [],
+                        "last": "Rodr\u00edguez-Moreno",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Guti\u00e9rrez-Granados",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Gonz\u00e1lez-Salazar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Stephens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hidalgo-Mihart",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Becker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "",
+                "volume": "9",
+                "issue": "",
+                "pages": "1--15",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Berzunza-Cruz, M., Rodr\u00edguez-Moreno, \u00c1., Guti\u00e9rrez-Granados, G., Gonz\u00e1lez-Salazar, C., Stephens, C. R., Hidalgo-Mihart, M., \u2026 Becker, I. (2015). Leishmania (L.) mexicana infected bats in Mexico: Novel po- tential reservoirs. PLoS Neglected Tropical Diseases, 9, 1-15.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Identifying conservation priorities in Mexico through geographic information systems and modeling",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Bojorquez-Tapia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Azuara",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Ezcurra",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Flores-Villela",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Ecological Applications",
+                "volume": "5",
+                "issue": "1",
+                "pages": "215--231",
+                "other_ids": {
+                    "DOI": [
+                        "10.2307/1942065"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Bojorquez-Tapia, L. A., Azuara, I., Ezcurra, E., & Flores-Villela, O. (1995). Identifying conservation priorities in Mexico through geographic in- formation systems and modeling. Ecological Applications, 5(1), 215- 231. https://doi.org/10.2307/1942065",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Ecologia Poblacional del Jaguar y sus Implicaciones para la Conservacion en la Peninsula de Yucatan",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Ch\u00e1vez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Ceballos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Am\u00edn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "91--100",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ch\u00e1vez, C., Ceballos, G., & Am\u00edn, M. (2007). Ecologia Poblacional del Jaguar y sus Implicaciones para la Conservacion en la Peninsula de Yucatan. In G. Ceballos, C. Ch\u00e1vez, R. List, & H. Zarza (Eds.), Conservaci\u00f3n y manejo del jaguar en M\u00e9xico: Estudios de caso y per- spectivas (pp. 91-100). M\u00e9xico, D.F.: CONABIO-Alianza WWF/ Telcel-UNAM.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "The assembly of species communities: Chance or competition?",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Connor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Simberloff",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1979,
+                "venue": "Ecology",
+                "volume": "60",
+                "issue": "6",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.2307/1936961"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Connor, E. F., & Simberloff, D. (1979). The assembly of species com- munities: Chance or competition? Ecology, 60(6), 1132. https://doi. org/10.2307/1936961",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Interspecific competition and species co-occurrence patterns on islands: Null models and the evaluation of evidence",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Connor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Simberloff",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1983,
+                "venue": "Oikos",
+                "volume": "41",
+                "issue": "3",
+                "pages": "455--465",
+                "other_ids": {
+                    "DOI": [
+                        "10.2307/3544105"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Connor, E. F., & Simberloff, D. (1983). Interspecific competition and species co-occurrence patterns on islands: Null models and the evaluation of evidence. Oikos, 41(3), 455-465. https://doi. org/10.2307/3544105",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Assembly of species communities",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Diamond",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1975,
+                "venue": "Ecology and evolution of communities",
+                "volume": "",
+                "issue": "",
+                "pages": "342--444",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Diamond, J. M. (1975). Assembly of species communities. In M. L. Cody, and J. M. Diamond (Eds.), Ecology and evolution of communities (pp. 342-444). Cambridge, MA: Harvard University Press.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Ecogeographical rules: Elements of a synthesis",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gaston",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Chown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Evans",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "GBIF: The Global Biodiversity Information Facility",
+                "volume": "35",
+                "issue": "",
+                "pages": "483--500",
+                "other_ids": {
+                    "DOI": [
+                        "10.15468/dl.99cphq"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Gaston, K. J., Chown, S. L., & Evans, K. L. (2008). Ecogeographical rules: Elements of a synthesis. Journal of Biogeography, 35(3), 483-500. https://doi.org/10.1111/j.1365-2699.2007.01772.x GBIF: The Global Biodiversity Information Facility (2017). What is GBIF? GBIF.org (2017a). GBIF Occurrence download. https://doi.org/10.15468/ dl.99cphq",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "GBIF Occurrence download",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Gbif",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Org",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.15468/dl.rwwrv3"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "GBIF.org (2017b). GBIF Occurrence download. https://doi.org/10.15468/ dl.rwwrv3",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Factors contributing to non-randomness in species co-occurrences on islands",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Gilpin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Diamond",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "Oecologia",
+                "volume": "52",
+                "issue": "1",
+                "pages": "75--84",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/BF00349014"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Gilpin, M. E., & Diamond, J. M. (1982). Factors contributing to non-ran- domness in species co-occurrences on islands. Oecologia, 52(1), 75- 84. https://doi.org/10.1007/BF00349014",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Constructing ecological networks: A tool to infer risk of transmission and dispersal of leishmaniasis",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Gonz\u00e1lez-Salazar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Stephens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Zoonoses and Public Health",
+                "volume": "59",
+                "issue": "2",
+                "pages": "179--193",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1863-2378.2012.01479.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Gonz\u00e1lez-Salazar, C., & Stephens, C. R. (2012). Constructing ecological networks: A tool to infer risk of transmission and dispersal of leish- maniasis. Zoonoses and Public Health, 59(Suppl 2), 179-193. https:// doi.org/10.1111/j.1863-2378.2012.01479.x",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Comparing the relative contributions of biotic and abiotic factors as mediators of species' distributions",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Gonz\u00e1lez-Salazar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Stephens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Marquet",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Ecological Modelling",
+                "volume": "248",
+                "issue": "",
+                "pages": "57--70",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.ecolmodel.2012.10.007"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Gonz\u00e1lez-Salazar, C., Stephens, C. R., & Marquet, P. A. (2013). Comparing the relative contributions of biotic and abiotic factors as mediators of species' distributions. Ecological Modelling, 248, 57-70. https://doi. org/10.1016/j.ecolmodel.2012.10.007",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "The Unified Neutral Theory of Biodiversity and Biogeography",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Hubbell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hubbell, S. P. (2001). The Unified Neutral Theory of Biodiversity and Biogeography. Princeton, NJ: Princeton University Press.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Stability and diversity of ecosystems",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Ives",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Carpenter",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Science",
+                "volume": "",
+                "issue": "5834",
+                "pages": "58--62",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/science.1133258"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ives, A. R., & Carpenter, S. R. (2007). Stability and diversity of eco- systems. Science, 317(5834), 58-62. https://doi.org/10.1126/ science.1133258",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Towards novel approaches to modelling biotic interactions in multispecies assemblages at large spatial extents",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Kissling",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Dormann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Groeneveld",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Hickler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "K\u00fchn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Mcinerny",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Hara",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Journal of Biogeography",
+                "volume": "39",
+                "issue": "12",
+                "pages": "2163--2178",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-2699.2011.02663.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Kissling, W. D., Dormann, C. F., Groeneveld, J., Hickler, T., K\u00fchn, I., McInerny, G. J., \u2026 O'Hara, R. B. (2012). Towards novel approaches to modelling biotic interactions in multispecies assemblages at large spatial extents. Journal of Biogeography, 39(12), 2163-2178. https:// doi.org/10.1111/j.1365-2699.2011.02663.x",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Some observations on the use of taxonomic similarity in large-scale biogeography",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Mccoy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Heck",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Journal of Biogeography",
+                "volume": "14",
+                "issue": "1",
+                "pages": "79--87",
+                "other_ids": {
+                    "DOI": [
+                        "10.2307/2844788"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "McCoy, E. D., & Heck, K. L. Jr (1987). Some observations on the use of taxonomic similarity in large-scale biogeography. Journal of Biogeography, 14(1), 79-87. https://doi.org/10.2307/2844788",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Food web patterns and their consequences",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Pimm",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Lawton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Cohen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Nature",
+                "volume": "350",
+                "issue": "6320",
+                "pages": "669--674",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/350669a0"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Pimm, S. L., Lawton, J. H., & Cohen, J. E. (1991). Food web patterns and their consequences. Nature, 350(6320), 669-674. https://doi. org/10.1038/350669a0",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "No silver bullets in correlative ecological niche modelling: Insights from testing among many potential algorithms for niche estimation",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Qiao",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sober\u00f3n",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Peterson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Methods in Ecology and Evolution",
+                "volume": "6",
+                "issue": "10",
+                "pages": "1126--1136",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/2041-210X.12397"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Qiao, H., Sober\u00f3n, J., & Peterson, A. T. (2015). No silver bullets in correlative ecological niche modelling: Insights from testing among many poten- tial algorithms for niche estimation. Methods in Ecology and Evolution, 6(10), 1126-1136. https://doi.org/10.1111/2041-210X.12397",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Labeling ecological niche models",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Rangel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Loyola",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Natureza & Conserva\u00e7\u00e3o",
+                "volume": "10",
+                "issue": "2",
+                "pages": "119--126",
+                "other_ids": {
+                    "DOI": [
+                        "10.4322/natcon.2012.030"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Rangel, T. F., & Loyola, R. D. (2012). Labeling ecological niche models. Natureza & Conserva\u00e7\u00e3o, 10(2), 119-126. https://doi.org/10.4322/ natcon.2012.030",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Understanding transmissibility patterns of Chagas disease through complex vector\u00e2\u0103\u015fhost networks",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Rengifo-Correa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Stephens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Morrone",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "T\u00e9llez-Rend\u00f3n",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Gonz\u00e1lez-Salazar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Parasitology",
+                "volume": "144",
+                "issue": "",
+                "pages": "760--772",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rengifo-Correa, L., Stephens, C. R., Morrone, J. J., T\u00e9llez-Rend\u00f3n, J. L., & Gonz\u00e1lez-Salazar, C. (2017). Understanding transmissibility pat- terns of Chagas disease through complex vector\u00e2\u0103\u015fhost networks. Parasitology, 144, 760-772.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Generating intelligence for decision making and sustainable use of natural capital in Mexico. Current Opinion in Environmental Sustainability",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sarukh\u00e1n",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Jim\u00e9nez",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "",
+                "volume": "19",
+                "issue": "",
+                "pages": "153--159",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.cosust.2016.02.002"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Sarukh\u00e1n, J., & Jim\u00e9nez, R. (2016). Generating intelligence for decision making and sustainable use of natural capital in Mexico. Current Opinion in Environmental Sustainability, 19, 153-159. https://doi. org/10.1016/j.cosust.2016.02.002",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Exploratory analysis of the interrelations between co-located boolean spatial features using network graphs",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Sierra",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Stephens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "International Journal of Geographical Information Science",
+                "volume": "26",
+                "issue": "3",
+                "pages": "441--468",
+                "other_ids": {
+                    "DOI": [
+                        "10.1080/13658816.2011.594799"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Sierra, R., & Stephens, C. R. (2012). Exploratory analysis of the interre- lations between co-located boolean spatial features using network graphs. International Journal of Geographical Information Science, 26(3), 441-468. https://doi.org/10.1080/13658816.2011.594799",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "inferring competition from biogeographic data: A reply to Wright and Biehl",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Simberloff",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Connor",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "The American Naturalist",
+                "volume": "124",
+                "issue": "3",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1086/284284"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Simberloff, D., & Connor, E. F. (1984). inferring competition from biogeo- graphic data: A reply to Wright and Biehl. The American Naturalist, 124(3), 429. https://doi.org/10.1086/284284",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Grinnellian and Eltonian niches and geographic distributions of species",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sober\u00f3n",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Ecology Letters",
+                "volume": "10",
+                "issue": "12",
+                "pages": "1115--1123",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1461-0248.2007.01107.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Sober\u00f3n, J. (2007). Grinnellian and Eltonian niches and geographic dis- tributions of species. Ecology Letters, 10(12), 1115-1123. https://doi. org/10.1111/j.1461-0248.2007.01107.x",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "The use of specimenlabel databases for conservation purposes: An example using Mexican Papilionid and Pierid butterflies",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Sober\u00f3n",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Llorente",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "O\u00f1ate",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Biodiversity and Conservation",
+                "volume": "9",
+                "issue": "10",
+                "pages": "1441--1466",
+                "other_ids": {
+                    "DOI": [
+                        "10.1023/A:1008987010383"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Sober\u00f3n, J. M., Llorente, J. B., & O\u00f1ate, L. (2000). The use of specimen- label databases for conservation purposes: An example using Mexican Papilionid and Pierid butterflies. Biodiversity and Conservation, 9(10), 1441-1466. https://doi.org/10.1023/A:1008987010383",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Interpretation of models of fundamental ecological niches and species' distributional areas",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sober\u00f3n",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Townsend Peterson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biodiversity Informatics",
+                "volume": "2",
+                "issue": "",
+                "pages": "1--10",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sober\u00f3n, J., & Townsend Peterson, A. (2005). Interpretation of models of fundamental ecological niches and species' distributional areas. Biodiversity Informatics, 2, 1-10.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Usingbioticinteraction networksfor predictioninbiodiversity and emergingdiseases",
+                "authors": [],
+                "year": null,
+                "venue": "PLoS ONE",
+                "volume": "4",
+                "issue": "5",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pone.0005725"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Usingbioticinteraction networksfor predictioninbiodiversity and emergingdiseases. PLoS ONE, 4(5), e5725. https://doi.org/10.1371/ journal.pone.0005725",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Can you judge a disease host by the company it keeps? Predicting disease hosts and their relative importance: A case study for leishmaniasis",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Stephens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Gonzalez-Salazar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Sanchez-Cordero",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Becker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Rebollar-Tellez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Rodriguez-Moreno",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Ramirez Martinez",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "PLoS Neglected Tropical Diseases",
+                "volume": "10",
+                "issue": "10",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stephens, C. R., Gonzalez-Salazar, C., Sanchez-Cordero, V., Becker, I., Rebollar-Tellez, E., Rodriguez-Moreno, A., \u2026 Ramirez Martinez, M. M. (2016). Can you judge a disease host by the company it keeps? Predicting disease hosts and their relative importance: A case study for leishmaniasis. PLoS Neglected Tropical Diseases, 10(10), e0005004.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "When is the Naive Bayes approximation not so naive? Machine Learning",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Stephens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Huerta",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Linares",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "",
+                "volume": "107",
+                "issue": "",
+                "pages": "397--441",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stephens, C. R., Huerta, H. F., & Linares, A. R. (2017). When is the Naive Bayes approximation not so naive? Machine Learning, 107, 397-441.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Bayesian inference of ecological interactions from spatial data",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Stephens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "S\u00e1nchez-Cordero",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Salazar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Entropy",
+                "volume": "19",
+                "issue": "12",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.3390/e19120547"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Stephens, C., S\u00e1nchez-Cordero, V., & Gonz\u00e1lez Salazar, C. (2017). Bayesian inference of ecological interactions from spatial data. Entropy, 19(12), 547. https://doi.org/10.3390/e19120547",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "A consumer's guide to nestedness analysis",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Ulrich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Almeida-Neto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gotelli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Oikos",
+                "volume": "118",
+                "issue": "",
+                "pages": "3--17",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ulrich, W., Almeida-Neto, M., & Gotelli, N. J. (2009). A consumer's guide to nestedness analysis. Oikos, 118, 3-17.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "A comprehensive framework for the study of species co-occurrences, nestedness and turnover",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Ulrich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Kryszewski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Sewerniak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Pucha\u0142ka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Strona",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gotelli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Oikos",
+                "volume": "126",
+                "issue": "11",
+                "pages": "1607--1616",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/oik.04166"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ulrich, W., Kryszewski, W., Sewerniak, P., Pucha\u0142ka, R., Strona, G., & Gotelli, N. J. (2017). A comprehensive framework for the study of species co-occurrences, nestedness and turnover. Oikos, 126(11), 1607-1616. https://doi.org/10.1111/oik.04166",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Facilitation can increase the phylogenetic diversity of plant communities",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Valiente-Banuet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Verd\u00fa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Ecology Letters",
+                "volume": "10",
+                "issue": "11",
+                "pages": "1029--1036",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1461-0248.2007.01100.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Valiente-Banuet, A., & Verd\u00fa, M. (2007). Facilitation can increase the phylogenetic diversity of plant communities. Ecology Letters, 10(11), 1029-1036. https://doi.org/10.1111/j.1461-0248.2007. 01100.x",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Trends and biases in global scientific literature about ecological niche models",
+                "authors": [
+                    {
+                        "first": "U",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Vaz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Cunha",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Nabout",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Brazilian Journal of Biology",
+                "volume": "75",
+                "issue": "4",
+                "pages": "17--24",
+                "other_ids": {
+                    "DOI": [
+                        "10.1590/1519-6984.22713"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Vaz, U. L., Cunha, H. F., & Nabout, J. C. (2015). Trends and bi- ases in global scientific literature about ecological niche models. Brazilian Journal of Biology, 75(4), 17-24. https://doi. org/10.1590/1519-6984.22713",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Interaction frequency as a surrogate for the total effect of animal mutualists on plants",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "V\u00e1zquez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Morris",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Jordano",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Ecology Letters",
+                "volume": "8",
+                "issue": "10",
+                "pages": "1088--1094",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1461-0248.2005.00810.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "V\u00e1zquez, D. P., Morris, W. F., & Jordano, P. (2005). Interaction fre- quency as a surrogate for the total effect of animal mutual- ists on plants. Ecology Letters, 8(10), 1088-1094. https://doi. org/10.1111/j.1461-0248.2005.00810.x",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "The role of biotic interactions in shapingdistributionsandrealisedassemblagesofspecies: Implicationsforspeciesdistributionmodelling",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Wisz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Pottier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Kissling",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Pellissier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Lenoir",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Damgaard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J.-C",
+                        "middle": [],
+                        "last": "Svenning",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Biological Reviews",
+                "volume": "88",
+                "issue": "1",
+                "pages": "15--30",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1469-185X.2012.00235.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Wisz, M. S., Pottier, J., Kissling, W. D., Pellissier, L., Lenoir, J., Damgaard, C. F., \u2026 Svenning, J.-C. (2013). The role of biotic inter- actions in shapingdistributionsandrealisedassemblagesofspecies: Implicationsforspeciesdistributionmodelling. Biological Reviews, 88(1), 15-30. https://doi.org/10.1111/j.1469-185X.2012.00235.x",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "How global is the global biodiversity information facility",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Yesson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Brewer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Sutton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Caithness",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Pahwa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Burgess",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Culham",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "PLoS ONE",
+                "volume": "2",
+                "issue": "11",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yesson, C., Brewer, P. W., Sutton, T., Caithness, N., Pahwa, J. S., Burgess, M., \u2026 Culham, A. (2007). How global is the global biodiversity infor- mation facility? PLoS ONE, 2(11), e1124.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Naive Bayes for optimal ranking",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Su",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Journal of Experimental and Theoretical Artificial Intelligence",
+                "volume": "20",
+                "issue": "2",
+                "pages": "79--93",
+                "other_ids": {
+                    "DOI": [
+                        "10.1080/09528130701476391"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhang, H., & Su, J. (2008). Naive Bayes for optimal ranking. Journal of Experimental and Theoretical Artificial Intelligence, 20(2), 79-93. https://doi.org/10.1080/09528130701476391",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Patterns of cavity-entrance orientation by gilded flickers (Colaptes chrysoides) in card\u00f3n cactus",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Zwartjes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Nordell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "The Auk",
+                "volume": "115",
+                "issue": "1",
+                "pages": "119--126",
+                "other_ids": {
+                    "DOI": [
+                        "10.2307/4089117"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Zwartjes, P. W., & Nordell, S. E. (1998). Patterns of cavity-entrance ori- entation by gilded flickers (Colaptes chrysoides) in card\u00f3n cactus. The Auk, 115(1), 119-126. https://doi.org/10.2307/4089117",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "type_str": "figure",
+                "num": null,
+                "text": "). The main view is the inference network itself, which provides an interactive visualization, where the user can obtain information about the size of the sample for each variable represented in the network, and the geographic distributions of any subnetwork. The remaining two views are as follows: a histogram of the link weights ( values), which works as an interactive filter for the links and generates changes to the network and the table below, and a map, which displays the variables count distribution as heatmaps.",
+                "uris": null
+            },
+            "FIGREF1": {
+                "type_str": "figure",
+                "num": null,
+                "text": "An important advantage of the SPECIES platform is that it allows us to establish an ecological profile for each individual cell or decile, variable by variable, thereby allowing us to quantify the relative influence of each niche variable at each geographic location and its impact on the presence of a species there. As the top decile of scores best characterizes the ideal niche, we may construct a list of the most relevant abiotic and biotic variables for this decile and rank them from highest to lowest in terms of values, or of score values. Considering the potential importance of predator-prey interactions between P. onca and other mammals, one would expect that the availability of food resources, and any",
+                "uris": null
+            },
+            "FIGREF2": {
+                "type_str": "figure",
+                "num": null,
+                "text": "Different views of the spatial correlation results. (a) histogram (top right), inferred network (left), heat map that shows which areas have more of the selected species (bottom right). (b) A table displays the quantities associated with each correlation (network link) I G U R E 3 Initial setup screens (a, b) and resulting map (c). (a) Initial screen. (b) Jaguar data summary. (c) Jaguar observations distribution The other modality of SPECIES is at the community level. The user defines groups of target variables and groups of source variables. For example, the class Mammalia may be the source group, and Reduviidae (which includes the genus Triatoma, known vector of Chagas disease) may be the target group. Figure 7 shows the corresponding setup and the resulting network. In the network visualization, we see three windows: The first (left of the image) is the network graph itself, the second (top right) is the histogram of correlations, and the remaining window (bottom right) is the richness heat map.",
+                "uris": null
+            },
+            "FIGREF3": {
+                "type_str": "figure",
+                "num": null,
+                "text": "12% of confirmed host species are in the top quartile and that this percentage decreases toward the lower quartiles, showing that the ranked list provides a general model for predicting the most important potential hosts for Chagas disease.",
+                "uris": null
+            },
+            "FIGREF4": {
+                "type_str": "figure",
+                "num": null,
+                "text": "I G U R E 4 (a) Observation info box. (b) Observation's meta-data from source database I G U R E 5 (a) Add the abiotic variables group and run the analysis. (b) Niche model for Jaguar using WorldClim variables Given the multi-factorial nature of ecological niches, an important goal is to include more data of both different types/formats and from different geographical regions. In particular, to include in data from large international datasets such as GBIF. Although data issues can lead to erroneous conclusions, the SPECIES platform itself facilitates the detection of anomalous points and/or data which can then be checked by hand.Another important area is the inclusion of more bespoke datasets from individual researchers or groups. As the philosophy of SPECIES is to integrate data from distinct data sources within a central modeling platform, rather than distribute a software to potential users, we plan to form a community of users such that the inclusion of their data can also leverage the large public datasets already present. Given the capacity of SPECIES to use data associated with different time intervals, we also plan to emphasize and develop SPECIES' capacity to model and predict dynamical changes in distributions, F I G U R E 6 (a) Configuration to infer ecological niche for the Jaguar with validation. (b) Potential SDM for Jaguar using WorldClim and all species of Mammals in the databases. (c) Covariates sensibility deciles. (d) Per decile average recall (fivefold cross-validation) of the Jaguar distribution model communities. Presently, this functionality is restricted to the inclusion of future climatic rasters. Another important future avenue of work is the inclusion of much richer meta-data, associated",
+                "uris": null
+            },
+            "FIGREF5": {
+                "type_str": "figure",
+                "num": null,
+                "text": "I G U R E 7 (a) Mammalia versus Reduviidae network inference setup. (b) Infered network of Mammalia vs Reduviidae species",
+                "uris": null
+            },
+            "FIGREF6": {
+                "type_str": "figure",
+                "num": null,
+                "text": "O N S C.R.S. and R.S.-A. conceived the development of SPECIES. C.R.S. and C.G.-S led implementation of the methodology. R.S.-A. led software development. C.G.-S wrote use cases and tutorial. E.R., J.M.B., and J.C.S. developed the backend of SPECIES. J.C.S. developed the GUI and visualization tools. C.R.S. and R.S.-A. led writing of the article. All authors helped in testing the software and contributed critically to the draft and gave final approval for publication.",
+                "uris": null
+            },
+            "TABREF0": {
+                "type_str": "table",
+                "num": null,
+                "text": "Currently, the data sources on SPECIES 1.0 are as follows: SNIB's point-collection database, WorldClim 1.4 variables for Mexico, and grids for Mexico, at cell sizes of 8, 16, 32, and 64 km per side. Also available is a development version of SPECIES, accessible at species.conabio.gob.mx/dev/, that in addition to the data just mentioned also includes US-GBIF observations from the Species data integrated into the SPECIES database Only Mammalia class and Reduviidae family.variables and the number of grid cells by resolution for each version can be seen inTables 2 and 3, respectively.",
+                "content": "<table><tr><td/><td/><td>No. of</td></tr><tr><td>Source</td><td>No. of species</td><td>occurrences</td></tr><tr><td>CONABIO-SNIB</td><td>81,603</td><td>8,811,744</td></tr><tr><td>GBIF-US a</td><td>4,403</td><td>775,210</td></tr><tr><td colspan=\"3\">SPECIES' base operation is to count co-occurrences between</td></tr><tr><td colspan=\"3\">variables-a computationally expensive task. The direct data repre-</td></tr><tr><td colspan=\"3\">sentation for a set of n variables on a w \u00d7 h grid is a w \u00d7 h \u00d7 n Boolean</td></tr><tr><td colspan=\"3\">matrix of presences which being both large and sparse is unmanage-</td><td>Many ecological modeling applications consist of a downloadable</td></tr><tr><td colspan=\"3\">able and inefficient. In SPECIES 1.0, we use two data representa-</td><td>software that is used to analyze a proprietary dataset. In contrast,</td></tr><tr><td colspan=\"3\">tions, the first using an incidence array assigned to each spatial cell</td><td>SPECIES uses a web-based application that is directly tied to large,</td></tr><tr><td colspan=\"3\">and the second being the dual of this cell-centered representation,</td><td>public datasets, thereby permitting analyses that would be impos-</td></tr><tr><td colspan=\"3\">where a set of geometry-id arrays are associated with each variable,</td><td>sible with smaller, bespoke datasets. SPECIES 1.0 has been con-</td></tr><tr><td colspan=\"3\">with each geometry-id pointing to an element of the space partition</td><td>structed on top of the National Biodiversity Information System</td></tr><tr><td colspan=\"2\">where the variable is present.</td><td/></tr><tr><td>3.2 | Architecture</td><td/><td/></tr><tr><td colspan=\"3\">SPECIES' architecture is modular and composed of three separate</td></tr><tr><td colspan=\"3\">components: a database builder, a data processing engine, and a</td></tr><tr><td colspan=\"3\">web client with a GUI. The database is currently built from two main</td></tr><tr><td colspan=\"3\">data sources: species record data and raster data. Some structure is</td></tr><tr><td colspan=\"3\">assumed on the record data, existence of taxonomical information,</td></tr><tr><td colspan=\"3\">record date, geographical information (longitude and latitude), and</td></tr><tr><td colspan=\"3\">a URL associated with each record. From this data, a series of SQL</td></tr><tr><td colspan=\"3\">scripts transform the data and construct the database. Raster data</td></tr><tr><td colspan=\"3\">are first manipulated into discrete form with Python and then inte-</td></tr><tr><td colspan=\"2\">grated into the PostgreSQL DB.</td><td/></tr></table>"
+            },
+            "TABREF1": {
+                "type_str": "table",
+                "num": null,
+                "text": "cells, that is, those cells the most favorable conditions, while decile one contains the lowest scoring cells, that is, those cells which represent the least favorable condition. The graph also disaggregates the total score average by the chosen groups of variables, showing the average by group.The deciles graph is interactive, each bar acting as a filter for the table just below. If the user clicks on a bar, the table lists the variables present in the corresponding decile. In this way, the user can examine which covariates are most associated with the niche of the target species and those which are most \"antiniche.\" Each row in this table corresponds to a variable and contains its name, followed by its and score values, and the percentage of cells in the decile that feature the variable.",
+                "content": "<table><tr><td/><td/><td>No. of bioclimatic variables</td><td>Levels</td><td>TA B L E 2 WorldClim bioclimatic variable description</td></tr><tr><td>WorldClim actual 1.4</td><td/><td>19</td><td>10</td></tr><tr><td colspan=\"2\">WorldClim future model HadGEM2-AO</td><td>19</td><td>10</td></tr><tr><td>1.4</td><td/><td/></tr><tr><td>of highest scoring</td><td/><td/></tr><tr><td colspan=\"3\">TA B L E 3 Number of grid cells by resolution</td></tr><tr><td>Resolution</td><td>MX</td><td>MX-US</td></tr><tr><td>8 km</td><td>107,776</td><td>378,176</td></tr><tr><td>16 km</td><td>26,944</td><td>94,544</td></tr><tr><td>32 km</td><td>6,736</td><td>23,636</td></tr><tr><td>64 km</td><td>1,684</td><td>5,909</td></tr></table>"
+            }
+        }
+    }
+}

@@ -1,0 +1,2767 @@
+{
+    "paper_id": "FaurbyandArau\u0301jo2018-Anthropogenicrangecontractionsbiasspeciesclimatechangeforecasts",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:26:13.561788Z"
+    },
+    "title": "",
+    "authors": [],
+    "year": "",
+    "abstract": "",
+    "pdf_parse": {
+        "paper_id": "FaurbyandArau\u0301jo2018-Anthropogenicrangecontractionsbiasspeciesclimatechangeforecasts",
+        "_pdf_hash": "",
+        "abstract": [],
+        "body_text": [
+            {
+                "text": "lobal warming is causing a major redistribution of life on earth 1 . Recent analyses have identified climate change as the seventh most dangerous threat to species on the International Union for Conservation of Nature (IUCN) Red List and it has been listed as a cause of threat for 19.4% of all species that are listed as near-threatened or threatened 2 . Another study has suggested that global warming could lead to extinction of as much as one in six of all known species 3 . Despite the plethora of existing forecasts, there is consensus that modelling of climate-change effects on large numbers of species distributions is difficult, because there are many uncertainties 4 and factors acting in concert, several of which are unaccounted for in modelling methods 5 . Independent groundtruthing of the models is also often impossible 6 and it adds to the problem that forecasts are often based on models that examine correlations between species distributional data and environmental data. As such, projections are highly contingent on the quality of the data and the models.",
+                "cite_spans": [
+                    {
+                        "start": 65,
+                        "end": 66,
+                        "text": "1",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 352,
+                        "end": 353,
+                        "text": "2",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 475,
+                        "end": 476,
+                        "text": "3",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 676,
+                        "end": 677,
+                        "text": "4",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 767,
+                        "end": 768,
+                        "text": "5",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 837,
+                        "end": 838,
+                        "text": "6",
+                        "ref_id": "BIBREF5"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "G",
+                "sec_num": null
+            },
+            {
+                "text": "Species distribution data, in particular, can be problematic. For example, if species are absent from parts of their potential distribution potential owing to dispersal limitation or biotic interactions, such absence might lead to truncation of species-climate relationships 7 , thus preventing models from accurately projecting climatechange effects on their distributions 8 . Less frequently acknowledged, however, is that humans can also cause species to be absent from large portions of their distributions owing to human-induced local or regional extinctions 9, 10 . Therefore, human modification of species distributions can lead to pronounced biases in forecasts of climate-change effects on biodiversity.",
+                "cite_spans": [
+                    {
+                        "start": 275,
+                        "end": 276,
+                        "text": "7",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 374,
+                        "end": 375,
+                        "text": "8",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 564,
+                        "end": 566,
+                        "text": "9,",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 567,
+                        "end": 569,
+                        "text": "10",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "G",
+                "sec_num": null
+            },
+            {
+                "text": "Comprehensive quantification of human impacts on species ranges is difficult to characterize, because humans have been modifying natural ecosystems and species distributions almost worldwide since modern Homo sapiens sapiens moved out of Africa in the Late Pleistocene epoch 10 , and potentially in Africa throughout the Pleistocene epoch 11 . However, anthropogenic post-Columbus range contractions are reasonably well-documented for many large mammals in North America 9 . The extent of historical human modification of species ranges is such that, on a global scale, current range sizes are better predicted by human population growth and population density than by biological traits, such as diet or body size 12 . Similarly, the empirical distribution of body masses around the globe is closer to theoretical expectation when human effects on distributions are taken into account than when they are not 13 . Overall, evidence suggests that a large fraction of all species ranges have had their ranges reduced owing to human impacts 10 .",
+                "cite_spans": [
+                    {
+                        "start": 275,
+                        "end": 277,
+                        "text": "10",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 339,
+                        "end": 341,
+                        "text": "11",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 471,
+                        "end": 472,
+                        "text": "9",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 714,
+                        "end": 716,
+                        "text": "12",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 908,
+                        "end": 910,
+                        "text": "13",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 1037,
+                        "end": 1039,
+                        "text": "10",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "G",
+                "sec_num": null
+            },
+            {
+                "text": "We investigated the consequences of anthropogenic range contractions on our ability to estimate species niches and the effects of this on estimated new ranges under climate change using large mammals (> 1 kg) in North America. These animals are particularly well-suited for such analyses, because most of their range declines are both recent and well-documented. We acknowledge that by using the pre-Columbus ranges as a baseline, we are almost certainly underestimating the magnitude of anthropogenic modifications of the study animals for two reasons. First, the historical distributions of the extant mammals in North America that we analyse were probably influenced by the extinctions of predators and competitors during the Late Pleistocene/Early Holocene megafauna extinctions, which were at least partially anthropogenic in nature (for example, see refs 14, 15 ). Second, it seems unlikely that the regionally high population density in pre-Columbus North America did not influence species distributions for some of the larger mammals, especially given that some ancient Native American cultures reportedly caused sufficient habitat degradation to cause their own collapse 16 . Our main interest is to investigate the effects of input species distribution data on forecasts of global-warming effects on biodiversity and, more specifically, investigate potential improvements caused by the inclusion of historic occurences in such forecasts.",
+                "cite_spans": [
+                    {
+                        "start": 861,
+                        "end": 864,
+                        "text": "14,",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 865,
+                        "end": 867,
+                        "text": "15",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1180,
+                        "end": 1182,
+                        "text": "16",
+                        "ref_id": "BIBREF15"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "G",
+                "sec_num": null
+            },
+            {
+                "text": "Models that were fit on the basis of only contemporary records performed substantially worse than models that included historical Anthropogenic range contractions bias species climate change forecasts S\u00f8ren Faurby 1,2,3 * and Miguel B. Ara\u00fajo 3, 4, 5 Forecasts of species range shifts under climate change most often rely on ecological niche models, in which characterizations of climate suitability are highly contingent on the species range data used. If ranges are far from equilibrium under current environmental conditions, for instance owing to local extinctions in otherwise suitable areas, modelled environmental suitability can be truncated, leading to biased estimates of the effects of climate change. Here we examine the impact of such biases on estimated risks from climate change by comparing models of the distribution of North American mammals based on current ranges with ranges accounting for historical information on species ranges. We find that estimated future diversity, almost everywhere, except in coastal Alaska, is drastically underestimated unless the full historical distribution of the species is included in the models. Consequently forecasts of climate change impacts on biodiversity for many clades are unlikely to be reliable without acknowledging anthropogenic influences on contemporary ranges. records in predicting fossil occurrences, highlighting that the contemporary records do not adequately capture species niches.",
+                "cite_spans": [
+                    {
+                        "start": 243,
+                        "end": 245,
+                        "text": "3,",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 246,
+                        "end": 248,
+                        "text": "4,",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 249,
+                        "end": 250,
+                        "text": "5",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Climatic hind-casting",
+                "sec_num": null
+            },
+            {
+                "text": "In our analysis, 36 of the 48 species had a sufficient number of fossil locations to analyse model performance for hind-casting and had significantly higher suitability in the fossil sites than in the pseudo-absence sites (Supplementary Table 1 ). Analyses of the results of model hind-casting was restricted to these 36 species. For 28 of these 36 species, the models based on historical records were better at predicting fossil occurrences than the ones that were based on contemporary records (the difference between the suitability between fossil and non-fossil sites for the model based on historical records were higher than the differences for the models based on contemporary records) ( Fig. 1 ; P = 6.0 \u00d7 10 \u22124 , two-sided binomial test). For 29 species, the models based on all records were better than the models based on contemporary records (P = 3.1 \u00d7 10 \u22124 , two-sided binomial test), and for 24 species, models that were based on all records, but sub-sampled to remove differences in sample size, were better than models for contemporary records (P = 0.065, two-sided binomial test).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 237,
+                        "end": 244,
+                        "text": "Table 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 695,
+                        "end": 701,
+                        "text": "Fig. 1",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Climatic hind-casting",
+                "sec_num": null
+            },
+            {
+                "text": "There was only a small difference in the fit of the models based on current or historical records for species with the largest number of fossils ( Fig. 1 ). This is probably caused by a combination of two separate factors. First, species with the most records are very widespread and a larger fraction of the apparent absences in the fossil sites of these species may therefore be false negatives than in more range-restricted species. This makes comparisons between presences and pseudo-absences especially problematic for these species and could obscure any effect if it was present. Second, the species that are the most recorded are generally habitat generalists that may be rather resistant to antropogenic effects. In this regard, it is noteworthy that only one of the five most recorded species has a noticeable improvement in the fit based on historical records and the same species (Antilocapra americana)",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 147,
+                        "end": 153,
+                        "text": "Fig. 1",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Climatic hind-casting",
+                "sec_num": null
+            },
+            {
+                "text": "is the only one with evidence of largescale anthropogenic range contraction (ref. 10 , Supplementary Table 1 ).",
+                "cite_spans": [
+                    {
+                        "start": 82,
+                        "end": 84,
+                        "text": "10",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 87,
+                        "end": 108,
+                        "text": "Supplementary Table 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Climatic hind-casting",
+                "sec_num": null
+            },
+            {
+                "text": "Models based on contemporary records alone led to marked underestimations of future ranges, relative to models that included historical records. When based on contemporary records alone, high overall climate suitability (the sum of suitability across all species, excluding suitabilities below 0.25) in 2070 was only predicted in a narrow coastal band in northwestern North America, whereas suitability across species was predicted to be very low in particular in the more continental parts of North America (Fig. 2) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 508,
+                        "end": 516,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Climatic forecasting",
+                "sec_num": null
+            },
+            {
+                "text": "For models that include historical as well as contemporary records, the coastal band in northwestern North America is still predicted to be the one with the highest summed climate suitability across species but the overall gradient is much shallower and relatively high suitability scores are also predicted in large areas in the southern United States and Mexico (Fig. 2) . The difference between baseline predictions and future projections (2070), however, is less affected by species distributions data, because the reduction in predicted suitability is similar for both models (Fig. 2) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 364,
+                        "end": 372,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 581,
+                        "end": 589,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Climatic forecasting",
+                "sec_num": null
+            },
+            {
+                "text": "The reduction in future suitability for models based on contemporary records alone was also seen in the predictions for the individual species, suggesting that climate-change-related threats might be smaller than they appear based on contemporary records. Predicted range (the sum of the product of the suitability of each cell and the area of the cell within continental North America) was smaller for 37 out of 48 species when comparing models based on contemporary and historical records or contemporary records and all records (P = 2.2 \u00d7 10 \u22124 , two-sided binomial test, the estimated suitable area for each species is shown in Supplementary Table 2) . The difference was less pronounced when comparing the changes in predicted range between contemporary and 2070 climate for the different sets of input data, which may be because the ranges based on contemporary records were generally predicted to be smaller for both contemporary and 2070 climate estimates. The ratio between the 2070 and current predicted range (that is, the predicted relative decline) only showed larger declines (or smaller increases) for 28 out of 48 species when comparing models for contemporary versus historical records (P = 0.3123, two-sided binomial test) or 31 out of 48 when comparing contemporary records with all records (P = 0.059, two-sided binomial test).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 646,
+                        "end": 654,
+                        "text": "Table 2)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Climatic forecasting",
+                "sec_num": null
+            },
+            {
+                "text": "The overall patterns were similar for all global-warming scenarios, although the difference between the current and future diversity patterns were smaller based on the scenarios that assumed smaller amounts of global warming (Fig. 2, Supplementary Figs. 1-3 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 225,
+                        "end": 257,
+                        "text": "(Fig. 2, Supplementary Figs. 1-3",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Climatic forecasting",
+                "sec_num": null
+            },
+            {
+                "text": "We demonstrate that the size of both future and contemporary suitable areas is underestimated and that models are worse at predicting fossil occurrences relative to models that include historical records. Therefore, predictions based only on contemporary records lead to biased results. Why do such biases arise? Model predictions generated strictly from historical records were generally similar to predictions generated with historical and contemporary records combined. By contrast, model predictions generated with the contemporary record were very different from predictions using all records combined. The differences between models using current or all records could potentially be attributed to sample size. However, such a proposition would fail to explain the similarity between results from historical and all records, and importantly it also fails to explain why we also observe better predictions for the occurrences of fossils based on historical records (a total of 34,689 records) relative to the models only using current records (a total of 45,518 records). The differences are thus best assignable to human modifications of species realized niches. The problem that we identify here For all species, the improvement in suitability was calculated for fossil sites relative to non-fossil sites. The y axis defines the difference in improvement for models based on historical and contemporary records. A positive value represents models based on historical records that perform better than models based on contemporary records when hind-casted to predict fossil occurrences. The x axis is the number of fossil occurrences for each species. A horizontal black line separates the 28 species for which the model based on historical records performed best from the 8 species for which the model based on contemporary records performed best. Points are coloured by taxonomic group (Carnivora in red, Artiodactyla in grey, and the rest in blue) to highlight that the pattern is general and not restricted to a particular taxonomic clade. Silhouettes reproduced with permission from Tracy A. Heath (bear and buffalo) and Sarah Werning (rabbit).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "could in principle be handled by comparing correlative models and mechanistic models such as those described in ref. 17 , since the high similarity between the two sets of predictions would guarantee that humans have not caused a truncation of the niche. This approach would however not be able to distinguish niches that are truncated by humans from niches that are truncated by natural factors such as biotic interactions.",
+                "cite_spans": [
+                    {
+                        "start": 117,
+                        "end": 119,
+                        "text": "17",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Our results suggest that global warming is a smaller problem for North American mammals than it initially appears, since the predicted future suitable areas were larger when incorporating historical records for the vast majority of the species. While global warming undoubtedly is a major conservation problem and may cause a severe humanitarian crisis, our results suggest that some of the analyses estimating the proportion of species threatened by this factor (for example, refs 2, 3 ) may overestimate the magnitude of the threat; at least if the results from North America can be extrapolated to other taxa and geographical areas. We cannot at present know the extent to which such extrapolation is justifiable. There is little reason to assume that the effect is restricted to North America (although we may lack the needed historical range data to show this for other continents), but different taxonomical groups may be influenced to different extents. Larger mammals, such as those on which we focus here, may require larger natural areas making biases even at coarse scales as those used here substantial. However, at least on a medium scale (with cell width of 2-8 km), it has recently been shown that markedly biased estimates of niches of common European trees were produced unless anthropogenic habitat modifications were incorporated into the models 18 .",
+                "cite_spans": [
+                    {
+                        "start": 482,
+                        "end": 484,
+                        "text": "2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 485,
+                        "end": 486,
+                        "text": "3",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 1365,
+                        "end": 1367,
+                        "text": "18",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "A recent study 19 has highlighted that a large fraction of the globally threatened mammals may already be influenced by global warming in parts of their range, which runs counter to our results and could suggest that many species may be more threatened than was initially apparent. We note, however, that the two studies focus on different time scales, because our analysis focusses on future threats whereas the previous study 19 focussed on current trends. The combined take-away message from this paper and the previous study may therefore be that global warming analyses do not consistently over or underestimate the consequences of climate change, but rather that we may frequently misidentify which species are threathened the most.",
+                "cite_spans": [
+                    {
+                        "start": 15,
+                        "end": 17,
+                        "text": "19",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 428,
+                        "end": 430,
+                        "text": "19",
+                        "ref_id": "BIBREF18"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Our results are also important for designing networks of protected areas. Concerns have been raised about the ability of the currently protected areas to protect the worlds' species under climate change 20 and an early modelling study has explicitly addressed this issue for North American mammals 21 . However, these studies have not incorporated the anthropogenic modifications of ranges that we focus on here, and this incorporation may greatly increase the conservation value of several areas. In our study, this is, for example, the case for the southeastern United States, which saw a pronounced increase in overall suitability when historical records were included in the models (Fig. 2) .",
+                "cite_spans": [
+                    {
+                        "start": 203,
+                        "end": 205,
+                        "text": "20",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 298,
+                        "end": 300,
+                        "text": "21",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 686,
+                        "end": 694,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "When trying to understand the regional change in conservation value, we must highlight that we implicitly assume that human pressures on a given site will remain constant irrespective of climatic change. Geographical changes in human pressures will clearly be very important in some areas (for example, ref. 22 ), but we consider our assumption to be valid at least for a North American context. We do this because many types of human disturbances, such as cities or roads, will probably not be moved in the future, unless climate change is really severe and because most remaining natural areas in North America are under environmental protection, making future transformation unlikely irrespective of climatic changes.",
+                "cite_spans": [
+                    {
+                        "start": 308,
+                        "end": 310,
+                        "text": "22",
+                        "ref_id": "BIBREF21"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "We have interpreted our results in terms of anthropogenic modifications of species ranges, but we note that part of the results could also arise because the same locality sampled at different time periods represents different parts of the species environmental niche. Even for species without changes in ranges, incorporation of historical records may therefore increase information on the species niche and therefore the precision of the results. The importance of such temporal variation was recently highlighted in a study of temporal variation in estimated niches of European and North American trees 23 , and we cannot rule out that this could explain part of the superiority of the models based on historical data in explaining fossil occurrences relative to models based on contemporary records. However, we note that it cannot create the large predicted differences in the consequences of global warming, as the models based on contemporary records are based on a warmer climate, which if anything should reduce the effects of global warming relative to the models based on the historical records from an, on average, colder climate. Although our analysis shows that biased estimates of species distributional changes under climate change would be inferred when only the current ranges were used for the larger North American mammals, it could be argued that such an effect might be restricted to large vertebrates as they are among the organisms most influenced by humans. The argument holds true for direct effects on species range, for example, through hunting 10 , but it may not necessarily be true for secondary effects that are often mediated by the loss of biotic interactions with larger species. Substantial evidence (for example, refs [24] [25] [26] ) suggests that mammalian communities may be an important factor governing the overall vegetation structure. It therefore seems plausible that the misidentifications of future ranges that will arise for large mammals based on contemporary records, as we show here, could also lead to substantial errors for other groups due to the substantial ability of large mammals to modify their environment.",
+                "cite_spans": [
+                    {
+                        "start": 605,
+                        "end": 607,
+                        "text": "23",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 1754,
+                        "end": 1758,
+                        "text": "[24]",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1759,
+                        "end": 1763,
+                        "text": "[25]",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1764,
+                        "end": 1768,
+                        "text": "[26]",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Analysis of species historical ranges showed that when major range contractions occurred, populations often persisted along the edges of species ranges 27 . These findings are noteworthy, because they contradict the longstanding view that species would tend to favourably persist near the core of their ranges 28 . However, one of the consequences of species persisting near range edges when exposed to massive range contractions is that assessments of climate niches based on extant distributions is likely to be truncated 7 , potentially leading to biases in model projections under climate change 8 . While studies involving hind-casting projections of species distributions have often involved multiple historical datasets to reduce biases inherent to modelling ranges using temporal snapshots of data (for example, ref. 29 ), forecasting studies have rarely used historical sources of data to reduce the biases. One reason is that historical species range data are scarce and typically restricted to a few groups of organisms, such as mammals. An explicit incorporation of older records will, therefore, seldom be possible and researchers will often be forced to rely on contemporary records alone. If researchers are forced to rely on contemporary records as they often are, we suggest that they consider spatially explicit models, as these recently have been shown to be able to identify plausible areas in which absences are probably caused by anthropogenic rather than climatic factors 30 . Unless alternative measures (such as the spatially explicit models) are adopted to reduce biases related to characterizations of species-climate relationships from highly modified ranges, models of global-change effects on species ranges will carry substantial biases as those that were found here for North American mammals.",
+                "cite_spans": [
+                    {
+                        "start": 152,
+                        "end": 154,
+                        "text": "27",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 310,
+                        "end": 312,
+                        "text": "28",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 524,
+                        "end": 525,
+                        "text": "7",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 600,
+                        "end": 601,
+                        "text": "8",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 825,
+                        "end": 827,
+                        "text": "29",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 1495,
+                        "end": 1497,
+                        "text": "30",
+                        "ref_id": "BIBREF29"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Methods, including statements of data availability and any associated accession codes and references, are available at https://doi. org/10.1038/s41558-018-0089-x.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Method summary. We analysed the climatic niches of 48 terrestrial North American mammals larger than 1 kg and including only the species with more than 10 reliable and spatially separated presence records (See 'Recent and historical presence data' and 'Fossil presence data'). The requirement for spatially separated records was defined to reduce pseudo-replication owing to spatial autocorrelation. Specifically, we restricted the use of presence records to only those that were located more than 55 km apart. To assess the consequences of anthropogenic modifications of forecasts of climate-change effects on potential distributions of species, we generated three sets of models: with (1) historical presence records (non-fossil GBIF (Global Biodiversity Information Facility) records older than 1965 (older than 50 years when we downloaded the records)); (2) contemporary presence records (from 1965 onwards); and (3) all records combined. To correct for differences in sample sizes between historical records and contemporary ones (the latter with more presence records available), we generated model runs after subsampling the data to equalize the number of records used in both iterations.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "For each species, we fit eight ecological niche models using Biomod2 31 based on the default parameters (see 'Niche modelling') and using four climatic predictors known to impose physiological constraints on species (maximum temperature, temperature seasonality, minimum precipitation and precipitation seasonality; see 'Extant environmental data' , 'Fossil environmental data' and 'Future environmental data'). Once models were fit, the ensemble of projections from all eight models was combined into a weighted average consensus 32 for each model according to the level of matching between predicted distributions and observed distributions in the test data using the 'True Skill' statistic 33 . We generated six separate sets of ensembles of models based on differences in pseudo-absence selection (different combinations of whether or not the pseudo-absences are randomly distributed in climate space or geographical space or cells in specific parts of the climate and or geographical space are more likely to be selected; see 'Pseudo-absences'). We conducted a principal component analysis (PCA) on the difference in predicted suitability between contemporary and future climate based on each one of these six criteria and identified two clusters of models 34 . The first of the clusters contained results from four of the six pseudo-absence criteria and was grouped on the first axis of the PCA, thus accounting for the greatest proportion of the variation brought by pseudo-absence selection. We obtained consensuses for each cluster by un-weighted average. For all analyses, we only discuss the results from the first cluster, as the models it is consisted of account for the greatest proportion of the variance and hence represents the greatest consensus.",
+                "cite_spans": [
+                    {
+                        "start": 693,
+                        "end": 695,
+                        "text": "33",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 1262,
+                        "end": 1264,
+                        "text": "34",
+                        "ref_id": "BIBREF34"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Once modelled climate suitability surfaces for species were generated, we conducted two sets of analyses. First, we projected climatic suitability into 2070 and, for each cell, calculated the sum of the climatic suitability scores for all species both in the baseline and in 2070, excluding species with suitability scores below 0.25, in order to estimate the effect size of ignoring historical records in global warming projections.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Second, we hind-casted projections to examine whether anthropogenic modifications of mammalian ranges decrease the ability of models to infer fossil occurrences (See 'Predictions of fossil occurrences'). In other words, we tested for the effects of human modification of ranges in ecological niche model projections.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Input data. Recent and historical presence data. We modelled the distribution of all North American terrestrial mammals larger than 1 kg (based on weight data from ref. 35 , with more than 10 separate reliable occurrences (records that remained after cleaning as discussed in detail below), and for which distributions do not extend to South America. Polar bears (Ursus maritimus) and sea otters (Enhydra lutris) were considered marine mammals and were therefore excluded from the analysis. Applying these criteria, we obtained 48 species (20 carnivores, 10 ungulates, 9 rodents, 8hares and rabbits and 1 marsupial). We downloaded all of the available records for these species from the Global BioDiversity Information Facility (GBIF, www.gbif.org; downloaded 20 May 2015) and cleaned the distributional data.",
+                "cite_spans": [
+                    {
+                        "start": 169,
+                        "end": 171,
+                        "text": "35",
+                        "ref_id": "BIBREF35"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "We first removed any record with the 'basisOfRecord' (a column header in GBIF data) that was scored as fossil or unknown, and any record where both latitude and longitude were given without decimals. Second, we manually inspected the GBIF record (and the reference if given) for all recent records (1965 or later) occurring outside the contemporary range as estimated by IUCN 36 , and all records occurring outside this current range or the historical range as estimated by in ref. 10 (which generally followed the ranges from the taxonomic treatment of all North American mammals 37 ). Third, we deleted records if they corresponded to specimens noted as captive specimens, subfossil occurrences, or if they were from populations released outside their historically known range or if the locality given corresponds to known captive populations or non-native populations. The motivation for this third exclusion criterion was that we wanted to compare the patterns across species and, therefore, wanted to standardize the treatment of all species as much as possible, which is difficult if non-native ranges are included. Fourth, we deleted observations outside the historical ranges (for older records) or current range (for contemporary ones) if they were only based on indirect evidence, such as footprints, records outside the range for which coordinates matched museums in which collections are deposited as well as a few records so far outside the historical and or current range of the species that we judged that they probably represented errors.",
+                "cite_spans": [
+                    {
+                        "start": 376,
+                        "end": 378,
+                        "text": "36",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 482,
+                        "end": 484,
+                        "text": "10",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 581,
+                        "end": 583,
+                        "text": "37",
+                        "ref_id": "BIBREF37"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "For closely related allopatric species pairs or groups with current or historically debated taxonomy, such as the grey and red wolf (Canis lupus and Canis rufus), we preferred the polygons for the taxonomy and the GBIF data for date and location, for example, a hypothetical record of Canis lupus from Florida would be scored as a Canis rufus. A full list of all deviations from GBIF can be found in Supplementary Data 1. In addition, we deleted all occurrences outside continental North America (that is, from Greenland, Asia or Europe), because our analysis focuses on the consequences of anthropogenic range contractions and the differences in human history in these other areas would otherwise make it difficult to compare the pattern for North American endemics with species also that also occur outside North America.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "To reduce spatial autocorrelation, we only used records of the species with a minimum distance of 55 km between them, which is equal to the distance between the midpoint of two adjoining cells with the same longitude using our resolution for climatic data of 0.5 by 0.5 degrees. We generated 50 such sets of record for each species by selecting records in random order until no records remained that were more than 55 km from all previously selected records.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Fossil presence data. In one set of analyses, we hind-casted species distribution models to compare known fossil or sub-fossil occurrences with predicted suitability of the species in question. For these, we downloaded and cleaned all records of sub-fossil or fossil mammals from the Neotoma database 38 with a maximum age of 120,000 years or less. The taxonomy of this database was standardized to meet that of ref. 39 , which follows IUCN for extant species. Such standardization is trivial when the taxonomy used by Neotoma recognizes more species than the one from ref. 39 , as is the case for bison, for which we considered all extinct forms to be chronospecies of the extant Bison bison or for Martes nobilis, which we considered a synonym of Martes americana. It is more problematic when our taxonomy is recognizing taxa considered conspecific by Neotoma. The latter is, for example, the case for the red wolf C. rufus, which Neotoma consider a subspecies of Canis lupus. In this case, we could only assign fossils identified at subspecies level (as Canis lupus rufus) to Canis rufus. We assigned the remainder to Canis lupus, but we acknowledge that a small proportion of the records only identified to Canis lupus without subspecies designation may actually belong to Canis rufus instead. Records only identified to genus were included when we only accept one species to these genera (for example, records identified as Antilocapra sp.), however, these were excluded when they belong to genera with multiple species. We only analysed species with at least three fossil occurrences and therefore only used 42 out of 48 species described here.",
+                "cite_spans": [
+                    {
+                        "start": 301,
+                        "end": 303,
+                        "text": "38",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 417,
+                        "end": 419,
+                        "text": "39",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 574,
+                        "end": 576,
+                        "text": "39",
+                        "ref_id": "BIBREF39"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Extant environmental data. All environmental variables were estimated at a 0.5-by-0.5-degree resolution. We chose to use four climatic parameters: maximum temperature (temperature of the warmest month); temperature seasonality (the difference between the temperature of the warmest and coldest month); minimum precipitation (precipitation of the driest month); and precipitation seasonality (the difference between the precipitation of the wettest and driest month). Note that the definitions of temperature seasonality and precipitation seasonality used here are different from the standard versions from BioClim, although they are directly calculable as the differences between standard BioClim variables.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "The variables were chosen, because they were probably biologically meaningful, because they were only weakly correlated, and because they potentially represent environmental characteristics that limit distributions. Maximum temperature may directly limit the distribution of species as specific life history traits are needed for survival in warm habitats and temperature seasonality was selected as the temperature parameter with the lowest correlation to maximum temperature in North America (r 2 = 0.21, compared to 0.38-0.87 for the other variables). Likewise, minimum precipitation may require unique adaptations and precipitation seasonality was selected as it has a much lower correlation to minimum precipitation than the remaining precipitation parameters (r 2 = 0.03, compared to 0.34-0.99 between minimum precipitation and any of the standard BioClim parameters). The two precipitation parameters were log-transformed prior to analysis.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "We calculated the environmental variables as the mean of a moving window of a 31-year period based on data from the Climate Research Unit 40 , which contains data from 1901-2013. That is, an occurrence from 1930 would be climatically related to the average of the period 1915-1945. Records for 2014 and 2015 (3,112 out of a total of 97,102 records), and records from 1998-2013 (a total of 18,427 records) were based on 1983-2013, whereas records older than 1900 (a total of 1,197 records) and records between 1900 and 1915 (a total of records 3,007) were estimated based on the period 1901-1931. Records without known age (a total of 16,895 records) were based on the average of the entire period (1901) (1902) (1903) (1904) (1905) (1906) (1907) (1908) (1909) (1910) (1911) (1912) (1913) , but these records were selected last and only used when their locality was more than 55 km from dated records. For pseudo-absences (see below), climatic data were consistently used for the entire period .",
+                "cite_spans": [
+                    {
+                        "start": 138,
+                        "end": 140,
+                        "text": "40",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 697,
+                        "end": 703,
+                        "text": "(1901)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 704,
+                        "end": 710,
+                        "text": "(1902)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 711,
+                        "end": 717,
+                        "text": "(1903)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 718,
+                        "end": 724,
+                        "text": "(1904)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 725,
+                        "end": 731,
+                        "text": "(1905)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 732,
+                        "end": 738,
+                        "text": "(1906)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 739,
+                        "end": 745,
+                        "text": "(1907)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 746,
+                        "end": 752,
+                        "text": "(1908)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 753,
+                        "end": 759,
+                        "text": "(1909)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 760,
+                        "end": 766,
+                        "text": "(1910)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 767,
+                        "end": 773,
+                        "text": "(1911)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 774,
+                        "end": 780,
+                        "text": "(1912)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 781,
+                        "end": 787,
+                        "text": "(1913)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Fossil environmental data. The climatic conditions for fossils were identified through a two-step procedure. First, we estimated the climate corresponding to each fossil site each year within the last 120,000 years based on loess regressions (conducted in R; www.r-project.org) using five time-point climatic simulations (current climate, that is, average climate from 1901-2013; 6,000 years before present (bp, taken as before 1950) 41 , 21,000 years bp 42 , 30,000 years bp 42 , 42,000 years bp 42 and 120,000 years bp 43 ) as well as age and \u03b4 18 O isotope data from the NGRIP1 core in Greenland (downloaded from the University of Copenhagen Data homepage 44 and originating from multiple papers [45] [46] [47] [48] [49] ). Second, we calculated the expected climatic conditions at the fossil site as the mean of the climatic conditions for each year between the minimum and maximum age of the fossil site. For maximum temperature and temperature seasonality, we took the mean, and for minimum precipitation and precipitation seasonality, we took the mean of the logtransformed data rather than the logarithm to the mean. In addition, we calculated the sum of the standard deviation for maximum temperature and the standard deviation of temperature seasonality for the values for the fossil site, which we will refer to as the 'dating-related uncertainty' .",
+                "cite_spans": [
+                    {
+                        "start": 521,
+                        "end": 523,
+                        "text": "43",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 659,
+                        "end": 661,
+                        "text": "44",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 699,
+                        "end": 703,
+                        "text": "[45]",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 704,
+                        "end": 708,
+                        "text": "[46]",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 709,
+                        "end": 713,
+                        "text": "[47]",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 714,
+                        "end": 718,
+                        "text": "[48]",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 719,
+                        "end": 723,
+                        "text": "[49]",
+                        "ref_id": "BIBREF47"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "The fossil sites generally contained fossil assemblages over a relatively long time period and occasionally over a wide array of climatic conditions. Some of the species may only have been present during a relatively small part of the period and our single measurement of the climatic conditions at each site may therefore not be representative of the conditions that they experienced and may not even be within the niche of the cell. This problem will be worse for sites with the largest dating-related uncertainty and would therefore be mitigated by removing these. In order to do this without removing many fossil sites unnecessarily, causing further problems related to small sample sizes, we identified the dating-related uncertainty maximizing (mean(suitability) -standard error(suitability)), when only calculated for samples with a dating-related uncertainty lower than that value. This optimization was carried out for models based on contemporary records, which may cause a small bias favouring the performance of models based on contemporary records relative to models based on historical records. Our aim is to estimate whether models based on historical records perform better than models based on contemporary ones and this therefore causes our analyses to be more conservative.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Future environmental data. Projections were based on four scenarios from the IPCC Intergovernmental Panel for Climate Change), the RCP2.6, 4.5, 6.0 and 8.5 scenarios (according to ref. 50 ) downloaded from Worldclim 41 . In the main text, we focussed on the worst-case scenario (the RCP 8.5 scenario), corresponding to an average increase in annual temperature of 4.5 \u00b0C. There is little evidence for a sharp decline in fossil-fuel use, which would be needed for the less severe options, and this business-as-usual scenario may become increasingly more likely. In addition, we focussed on this scenario to estimate the realistically largest difference between current and projected climate.",
+                "cite_spans": [
+                    {
+                        "start": 185,
+                        "end": 187,
+                        "text": "50",
+                        "ref_id": "BIBREF48"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Pseudo-absences. We generated pseudo-absences for each of the 50 sets of presence occurrences for each species. Since a large number of pseudo-absences often increase precision in models 51 , we used 10 times as many pseudo-absences as presences in our models for most species. We, however, used a lower number of pseudo-absences for some very widespread species and never selected more than half of all possible cells as pseudo-absences. In the cases in which we used less than 10 times the number of presences as pseudo-absences we kept the ratio between the number of presences and pseudo-absences constant in the analysis of historical records, current records and all records (see below).",
+                "cite_spans": [
+                    {
+                        "start": 187,
+                        "end": 189,
+                        "text": "51",
+                        "ref_id": "BIBREF49"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "The selection of pseudo-absences for species distribution modelling is complicated, despite several studies having attempted to find the optimal method (for example, ref. 51 ). The problem is not made easier in our case, because we are attempting to model the consequences of the post-Columbus range contractions, but only have very few occurrences pre-1900 and none pre-1850, whereas we do have estimated range polygons at the arrival of Europeans in Northern America. We, therefore, analysed the data using several different methods for selecting pseudo-absences.",
+                "cite_spans": [
+                    {
+                        "start": 171,
+                        "end": 173,
+                        "text": "51",
+                        "ref_id": "BIBREF49"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "We note that analyses that exclude range polygons will underestimate the effects of range contractions, because large parts of the range contractions occurred prior to the generation of the museum records that we use for presences, whereas methods relying on range polygons have been criticized, because selecting pseudoabsence points that are too dissimilar from presences results in models that over-predict the suitable area 52 . We chose to use six separate methods based on a set of 2 by 3 combinations of two climate selection criteria and three distancebased criteria.",
+                "cite_spans": [
+                    {
+                        "start": 428,
+                        "end": 430,
+                        "text": "52",
+                        "ref_id": "BIBREF50"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "For climate-based criteria, the pseudo-absences were either (1) randomly generated or (2) derived using an approach in which less suitable cells are more likely to be selected as pseudo-absences. The likelihood of selecting each cell as a pseudo-absence was weighted using an exponential distribution P = 1 \u2212 e \u2212d , where d is the inverse of the Mahalanobis distance to the centroid of the presences, rescaled so P varies between 1 and 0.1.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "For distance-based criteria, the pseudo-absences were categorized as either (1) cells without a presence record, (2) cells without any records or whose center was part of the range polygon (with the IUCN ranges used for current range and ranges from ref. 10 used for historical range and all occurrences), or (3) cells outside the ranges with the likelihood of selection being a function of the distance to the distribution of the species, so localities within dispersal distance of species but without species records are more likely to be selected. This was likewise done using an exponential distribution (P = 1\u2212 e\u2212 d ), where d was the minimum geographical distance to the range polygon or record of the species. Again, d was rescaled so P varied between 1 and 0.1. For the analysis using both environmental and geographical weighting of pseudo-absences, the weighing was multiplied so a theoretical cell with a maximum geographical distance to records, but whose environment was exactly equal to the centroid of the presences, would only have a 1% change of being selected relative to the most likely cell.",
+                "cite_spans": [
+                    {
+                        "start": 255,
+                        "end": 257,
+                        "text": "10",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "In order to recover the central tendency in the models based on the different criteria for pseudo-absences, we followed an approach similar to the one described previously 34 . We conducted a PCA of the difference between the average suitability for each species for all cells in continental North America (with the southern limit of the continent set at the Panama Canal) between current climate (the mean of the entire period from 1901-2013), and projected climate in 2070 (following the RCP8.5 scenario). There were two overall clusters from the six models (loading from the PCA can be seen in Supplementary Table 3 ). One cluster, hereafter referred to as the main cluster, contained four out of six models (the ones not allowing any pseudo-absence within the range polygon) and another contained the remaining two. Analyses were based on the unweighted average of the results for all criteria within a cluster. Only results based on the main cluster are shown in the main text and results based on the additional clusters are shown in the Supplementary Information (Supplementary Figs. 4-7 , Supplementary  Tables 4, 5 ). Model transferability is not necessarily a good predictor of model performance 6 . Consistent with previous tests and the analysis of consensus approaches 34, 53 , we however find that models that grouped with the main cluster, that is, accounted for the greatest proportion of model variation, were substantially better at predicting fossil occurrences than the models in the secondary cluster.",
+                "cite_spans": [
+                    {
+                        "start": 172,
+                        "end": 174,
+                        "text": "34",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1206,
+                        "end": 1207,
+                        "text": "6",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 1282,
+                        "end": 1285,
+                        "text": "34,",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1286,
+                        "end": 1288,
+                        "text": "53",
+                        "ref_id": "BIBREF51"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 597,
+                        "end": 618,
+                        "text": "Supplementary Table 3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1044,
+                        "end": 1094,
+                        "text": "Supplementary Information (Supplementary Figs. 4-7",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1097,
+                        "end": 1123,
+                        "text": "Supplementary  Tables 4, 5",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "\u00a9 2018 Macmillan Publishers Limited, part of Springer Nature. All rights reserved. NAture CliMAte ChANge | VOL 8 | MARCH 2018 | 252-256 | www.nature.com/natureclimatechange",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "\u00a9 2018 Macmillan Publishers Limited, part of Springer Nature. All rights reserved. NAture CliMAte ChANge | www.nature.com/natureclimatechange",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "NAture ClImAte CHANge",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "Acknowledgements S.F. was supported by the Danish Natural Science Research Council #4090-00227 and vetenskabsr\u00e5det (The Swedish research council) #2017-03862. M.B.A. acknowledges support from AAG-MAA/3764/2014 and the Spanish Research Council (CSIC) for his work and support from the Danish Natural Science Research Council to the Centre for Macroecology, Evolution and Climate (CMEC). We thank C. Bacon for helpful comments on an earlier version of the manuscript.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "acknowledgement",
+                "sec_num": null
+            },
+            {
+                "text": "The authors declare no competing interests.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Competing interests",
+                "sec_num": null
+            },
+            {
+                "text": "Supplementary information is available for paper at https://doi.org/10.1038/s41558-018-0089-x.Reprints and permissions information is available at www.nature.com/reprints.Correspondence and requests for materials should be addressed to S.F.Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.Data analysis. Niche modelling. We aimed to compare the niche estimated from contemporary records alone (1965 or younger), historical records alone (non-fossil records older than 1965), and all records combined. In order to remove effects of sample size when comparing models, an additional set of analyses was conducted based on all records but subsampled to have the same number of presences as the contemporary dataset. For each species, for each type of pseudo-absence, for each of the 50 sets of presences and pseudo-absences, we fitted eight separate models using the default parameters in Biomod2 31 (three regression-based models (generalized linear models, generalized additive models and multivariate adaptive regression splines), four machine-learning methods (artificial neural networks, Breiman and Cutler's random forest for classification, Classification tree Analysis and generalized boosting models) and a flexible discriminant analysis). Once fit, the resulting ensemble derived from all eight models was combined into a consensus projection with a 'True Skill Statistic' 33 -weighted average. Following ref. 32 , these initial models were estimated based on 75% of the data with the remaining 25% used to test the model, but, following refs 33,54, , the final predictions were based on 100% of the data.Climate-change predictions. In order to determine the effects of input-response data on climate-change analyses, we focussed on the overall patterns for all 48 species combined. For each cell, we calculated the sum of the suitabilites for all species in both the current and the 2070 climate, excluding species with suitabilities below 0.25.Predictions of fossil occurrences. We also hind-casted the species distribution models and looked at the ability of models to predict fossil occurrence patterns. For this, models were assessed by examining the difference between the projected climate suitability within fossil sites where occurrences were found and random hypothetical fossil sites treated as pseudo-absences (only including fossil sites with lower climatic uncertainty due to uncertain dating than the species-specific threshold for accepting presences) (hereafter we refer to this difference as \u0394 Suitability). Our restriction of pseudo-absences is similar to the approach in ref. 55 and reduces false negatives, because it guarantees that fossilization is possible at all potential pseudo-absence sites. We estimated the statistical significance of the \u0394 Suitability values as the fraction of randomly sampled fossil sites having as large an average suitability as the average suitability of the true fossil occurrences.For some of the species with the widest niche, such as grey wolves (C. lupus), only a small portion of the fossil sites may be outside the species niche and the frequency of false negatives may be very high. \u0394 Suitability values near zero for the most generalized species may therefore be non-informative, because of a large fraction of false absences. Likewise, \u0394 Suitability values near 0 may be essentially non-informative for species with a very low number of fossil records due to power issues. For comparisons of \u0394 Suitabilities between models constructed with different sets of records, we focussed on species that have a significant \u0394 Suitability based on all records on the basis of the main cluster of species distribution models (a total of 36 species). We report resulting values based on six additional species (which have at least three fossil records) in the Supplementary Tables  (Supplementary Tables 1, 4 ).Code availability. Computer code is available from the corresponding author upon request.Data availability. A full list of all modifications of records relative to the BGIF data is shown in Supplementary Data 1. All analyses are based on publically available data with clearly cited sources. Raw data and intermediate results are available from the corresponding author upon request.",
+                "cite_spans": [
+                    {
+                        "start": 980,
+                        "end": 982,
+                        "text": "31",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 1503,
+                        "end": 1505,
+                        "text": "32",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 1636,
+                        "end": 1642,
+                        "text": "33,54,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2689,
+                        "end": 2691,
+                        "text": "55",
+                        "ref_id": "BIBREF53"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 3903,
+                        "end": 3951,
+                        "text": "Supplementary Tables  (Supplementary Tables 1, 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Additional information",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Scenarios for global biodiversity in the 21st century",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Pereira",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Science",
+                "volume": "330",
+                "issue": "",
+                "pages": "1496--1501",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pereira, H. M. et al. Scenarios for global biodiversity in the 21st century. Science 330, 1496-1501 (2010).",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "The ravages of guns, nets and bulldozers",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Maxwell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Fuller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Brooks",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Watson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Nature",
+                "volume": "536",
+                "issue": "",
+                "pages": "143--145",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Maxwell, S. L., Fuller, R. A., Brooks, T. M. & Watson, J. E. M. The ravages of guns, nets and bulldozers. Nature 536, 143-145 (2016).",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Accelerating extinction risk from climate change",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Urban",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Science",
+                "volume": "348",
+                "issue": "",
+                "pages": "571--573",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Urban, M. C. Accelerating extinction risk from climate change. Science 348, 571-573 (2015).",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Methods and uncertainties in bioclimatic modelling under climate change",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Heikkinen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Prog. Phys. Geog",
+                "volume": "30",
+                "issue": "",
+                "pages": "751--777",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Heikkinen, R. K. et al. Methods and uncertainties in bioclimatic modelling under climate change. Prog. Phys. Geog. 30, 751-777 (2006).",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Beyond predictions: biodiversity conservation in a changing climate",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Dawson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Jackson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "House",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Prentice",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Mace",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Science",
+                "volume": "332",
+                "issue": "",
+                "pages": "53--58",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dawson, T. P., Jackson, S. T., House, J. I., Prentice, I. C. & Mace, G. M. Beyond predictions: biodiversity conservation in a changing climate. Science 332, 53-58 (2011).",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "How does climate change affect biodiversity?",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ara\u00fajo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Rahbek",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Ecology",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Science",
+                "volume": "313",
+                "issue": "",
+                "pages": "1396--1397",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ara\u00fajo, M. B. & Rahbek, C. Ecology. How does climate change affect biodiversity? Science 313, 1396-1397 (2006).",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Effects of restricting environmental range of data to project current and future species distributions",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Thuiller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Brotons",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ara\u00fajo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Lavorel",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Ecography",
+                "volume": "27",
+                "issue": "",
+                "pages": "165--172",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thuiller, W., Brotons, L., Ara\u00fajo, M. B. & Lavorel, S. Effects of restricting environmental range of data to project current and future species distributions. Ecography 27, 165-172 (2004).",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "How much do we overestimate future local extinction rates when restricting the range of occurrence data in climate suitability models?",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Barbet-Massin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Thuiller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Jiguet",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Ecography",
+                "volume": "33",
+                "issue": "",
+                "pages": "878--886",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barbet-Massin, M., Thuiller, W. & Jiguet, F. How much do we overestimate future local extinction rates when restricting the range of occurrence data in climate suitability models? Ecography 33, 878-886 (2010).",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Range contractions of North American carnivores and ungulates",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Laliberte",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Ripple",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Bioscience",
+                "volume": "54",
+                "issue": "",
+                "pages": "123--138",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Laliberte, A. A. & Ripple, W. J. Range contractions of North American carnivores and ungulates. Bioscience 54, 123-138 (2004).",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Historic and prehistoric human-driven extinctions have reshaped global mammal diversity patterns",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Faurby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Svenning",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Divers. Distrib",
+                "volume": "21",
+                "issue": "",
+                "pages": "1155--1166",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Faurby, S. & Svenning, J. C. Historic and prehistoric human-driven extinctions have reshaped global mammal diversity patterns. Divers. Distrib. 21, 1155-1166 (2015).",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Temporal change in functional richness and evenness in the eastern African Plio-Pleistocene carnivoran guild",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Werdelin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Lewis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "PLoS ONE",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Werdelin, L. & Lewis, M. E. Temporal change in functional richness and evenness in the eastern African Plio-Pleistocene carnivoran guild. PLoS ONE 8, e57944 (2013).",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Human pressures predict species' geographic range size better than biological traits",
+                "authors": [
+                    {
+                        "first": "Di",
+                        "middle": [],
+                        "last": "Marco",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Santini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Glob. Change Biol",
+                "volume": "21",
+                "issue": "",
+                "pages": "2169--2178",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Di Marco, M. & Santini, L. Human pressures predict species' geographic range size better than biological traits. Glob. Change Biol. 21, 2169-2178 (2015).",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Anthropogenic impacts weaken Bergmann's rule",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Faurby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ara\u00fajo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Ecography",
+                "volume": "40",
+                "issue": "",
+                "pages": "683--684",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Faurby, S. & Ara\u00fajo, M. B. Anthropogenic impacts weaken Bergmann's rule. Ecography 40, 683-684 (2017).",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Global late Quaternary megafauna extinctions linked to humans, not climate change",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Sandom",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Faurby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Sandel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Svenning",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Proc. R. Soc. B",
+                "volume": "281",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sandom, C., Faurby, S., Sandel, B. & Svenning, J. C. Global late Quaternary megafauna extinctions linked to humans, not climate change. Proc. R. Soc. B 281, 20133254 (2014).",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Robustness despite uncertainty: regional climate data reveal the dominant role of humans in explaining global extinctions of Late Quaternary megafauna",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Bartlett",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Ecography",
+                "volume": "39",
+                "issue": "",
+                "pages": "152--161",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bartlett, L. J. et al. Robustness despite uncertainty: regional climate data reveal the dominant role of humans in explaining global extinctions of Late Quaternary megafauna. Ecography 39, 152-161 (2016).",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Collapse: How Societies Choose to Fail or Succeed",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Diamond",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Diamond, J. Collapse: How Societies Choose to Fail or Succeed (Penguin Books, London, UK, 2005).",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Climate change impacts on tree ranges: model intercomparison facilitates understanding and quantification of uncertainty",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Cheaib",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Ecol. Lett",
+                "volume": "15",
+                "issue": "",
+                "pages": "533--544",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cheaib, A. et al. Climate change impacts on tree ranges: model intercomparison facilitates understanding and quantification of uncertainty. Ecol. Lett. 15, 533-544 (2012).",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "The economics of land use reveals a selection bias in tree species distribution models",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Ay",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Guillemot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Martin-Stpaul",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Doyen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Leadley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Glob. Ecol. Biogeogr",
+                "volume": "26",
+                "issue": "",
+                "pages": "65--77",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ay, J. S., Guillemot, J., Martin-StPaul, N., Doyen, L. & Leadley, P. The economics of land use reveals a selection bias in tree species distribution models. Glob. Ecol. Biogeogr. 26, 65-77 (2017).",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Species' traits influenced their response to recent climate change",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Pacifici",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Nat. Clim. Change",
+                "volume": "7",
+                "issue": "",
+                "pages": "205--208",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pacifici, M. et al. Species' traits influenced their response to recent climate change. Nat. Clim. Change 7, 205-208 (2017).",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Climate change threatens European conservation areas",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ara\u00fajo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Alagador",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Cabeza",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Nogu\u00e9s-Bravo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Thuiller",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Ecol. Lett",
+                "volume": "14",
+                "issue": "",
+                "pages": "484--492",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ara\u00fajo, M. B., Alagador, D., Cabeza, M., Nogu\u00e9s-Bravo, D. & Thuiller, W. Climate change threatens European conservation areas. Ecol. Lett. 14, 484-492 (2011).",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Global climate change and mammalian species diversity in U.S. national parks",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Burns",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Johnston",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Schmitz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Proc. Natl Acad. Sci. USA",
+                "volume": "100",
+                "issue": "",
+                "pages": "11474--11477",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Burns, C. E., Johnston, K. M. & Schmitz, O. J. Global climate change and mammalian species diversity in U.S. national parks. Proc. Natl Acad. Sci. USA 100, 11474-11477 (2003).",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Future climate change driven sea-level rise: secondary consequences from human displacement for island biodiversity",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Wetzel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Kissling",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Beissmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Penn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Glob. Change Biol",
+                "volume": "18",
+                "issue": "",
+                "pages": "2707--2719",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wetzel, F. T., Kissling, W. D., Beissmann, H. & Penn, D. J. Future climate change driven sea-level rise: secondary consequences from human displacement for island biodiversity. Glob. Change Biol. 18, 2707-2719 (2012).",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Amplified plant turnover in response to climate change forecast by Late Quaternary records",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Nogu\u00e9s-Bravo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Nat. Clim. Change",
+                "volume": "6",
+                "issue": "",
+                "pages": "1115--1119",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nogu\u00e9s-Bravo, D. et al. Amplified plant turnover in response to climate change forecast by Late Quaternary records. Nat. Clim. Change 6, 1115-1119 (2016).",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "High herbivore density associated with vegetation diversity in interglacial ecosystems",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Sandom",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Ejrnaes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D D"
+                        ],
+                        "last": "Hansen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Svenning",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Proc. Natl Acad. Sci. USA",
+                "volume": "111",
+                "issue": "",
+                "pages": "4162--4167",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sandom, C. J., Ejrnaes, R., Hansen, M. D. D. & Svenning, J. C. High herbivore density associated with vegetation diversity in interglacial ecosystems. Proc. Natl Acad. Sci. USA 111, 4162-4167 (2014).",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Ecological legacies of civil war: 35-year increase in savanna tree cover following wholesale large-mammal declines",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Daskin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Stalmans",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Pringle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "J. Ecol",
+                "volume": "104",
+                "issue": "",
+                "pages": "79--89",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Daskin, J. H., Stalmans, M. & Pringle, R. M. Ecological legacies of civil war: 35-year increase in savanna tree cover following wholesale large-mammal declines. J. Ecol. 104, 79-89 (2016).",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Did megafauna extinctions affect savanna woody cover in South America?",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Doughty",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Faurby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Svenning",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Ecography",
+                "volume": "39",
+                "issue": "",
+                "pages": "213--222",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Doughty, C. E., Faurby, S. & Svenning, J. C. Did megafauna extinctions affect savanna woody cover in South America? Ecography 39, 213-222 (2016).",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Splendid isolation: patterns of geographic range collapse in endangered mammals",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Lomolino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Channell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "J. Mammal",
+                "volume": "76",
+                "issue": "",
+                "pages": "335--347",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lomolino, M. V. & Channell, R. Splendid isolation: patterns of geographic range collapse in endangered mammals. J. Mammal. 76, 335-347 (1995).",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Dynamics of regional distribution: the core and satellite species hypothesis",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Hanski",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "Oikos",
+                "volume": "38",
+                "issue": "",
+                "pages": "210--221",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hanski, I. Dynamics of regional distribution: the core and satellite species hypothesis. Oikos 38, 210-221 (1982).",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Predicting the past distribution of species climatic niches",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Nogu\u00e9s-Bravo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Glob. Ecol. Biogeogr",
+                "volume": "18",
+                "issue": "",
+                "pages": "521--531",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nogu\u00e9s-Bravo, D. Predicting the past distribution of species climatic niches. Glob. Ecol. Biogeogr. 18, 521-531 (2009).",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "A new statistical framework for the quantification of covariate associations with species distributions",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Beale",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Brewer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lennon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Methods Ecol. Evol",
+                "volume": "5",
+                "issue": "",
+                "pages": "421--432",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Beale, C. M., Brewer, M. J. & Lennon, J. L. A new statistical framework for the quantification of covariate associations with species distributions. Methods Ecol. Evol. 5, 421-432 (2014).",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Ensemble Platform for Species Distribution Modeling. R package Version",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Thuiller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Georges",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Engler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "",
+                "volume": "2",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thuiller, W., Georges, D. & Engler, R. biomod2: Ensemble Platform for Species Distribution Modeling. R package Version 2 (2016);",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Exploring consensus in 21st century projections of climatically suitable areas for African vertebrates",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Garcia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Burgess",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Cabeza",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Rahbek",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ara\u00fajo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Glob. Change Biol",
+                "volume": "18",
+                "issue": "",
+                "pages": "1253--1269",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Garcia, R. A., Burgess, N. D., Cabeza, M., Rahbek, C. & Ara\u00fajo, M. B. Exploring consensus in 21st century projections of climatically suitable areas for African vertebrates. Glob. Change Biol. 18, 1253-1269 (2012).",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Assessing the accuracy of species distribution models: prevalence, kappa and the true skill statistic (TSS)",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Allouche",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Tsoar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Kadmon",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Allouche, O., Tsoar, A. & Kadmon, R. Assessing the accuracy of species distribution models: prevalence, kappa and the true skill statistic (TSS).",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Reducing uncertainty in extinction risk from climate change",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ara\u00fajo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Whittaker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Ladle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Erhard",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Glob. Ecol. Biogeogr",
+                "volume": "14",
+                "issue": "",
+                "pages": "529--538",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ara\u00fajo, M. B., Whittaker, R. J., Ladle, R. J. & Erhard, M. Reducing uncertainty in extinction risk from climate change. Glob. Ecol. Biogeogr. 14, 529-538 (2005).",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Resurrection of the island rule: human-driven extinctions have obscured a basic evolutionary pattern",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Faurby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Svenning",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Am. Nat",
+                "volume": "187",
+                "issue": "",
+                "pages": "812--820",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Faurby, S. & Svenning, J. C. Resurrection of the island rule: human-driven extinctions have obscured a basic evolutionary pattern. Am. Nat. 187, 812-820 (2016).",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "The Mammals of North America",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Hall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hall, E. R. The Mammals of North America (Wiley, New York, USA, 1981).",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Neotoma: a programmatic interface to the Neotoma paleoecological database",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Goring",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Open Quat",
+                "volume": "1",
+                "issue": "2",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Goring, S. et al. Neotoma: a programmatic interface to the Neotoma paleoecological database. Open Quat. 1, 2 (2015).",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "A species-level phylogeny for all extant and Late Quaternary extinct mammals using a novel heuristic-hierarchical Bayesian approach",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Faurby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Svenning",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Mol. Phylogenet. Evol",
+                "volume": "84",
+                "issue": "",
+                "pages": "14--26",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Faurby, S. & Svenning, J. C. A species-level phylogeny for all extant and Late Quaternary extinct mammals using a novel heuristic-hierarchical Bayesian approach. Mol. Phylogenet. Evol. 84, 14-26 (2015).",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Updated high-resolution grids of monthly climatic observations -the CRU TS3.10 Dataset",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Harris",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Osborn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Lister",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Int. J. Climatol",
+                "volume": "34",
+                "issue": "",
+                "pages": "623--642",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Harris, I., Jones, P. D., Osborn, T. J. & Lister, D. H. Updated high-resolution grids of monthly climatic observations -the CRU TS3.10 Dataset. Int. J. Climatol. 34, 623-642 (2014).",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Batra, P. O. An Assessment of Interactively Coupled Paleoclimate-Vegetation Models",
+                "authors": [],
+                "year": 2003,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "http://www.worldclim.org 42. Batra, P. O. An Assessment of Interactively Coupled Paleoclimate-Vegetation Models. PhD thesis, Pennsylvania State Univ. (2003).",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Simulating Arctic climate warmth and icefield retreat in the last interglaciation",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Otto-Bliesner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Marshall",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Overpeck",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Hu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Science",
+                "volume": "311",
+                "issue": "",
+                "pages": "1751--1753",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Otto-Bliesner, B. L., Marshall, S. J., Overpeck, J. T., Miller, G. H. & Hu, A. Simulating Arctic climate warmth and icefield retreat in the last interglaciation. Science 311, 1751-1753 (2006).",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "The Greenland ice core chronology",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Andersen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Quat. Sci. Rev",
+                "volume": "25",
+                "issue": "",
+                "pages": "3246--3257",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Andersen, K. A. et al. The Greenland ice core chronology 2005, 15-42 ka. Part 1: constructing the time scale. Quat. Sci. Rev. 25, 3246-3257 (2006).",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "A new Greenland ice core chronology for the last glacial termination",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Rasmussen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "J. Geophys. Res. Atmos",
+                "volume": "111",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rasmussen, S. O. et al. A new Greenland ice core chronology for the last glacial termination. J. Geophys. Res. Atmos. 111, D06102 (2006).",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "A synchronized dating of three Greenland ice cores throughout the Holocene",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Vinther",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "J. Geophys. Res. Atmos",
+                "volume": "111",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Vinther, B. M. et al. A synchronized dating of three Greenland ice cores throughout the Holocene. J. Geophys. Res. Atmos. 111, D13102 (2006).",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "A 60,000 year Greenland stratigraphic ice core chronology",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Svensson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Clim. Past",
+                "volume": "4",
+                "issue": "",
+                "pages": "47--57",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Svensson, A. et al. A 60,000 year Greenland stratigraphic ice core chronology. Clim. Past. 4, 47-57 (2008).",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Millennial-scale variability during the last glacial: the ice core record",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Wolff",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Chappellaz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Blunier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Rasmussen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Svensson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Quat. Sci. Rev",
+                "volume": "29",
+                "issue": "",
+                "pages": "2828--2838",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wolff, E. W., Chappellaz, J., Blunier, T., Rasmussen, S. O. & Svensson, A. Millennial-scale variability during the last glacial: the ice core record. Quat. Sci. Rev. 29, 2828-2838 (2010).",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "The RCP greenhouse gas concentrations and their extensions from 1765 to 2300",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Meinshausen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Clim. Change",
+                "volume": "109",
+                "issue": "",
+                "pages": "213--241",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Meinshausen, M. et al. The RCP greenhouse gas concentrations and their extensions from 1765 to 2300. Clim. Change 109, 213-241 (2011).",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Selecting pseudo-absences for species distribution models: how, where and how many?",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Barbet-Massin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Jiguet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Albert",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Thuiller",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Methods Ecol. Evol",
+                "volume": "3",
+                "issue": "",
+                "pages": "327--338",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barbet-Massin, M., Jiguet, F., Albert, C. H. & Thuiller, W. Selecting pseudo-absences for species distribution models: how, where and how many? Methods Ecol. Evol. 3, 327-338 (2012).",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Mapping Species Distributions: Spatial Inference and Prediction",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Franklin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Franklin, J. Mapping Species Distributions: Spatial Inference and Prediction (Cambridge Univ. Press, Cambridge, UK, 2010).",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Partitioning and mapping uncertainties in ensembles of forecasts of species turnover under climate changes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Diniz-Filho",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Ecography",
+                "volume": "32",
+                "issue": "",
+                "pages": "897--906",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Diniz-Filho, J. A. et al. Partitioning and mapping uncertainties in ensembles of forecasts of species turnover under climate changes. Ecography 32, 897-906 (2009).",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Reopening the climate envelope reveals macroscale associations with climate in European birds",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ara\u00fajo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Thuiller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Yoccoz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Proc. Natl Acad. Sci. USA",
+                "volume": "106",
+                "issue": "",
+                "pages": "45--46",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ara\u00fajo, M. B., Thuiller, W. & Yoccoz, N. G. Reopening the climate envelope reveals macroscale associations with climate in European birds. Proc. Natl Acad. Sci. USA 106, E45-E46 (2009).",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Impact of model complexity on cross-temporal transferability in Maxent species distribution models: An assessment using paleobotanical data",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Moreno-Amat",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Ecol. Modell",
+                "volume": "312",
+                "issue": "",
+                "pages": "308--317",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moreno-Amat, E. et al. Impact of model complexity on cross-temporal transferability in Maxent species distribution models: An assessment using paleobotanical data. Ecol. Modell. 312, 308-317 (2015).",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF1": {
+                "type_str": "figure",
+                "text": "improvement of fossil prediction for climatic hind-casting when incorporating historical records.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF2": {
+                "type_str": "figure",
+                "text": "effect of the incorporation of historical records for predicted future diversity. The sum of suitability for all 48 species, excluding species for each cell with low suitability (below 0.25), for current and projected 2070 climate based on the RCP8.5 (representative concentration pathway) scenario, as well as the difference between the two (where negative values are given to the few cells that showed increased diversity in 2070 relative to the current climate). Separate maps are drawn based on either contemporary records (1965-2015), historical records (before 1965) or all records.",
+                "num": null,
+                "uris": null
+            }
+        }
+    }
+}

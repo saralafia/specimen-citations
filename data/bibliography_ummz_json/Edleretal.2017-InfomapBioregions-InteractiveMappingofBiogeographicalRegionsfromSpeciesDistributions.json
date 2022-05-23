@@ -1,0 +1,1796 @@
+{
+    "paper_id": "Edleretal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:25:49.632713Z"
+    },
+    "title": "Software for Systematics and Evolution",
+    "authors": [
+        {
+            "first": "Daniel",
+            "middle": [],
+            "last": "Edler",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Ume\u00e5 University",
+                "location": {
+                    "postCode": "SE-901 87",
+                    "settlement": "Ume\u00e5",
+                    "country": "Sweden"
+                }
+            },
+            "email": "daniel.edler@umu.se"
+        },
+        {
+            "first": "Tha\u00eds",
+            "middle": [],
+            "last": "Guedes",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Gothenburg",
+                "location": {
+                    "postBox": "PO Box 461",
+                    "postCode": "SE-405 30",
+                    "settlement": "Gothenburg",
+                    "country": "Sweden"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Alexander",
+            "middle": [],
+            "last": "Zizka",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Gothenburg",
+                "location": {
+                    "postBox": "PO Box 461",
+                    "postCode": "SE-405 30",
+                    "settlement": "Gothenburg",
+                    "country": "Sweden"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Martin",
+            "middle": [],
+            "last": "Rosvall",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Ume\u00e5 University",
+                "location": {
+                    "postCode": "SE-901 87",
+                    "settlement": "Ume\u00e5",
+                    "country": "Sweden"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Alexandre",
+            "middle": [],
+            "last": "Antonelli",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Gothenburg",
+                "location": {
+                    "postBox": "PO Box 461",
+                    "postCode": "SE-405 30",
+                    "settlement": "Gothenburg",
+                    "country": "Sweden"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Biogeographical regions (bioregions) reveal how different sets of species are spatially grouped and therefore are important units for conservation, historical biogeography, ecology, and evolution. Several methods have been developed to identify bioregions based on species distribution data rather than expert opinion. One approach successfully applies network theory to simplify and highlight the underlying structure in species distributions. However, this method lacks tools for simple and efficient analysis. Here, we present Infomap Bioregions, an interactive web application that inputs species distribution data and generates bioregion maps. Species distributions may be provided as georeferenced point occurrences or range maps, and can be of local, regional, or global scale. The application uses a novel adaptive resolution method to make best use of often incomplete species distribution data. The results can be downloaded as vector graphics, shapefiles, or in table format. We validate the tool by processing large data sets of publicly available species distribution data of the world's amphibians using species ranges, and mammals using point occurrences. We then calculate the fit between the inferred bioregions and WWF ecoregions. As examples of applications, researchers can reconstruct ancestral ranges in historical biogeography or identify indicator species for targeted conservation.",
+    "pdf_parse": {
+        "paper_id": "Edleretal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Biogeographical regions (bioregions) reveal how different sets of species are spatially grouped and therefore are important units for conservation, historical biogeography, ecology, and evolution. Several methods have been developed to identify bioregions based on species distribution data rather than expert opinion. One approach successfully applies network theory to simplify and highlight the underlying structure in species distributions. However, this method lacks tools for simple and efficient analysis. Here, we present Infomap Bioregions, an interactive web application that inputs species distribution data and generates bioregion maps. Species distributions may be provided as georeferenced point occurrences or range maps, and can be of local, regional, or global scale. The application uses a novel adaptive resolution method to make best use of often incomplete species distribution data. The results can be downloaded as vector graphics, shapefiles, or in table format. We validate the tool by processing large data sets of publicly available species distribution data of the world's amphibians using species ranges, and mammals using point occurrences. We then calculate the fit between the inferred bioregions and WWF ecoregions. As examples of applications, researchers can reconstruct ancestral ranges in historical biogeography or identify indicator species for targeted conservation.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Biodiversity is not randomly distributed. It is well known that species are grouped in space and patterns of distribution can be recognized at small and large scales. Depending on the size, source of data, and scientific discipline, these broadly used biogeographical regions have received various related names, but here we simply refer to them as bioregions (see Vilhena and Antonelli (2015) for a discussion of terminology). In many disciplines, working with bioregions rather than single species is more effective. Conservation biology is a prime example, since protecting bioregions with high levels of biodiversity or uniqueness may help protecting many species from extinction. In historical biogeography, bioregions may be used as operational areas for ancestral range reconstructions in order to estimate how lineages in a phylogeny have evolved their geographical occupancy over time (Ree and Smith 2008; Goldberg et al. 2011; Matzke 2014) . Moreover, since different taxa exhibit different patterns of diversity, distribution, and evolutionary history, there is no set of universal bioregions for all circumstances. Accordingly, the most effective set of bioregions depends on the particular system under study and research question at hand. Therefore, researchers need simple, effective, and flexible tools for mapping relevant species distribution data into bioregions.",
+                "cite_spans": [
+                    {
+                        "start": 365,
+                        "end": 393,
+                        "text": "Vilhena and Antonelli (2015)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 894,
+                        "end": 914,
+                        "text": "(Ree and Smith 2008;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 915,
+                        "end": 936,
+                        "text": "Goldberg et al. 2011;",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 937,
+                        "end": 949,
+                        "text": "Matzke 2014)",
+                        "ref_id": "BIBREF15"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "While bioinformatic tools can now provide rapid and accurate coding of species into predefined areas (T\u00f6pel et al. 2016) , choosing the areas in the first place has been a subjective procedure without quantitative support. Researchers have therefore developed a suite of algorithms for mapping grid cell areas into biologically relevant regions (Kozak and Wiens 2006; Kreft and Jetz 2010; Oliveira et al. 2015) , but often they involve multiple and overly technical steps. As a consequence, most biogeographical studies still use arbitrarily defined areas.",
+                "cite_spans": [
+                    {
+                        "start": 101,
+                        "end": 120,
+                        "text": "(T\u00f6pel et al. 2016)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 345,
+                        "end": 367,
+                        "text": "(Kozak and Wiens 2006;",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 368,
+                        "end": 388,
+                        "text": "Kreft and Jetz 2010;",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 389,
+                        "end": 410,
+                        "text": "Oliveira et al. 2015)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "To make identification of bioregions simple and effective for any set of species distribution data, we present the web-based, interactive mapping tool Infomap Bioregions. The underlying method clusters bipartite networks that contain both species and grid cells. This method was recently shown to outperform approaches that abstract away the species into species similarities between grid cells in unipartite networks (Vilhena and Antonelli 2015) . Moreover, the bipartite networks are clustered with the information-theoretic clustering algorithm known as Infomap (Rosvall and Bergstrom 2008) , which has been acclaimed as the best network clustering algorithm in several comparative studies (Lancichinetti and Fortunato 2009; Aldecoa and Mar\u00edn 2013) . Thanks to its simple and effective design, Infomap Bioregions has wide applications in biogeography, ecology, evolutionary biology, conservation, and related disciplines. Step-by-step illustration of how Infomap Bioregions generates bioregions from species distribution data. Infomap Bioregions: a) inputs comma-separated values for point occurrences, b) adaptively bins species records into discrete geographical grid cells such that the data density determines the spatial resolution, c) extracts a bipartite network between species and grid cells, d) clusters the bipartite network with the Infomap clustering algorithm, e) visualizes the grid cell clusters as bioregions on a zoomable map, f) exports the geographical map in svg or png format, the tables of top occurring and top indicative species for each bioregion in csv format, the species presence/absence matrix for the bioregions in NEXUS format and the geographical information of the bioregions in shapefile or GeoJSON format.",
+                "cite_spans": [
+                    {
+                        "start": 418,
+                        "end": 446,
+                        "text": "(Vilhena and Antonelli 2015)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 565,
+                        "end": 593,
+                        "text": "(Rosvall and Bergstrom 2008)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 693,
+                        "end": 727,
+                        "text": "(Lancichinetti and Fortunato 2009;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 728,
+                        "end": 751,
+                        "text": "Aldecoa and Mar\u00edn 2013)",
+                        "ref_id": "BIBREF0"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Infomap Bioregions is an interactive web application that identifies taxon-specific bioregions from species distribution data. We first present the application's workflow (Fig. 1) , and then describe each step in detail.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 171,
+                        "end": 179,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "DESCRIPTION",
+                "sec_num": null
+            },
+            {
+                "text": "Given user-provided species distribution data, the application first bins the data into geographical grid cells with adaptive spatial resolution. When the data are sparse, the grid size is large; and when the data are dense, the grid size is small. This novel adaptive resolution offers a considerable advantage over conventional uniform binning when dealing with biodiversity data, which is unevenly distributed (Maldonado et al. 2015; Meyer et al. 2016) .",
+                "cite_spans": [
+                    {
+                        "start": 413,
+                        "end": 436,
+                        "text": "(Maldonado et al. 2015;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 437,
+                        "end": 455,
+                        "text": "Meyer et al. 2016)",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DESCRIPTION",
+                "sec_num": null
+            },
+            {
+                "text": "The binning generates a bipartite network between species and grid cells, which is then clustered with the Infomap algorithm into bioregions (Edler and Rosvall 2015) . The application also identifies the most common and the most indicative species in each grid cell and bioregion. The results are shown as an interactive map together with supporting tables containing information about each bioregion.",
+                "cite_spans": [
+                    {
+                        "start": 141,
+                        "end": 165,
+                        "text": "(Edler and Rosvall 2015)",
+                        "ref_id": "BIBREF2"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DESCRIPTION",
+                "sec_num": null
+            },
+            {
+                "text": "To facilitate the integration of bioregion delimitation and ancestral range reconstructions, Infomap Bioregions also supports loading a phylogenetic tree, which may be time-calibrated or not. Fitch's method of maximum parsimony as originally described (Fitch 1971 ) is implemented to provide a quick estimate of ancestral ranges. Species in the phylogeny that are not present in the distribution data set are ignored in the ancestral range reconstruction, and ancestral ranges for the remaining species are shown with pie charts based on the bioregions identified (see Fig. 3 ). The bioregions can also be exported to allow analyses under alternative methods of ancestral range reconstruction.",
+                "cite_spans": [
+                    {
+                        "start": 252,
+                        "end": 263,
+                        "text": "(Fitch 1971",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 569,
+                        "end": 575,
+                        "text": "Fig. 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "DESCRIPTION",
+                "sec_num": null
+            },
+            {
+                "text": "For species distribution data, Infomap Bioregions supports both point occurrences and species range maps. Point occurrences are specified in a text file with either comma-separated (CSV) or tab-separated (TSV) values. The application requires a header with the column names, and the user must identify which columns that should be parsed as name, latitude, and longitude, respectively (Fig. 1a) . Range maps are specified in the shapefile format, which includes multiple files: a .shp file for species range polygons, a .dbf file for the attributes of each range polygon, and, optionally, a .prj file for projection information. As for point occurrence data, the user must identify which attribute to parse as the name of the species.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 385,
+                        "end": 394,
+                        "text": "(Fig. 1a)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Input Data",
+                "sec_num": null
+            },
+            {
+                "text": "For phylogenetic data, Infomap Bioregions supports the NEXUS and Newick tree formats.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Input Data",
+                "sec_num": null
+            },
+            {
+                "text": "Where data are sparse, single cells can be clustered in distinct bioregions. To avoid providing more detail than the data can support, Infomap Bioregions automatically adapts the grid size to the amount and spatial distribution of the input data. This is done by mapping the input data to a so-called quadtree data structure, as illustrated in Figure 1b .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 344,
+                        "end": 353,
+                        "text": "Figure 1b",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Adaptive Resolution",
+                "sec_num": null
+            },
+            {
+                "text": "The adaptive resolution algorithm uses the quadtree to hierarchically partition geographical space into quadratic grid cells of increasingly smaller size by recursively subdividing each grid cell into four quadrants. When the algorithm reaches the userprovided maximum cell size (default is 4 \u2022 ), it aggregates the species into grid cells.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Adaptive Resolution",
+                "sec_num": null
+            },
+            {
+                "text": "To make the resolution adaptive to the density of the data, each grid cell has a user-provided maximum cell capacity (default is 100 species occurrence records). The algorithm recursively subdivides all grid cells with more records than the maximum cell capacity until it reaches the user-provided minimum cell size (default is 1 \u2022 ). However, if a grid cell after a subdivision contains less species than the user-provided minimum cell capacity (default is 10), the algorithm reverts the most recent subdivision to avoid creating regions with too few data points.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Adaptive Resolution",
+                "sec_num": null
+            },
+            {
+                "text": "With these criteria, Infomap Bioregions can simultaneously identify high-resolution bioregions where data are abundant and low-resolution bioregions where data are sparse, and thereby avoid over-and underfitting across all bioregions.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Adaptive Resolution",
+                "sec_num": null
+            },
+            {
+                "text": "For point occurrence data, these criteria make the adaptive resolution straightforward. For range maps, the application first adds a species record to each grid cell of minimum size that intersects with the corresponding species range polygon, and then proceeds with the adaptive binning to satisfy the user-specified criteria.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Adaptive Resolution",
+                "sec_num": null
+            },
+            {
+                "text": "It is also possible to interactively modify the resolution of the bioregions by adjusting the Markov time for the Infomap clustering algorithm (Kheirkhahzadeh et al. 2016) . In this way, the user can tune Infomap to search for bigger or smaller bioregions that are still supported by the data.",
+                "cite_spans": [
+                    {
+                        "start": 143,
+                        "end": 171,
+                        "text": "(Kheirkhahzadeh et al. 2016)",
+                        "ref_id": "BIBREF8"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Adaptive Resolution",
+                "sec_num": null
+            },
+            {
+                "text": "When Infomap Bioregions aggregates the species into geographical grid cells, it forms a bipartite network with species and grid cells as the two types of nodes. Each species is connected by an unweighted link to each grid cell in which it is present. We purposefully avoid weighting the links by the number of records, because that would make the results sensitive to spatially biased sampling. Instead, we let the density of species records increase the spatial resolution as described above. In this way, dense data generate large networks.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Bipartite Network",
+                "sec_num": null
+            },
+            {
+                "text": "Infomap Bioregions clusters the bipartite network with Infomap for bipartite networks (Kheirkhahzadeh et al. 2016) . The resulting clusters contain both grid cells and species, and define the bioregions. The software displays the bioregions with different colors on a map, and provides a table for each bioregion including summary statistics and species lists. The application lists, for grid cells and bioregions, both the most common species and the most indicative species with the highest relative abundance. That is, for species s in grid cell or bioregion r, the indicative score I s|r is defined as the ratio between the frequency f s|r of the species in the region and the frequency f s of the species in all regions, I s|r = f s|r /f s . Thus, an indicative score of 2 means that a species is twice as frequent in the region than in the entire data set. In the bioregions tables, the most common and indicative species are displayed together with charts that show the distribution of those species in other bioregions. This information makes it possible to find endemic species, unique or close to unique to a specific bioregion.",
+                "cite_spans": [
+                    {
+                        "start": 86,
+                        "end": 114,
+                        "text": "(Kheirkhahzadeh et al. 2016)",
+                        "ref_id": "BIBREF8"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Bioregions and Indicator Species",
+                "sec_num": null
+            },
+            {
+                "text": "To validate Infomap Bioregions, we applied it to range maps of amphibians and point occurrences of terrestrial mammals. For amphibians, we downloaded global distribution data as range polygons for 6069 species from the International Union for Conservation of Nature (IUCN, http://www.iucn.org, downloaded August 17, 2015, from http://www.iucnredlist.org/technicaldocuments/spatial-data). For terrestrial mammals, we compiled the global distribution of 5005 species from a collection of georeferenced observation records obtained through the Global Biodiversity Information Facility (GBIF.org [11th November 2015; GBIF Occurrence Download http://doi.org/10.15468/dl.wnjjkc]). We cleaned the mammal data set using the R functions in the package speciesgeocodeR (T\u00f6pel et al. 2016) , checking for obvious errors such as empty coordinates, terrestrial species reported in the sea, and coordinates assigned to country or province centroids.",
+                "cite_spans": [
+                    {
+                        "start": 759,
+                        "end": 778,
+                        "text": "(T\u00f6pel et al. 2016)",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS AND DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "For the resolution, we allowed grid cells to range between 4 \u2022 and 2 \u2022 to reflect spatial differences in data density. We used maximum cell capacity 100 and set the minimum cell capacity to 5. Below we show the bioregion maps of the amphibians and mammals, and highlight a few bioregions.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS AND DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "For terrestrial mammals, we downloaded a set of 1000 species-level phylogenies of all mammals from Faurby and Svenning (2015) and calculated the maximum clade credibility tree using TreeAnnotator in the package FIGURE 2. Bioregion map of the world's amphibians generated with Infomap Bioregions, using the IUCN species range maps. White areas have insufficient data and were excluded from the analysis. The inset shows a zoom-in of Central America, the West Indies, and northwestern South America, depicting many small bioregions that reflect high turnover of species assemblages and narrow-range distributions characteristic for the region. Table 1 shows information about labeled bioregions. Figure 2 . Bioregions (a)-(c) are the most species-rich and (d)-(f) are hand-picked to illustrate how even small bioregions can contain relatively many species. Common names taken from Encyclopedia of Life at http://eol.org BEAST v.1.8.2 (Drummond and Rambaut 2007) . We were able to match 4426 species between the phylogeny and the georeferenced data set.",
+                "cite_spans": [
+                    {
+                        "start": 99,
+                        "end": 125,
+                        "text": "Faurby and Svenning (2015)",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 932,
+                        "end": 959,
+                        "text": "(Drummond and Rambaut 2007)",
+                        "ref_id": "BIBREF1"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 642,
+                        "end": 649,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 694,
+                        "end": 702,
+                        "text": "Figure 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS AND DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "We identified 87 bioregions of amphibians as illustrated in Figure 3 (see Supplementary Material available on Dryad at http://dx.doi.org/10.5061/ dryad.2s201 for detailed results). In Table 1 , we detail the three most species-rich bioregions and three small bioregions with relatively many species. Most of the species belong to relatively large bioregions, but we also identified smaller bioregions, such as in the Caribbean where island endemics are common, and in the tropical Andes where species turnover is high and many species are located in just a few cells.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 60,
+                        "end": 68,
+                        "text": "Figure 3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 184,
+                        "end": 191,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Amphibians",
+                "sec_num": null
+            },
+            {
+                "text": "The identified bioregions largely coincide with those found by Vilhena and Antonelli (2015) , except for some differences due to the adaptive resolution and its settings. For the Neotropics, our clustering seems to reflect the regionalization proposed by Morrone (2006; for some subregions and provinces such as the Amazonian subregion, the Parana subregion, and the Chacoan dominion. Infomap Bioregions also successfully identified small bioregions, for example, in the island of Hispaniola and in the tropical Andes, which could be particularly considered for conservation. Other examples of relatively small-scale bioregions include the Cape region in South Africa and the Dahomey gap in West Africa (Fig. 2) s  u  l  u  c  r e  t  a  p  s  u  l  l  e  r  t  s i  p  i  P i   o  d n  e  s  u  l  l e  r  t s  i  p  i  P a   r  d  n  a  m  o r  o c s   u  l  l e  r t  s  i  p  i  P s u   c i s i p i  P i   y  a r  r  u  m  s  u  l  l  e  r t  s  i  p  i  P i   s t  t  a  w  s  u  l  l  e  r  t  s  i  p  i  P i   k  a  n  a  h  s  u  l  l  e  r  t  s  i  p  i  P   i  s  m  a d  a  s  u  l  l e  r t  s  i  p  i  P s   u  n  a  u p  a  p  s  u  l  l  e  r t  s  i  p  i  P i   y e  c  a  r  s u  l  l  e  r t  s  i p  i  P   e  a  s  s  a  h  a  n i  m  s  u l l  e r  t s i  p  i  P s   u  c i  n  o l  y  e  c  s  u l  l  e  r  t  s  i  p  i P   s  u  t x i  m  r  e  p s  u l l  e  r  t s i  p  i  P s   u  e a  m  g y  p  s  u  l  l  e  r t  s  i p  i P s   u  l l  e  r  t  s i  p  i  p  s  u  l l  e  r  t s i  p i  P   s  u  t  a  t  c e  p  s  x  e  n  i  s  u l  l  e  r  t  s  i  p  i  P s   i  s  n e  r  e  d  a  m  s  u  l l  e  r t  s i  p i  P o   r  e  a  s  u  l l  e r  t  s  i  p  i  P s   u  c  i  t  s  u r  s  u  l  l  e  r  t  s  i  p  i  P i t   r  e  s  e  d  s  u l  l  e  r  t s  i p  i  P i   i  l h  u  k  s  u  l l  e  r t  s  i p  i  P s   u  d  i r  e  p  s  e  h  s  u  l  l  e r  t  s  i  p  i  P i   i l  l e  p  p  e  u  r  s  u  l  l  e  r t  s  i  p  i  P s   u  l u s  s  a  r  c  s  u l  l  e  r t  s i  p  i  P s   u  l u  n a  n  s  u l  l e  r t  s  i p  i  P s   n  a l  o  v  s  u l  a  h p  e  c  o n  y  C s   u  t  a  g  e  i  r  a  v  s  u  r  e  t  p  o  e l  a  G o   t  t  o  p  s  u  c i  t  c i  d  o  r  e  P s i   s  n  e  r  a  b  a l  a  c  s  u  b  e  c  o  t  c  r  A s   u  e  r  u  a  s  u  b  e  c  o  t  c  r  A s   u  d  a  r  g i  d  r  a  t  s  i  r  o  L s   u  n  a  i  r  e  k  k  e  d  y  l  s  i  r  o  L   s  u  e  a  m  g  y  p  s  u  b  e  c i  t  c  y  N s   i  s  n  e  g  a  n  e  m  s  u  b  e  c  i t  c  y  N s   i s  n  e l  a  g  n  e  b  s  u  b  e  c  i  t  c  y  N g   n  a  c  u  o  c  s  u  b  e  c  i  t  c  y  N s u   c i  n  a  v  a  j  s  u  b  e  c o  t  a  u  q  e  a  a  i  c  e  h  t  i  P   a  t  a  r  o  r  r  i  a  i  c  e  h  t  i  P   s  n  a  c  i  b  l  a  a  i  c  e  h  t  i  P s   u  h  c  a  n  o  m  a  i  c  e  h  t  i  P   s  u  v  l  a  c  o  a  j  a  c  a  C i   m  o  s  o  h  o  a  j  a  c  a  C   s  u  l  a  h  p  e  c  o  n  a  l  e  m  o  a  j  a  c  a  C   i  s  e  r  y  a  o  a  j  a  c  a  C s   e  t  o  p  o  r  i  h  c  s  e  t  o  p  o  r  i  h  C   s  a  n  a  t  a  s  s  e  t  o  p  o  r  i  h  C e   a  k  c  i  h  a  t  u  s  e  t  o  p  o  r  i  h  C s   u  s  a  n  i  b  l  a  s  e  t  o  p  o  r  i  h  C   s  i  s  n  e  n  r  e  b  x  i  r  h  t  o  l  l  i  t  n  A i   r  o  g  e  r  g  c  m  x  i  r  h  t  o  n  e  X s   n  o  r  f  i  r  g  i  n  s  u  b  e  c  i  l  l  a  C   i  a  r  b  m  i  o  c  s  u  b  e  c  i  l  l  a  C e   a  n  w  o  r  b  a  r  a  b  r  a  b  s  u  b  e  c  i  l  l  a  C s   u  t  a  n  o  s  r  e  p  s  u  b  e  c  i  l  l  a  C r   i  h  c  o  n  a  l  e  m  s  u  b  e  c  i  l  l  a  C   h  c  o  l  o  m  s  u  b  e  c  i  l  l  a  C  e  d  i  o  n  h  c  a  r  a  s  e  l  e  t  y  h  c  a  r  B   s  u  h  t  n  a  x  o  p  y  h  s  e  l  e  t  y  h  c  a  r  B a   d  u  a  c  i  v  a  l  f  x  a  n  o  e  r  O   m  u  r  o  i  u  b  m  a  b  a  r  o  p  i  a  C s   i  s  n  e  i  l  i  s  a  r  b  s  u  c  e  h  t  i  p  o  t  o  r  P   s  n  e  g  u  l  x  i  r  h  t  o  g  a  L   a  h  c  i  r  t  o  g  a  l  x  i  r  h  t  o  g  a  L a   n  a  c  x  i  r  h  t  o  g  a  L i   i  g  i  p  p  e  o  p  x  i  r  h  t  o  g  a  L   s  i  s  n  e  i  v  i  l  o  b  i  r  i  m  i  a  S i   i  n  i  l  o  z  n  a  v  i  r  i  m u  n  i  u  g  a  S   s  a  l  e  m  o  s  y  r  h  c  s  u  c  e  h  t  i  p  o  t  n  o  e  L   a  i  l  a  s  o  r  s  u  c  e  h  t  i  p  o  t  n  o  e  L   s  u  g  y  p  o  s  y  r  h  c  s  u  c  e  h  t  i  p  o  t  n  o  e  L   a  r  a  s  s  i  a  c  s  u  c  e  h  t  i  p  o  t  n  o  e  L i   i  d  l  e  o  g  o  c  i  m  i  l  l  a  C s   i  l  i  m  u  h  a  l  l  e  b  i  l  l  a  C a   t  i  r  u  a  x  i  r  h  t  i  l  l  a  C   s  p  e  c  i  v  a  l  f  x  i  r  h  t  i  l  l  a  C   i  y  o  r  f  f  o  e  g  x  i  r  h  t  i  l  l  a  C i   i  l  h  u  k  x  i  r  h  t  i  l  l  a  C   s  u  h  c  c  a  j  x  i  r  h  t  i  l  l  a  C   a  t  a  l  l  i  c  i  n  e  p  x  i  r  h  t  i  l  l  a  C Cebuella   pygmaea i   e  r  e  t  a  s  o  c  i  M   s  u  c  u  e  l  o  s  y  r  h  c  o  c  i  M Mico mauesi Mico humeralifer e   p  p  i  c  u  e  l  o  c  i  M  Mico marcai s   i  s  n  e  i  r  a  c  a  o  c  i  M   s  i  s  n  e  r  o  c  i  n  a  m  o  c  i  M s   p  e  c  i  r  g  i  n  o  c  i  M Mico argentatus   s  u  i  d  e  m  r  e  t  n  i  o  c  i  M s   u  r  u  n  a  l  e  m  o  c  i  M   e  a  i  l  i  m  e  o  c  i  M i   n  o  d  n  o  r  o  c  i  M   i  i  l  e  b  a  o  g  n  o  P  Pongo   pygmaeus  i  e  g  n  i  r  e  b  a  l  l  i  r  o  G a   l  l  i  r  o  g  a  l  l  i  r  o  G Pan paniscus s   e  t  y  d  o  l  g  o  r  t  n  a  P  Homo   erectus   s  i  s  n  e  i  s  e  r  o  l  f  o  m  o  H s   n  a  v  o  s  i  n  e  D  o  m  o  H Homo  sapiens Homo  neanderthalensis   s  u  l  y  t  c  a  d  n  y  s  s  u  g  n  a  l  a  h  p  m  y  S   s  u  t  u  s  a  n  s  u  c  s  a  m  o  N Nomascus  hainanus Nomascus  concolor e  a  l  l  e  i  r  b  a  g  s  u  c  s  a  m  o  NNomascus  leucogenys Nomascus   siki s   y  d  e  n  o  c  u  e  l  k  c  o  l  o  o  H k   c  o  l  o  o  h  k  c  o  l  o  o  H   s  u  t  a  e  l  i  p  s  e  t  a  b  o  l  y  H r   a  l  s  e  t  a  b  o  l  y  H Hylobates  moloch Hylobates  klossiii r  e  l  l  e  u  m  s  e  t  a  b  o  l  y  H   s  i  b  r  a  b  i  b  l  a  s  e  t  a  b  o  l  y  H   s  i  l  i  g  a  s  e  t  a  b  o  l  y  H Colobus   satanas   Colobus   angolensis   Colobus  guereza Colobus  vellerosus   Colobus   polykomos   Procolobus verus Procolobus rufomitratus  Procolobus kirkii   m  u  r  o  n  o  d  r  o  g  s  u  b  o  l  o  c  o  r  P  Procolobus badius  Procolobus pennantii Procolobus preussi  Presbytis  thomasi i  n  a  i  z  n  e  t  o  p  s  i  t  y  b  s  e  r  P   a  t  a  m  o  c  s  i  t  y  b  s  e  r  P  Presbytis   rubicundas  o  h  p  o  l  a  l  e  m  s  i  t  y  b  s  e  r  P Presbytis   frontata   Presbytis   hosei   Presbytis  chrysomelas Presbytis   femoralis   Presbytis  siamensis Presbytis  natunae Rhinopithecus brelichi   Rhinopithecus roxellana  Rhinopithecus avunculus Rhinopithecus bieti   Nasalis  larvatus Simias  concolor Pygathrix  nigripes   Pygathrix   nemaeus a   e  r  e  n  i  c  x  i  r  h  t  a  g  y  P   s  i  s  n  e  h  n  i  t  a  h  s  u  c  e  h  t  i  p  y  h  c  a  r  T Trachypithecus laotum Trachypithecus delacouri   s  u  l  a  h  p  e  c  o  i  l  o  p  s  u  c  e  h  t  i  p  y  h  c  a  r  TTrachypithecus francoisi  Trachypithecus phayrei Trachypithecus obscurus  Trachypithecus barbei  Trachypithecus cristatus  Trachypithecus auratus Trachypithecus germaini s   u  t  a  e  l  i  p  s  u  c  e  h  t  i  p  y  h  c  a  r  T   i  e  g  d  i  r  t  r  o  h  s  s  u  c  e  h  t  i  p  y  h  c  a  r  T Trachypithecus geei  Trachypithecus johnii Trachypithecus vetulus  Semnopithecus dussumieri  Semnopithecus entellus s   o  c  u  e  l  o  p  y  h  s  u  c  e  h  t  i  p  o  n  m FIGURE 3. Bioregion map and phylogenetic tree of world mammals with ancestral range reconstruction, generated with Infomap Bioregions. a) Phylogenetic tree of 5747 mammals computed from Faurby and Svenning (2015) , fully zoomable on the online application. Ancestral ranges were reconstructed under Fitch parsimony. Pie charts depict most parsimonious ancestral ranges at nodes, and current distributions for extant species. Branch lines are scaled to the number of terminals subtending each branch, in order to improve visualization of the overall tree structure. b) Magnified part of the tree, highlighting the rock-wallabies (genus Petrogale) which are currently distributed across several bioregions in Australia. This analysis suggests that all rock-wallabies, including the yellow-footed rock-wallaby (Petrogale xanthopus), which is the most indicative species of the southeast bioregion (i), originated from a common ancestor in northern Australia. c) Bioregion map of world mammals using species point occurrences from GBIF. White areas have insufficient data and were excluded from the analysis. Colors are used consistently across the subfigures. Table 2 shows information about labeled bioregions.",
+                "cite_spans": [
+                    {
+                        "start": 63,
+                        "end": 91,
+                        "text": "Vilhena and Antonelli (2015)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 255,
+                        "end": 269,
+                        "text": "Morrone (2006;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 8297,
+                        "end": 8323,
+                        "text": "Faurby and Svenning (2015)",
+                        "ref_id": "BIBREF3"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 703,
+                        "end": 711,
+                        "text": "(Fig. 2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 712,
+                        "end": 894,
+                        "text": "s  u  l  u  c  r e  t  a  p  s  u  l  l  e  r  t  s i  p  i  P i   o  d n  e  s  u  l  l e  r  t s  i  p  i  P a   r  d  n  a  m  o r  o c s   u  l  l e  r t  s  i  p  i  P s u   c i",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 895,
+                        "end": 8110,
+                        "text": "s i p i  P i   y  a r  r  u  m  s  u  l  l  e  r t  s  i  p  i  P i   s t  t  a  w  s  u  l  l  e  r  t  s  i  p  i  P i   k  a  n  a  h  s  u  l  l  e  r  t  s  i  p  i  P   i  s  m  a d  a  s  u  l  l e  r t  s  i  p  i  P s   u  n  a  u p  a  p  s  u  l  l  e  r t  s  i  p  i  P i   y e  c  a  r  s u  l  l  e  r t  s  i p  i  P   e  a  s  s  a  h  a  n i  m  s  u l l  e r  t s i  p  i  P s   u  c i  n  o l  y  e  c  s  u l  l  e  r  t  s  i  p  i P   s  u  t x i  m  r  e  p s  u l l  e  r  t s i  p  i  P s   u  e a  m  g y  p  s  u  l  l  e  r t  s  i p  i P s   u  l l  e  r  t  s i  p  i  p  s  u  l l  e  r  t s i  p i  P   s  u  t  a  t  c e  p  s  x  e  n  i  s  u l  l  e  r  t  s  i  p  i  P s   i  s  n e  r  e  d  a  m  s  u  l l  e  r t  s i  p i  P o   r  e  a  s  u  l l  e r  t  s  i  p  i  P s   u  c  i  t  s  u r  s  u  l  l  e  r  t  s  i  p  i  P i t   r  e  s  e  d  s  u l  l  e  r  t s  i p  i  P i   i  l h  u  k  s  u  l l  e  r t  s  i p  i  P s   u  d  i r  e  p  s  e  h  s  u  l  l  e r  t  s  i  p  i  P i   i l  l e  p  p  e  u  r  s  u  l  l  e  r t  s  i  p  i  P s   u  l u s  s  a  r  c  s  u l  l  e  r t  s i  p  i  P s   u  l u  n a  n  s  u l  l e  r t  s  i p  i  P s   n  a l  o  v  s  u l  a  h p  e  c  o n  y  C s   u  t  a  g  e  i  r  a  v  s  u  r  e  t  p  o  e l  a  G o   t  t  o  p  s  u  c i  t  c i  d  o  r  e  P s i   s  n  e  r  a  b  a l  a  c  s  u  b  e  c  o  t  c  r  A s   u  e  r  u  a  s  u  b  e  c  o  t  c  r  A s   u  d  a  r  g i  d  r  a  t  s  i  r  o  L s   u  n  a  i  r  e  k  k  e  d  y  l  s  i  r  o  L   s  u  e  a  m  g  y  p  s  u  b  e  c i  t  c  y  N s   i  s  n  e  g  a  n  e  m  s  u  b  e  c  i t  c  y  N s   i s  n  e l  a  g  n  e  b  s  u  b  e  c  i  t  c  y  N g   n  a  c  u  o  c  s  u  b  e  c  i  t  c  y  N s u   c i  n  a  v  a  j  s  u  b  e  c o  t  a  u  q  e  a  a  i  c  e  h  t  i  P   a  t  a  r  o  r  r  i  a  i  c  e  h  t  i  P   s  n  a  c  i  b  l  a  a  i  c  e  h  t  i  P s   u  h  c  a  n  o  m  a  i  c  e  h  t  i  P   s  u  v  l  a  c  o  a  j  a  c  a  C i   m  o  s  o  h  o  a  j  a  c  a  C   s  u  l  a  h  p  e  c  o  n  a  l  e  m  o  a  j  a  c  a  C   i  s  e  r  y  a  o  a  j  a  c  a  C s   e  t  o  p  o  r  i  h  c  s  e  t  o  p  o  r  i  h  C   s  a  n  a  t  a  s  s  e  t  o  p  o  r  i  h  C e   a  k  c  i  h  a  t  u  s  e  t  o  p  o  r  i  h  C s   u  s  a  n  i  b  l  a  s  e  t  o  p  o  r  i  h  C   s  i  s  n  e  n  r  e  b  x  i  r  h  t  o  l  l  i  t  n  A i   r  o  g  e  r  g  c  m  x  i  r  h  t  o  n  e  X s   n  o  r  f  i  r  g  i  n  s  u  b  e  c  i  l  l  a  C   i  a  r  b  m  i  o  c  s  u  b  e  c  i  l  l  a  C e   a  n  w  o  r  b  a  r  a  b  r  a  b  s  u  b  e  c  i  l  l  a  C s   u  t  a  n  o  s  r  e  p  s  u  b  e  c  i  l  l  a  C r   i  h  c  o  n  a  l  e  m  s  u  b  e  c  i  l  l  a  C   h  c  o  l  o  m  s  u  b  e  c  i  l  l  a  C  e  d  i  o  n  h  c  a  r  a  s  e  l  e  t  y  h  c  a  r  B   s  u  h  t  n  a  x  o  p  y  h  s  e  l  e  t  y  h  c  a  r  B a   d  u  a  c  i  v  a  l  f  x  a  n  o  e  r  O   m  u  r  o  i  u  b  m  a  b  a  r  o  p  i  a  C s   i  s  n  e  i  l  i  s  a  r  b  s  u  c  e  h  t  i  p  o  t  o  r  P   s  n  e  g  u  l  x  i  r  h  t  o  g  a  L   a  h  c  i  r  t  o  g  a  l  x  i  r  h  t  o  g  a  L a   n  a  c  x  i  r  h  t  o  g  a  L i   i  g  i  p  p  e  o  p  x  i  r  h  t  o  g  a  L   s  i  s  n  e  i  v  i  l  o  b  i  r  i  m  i  a  S i   i  n  i  l  o  z  n  a  v  i  r  i  m u  n  i  u  g  a  S   s  a  l  e  m  o  s  y  r  h  c  s  u  c  e  h  t  i  p  o  t  n  o  e  L   a  i  l  a  s  o  r  s  u  c  e  h  t  i  p  o  t  n  o  e  L   s  u  g  y  p  o  s  y  r  h  c  s  u  c  e  h  t  i  p  o  t  n  o  e  L   a  r  a  s  s  i  a  c  s  u  c  e  h  t  i  p  o  t  n  o  e  L i   i  d  l  e  o  g  o  c  i  m  i  l  l  a  C s   i  l  i  m  u  h  a  l  l  e  b  i  l  l  a  C a   t  i  r  u  a  x  i  r  h  t  i  l  l  a  C   s  p  e  c  i  v  a  l  f  x  i  r  h  t  i  l  l  a  C   i  y  o  r  f  f  o  e  g  x  i  r  h  t  i  l  l  a  C i   i  l  h  u  k  x  i  r  h  t  i  l  l  a  C   s  u  h  c  c  a  j  x  i  r  h  t  i  l  l  a  C   a  t  a  l  l  i  c  i  n  e  p  x  i  r  h  t  i  l  l  a  C Cebuella   pygmaea i   e  r  e  t  a  s  o  c  i  M   s  u  c  u  e  l  o  s  y  r  h  c  o  c  i  M Mico mauesi Mico humeralifer e   p  p  i  c  u  e  l  o  c  i  M  Mico marcai s   i  s  n  e  i  r  a  c  a  o  c  i  M   s  i  s  n  e  r  o  c  i  n  a  m  o  c  i  M s   p  e  c  i  r  g  i  n  o  c  i  M Mico argentatus   s  u  i  d  e  m  r  e  t  n  i  o  c  i  M s   u  r  u  n  a  l  e  m  o  c  i  M   e  a  i  l  i  m  e  o  c  i  M i   n  o  d  n  o  r  o  c  i  M   i  i  l  e  b  a  o  g  n  o  P  Pongo   pygmaeus  i  e  g  n  i  r  e  b  a  l  l  i  r  o  G a   l  l  i  r  o  g  a  l  l  i  r  o  G Pan paniscus s   e  t  y  d  o  l  g  o  r  t  n  a  P  Homo   erectus   s  i  s  n  e  i  s  e  r  o  l  f  o  m  o  H s   n  a  v  o  s  i  n  e  D  o  m  o  H Homo  sapiens Homo  neanderthalensis   s  u  l  y  t  c  a  d  n  y  s  s  u  g  n  a  l  a  h  p  m  y  S   s  u  t  u  s  a  n  s  u  c  s  a  m  o  N Nomascus  hainanus Nomascus  concolor e  a  l  l  e  i  r  b  a  g  s  u  c  s  a  m  o  NNomascus  leucogenys Nomascus   siki s   y  d  e  n  o  c  u  e  l  k  c  o  l  o  o  H k   c  o  l  o  o  h  k  c  o  l  o  o  H   s  u  t  a  e  l  i  p  s  e  t  a  b  o  l  y  H r   a  l  s  e  t  a  b  o  l  y  H Hylobates  moloch Hylobates  klossiii r  e  l  l  e  u  m  s  e  t  a  b  o  l  y  H   s  i  b  r  a  b  i  b  l  a  s  e  t  a  b  o  l  y  H   s  i  l  i  g  a  s  e  t  a  b  o  l  y  H Colobus   satanas   Colobus   angolensis   Colobus  guereza Colobus  vellerosus   Colobus   polykomos   Procolobus verus Procolobus rufomitratus  Procolobus kirkii   m  u  r  o  n  o  d  r  o  g  s  u  b  o  l  o  c  o  r  P  Procolobus badius  Procolobus pennantii Procolobus preussi  Presbytis  thomasi i  n  a  i  z  n  e  t  o  p  s  i  t  y  b  s  e  r  P   a  t  a  m  o  c  s  i  t  y  b  s  e  r  P  Presbytis   rubicundas  o  h  p  o  l  a  l  e  m  s  i  t  y  b  s  e  r  P Presbytis   frontata   Presbytis   hosei   Presbytis  chrysomelas Presbytis   femoralis   Presbytis  siamensis Presbytis  natunae Rhinopithecus brelichi   Rhinopithecus roxellana  Rhinopithecus avunculus Rhinopithecus bieti   Nasalis  larvatus Simias  concolor Pygathrix  nigripes   Pygathrix   nemaeus a   e  r  e  n  i  c  x  i  r  h  t  a  g  y  P   s  i  s  n  e  h  n  i  t  a  h  s  u  c  e  h  t  i  p  y  h  c  a  r  T Trachypithecus laotum Trachypithecus delacouri   s  u  l  a  h  p  e  c  o  i  l  o  p  s  u  c  e  h  t  i  p  y  h  c  a  r  TTrachypithecus francoisi  Trachypithecus phayrei Trachypithecus obscurus  Trachypithecus barbei  Trachypithecus cristatus  Trachypithecus auratus Trachypithecus germaini s   u  t  a  e  l  i  p  s  u  c  e  h  t  i  p  y  h  c  a  r  T   i  e  g  d  i  r  t  r  o  h  s  s  u  c  e  h  t  i  p  y  h  c  a  r  T Trachypithecus geei  Trachypithecus johnii Trachypithecus vetulus  Semnopithecus dussumieri  Semnopithecus entellus s   o  c  u  e  l  o  p  y  h  s  u  c  e  h  t  i  p  o  n  m",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 9268,
+                        "end": 9275,
+                        "text": "Table 2",
+                        "ref_id": "TABREF8"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Amphibians",
+                "sec_num": null
+            },
+            {
+                "text": "We identified 62 bioregions of mammals, which we show together with their phylogenetic tree and ancestral range reconstructions in Figure 3 (see Supplementary Material available on Dryad for detailed results). Some of the bioregions are very large, reflecting major continental-wide differences, whereas others comprise no more than a few square degrees. For example, we identified more than 10 bioregions for Australia, a landmass known to contain a high number of species and ecosystems (see Table 2 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 131,
+                        "end": 139,
+                        "text": "Figure 3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 494,
+                        "end": 501,
+                        "text": "Table 2",
+                        "ref_id": "TABREF8"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Mammals",
+                "sec_num": null
+            },
+            {
+                "text": "We acknowledge that the automated cleaning steps described above for species occurrences are probably not sufficient to fully validate the distribution data set. Careful revision of specimens and localities by Notes: For exact locations, the indices (a)-(i) are displayed on the bioregion map in Figure 3 . Common names taken from Encyclopedia of Life at http://eol.org taxonomists, and increased spatial sampling, are some of the time-consuming tasks required to produce more reliable data sets (Maldonado et al. 2015; Meyer et al. 2016) . As a consequence, our results may be affected by sampling biases, inaccurate georeferencing, and/or incorrect identifications. These issues prevent us from discerning, for example, whether the scattered occurrence of small bioregions in Russia is a real biological result or, more likely, an artifact of the scarce publicly available data for that region.",
+                "cite_spans": [
+                    {
+                        "start": 496,
+                        "end": 519,
+                        "text": "(Maldonado et al. 2015;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 520,
+                        "end": 538,
+                        "text": "Meyer et al. 2016)",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 296,
+                        "end": 304,
+                        "text": "Figure 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Mammals",
+                "sec_num": null
+            },
+            {
+                "text": "Validation We further evaluated the performance of Infomap Bioregions by comparing the bioregions identified for mammals and amphibians with the widely used World Wildlife Fund (WWF) ecoregions (Olson et al. 2001) , see Figure 4 . For these analyses we used the mapcurves algorithm (Hargrove et al. 2006) as implemented by van Loon (2006) . Mapcurves is a quantitative method to compare the spatial concordance between categorical maps, by calculating a goodness of fit (GOF) for each polygon in a map of interest based on the degree of spatial overlap with the polygons of a reference map. The results can be summarized in a global GOF score. Mapcurves is resolution independent, does not require the same number of categories in both maps, and any polygon in a map that can be exactly comprised of a set of polygons in the reference map will show a perfect fit. However, the algorithm generally indicates a poor fit when a finer resolution map is compared to a coarser map. A limitation of this asymmetry becomes apparent when the map of interest has coarser resolution than the chosen reference map in some or most of the areas, but finer resolution in other areas. Therefore, the globally best GOF map may have areas of finer resolution where the local GOF is poor, whereas the bioregions in the reference map covering the same area may have better local GOF. See Hargrove et al. (2006) for a detailed description of the method.",
+                "cite_spans": [
+                    {
+                        "start": 194,
+                        "end": 213,
+                        "text": "(Olson et al. 2001)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 282,
+                        "end": 304,
+                        "text": "(Hargrove et al. 2006)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 327,
+                        "end": 338,
+                        "text": "Loon (2006)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1368,
+                        "end": 1390,
+                        "text": "Hargrove et al. (2006)",
+                        "ref_id": "BIBREF6"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 220,
+                        "end": 228,
+                        "text": "Figure 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Mammals",
+                "sec_num": null
+            },
+            {
+                "text": "The results of the comparison show a generally good fit between the bioregions identified by Infomap Bioregions and the WWF ecoregions. The fit was better for amphibians (global GOF 0.65) than for mammals (0.54), which might be related to the data used for map creation (range polygons vs. point occurrences, respectively). The spatial visualization of the GOF scores shows that the fit is very good for most areas. Differences are mainly associated with a number of very small bioregions, mostly in the Andes for amphibians and mostly in Asia and northern Africa for mammals. For mammals, many of the small bioregions recognized by Infomap Bioregions seem to derive from low data availability. A low fit is also partly an artifact of the asymmetry of the measure as mentioned above, especially for amphibians in the Andes.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Mammals",
+                "sec_num": null
+            },
+            {
+                "text": "We also compared the bioregions identified by Infomap Bioregions to the zoogeographic regions from Holt et al. (2013) , which for the amphibians were based on approximately the same data, but delimited using a beta-diversity method including phylogenetic information. The GOF was overall very good, with a global GOF score of 0.77 for amphibians and 0.42 for mammals (see Supplementary Material available Comparison between Infomap bioregions and WWF ecoregions using the Mapcurves algorithm (Hargrove et al. 2006 ). a) Infomap bioregions for the amphibian data set; b) Infomap bioregions for the mammalian data set; c) WWF ecoregions from Olson et al. (2001) ; d) Mapcurves as a measure for the GOF for the Infomap bioregions with respect to the WWF ecoregions. The graph shows the percentage of bioregions with a GOF score better than the corresponding value on the horizontal axis (zero to one). A perfect fit for all bioregions would be indicated by a horizontal line at the top; e) GOF map of the Infomap bioregions for amphibians and the total GOF score; f) GOF map of the Infomap bioregions for mammals and the total GOF score. The fit of the bioregions to the WWF ecoregions is generally very good, with the exception of several very small bioregions identified by Infomap Bioregions. on Dryad). In summary, the results of the pairwise comparisons show that bioregions delimited by Infomap Bioregions generally correspond well to commonly used bioregionalization maps, despite differences in the underlying data and methodology applied.",
+                "cite_spans": [
+                    {
+                        "start": 99,
+                        "end": 117,
+                        "text": "Holt et al. (2013)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 492,
+                        "end": 513,
+                        "text": "(Hargrove et al. 2006",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 640,
+                        "end": 659,
+                        "text": "Olson et al. (2001)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Mammals",
+                "sec_num": null
+            },
+            {
+                "text": "Designed to make data-driven identification of bioregions simple and effective, we introduced the web application Infomap Bioregions and demonstrated its flexibility. A user can load species data from both point occurrences and range polygons, modify parameters directly in the web interface, and export results to various formats for high-quality printing or further biogeographical analyses. The web application uses adaptive spatial resolution, can process millions of records in a few minutes, and applies bipartite network clustering that outperforms traditional methods based on similarity indices. Moreover, the user can load phylogenetic data for the species and explore how the bioregions map to the phylogenetic tree. We validated the application on two large data sets of amphibians and mammals and anticipate that Infomap Bioregions will become a standard tool in many studies in ecology, evolution, conservation biology, and historical biogeography.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "CONCLUSIONS",
+                "sec_num": null
+            },
+            {
+                "text": "Bioregions is made open source under the GNU AGPL v3+ license. It is written in JavaScript and VOL. 66 builds on a set of open source libraries (see dependencies in package.json). Because it is a pure client-side application, all data stay and all calculations run on the user's computer. Moreover, all heavy calculations run in a background thread. Together, this means improved privacy and performance.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "AVAILABILITY AND FORTHCOMING EXTENSIONS Infomap",
+                "sec_num": null
+            },
+            {
+                "text": "Infomap Bioregions is available at http://bioregions. mapequation.org and the source code is freely available at http://github.com/mapequation/bioregions. Possible forthcoming extensions include batch runs, additional methods to find indicator species and bioregions, hierarchical clustering of bioregions, deeper integration of phylogenetic information and significance clustering with bootstrap to find which bioregional boundaries are statistically significant. The authors welcome suggestions for enhancements.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "AVAILABILITY AND FORTHCOMING EXTENSIONS Infomap",
+                "sec_num": null
+            },
+            {
+                "text": "Data available from the Dryad Digital Repository: http://dx.doi.org/10.5061/dryad.2s201. ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "SUPPLEMENTARY MATERIAL",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We thank Daril Vilhena, Shawn Laffan, and our colleagues and students for discussions. We also thank Anna Ekl\u00f6f and two anonymous reviewers, associate editor James Albert, and chief editors Frank Andersson and Thomas Near for constructive comments on this manuscript.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACKNOWLEDGMENTS",
+                "sec_num": null
+            },
+            {
+                "text": " i t  c  y  N s   u  l  u  t  n  a  g  e  l  e  s  u  c  i t  o  u  E s   u  d i  l l  a  p  s  u  c  i  t  o  u  E i   e i  h  c  s  t  a  m  o  g a  l  a  G m   u  r  a  l  l  a  g  o  g  a  l  a  G i   l  o  h  o  m  o  g  a  l  a  G s i   s  n  e  l  a  g  e  n  e  s  o  g  a  l  a  G i   n  e  l  l  a  s  u  r i  e  h  c  o  r  u  i  c  S s   i  s  n  e  n  o  b  a  g  s  u  r  i  e  h  c  o  r  u  i  c  S s   u  t  a  d  u  a  c  i  s  s  a  r  c  r  u  m  e l  o  t  O   i  i t  t  e  n  r  a  g  r  u  m  e l  o  t  O e   a  s  a  y  n  s  e  d i  o  g  a  l  a  G s   u  n  i  r  o  s  e  d  i o  g  a  l  a  G i i   v  o  d  i  m  e  d  s  e  d  i  o  g  a  l  a  G i   t  n  a  r  g  s  e  d  i  o  g  a  l  a  G s i   s  n  e  o  d  n  o r  s  e  d i  o  g  a l  a  G s   o  c  o  c  s  e  d  i  o  g  a  l  a  G s   u  c  i  r  a  b i  z  n  a  z  s  e  d  i  o  g  a l  a  G i   s  a  m  o  h t  s  e  d  i  o  g  a  l  a  G s i   s  n e  i r  a  c  s  a  g  a  d  a  m  a  i  n  o  t  n  e  b  u  a  D s   u  t  s  u  b  o  r  a  i  n  o  t  n  e  b  u  a  D i   r  e  i  d  i  d  n  a  r  g  s  i  p  a  d  a l  a  g  e  M i   s  d  r  a  w  d  e  s  i  p  a  d  a  l  a  g  e  M s   i  s  n  e  i  r  a  c  s  a  g  a  d  a  m  s  i  p  a  d  a  l  a  g  e  M a   r  b  u  r  a i  c  e  r  a  V a   t  a  g  e i  r  a  v  a  i  c  e  r  a  V s   u  m  i  s  r  u  m  e  l  o  r  P a   t  t  a  c  r  u  m  e  L s   i  n  g i  s  n  i  r  u  m  e  l  y  h  c  a  P i   y  l  l  u  j  r  u  m  e  l  y  h  c  a  P s   u  e  r  u  a  r  u  m  e  l  a  p  a  H s   i l  a  t  n  e  d  i  c  c  o  r  u  m  e l  a  p  a  H s   i  l  a  n  o  i  d  i  r  e  m  r  u  m  e  l  a  p  a  H s   u  e  s  i  r  g  r  u  m  e  l  a  p  a  H s   i  s  n  e  r  t  o  a  l  a  r  u  m  e  l  a  p  a  H   r  e  t  n  e  v  i  r  b  u  r  r  u  m  e  l  u  E a  w  d  e  r  u  m  e  l  o  e  a  h  c  r  A i   r  o j  a  m  r  u  m  e  l  o  e  a  h  c  r  A i   r  d  n  i  i  r  d  n  I i   e  s  e  e  l  c  i  h  a  v  A r   o  l  o  c  i  n  u  i  h  a  v  A s   i  l  a  t  n  e  d  i  c  c  o  i  h  a  v  A i   s  a  r  e  i  r  y  e  p  i  h  a  v  A o   e  l  i  s  t  e  b  i  h  a  v  A i   a  n  a  v  a  o  s  t  n  a  n  a  m  a  r  i  h  a  v  A s   i  l  a  n  o  i  d i  r  e  m  i  h  a  v  A r   e  g  i  n  a  l  i  h  a  v  A a   m  e  d  a  i  d  s  u  c  e  h  t  i  p  o  r  P i   s  d  r  a  w  d  e  s  u  c  e  h  t  i  p  o  r  P   i  r  e  i  r  r  e  p  s  u  c  e  h  t  i  p  o  r  P i   l  e  r  e  u  q  o  c  s  u  c  e  h  t  i  p  o  r  P i   l  l  a  s  r  e  t  t  a  t  s  u  c  e  h  t  i  p  o  r  P   s  u  d  i  d  n  a  c  s  u  c  e  h  t  i  p  o  r  P i   x  u  a  e  r  r  e  v  s  u  c  e  h  t  i  p  o  r  P i   i  n  e  k  c  e  d  s  u  c  e  h  t  i  p  o  r  P s   u  t  a  n  o  r  o  c  s  u  c  e  h  t  i  p  o  r  P i   l  a  e  s  r  u  m  e  l  i  p  e  L e   a  t  h  g  i  r  w  r  u  m  e  l  i  p  e  L   s  u  n  i  l  e  t  s  u  m  r  u  m  e  l  i  p  e  L e   a  t  e  r  u  e  l  f  r  u  m  e  l  i  p  e  L n   o  d  o  r  c  i  m  r  u  m  e  l  i  p  e  L   m  u  r  o  k  c  o  c  w  e  r  g  r  u  m  e  l  i  p  e  L o   t  t  o  r  u  m  e  l  i  p  e  L   i  s  d  r  a  w  d  e  r  u  m  e  l  i  p  e  L o   e  l  i  s  t  e  b  r  u  m  e  l  i  p  e  L s   i  s  n  e  z  a  l  a  m  a  h  a  s  r  u  m  e  l  i  p  e  L m   u  r  o  n  o  s  n  a  m  h  a  r  u  m  e  l  i  p  e  L s   i  l  c  e  e  a  r  u  m  e  l  i  p  e  L m   u  r  o  n  o  s  h  c  a  l  r  e  m  y  t  r  u  m  e  l  i  p  e  L i i   o  n  a  l  i  m  r  u  m  e  l  i  p  e  L m   u  r  o  s  e  m  a  j  r  u  m  e  l  i  p  e  L   i  r  e  i  e  m  r  e  t  t  i  m  r  u  m  e  l  i  p  e  L s i   l  a  s  r  o  d  r  u  m  e  l  i  p  e  L s   i  s  n  e  n  a  r  a  k  n  a  r  u  m  e  l  i  p  e  L s   i  l  a  n  o  i  r  t  n  e  t  p  e  s  r  u  m  e  l  i  p  e  L i   r  e  t  t  e  p  r  u  m  e  l  i  p  e  L s   u  p  o  c  u  e  l  r  u  m  e  l  i  p  e  L i   o  l  o  s  a  n  a  i  r  d  n  a  r  r  u  m  e  l  i  p  e  L   m  u  r  o  d  r  a  b  b  u  h  r  u  m  e  l  i  p  e  L s   u  t  a  d  u  a  c  i  f  u  r  r  u  m  e  l  i  p  e  L i   t  n  e  i  r  a  p  r  e  n  a  h  P r   e  f  i  c  r  u  f  r  e  n  a  h  P   s  i  t  n  o  m  o  r  t  c  e  l  e  r  e  n  a  h  P s   n  e  c  s  e  l  l  a  p  r  e  n  a  h  P   i  e  e  r  b  i  s  s  u  e  l  a  g  o  r  i  e  h  C s   u  i  d  e  m  s  u  e  l  a  g  o  r  i  e  h  C   s  u  t  a  d  u  a  c  i  p  i  d  a  s  u  e  l  a  g  o  r  i  e  h  C r   o  j  a  m  s  u  e  l  a  g  o  r  i  e  h  C s   u  v  a  r  s  u  e  l  a  g  o  r  i  e  h  C i   y  e  l  s  s  o  r  c  s  u  e  l  a  g  o  r  i  e  h  C s   u  l  u  c  s  u  n i  m  s  u  e  l  a  g  o  r  i  e  h  C s   i  t  o  h  c  i  r  t  s  u  b  e  c  o  l  l  A   a  z  a  z  a  z  r  i  M i   l  e  r  e  u  q  o  c  a  z  r  i  M s   u  f  u  r  o  e  s i  r  g  s  u  b  e  c  o  r  c  i  M   m  u  r  o  s  s  o  f  n  a  d  s  u  b  e  c  o  r  c  i  M s   i  s  n  e  b  o  l  e  v  a  r  s  u  b  e  c  o  r  c  i  M   s  i  s  n  e  v  a  l  o  g  n  o  b  s  u  b  e  c  o  r  c  i  M i   s  n  o  m  m  i  s  s  u  b  e  c  o  r  c  i  M e   a  y  l  l  o  j  s  u  b  e  c  o  r  c  i  M a   r  t  a  r  i  m  a  m  s  u  b  e  c  o  r  c  i  M   s  i  s  n  e  n  a  r  i  b  m  a  s  s  u  b  e  c  o  r  c  i  M a   r  t  a  r  a  v  a  t  s  u  b  e  c  o  r  c  i  M i   r  e  i  e  m  r  e  t  t  i  m  s  u  b  e  c  o  r  c  i  M a   r  a  s  t  y  h  a l  i  h  e  l  s  u  b  e  c  o  r  c  i  M s   u  f  u  r  s  u  b  e  c  o  r  c  i  M   e  a  h  t  r  e  b  s  u  b  e  c  o  r  c  i  M s   u  n  i  x  o  y  m  s  u  b  e  c  o  r  c  i  M s   u  n  i  r  u  m  s  u  b  e  c  o  r  c  i  M s   i  s  n  e  g  n  e  l  e  p  s  u  i  s  r  a  T s   u  t  a  t  n  e  d  s  u  i  s  r  a  T g   n  a  i  r  a  l  s  u  i  s  r  a  T s   u  n  a  c  n  a  b  s  u  i  s  r  a  T s   i  s  n  e  r  i  g  n  a  s  s  u  i  s  r  a  T a   t  h  c  i  r  y  s  s  u  i  s  r  a  T r   e  i  s  r  a  t  s  u  i  s  r  a  T s   u  l  i  m  u  p  s  u  i  s  r  a  T   a  i  c  e  h  t  i  p  a  i  c  e  h  t  i  P s   i  l  a  i  r n  e  c  s  a  r  e  n  i  c  s  u  b  e  c  i  l  l  a  C s   u  e  n  n  u  r  b  s  u  b  e  c  i  l  l  a  C   i  s  n  n  a  m  f  f  o  h  s  u  b  e  c  i  l  l  a  C a   t  s  i  t  p  a  b  s  u  b  e  c  i  l  l  a  C i   d  r  a  h  n  r  e  b  s  u  b  e  c  i  l  l  a  C s   u  i  b  u  d  s  u  b  e  c  i  l  l  a  C   i  i  t  a  l  a  p  i  e  r  u  a  s  u  b  e  c  i  l  l  a  C s   u  e  r  p  u  c  s  u  b  e  c  i  l  l  a  C   r  o  l  o  c  s  i  d  s  u  b  e  c  i  l  l  a  C   s  u  t  a  n  r  o  s  u  b  e  c  i  l  l  a  C i   h  s  a  n  n  e  h  p  e  t  s  s  u  b  e  c  i  l  l  a  C s   u  t  a  g  i  l  a  c  s  u  b  e  c  i  l  l  a  C   e  h  t  n  a  n  e  o  s  u  b  e  c  i  l  l  a  C   s  u  t  s  e  d  o  m  s  u  b  e  c  i  l  l  a  C e   a  l  l  a  l  o  s  u  b  e  c  i  l  l  a  C s   u  l  i  h  p  o  c  a  n  o  d  s  u  b  e  c  i  l  l  a  C   s  n  e  c  s  e  l  l  a  p  s  u  b  e  c  i  l  l  a  C r   e  f  i  c  u  l  s  u  b  e  c  i  l  l  a  C i   m  e  d  e  m  s  u  b  e  c  i  l  l  a  C   s  u  n  i  r  u  p  s  u  b  e  c  i  l  l  a  C s   n  e  g  u  l  s  u  b  e  c  i  l  l  a  C   s  u  l  u  g  e  r  s  u  b  e  c  i  l  l  a  C s   u  t  a  u  q  r  o  t  s  u  b  e  c  i  l  l  a  C   a  r  g  i  p  a  t  t  a  u  o  l  A a   t  a  i  l  l  a  p  a  t  t  a  u  o  l  A   a  b  i  r  a  u  g  a  t  t  a  u  o  l  A a   m  i  r  r  e  g  i  n  a  t  t  a  u  o  l  A l   u  b  e  z  l  e  b  a  t  t  a  u  o  l  A a   t  a  l  u  l  u  a  t  t  a  u  o  l  A r   o  l  o  c  s  i  d  a  t  t  a  u  o  l  A a   y  a  r  a  c  a  t  t  a  u  o  l  A s   u  l  u  c  i  n  e  s  a  t  t  a  u  o  l  A a   r  a  u  j  a  t  t  a  u  o  l  A   s  i  s  n  e  u  r  u  p  a  t  t  a  u  o  l  A Alouatta sara a   e  d  i  o  t  c  r  a  a  t  t  a  u  o  l  A   i  l  l  e  n  n  o  c  c  a  m  a  t  t  a  u  o  l  A s   u  c  s  i  n  a  p  s  e  l  e  t  A k   e  m  a  h  c  s  e  l  e  t  A s   u  t  a  n  i  g  r  a  m  s  e  l  e  t  A s   p  e  c  i  c  s  u  f  s  e  l  e  t  A s   u  d  i  r  b  y  h  s  e  l  e  t  A i   y  o  r  f  f  o  e  g  s  e  l  e  t  A   h  t  u  b  e  z  l  e  b  s  e  l  e  t  A s  i  a  S   s  u  t  s  u  i  r  i  m  i  a  S s   u  e  r  u  i  c  s  i  r  i  m  i  a  S   i  i  d  e  t  s  r  e  o  i  r  i  m  i  a  S s   u  e  c  a  v  i  l  o  s  u  b  e  C i   r  o  p  a  a  k  s  u  b  e  C   s  n  o  r  f  i  b  l  a  s  u  b  e  C s   u  n  i  c  u  p  a  c  s  u  b  e  C Cebus apella   s  o  n  r  e  t  s  o  h  t  n  a  x  s  u  b  e  C s   u  t  s  u  b  o  r  s  u  b  e  C s   u  i  v  a  l  f  s  u  b  e  C s   u  t  i  r  g  i  n  s  u  b  e  C   s  u  l  a  h  p  e  c  o  r  c  a  m  s  u  b  e  C   s  u  s  o  n  i  d  i  b  i  l  s  u  b  e  C Cebus cay  Aotus nigriceps i   z  e  d  n  a  n  r  e  h  e  g  r  o  j  s  u  t  o  A x   a  n  o  c  i  m  s  u  t  o  A s   n  a  r  e  f  i  c  o  v  s  u  t  o  A s   i  l  a  n  o  z  s  u  t  o  A s   u  t  a  g  r  i  v  i  r  t  s  u  t  o  A   a  r  b  m  e  m  i  e  s  i  r  g  s  u  t  o  A s   u  n  i  r  u  m  e  l  s  u  t  o  A   e  a  a  m  y  c  n  a  n  s  u  t  o  A e   a  r  a  z  a  s  u  t  o  A   i  k  c  a  b  m  u  r  b  s  u  t  o  A   s  u  p  o  c  u  e  l  s  u  n  i  u  g  a  S s   u  t  i  t  r  a  p  i  r  t  s  u  n  i  u  g  a  S   s  i  l  l  o  c  i  r  g  i  n  s  u  n  i  u  g  a  S   s  u  c  u  e  l  o  n  a  l  e  m  s  u  n  i  u  g  a  S s   i  l  l  o  c  i  c  s  u  f  s  u  n  i  u  g  a  S   s  u  t  s  u  n  i  s  u  n  i  u  g  a  S r   o  t  a  r  e  p  m  i  s  u  n  i  u  g  a  S   s  u  t  a  i  b  a  l  s  u  n  i  u  g  a  S x   a  t  s  y  m  s  u  n  i  u  g  a  S Saguinus   geoffroyi s  u  p  i  d  e  o  s  u  n  i  u  g  a  S   r  o  l  o  c  i  b  s  u  n  i  u  g  a  S i   s  n  i  t  r  a  m  s  u  n  i  u  g  a  S   r  e  g  i  n  s  u  n  i  u  g  a  S   s  a  d  i  m  s ",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 1,
+                        "end": 1864,
+                        "text": "i t  c  y  N s   u  l  u  t  n  a  g  e  l  e  s  u  c  i t  o  u  E s   u  d i  l l  a  p  s  u  c  i  t  o  u  E i   e i  h  c  s  t  a  m  o  g a  l  a  G m   u  r  a  l  l  a  g  o  g  a  l  a  G i   l  o  h  o  m  o  g  a  l  a  G s i   s  n  e  l  a  g  e  n  e  s  o  g  a  l  a  G i   n  e  l  l  a  s  u  r i  e  h  c  o  r  u  i  c  S s   i  s  n  e  n  o  b  a  g  s  u  r  i  e  h  c  o  r  u  i  c  S s   u  t  a  d  u  a  c  i  s  s  a  r  c  r  u  m  e l  o  t  O   i  i t  t  e  n  r  a  g  r  u  m  e l  o  t  O e   a  s  a  y  n  s  e  d i  o  g  a  l  a  G s   u  n  i  r  o  s  e  d  i o  g  a  l  a  G i i   v  o  d  i  m  e  d  s  e  d  i  o  g  a  l  a  G i   t  n  a  r  g  s  e  d  i  o  g  a  l  a  G s i   s  n  e  o  d  n  o r  s  e  d i  o  g  a l  a  G s   o  c  o  c  s  e  d  i  o  g  a  l  a  G s   u  c  i  r  a  b i  z  n  a  z  s  e  d  i  o  g  a l  a  G i   s  a  m  o  h t  s  e  d  i  o  g  a  l  a  G s i   s  n e  i r  a  c  s  a  g  a  d  a  m  a  i  n  o  t  n  e  b  u  a  D s   u  t  s  u  b  o  r  a  i  n  o  t  n  e  b  u  a  D i   r  e  i  d  i  d  n  a  r  g  s  i  p  a  d  a l  a  g  e  M i   s  d  r  a  w  d  e  s  i  p  a  d  a  l  a  g  e  M s   i  s  n  e  i  r  a  c  s  a  g  a  d  a  m  s  i  p  a  d  a  l  a  g  e  M a   r  b  u  r  a i  c  e  r  a  V a   t  a  g  e i  r  a  v  a  i  c  e  r  a  V s   u  m  i  s  r  u  m  e  l  o  r  P a   t  t  a  c  r  u  m  e  L s   i  n  g i  s  n  i  r  u  m  e  l  y  h  c  a  P i   y  l  l  u  j  r  u  m  e  l  y  h  c  a  P s   u  e  r  u  a  r  u  m  e  l  a  p  a  H s   i l  a  t  n  e  d  i  c  c  o  r  u  m  e l  a  p  a  H s   i  l  a  n  o  i  d  i  r  e  m  r  u  m  e  l  a  p  a  H s   u  e  s  i  r  g  r  u  m  e  l  a  p  a  H s   i  s  n  e  r  t  o  a  l  a  r  u  m  e  l  a  p  a  H   r  e  t  n  e  v  i  r  b  u  r  r  u  m  e  l  u  E",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1865,
+                        "end": 10258,
+                        "text": "a  w  d  e  r  u  m  e  l  o  e  a  h  c  r  A i   r  o j  a  m  r  u  m  e  l  o  e  a  h  c  r  A i   r  d  n  i  i  r  d  n  I i   e  s  e  e  l  c  i  h  a  v  A r   o  l  o  c  i  n  u  i  h  a  v  A s   i  l  a  t  n  e  d  i  c  c  o  i  h  a  v  A i   s  a  r  e  i  r  y  e  p  i  h  a  v  A o   e  l  i  s  t  e  b  i  h  a  v  A i   a  n  a  v  a  o  s  t  n  a  n  a  m  a  r  i  h  a  v  A s   i  l  a  n  o  i  d i  r  e  m  i  h  a  v  A r   e  g  i  n  a  l  i  h  a  v  A a   m  e  d  a  i  d  s  u  c  e  h  t  i  p  o  r  P i   s  d  r  a  w  d  e  s  u  c  e  h  t  i  p  o  r  P   i  r  e  i  r  r  e  p  s  u  c  e  h  t  i  p  o  r  P i   l  e  r  e  u  q  o  c  s  u  c  e  h  t  i  p  o  r  P i   l  l  a  s  r  e  t  t  a  t  s  u  c  e  h  t  i  p  o  r  P   s  u  d  i  d  n  a  c  s  u  c  e  h  t  i  p  o  r  P i   x  u  a  e  r  r  e  v  s  u  c  e  h  t  i  p  o  r  P i   i  n  e  k  c  e  d  s  u  c  e  h  t  i  p  o  r  P s   u  t  a  n  o  r  o  c  s  u  c  e  h  t  i  p  o  r  P i   l  a  e  s  r  u  m  e  l  i  p  e  L e   a  t  h  g  i  r  w  r  u  m  e  l  i  p  e  L   s  u  n  i  l  e  t  s  u  m  r  u  m  e  l  i  p  e  L e   a  t  e  r  u  e  l  f  r  u  m  e  l  i  p  e  L n   o  d  o  r  c  i  m  r  u  m  e  l  i  p  e  L   m  u  r  o  k  c  o  c  w  e  r  g  r  u  m  e  l  i  p  e  L o   t  t  o  r  u  m  e  l  i  p  e  L   i  s  d  r  a  w  d  e  r  u  m  e  l  i  p  e  L o   e  l  i  s  t  e  b  r  u  m  e  l  i  p  e  L s   i  s  n  e  z  a  l  a  m  a  h  a  s  r  u  m  e  l  i  p  e  L m   u  r  o  n  o  s  n  a  m  h  a  r  u  m  e  l  i  p  e  L s   i  l  c  e  e  a  r  u  m  e  l  i  p  e  L m   u  r  o  n  o  s  h  c  a  l  r  e  m  y  t  r  u  m  e  l  i  p  e  L i i   o  n  a  l  i  m  r  u  m  e  l  i  p  e  L m   u  r  o  s  e  m  a  j  r  u  m  e  l  i  p  e  L   i  r  e  i  e  m  r  e  t  t  i  m  r  u  m  e  l  i  p  e  L s i   l  a  s  r  o  d  r  u  m  e  l  i  p  e  L s   i  s  n  e  n  a  r  a  k  n  a  r  u  m  e  l  i  p  e  L s   i  l  a  n  o  i  r  t  n  e  t  p  e  s  r  u  m  e  l  i  p  e  L i   r  e  t  t  e  p  r  u  m  e  l  i  p  e  L s   u  p  o  c  u  e  l  r  u  m  e  l  i  p  e  L i   o  l  o  s  a  n  a  i  r  d  n  a  r  r  u  m  e  l  i  p  e  L   m  u  r  o  d  r  a  b  b  u  h  r  u  m  e  l  i  p  e  L s   u  t  a  d  u  a  c  i  f  u  r  r  u  m  e  l  i  p  e  L i   t  n  e  i  r  a  p  r  e  n  a  h  P r   e  f  i  c  r  u  f  r  e  n  a  h  P   s  i  t  n  o  m  o  r  t  c  e  l  e  r  e  n  a  h  P s   n  e  c  s  e  l  l  a  p  r  e  n  a  h  P   i  e  e  r  b  i  s  s  u  e  l  a  g  o  r  i  e  h  C s   u  i  d  e  m  s  u  e  l  a  g  o  r  i  e  h  C   s  u  t  a  d  u  a  c  i  p  i  d  a  s  u  e  l  a  g  o  r  i  e  h  C r   o  j  a  m  s  u  e  l  a  g  o  r  i  e  h  C s   u  v  a  r  s  u  e  l  a  g  o  r  i  e  h  C i   y  e  l  s  s  o  r  c  s  u  e  l  a  g  o  r  i  e  h  C s   u  l  u  c  s  u  n i  m  s  u  e  l  a  g  o  r  i  e  h  C s   i  t  o  h  c  i  r  t  s  u  b  e  c  o  l  l  A   a  z  a  z  a  z  r  i  M i   l  e  r  e  u  q  o  c  a  z  r  i  M s   u  f  u  r  o  e  s i  r  g  s  u  b  e  c  o  r  c  i  M   m  u  r  o  s  s  o  f  n  a  d  s  u  b  e  c  o  r  c  i  M s   i  s  n  e  b  o  l  e  v  a  r  s  u  b  e  c  o  r  c  i  M   s  i  s  n  e  v  a  l  o  g  n  o  b  s  u  b  e  c  o  r  c  i  M i   s  n  o  m  m  i  s  s  u  b  e  c  o  r  c  i  M e   a  y  l  l  o  j  s  u  b  e  c  o  r  c  i  M a   r  t  a  r  i  m  a  m  s  u  b  e  c  o  r  c  i  M   s  i  s  n  e  n  a  r  i  b  m  a  s  s  u  b  e  c  o  r  c  i  M a   r  t  a  r  a  v  a  t  s  u  b  e  c  o  r  c  i  M i   r  e  i  e  m  r  e  t  t  i  m  s  u  b  e  c  o  r  c  i  M a   r  a  s  t  y  h  a l  i  h  e  l  s  u  b  e  c  o  r  c  i  M s   u  f  u  r  s  u  b  e  c  o  r  c  i  M   e  a  h  t  r  e  b  s  u  b  e  c  o  r  c  i  M s   u  n  i  x  o  y  m  s  u  b  e  c  o  r  c  i  M s   u  n  i  r  u  m  s  u  b  e  c  o  r  c  i  M s   i  s  n  e  g  n  e  l  e  p  s  u  i  s  r  a  T s   u  t  a  t  n  e  d  s  u  i  s  r  a  T g   n  a  i  r  a  l  s  u  i  s  r  a  T s   u  n  a  c  n  a  b  s  u  i  s  r  a  T s   i  s  n  e  r  i  g  n  a  s  s  u  i  s  r  a  T a   t  h  c  i  r  y  s  s  u  i  s  r  a  T r   e  i  s  r  a  t  s  u  i  s  r  a  T s   u  l  i  m  u  p  s  u  i  s  r  a  T   a  i  c  e  h  t  i  p  a  i  c  e  h  t  i  P s   i  l  a  i  r n  e  c  s  a  r  e  n  i  c  s  u  b  e  c  i  l  l  a  C s   u  e  n  n  u  r  b  s  u  b  e  c  i  l  l  a  C   i  s  n  n  a  m  f  f  o  h  s  u  b  e  c  i  l  l  a  C a   t  s  i  t  p  a  b  s  u  b  e  c  i  l  l  a  C i   d  r  a  h  n  r  e  b  s  u  b  e  c  i  l  l  a  C s   u  i  b  u  d  s  u  b  e  c  i  l  l  a  C   i  i  t  a  l  a  p  i  e  r  u  a  s  u  b  e  c  i  l  l  a  C s   u  e  r  p  u  c  s  u  b  e  c  i  l  l  a  C   r  o  l  o  c  s  i  d  s  u  b  e  c  i  l  l  a  C   s  u  t  a  n  r  o  s  u  b  e  c  i  l  l  a  C i   h  s  a  n  n  e  h  p  e  t  s  s  u  b  e  c  i  l  l  a  C s   u  t  a  g  i  l  a  c  s  u  b  e  c  i  l  l  a  C   e  h  t  n  a  n  e  o  s  u  b  e  c  i  l  l  a  C   s  u  t  s  e  d  o  m  s  u  b  e  c  i  l  l  a  C e   a  l  l  a  l  o  s  u  b  e  c  i  l  l  a  C s   u  l  i  h  p  o  c  a  n  o  d  s  u  b  e  c  i  l  l  a  C   s  n  e  c  s  e  l  l  a  p  s  u  b  e  c  i  l  l  a  C r   e  f  i  c  u  l  s  u  b  e  c  i  l  l  a  C i   m  e  d  e  m  s  u  b  e  c  i  l  l  a  C   s  u  n  i  r  u  p  s  u  b  e  c  i  l  l  a  C s   n  e  g  u  l  s  u  b  e  c  i  l  l  a  C   s  u  l  u  g  e  r  s  u  b  e  c  i  l  l  a  C s   u  t  a  u  q  r  o  t  s  u  b  e  c  i  l  l  a  C   a  r  g  i  p  a  t  t  a  u  o  l  A a   t  a  i  l  l  a  p  a  t  t  a  u  o  l  A   a  b  i  r  a  u  g  a  t  t  a  u  o  l  A a   m  i  r  r  e  g  i  n  a  t  t  a  u  o  l  A l   u  b  e  z  l  e  b  a  t  t  a  u  o  l  A a   t  a  l  u  l  u  a  t  t  a  u  o  l  A r   o  l  o  c  s  i  d  a  t  t  a  u  o  l  A a   y  a  r  a  c  a  t  t  a  u  o  l  A s   u  l  u  c  i  n  e  s  a  t  t  a  u  o  l  A a   r  a  u  j  a  t  t  a  u  o  l  A   s  i  s  n  e  u  r  u  p  a  t  t  a  u  o  l  A Alouatta sara a   e  d  i  o  t  c  r  a  a  t  t  a  u  o  l  A   i  l  l  e  n  n  o  c  c  a  m  a  t  t  a  u  o  l  A s   u  c  s  i  n  a  p  s  e  l  e  t  A k   e  m  a  h  c  s  e  l  e  t  A s   u  t  a  n  i  g  r  a  m  s  e  l  e  t  A s   p  e  c  i  c  s  u  f  s  e  l  e  t  A s   u  d  i  r  b  y  h  s  e  l  e  t  A i   y  o  r  f  f  o  e  g  s  e  l  e  t  A   h  t  u  b  e  z  l  e  b  s  e  l  e  t  A s  i  a  S   s  u  t  s  u  i  r  i  m  i  a  S s   u  e  r  u  i  c  s  i  r  i  m  i  a  S   i  i  d  e  t  s  r  e  o  i  r  i  m  i  a  S s   u  e  c  a  v  i  l  o  s  u  b  e  C i   r  o  p  a  a  k  s  u  b  e  C   s  n  o  r  f  i  b  l  a  s  u  b  e  C s   u  n  i  c  u  p  a  c  s  u  b  e  C Cebus apella   s  o  n  r  e  t  s  o  h  t  n  a  x  s  u  b  e  C s   u  t  s  u  b  o  r  s  u  b  e  C s   u  i  v  a  l  f  s  u  b  e  C s   u  t  i  r  g  i  n  s  u  b  e  C   s  u  l  a  h  p  e  c  o  r  c  a  m  s  u  b  e  C   s  u  s  o  n  i  d  i  b  i  l  s  u  b  e  C Cebus cay  Aotus nigriceps i   z  e  d  n  a  n  r  e  h  e  g  r  o  j  s  u  t  o  A x   a  n  o  c  i  m  s  u  t  o  A s   n  a  r  e  f  i  c  o  v  s  u  t  o  A s   i  l  a  n  o  z  s  u  t  o  A s   u  t  a  g  r  i  v  i  r  t  s  u  t  o  A   a  r  b  m  e  m  i  e  s  i  r  g  s  u  t  o  A s   u  n  i  r  u  m  e  l  s  u  t  o  A   e  a  a  m  y  c  n  a  n  s  u  t  o  A e   a  r  a  z  a  s  u  t  o  A   i  k  c  a  b  m  u  r  b  s  u  t  o  A   s  u  p  o  c  u  e  l  s  u  n  i  u  g  a  S s   u  t  i  t  r  a  p  i  r  t  s  u  n  i  u  g  a  S   s  i  l  l  o  c  i  r  g  i  n  s  u  n  i  u  g  a  S   s  u  c  u  e  l  o  n  a  l  e  m  s  u  n  i  u  g  a  S s   i  l  l  o  c  i  c  s  u  f  s  u  n  i  u  g  a  S   s  u  t  s  u  n  i  s  u  n  i  u  g  a  S r   o  t  a  r  e  p  m  i  s  u  n  i  u  g  a  S   s  u  t  a  i  b  a  l  s  u  n  i  u  g  a  S x   a  t  s  y  m  s  u  n  i  u  g  a  S Saguinus   geoffroyi s  u  p  i  d  e  o  s  u  n  i  u  g  a  S   r  o  l  o  c  i  b  s  u  n  i  u  g  a  S i   s  n  i  t  r  a  m  s  u  n  i  u  g  a  S   r  e  g  i  n  s  u  n  i  u  g  a  S   s  a  d  i  m  s",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "annex",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Exploring the limits of community detection strategies in complex networks",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Aldecoa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Mar\u00edn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Sci. Rep",
+                "volume": "3",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Aldecoa R., Mar\u00edn I. 2013. Exploring the limits of community detection strategies in complex networks. Sci. Rep. 3:2216.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Beast: Bayesian evolutionary analysis by sampling trees",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Drummond",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Rambaut",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "BMC Evol. Biol",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Drummond A.J., Rambaut A. 2007. Beast: Bayesian evolutionary analysis by sampling trees. BMC Evol. Biol. 7:214.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "The infomap software package",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Edler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Rosvall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Edler D., Rosvall M. 2015. The infomap software package. Available from: URL http://www.mapequation.org.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "A species-level phylogeny of all extant and late quaternary extinct mammals using a novel heuristic-hierarchical bayesian approach",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Faurby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J.-C",
+                        "middle": [],
+                        "last": "Svenning",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Mol. Phylogenet. Evol",
+                "volume": "84",
+                "issue": "",
+                "pages": "14--26",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Faurby S., Svenning J.-C. 2015. A species-level phylogeny of all extant and late quaternary extinct mammals using a novel heuristic-hierarchical bayesian approach. Mol. Phylogenet. Evol. 84: 14-26.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Toward defining the course of evolution: minimum change for a specific tree topology",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Fitch",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1971,
+                "venue": "Syst. Biol",
+                "volume": "20",
+                "issue": "",
+                "pages": "406--416",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fitch W.M. 1971. Toward defining the course of evolution: minimum change for a specific tree topology. Syst. Biol. 20:406-416.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Phylogenetic inference of reciprocal effects between geographic range evolution and diversification",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Goldberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Lancaster",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Ree",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Syst. Biol",
+                "volume": "60",
+                "issue": "",
+                "pages": "451--465",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Goldberg E.E., Lancaster L.T., Ree R.H. 2011. Phylogenetic inference of reciprocal effects between geographic range evolution and diversification. Syst. Biol. 60:451-465.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Mapcurves: a quantitative method for comparing categorical maps",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Hargrove",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Hoffman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Hessburg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "J. Geogr. Syst",
+                "volume": "8",
+                "issue": "",
+                "pages": "187--208",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hargrove W.W., Hoffman F.M., Hessburg P.F. 2006. Mapcurves: a quantitative method for comparing categorical maps. J. Geogr. Syst. 8:187-208.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "An update of Wallace's zoogeographic regions of the world",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Holt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J.-P",
+                        "middle": [],
+                        "last": "Lessard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Borregaard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Fritz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ara\u00fajo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Dimitrov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P.-H",
+                        "middle": [],
+                        "last": "Fabre",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Graham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Graves",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "J\u00f8nsson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Nogu\u00e9s-Bravo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Whittaker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Rahbek",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Science",
+                "volume": "339",
+                "issue": "",
+                "pages": "74--78",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Holt B.G., Lessard J.-P., Borregaard M.K., Fritz S.A., Ara\u00fajo M.B., Dimitrov D., Fabre P.-H., Graham C.H., Graves G.R., J\u00f8nsson K.A., Nogu\u00e9s-Bravo D., Wang Z., Whittaker R.J., jelds\u00e5 J., Rahbek C. 2013. An update of Wallace's zoogeographic regions of the world. Science 339:74-78.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Efficient community detection of network flows for varying markov times and bipartite networks",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kheirkhahzadeh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Lancichinetti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Rosvall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Phys. Rev. E",
+                "volume": "93",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kheirkhahzadeh M., Lancichinetti A., Rosvall M. 2016. Efficient community detection of network flows for varying markov times and bipartite networks. Phys. Rev. E 93:032309.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Does niche conservatism promote speciation? A case study in North American Salamanders",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Kozak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Wiens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Evolution",
+                "volume": "60",
+                "issue": "",
+                "pages": "2604--2621",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kozak K.H., Wiens J. 2006. Does niche conservatism promote speciation? A case study in North American Salamanders. Evolution 60:2604-2621.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "A framework for delineating biogeographical regions based on species distributions",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Kreft",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Jetz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "J. Biogeogr",
+                "volume": "37",
+                "issue": "",
+                "pages": "2029--2053",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kreft H., Jetz W. 2010. A framework for delineating biogeographical regions based on species distributions. J. Biogeogr. 37:2029-2053.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Community detection algorithms: A comparative analysis",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Lancichinetti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Fortunato",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Phys. Rev. E",
+                "volume": "80",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lancichinetti A., Fortunato S. 2009. Community detection algorithms: A comparative analysis. Phys. Rev. E 80:056117.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Bayesian analysis of biogeography when the number of areas is large",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Landis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Matzke",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Moore",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Huelsenbeck",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Syst. Biol",
+                "volume": "62",
+                "issue": "",
+                "pages": "789--804",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Landis M.J., Matzke N.J., Moore B.R., Huelsenbeck J.P. 2013. Bayesian analysis of biogeography when the number of areas is large. Syst. Biol. 62:789-804.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Estimating species diversity and distribution in the era of big data: to what extent can we trust public databases?",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Maldonado",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Molina",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Zizka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Persson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Taylor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Alb\u00e1n",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Chilquillo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "R\u00f8nsted",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Antonelli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Global Ecol. Biogeogr",
+                "volume": "24",
+                "issue": "",
+                "pages": "973--984",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Maldonado C., Molina C.I., Zizka A., Persson C., Taylor C.M., Alb\u00e1n J., Chilquillo E., R\u00f8nsted N., Antonelli A. 2015. Estimating species diversity and distribution in the era of big data: to what extent can we trust public databases? Global Ecol. Biogeogr. 24:973-984.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "BioGeoBEARS: BioGeography with Bayesian (and Likelihood) Evolutionary Analysis in R Scripts",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Matzke",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Matzke N.J. 2013. BioGeoBEARS: BioGeography with Bayesian (and Likelihood) Evolutionary Analysis in R Scripts. University of California, Berkeley, Berkeley, CA.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Model selection in historical biogeography reveals that founder-event speciation is a crucial process in island clades",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Matzke",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Syst. Biol",
+                "volume": "63",
+                "issue": "",
+                "pages": "951--970",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Matzke N.J. 2014. Model selection in historical biogeography reveals that founder-event speciation is a crucial process in island clades. Syst. Biol. 63:951-970.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Multidimensional biases, gaps and uncertainties in global plant occurrence information",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Meyer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Weigelt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Kreft",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Ecol. Lett",
+                "volume": "9",
+                "issue": "",
+                "pages": "992--1006",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Meyer C., Weigelt P., Kreft H. 2016. Multidimensional biases, gaps and uncertainties in global plant occurrence information. Ecol. Lett. 9:992-1006.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Biogeographic areas and transition zones of Latin America and the Caribbean Islands based on panbiogeographic and cladistic analyses of the entomofauna",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Morrone",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Annu. Rev. Entomol",
+                "volume": "51",
+                "issue": "",
+                "pages": "467--494",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Morrone J.J. 2006. Biogeographic areas and transition zones of Latin America and the Caribbean Islands based on panbiogeographic and cladistic analyses of the entomofauna. Annu. Rev. Entomol. 51: 467-494.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Biogeographical regionalisation of the neotropical region",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Morrone",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Zootaxa",
+                "volume": "3782",
+                "issue": "",
+                "pages": "1--110",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Morrone J.J. 2014. Biogeographical regionalisation of the neotropical region. Zootaxa 3782:1-110.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Delimiting areas of endemism through kernel interpolation",
+                "authors": [
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Oliveira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Brescovit",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Santos",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "PLoS One",
+                "volume": "10",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Oliveira U., Brescovit A.D., Santos A.J. 2015. Delimiting areas of endemism through kernel interpolation. PLoS One 10:e0116673.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Terrestrial ecoregions of the world: a new map of life on earth a new global map of terrestrial ecoregions provides an innovative tool for conserving biodiversity",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Olson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Dinerstein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Wikramanayake",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Burgess",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Powell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Underwood",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Itoua",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Strand",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Morrison",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Loucks",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Allnutt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Ricketts",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Kura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Lamoreux",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Wettengel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Hedao",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Kassem",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "BioScience",
+                "volume": "51",
+                "issue": "",
+                "pages": "933--938",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Olson D.M., Dinerstein E., Wikramanayake E.D., Burgess N.D., Powell G.V., Underwood E.C., D'amico J.A., Itoua I., Strand H.E., Morrison J.C., Loucks C.J., Allnutt T.F., Ricketts T.H., Kura Y., Lamoreux J.F., Wettengel W.W., Hedao P., Kassem K.R. 2001. Terrestrial ecoregions of the world: a new map of life on earth a new global map of terrestrial ecoregions provides an innovative tool for conserving biodiversity. BioScience 51:933-938.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Maximum likelihood inference of geographic range evolution by dispersal, local extinction, and cladogenesis",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Ree",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Syst. Biol",
+                "volume": "57",
+                "issue": "",
+                "pages": "4--14",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ree R.H., Smith S.A. 2008. Maximum likelihood inference of geographic range evolution by dispersal, local extinction, and cladogenesis. Syst. Biol. 57:4-14.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Maps of random walks on complex networks reveal community structure",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Rosvall",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Bergstrom",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Proc. Natl. Acad. Sci. USA",
+                "volume": "105",
+                "issue": "",
+                "pages": "1118--1123",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rosvall M., Bergstrom C.T. 2008. Maps of random walks on complex networks reveal community structure. Proc. Natl. Acad. Sci. USA 105:1118-1123.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Speciesgeocoder: fast categorization of species occurrences for analyses of biodiversity, biogeography, ecology, and evolution",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "T\u00f6pel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Zizka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Cali\u00f3",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Scharn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Silvestro",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Antonelli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Syst. Biol",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "T\u00f6pel M., Zizka A., Cali\u00f3 M.F., Scharn R., Silvestro D., Antonelli A. 2016. Speciesgeocoder: fast categorization of species occurrences for analyses of biodiversity, biogeography, ecology, and evolution. Syst. Biol. http://sysbio.oxfordjournals.org/content/early/2016/ 08/26/sysbio.syw064.abstract van Loon E. 2006. Mapcurves implementation. Available from: URL http://www.uva.nl/over-de-uva/organisatie/medewerkers/ content/l/o/e.e.vanloon/e.e.vanloon.html.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "A network approach for identifying and delimiting biogeographical regions",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Vilhena",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Antonelli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Nat. Comm",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Vilhena D.A., Antonelli A. 2015. A network approach for identifying and delimiting biogeographical regions. Nat. Comm. 6:6848.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "num": null,
+                "type_str": "figure",
+                "uris": null,
+                "text": "FIGURE 1. Step-by-step illustration of how Infomap Bioregions generates bioregions from species distribution data. Infomap Bioregions: a) inputs comma-separated values for point occurrences, b) adaptively bins species records into discrete geographical grid cells such that the data density determines the spatial resolution, c) extracts a bipartite network between species and grid cells, d) clusters the bipartite network with the Infomap clustering algorithm, e) visualizes the grid cell clusters as bioregions on a zoomable map, f) exports the geographical map in svg or png format, the tables of top occurring and top indicative species for each bioregion in csv format, the species presence/absence matrix for the bioregions in NEXUS format and the geographical information of the bioregions in shapefile or GeoJSON format."
+            },
+            "FIGREF9": {
+                "num": null,
+                "type_str": "figure",
+                "uris": null,
+                "text": "FIGURE 4. Comparison between Infomap bioregions and WWF ecoregions using the Mapcurves algorithm (Hargrove et al. 2006). a) Infomap bioregions for the amphibian data set; b) Infomap bioregions for the mammalian data set; c) WWF ecoregions from Olson et al. (2001); d) Mapcurves as a measure for the GOF for the Infomap bioregions with respect to the WWF ecoregions. The graph shows the percentage of bioregions with a GOF score better than the corresponding value on the horizontal axis (zero to one). A perfect fit for all bioregions would be indicated by a horizontal line at the top; e) GOF map of the Infomap bioregions for amphibians and the total GOF score; f) GOF map of the Infomap bioregions for mammals and the total GOF score. The fit of the bioregions to the WWF ecoregions is generally very good, with the exception of several very small bioregions identified by Infomap Bioregions."
+            },
+            "FIGREF10": {
+                "num": null,
+                "type_str": "figure",
+                "uris": null,
+                "text": "This work was supported by the Swedish Research Council (B0569601 to A.A. and 2012-3729 to M.R.); the European Research Council under the European Union's Seventh Framework Programme (FP/2007-2013 and ERC Grant Agreement n. 331024 to A.A.); a Wallenberg Academy Fellowship to A.A.; and the S\u00e3o Paulo Research Foundation (2013/04170-8 and 2014/18837-7 to T.G.)."
+            },
+            "TABREF0": {
+                "content": "<table><tr><td>Location</td><td>Records</td><td>Species</td><td>Cells</td><td>Most common</td><td>Most indicative</td></tr><tr><td/><td/><td/><td/><td>species (records)</td><td>species (score)</td></tr><tr><td>(a) South America</td><td>42,161</td><td>719</td><td>167</td><td>Trachycephalus venulosus (600)</td><td>Lithobates palmipes (3.3)</td></tr><tr><td/><td/><td/><td/><td>Veined tree frog</td><td>Amazon River frog</td></tr><tr><td>(b) Africa</td><td>27,267</td><td>553</td><td>333</td><td>Kassina senegalensis (970)</td><td>Hildebrandtia ornata (2.1)</td></tr><tr><td/><td/><td/><td/><td>Senegal running frog</td><td>African ornate frog</td></tr><tr><td>(c) Eurasia</td><td>13,083</td><td>103</td><td>313</td><td>Rana arvalis (1547)</td><td>Triturus cristatus (1.3)</td></tr><tr><td/><td/><td/><td/><td>Moor frog</td><td>Northern crested newt</td></tr><tr><td>(d) Andes</td><td>121</td><td>75</td><td>1</td><td>Pristimantis nervicus (13)</td><td>Pristimantis nervicus (157)</td></tr><tr><td/><td/><td/><td/><td>-</td><td>-</td></tr><tr><td>(e) Hispaniola</td><td>181</td><td>65</td><td>4</td><td>Hypsiboas heilprini (28)</td><td>Osteopilus vastus (73)</td></tr><tr><td/><td/><td/><td/><td>Los Bracitos tree frog</td><td>Hispaniola tree frog</td></tr><tr><td>(f) Cuba</td><td>214</td><td>61</td><td>4</td><td>Osteopilus septentrionalis (28)</td><td>Eleutherodactylus varleyi (73)</td></tr><tr><td/><td/><td/><td/><td>Cuban tree frog</td><td>-</td></tr></table>",
+                "num": null,
+                "type_str": "table",
+                "text": "Selected amphibian bioregions"
+            },
+            "TABREF1": {
+                "content": "<table><tr><td/><td/><td/><td/><td/><td/><td>Holmesina</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Holmesina Holmesina</td><td>paulacoutoi</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Pampatherium Pampatherium septentrionalis occidentalis</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Dasypus septemcinctus pilosus Dasypus Dasypus humboldti typum</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Dasypus</td><td>hybridus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>sabanicola</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Dasypus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Dasypus Dasypus novemcinctus yepesi Dasypus bellus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Propraopus</td><td>kappleri</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Chaetophractus Propraopus punctatus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Chaetophractus Chaetophractus</td><td>vellerosus nationi sulcatus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>retusus sexcinctus Chlamyphorus Chlamyphorus pichiy Euphractus Zaedyus Eutatus seguini villosus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Cabassous Cabassous truncatus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Cabassous</td><td>unicinctus tatouay</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Cabassous</td><td>centralis</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Tolypeutes chacoensis</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Megalocnus Priodontes tricinctus maximus Tolypeutes matacus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Parocnus Megalocnus rodens</td></tr><tr><td/><td/><td/><td/><td/><td/><td>odontrigonus ye Diabolotherium Acratocnus browni Acratocnus Parocnus serus zile</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Megalonyx nordenskioldi</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Neocnus jeffersonii</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Neocnus</td><td>toupiti</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Neocnus dousman</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Glossotherium Lestodon Choloepus Choloepus</td><td>hoffmanni didactylus comes</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Paramylodon Mylodon</td><td>darwinii robustum armatus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Scelidotherium Scelidodon Catonyx chiliensis deformis Valgipes harlani</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Megatherium leptocephalum cuvieri</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Megatherium</td><td>tarijense</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Nothrotheriops Eremotherium americanum</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Nothrotherium</td><td>shastense laurillardi</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Bradypus Bradypus</td><td>pygmaeus maquinense</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Tamandua Bradypus Bradypus torquatus tridactylus variegatus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Myrmecophaga Tamandua tetradactyla</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Cyclopes</td><td>tridactyla mexicana</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Microgale</td><td>didactylus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Microgale</td><td>jenkinsae</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Microgale longicaudata</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Microgale thomasi</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Microgale fotsifotsy talazaci Microgale Microgale dryas</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Microgale monticola principula Microgale Microgale jobihely</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Microgale</td><td>gracilis taiva Microgale Microgale majori</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Microgale gymnorhyncha</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Microgale brevicaudata dobsoni Microgale Microgale pusilla</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Microgale</td><td>cowani</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Microgale drouhardi</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Microgale Microgale Microgale macpheei nasoloi parvula</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Oryzorictes Limnogale</td><td>soricoides</td></tr><tr><td/><td/><td/><td/><td/><td/><td>tetradactylus mergulus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Oryzorictes</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Micropotamogale ruwenzorii setosus Setifer telfairi Micropotamogale Echinops ecaudatus Tenrec semispinosus nigriceps Hemicentetes aurita Hemicentetes Geogale hova</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Amblysomus Amblysomus Potamogale lamottei velox</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Amblysomus septentrionalis robustus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Amblysomus hottentotus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>julianae marleyi Amblysomus Neamblysomus Neamblysomus corriae</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Carpitalpa</td><td>gunningi</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Chlorotalpa</td><td>arendsi</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Chlorotalpa</td><td>sclateri</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Chrysochloris</td><td>duthieae</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Cryptochloris stuhlmanni asiatica Chrysochloris Chrysochloris visagiei</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Cryptochloris</td><td>zyli</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Eremitalpa</td><td>wintoni</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Calcochloris Calcochloris Calcochloris leucorhinus tytonis granti</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Chrysospalax obtusirostris</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Elephantulus Chrysospalax</td><td>villosus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Elephantulus brachyrhynchus trevelyani</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Elephantulus rufescens</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Elephantulus</td><td>intufi</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Elephantulus</td><td>rupestris</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Elephantulus</td><td>edwardii</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Elephantulus Elephantulus pilicaudus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Elephantulus</td><td>fuscus myurus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Petrodromus Elephantulus fuscipes</td></tr><tr><td/><td/><td/><td/><td/><td/><td>tetradactylus revoili</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Rhynchocyon Elephantulus Macroscelides proboscideus rozeti</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Plesiorycteropus Rhynchocyon udzungwensis petersi Rhynchocyon Rhynchocyon cirnei</td></tr><tr><td/><td/><td/><td/><td/><td/><td>madagascariensis chrysopygus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Orycteropus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Loxodonta Elephas Elephas mnaidriensis iolensis maximus Elephas naumanni Elephas Elephas namadicus cypriotes Elephas tiliensis Elephas Elephas antiquus afer</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Mammuthus Mammuthus Mammuthus columbi exilis africana</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Stegodon</td><td>primigenius</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Stegodon trigonocephalus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Stegodon</td><td>orientalis</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Stegomastodon Stegomastodon</td><td>florensis</td></tr><tr><td/><td/><td/><td/><td/><td/><td>americanum hyodon Cuvieronius Mammut platensis waringi</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Dendrohyrax</td></tr><tr><td/><td/><td/><td/><td/><td/><td>arboreus Dendrohyrax Dendrohyrax validus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Heterohyrax dorsalis</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Hydrodamalis senegalensis inunguis Trichechus Trichechus Trichechus manatus capensis Procavia brucei</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Trigonodops Dugong</td><td>dugon gigas</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Mixotoxodon Toxodon</td><td>larensis platensis lopesi</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Petrogale Petrogale</td><td>inornata mareeba</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Petrogale Petrogale Petrogale</td><td>assimilis sharmani</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Petrogale penicillata</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Petrogale</td><td>herberti</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Petrogale purpureicollis</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Petrogale</td><td>rothschildi</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Petrogale godmani</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Petrogale Petrogale persephone burbidgei concinna Petrogale brachyotis Petrogale xanthopus coenensis Petrogale Petrogale lateralis</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Dendrolagus Dendrolagus Dendrolagus stellarum scottae</td></tr><tr><td/><td/><td/><td/><td/><td/><td>bennettianus ursinus Dendrolagus Dendrolagus dorianus mayri Dendrolagus Dendrolagus notatus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Dendrolagus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Dendrolagus Dendrolagus Dendrolagus goodfellowi mbaiso lumholtzi</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Dendrolagus pulcherrimus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Dendrolagus</td><td>matschiei</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Dendrolagus</td><td>spadix</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Thylogale Thylogale lanatus browni calabyi Thylogale brunii Thylogale inustus</td></tr><tr><td/><td/><td/><td/><td/><td/><td>thetis stigmatica Thylogale Thylogale Thylogale christenseni</td></tr><tr><td/><td/><td/><td/><td/><td/><td>brehus Protemnodon Protemnodon Thylogale billardierii</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Protemnodon</td><td>anak</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Protemnodon Protemnodon Protemnodon roechus hopei tumbuna</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Dorcopsis Dorcopsis muelleri atrata hageni Dorcopsis nombe</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Dorcopsulus Dorcopsis</td><td>luctuosa</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Dorcopsulus</td><td>macleayi</td></tr><tr><td/><td/><td/><td/><td/><td/><td>greyi vanheurni Macropus</td></tr><tr><td/><td/><td/><td/><td/><td colspan=\"2\">Macropus Macropus rufogriseus parryi parma Macropus dorsalis Macropus agilis Macropus Macropus eugenii</td></tr><tr><td/><td/><td/><td/><td/><td colspan=\"2\">Macropus Macropus antilopinus robustus Macropus irma</td></tr><tr><td/><td/><td/><td/><td/><td colspan=\"2\">Wallabia Macropus kitcheneri bernardus Macropus rufus</td></tr><tr><td/><td/><td/><td/><td colspan=\"3\">Lagorchestes Macropus Macropus Macropus fuliginosus giganteus ferragus Wallabia bicolor</td></tr><tr><td/><td/><td/><td colspan=\"3\">Lagorchestes</td><td>leporides</td></tr><tr><td/><td/><td/><td colspan=\"4\">asomatus hirsutus Lagorchestes Lagorchestes conspicillatus</td></tr><tr><td/><td/><td/><td colspan=\"4\">Onychogalea unguifera lunata Onychogalea Onychogalea Setonix brachyurus</td></tr><tr><td/><td/><td/><td colspan=\"4\">Procoptodon fasciatus minor Lagostrophus Troposodon fraenata</td></tr><tr><td/><td/><td colspan=\"5\">browneorum goliah Procoptodon Procoptodon gilli</td></tr><tr><td/><td colspan=\"5\">Simosthenurus</td></tr><tr><td/><td colspan=\"6\">Metasthenurus occidentalis</td></tr><tr><td colspan=\"7\">rufescens oscillans Propleopus Borungaboodie Aepyprymnus penicillata Bettongia Bettongia gaimardi tropica Bettongia lesueur Bettongia pusilla Bettongia andersoni Sthenurus atlas Sthenurus stirlingi Sthenurus tindalei Sthenurus newtonae</td></tr><tr><td colspan=\"5\">Caloprymnus</td><td>hatcheri</td></tr><tr><td/><td/><td/><td/><td colspan=\"2\">campestris</td></tr><tr><td colspan=\"6\">Pseudochirulus Hypsiprymnodon moschatus Potorous tridactylus Potorous platyops Potorous gilbertii Potorous longipes</td></tr><tr><td colspan=\"5\">Pseudochirulus</td><td>mayeri</td></tr><tr><td colspan=\"4\">Pseudochirulus</td><td colspan=\"2\">caroli</td></tr><tr><td colspan=\"4\">Pseudochirulus Pseudochirulus</td><td colspan=\"2\">forbesi larvatus</td></tr><tr><td colspan=\"6\">Pseudocheirus Pseudochirulus herbertensis cinereus canescens Pseudochirulus Pseudochirulus schlegeli</td></tr><tr><td colspan=\"2\">Pseudocheirus</td><td colspan=\"4\">occidentalis</td></tr><tr><td>Petauroides</td><td colspan=\"5\">ayamaruensis peregrinus</td></tr><tr><td colspan=\"3\">Hemibelideus Petauroides</td><td colspan=\"2\">volans</td><td/></tr><tr><td/><td colspan=\"4\">lemuroides</td><td/></tr><tr><td colspan=\"2\">Pseudochirops</td><td/><td/><td/><td/></tr><tr><td colspan=\"6\">Pseudochirops coronatus</td></tr><tr><td colspan=\"2\">Pseudochirops</td><td colspan=\"3\">albertisii</td><td/></tr><tr><td colspan=\"2\">Pseudochirops</td><td colspan=\"3\">cupreus</td><td/></tr><tr><td colspan=\"5\">Petropseudes corinnae</td><td/></tr><tr><td colspan=\"2\">Pseudochirops</td><td/><td colspan=\"2\">dahli</td><td/></tr><tr><td colspan=\"5\">Petaurus norfolcensis archeri</td><td/></tr><tr><td colspan=\"4\">Petaurus breviceps Petaurus biacensis Petaurus gracilis</td><td/><td/></tr><tr><td colspan=\"4\">trivirgata tatei Dactylopsila Dactylopsila megalura Dactylopsila kambuayai Dactylopsila Petaurus australis Petaurus abidi</td><td/><td/></tr><tr><td colspan=\"3\">pennatus Tarsipes rostratus Distoechurus Gymnobelideus leadbeateri Dactylonax palpator</td><td/><td/><td/></tr><tr><td colspan=\"2\">Phalanger rothschildi Acrobates pygmaeus</td><td/><td/><td/><td/></tr><tr><td colspan=\"2\">Phalanger alexandrae Phalanger orientalis Phalanger matabiru Phalanger mimicus</td><td/><td/><td/><td/></tr><tr><td colspan=\"2\">Phalanger intercastellanus</td><td/><td/><td/><td/></tr><tr><td colspan=\"2\">maculatus Spilocuscus Spilocuscus kraemeri pelengensis Strigocuscus Phalanger matanim Phalanger ornatus Phalanger lullulae Phalanger gymnotis Phalanger sericeus Phalanger vestitus Phalanger carmelitae</td><td/><td/><td/><td/></tr><tr><td>Ailurops melanotis Spilocuscus papuensis rufoniger Spilocuscus Spilocuscus wilsoni</td><td/><td/><td/><td/><td/></tr><tr><td>Wyulda squamicaudata Trichosurus vulpecula Trichosurus caninus Trichosurus cunninghami celebensis Strigocuscus Ailurops ursinus</td><td/><td/><td/><td/><td/></tr><tr><td>Cercartetus nanus Cercartetus concinnus</td><td/><td/><td/><td/><td/></tr><tr><td>Cercartetus caudatus Cercartetus lepidus</td><td/><td/><td/><td/><td/></tr><tr><td>Lasiorhinus latifrons Burramys parvus</td><td/><td/><td/><td/><td/></tr><tr><td>Lasiorhinus krefftii</td><td/><td/><td/><td/><td/></tr><tr><td>Vombatus hacketti medius Phascolomys Phascolonus gigas</td><td/><td/><td/><td/><td/></tr><tr><td>Palorchestes azeal Diprotodon optatum Maokopia ronaldi trilobus Zygomaturus Vombatus ursinus</td><td/><td/><td/><td/><td/></tr><tr><td>Dasyurus spartacus Phascolarctos cinereus Thylacoleo carnifex</td><td/><td/><td/><td/><td/></tr><tr><td>Dasyurus albopunctatus Dasyurus viverrinus Dasyurus geoffroii</td><td/><td/><td/><td/><td/></tr><tr><td>Dasyurus hallucatus Dasyurus maculatus</td><td/><td/><td/><td/><td/></tr><tr><td>lorentzii Phascolosorex Neophascogale dorsalis doriae Phascolosorex Sarcophilus harrisii</td><td/><td/><td/><td/><td/></tr><tr><td>Myoictis wavicus Myoictis leucura</td><td/><td/><td/><td/><td/></tr><tr><td>mimulus Parantechinus Pseudantechinus apicalis Myoictis melas Myoictis wallacei</td><td/><td/><td/><td/><td/></tr><tr><td>Pseudantechinus Pseudantechinus Pseudantechinus macdonnellensis woolleyae ningbing Pseudantechinus roryi</td><td/><td/><td/><td/><td/></tr><tr><td>Dasykaluta rosamondae Dasycercus cristicauda Dasycercus blythi Pseudantechinus bilarni</td><td/><td/><td/><td/><td/></tr><tr><td>Antechinus agilis Dasyuroides byrnei</td><td/><td/><td/><td/><td/></tr><tr><td>Antechinus bellus Antechinus leo</td><td/><td/><td/><td/><td/></tr><tr><td>Antechinus stuartii Antechinus adustus Antechinus flavipes</td><td/><td/><td/><td/><td/></tr><tr><td>Antechinus subtropicus Antechinus godmani</td><td/><td/><td/><td/><td/></tr><tr><td>Antechinus minimus</td><td/><td/><td/><td/><td/></tr><tr><td>Antechinus swainsonii</td><td/><td/><td/><td/><td/></tr><tr><td>Murexia melanurus Murexia longicaudata Murexia naso</td><td/><td/><td/><td/><td/></tr><tr><td>Murexia habbema Murexia rothschildi</td><td/><td/><td/><td/><td/></tr><tr><td>Phascogale pirata</td><td/><td/><td/><td/><td/></tr><tr><td>Phascogale calura Phascogale tapoatafa</td><td/><td/><td/><td/><td/></tr><tr><td>Sminthopsis butleri Sminthopsis fuliginosus</td><td/><td/><td/><td/><td/></tr><tr><td>Sminthopsis gilberti Sminthopsis archeri</td><td/><td/><td/><td/><td/></tr><tr><td>Sminthopsis dolichura Sminthopsis leucopus Sminthopsis murina</td><td/><td/><td/><td/><td/></tr><tr><td>Sminthopsis ooldea Sminthopsis psammophila Sminthopsis youngsoni Sminthopsis hirtipes</td><td/><td/><td/><td/><td/></tr><tr><td>Sminthopsis aitkeni Sminthopsis griseoventer</td><td/><td/><td/><td/><td/></tr><tr><td>Sminthopsis douglasi Sminthopsis virginiae</td><td/><td/><td/><td/><td/></tr><tr><td>Sminthopsis bindi Sminthopsis macroura</td><td/><td/><td/><td/><td/></tr><tr><td>Ningaui ridei Sminthopsis crassicaudata</td><td/><td/><td/><td/><td/></tr><tr><td>Sminthopsis granulipes Sminthopsis longicaudata Ningaui timealeyi Ningaui yvonneae</td><td/><td/><td/><td/><td/></tr><tr><td>Planigale tenuirostris Antechinomys laniger</td><td/><td/><td/><td/><td/></tr><tr><td>Planigale ingrami Planigale gilesi</td><td/><td/><td/><td/><td/></tr><tr><td>Planigale novaeguineae Planigale maculata</td><td/><td/><td/><td/><td/></tr><tr><td>Myrmecobius fasciatus Thylacinus cynocephalus</td><td/><td/><td/><td/><td/></tr><tr><td>Echymipera kalubu Echymipera davidi</td><td/><td/><td/><td/><td/></tr><tr><td>Rhynchomeles prattorum Echymipera rufescens</td><td/><td/><td/><td/><td/></tr><tr><td>Microperoryctes murina Microperoryctes aplini Echymipera clara Echymipera echinista</td><td/><td/><td/><td/><td/></tr><tr><td>Peroryctes broadbenti Peroryctes raffrayana Peroryctes SP NOW Microperoryctes longicauda Microperoryctes papuensis</td><td/><td/><td/><td/><td/></tr><tr><td>Perameles eremiana Peroryctinae GEN NOW</td><td/><td/><td/><td/><td/></tr><tr><td>Perameles gunnii Perameles nasuta</td><td/><td/><td/><td/><td/></tr><tr><td>Isoodon auratus Perameles bougainville</td><td/><td/><td/><td/><td/></tr><tr><td>Isoodon macrourus Isoodon obesulus</td><td/><td/><td/><td/><td/></tr><tr><td>Chaeropus ecaudatus Macrotis lagotis Macrotis leucura</td><td/><td/><td/><td/><td/></tr><tr><td>Notoryctes caurinus Notoryctes typhlops</td><td/><td/><td/><td/><td/></tr><tr><td>Gracilinanus microtarsus Dromiciops gliroides</td><td/><td/><td/><td/><td/></tr><tr><td>Gracilinanus marica Gracilinanus aceramarcae Gracilinanus agilis</td><td/><td/><td/><td/><td/></tr><tr><td>Gracilinanus dryas Gracilinanus emiliae</td><td/><td/><td/><td/><td/></tr><tr><td>Cryptonanus guahybae Cryptonanus agricolai Cryptonanus ignitus</td><td/><td/><td/><td/><td/></tr><tr><td>Cryptonanus unduaviensis Cryptonanus chacoensis</td><td/><td/><td/><td/><td/></tr><tr><td>Thylamys pallidior Thylamys elegans</td><td/><td/><td/><td/><td/></tr><tr><td>Thylamys macrurus Thylamys tatei</td><td/><td/><td/><td/><td/></tr><tr><td>Thylamys pusillus</td><td/><td/><td/><td/><td/></tr><tr><td>Thylamys sponsorius</td><td/><td/><td/><td/><td/></tr><tr><td>Thylamys cinderella</td><td/><td/><td/><td/><td/></tr><tr><td>Thylamys venustus</td><td/><td/><td/><td/><td/></tr><tr><td>Thylamys velutinus</td><td/><td/><td/><td/><td/></tr><tr><td>Thylamys karimii</td><td/><td/><td/><td/><td/></tr><tr><td>Lestodelphys halli</td><td/><td/><td/><td/><td/></tr><tr><td>Marmosops cracens</td><td/><td/><td/><td/><td/></tr><tr><td>Marmosops invictus</td><td/><td/><td/><td/><td/></tr><tr><td>Marmosops parvidens Marmosops handleyi</td><td/><td/><td/><td/><td/></tr><tr><td>Marmosops juninensis Marmosops creightoni</td><td/><td/><td/><td/><td/></tr><tr><td>Marmosops fuscatus Marmosops bishopi Marmosops pinheiroi</td><td/><td/><td/><td/><td/></tr><tr><td>Marmosops ocellatus Marmosops impavidus Marmosops neblina</td><td/><td/><td/><td/><td/></tr><tr><td>Marmosops paulensis Marmosops noctivagus</td><td/><td/><td/><td/><td/></tr><tr><td>Didelphis imperfecta Didelphis pernigra Marmosops incanus</td><td/><td/><td/><td/><td/></tr><tr><td>Didelphis marsupialis Didelphis albiventris</td><td/><td/><td/><td/><td/></tr><tr><td>Didelphis aurita</td><td/><td/><td/><td/><td/></tr><tr><td>Didelphis virginiana</td><td/><td/><td/><td/><td/></tr><tr><td>Philander deltae</td><td/><td/><td/><td/><td/></tr><tr><td>Philander andersoni</td><td/><td/><td/><td/><td/></tr><tr><td>Philander mcilhennyi Philander mondolfii</td><td/><td/><td/><td/><td/></tr><tr><td>Philander opossum</td><td/><td/><td/><td/><td/></tr><tr><td>Philander frenatus</td><td/><td/><td/><td/><td/></tr><tr><td>Lutreolina crassicaudata</td><td/><td/><td/><td/><td/></tr><tr><td>Metachirus nudicaudatus Chironectes minimus</td><td/><td/><td/><td/><td/></tr><tr><td>Monodelphis palliolata</td><td/><td/><td/><td/><td/></tr><tr><td>Monodelphis domestica Monodelphis glirina</td><td/><td/><td/><td/><td/></tr><tr><td>Monodelphis iheringi Monodelphis brevicaudata</td><td/><td/><td/><td/><td/></tr><tr><td>Monodelphis americana</td><td/><td/><td/><td/><td/></tr><tr><td>Monodelphis sorex</td><td/><td/><td/><td/><td/></tr><tr><td>Monodelphis ronaldi Monodelphis dimidiata</td><td/><td/><td/><td/><td/></tr><tr><td>Monodelphis adusta Monodelphis rubida Monodelphis unistriata</td><td/><td/><td/><td/><td/></tr><tr><td>Monodelphis osgoodi Monodelphis umbristriata Monodelphis reigi</td><td/><td/><td/><td/><td/></tr><tr><td>Monodelphis theresa</td><td/><td/><td/><td/><td/></tr><tr><td>Monodelphis maraxina Monodelphis scalops</td><td/><td/><td/><td/><td/></tr><tr><td>Micoureus phaeus Monodelphis kunsi Monodelphis emiliae</td><td/><td/><td/><td/><td/></tr><tr><td>Micoureus regina</td><td/><td/><td/><td/><td/></tr><tr><td>Micoureus alstoni</td><td/><td/><td/><td/><td/></tr><tr><td>Micoureus constantiae</td><td/><td/><td/><td/><td/></tr><tr><td>Micoureus demerarae</td><td/><td/><td/><td/><td/></tr><tr><td>Micoureus paraguayanus</td><td/><td/><td/><td/><td/></tr><tr><td>Marmosa quichua</td><td/><td/><td/><td/><td/></tr><tr><td>Marmosa murina</td><td/><td/><td/><td/><td/></tr><tr><td>Marmosa tyleriana</td><td/><td/><td/><td/><td/></tr><tr><td>Marmosa andersoni Marmosa lepida</td><td/><td/><td/><td/><td/></tr><tr><td>Marmosa xerophila</td><td/><td/><td/><td/><td/></tr><tr><td>Marmosa mexicana Marmosa robinsoni</td><td/><td/><td/><td/><td/></tr><tr><td>Marmosa rubra</td><td/><td/><td/><td/><td/></tr><tr><td>Tlacuatzin canescens Chacodelphys formosa</td><td/><td/><td/><td/><td/></tr><tr><td>Hyladelphys kalinowskii</td><td/><td/><td/><td/><td/></tr><tr><td>Caluromys lanatus</td><td/><td/><td/><td/><td/></tr><tr><td>Caluromys philander Caluromys derbianus</td><td/><td/><td/><td/><td/></tr><tr><td>Glironia venusta Caluromysiops irrupta</td><td/><td/><td/><td/><td/></tr><tr><td>Caenolestes convelatus</td><td/><td/><td/><td/><td/></tr><tr><td>Caenolestes fuliginosus Caenolestes condorensis</td><td/><td/><td/><td/><td/></tr><tr><td>Caenolestes caniventer</td><td/><td/><td/><td/><td/></tr><tr><td>Zaglossus bartoni Rhyncholestes raphanurus Lestoros inca</td><td/><td/><td/><td/><td/></tr><tr><td>Zaglossus hacketti Zaglossus bruijnii Zaglossus attenboroughi</td><td/><td/><td/><td/><td/></tr><tr><td>Tachyglossus aculeatus</td><td/><td/><td/><td/><td/></tr><tr><td>Megalibgwilia ra m sayi</td><td/><td/><td/><td/><td/></tr><tr><td>Ornithorhynchus anatinus</td><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td>10</td><td>25</td><td>50</td><td>100</td><td>150</td><td>200</td></tr><tr><td colspan=\"7\">Today</td></tr></table>",
+                "num": null,
+                "type_str": "table",
+                "text": "."
+            },
+            "TABREF8": {
+                "content": "<table><tr><td>Location</td><td colspan=\"3\">Records Species Cells</td><td>Most common</td><td>Most indicative</td></tr><tr><td/><td/><td/><td/><td>species (records)</td><td>species (score)</td></tr><tr><td>(a) South America</td><td>69,757</td><td>1448</td><td colspan=\"2\">254 Glossophaga soricina (1588)</td><td>Uroderma bilobatum (36)</td></tr><tr><td/><td/><td/><td colspan=\"2\">Pallas's long-tongued bat</td><td>Tent-making Bat</td></tr><tr><td>(b) Africa</td><td>38,258</td><td>1105</td><td colspan=\"2\">323 Mastomys natalensis (991)</td><td>Mus musculoides (58)</td></tr><tr><td/><td/><td/><td colspan=\"2\">Common African rat</td><td>Kasai mouse</td></tr><tr><td>(c) Malay Archipelago</td><td>8788</td><td>576</td><td colspan=\"2\">103 Rattus exulans (370)</td><td>Ptenochirus jagori (155)</td></tr><tr><td/><td/><td/><td colspan=\"2\">Polynesian rat</td><td>Greater Musky Fruit Bat</td></tr><tr><td>(d) North America</td><td>279,416</td><td>812</td><td colspan=\"2\">426 Peromyscus maniculatus (17,600)</td><td>Thomomys bottae (3.3)</td></tr><tr><td/><td/><td/><td colspan=\"2\">Deer mouse</td><td>Valley Pocket Gopher</td></tr><tr><td>(e) Andes</td><td>4709</td><td>394</td><td colspan=\"2\">46 Phyllotis xanthopygus (280)</td><td>Akodon albiventer (189)</td></tr><tr><td/><td/><td/><td colspan=\"3\">Yellow-rumped leaf-eared mouse White-bellied grass mouse</td></tr><tr><td>(f) Europe</td><td>635,148</td><td>389</td><td colspan=\"2\">266 Meles meles (46,299)</td><td>Talpa europaea (1.2)</td></tr><tr><td/><td/><td/><td colspan=\"2\">Eurasian badger</td><td>European mole</td></tr><tr><td>(g) New Guinea</td><td>5107</td><td>325</td><td colspan=\"2\">46 Syconycteris australis (260)</td><td>Echymipera kalubu (220)</td></tr><tr><td/><td/><td/><td colspan=\"2\">Southern blossom bat</td><td>Common Echymipera</td></tr><tr><td>(h) SE Australia</td><td>298,374</td><td>269</td><td colspan=\"2\">39 Phascolarctos cinereus (26,029)</td><td>Petaurus australis (2.2)</td></tr><tr><td/><td/><td/><td>Koala</td><td/><td>Yellow-bellied glider</td></tr><tr><td>(i) SE Australia</td><td>43,669</td><td>147</td><td colspan=\"2\">22 Macropus robustus (9,176)</td><td>Petrogale xanthopus (6.2)</td></tr><tr><td/><td/><td/><td colspan=\"2\">Hill wallaroo</td><td>Yellow-footed rock-wallaby</td></tr></table>",
+                "num": null,
+                "type_str": "table",
+                "text": "Highlighted mammalian bioregions, sorted on species richness"
+            }
+        }
+    }
+}

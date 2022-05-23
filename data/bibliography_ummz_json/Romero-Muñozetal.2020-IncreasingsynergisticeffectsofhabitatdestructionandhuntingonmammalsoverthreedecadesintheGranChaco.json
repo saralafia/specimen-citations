@@ -1,0 +1,3089 @@
+{
+    "paper_id": "Romero-Mun\u0303ozetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:31:55.858511Z"
+    },
+    "title": "",
+    "authors": [
+        {
+            "first": "Alfredo",
+            "middle": [],
+            "last": "Romero-Mu\u00f1oz",
+            "suffix": "",
+            "affiliation": {},
+            "email": "alfredo.romero@geo.hu-berlin.de"
+        },
+        {
+            "first": "Ana",
+            "middle": [],
+            "last": "Ben\u00edtez-L\u00f3pez",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Damaris",
+            "middle": [],
+            "last": "Zurell",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Matthias",
+            "middle": [],
+            "last": "Baumann",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Micaela",
+            "middle": [],
+            "last": "Camino",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Tobias",
+            "middle": [],
+            "last": "Kuemmerle",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "C",
+            "middle": [],
+            "last": "Levers",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "-",
+            "middle": [
+                "A"
+            ],
+            "last": "Ben\u00edtez-L\u00f3pez",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Research 955 a spatial template for threat-specific conservation action. Overall, our findings suggest increasing synergistic effects between habitat destruction and hunting pressure in the Chaco, a situation likely common in many tropical deforestation frontiers. Our work highlights how threats can be traced in space and time to understand their individual and combined impact, even in situations where data are sparse.",
+    "pdf_parse": {
+        "paper_id": "Romero-Mun\u0303ozetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Research 955 a spatial template for threat-specific conservation action. Overall, our findings suggest increasing synergistic effects between habitat destruction and hunting pressure in the Chaco, a situation likely common in many tropical deforestation frontiers. Our work highlights how threats can be traced in space and time to understand their individual and combined impact, even in situations where data are sparse.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Habitat destruction and overexploitation are the main threats to biodiversity and where they co-occur, their combined impact is often larger than their individual one. Yet, detailed knowledge of the spatial footprints of these threats is lacking, including where they overlap and how they change over time. These knowledge gaps are real barriers for effective conservation planning. Here, we develop a novel approach to reconstruct the individual and combined footprints of both threats over time. We combine satellitebased land-cover change maps, habitat suitability models and hunting pressure models to demonstrate our approach for the community of larger mammals (48 species > 1 kg) across the 1.1 million km 2 Gran Chaco region, a global deforestation hotspot covering parts of Argentina, Bolivia and Paraguay. This provides three key insights. First, we find that the footprints of habitat destruction and hunting pressure expanded considerably between 1985 and 2015, across ~40% of the entire Chaco -twice the area affected by deforestation. Second, both threats increasingly acted together within the ranges of larger mammals in the Chaco (17% increase on average, \u00b1 20% SD, cumulative increase of co-occurring threats across 465 000 km 2 ), suggesting large synergistic effects. Conversely, core areas of high-quality habitats declined on average by 38%. Third, we identified remaining priority areas for conservation in the northern and central Chaco, many of which are outside the protected area network. We also identify hotspots of high threat impacts in central Paraguay and northern Argentina, providing",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Habitat destruction and overexploitation are the two main drivers of the unfolding sixth mass extinction, and both threats continue to expand (IPBES 2019). On one hand, growing demands for food, livestock feed and biofuels trigger widespread land-use changes, including agricultural expansion into remaining natural habitats in the Global South (Kehoe et al. 2017) . On the other hand, overexploitation (i.e. the unsustainable hunting, collection of animals and plants, logging or fishing) (IPBES 2019), expands rapidly as the global human population grows, affluence increases and demand for wild animals and plants (e.g. meat, live specimens) increases (Ben\u00edtez-L\u00f3pez et al. 2017 . Therefore, understanding the extent of these threats and how they change over time is critically important to inform conservation actions (Wilson et al. 2005 , Pressey et al. 2007 .",
+                "cite_spans": [
+                    {
+                        "start": 345,
+                        "end": 364,
+                        "text": "(Kehoe et al. 2017)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 655,
+                        "end": 681,
+                        "text": "(Ben\u00edtez-L\u00f3pez et al. 2017",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 822,
+                        "end": 841,
+                        "text": "(Wilson et al. 2005",
+                        "ref_id": "BIBREF69"
+                    },
+                    {
+                        "start": 842,
+                        "end": 863,
+                        "text": ", Pressey et al. 2007",
+                        "ref_id": "BIBREF55"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Increasing synergistic effects of habitat destruction and hunting on mammals over three decades in the Gran Chaco Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Habitat destruction and overexploitation may synergise where they act simultaneously, exacerbating their individual impacts on biodiversity (Brook et al. 2008) . For instance, deforestation increases hunter access to shrinking habitat and formerly remote areas (Peres 2001) as does road infrastructure development related to expanding agriculture (Laurance et al. 2014 ). Yet, despite these synergistic effects, the interactions among habitat destruction and overexploitation remain weakly understood, and most studies in conservation and ecology continue to study threats in isolation (Brook et al. 2008 , Dirzo et al. 2014 , because approaches and datasets to jointly study multiple threats are lacking (Wilson et al. 2005 , Pressey et al. 2007 , Joppa et al. 2016 .",
+                "cite_spans": [
+                    {
+                        "start": 140,
+                        "end": 159,
+                        "text": "(Brook et al. 2008)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 261,
+                        "end": 273,
+                        "text": "(Peres 2001)",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 347,
+                        "end": 368,
+                        "text": "(Laurance et al. 2014",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 586,
+                        "end": 604,
+                        "text": "(Brook et al. 2008",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 605,
+                        "end": 624,
+                        "text": ", Dirzo et al. 2014",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 705,
+                        "end": 724,
+                        "text": "(Wilson et al. 2005",
+                        "ref_id": "BIBREF69"
+                    },
+                    {
+                        "start": 725,
+                        "end": 746,
+                        "text": ", Pressey et al. 2007",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 747,
+                        "end": 766,
+                        "text": ", Joppa et al. 2016",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Increasing synergistic effects of habitat destruction and hunting on mammals over three decades in the Gran Chaco Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Assessing the spatial footprint of threats to biodiversity, how these footprints overlap, where they remain absent, and how they change over time -which we here collectively refer to as the 'geographies of threat' -can help understand the individual and combined effects of those threats. Understanding geographies of threat is also imperative for guiding conservation planning by identifying where threat-specific conservation actions should take place (Wilson et al. 2005 , Pressey et al. 2007 . However, mapping the geographies of threat is challenging. Few studies have mapped multiple threats at broad scales; typically within the scope of single-species studies (Bleyhl et al. 2015 , Romero-Mu\u00f1oz et al. 2019b , which has limited value for conservation planning that targets wider biodiversity facets (Nicholson and Possingham 2006) . Studies assessing broader groups of species on the other hand, usually rely on IUCN's expert-based threat categorizations and range maps, thereby assuming that threats impact multiple species uniformly (Allan et al. 2019 , Gallego-Zamorano et al. 2020 , which is too simplistic. In addition, expert-based range maps contain false presences and vary tremendously in quality, depending on regions and taxa, and their use is therefore limited to very coarse resolutions (Ficetola et al. 2014 , Di Marco et al. 2017 . Consequently, these approaches are insufficient to inform threat-specific management actions on the ground (Wilson et al. 2005 , Tulloch et al. 2015 . New approaches to map the species-specific responses to threats for multiple species simultaneously and at resolutions useful for practitioners are urgently needed (Wilson et al. 2005 , Pressey et al. 2007 , Tulloch et al. 2015 .",
+                "cite_spans": [
+                    {
+                        "start": 454,
+                        "end": 473,
+                        "text": "(Wilson et al. 2005",
+                        "ref_id": "BIBREF69"
+                    },
+                    {
+                        "start": 474,
+                        "end": 495,
+                        "text": ", Pressey et al. 2007",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 668,
+                        "end": 687,
+                        "text": "(Bleyhl et al. 2015",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 688,
+                        "end": 715,
+                        "text": ", Romero-Mu\u00f1oz et al. 2019b",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 807,
+                        "end": 838,
+                        "text": "(Nicholson and Possingham 2006)",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 1043,
+                        "end": 1061,
+                        "text": "(Allan et al. 2019",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 1062,
+                        "end": 1092,
+                        "text": ", Gallego-Zamorano et al. 2020",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 1308,
+                        "end": 1329,
+                        "text": "(Ficetola et al. 2014",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 1330,
+                        "end": 1352,
+                        "text": ", Di Marco et al. 2017",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1462,
+                        "end": 1481,
+                        "text": "(Wilson et al. 2005",
+                        "ref_id": "BIBREF69"
+                    },
+                    {
+                        "start": 1482,
+                        "end": 1503,
+                        "text": ", Tulloch et al. 2015",
+                        "ref_id": "BIBREF68"
+                    },
+                    {
+                        "start": 1670,
+                        "end": 1689,
+                        "text": "(Wilson et al. 2005",
+                        "ref_id": "BIBREF69"
+                    },
+                    {
+                        "start": 1690,
+                        "end": 1711,
+                        "text": ", Pressey et al. 2007",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 1712,
+                        "end": 1733,
+                        "text": ", Tulloch et al. 2015",
+                        "ref_id": "BIBREF68"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Increasing synergistic effects of habitat destruction and hunting on mammals over three decades in the Gran Chaco Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Recent advances in remote sensing now allow the reconstruction of detailed land-change histories across several decades and large areas (Hansen et al. 2013 , Baumann et al. 2017 , Song et al. 2018 . This provides opportunities for assessing habitat change dynamically, but few studies to date have made use of these opportunities (Maguire et al. 2015 , Oeser et al. 2019 , Romero-Mu\u00f1oz et al. 2019b . Likewise, new approaches for assessing the impact of hunting in space are developed (Ben\u00edtez-L\u00f3pez et al. 2017) . Such hunting pressure models synthesise knowledge across local studies, to describe how species-specific responses to hunting vary across landscapes (Ben\u00edtez-L\u00f3pez et al. 2019) . Here, we propose to combine habitat suitability and hunting pressure models for characterising the footprints of habitat destruction and hunting, and how they overlap.",
+                "cite_spans": [
+                    {
+                        "start": 136,
+                        "end": 155,
+                        "text": "(Hansen et al. 2013",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 156,
+                        "end": 177,
+                        "text": ", Baumann et al. 2017",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 178,
+                        "end": 196,
+                        "text": ", Song et al. 2018",
+                        "ref_id": "BIBREF64"
+                    },
+                    {
+                        "start": 330,
+                        "end": 350,
+                        "text": "(Maguire et al. 2015",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 351,
+                        "end": 370,
+                        "text": ", Oeser et al. 2019",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 371,
+                        "end": 398,
+                        "text": ", Romero-Mu\u00f1oz et al. 2019b",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 485,
+                        "end": 512,
+                        "text": "(Ben\u00edtez-L\u00f3pez et al. 2017)",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 664,
+                        "end": 691,
+                        "text": "(Ben\u00edtez-L\u00f3pez et al. 2019)",
+                        "ref_id": "BIBREF6"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Increasing synergistic effects of habitat destruction and hunting on mammals over three decades in the Gran Chaco Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Understanding of the interacting footprints of habitat destruction and hunting is particularly poor in tropical deforestation frontiers, where rapid habitat destruction often couples with high hunting pressure (Peres 2001 , Ben\u00edtez-L\u00f3pez et al. 2019 . This situation is particularly dire in the world's tropical dry forests, which are vanishing quickly across the globe (Hoekstra et al. 2005 , Curtis et al. 2018 . However, these systems remain weakly protected (Miles et al. 2006) and under-researched (Blackie et al. 2014) . The individual and combined impacts of habitat destruction and hunting on biodiversity in these forests are highly unclear, translating into a real barrier towards implementing conservation planning and action. At 1.1 million km 2 , the Gran Chaco region (hereafter Chaco) in South America, extending into parts of Argentina, Paraguay and Bolivia, is the largest continuous tropical and subtropical dry forest globally, but it has recently turned into a global deforestation hotspot due to rapid agricultural expansion across the several deforestation frontiers that it encompasses (Baumann et al. 2017 , Curtis et al. 2018 , Le Polain de Waroux et al. 2018 . At the same time, hunting is very widespread there, causing massive defaunation (Noss et al. 2005 , Altrichter 2006 , Periago et al. 2014 . Together, these threats render the Chaco a global conservation priority (WWF 2015, Kuemmerle et al. 2017) . Increasing evidence suggests important interactions between habitat destruction and hunting in this region. For example, large mammals disappear from remaining forest patches soon after the surrounding areas are deforested because they are easily hunted out (N\u00fa\u00f1ez-Regueiro et al. 2015 , Semper-Pascual et al. 2019 . Likewise, cattle ranchers in areas where pastures expand often persecute large predators over fears of attacks on cattle (Quiroga et al. 2016 , Romero-Mu\u00f1oz et al. 2019b ). Yet, our understanding of how these threats play out and interact in space is very limited.",
+                "cite_spans": [
+                    {
+                        "start": 210,
+                        "end": 221,
+                        "text": "(Peres 2001",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 222,
+                        "end": 249,
+                        "text": ", Ben\u00edtez-L\u00f3pez et al. 2019",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 370,
+                        "end": 391,
+                        "text": "(Hoekstra et al. 2005",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 392,
+                        "end": 412,
+                        "text": ", Curtis et al. 2018",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 462,
+                        "end": 481,
+                        "text": "(Miles et al. 2006)",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 503,
+                        "end": 524,
+                        "text": "(Blackie et al. 2014)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 1109,
+                        "end": 1129,
+                        "text": "(Baumann et al. 2017",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 1130,
+                        "end": 1150,
+                        "text": ", Curtis et al. 2018",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 1151,
+                        "end": 1184,
+                        "text": ", Le Polain de Waroux et al. 2018",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 1267,
+                        "end": 1284,
+                        "text": "(Noss et al. 2005",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 1285,
+                        "end": 1302,
+                        "text": ", Altrichter 2006",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 1303,
+                        "end": 1324,
+                        "text": ", Periago et al. 2014",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 1410,
+                        "end": 1432,
+                        "text": "Kuemmerle et al. 2017)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1693,
+                        "end": 1720,
+                        "text": "(N\u00fa\u00f1ez-Regueiro et al. 2015",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 1721,
+                        "end": 1749,
+                        "text": ", Semper-Pascual et al. 2019",
+                        "ref_id": "BIBREF62"
+                    },
+                    {
+                        "start": 1873,
+                        "end": 1893,
+                        "text": "(Quiroga et al. 2016",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 1894,
+                        "end": 1921,
+                        "text": ", Romero-Mu\u00f1oz et al. 2019b",
+                        "ref_id": "BIBREF59"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Increasing synergistic effects of habitat destruction and hunting on mammals over three decades in the Gran Chaco Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Here, we reconstruct the individual and combined spatial footprints of habitat destruction and hunting pressure for larger mammals (> 1 kg body weight) across the entire Chaco between 1985 and 2015. We combine satellite-based landuse reconstructions with species-specific, time-calibrated habitat suitability models and hunting pressure models. This allows to assess the footprints of habitat destruction and hunting and to identify threat hotspots as well as how they change over time. Specifically, we aimed to answer the following questions: 1) how have the footprints of habitat destruction and hunting pressure on larger mammals changed in the Chaco since 1985? 2) What is the relative importance, in terms of the share of species' ranges affected and their overall footprints, of these two threats acting alone versus together, and how this has changed over time? 3) How has the distribution of core areas, where threats are absent, changed since 1985, and where are current hotspots of threats and priority areas for conservation?",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Increasing synergistic effects of habitat destruction and hunting on mammals over three decades in the Gran Chaco Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "The Chaco region is a highly biodiverse region comprising parts of Bolivia, Paraguay and Argentina (Olson et al. 2001 , TNC et al. 2005 . The climate ranges from tropical (north) to subtropical (south). Precipitation is seasonal and ranges from > 1200 mm yr \u22121 (east) to < 400 mm yr \u22121 (west and south). Xerophilous forests are the dominant vegetation, interspersed with gallery forests and savannas (Prado 1993) . The Chaco has a long land-use history, with Indigenous Peoples using the area for millennia, and criollo people practicing subsistence ranching for up to 200 years (Camino et al. 2018) . Recent expansion of intensified agriculture, mainly driven by largescale, market-oriented agribusiness, has converted more than 142 000 km 2 of forests (> 20% of the Chaco's forests) to pastures and croplands between 1985 and 2015 (Baumann et al. 2017) . Hunting is also widespread (see Extended methods in Supplementary material Appendix 1), with many actors hunting for subsistence, commercial, cultural and retaliatory reasons, together producing widespread defaunation across the Chaco (Periago et al. 2014 , Torres et al. 2014 , Semper-Pascual et al. 2018 . Only 9.1% of the Chaco is currently protected (Nori et al. 2016) .",
+                "cite_spans": [
+                    {
+                        "start": 99,
+                        "end": 117,
+                        "text": "(Olson et al. 2001",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 118,
+                        "end": 135,
+                        "text": ", TNC et al. 2005",
+                        "ref_id": "BIBREF66"
+                    },
+                    {
+                        "start": 400,
+                        "end": 412,
+                        "text": "(Prado 1993)",
+                        "ref_id": "BIBREF54"
+                    },
+                    {
+                        "start": 579,
+                        "end": 599,
+                        "text": "(Camino et al. 2018)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 833,
+                        "end": 854,
+                        "text": "(Baumann et al. 2017)",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 1092,
+                        "end": 1112,
+                        "text": "(Periago et al. 2014",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 1113,
+                        "end": 1133,
+                        "text": ", Torres et al. 2014",
+                        "ref_id": "BIBREF67"
+                    },
+                    {
+                        "start": 1134,
+                        "end": 1162,
+                        "text": ", Semper-Pascual et al. 2018",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 1211,
+                        "end": 1229,
+                        "text": "(Nori et al. 2016)",
+                        "ref_id": "BIBREF40"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Study region",
+                "sec_num": null
+            },
+            {
+                "text": "We gathered 27 408 presence locations from local surveys and opportunistic observations for 56 larger terrestrial mammals. These records were collected from 1978 to 2018, partly by the authors, and from public (e.g. GBIF), and governmental and non-governmental organisations' databases (Supplementary material Appendix 1 Table A1 for details). To reduce sampling bias, we spatially filtered presence locations by enforcing a minimum distance of 10 km between presence locations (Kramer-Schadt et al. 2013) . We only included species with more than 10 points after applying the spatial filtering, resulting in a final list of 48 species, for which we retained a total of 4611 presence locations.",
+                "cite_spans": [
+                    {
+                        "start": 478,
+                        "end": 505,
+                        "text": "(Kramer-Schadt et al. 2013)",
+                        "ref_id": "BIBREF28"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 321,
+                        "end": 329,
+                        "text": "Table A1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Data preparation",
+                "sec_num": null
+            },
+            {
+                "text": "As potential predictors for our habitat suitability and hunting pressure models, we generated 11 variables at a 1-km 2 resolution (Supplementary material Appendix 1 Table A2 ). All variables covered the entire Chaco plus a 30-km buffer to account for potential border effects (Piquer-Rodr\u00edguez et al. 2015) . For the habitat model, we included four variables characterizing land cover (%Forest, %Cropland, %Grassland, %Pastures), three variables describing habitat structure (%Forest edge, Distance to water) and two climate variables (mean annual temperature, mean annual precipitation; Supplementary material Appendix 1 Table A2 ). To assess collinearity among predictors, we calculated Pearson's correlation coefficients for each variable pair and kept the variable with the higher explanatory power for pairs with r > 0.7 (Dormann et al. 2013 ) (Supplementary material Appendix 1 Fig. A1 ).",
+                "cite_spans": [
+                    {
+                        "start": 276,
+                        "end": 306,
+                        "text": "(Piquer-Rodr\u00edguez et al. 2015)",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 826,
+                        "end": 846,
+                        "text": "(Dormann et al. 2013",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 165,
+                        "end": 173,
+                        "text": "Table A2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 622,
+                        "end": 630,
+                        "text": "Table A2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 884,
+                        "end": 891,
+                        "text": "Fig. A1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Data preparation",
+                "sec_num": null
+            },
+            {
+                "text": "For the hunting-pressure model, we followed Ben\u00edtez-L\u00f3pez et al. (2019) and used three predictors: Distance to hunter access points, Human population density (both indicators of hunting risk), and Species body mass (an indicator of a species' intrinsic vulnerability to population decline as a result of hunting) (Supplementary material Appendix 1 Table A2 ). We defined spatial features representing hunter access points for each species separately, based on the regional expertise of the authors (Supplementary material Appendix 1 Table A3 ). Assessment of subsistence ranches involved screen-digitizing > 27 000 individual ranches spread across the Chaco and assessing their persistence over time using high-resolution imagery in Google Earth. Likewise, we reconstructed the evolution of the road network since 1985 based on historic satellite imagery (see Extended methods in the Supplementary material Appendix 1 for details).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 348,
+                        "end": 356,
+                        "text": "Table A2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 533,
+                        "end": 541,
+                        "text": "Table A3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Data preparation",
+                "sec_num": null
+            },
+            {
+                "text": "We parameterized 1) a habitat suitability model, characterizing resource availability, and 2) a hunting pressure model, characterizing species-specific population declines due to hunting. By overlaying the two resulting maps, we then identified four habitat categories for each species individually, according to the prevailing threats: core area (good habitat suitability and low hunting pressure), poor habitat-only (poor habitat suitability, but low hunting pressure), hunting pressure-only (high hunting pressure, but good habitat suitability), and both threats together (poor habitat suitability and high hunting pressure). We tracked these habitat categories across time using time-calibrated models for each species, resulting in time series of the individual and combined threat footprints (Fig. 1 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 798,
+                        "end": 805,
+                        "text": "(Fig. 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Modelling habitat destruction and hunting pressure over time",
+                "sec_num": null
+            },
+            {
+                "text": "To represent habitat suitability, we used maximum entropy modelling (Phillips et al. 2017) . This is a presence-only, nonparametric species distribution modelling algorithm that performs well in predicting habitat suitability, even for small samples (Elith and Leathwick 2009) and for time-calibrated habitat models (Kuemmerle et al. 2012 , Sieber et al. 2015 , Romero-Mu\u00f1oz et al. 2019b . Time-calibrated models have two key advantages: 1) they make use of all available data, across the entire time period studied, and 2) they ensure that observed changes in habitat suitability are solely due Figure 1 . Framework for reconstructing 'geographies of threat' due to habitat destruction and hunting pressure for 48 larger mammals in the Chaco from 1985 to 2015. We first modelled the spatial footprint of each threat per species, then stacked these footprints across the community, and then used this information to assess how spatial footprints of threats changed over time (including threat overlaps).",
+                "cite_spans": [
+                    {
+                        "start": 68,
+                        "end": 90,
+                        "text": "(Phillips et al. 2017)",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 250,
+                        "end": 276,
+                        "text": "(Elith and Leathwick 2009)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 316,
+                        "end": 338,
+                        "text": "(Kuemmerle et al. 2012",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 339,
+                        "end": 359,
+                        "text": ", Sieber et al. 2015",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 360,
+                        "end": 387,
+                        "text": ", Romero-Mu\u00f1oz et al. 2019b",
+                        "ref_id": "BIBREF59"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 596,
+                        "end": 604,
+                        "text": "Figure 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Modelling habitat destruction and hunting pressure over time",
+                "sec_num": null
+            },
+            {
+                "text": "to changes in predictor variables, and not due to uneven distribution of points over time or varying sampling bias (Nogu\u00e9s-Bravo 2009 , Sieber et al. 2015 . We fitted maximum entropy models for each species using Maxent (v3.4.1) (Phillips et al. 2017) using only hinge features to avoid overfitting (Elith et al. 2010) . We tested a range of parameterizations and selected a regularisation multiplier of 1 and a prevalence value of 0.5 (Elith et al. 2010) .",
+                "cite_spans": [
+                    {
+                        "start": 115,
+                        "end": 133,
+                        "text": "(Nogu\u00e9s-Bravo 2009",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 134,
+                        "end": 154,
+                        "text": ", Sieber et al. 2015",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 229,
+                        "end": 251,
+                        "text": "(Phillips et al. 2017)",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 299,
+                        "end": 318,
+                        "text": "(Elith et al. 2010)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 436,
+                        "end": 455,
+                        "text": "(Elith et al. 2010)",
+                        "ref_id": "BIBREF18"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Modelling habitat destruction and hunting pressure over time",
+                "sec_num": null
+            },
+            {
+                "text": "As background points, we created sets of points for each species individually to account for differences in species' distribution as well as sampling effort in space and time, which helps to avoid issues arising from sampling biases (Elith et al. 2010 , Merow et al. 2013 . We used 10 000 background points that we distributed proportionally in time according to the presence points. We then extracted predictor values for each presence and background point from the year each point was sampled (Sieber et al. 2015 ). This yielded a single, timecalibrated Maxent model per species, which we then projected onto the sets of predictor variables from 1985, 2000 and 2015 (see Extended methods in the Supplementary material Appendix 1 for further details). To assess the robustness of our models, we ran 10-fold cross-validation. We assessed the models' predictive performance with the average area under the curve (AUC) values across the 10 replicates. We defined species' ranges as those areas with habitat suitability values above the 5% quantile in 1985 (Pearson et al. 2004) .",
+                "cite_spans": [
+                    {
+                        "start": 233,
+                        "end": 251,
+                        "text": "(Elith et al. 2010",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 252,
+                        "end": 271,
+                        "text": ", Merow et al. 2013",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 495,
+                        "end": 514,
+                        "text": "(Sieber et al. 2015",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 1054,
+                        "end": 1075,
+                        "text": "(Pearson et al. 2004)",
+                        "ref_id": "BIBREF47"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Modelling habitat destruction and hunting pressure over time",
+                "sec_num": null
+            },
+            {
+                "text": "To model hunting pressure, we relied on a recently-developed approach to capture hunting-induced defaunation for tropical mammals (Ben\u00edtez-L\u00f3pez et al. 2019) . This approach uses a two-stage mixed model that describes a species' population responses to hunting pressure. First, a binomial model was fitted to discriminate extant and locally extinct species. Second, a Gaussian model was fitted to the non-zero response ratios in abundance change due to hunting based on 3281 abundance estimates in hunted and non-hunted areas studies across the tropics (Ben\u00edtez-L\u00f3pez et al. 2019) (see Extended methods). This results in a hunting pressure index ranging from 0 (no decline in abundance) to 1 (total local extirpation). We re-fitted the original global model to Neotropical mammals only (n = 1945 abundance ratios) and then evaluated the predictive accuracy with 5-fold cross-validation with an 80%/20% training/testing set. We split our predictions into two categories of high (> 0.3), and low (\u2264 0.3) hunting pressure, based on the International Union for Conservation of Nature (IUCN) criterion of 30% population decline due to threats that have not ceased that renders a species threatened (criterion A4, IUCN 2012). We assessed the accuracy of our model for predicting these hunting pressure categories using sensitivity and specificity.",
+                "cite_spans": [
+                    {
+                        "start": 130,
+                        "end": 157,
+                        "text": "(Ben\u00edtez-L\u00f3pez et al. 2019)",
+                        "ref_id": "BIBREF6"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Modelling habitat destruction and hunting pressure over time",
+                "sec_num": null
+            },
+            {
+                "text": "To map the spatial footprints of threats, we first applied thresholds to the habitat suitability maps and the hunting pressure maps to classify good and poor suitability, and high and low hunting pressure (Fig. 1) , respectively. For the habitat suitability maps, we used the 'maximum sensitivity plus specificity' threshold (Liu et al. 2013) . For the hunting pressure maps, we used the threshold of 0.3 to separate high and low hunting pressure. We then overlaid the two binary maps to identify the four habitat categories according to threat levels ( Fig. 1) .",
+                "cite_spans": [
+                    {
+                        "start": 325,
+                        "end": 342,
+                        "text": "(Liu et al. 2013)",
+                        "ref_id": "BIBREF33"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 205,
+                        "end": 213,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 554,
+                        "end": 561,
+                        "text": "Fig. 1)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Mapping the footprints of habitat destruction and hunting pressure",
+                "sec_num": null
+            },
+            {
+                "text": "We stacked the raster maps across all 48 species to obtain per-pixel species counts for each category for the years 1985, 2000 and 2015 (Fig. 1) . We also calculated for each year the overall area affected by poor habitat and hunting pressure, and the share of each species' ranges affected by either threat alone or by both together. In the habitat model, we kept climate conditions constant for the entire study period (by using 30-yr climate averages) but allowed land cover and land use to vary over time. Therefore, expansion of poor habitat over time can only be attributed to impacts of land cover/use change and we refer to this as habitat destruction (Fig. 1) . We refer to the increases of hunting pressure over time as 'increasing hunting pressure'.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 136,
+                        "end": 144,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 660,
+                        "end": 668,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Mapping the footprints of habitat destruction and hunting pressure",
+                "sec_num": null
+            },
+            {
+                "text": "To identify priority areas (i.e. the most important areas with high-quality habitat and low threat levels) and hotspots of threats (i.e. areas where threats have disproportionally high impacts), we adopted a rarity-weighted richness measure (Kier and Barthlott 2001) , which considers both richness (i.e. how many species have their core area in a given cell) and range size (i.e. whether a species has a large or small core area). This approach compares favourably to other prioritisation algorithms (Albuquerque and Beier 2015) . Priority areas can guide efforts to expand habitat protection (e.g. via additional protected areas), while threat hotspots can help to spatially target threat-specific conservation action (see Extended methods in the Supplementary material Appendix 1 for further details).",
+                "cite_spans": [
+                    {
+                        "start": 241,
+                        "end": 266,
+                        "text": "(Kier and Barthlott 2001)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 501,
+                        "end": 529,
+                        "text": "(Albuquerque and Beier 2015)",
+                        "ref_id": "BIBREF0"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Mapping the footprints of habitat destruction and hunting pressure",
+                "sec_num": null
+            },
+            {
+                "text": "Both our habitat suitability models, and hunting-pressure models performed well. Our habitat suitability models had overall high to very high model fit and discrimination values for all 48 modelled species (AUC consistently > 0.7; Supplementary material Appendix 1 Fig. A2 ). For the hunting pressure model, overall sensitivity and specificity were 0.9 and 0.5, respectively, indicating good predictive performance.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 265,
+                        "end": 272,
+                        "text": "Fig. A2",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "In terms of the predicted threat footprints, our habitat suitability models showed that by 2015, poor habitat covered on average 49% (\u00b1 20% SD) of the ranges of the species we investigated ( Fig. 2A) . Similarly, hunting pressure was on average high across 45% (\u00b1 30% SD) of species' ranges in 2015 (Fig. 2C) . Between 1985 and 2015, large areas of the Chaco became affected by habitat destruction and hunting pressure (38 and 41% of the region, respectively; Fig. 2B, D) . For some species, hunting pressure expanded over wide areas and even inside protected areas (Fig. 2D) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 191,
+                        "end": 199,
+                        "text": "Fig. 2A)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 299,
+                        "end": 308,
+                        "text": "(Fig. 2C)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 460,
+                        "end": 471,
+                        "text": "Fig. 2B, D)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 566,
+                        "end": 575,
+                        "text": "(Fig. 2D)",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "At the species level, the footprint of habitat destruction showed an average expansion of 9.6% (\u00b1 22.7% SD) or 22 000 km 2 (\u00b1 51 000 km 2 SD; Fig. 3A) . This threat increased for 34 mammals (71%), while it either remained constant or decreased for the remaining 14 species (Fig. 3A) . For example, since 1985 land-use change affected over 25% of the high-quality habitat of the jaguar Panthera onca, puma Puma concolor, the white-lipped peccary Tayassu pecari, and the collared peccary Pecari tajacu. In contrast, species such as the maned wolf Chrysocyon brachyurus or the crab-eating fox Cerdocyon thous experienced declining pressure from habitat destruction over time (Fig. 3A) . Among countries, the footprint of habitat destruction expanded faster in Paraguay than in Bolivia and Argentina (Fig. 3B) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 142,
+                        "end": 150,
+                        "text": "Fig. 3A)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 273,
+                        "end": 282,
+                        "text": "(Fig. 3A)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 672,
+                        "end": 681,
+                        "text": "(Fig. 3A)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 796,
+                        "end": 805,
+                        "text": "(Fig. 3B)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "The footprint of hunting pressure expanded on average by 8.4% (\u00b1 6.7% SD) or 23 000 km 2 (\u00b1 34 000 km 2 SD; Fig. 3A) . Generally, this footprint changed more evenly than the footprint of habitat destruction, with increasing hunting pressure for almost all species (i.e. 44 species = 92%). For instance, hunting pressure on the puma, the jaguar, the giant armadillo Priodontes maximus, and the grey brocket deer Mazama gouazoubira each increased by more than 20%. For some frequently-hunted species, such as the white-lipped peccary and tapir Tapirus terrestris, the footprint of hunting pressure increased only slightly, as this footprint was already large in 1985. Only very few species, such as Geoffroy's cat Leopardus geoffroyi) experienced slightly shrinking hunting pressure (Fig. 3A) . The footprint of hunting pressure expanded faster in Paraguay and Bolivia than in Argentina (Fig. 3B) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 108,
+                        "end": 116,
+                        "text": "Fig. 3A)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 781,
+                        "end": 790,
+                        "text": "(Fig. 3A)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 885,
+                        "end": 894,
+                        "text": "(Fig. 3B)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "In addition to the individual expansion of threat footprints, we found a strong increase between 1985 and 2015 in the area where habitat destruction and hunting pressure overlap (Fig. 4) . The cumulative area for all mammals affected by both threats expanded by 465 000 km 2 (or 43% of the Chaco) between 1985 and 2015 ( Fig. 4) . In comparison, habitat destruction-only and hunting pressure-only cumulatively expanded by 300 000 km 2 and 363 000 km 2 (34% and 28% of the Chaco), respectively (Fig. 4) . At the species level, the area of both threats acting together increased by 17% (\u00b1 20.2%) on average between 1985 to 2015. In contrast, the area where only one threat impacts species decreased (by 39.5% and 6.1%, for habitat destruction and hunting pressure, respectively; Fig. 5 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 178,
+                        "end": 186,
+                        "text": "(Fig. 4)",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 321,
+                        "end": 328,
+                        "text": "Fig. 4)",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 493,
+                        "end": 501,
+                        "text": "(Fig. 4)",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 777,
+                        "end": 783,
+                        "text": "Fig. 5",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Regarding core areas (i.e. good habitat suitability and low hunting pressure), 36 species (75%) experienced a contraction (on average 38% \u00b1 62.2% SD) between 1985 and 2015 (Supplementary material Appendix 1 Fig. A3 ). Contractions were particularly common in northern Paraguay and the northernmost Chaco in Bolivia, where up to 34 species lost core areas in some locations (Supplementary material Appendix 1 Fig. A3 ). By 2015, remaining core areas were mainly concentrated in southern Bolivia, north-eastern Paraguay and some smaller areas in northern Argentina (Supplementary material Appendix 1 Fig. A3 ). The cumulative core area lost for all species between 1985 and 2015 was 407 000 km 2 .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 207,
+                        "end": 214,
+                        "text": "Fig. A3",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 408,
+                        "end": 415,
+                        "text": "Fig. A3",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 598,
+                        "end": 605,
+                        "text": "Fig. A3",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Our rarity-weighted richness analyses revealed that priority areas for the community of larger mammals as a whole covered large areas of the northern Chaco in 2015, mainly in Bolivia and northern Paraguay, as well as the eastern-most Chaco in Argentina (Fig. 6A) . In contrast, hotspots where habitat destruction and hunting pressure acted simultaneously covered broad areas in north-western Paraguay, northeastern Argentina and south-western Bolivia (Fig. 6B) . Hotspots of habitat destruction-only were spread across central and northern Paraguay, southern Bolivia and the central Chaco in Argentina; whereas hotspots of hunting pressure-only were most common in northern Paraguay, south-western Bolivia and northern Argentina (Fig. 6B ). For comparison, threat hotspots based on species' global ranges were similar to those based on the Chaco ranges. This was different for priority areas, where calculations based on global ranges revealed priority areas in the Bolivian Chaco (as in the analyses using Chaco ranges), but to a lesser extent in Paraguay and northern Argentina, and not at all in eastern Argentina (Supplementary material Appendix 1 Fig. A6 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 253,
+                        "end": 262,
+                        "text": "(Fig. 6A)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 451,
+                        "end": 460,
+                        "text": "(Fig. 6B)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 729,
+                        "end": 737,
+                        "text": "(Fig. 6B",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1152,
+                        "end": 1159,
+                        "text": "Fig. A6",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Understanding the individual and combined effects of different threats to biodiversity is critical for identifying effective conservation interventions to halt biodiversity loss. Yet, we currently lack approaches to map the spatial footprints of threats at resolutions fine enough to be useful for conservation planning. By combining land-cover time series mapped from satellite imagery, habitat suitability models and hunting pressure models, we reconstructed the footprints of habitat destruction and hunting for the entire community of larger mammals of South America's Gran Chaco, a 1.1 million km 2 deforestation hotspot. We found that the footprints of both threats expanded considerably -and much more than deforestation alone -across the Chaco over three decades, producing a widespread loss of core areas. In addition, habitat destruction and hunting pressure acted simultaneously over increasing portions of the Chaco over time, suggesting that synergistic effects are becoming the norm. The priority areas and hotspots of threat that we identified point to key areas for larger mammals, where habitat protection and threatspecific management actions should swiftly be implemented to avoid further biodiversity loss. Overall, our findings suggest increasing synergistic effects between habitat destruction and hunting pressure in the Chaco, a situation likely common in many tropical deforestation frontiers around the world. Our work therefore highlights the urgent need to better understanding how these threats act on species in space and time, in other words, the geographies of threat to biodiversity. We here develop an effective and easily transferable approach to do so. The footprints of habitat destruction and hunting pressure expanded hugely across the Chaco between 1985 and 2015 for almost all mammals we assessed. This is exemplified by the cumulative footprints of threats expanded over more than double the area of forest and natural grassland loss in that period (142 600 and 31 700 km 2 , respectively) (Baumann et al. 2017) . The footprint of hunting pressure penetrated even further into remote areas, including protected areas, than habitat destruction. Hunting is the main cryptic disturbance for mammals, and often extends into otherwise 'intact' forests (Peres et al. 2016 , Ben\u00edtez-L\u00f3pez et al. 2019 . Similarly, the footprint of habitat destruction was also broader than that of deforestation, likely because small fragments are unsuitable for wide-ranging species, and because edge effects decrease resource availability close to deforested areas (Barlow et al. 2016) . Only a few forest patches remain in the Chaco that are large enough to be effectively remote from hunter access points and agricultural lands. Other studies in deforestation frontiers have also reported that anthropogenic disturbance can extend over much larger areas than the area undergoing deforestation alone (Peres et al. 2006 , Barlow et al. 2016 . Together, our results highlight that approximating threats by deforestation footprints alone (Ocampo-Pe\u00f1uela et al. 2016 , Symes et al. 2018 , Gallego-Zamorano et al. 2020 , or by using fixed distances from roads (Allan et al. 2019 ) may underestimate the footprints of threats substantially.",
+                "cite_spans": [
+                    {
+                        "start": 2032,
+                        "end": 2053,
+                        "text": "(Baumann et al. 2017)",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 2289,
+                        "end": 2307,
+                        "text": "(Peres et al. 2016",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 2308,
+                        "end": 2335,
+                        "text": ", Ben\u00edtez-L\u00f3pez et al. 2019",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 2585,
+                        "end": 2605,
+                        "text": "(Barlow et al. 2016)",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 2921,
+                        "end": 2939,
+                        "text": "(Peres et al. 2006",
+                        "ref_id": "BIBREF49"
+                    },
+                    {
+                        "start": 2940,
+                        "end": 2960,
+                        "text": ", Barlow et al. 2016",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 3056,
+                        "end": 3083,
+                        "text": "(Ocampo-Pe\u00f1uela et al. 2016",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 3084,
+                        "end": 3103,
+                        "text": ", Symes et al. 2018",
+                        "ref_id": "BIBREF65"
+                    },
+                    {
+                        "start": 3104,
+                        "end": 3134,
+                        "text": ", Gallego-Zamorano et al. 2020",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 3176,
+                        "end": 3194,
+                        "text": "(Allan et al. 2019",
+                        "ref_id": "BIBREF1"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The footprint of both threats increased since 1985 across all Chaco countries, but at varied rates. Habitat destruction expanded the most in Paraguay, which reflects Paraguay's rampant conversion of forests into pastures (Baumann et al. 2017) . Habitat destruction expanded less in Bolivia, partly because two large protected areas cover large forested regions, and because the main deforestation frontiers in Bolivia are in the Chiquitano forest, just north of the Chaco (Hansen et al. 2013) . Hunting pressure expanded more in Paraguay and Bolivia, where human population and road construction increased recently, than in Argentina, where Figure 6 . Priority areas (i.e. the most important areas with high-quality habitat and low threat levels) and hotspots of threats (i.e. areas where threats have disproportionally high impacts) for larger mammals in the Chaco, based on the rarity-weighted richness (i.e. sum of inverse range sizes). (A) Hotspots of core areas in 2015, which represent priority areas for conservation. (B) Bivariate map of hotspots of habitat destruction and high hunting pressure (2015), which represent priority areas for threat-specific conservation action.",
+                "cite_spans": [
+                    {
+                        "start": 221,
+                        "end": 242,
+                        "text": "(Baumann et al. 2017)",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 472,
+                        "end": 492,
+                        "text": "(Hansen et al. 2013)",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 641,
+                        "end": 649,
+                        "text": "Figure 6",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "human population density and road density were already high in 1985. In fact, some species, such as Geoffroy's cat, experienced a decreasing hunting pressure in some areas in Argentina. This is likely because subsistence ranchers abandoned some areas as agribusiness expanded (Grau et al. 2008) , potentially decreasing hunting pressure but increasing habitat destruction. After 2015, deforestation and forest fires have further advanced in all three countries, most worryingly in some of the last remote areas in northernmost Paraguay (Hansen et al. 2013) and in the northern Bolivian Chaco (Romero-Mu\u00f1oz et al. 2019a) . This highlights the urgency for stronger regulation of deforestation and the expansion of roads across all three countries.",
+                "cite_spans": [
+                    {
+                        "start": 276,
+                        "end": 294,
+                        "text": "(Grau et al. 2008)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 536,
+                        "end": 556,
+                        "text": "(Hansen et al. 2013)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 592,
+                        "end": 619,
+                        "text": "(Romero-Mu\u00f1oz et al. 2019a)",
+                        "ref_id": "BIBREF58"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The rapid expansion of threats and the massive declines of core areas, predicted for the first time by our maps, signify the defaunation of the larger mammal community across much of the Chaco. Unfortunately, these trends are widespread in deforestation frontiers (Gibson et al. 2011 , Barlow et al. 2016 . The declines we detected in most species' core areas often contrast with their generally low-threat global conservation status (Supplementary material Appendix 1 Table A3 ), highlighting the importance of conducting such assessments at the regional level (de la Torre et al. 2018). Given the varied and key ecological roles of larger mammals, their disappearance can disturb ecosystem functioning, including seed dispersal, carbon storage and nutrient cycling (Dirzo et al. 2014 , Periago et al. 2014 . This also highlights the importance of the few large remaining core areas for the mammal community as a whole, which are likely to be the last places maintaining the original species assemblage and ecosystem functioning in the Chaco. This reinforces the recognition of the irreplaceable role of 'wilderness' and Indigenous territories in maintaining biodiversity (Ricketts et al. 2010 , Gibson et al. 2011 . Further, these results underline the importance of halting further agricultural and road expansion into remaining core areas, which could otherwise disappear quickly across the entire Chaco.",
+                "cite_spans": [
+                    {
+                        "start": 264,
+                        "end": 283,
+                        "text": "(Gibson et al. 2011",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 284,
+                        "end": 304,
+                        "text": ", Barlow et al. 2016",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 767,
+                        "end": 785,
+                        "text": "(Dirzo et al. 2014",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 786,
+                        "end": 807,
+                        "text": ", Periago et al. 2014",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 1173,
+                        "end": 1194,
+                        "text": "(Ricketts et al. 2010",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 1195,
+                        "end": 1215,
+                        "text": ", Gibson et al. 2011",
+                        "ref_id": "BIBREF21"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 469,
+                        "end": 477,
+                        "text": "Table A3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "A key result of our study was that areas where both threats act together cover increasingly larger portions of the Chaco. This is highly worrying because biodiversity declines even faster where threats synergise (Brook et al. 2008) . Such synergistic effects are particularly likely in the Chaco, because its dense and thorny forests make them very hard to access for hunters unless forests are cleared for roads and agriculture. Hunters often kill mammals crossing such clearings; and workers cutting the forest, building fences and producing charcoal actively hunt animals in the remaining forest patches (Altrichter 2006; unpubl.) . Accordingly, large mammals tend to disappear from forest strips and smaller forest patches soon after the surrounding areas are deforested (N\u00fa\u00f1ez-Regueiro et al. 2015 , Semper-Pascual et al. 2019 . Furthermore, in areas already converted to agriculture, ranchers and farmers often persecute carnivores and herbivores thought to cause livestock or crop losses, respectively (Quiroga et al. 2016 , Camino et al. 2018 . While synergistic effects have been described through non-spatial methods in other deforestation frontiers (Peres 2001 ), here we provide an approach to map out the individual and combined effect of threats, and thus to track synergistic effects that may be common in deforestation frontiers around the world over time.",
+                "cite_spans": [
+                    {
+                        "start": 212,
+                        "end": 231,
+                        "text": "(Brook et al. 2008)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 607,
+                        "end": 624,
+                        "text": "(Altrichter 2006;",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 625,
+                        "end": 633,
+                        "text": "unpubl.)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 775,
+                        "end": 802,
+                        "text": "(N\u00fa\u00f1ez-Regueiro et al. 2015",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 803,
+                        "end": 831,
+                        "text": ", Semper-Pascual et al. 2019",
+                        "ref_id": "BIBREF62"
+                    },
+                    {
+                        "start": 1009,
+                        "end": 1029,
+                        "text": "(Quiroga et al. 2016",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 1030,
+                        "end": 1050,
+                        "text": ", Camino et al. 2018",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 1160,
+                        "end": 1171,
+                        "text": "(Peres 2001",
+                        "ref_id": "BIBREF48"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Our approach can also provide spatial templates for conservation planning. Our priority areas represent the most important areas for proactive conservation action, such as establishing protected areas. The protected area network currently covers only 9.1% of the Chaco. Extensive priority areas remain unprotected, particularly in northern Paraguay, and northern Argentina, and most are surrounded by threat hotspots. These areas are excellent candidate regions for expanding the existing protected area network and our analyses can serve to update previous prioritization exercises (TNC et al. 2005 , Nori et al. 2016 . Further, efforts should be directed to ensure Indigenous Peoples' land rights as many of these lands harbour priority areas and are thus important for Chacoan biodiversity.",
+                "cite_spans": [
+                    {
+                        "start": 583,
+                        "end": 599,
+                        "text": "(TNC et al. 2005",
+                        "ref_id": "BIBREF66"
+                    },
+                    {
+                        "start": 600,
+                        "end": 618,
+                        "text": ", Nori et al. 2016",
+                        "ref_id": "BIBREF40"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Our threat hotspots overlapped extensively with previously prioritized areas (TNC et al. 2005 , Nori et al. 2016 , particularly in the central Chaco. This highlights the need for swift reactive threat management. In hotspots of habitat destruction, potential actions include 1) stopping further agricultural expansion and enforcing existing regulations, 2) securing Indigenous People's rights to land, 3) promoting culturally acceptable livelihoods that encourage sustainable land use and 4) fostering forest recovery. In hotspots of hunting pressure, specific actions include 1) careful planning of new roads and other land changes that foster access for hunters; 2) educational programs and improved management to lower or avoid conflicts with wildlife; 3) enforcing bans on recreational and commercial hunting and 4) ensure the sustainability of Indigenous People subsistence hunting. Several of these recommendations are in agreement with different Indigenous and smallholders visions in the Bolivian and Argentinean Chaco (Noss and Cuellar 2001, Camino et al. 2016) . Where both threats co-occur, they must be managed simultaneously. Implementing such complementary management actions is more likely to produce conservation gains than addressing single threats alone (Wilson et al. 2007) .",
+                "cite_spans": [
+                    {
+                        "start": 77,
+                        "end": 93,
+                        "text": "(TNC et al. 2005",
+                        "ref_id": "BIBREF66"
+                    },
+                    {
+                        "start": 94,
+                        "end": 112,
+                        "text": ", Nori et al. 2016",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 1027,
+                        "end": 1036,
+                        "text": "(Noss and",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 1037,
+                        "end": 1070,
+                        "text": "Cuellar 2001, Camino et al. 2016)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1272,
+                        "end": 1292,
+                        "text": "(Wilson et al. 2007)",
+                        "ref_id": "BIBREF70"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Our work represents, to our knowledge, the first spatially explicit and high-resolution mapping of the footprints of multiple threat at the community level. Thereby it advances previous analyses assessing single threats (Ocampo-Pe\u00f1uela et al. 2016 , Ben\u00edtez-L\u00f3pez et al. 2019 , threat interactions for individual species (Bleyhl et al. 2015 , Romero-Mu\u00f1oz et al. 2019b , and coarse-grained overlays of multiple threats based on species range maps (Symes et al. 2018 , Allan et al. 2019 , Gallego-Zamorano et al. 2020 . Our study is also the first to reconstruct changes in multiple threats over long time periods, by combining satellite-based land-cover change maps with longitudinal datasets of road networks and over 27 000 subsistence ranches. Still, our work contains some limitations. First, although we gathered the largest occurrence dataset ever collected for the larger mammal community of the Chaco, presence points were scarce for some species in some regions, particularly the northern and southern Chaco for the 1980s. Second, our maps depend on thresholds for classifying threat levels, and we applied common criteria to define them. Still, other thresholds would change our maps. Finally, we used the human population density layers for 2000 also for 1985, because a comparable dataset for 1985 was missing. Although human population has likely not changed markedly in 1985-2000, we may have underestimated changes in hunting pressure for this period. This highlights the importance of long-term human population timeseries to transfer approaches such as ours to other regions (Lloyd et al. 2017) .",
+                "cite_spans": [
+                    {
+                        "start": 220,
+                        "end": 247,
+                        "text": "(Ocampo-Pe\u00f1uela et al. 2016",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 248,
+                        "end": 275,
+                        "text": ", Ben\u00edtez-L\u00f3pez et al. 2019",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 321,
+                        "end": 340,
+                        "text": "(Bleyhl et al. 2015",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 341,
+                        "end": 368,
+                        "text": ", Romero-Mu\u00f1oz et al. 2019b",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 447,
+                        "end": 465,
+                        "text": "(Symes et al. 2018",
+                        "ref_id": "BIBREF65"
+                    },
+                    {
+                        "start": 466,
+                        "end": 485,
+                        "text": ", Allan et al. 2019",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 486,
+                        "end": 516,
+                        "text": ", Gallego-Zamorano et al. 2020",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 1592,
+                        "end": 1611,
+                        "text": "(Lloyd et al. 2017)",
+                        "ref_id": "BIBREF34"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Mapping the spatial footprints of habitat destruction and overexploitation has been hard, constituting a real barrier towards better understanding their individual versus combined impacts, and for targeting threat-specific conservation planning. Here, we pioneer a new approach to reconstruct the changing footprints of main threats to biodiversity (Fig. 1) . Applying this approach to the 1.1 million km 2 Gran Chaco, a global deforestation hotspot, we find that the footprints of habitat destruction, hunting pressure and the areas where they synergize, are rapidly expanding. Such trends are likely common across other deforestation frontiers in Latin America, Africa and south-east Asia and our approach should therefore be broadly applicable to assess the geographies of threat in these regions. Our approach also allows to identify the remaining priority areas for biodiversity and to pinpoint to where threat-specific conservation actions to halt biodiversity declines should be implemented. Overall, our study highlights the importance of understanding and addressing the combined effects of major threats to biodiversity in order to better tackle biodiversity loss.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 349,
+                        "end": 357,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "Acknowledgements -We thank F. P\u00f6tzschner, A. Semper-Pascual, T. De Marzo, M. Piquer-Rodr\u00edguez, H. Blaum, R. Willbrand, L. Lange, K. Kirchner and M. Pratzer for their help digitising the subsistence ranches database. We thank J. Oeser for his help with coding. We thank M. Altrichter, M. Fernandez, K. Rivero, G. Boaglio, H. Robinson, V. Rojas and L. Villalba as well as Guyra Paraguay, Panthera Foundation, Wildlife Conservation Society-Paraguay, Wildlife Conservation Society-Bolivia, Wildlife Conservation Society-Paraguay, Museo de Historia Natural Noel Kempff Mercado-UAGRM, SEAM-Paraguay and S.P.E.CI.E.S, for sharing mammal presence locations. Funding -We gratefully acknowledge funding by the German Research Foundation (DFG, project KU 2458/5-1), the German Ministry of Education and Research (BMBF, project PASANOA, 031B0034A) and the Spanish Ministry of Science, Innovation and Universities (Juan de la Cierva-Incorporaci\u00f3n grant, IJCI-2017-31419).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "acknowledgement",
+                "sec_num": null
+            },
+            {
+                "text": "Data available from the Dryad Digital Repository: <https: //doi.org/10.5061/dryad.wm37pvmjg> (Romero-Mu\u00f1oz et al. 2020) .",
+                "cite_spans": [
+                    {
+                        "start": 93,
+                        "end": 119,
+                        "text": "(Romero-Mu\u00f1oz et al. 2020)",
+                        "ref_id": "BIBREF60"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Data availability statement",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Rarity-weighted richness: a simple and reliable alternative to integer programming and heuristic algorithms for minimum set and maximum coverage problems in conservation planning",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Albuquerque",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Beier",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "PLoS One",
+                "volume": "10",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Albuquerque, F. and Beier, P. 2015. Rarity-weighted richness: a simple and reliable alternative to integer programming and heu- ristic algorithms for minimum set and maximum coverage problems in conservation planning. -PLoS One 10: e0119905.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Hotspots of human impact on threatened terrestrial vertebrates",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Allan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "PLoS Biol",
+                "volume": "17",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Allan, J. R. et al. 2019. Hotspots of human impact on threatened terrestrial vertebrates. -PLoS Biol. 17: e3000158.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Wildlife in the life of local people of the semi-arid Argentine Chaco",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Altrichter",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Biodivers. Conserv",
+                "volume": "15",
+                "issue": "",
+                "pages": "2719--2736",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Altrichter, M. 2006. Wildlife in the life of local people of the semi-arid Argentine Chaco. -Biodivers. Conserv. 15: 2719-2736.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Anthropogenic disturbance in tropical forests can double biodiversity loss from deforestation",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Barlow",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Nature",
+                "volume": "535",
+                "issue": "",
+                "pages": "1--16",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barlow, J. et al. 2016. Anthropogenic disturbance in tropical forests can double biodiversity loss from deforestation. -Nature 535: 1-16.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Carbon emissions from agricultural expansion and intensification in the Chaco",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Baumann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Global Change Biol",
+                "volume": "23",
+                "issue": "",
+                "pages": "1902--1916",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Baumann, M. et al. 2017. Carbon emissions from agricultural expansion and intensification in the Chaco. -Global Change Biol. 23: 1902-1916.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "The impact of hunting on tropical mammal and bird populations",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Ben\u00edtez-L\u00f3pez",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Science",
+                "volume": "356",
+                "issue": "",
+                "pages": "180--183",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ben\u00edtez-L\u00f3pez, A. et al. 2017. The impact of hunting on tropical mammal and bird populations. -Science 356: 180-183.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Intact but empty forests? Patterns of hunting-induced mammal defaunation in the tropics",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Ben\u00edtez-L\u00f3pez",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "PLoS Biol",
+                "volume": "17",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ben\u00edtez-L\u00f3pez, A. et al. 2019. Intact but empty forests? Patterns of hunting-induced mammal defaunation in the tropics. -PLoS Biol. 17: e3000247.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Tropical dry forests: the state of global knowledge and recommendations for future research. -Discussion Paper",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Blackie",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "CIFOR",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Blackie, R. et al. 2014. Tropical dry forests: the state of global knowledge and recommendations for future research. -Discus- sion Paper, CIFOR, Bogor, Indonesia doi: 10.17528/ cifor/004408",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Mapping seasonal European bison habitat in the Caucasus Mountains to identify potential reintroduction sites",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Bleyhl",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Biol. Conserv",
+                "volume": "191",
+                "issue": "",
+                "pages": "83--92",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bleyhl, B. et al. 2015. Mapping seasonal European bison habitat in the Caucasus Mountains to identify potential reintroduction sites. -Biol. Conserv. 191: 83-92.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Synergies among extinction drivers under global change",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Brook",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Trends Ecol. Evol",
+                "volume": "23",
+                "issue": "",
+                "pages": "453--460",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brook, B. W. et al. 2008. Synergies among extinction drivers under global change. -Trends Ecol. Evol. 23: 453-460.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Wildlife conservation, perceptions of different co-existing cultures",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Camino",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Int. J. Conserv. Sci",
+                "volume": "7",
+                "issue": "",
+                "pages": "109--122",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Camino, M. et al. 2016. Wildlife conservation, perceptions of dif- ferent co-existing cultures. -Int. J. Conserv. Sci. 7: 109-122.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Relations with wildlife of Wichi and Criollo people of the Dry Chaco, a conservation perspective",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Camino",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Ethnobiol. Conserv",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Camino, M. et al. 2018. Relations with wildlife of Wichi and Cri- ollo people of the Dry Chaco, a conservation perspective. -Ethnobiol. Conserv. 7: 11.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Classifying drivers of global forest loss",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Curtis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Science",
+                "volume": "361",
+                "issue": "",
+                "pages": "1108--1111",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Curtis, P. G. et al. 2018. Classifying drivers of global forest loss. -Science 361: 1108-1111.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "The jaguar's spots are darker than they appear: assessing the global conservation status of the jaguar Panthera onca",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "De La Torre",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Oryx",
+                "volume": "52",
+                "issue": "",
+                "pages": "300--315",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "de la Torre, J. A. et al. 2018. The jaguar's spots are darker than they appear: assessing the global conservation status of the jaguar Panthera onca. -Oryx 52: 300-315.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Limitations and trade-offs in the use of species distribution maps for protected area planning",
+                "authors": [
+                    {
+                        "first": "Di",
+                        "middle": [],
+                        "last": "Marco",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "J. Appl. Ecol",
+                "volume": "54",
+                "issue": "",
+                "pages": "402--411",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Di Marco, M. et al. 2017. Limitations and trade-offs in the use of species distribution maps for protected area planning. -J. Appl. Ecol. 54: 402-411.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Collinearity: a review of methods to deal with it and a simulation study evaluating their performance",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Dormann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Ecography",
+                "volume": "36",
+                "issue": "",
+                "pages": "27--46",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dormann, C. F. et al. 2013. Collinearity: a review of methods to deal with it and a simulation study evaluating their perfor- mance. -Ecography 36: 27-46.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Species distribution models: ecological explanation and prediction across space and time",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Elith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Leathwick",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Annu. Rev. Ecol. Evol. Syst",
+                "volume": "40",
+                "issue": "",
+                "pages": "415--436",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Elith, J. and Leathwick, J. R. 2009. Species distribution models: ecological explanation and prediction across space and time. -Annu. Rev. Ecol. Evol. Syst. 40: 415-436.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "The art of modelling range-shifting species",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Elith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Methods Ecol. Evol",
+                "volume": "1",
+                "issue": "",
+                "pages": "330--342",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Elith, J. et al. 2010. The art of modelling range-shifting species. -Methods Ecol. Evol. 1: 330-342.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "An evaluation of the robustness of global amphibian range maps",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Ficetola",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "J. Biogeogr",
+                "volume": "41",
+                "issue": "",
+                "pages": "211--221",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ficetola, G. F. et al. 2014. An evaluation of the robustness of global amphibian range maps. -J. Biogeogr. 41: 211-221.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Combined effects of land use and hunting on distributions of tropical mammals",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Gallego-Zamorano",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2020,
+                "venue": "Conserv. Biol",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/cobi.13459"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Gallego-Zamorano, J. et al. 2020. Combined effects of land use and hunting on distributions of tropical mammals. -Conserv. Biol. doi: 10.1111/cobi.13459",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Primary forests are irreplaceable for sustaining tropical biodiversity",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Gibson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Nature",
+                "volume": "478",
+                "issue": "",
+                "pages": "378--381",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gibson, L. et al. 2011. Primary forests are irreplaceable for sustain- ing tropical biodiversity. -Nature 478: 378-381.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Balancing food production and nature conservation in the Neotropical dry forests of northern Argentina",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Grau",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Global Change Biol",
+                "volume": "14",
+                "issue": "",
+                "pages": "985--997",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Grau, H. R. et al. 2008. Balancing food production and nature conservation in the Neotropical dry forests of northern Argen- tina. -Global Change Biol. 14: 985-997.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "High-resolution global maps of 21st-century forest cover change",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Hansen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Science",
+                "volume": "342",
+                "issue": "",
+                "pages": "850--853",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hansen, M. C. et al. 2013. High-resolution global maps of 21st- century forest cover change. -Science 342: 850-853.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Confronting a biome crisis: global disparities of habitat loss and protection",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Hoekstra",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "IPBES 2019. Global assessment report on biodiversity and ecosystem services of the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services. -IPBES Secretariat",
+                "volume": "8",
+                "issue": "",
+                "pages": "23--29",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hoekstra, J. M. et al. 2005. Confronting a biome crisis: global disparities of habitat loss and protection. -Ecol. Lett. 8: 23-29. IPBES 2019. Global assessment report on biodiversity and ecosys- tem services of the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services. -IPBES Secretariat, Bonn, Germany. IUCN 2012. IUCN Red List categories and criteria. -IUCN, Glad, Switzerland and Cambridge, UK.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Filling in biodiversity threat gaps",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Joppa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Science",
+                "volume": "352",
+                "issue": "",
+                "pages": "416--418",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Joppa, L. et al. 2016. Filling in biodiversity threat gaps. -Science 352: 416-418.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Biodiversity at risk under future cropland expansion and intensification",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Kehoe",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Nat. Ecol. Evol",
+                "volume": "1",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kehoe, L. et al. 2017. Biodiversity at risk under future cropland expansion and intensification. -Nat. Ecol. Evol. 1: 1129.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Measuring and mapping endemism and species richness: a new methodological approach and its application on the flora of Africa",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Kier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Barthlott",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Biodivers. Conserv",
+                "volume": "10",
+                "issue": "",
+                "pages": "1513--1529",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kier, G. and Barthlott, W. 2001. Measuring and mapping ende- mism and species richness: a new methodological approach and its application on the flora of Africa. -Biodivers. Conserv. 10: 1513-1529.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "The importance of correcting for sampling bias in MaxEnt species distribution models",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kramer-Schadt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Divers. Distrib",
+                "volume": "19",
+                "issue": "",
+                "pages": "1366--1379",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kramer-Schadt, S. et al. 2013. The importance of correcting for sampling bias in MaxEnt species distribution models. -Divers. Distrib. 19: 1366-1379.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Reconstructing range dynamics and range fragmentation of European bison for the last 8000 years",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Kuemmerle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Divers. Distrib",
+                "volume": "18",
+                "issue": "",
+                "pages": "47--59",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kuemmerle, T. et al. 2012. Reconstructing range dynamics and range fragmentation of European bison for the last 8000 years. -Divers. Distrib. 18: 47-59.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Agricultural expansion and its impacts on tropical nature",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Laurance",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Trends Ecol. Evol",
+                "volume": "29",
+                "issue": "",
+                "pages": "107--116",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Laurance, W. F. et al. 2014. Agricultural expansion and its impacts on tropical nature. -Trends Ecol. Evol. 29: 107-116.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Rents, actors and the expansion of commodity frontiers in the Gran Chaco",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Le Polain De Waroux",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Am. Assoc. Geogr",
+                "volume": "108",
+                "issue": "",
+                "pages": "204--225",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Le Polain de Waroux, Y. et al. 2018. Rents, actors and the expansion of commodity frontiers in the Gran Chaco. -Ann. Am. Assoc. Geogr. 108: 204-225.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Selecting thresholds for the prediction of species occurrence with presence-only data",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Liu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "J. Biogeogr",
+                "volume": "40",
+                "issue": "",
+                "pages": "778--789",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Liu, C. et al. 2013. Selecting thresholds for the prediction of spe- cies occurrence with presence-only data. -J. Biogeogr. 40: 778-789.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "High resolution global gridded data for use in population studies",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Lloyd",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "",
+                "volume": "4",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lloyd, C. T. et al. 2017. High resolution global gridded data for use in population studies. -Sci. Data 4: 170001.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Modeling species and community responses to past, present and future episodes of climatic and ecological change",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Maguire",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Annu. Rev. Ecol. Evol. Syst",
+                "volume": "46",
+                "issue": "",
+                "pages": "343--368",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Maguire, K. C. et al. 2015. Modeling species and community responses to past, present and future episodes of climatic and ecological change. -Annu. Rev. Ecol. Evol. Syst. 46: 343-368.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "A practical guide to MaxEnt for modeling species' distributions: what it does, and why inputs and settings matter",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Merow",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Ecography",
+                "volume": "36",
+                "issue": "",
+                "pages": "1058--1069",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Merow, C. et al. 2013. A practical guide to MaxEnt for modeling species' distributions: what it does, and why inputs and settings matter. -Ecography 36: 1058-1069.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "A global overview of the conservation status of tropical dry forests",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Miles",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "J. Biogeogr",
+                "volume": "33",
+                "issue": "",
+                "pages": "491--505",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Miles, L. et al. 2006. A global overview of the conservation status of tropical dry forests. -J. Biogeogr. 33: 491-505.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Objectives for multiplespecies conservation planning",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Nicholson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Possingham",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Conserv. Biol",
+                "volume": "20",
+                "issue": "",
+                "pages": "871--881",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nicholson, E. and Possingham, H. P. 2006. Objectives for multiple- species conservation planning. -Conserv. Biol. 20: 871-881.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Predicting the past distribution of species climatic niches",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Nogu\u00e9s-Bravo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Global Ecol. Biogeogr",
+                "volume": "18",
+                "issue": "",
+                "pages": "521--531",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nogu\u00e9s-Bravo, D. 2009. Predicting the past distribution of species climatic niches. -Global Ecol. Biogeogr. 18: 521-531.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Protected areas and spatial conservation priorities for endemic vertebrates of the Gran Chaco, one of the most threatened ecoregions of the world",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Nori",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Divers. Distrib",
+                "volume": "22",
+                "issue": "",
+                "pages": "1212--1219",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nori, J. et al. 2016. Protected areas and spatial conservation pri- orities for endemic vertebrates of the Gran Chaco, one of the most threatened ecoregions of the world. -Divers. Distrib. 22: 1212-1219.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Community attitudes towards wildlife management in the Bolivian Chaco",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Noss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Cuellar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Oryx",
+                "volume": "35",
+                "issue": "",
+                "pages": "292--300",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Noss, A. J. and Cuellar, R. L. 2001. Community attitudes towards wildlife management in the Bolivian Chaco. -Oryx 35: 292-300.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Hunter self-monitoring by the Isose\u00f1o-Guaran\u00ed in the Bolivian Chaco",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Noss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biodivers. Conserv",
+                "volume": "14",
+                "issue": "",
+                "pages": "2679--2693",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Noss, A. J. et al. 2005. Hunter self-monitoring by the Isose\u00f1o- Guaran\u00ed in the Bolivian Chaco. -Biodivers. Conserv. 14: 2679-2693.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Spatial patterns of mammal occurrence in forest strips surrounded by agricultural crops of the Chaco region",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "N\u00fa\u00f1ez-Regueiro",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Argentina. -Biol. Conserv",
+                "volume": "187",
+                "issue": "",
+                "pages": "19--26",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "N\u00fa\u00f1ez-Regueiro, M. M. et al. 2015. Spatial patterns of mammal occurrence in forest strips surrounded by agricultural crops of the Chaco region, Argentina. -Biol. Conserv. 187: 19-26.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Incorporating explicit geospatial data shows more species at risk of extinction than the current Red List",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Ocampo-Pe\u00f1uela",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Sci. Adv",
+                "volume": "2",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ocampo-Pe\u00f1uela, N. et al. 2016. Incorporating explicit geospatial data shows more species at risk of extinction than the current Red List. -Sci. Adv. 2: e1601367.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Habitat metrics based on multi-temporal Landsat imagery for mapping large mammal habitat. -Remote Sens",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Oeser",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "Ecol. Conserv",
+                "volume": "6",
+                "issue": "",
+                "pages": "52--69",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Oeser, J. et al. 2019. Habitat metrics based on multi-temporal Landsat imagery for mapping large mammal habitat. -Remote Sens. Ecol. Conserv. 6: 52-69.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Terrestrial ecoregions of the world: a new map of life on earth",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Olson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "BioScience",
+                "volume": "51",
+                "issue": "",
+                "pages": "933--938",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Olson, D. M. et al. 2001. Terrestrial ecoregions of the world: a new map of life on earth. -BioScience 51: 933-938.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Modelling species distributions in Britain: a hierarchical integration of climate and land-cover data",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Pearson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Ecography",
+                "volume": "27",
+                "issue": "",
+                "pages": "285--298",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pearson, R. G. et al. 2004. Modelling species distributions in Brit- ain: a hierarchical integration of climate and land-cover data. -Ecography 27: 285-298.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Synergistic effects of subsistence hunting and habitat fragmentation on Amazonian forest vertebrates",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Peres",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Conserv. Biol",
+                "volume": "15",
+                "issue": "",
+                "pages": "1490--1505",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Peres, C. A. 2001. Synergistic effects of subsistence hunting and habitat fragmentation on Amazonian forest vertebrates. -Conserv. Biol. 15: 1490-1505.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Detecting anthropogenic disturbance in tropical forests",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Peres",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Trends Ecol. Evol",
+                "volume": "21",
+                "issue": "",
+                "pages": "227--229",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Peres, C. A. et al. 2006. Detecting anthropogenic disturbance in tropical forests. -Trends Ecol. Evol. 21: 227-229.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Dispersal limitation induces long-term biomass collapse in overhunted Amazonian forests",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Peres",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Proc. Natl Acad. Sci",
+                "volume": "113",
+                "issue": "",
+                "pages": "892--897",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Peres, C. A. et al. 2016. Dispersal limitation induces long-term biomass collapse in overhunted Amazonian forests. -Proc. Natl Acad. Sci. USA 113: 892-897.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Loss of mammalian species from the South American Gran Chaco: empty savanna syndrome? -Mammal Rev",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Periago",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "",
+                "volume": "45",
+                "issue": "",
+                "pages": "41--53",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Periago, M. E. et al. 2014. Loss of mammalian species from the South American Gran Chaco: empty savanna syndrome? -Mammal Rev. 45: 41-53.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Opening the black box: an open-source release of Maxent",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Phillips",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Ecography",
+                "volume": "40",
+                "issue": "",
+                "pages": "887--893",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Phillips, S. et al. 2017. Opening the black box: an open-source release of Maxent. -Ecography 40: 887-893.",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Effects of past and future land conversions on forest connectivity in the Argentine Chaco. -Landscape Ecol",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Piquer-Rodr\u00edguez",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "",
+                "volume": "30",
+                "issue": "",
+                "pages": "817--833",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Piquer-Rodr\u00edguez, M. et al. 2015. Effects of past and future land conversions on forest connectivity in the Argentine Chaco. -Landscape Ecol. 30: 817-833.",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "What is the Gran Chaco vegetation in South America? I. A review. Contribution to the study of flora and vegetation of the Chaco",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Prado",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Candollea",
+                "volume": "48",
+                "issue": "",
+                "pages": "145--172",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Prado, D. E. 1993. What is the Gran Chaco vegetation in South America? I. A review. Contribution to the study of flora and vegetation of the Chaco. -V. Candollea 48: 145-172.",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "Conservation planning in a changing world",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Pressey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Trends Ecol. Evol",
+                "volume": "22",
+                "issue": "",
+                "pages": "583--592",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pressey, R. L. et al. 2007. Conservation planning in a changing world. -Trends Ecol. Evol. 22: 583-592.",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "Puma density, habitat use and conflict with humans in the Argentine Chaco",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Quiroga",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "J. Nat. Conserv",
+                "volume": "31",
+                "issue": "",
+                "pages": "9--15",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Quiroga, V. A. et al. 2016. Puma density, habitat use and conflict with humans in the Argentine Chaco. -J. Nat. Conserv. 31: 9-15.",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "Indigenous lands, protected areas and slowing climate change",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Ricketts",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "PLoS Biol",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ricketts, T. H. et al. 2010. Indigenous lands, protected areas and slowing climate change. -PLoS Biol. 8: e1000331.",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Fires scorching Bolivia's Chiquitano forest",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Romero-Mu\u00f1oz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "Science",
+                "volume": "366",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Romero-Mu\u00f1oz, A. et al. 2019a. Fires scorching Bolivia's Chiqui- tano forest. -Science 366: 1082.",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Habitat loss and overhunting synergistically drive the extirpation of jaguars from the Gran Chaco",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Romero-Mu\u00f1oz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "Divers. Distrib",
+                "volume": "25",
+                "issue": "",
+                "pages": "176--190",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Romero-Mu\u00f1oz, A. et al. 2019b. Habitat loss and overhunting syn- ergistically drive the extirpation of jaguars from the Gran Chaco. -Divers. Distrib. 25: 176-190.",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "Data from: Increasing synergistic effects of habitat destruction and hunting on mammals over three decades in the Gran Chaco. -Dryad Digital Repository",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Romero-Mu\u00f1oz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2020,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.5061/dryad.wm37pvmjg>"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Romero-Mu\u00f1oz, A. et al. 2020. Data from: Increasing synergistic effects of habitat destruction and hunting on mammals over three decades in the Gran Chaco. -Dryad Digital Repository, <https://doi.org/10.5061/dryad.wm37pvmjg>.",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "Mapping extinction debt highlights conservation opportunities for birds and mammals in the South American Chaco",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Semper-Pascual",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "J. Appl. Ecol",
+                "volume": "55",
+                "issue": "",
+                "pages": "1218--1229",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Semper-Pascual, A. et al. 2018. Mapping extinction debt highlights conservation opportunities for birds and mammals in the South American Chaco. -J. Appl. Ecol. 55: 1218-1229.",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "Biodiversity loss in deforestation frontiers: linking occupancy modelling and physiological stress indicators to understand local extinctions",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Semper-Pascual",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "Biol. Conserv",
+                "volume": "236",
+                "issue": "",
+                "pages": "281--288",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Semper-Pascual, A. et al. 2019. Biodiversity loss in deforestation frontiers: linking occupancy modelling and physiological stress indicators to understand local extinctions. -Biol. Conserv. 236: 281-288.",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "Post-Soviet land-use change effects on large mammals' habitat in European Russia",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Sieber",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Biol. Conserv",
+                "volume": "191",
+                "issue": "",
+                "pages": "567--576",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sieber, A. et al. 2015. Post-Soviet land-use change effects on large mammals' habitat in European Russia. -Biol. Conserv. 191: 567-576.",
+                "links": null
+            },
+            "BIBREF64": {
+                "ref_id": "b64",
+                "title": "Global land change from 1982 to 2016",
+                "authors": [
+                    {
+                        "first": "X.-P",
+                        "middle": [],
+                        "last": "Song",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Nature",
+                "volume": "560",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Song, X.-P. et al. 2018. Global land change from 1982 to 2016. -Nature 560: 639.",
+                "links": null
+            },
+            "BIBREF65": {
+                "ref_id": "b65",
+                "title": "Combined impacts of deforestation and wildlife trade on tropical biodiversity are severely underestimated",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Symes",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Nat. Commun",
+                "volume": "9",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Symes, W. S. et al. 2018. Combined impacts of deforestation and wildlife trade on tropical biodiversity are severely underesti- mated. -Nat. Commun. 9: 4052.",
+                "links": null
+            },
+            "BIBREF66": {
+                "ref_id": "b66",
+                "title": "Evaluaci\u00f3n ecorregional del Gran Chaco Americano",
+                "authors": [
+                    {
+                        "first": "Fvs",
+                        "middle": [],
+                        "last": "Tnc",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Fdsc",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "TNC, FVS, FDSC, WCS 2005. Evaluaci\u00f3n ecorregional del Gran Chaco Americano. -Fundaci\u00f3n Vida Silvestre Argentina, Buenos Aires.",
+                "links": null
+            },
+            "BIBREF67": {
+                "ref_id": "b67",
+                "title": "Land-use and land-cover effects on regional biodiversity distribution in a subtropical dry forest: a hierarchical integrative multi-taxa study",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Torres",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Region. Environ. Change",
+                "volume": "14",
+                "issue": "",
+                "pages": "1549--1561",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Torres, R. et al. 2014. Land-use and land-cover effects on regional biodiversity distribution in a subtropical dry forest: a hierarchi- cal integrative multi-taxa study. -Region. Environ. Change 14: 1549-1561.",
+                "links": null
+            },
+            "BIBREF68": {
+                "ref_id": "b68",
+                "title": "Why do we map threats? Linking threat mapping with actions to make better conservation decisions",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Tulloch",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Front. Ecol. Environ",
+                "volume": "13",
+                "issue": "",
+                "pages": "91--99",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tulloch, V. J. et al. 2015. Why do we map threats? Linking threat mapping with actions to make better conservation decisions. -Front. Ecol. Environ. 13: 91-99.",
+                "links": null
+            },
+            "BIBREF69": {
+                "ref_id": "b69",
+                "title": "Measuring and incorporating vulnerability into conservation planning",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Wilson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Environ. Manage",
+                "volume": "35",
+                "issue": "",
+                "pages": "527--543",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wilson, K. et al. 2005. Measuring and incorporating vulnerabil- ity into conservation planning. -Environ. Manage. 35: 527-543.",
+                "links": null
+            },
+            "BIBREF70": {
+                "ref_id": "b70",
+                "title": "Conserving biodiversity efficiently: what to do, where and when",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "WWF 2015. Living forests report: saving forests at risk. -WWF",
+                "volume": "5",
+                "issue": "",
+                "pages": "1850--1861",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wilson, K. A. et al. 2007. Conserving biodiversity efficiently: what to do, where and when. -PLoS Biol. 5: 1850-1861. WWF 2015. Living forests report: saving forests at risk. -WWF, Gland, Switzerland.",
+                "links": null
+            },
+            "BIBREF71": {
+                "ref_id": "b71",
+                "title": "Supplementary material (available online as Appendix ecog-05053 at < www.ecography.org/appendix/ecog-05053 >)",
+                "authors": [],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Supplementary material (available online as Appendix ecog- 05053 at < www.ecography.org/appendix/ecog-05053 >).",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF1": {
+                "text": "Spatial footprints of habitat destruction and hunting pressure in the Chaco for 48 larger mammals. Number of species affected by habitat destruction (A) and hunting pressure (C) in 2015. Change in species numbers affected by habitat destruction (B) and hunting pressure (D) between 1985 and 2015.",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF2": {
+                "text": "Expansion in the footprints of habitat destruction and hunting pressure for 48 Chacoan mammals between 1985 and 2015 (as a percentage of their range in 1985). (A) Change in the footprints of habitat destruction versus that of hunting pressure (see Supplementary material Appendix 1 Fig. A5 for all species' names). Positive values indicate an expansion and negative values a contraction of threat footprints. Dashed lines indicate averages across all mammals. (B) Relative change from 1985 to 2015 for each threat footprint across the three Chaco countries.",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF3": {
+                "text": "Numbers of species (in 10% quantiles) affected by poor habitat (blue gradient), high hunting pressure (yellow gradient) or both (grey-to-purple gradient) in 1985 and 2015, for a total of 48 larger mammals. Thick lines represent country limits whereas thin lines denote protected areas in the Chaco.",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF4": {
+                "text": "Relative changes in the footprints of poor habitat and hunting pressure, and areas where both threats acted simultaneously, between 1985 and 2015 in the Chaco.",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            }
+        }
+    }
+}

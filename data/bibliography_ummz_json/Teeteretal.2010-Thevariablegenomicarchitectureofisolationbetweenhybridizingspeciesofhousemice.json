@@ -1,0 +1,4247 @@
+{
+    "paper_id": "Teeteretal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:34:09.037097Z"
+    },
+    "title": "THE VARIABLE GENOMIC ARCHITECTURE OF ISOLATION BETWEEN HYBRIDIZING SPECIES OF HOUSE MICE",
+    "authors": [
+        {
+            "first": "Katherine",
+            "middle": [
+                "C"
+            ],
+            "last": "Teeter",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Michigan",
+                "location": {
+                    "postCode": "48109",
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan"
+                }
+            },
+            "email": "kteeter@nmu.edu"
+        },
+        {
+            "first": "Lisa",
+            "middle": [
+                "M"
+            ],
+            "last": "Thibodeau",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Michigan",
+                "location": {
+                    "postCode": "48109",
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Zachariah",
+            "middle": [],
+            "last": "Gompert",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Wyoming",
+                "location": {
+                    "postCode": "82071",
+                    "settlement": "Laramie, Wyoming"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "C",
+            "middle": [
+                "Alex"
+            ],
+            "last": "Buerkle",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Wyoming",
+                "location": {
+                    "postCode": "82071",
+                    "settlement": "Laramie, Wyoming"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Michael",
+            "middle": [
+                "W"
+            ],
+            "last": "Nachman",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Arizona",
+                "location": {
+                    "postCode": "85721",
+                    "settlement": "Tucson",
+                    "region": "Arizona"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Priscilla",
+            "middle": [
+                "K"
+            ],
+            "last": "Tucker",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Michigan",
+                "location": {
+                    "postCode": "48109",
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Studies of the genetics of hybrid zones can provide insight into the genomic architecture of species boundaries. By examining patterns of introgression of multiple loci across a hybrid zone, it may be possible to identify regions of the genome that have experienced selection. Here, we present a comparison of introgression in two replicate transects through the house mouse hybrid zone through central Europe, using data from 41 single nucleotide markers. Using both genomic and geographic clines, we found many differences in patterns of introgression between the two transects, as well as some similarities. We found that many loci may have experienced the effects of selection at linked sites, including selection against hybrid genotypes, as well as positive selection in the form of genotypes introgressed into a foreign genetic background. We also found many positive associations of conspecific alleles among unlinked markers, which could be caused by epistatic interactions. Different patterns of introgression in the two transects highlight the challenge of using hybrid zones to identify genes underlying isolation and raise the possibility that the genetic basis of isolation between these species may be dependent on the local population genetic make-up or the local ecological setting.",
+    "pdf_parse": {
+        "paper_id": "Teeteretal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Studies of the genetics of hybrid zones can provide insight into the genomic architecture of species boundaries. By examining patterns of introgression of multiple loci across a hybrid zone, it may be possible to identify regions of the genome that have experienced selection. Here, we present a comparison of introgression in two replicate transects through the house mouse hybrid zone through central Europe, using data from 41 single nucleotide markers. Using both genomic and geographic clines, we found many differences in patterns of introgression between the two transects, as well as some similarities. We found that many loci may have experienced the effects of selection at linked sites, including selection against hybrid genotypes, as well as positive selection in the form of genotypes introgressed into a foreign genetic background. We also found many positive associations of conspecific alleles among unlinked markers, which could be caused by epistatic interactions. Different patterns of introgression in the two transects highlight the challenge of using hybrid zones to identify genes underlying isolation and raise the possibility that the genetic basis of isolation between these species may be dependent on the local population genetic make-up or the local ecological setting.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "In hybrid organisms, the products of meiotic recombination and segregation provide an opportunity to measure the contribution of different genomic regions to reproductive isolation. The fitness effects of individual chromosomal regions define their fate in a population of hybrids, and comparative analysis across the genome allows mapping of the genetic components of isolation between species (Rieseberg et al. 1999; Buerkle and Lexer 2008; Gompert and Buerkle 2009a) . By parsing the effects of differ-ent genomic regions on isolation between taxa, the evolutionary processes and histories that lead to speciation can be revealed.",
+                "cite_spans": [
+                    {
+                        "start": 395,
+                        "end": 418,
+                        "text": "(Rieseberg et al. 1999;",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 419,
+                        "end": 442,
+                        "text": "Buerkle and Lexer 2008;",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 443,
+                        "end": 469,
+                        "text": "Gompert and Buerkle 2009a)",
+                        "ref_id": "BIBREF21"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "In many cases, hybrid zones contain organisms that are the result of multiple generations of recombination, and the genetic architecture of isolation may be complex. Fitness variation associated with particular chromosomal blocks in hybrids can promote introgression, can enhance barriers to gene flow, or can be negligible and not associated with isolation between species. Furthermore, the genetic architecture of isolation between two taxa may vary spatially. Across sites of contact and hybridization between species, there may be environmental and ecological variation or genetic variation for factors that contribute to isolation. A study that compares the genetic architecture of isolation at multiple points of geographic contact between hybridizing species can identify variable and consistent aspects of the architecture and, in so doing, will point the way toward a more complete characterization of the individual genetic components and their historical contribution to speciation.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Previous hybrid zone studies have considered the similarity of isolating barriers among geographic locales and among individuals. Researchers have compared clines along replicate spatial transects (Szymura and Barton 1991 ; Barton and Gale 1993; Morgan-Richards and Wallis 2003; Bozikova et al. 2005; Yanchukov et al. 2006; Nolte et al. 2009 ) and compared the composition of multiple hybrid populations (Buerkle and Rieseberg 2001; Aldridge 2005; Borge et al. 2005) . Among these studies, there is a range of concordance in clines and hybrid composition between different samples from the same hybrid zone, indicating that it is difficult to make generalizations about hybrid zone dynamics. Moreover, laboratory studies of hybridization have provided evidence for polymorphism for reproductive isolation (e.g., Chorthippus, Shuker et al. 2005 ; Drosophila, Reed and Markow 2004; Kopp and Frank 2005; Helianthus, Rieseberg 2000; Mimulus, Sweigart et al. 2007; Mus, Vyskocilova et al. 2005; Good et al. 2008b; Tribolium, Wade et al. 1997) .",
+                "cite_spans": [
+                    {
+                        "start": 197,
+                        "end": 221,
+                        "text": "(Szymura and Barton 1991",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 224,
+                        "end": 245,
+                        "text": "Barton and Gale 1993;",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 246,
+                        "end": 278,
+                        "text": "Morgan-Richards and Wallis 2003;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 279,
+                        "end": 300,
+                        "text": "Bozikova et al. 2005;",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 301,
+                        "end": 323,
+                        "text": "Yanchukov et al. 2006;",
+                        "ref_id": "BIBREF65"
+                    },
+                    {
+                        "start": 324,
+                        "end": 341,
+                        "text": "Nolte et al. 2009",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 404,
+                        "end": 432,
+                        "text": "(Buerkle and Rieseberg 2001;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 433,
+                        "end": 447,
+                        "text": "Aldridge 2005;",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 448,
+                        "end": 466,
+                        "text": "Borge et al. 2005)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 825,
+                        "end": 843,
+                        "text": "Shuker et al. 2005",
+                        "ref_id": "BIBREF49"
+                    },
+                    {
+                        "start": 858,
+                        "end": 879,
+                        "text": "Reed and Markow 2004;",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 880,
+                        "end": 900,
+                        "text": "Kopp and Frank 2005;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 901,
+                        "end": 928,
+                        "text": "Helianthus, Rieseberg 2000;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 929,
+                        "end": 959,
+                        "text": "Mimulus, Sweigart et al. 2007;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 960,
+                        "end": 989,
+                        "text": "Mus, Vyskocilova et al. 2005;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 990,
+                        "end": 1008,
+                        "text": "Good et al. 2008b;",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1009,
+                        "end": 1037,
+                        "text": "Tribolium, Wade et al. 1997)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "A recently developed method for characterizing introgression between species' genomes provides a statistical framework to compare the architecture of isolation between multiple sampling locations in hybrid zones (Gompert and Buerkle 2009a) . This genomic clines method examines introgression between genomes, rather than the more traditional approach of fitting geographic clines in population allele frequencies. The estimated genomic clines are multinomial regression functions for the genotypes of individuals as a function of their ancestry at all loci. The functions for multiple hybrid populations are compared on the basis of their likelihoods given a focal set of data. In this article, we use the genomic clines approach, in addition to geographic clines (Barton and Hewitt 1985) , to make a formal comparison of introgression in two transects across the house mouse hybrid zone in Central Europe.",
+                "cite_spans": [
+                    {
+                        "start": 212,
+                        "end": 239,
+                        "text": "(Gompert and Buerkle 2009a)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 764,
+                        "end": 788,
+                        "text": "(Barton and Hewitt 1985)",
+                        "ref_id": "BIBREF3"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "The house mouse species Mus domesticus and M. musculus hybridize in a narrow hybrid zone that runs roughly north-south through Europe, from Denmark to Bulgaria. This zone represents secondary contact between these species, and the zone may be as young as one or two thousand years, and possibly less (Cucchi et al. 2005) . Mus domesticus and M. musculus in central Europe can be easily distinguished morphologically based on coat color, tail length, and craniofacial shape (Macholan 1996) . There is some evidence for weak conspecific mate preference (Laukaitis et al. 1997; Smadja and Ganem 2002; Smadja et al. 2004; Bimova et al. 2005) , and some crosses between M. musculus and M. domesticus yield sterile male offspring, although the extent of sterility depends on which individuals are used for the crosses (Forejt and Ivanyi 1975; Storchova et al. 2004; Britton-Davidian et al. 2005; Vyskocilova et al. 2005; Good et al. 2008b) . Hybrid mice have much higher loads of intestinal parasites than either of the parental species (Sage et al. 1986a; Moulia et al. 1993 Moulia et al. , 1995 Derothe et al. 2001) . This, in addition to the hybrid sterility found in some crosses between M. musculus and M. domesticus, indicates that fitness of some hybrids is reduced relative to parental M. domesticus and M. musculus.",
+                "cite_spans": [
+                    {
+                        "start": 300,
+                        "end": 320,
+                        "text": "(Cucchi et al. 2005)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 473,
+                        "end": 488,
+                        "text": "(Macholan 1996)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 551,
+                        "end": 574,
+                        "text": "(Laukaitis et al. 1997;",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 575,
+                        "end": 597,
+                        "text": "Smadja and Ganem 2002;",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 598,
+                        "end": 617,
+                        "text": "Smadja et al. 2004;",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 618,
+                        "end": 637,
+                        "text": "Bimova et al. 2005)",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 812,
+                        "end": 836,
+                        "text": "(Forejt and Ivanyi 1975;",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 837,
+                        "end": 859,
+                        "text": "Storchova et al. 2004;",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 860,
+                        "end": 889,
+                        "text": "Britton-Davidian et al. 2005;",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 890,
+                        "end": 914,
+                        "text": "Vyskocilova et al. 2005;",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 915,
+                        "end": 933,
+                        "text": "Good et al. 2008b)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1031,
+                        "end": 1050,
+                        "text": "(Sage et al. 1986a;",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 1051,
+                        "end": 1069,
+                        "text": "Moulia et al. 1993",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 1070,
+                        "end": 1090,
+                        "text": "Moulia et al. , 1995",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 1091,
+                        "end": 1111,
+                        "text": "Derothe et al. 2001)",
+                        "ref_id": "BIBREF14"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Although many studies of this hybrid zone have been conducted (Hunt and Selander 1973; Sage et al. 1986b; Vanlerberghe et al. 1986 Vanlerberghe et al. , 1988a Tucker et al. 1992; Fel-Clair et al. 1996; Orth et al. 1996; Boissinot and Boursot 1997; Prager et al. 1997; Munclinger et al. 2002; Payseur et al. 2004; Bozikova et al. 2005; Raufaste et al. 2005; Macholan et al. 2007; Teeter et al. 2008) , none have compared different transects for the same set of nuclear markers. Here, we compare a previously established transect across Bavaria (Tucker et al. 1992; Payseur et al. 2004; Teeter et al. 2008 ) and a newly established transect 300 km to the north using the same 41 (38 autosomal and three X-linked) single nucleotide polymorphism (SNP) markers. We use the genomic clines method to detect marker-specific patterns of introgression that deviate from neutral expectations, and to compare these patterns of introgression between transects through the hybrid zone. We also compare the genomic clines with the traditional approach of fitting \"geographic\" clines to population allele frequencies (Barton and Hewitt 1985; Barton and Gale 1993) . Finally, we examine pairwise associations between loci. Our results reveal remarkable genomic and geographic complexity in patterns of introgression between species of house mice.",
+                "cite_spans": [
+                    {
+                        "start": 62,
+                        "end": 86,
+                        "text": "(Hunt and Selander 1973;",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 87,
+                        "end": 105,
+                        "text": "Sage et al. 1986b;",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 106,
+                        "end": 130,
+                        "text": "Vanlerberghe et al. 1986",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 131,
+                        "end": 158,
+                        "text": "Vanlerberghe et al. , 1988a",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 159,
+                        "end": 178,
+                        "text": "Tucker et al. 1992;",
+                        "ref_id": "BIBREF58"
+                    },
+                    {
+                        "start": 179,
+                        "end": 201,
+                        "text": "Fel-Clair et al. 1996;",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 202,
+                        "end": 219,
+                        "text": "Orth et al. 1996;",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 220,
+                        "end": 247,
+                        "text": "Boissinot and Boursot 1997;",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 248,
+                        "end": 267,
+                        "text": "Prager et al. 1997;",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 268,
+                        "end": 291,
+                        "text": "Munclinger et al. 2002;",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 292,
+                        "end": 312,
+                        "text": "Payseur et al. 2004;",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 313,
+                        "end": 334,
+                        "text": "Bozikova et al. 2005;",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 335,
+                        "end": 356,
+                        "text": "Raufaste et al. 2005;",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 357,
+                        "end": 378,
+                        "text": "Macholan et al. 2007;",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 379,
+                        "end": 398,
+                        "text": "Teeter et al. 2008)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 543,
+                        "end": 563,
+                        "text": "(Tucker et al. 1992;",
+                        "ref_id": "BIBREF58"
+                    },
+                    {
+                        "start": 564,
+                        "end": 584,
+                        "text": "Payseur et al. 2004;",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 585,
+                        "end": 603,
+                        "text": "Teeter et al. 2008",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 1101,
+                        "end": 1125,
+                        "text": "(Barton and Hewitt 1985;",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 1126,
+                        "end": 1147,
+                        "text": "Barton and Gale 1993)",
+                        "ref_id": "BIBREF2"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Mice used in this study were collected from two transects through the M. musculus \u00d7 M. domesticus hybrid zone in central Europe. The southern transect is located in the German state of Bavaria and western Austria, referred to here as the Bavarian transect, and has been reported previously (Payseur et al. 2004; Bozikova et al. 2005; Teeter et al. 2008) . The northern transect is located in the German states of Thuringia, Saxony-Anhalt and Saxony (referred to here as the Saxon transect). Collection for this transect was performed by K.C. Teeter in 2001 Teeter in -2003 , and a total of 322 Mus were collected from this transect (Table 1) . In both transects, sampling was performed in a roughly linear, east-west manner. Transect distances (in kilometers) were calculated from the western end of the transect. The location of the hybrid zone, the two transects, and collecting localities for the Saxon mice are shown Figure 1 . All mice were commensal (collected in or near human dwellings).",
+                "cite_spans": [
+                    {
+                        "start": 290,
+                        "end": 311,
+                        "text": "(Payseur et al. 2004;",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 312,
+                        "end": 333,
+                        "text": "Bozikova et al. 2005;",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 334,
+                        "end": 353,
+                        "text": "Teeter et al. 2008)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 542,
+                        "end": 556,
+                        "text": "Teeter in 2001",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 557,
+                        "end": 572,
+                        "text": "Teeter in -2003",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 632,
+                        "end": 641,
+                        "text": "(Table 1)",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 921,
+                        "end": 929,
+                        "text": "Figure 1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "SAMPLING",
+                "sec_num": null
+            },
+            {
+                "text": "DNA extraction was performed on frozen spleen or kidney tissues. All extractions for the Bavarian transect, and a subset of those for the Saxon transect, were done using standard Protinase K/phenolchloroform extractions. For some of the samples from the Saxon transect, a MasterPure TM DNA Purification Kit, manufactured by Epicentre Biotechnologies (Madison, WI), was used. ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DNA EXTRACTION",
+                "sec_num": null
+            },
+            {
+                "text": "Thirty-eight autosomal markers identified from the mouse SNP database were previously determined to be diagnostic for M. domesticus and M. musculus using a panel of 10 allopatric M. domesticus and M. musculus (Teeter et al. 2008) . Markers were named so that an integer gives the chromosome number, and the decimal gives the approximate physical location of the marker in megabases (Mb) along the chromosome, e.g., marker 1.014 is on chromosome 1, at 14 Mb (Table 2) . Exact marker locations are as in Teeter et al. (2008) . All genotyping for samples from the Saxon transect was performed at the University of Michigan. One marker on chromosome 10 (10.055) scored in the Bavarian transect, failed to amplify in mice from the Saxon transect, and was not included in this study. For the Bavarian transect, oddnumbered markers were scored at the University of Michigan, and even-numbered markers at the University of Arizona (Teeter et al. 2008) . Genotyping for autosomal markers was completed using TaqMan probes and chemistry from Applied Biosystems (Foster City, CA). Genotyping for three X-linked markers, Emd, PolaI, and Xist was completed with PCR-RFLP methods, following Payseur et al. (2004) .",
+                "cite_spans": [
+                    {
+                        "start": 209,
+                        "end": 229,
+                        "text": "(Teeter et al. 2008)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 502,
+                        "end": 522,
+                        "text": "Teeter et al. (2008)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 923,
+                        "end": 943,
+                        "text": "(Teeter et al. 2008)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 1177,
+                        "end": 1198,
+                        "text": "Payseur et al. (2004)",
+                        "ref_id": "BIBREF40"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 457,
+                        "end": 466,
+                        "text": "(Table 2)",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "DEVELOPMENT AND SCORING OF MOLECULAR MARKERS",
+                "sec_num": null
+            },
+            {
+                "text": "We summarized the ancestry of individual mice with a hybrid index, which is simply the fraction of alleles at the 38 autosomal loci that were inherited from M. musculus. This summary of genome-wide admixture in individuals was used to predict the probabilities of observing each of the three possible genotypes at focal loci, which are referred to as genomic clines (Gompert and Buerkle 2009a) . The clines were estimated using multinomial regression of the observed genotypes on hybrid index. To identify loci that do not conform to expectations of neutral introgression, the likelihoods of the regression model and of a neutral model (both given the observed data) can be compared. We used a permutation procedure to simulate neutral introgression (Gompert and Buerkle 2009a) , which is based on the logic that all loci should be exchangeable under neutrality and appropriately retains the overall structure of the sampled population, as well as accounting for stochastic variation among loci that would result from genetic drift. We summarized deviations from neutrality on the basis of: (1) whether homozygotes (M. musculus or M. domesticus) were more or less common than expected under neutrality, which corresponds to expectations under positive or negative selection, and (2) whether heterozygotes were more or less common than expected under neutrality, which corresponds to expectations of over-and under-dominance (as in Nolte et al. 2009) . Additionally, we searched for evidence of pairwise associations between alleles at different loci, which might be caused by epistasis, by adding the genotype at a potentially interacting locus to a regression model and determining whether this information improved the fit of the model (using AIC; in the basic regression model, the other predictors of genotype at the focal locus were hybrid index, and genome-wide heterozygosity).",
+                "cite_spans": [
+                    {
+                        "start": 366,
+                        "end": 393,
+                        "text": "(Gompert and Buerkle 2009a)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 750,
+                        "end": 777,
+                        "text": "(Gompert and Buerkle 2009a)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 1431,
+                        "end": 1449,
+                        "text": "Nolte et al. 2009)",
+                        "ref_id": "BIBREF36"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GENOMIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "To quantify differences in the genomic clines from the two transects through the mouse hybrid zone, we used a ratio of the likelihoods of the genomic clines (models), given the data from one of the transects (ln",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GENOMIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "L(M Sax | D Sax )/L(M Bav | D Sax )).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GENOMIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "The null distribution of the likelihood ratios was determined by 1000 replicate simulations in which individuals were permuted between transects.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GENOMIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "All analyses associated with genomic clines were performed using the R package INTROGRESS (Gompert and Buerkle 2009b) and additional functions written by the authors. Significance thresholds for genomic clines analyses, including tests for genotype-specific deviations, were adjusted using the false discovery rate procedure (Benjamini and Hochberg 1995) .",
+                "cite_spans": [
+                    {
+                        "start": 90,
+                        "end": 117,
+                        "text": "(Gompert and Buerkle 2009b)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 325,
+                        "end": 354,
+                        "text": "(Benjamini and Hochberg 1995)",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GENOMIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "The shape of geographic clines was estimated individually for each marker using a two-parameter model and the software Clin-eFit (Porter et al. 1997) . The simple two-parameter model of cline shape uses cline center and width to describe the cline shape along the length of the transect and was used as in Teeter et al. (2008) . The two-parameter model was chosen rather than the more complex six-parameter models for clines (Barton and Hewitt 1985; Barton and Bengtsson 1986; Barton and Gale 1993) , because the likelihood surface for the more complex model can be very flat and uninformative, and optima can be difficult to find (results not shown; Raufaste et al. 2005; Macholan et al. 2007) .",
+                "cite_spans": [
+                    {
+                        "start": 129,
+                        "end": 149,
+                        "text": "(Porter et al. 1997)",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 306,
+                        "end": 326,
+                        "text": "Teeter et al. (2008)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 425,
+                        "end": 449,
+                        "text": "(Barton and Hewitt 1985;",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 450,
+                        "end": 476,
+                        "text": "Barton and Bengtsson 1986;",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 477,
+                        "end": 498,
+                        "text": "Barton and Gale 1993)",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 651,
+                        "end": 672,
+                        "text": "Raufaste et al. 2005;",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 673,
+                        "end": 694,
+                        "text": "Macholan et al. 2007)",
+                        "ref_id": "BIBREF28"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GEOGRAPHIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "The data for the X chromosome markers from the Bavarian transect are from Payseur et al. (2004) . In the Payseur paper, these markers were analyzed using six-parameter models, whereas here we have used two-parameter cline models to compare data from the two transects. These models return wider cline widths compared to the six-parameter models.",
+                "cite_spans": [
+                    {
+                        "start": 74,
+                        "end": 95,
+                        "text": "Payseur et al. (2004)",
+                        "ref_id": "BIBREF40"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GEOGRAPHIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "Spearman nonparametric rank correlation tests were used to detect correlations between cline widths and centers for each marker. Correlation tests were also used to evaluate similarity in cline shape between the Saxon transect and the Bavarian transect (Teeter et al. 2008) , by comparing cline widths and centers in each transect. These tests were performed in SPSS 11.0 for Macintosh OS X.",
+                "cite_spans": [
+                    {
+                        "start": 253,
+                        "end": 273,
+                        "text": "(Teeter et al. 2008)",
+                        "ref_id": "BIBREF57"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GEOGRAPHIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "Thirty-eight autosomal markers and three X-linked markers were scored in mice from both hybrid zone transects (Teeter et al. 2008 ; Table S1 ). Hybrid indices for all samples plotted against interspecific heterozygosity ( Fig. 2A ) indicated that the sampling from the two transects does not result in the same distributions of genomic admixture, with a nearly continuous distribution of hybrids in the Bavaria transect and few intermediate hybrids in Continued. the Saxony transect. Hybrid indices for all samples plotted against distance from the western-most locality showed roughly similar patterns between transects, with populations on the M. musculus side of the hybrid zone having a greater variance of hybrid indexes among individuals ( Fig. 2B; Fig. S1 ).",
+                "cite_spans": [
+                    {
+                        "start": 110,
+                        "end": 129,
+                        "text": "(Teeter et al. 2008",
+                        "ref_id": "BIBREF57"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 132,
+                        "end": 140,
+                        "text": "Table S1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 222,
+                        "end": 229,
+                        "text": "Fig. 2A",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 746,
+                        "end": 762,
+                        "text": "Fig. 2B; Fig. S1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "GENOTYPING",
+                "sec_num": null
+            },
+            {
+                "text": "There was extensive heterogeneity among loci in the patterns of introgression between species, which was visually evident in the raw data ( Fig. 3 ) and in the fitted genomic clines (Fig. 4 ). There was also statistical evidence for heterogeneity among loci, in the form of significant deviations from neutrality (based on exchangeability of loci) for the majority of markers (Table 2) . Deviations from neutrality included loci with excess introgression into the genomic background of each species (e.g., excess M. musculus in M. domesticus background: 1.159 and 3.007 in Bavaria, and excess M. domesticus in M. musculus background: 12.031 (Bavaria) and 17.091 (Bavaria and Saxony); Fig. S2 ) and a few loci that exhibited patterns of introgression that were consistent with under-dominance (Emd and Pola1). In addition to variation among loci, the genomic clines from the two transects were significantly different for 28 of the 41 loci (Table 2 ). Equivalent differences between transects were observed even if the analysis involved only individuals from the Bavaria transect with hybrid indexes that fell within the distribution of hybrid indexes in the Saxony transect.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 140,
+                        "end": 146,
+                        "text": "Fig. 3",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 182,
+                        "end": 189,
+                        "text": "(Fig. 4",
+                        "ref_id": "FIGREF5"
+                    },
+                    {
+                        "start": 376,
+                        "end": 385,
+                        "text": "(Table 2)",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 684,
+                        "end": 691,
+                        "text": "Fig. S2",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 939,
+                        "end": 947,
+                        "text": "(Table 2",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "GENOMIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "The Bavaria transect offered stronger evidence for nonrandom associations between loci than did the Saxony transect (Fig. S3) . This was likely due to the difference in distribution of hybrid index values in the two transects. Within the Bavaria transect, there were many nonrandom associations between loci (Fig. S3) , and 98.8% of all pairwise associations between loci involved alleles derived from the same species, as evidenced by a consistently positive sign of the regression coefficient for the predictor locus. Importantly, these associations exist after accounting for ancestry through hybrid index and for genome-wide heterozygosity.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 116,
+                        "end": 125,
+                        "text": "(Fig. S3)",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 308,
+                        "end": 317,
+                        "text": "(Fig. S3)",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "ASSOCIATIONS BETWEEN ALLELES AT DIFFERENT LOCI",
+                "sec_num": null
+            },
+            {
+                "text": "Estimates of cline width for the Saxon transect ranged from 13.8 to 120 km, and estimates of the cline center ranged from 73.3 to 163.7 km along the transect (Table 2, Table S2 ). The mean cline center from these models for the Saxon transect was located at 114.9 km along the transect, and the mean cline width was 50.2 km. The positions of the cline width and the cline center from the two-parameter model estimates of autosomal markers were found to have a strong positive correlation in both transects (Bavaria: Spearman's \u03c1 = 0.618, P < 0.001, Saxony: Spearman's \u03c1 = 0.812, P < 0.001) ( Fig. S4) , indicating that the wider clines had centers shifted toward the eastern end of the transects. The 13.029 marker had an estimated cline width of 341.8 km in Bavaria, longer than the actual transect, and therefore it was excluded from these analyses as an outlier. The positions of the cline centers from the two-parameter model estimates of autosomal markers were significantly correlated between the two transects (Spearman's \u03c1 = 0.458, P = 0.003), as were the cline widths (Spearman's \u03c1 = 0.371, P = 0.018), indicating that markers show some similarity between geographic clines in both transects. Although there was variation in cline width between the two transects for many markers, there is a set of markers that have narrow cline widths (low introgression) in both transects (Fig. 5) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 158,
+                        "end": 176,
+                        "text": "(Table 2, Table S2",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 592,
+                        "end": 600,
+                        "text": "Fig. S4)",
+                        "ref_id": "FIGREF5"
+                    },
+                    {
+                        "start": 1384,
+                        "end": 1392,
+                        "text": "(Fig. 5)",
+                        "ref_id": "FIGREF6"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "GEOGRAPHIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "Geographic and genomic cline analyses of markers reveal remarkable differences between the Bavarian and Saxon transects, as well as a few similarities. The differences between transects raise the possibility that there may not be a single genetic architecture of isolation between these species. In addition, it is likely that genetic drift has occurred independently in each of these transects and thereby contributed to these differences. The analyses of clines also identified significant diversity among loci. Clines for some loci were consistent with selection against hybrid genotypes and limited introgression, whereas clines for other loci offered evidence for positive selection, in the form of genotypes introgressed far into a foreign genetic background. Next we discuss each of the results and conclusions in greater detail.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "In comparing the two transects through the hybrid zone (Fig. S2) , we find that 28/41 markers differ significantly between transects, whereas 13/41 do not (1. 046, 2.165, 3.14, 4.129, 7.126, 11.089, 14.074, 16.014, 18.028, 18.064, 19.044, Emd, and PolaI) . For the 28/41 markers that differ between transects, it is possible that stochastic variation, differences in sampling between transects, or a combination, could have contributed to these differences. However, given that the majority of these markers were significantly different from the null model of introgression in one or both transects (Table 2 ), another explanation is that the mouse populations in the transects have experienced different histories of natural selection. Genetic factors contributing to reproductive isolation may be polymorphic in this hybrid zone system. Polymorphism for factors contributing to sterility has previously been documented in other hybridizing taxa (e.g., Reed and Markow 2004) as well as in the house mouse (Vyskocilova et al. 2005; Good et al. 2008b) . Additionally, ecological differences (both biotic and abiotic) between these transects may affect which genomic regions contribute to reproductive isolation. Among the 13 markers that have consistent patterns of introgression in the two transects, two markers on the X chromosome (Emd, and PolaI) as well as a few autosomal markers (e.g., 2.030, 4.129) show a deficiency of heterozygotes in each transect, suggesting the presence of nearby genes with consistent, possibly intrinsic, negative effects on fitness in heterozygotes. This could be caused by simple under-dominance or by classic Dobzhansky-Muller incompatibilities.",
+                "cite_spans": [
+                    {
+                        "start": 159,
+                        "end": 163,
+                        "text": "046,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 164,
+                        "end": 170,
+                        "text": "2.165,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 171,
+                        "end": 176,
+                        "text": "3.14,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 177,
+                        "end": 183,
+                        "text": "4.129,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 184,
+                        "end": 190,
+                        "text": "7.126,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 191,
+                        "end": 198,
+                        "text": "11.089,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 199,
+                        "end": 206,
+                        "text": "14.074,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 207,
+                        "end": 214,
+                        "text": "16.014,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 215,
+                        "end": 222,
+                        "text": "18.028,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 223,
+                        "end": 230,
+                        "text": "18.064,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 231,
+                        "end": 238,
+                        "text": "19.044,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 239,
+                        "end": 243,
+                        "text": "Emd,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 244,
+                        "end": 254,
+                        "text": "and PolaI)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 954,
+                        "end": 975,
+                        "text": "Reed and Markow 2004)",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 1006,
+                        "end": 1031,
+                        "text": "(Vyskocilova et al. 2005;",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 1032,
+                        "end": 1050,
+                        "text": "Good et al. 2008b)",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 55,
+                        "end": 64,
+                        "text": "(Fig. S2)",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 599,
+                        "end": 607,
+                        "text": "(Table 2",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "GENOMIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "Genomic cline analyses also reveal a diversity of patterns of introgression among loci. Clines for the majority of markers were inconsistent with neutral introgression in hybrids (40/41 in Bavaria and 35/41 in Saxony; Table 2 ). Excess and deficits of the three genotypes at each locus (Table 2) are consistent with the action of selection at linked genes. Whereas the permutation approach for testing for deviations from the null model incorporates stochastic variation among loci (including increased variance due to their independent genetic drift), some deviations could result from the action of genetic drift, particularly if drift occurred independently at different sampling localities along the transect (Gompert and Buerkle 2009a) . We also note that the sensitivity of the model to complicated forms of population and demic structure, such as are known to exist in house mice, has not been explored.",
+                "cite_spans": [
+                    {
+                        "start": 713,
+                        "end": 740,
+                        "text": "(Gompert and Buerkle 2009a)",
+                        "ref_id": "BIBREF21"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 218,
+                        "end": 225,
+                        "text": "Table 2",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 286,
+                        "end": 295,
+                        "text": "(Table 2)",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "GENOMIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "The most common type of deviation in the Saxon transect (8 out of 41) is DD+, DM, MM\u2212, consistent with positive selection for homozygous M. domesticus alleles. However, the most common type of deviation in the Bavarian transect (7 out of 41) is DD, DM\u2212,MM+, consistent with positive selection for homozygous M. musculus alleles. It is not possible to determine whether any specific deviations are false positives with the available data. Functional assays in controlled crosses would be useful for testing the fitness effects of individual loci. Future modeling will also help us understand how population structure within a hybrid zone affects inferences based on genomic clines. More markers per chromosome will allow fine-scale mapping and will determine whether the major factors associated with fitness variation can be identified. Nevertheless, the diversity among loci and among transects highlights the remarkable complexity of genes and geography in this hybrid zone.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GENOMIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "Markers that have narrow geographic clines in both transects include Emd, 16.014, 8.101, 4.129, and 9 .052. It was not possible to estimate a valid two-parameter cline for the PolaI marker in the Saxon transect using the ClineFit program, but this marker has very limited introgression in Saxony, and a narrow cline in Bavaria (Fig. S1 ). These markers represent good candidate regions for genes involved in reproductive isolation between M. domesticus and M. musculus. Linkage disequilibrium analyses in Teeter et al. (2008) found conspecific linkage disequilibrium between 9.052 and several X-linked and autosomal markers, which indicates that this region may be involved in Dobzhansky-Muller incompatibilities (Dobzhansky 1937; Muller 1942; Coyne and Orr 2004) . Additionally, Emd, 16.014, and 4.129 also participate in significant conspecific associations with other markers, and in the genomic analysis they show similar patterns of introgression in hybrid mice from both transects.",
+                "cite_spans": [
+                    {
+                        "start": 69,
+                        "end": 73,
+                        "text": "Emd,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 74,
+                        "end": 81,
+                        "text": "16.014,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 82,
+                        "end": 88,
+                        "text": "8.101,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 89,
+                        "end": 95,
+                        "text": "4.129,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 96,
+                        "end": 101,
+                        "text": "and 9",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 505,
+                        "end": 525,
+                        "text": "Teeter et al. (2008)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 713,
+                        "end": 730,
+                        "text": "(Dobzhansky 1937;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 731,
+                        "end": 743,
+                        "text": "Muller 1942;",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 744,
+                        "end": 763,
+                        "text": "Coyne and Orr 2004)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 327,
+                        "end": 335,
+                        "text": "(Fig. S1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "GEOGRAPHIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "Some markers show a pattern along the transects where there is a transition from M. domesticus to M. musculus genotypes over a short distance near the center of the hybrid zone, but M. domesticus alleles then reappear at higher frequencies further from the center of the hybrid zone (e.g., 15.099 and 16.014, Fig. S1 ). This pattern is suggestive of stronger selection in the center of the hybrid zone and weaker selection further away from it (at least for the M. domesticus alleles on a M. musculus genetic background). Alternatively, it is possible that some markers are not fixed for different alleles in M. domesticus and M. musculus, and may instead be shared polymorphisms. In the genomic analysis, some of these markers (e.g., 16.014) show similar patterns of introgression in hybrid mice from both transects whereas others (e.g., 15.099) do not.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 309,
+                        "end": 316,
+                        "text": "Fig. S1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "GEOGRAPHIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "Local geography may determine the location of the hybrid zone in some cases, as suggested by Raufaste et al. (2005) for the Mus hybrid zone in Denmark. However, there is no clear association of the position of the hybrid zone in either the Saxon or the Bavarian transect with local geographic features. Thus, in the cases in which geographic clines differ between transects, variation in the local environment or genetic variation could play a role.",
+                "cite_spans": [
+                    {
+                        "start": 93,
+                        "end": 115,
+                        "text": "Raufaste et al. (2005)",
+                        "ref_id": "BIBREF43"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GEOGRAPHIC CLINE ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "The Dobzhansky-Muller model of reproductive isolation is based on epistatic interactions among alleles at different genes. Such epistasis can give rise to nonrandom associations among alleles (i.e., linkage disequilibrium). Positive associations of conspecific genotypes are pervasive in this dataset (Fig. S3) , and appear to be particularly strong in the data from the Bavarian transect. Nearly all (98.8%) of the pairwise associations found in the Bavarian transect were between alleles derived from the same species (after accounting for ancestry through hybrid index and for genome-wide heterozygosity). The set of markers with particularly strong associations differs between transects. This observation coupled with the large number of markers involved in significant associations (most combinations did not involve physically-linked markers) raises the possibility of a highly complex basis for reproductive isolation between these taxa, with a web of many interacting loci contributing to isolation. Although these associations could result from divergent selection on the two taxa, as shown in experimental populations of yeast by Dettman et al. (2007) , they may also have arisen through other population genetic mechanisms and in the absence of selection, as shown in a grasshopper (Chorthippus) hybrid zone by Shuker et al. (2005) .",
+                "cite_spans": [
+                    {
+                        "start": 1141,
+                        "end": 1162,
+                        "text": "Dettman et al. (2007)",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 1323,
+                        "end": 1343,
+                        "text": "Shuker et al. (2005)",
+                        "ref_id": "BIBREF49"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 301,
+                        "end": 310,
+                        "text": "(Fig. S3)",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "ASSOCIATIONS BETWEEN LOCI",
+                "sec_num": null
+            },
+            {
+                "text": "Although at individual loci there was significant introgression into both parental genomic backgrounds (Fig. 3) , the overall genomic composition of hybrids, as summarized by hybrid index, shows evidence for biased gene flow from populations in which M. domesticus alleles predominate into populations dominated by M. musculus ( Fig. 2B; Fig. S2 ). In particular, populations at the eastern, M. musculus, end of both transects have higher variability in the hybrid indexes of individuals, consistent with a higher rate of gene flow and mixture of populations. These data suggest some decoupling and independence between geography and genetic background and suggest that geographic cline analyses, alone, may not provide an accurate view of gene flow through a hybrid zone. Data from previous studies of the Mus hybrid zone also indicate asymmetric patterns of gene flow, biased in the direction from M. domesticus into M. musculus populations (Vanlerberghe et al. 1988a; Tucker et al. 1992; Fel-Clair et al. 1996; Boissinot and Boursot 1997; Raufaste et al. 2005 ). However, Munclinger et al. (2002) and Macholan et al. (2007) found opposite patterns for some markers.",
+                "cite_spans": [
+                    {
+                        "start": 943,
+                        "end": 970,
+                        "text": "(Vanlerberghe et al. 1988a;",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 971,
+                        "end": 990,
+                        "text": "Tucker et al. 1992;",
+                        "ref_id": "BIBREF58"
+                    },
+                    {
+                        "start": 991,
+                        "end": 1013,
+                        "text": "Fel-Clair et al. 1996;",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 1014,
+                        "end": 1041,
+                        "text": "Boissinot and Boursot 1997;",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 1042,
+                        "end": 1062,
+                        "text": "Raufaste et al. 2005",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 1075,
+                        "end": 1099,
+                        "text": "Munclinger et al. (2002)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 1104,
+                        "end": 1126,
+                        "text": "Macholan et al. (2007)",
+                        "ref_id": "BIBREF28"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 103,
+                        "end": 111,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 329,
+                        "end": 345,
+                        "text": "Fig. 2B; Fig. S2",
+                        "ref_id": "FIGREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "SYMMETRICAL AND ASYMMETRICAL PATTERNS OF INTROGRESSION",
+                "sec_num": null
+            },
+            {
+                "text": "A possible explanation for the observed asymmetrical clines is that the hybrid zone has shifted over time, and some loci are \"trailing\" the majority of the genome. Demographic patterns in M. domesticus and M. musculus could have contributed to this shift. Alternatively, asymmetry in introgression may be due to asymmetric genetic incompatibilities. Studies using experimental crosses between strains of M. domesticus and M. musculus have identified some genome segments that are associated with hybrid sterility (Vyskocilova et al. 2005; Oka et al. 2007; Good et al. 2008a) . In particular, introgression of the M. musculus X chromosome onto a M. domesticus genetic background causes male sterility in many cases, and there is polymorphism in wild populations for sterility factors (Oka et al. 2004; Britton-Davidian et al. 2005; Good et al. 2008b) . It also is possible that behavioral factors have influenced cline shape and patterns of introgression. Mate preference and genetic incompatibilities may interact, as the signals that determine mate selection in these species are at least in part genetically determined. There is behavioral evidence that M. domesticus mice tend to dominate in male-male conflicts Frynta 1997, 2000; Frynta et al. 2005) . This evidence suggests that M. domesticus could disperse more easily into M. musculus territories than vice versa (van Zegeren and van Oortmerssen 1981).",
+                "cite_spans": [
+                    {
+                        "start": 513,
+                        "end": 538,
+                        "text": "(Vyskocilova et al. 2005;",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 539,
+                        "end": 555,
+                        "text": "Oka et al. 2007;",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 556,
+                        "end": 574,
+                        "text": "Good et al. 2008a)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 783,
+                        "end": 800,
+                        "text": "(Oka et al. 2004;",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 801,
+                        "end": 830,
+                        "text": "Britton-Davidian et al. 2005;",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 831,
+                        "end": 849,
+                        "text": "Good et al. 2008b)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1215,
+                        "end": 1233,
+                        "text": "Frynta 1997, 2000;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1234,
+                        "end": 1253,
+                        "text": "Frynta et al. 2005)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "SYMMETRICAL AND ASYMMETRICAL PATTERNS OF INTROGRESSION",
+                "sec_num": null
+            },
+            {
+                "text": "We have used two complementary methods of analysis to explore this dataset. The genomic clines method identified features of this hybrid zone that were not apparent from the geographic clines alone. The differences found between the two transects highlight the challenges of using patterns of introgression in hybrid zones to identify a common set of genes underlying reproductive isolation. However, the markers with similar, nonneutral patterns of introgression in both transects are good candidates for further study of invariant components of isolation. The extensive positive associations of conspecific alleles detected in the hybrid zone contributes an additional component to our picture of isolation and speciation.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "OVERALL PATTERNS AND THE COMPLEX NATURE OF GENOME INTERACTIONS IN HYBRID MICE",
+                "sec_num": null
+            },
+            {
+                "text": "Although there have been multiple excellent experimental mapping studies performed to identify loci involved in isolation between M. domesticus and M. musculus, the patterns observed in this natural system provide a more complex scenario than what might be predicted from experimental studies. Our results illustrate the importance of using a combination of studies of natural populations and laboratory studies in constructing a model of speciation. More detailed studies of the hybrid genomes, including denser sampling of the genome in a greater number of hybrid mice, will help illuminate the specific mode of selection acting to create isolation between these taxa and complementary studies on fitness and behavior of mice from the hybrid zone, such as studies of hybrid sterility (Forejt and Ivanyi 1975; Storchova et al. 2004; Britton-Davidian et al. 2005; Vyskocilova et al. 2005; Good et al. 2008a,b) , mate choice preference (Laukaitis et al. 1997; Talley et al. 2001; Smadja and Ganem 2002; Smadja et al. 2004; Bimova et al. 2005) , and susceptibility to parasites (Sage et al. 1986a; Moulia et al. 1993; Derothe et al. 2001; Derothe et al. 2004) , may help link specific phenotypes to the patterns of introgression documented here.",
+                "cite_spans": [
+                    {
+                        "start": 786,
+                        "end": 810,
+                        "text": "(Forejt and Ivanyi 1975;",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 811,
+                        "end": 833,
+                        "text": "Storchova et al. 2004;",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 834,
+                        "end": 863,
+                        "text": "Britton-Davidian et al. 2005;",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 864,
+                        "end": 888,
+                        "text": "Vyskocilova et al. 2005;",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 889,
+                        "end": 909,
+                        "text": "Good et al. 2008a,b)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 935,
+                        "end": 958,
+                        "text": "(Laukaitis et al. 1997;",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 959,
+                        "end": 978,
+                        "text": "Talley et al. 2001;",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 979,
+                        "end": 1001,
+                        "text": "Smadja and Ganem 2002;",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 1002,
+                        "end": 1021,
+                        "text": "Smadja et al. 2004;",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 1022,
+                        "end": 1041,
+                        "text": "Bimova et al. 2005)",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 1076,
+                        "end": 1095,
+                        "text": "(Sage et al. 1986a;",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 1096,
+                        "end": 1115,
+                        "text": "Moulia et al. 1993;",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 1116,
+                        "end": 1136,
+                        "text": "Derothe et al. 2001;",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1137,
+                        "end": 1157,
+                        "text": "Derothe et al. 2004)",
+                        "ref_id": "BIBREF15"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "OVERALL PATTERNS AND THE COMPLEX NATURE OF GENOME INTERACTIONS IN HYBRID MICE",
+                "sec_num": null
+            },
+            {
+                "text": "Current address: Biology Department, Northern Michigan University, Marquette, MI 49855",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "C 2009 The Author(s). Journal compilation C 2009 The Society for the Study of Evolution. Evolution 64-2: 472-485",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "7 4 EVOLUTION FEBRUARY 2010",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "EVOLUTION FEBRUARY 2010",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "7 8 EVOLUTION FEBRUARY 2010",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "Associate Editor: D. Presgraves",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "annex",
+                "sec_num": null
+            },
+            {
+                "text": "The following supporting information is available for this article: Table S1 . Genotype data from all 41 markers used for mice collected from the Saxon transect. Table S2 . Two-parameter cline estimates generated in ClineFit for each marker used for the Saxon transect sample. Figure S1 . Scatterplots for data from the Saxon and Bavarian transects for all 41 markers used. Figure S2 . Comparison of genomic clines for the Bavaria and Saxony hybrid zones. Figure S3 . Plot of pairwise epistatic interaction for the two hybrid zone transects. Figure S4 . Plots of two-parameter estimates of cline width versus two-parameter estimates of cline center.Supporting Information may be found in the online version of this article. (This link will take you to the article abstract).Please note: Wiley-Blackwell is not responsible for the content or functionality of any supporting information supplied by the authors. Any queries (other than missing material) should be directed to the corresponding author for the article.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 68,
+                        "end": 76,
+                        "text": "Table S1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 162,
+                        "end": 170,
+                        "text": "Table S2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 277,
+                        "end": 286,
+                        "text": "Figure S1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 374,
+                        "end": 383,
+                        "text": "Figure S2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 456,
+                        "end": 465,
+                        "text": "Figure S3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 542,
+                        "end": 551,
+                        "text": "Figure S4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Supporting Information",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Variation in frequency of hybrids and spatial structure among Ipomopsis (Polemoniaceae) contact sites",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Aldridge",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "New Phytol",
+                "volume": "167",
+                "issue": "",
+                "pages": "279--288",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Aldridge, G. 2005. Variation in frequency of hybrids and spatial structure among Ipomopsis (Polemoniaceae) contact sites. New Phytol. 167:279- 288.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "The barrier to genetic exchange between hybridizing populations",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Barton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Bengtsson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Heredity",
+                "volume": "57",
+                "issue": "",
+                "pages": "357--376",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barton, N., and B. O. Bengtsson. 1986. The barrier to genetic exchange between hybridizing populations. Heredity 57:357-376.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Hybrid zones and the evolutionary process",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Barton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Gale",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "13--45",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barton, N. H., and K. S. Gale. 1993. Genetic analysis of hybrid zones. Pp. 13-45 in R. G. Harrison, ed. Hybrid zones and the evolutionary process. Oxford Univ. Press, New York.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Analysis of hybrid zones",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Barton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Hewitt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "Annu. Rev. Ecol. Syst",
+                "volume": "16",
+                "issue": "",
+                "pages": "113--148",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barton, N. H., and G. M. Hewitt. 1985. Analysis of hybrid zones. Annu. Rev. Ecol. Syst. 16:113-148.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Controlling the false discovery rate: a practical and powerful approach to multiple testing",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Benjamini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Hochberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "J. R. Stat. Soc. Lond. B",
+                "volume": "57",
+                "issue": "",
+                "pages": "289--300",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Benjamini, Y., and Y. Hochberg. 1995. Controlling the false discovery rate: a practical and powerful approach to multiple testing. J. R. Stat. Soc. Lond. B 57:289-300.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "The role of salivary androgenbinding protein in reproductive isolation between two subspecies of house mouse: mus musculus musculus and Mus musculus domesticus",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Bimova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Karn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Pialek",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biol. J. Linn. Soc",
+                "volume": "84",
+                "issue": "",
+                "pages": "349--361",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bimova, B., R. C. Karn, and J. Pialek. 2005. The role of salivary androgen- binding protein in reproductive isolation between two subspecies of house mouse: mus musculus musculus and Mus musculus domesticus. Biol. J. Linn. Soc. 84:349-361.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Discordant phylogeographic patterns between the Y chromosome and mitochondrial DNA in the house mouse: selection on the Y chromosome",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Boissinot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Boursot",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Genetics",
+                "volume": "146",
+                "issue": "",
+                "pages": "1019--1034",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Boissinot, S., and P. Boursot. 1997. Discordant phylogeographic patterns between the Y chromosome and mitochondrial DNA in the house mouse: selection on the Y chromosome? Genetics 146:1019-1034.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Amount of introgression in flycatcher hybrid zones reflects regional differences in pre and post-zygotic barriers to gene exchange",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Borge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Lindroos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Nadvornik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Syvanen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Saetre",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "J. Evol. Biol",
+                "volume": "18",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Borge, T., K. Lindroos, P. Nadvornik, A. C. Syvanen, and G. P. Saetre. 2005. Amount of introgression in flycatcher hybrid zones reflects regional differences in pre and post-zygotic barriers to gene exchange. J. Evol. Biol. 18:1416.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Mitochondrial DNA in the hybrid zone between Mus musculus musculus and Mus musculus domesticus: a comparison of two transects",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Bozikova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Munclinger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Teeter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Tucker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Macholan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Pialek",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biol. J. Linn. Soc",
+                "volume": "84",
+                "issue": "",
+                "pages": "363--378",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bozikova, E., P. Munclinger, K. C. Teeter, P. K. Tucker, M. Macholan, and J. Pialek. 2005. Mitochondrial DNA in the hybrid zone between Mus musculus musculus and Mus musculus domesticus: a comparison of two transects. Biol. J. Linn. Soc. 84:363-378.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Postzygotic isolation between the two European subspecies of the house mouse: estimates from fertility patterns in wild and laboratory-bred hybrids",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Britton-Davidian",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Fel-Clair",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Lopez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Alibert",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Boursot",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biol. J. Linn. Soc",
+                "volume": "84",
+                "issue": "",
+                "pages": "379--393",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Britton-Davidian, J., F. Fel-Clair, J. Lopez, P. Alibert, and P. Boursot. 2005. Postzygotic isolation between the two European subspecies of the house mouse: estimates from fertility patterns in wild and laboratory-bred hybrids. Biol. J. Linn. Soc. 84:379-393.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Admixture as the basis for genetic mapping",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Buerkle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Lexer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Trends Ecol. Evol",
+                "volume": "23",
+                "issue": "",
+                "pages": "686--694",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Buerkle, C. A., and C. Lexer. 2008. Admixture as the basis for genetic map- ping. Trends Ecol. Evol. 23:686-694.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Low intraspecific variation for genomic isolation between hybridizing sunflower species",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Buerkle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Rieseberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Evolution",
+                "volume": "55",
+                "issue": "",
+                "pages": "684--691",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Buerkle, C. A., and L. H. Rieseberg. 2001. Low intraspecific variation for genomic isolation between hybridizing sunflower species. Evolution 55:684-691.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "First occurrence of the house mouse (Mus musculus domesticus Schwarz & Schwarz, 1943) in the Western Mediterranean: a zooarchaeological revision of subfossil occurrences",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Cucchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Vigne",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Auffray",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biol. J Linn. Soc",
+                "volume": "84",
+                "issue": "",
+                "pages": "429--445",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cucchi, T., J. D. Vigne, and J. C. Auffray. 2005. First occurrence of the house mouse (Mus musculus domesticus Schwarz & Schwarz, 1943) in the Western Mediterranean: a zooarchaeological revision of subfossil occurrences. Biol. J Linn. Soc. 84:429-445.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Susceptibility of natural hybrids between house mouse subspecies to Sarcocystis muris",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Derothe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Le Brun",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Loubes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Perriat-Sanguinet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Moulia",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Int. J. Parasitol",
+                "volume": "31",
+                "issue": "",
+                "pages": "15--19",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Derothe, J. M., N. Le Brun, C. Loubes, M. Perriat-Sanguinet, and C. Moulia. 2001. Susceptibility of natural hybrids between house mouse subspecies to Sarcocystis muris. Int. J. Parasitol. 31:15-19.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Recombination does not generate pinworm susceptibility during experimental crosses between two mouse subspecies",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Derothe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Porcherie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Perriat-Sanguinet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Loubes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Moulia",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Parasitol. Res",
+                "volume": "93",
+                "issue": "",
+                "pages": "356--363",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Derothe, J. M., A. Porcherie, M. Perriat-Sanguinet, C. Loubes, and C. Moulia. 2004. Recombination does not generate pinworm susceptibility during experimental crosses between two mouse subspecies. Parasitol. Res. 93:356-363.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Incipient speciation by divergent adaptation and antagonistic epistasis in yeast",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Dettman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Sirjusingh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Kohn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Nature",
+                "volume": "447",
+                "issue": "",
+                "pages": "585--588",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dettman, J. R., C. Sirjusingh, L. M. Kohn, and J. B. Anderson. 2007. Incipient speciation by divergent adaptation and antagonistic epistasis in yeast. Nature 447:585-588.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Genetics and the origin of species",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Dobzhansky",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1937,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dobzhansky, T. 1937. Genetics and the origin of species. Columbia Univ. Press, New York.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Genomic incompatabilities in the hybrid zone between house mice in Denmark: evidence from steep and non-coincident chromosomal clines for Robertsonian fusions",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Fel-Clair",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Lenormand",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Catalan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Grobert",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Orth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Boursot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M.-C",
+                        "middle": [],
+                        "last": "Viroux",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Britton-Davidian",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Genet. Res",
+                "volume": "67",
+                "issue": "",
+                "pages": "123--134",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fel-Clair, F., T. Lenormand, J. Catalan, J. Grobert, A. Orth, P. Boursot, M.-C. Viroux, and J. Britton-Davidian. 1996. Genomic incompatabilities in the hybrid zone between house mice in Denmark: evidence from steep and non-coincident chromosomal clines for Robertsonian fusions. Genet. Res. 67:123-134.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Genetic studies on male sterility of hybrids between laboratory and wild mice (Mus musculus L.)",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Forejt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Ivanyi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1975,
+                "venue": "Genet. Res",
+                "volume": "24",
+                "issue": "",
+                "pages": "189--206",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Forejt, J., and P. Ivanyi. 1975. Genetic studies on male sterility of hybrids be- tween laboratory and wild mice (Mus musculus L.). Genet. Res. 24:189- 206.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Aggression and commensalism in house mouse: a comparative study across Europe and the Near East",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Frynta",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Slabova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Vachova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Volfova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Munclinger",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Aggressive Behav",
+                "volume": "31",
+                "issue": "",
+                "pages": "283--293",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Frynta, D., M. Slabova, H. Vachova, R. Volfova, and P. Munclinger. 2005. Aggression and commensalism in house mouse: a comparative study across Europe and the Near East. Aggressive Behav. 31:283-293.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "A powerful regression-based method for admixture mapping of isolation across the genome of hybrids",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Gompert",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Buerkle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Molecular Ecology Resources",
+                "volume": "18",
+                "issue": "",
+                "pages": "1207--1224",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1755-0998.2009.02733.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Gompert, Z., and C. A. Buerkle. 2009a. A powerful regression-based method for admixture mapping of isolation across the genome of hybrids. Mol. Ecol. 18:1207-1224. ---. 2009b. INTROGRESS: a software package for mapping com- ponents of isolation in hybrids. Molecular Ecology Resources. http://dx.doi.org/10.1111/j.1755-0998.2009.02733.x.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "A complex genetic basis to X-linked hybrid male sterility between two species of house mice",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Good",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Dean",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Nachman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Genetics",
+                "volume": "179",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Good, J. M., M. D. Dean, and M. W. Nachman. 2008a. A complex genetic basis to X-linked hybrid male sterility between two species of house mice. Genetics 179:2213.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Asymmetry and polymorphism of hybrid male sterility during the early stages of speciation in house mice",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Good",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Handel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Nachman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Feder",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Evolution",
+                "volume": "62",
+                "issue": "",
+                "pages": "50--65",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Good, J. M., M. A. Handel, M. W. Nachman, and J. Feder. 2008b. Asymmetry and polymorphism of hybrid male sterility during the early stages of speciation in house mice. Evolution 62:50-65.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Biochemical genetics of hybridization in European house mice",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Hunt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Selander",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1973,
+                "venue": "Heredity",
+                "volume": "31",
+                "issue": "",
+                "pages": "11--33",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hunt, W. G., and R. K. Selander. 1973. Biochemical genetics of hybridization in European house mice. Heredity 31:11-33.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Speciation in progress? A continuum of reproductive isolation in Drosophila bipectinata",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Kopp",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Frank",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Genetica",
+                "volume": "125",
+                "issue": "",
+                "pages": "55--68",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kopp, A., and A. K. Frank. 2005. Speciation in progress? A continuum of reproductive isolation in Drosophila bipectinata. Genetica 125:55-68.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Salivary androgenbinding protein (ABP) mediates sexual isolation in Mus musculus",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Laukaitis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Critser",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Karn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Evolution",
+                "volume": "51",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Laukaitis, C. M., E. S. Critser, and R. C. Karn. 1997. Salivary androgen- binding protein (ABP) mediates sexual isolation in Mus musculus. Evo- lution 51:2000-2005.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Morphometric analysis of European house mice",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Macholan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Acta Theriol",
+                "volume": "41",
+                "issue": "",
+                "pages": "255--275",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Macholan, M. 1996. Morphometric analysis of European house mice. Acta Theriol. 41:255-275.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Genetic analysis of autosomal and X-linked markers across a mouse hybrid zone",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Macholan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Munclinger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Sugerkova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Dufkova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Bimova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Bozikova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zima",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Pialek",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Int. J. Organic Evol",
+                "volume": "61",
+                "issue": "",
+                "pages": "746--771",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Macholan, M., P. Munclinger, M. Sugerkova, P. Dufkova, B. Bimova, E. Bozikova, J. Zima, and J. Pialek. 2007. Genetic analysis of autosomal and X-linked markers across a mouse hybrid zone. Int. J. Organic Evol. 61:746-771.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "A comparison of five hybrid zones of the weta Hemideina thoracica (Orthoptera: Anostostomatidae): degree of cytogenetic differentiation fails to predict zone width",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Morgan-Richards",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Wallis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Evolution",
+                "volume": "57",
+                "issue": "",
+                "pages": "849--861",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Morgan-Richards, M., and G. P. Wallis. 2003. A comparison of five hybrid zones of the weta Hemideina thoracica (Orthoptera: Anostostomati- dae): degree of cytogenetic differentiation fails to predict zone width. Evolution 57:849-861.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Experimental evidence of genetic determinism in high susceptibility to intestinal pinworm infection in mice-a hybrid zone model",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Moulia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Lebrun",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Dallas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Orth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Renaud",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Parasitology",
+                "volume": "106",
+                "issue": "",
+                "pages": "387--393",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moulia, C., N. Lebrun, J. Dallas, A. Orth, and F. Renaud. 1993. Experimental evidence of genetic determinism in high susceptibility to intestinal pin- worm infection in mice-a hybrid zone model. Parasitology 106:387- 393.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Hybrid vigor against parasites in interspecific crosses between two mice species",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Moulia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Lebrun",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Loubes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Marin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Renaud",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Heredity",
+                "volume": "74",
+                "issue": "",
+                "pages": "48--52",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moulia, C., N. Lebrun, C. Loubes, R. Marin, and F. Renaud. 1995. Hybrid vigor against parasites in interspecific crosses between two mice species. Heredity 74:48-52.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Isolating mechanisms, evolution, and temperature",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Muller",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1942,
+                "venue": "Biol. Symp",
+                "volume": "6",
+                "issue": "",
+                "pages": "71--125",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Muller, H. J. 1942. Isolating mechanisms, evolution, and temperature. Biol. Symp. 6:71-125.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Relations between distant populations of Mus musculus sensu lato: is there any odour-based discrimination? Folia Zool",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Munclinger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Frynta",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "",
+                "volume": "46",
+                "issue": "",
+                "pages": "193--199",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Munclinger, P., and D. Frynta. 1997. Relations between distant populations of Mus musculus sensu lato: is there any odour-based discrimination? Folia Zool. 46:193-199.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Social interactions within and between two distant populations of house mouse",
+                "authors": [],
+                "year": 2000,
+                "venue": "Folia Zool",
+                "volume": "49",
+                "issue": "",
+                "pages": "1--6",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "---. 2000. Social interactions within and between two distant populations of house mouse. Folia Zool. 49:1-6.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Genetic variation in house mice (Mus, Muridae, Rodentia) from the Czech and Slovak republics",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Munclinger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Bozikova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Sugerkova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Pialek",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Macholan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Folia Zool",
+                "volume": "51",
+                "issue": "",
+                "pages": "81--92",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Munclinger, P., E. Bozikova, M. Sugerkova, J. Pialek, and M. Macholan. 2002. Genetic variation in house mice (Mus, Muridae, Rodentia) from the Czech and Slovak republics. Folia Zool. 51:81-92.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Variable patterns of introgression in two sculpin hybrid zones suggest that genomic isolation differs among populations",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Nolte",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Gompert",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Buerkle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Mol. Ecol",
+                "volume": "",
+                "issue": "",
+                "pages": "2615--2627",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nolte, A. W., Z. Gompert, and C. A. Buerkle. 2009. Variable patterns of introgression in two sculpin hybrid zones suggest that genomic isolation differs among populations. Mol. Ecol. 2615-2627.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Hybrid breakdown caused by substitution of the X chromosome between two mouse subspecies",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Oka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Mita",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Sakurai-Yamatani",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Yamamoto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Takagi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Takano-Shimizu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Toshimori",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Moriwaki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Shiroishi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Genetics",
+                "volume": "166",
+                "issue": "",
+                "pages": "913--924",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Oka, A., A. Mita, N. Sakurai-Yamatani, H. Yamamoto, N. Takagi, T. Takano- Shimizu, K. Toshimori, K. Moriwaki, and T. Shiroishi. 2004. Hybrid breakdown caused by substitution of the X chromosome between two mouse subspecies. Genetics 166:913-924.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Disruption of genetic interaction between two autosomal regions and the X chromosome causes reproductive isolation between mouse strains derived from different subspecies",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Oka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Aoto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Totsuka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Takahashi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ueda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Mita",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Sakurai-Yamatani",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Yamamoto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kuriki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Takagi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Genetics",
+                "volume": "175",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Oka, A., T. Aoto, Y. Totsuka, R. Takahashi, M. Ueda, A. Mita, N. Sakurai- Yamatani, H. Yamamoto, S. Kuriki, and N. Takagi. 2007. Disruption of genetic interaction between two autosomal regions and the X chromo- some causes reproductive isolation between mouse strains derived from different subspecies. Genetics 175:185.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Polytypic species Mus musculus in Transcaucasia",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Orth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Lyapunova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Kandaurov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Boissinot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Boursot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Vorontsov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bonhomme",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Life Sciences",
+                "volume": "319",
+                "issue": "",
+                "pages": "435--441",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Orth, A., E. Lyapunova, A. Kandaurov, S. Boissinot, P. Boursot, N. Vorontsov, and F. Bonhomme. 1996. Polytypic species Mus musculus in Transcau- casia. Comptes Rendus De L Academie Des Sciences Serie Iii-Sciences De La Vie-Life Sciences 319:435-441.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Differential patterns of introgression across the X chromosome in a hybrid zone between two species of house mice",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Payseur",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Krenz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Nachman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Evolution",
+                "volume": "58",
+                "issue": "",
+                "pages": "2064--2078",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Payseur, B. A., J. G. Krenz, and M. W. Nachman. 2004. Differential patterns of introgression across the X chromosome in a hybrid zone between two species of house mice. Evolution 58:2064-2078.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "The Pontia daplidice-edusa hybrid zone in northwestern Italy",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Porter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Wenger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Geiger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Scholl",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Shapiro",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Evolution",
+                "volume": "51",
+                "issue": "",
+                "pages": "1561--1573",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Porter, A. H., R. Wenger, H. Geiger, A. Scholl, and A. M. Shapiro. 1997. The Pontia daplidice-edusa hybrid zone in northwestern Italy. Evolution 51:1561-1573.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "New assays for Y chromosome and p53 pseudogene clines among East Holstein house mice",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Prager",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Boursot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Sage",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Mammal. Genome",
+                "volume": "8",
+                "issue": "",
+                "pages": "279--281",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Prager, E. M., P. Boursot, and R. D. Sage. 1997. New assays for Y chromosome and p53 pseudogene clines among East Holstein house mice. Mammal. Genome 8:279-281.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Inferences of selection and migration in the Danish house mouse hybrid zone",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Raufaste",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Orth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Belkhir",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Senet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Smadja",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J E"
+                        ],
+                        "last": "Baird",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bonhomme",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Dod",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Boursot",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biol. J. Linn. Soc",
+                "volume": "84",
+                "issue": "",
+                "pages": "593--616",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Raufaste, N., A. Orth, K. Belkhir, D. Senet, C. Smadja, S. J. E. Baird, F. Bonhomme, B. Dod, and P. Boursot. 2005. Inferences of selection and migration in the Danish house mouse hybrid zone. Biol. J. Linn. Soc. 84:593-616.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Early events in speciation: polymorphism for hybrid male sterility in Drosophila",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Reed",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Markow",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Proc. Natl. Acad. Sci",
+                "volume": "101",
+                "issue": "",
+                "pages": "9009--9012",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Reed, L. K., and T. A. Markow. 2004. Early events in speciation: polymor- phism for hybrid male sterility in Drosophila. Proc. Natl. Acad. Sci. 101:9009-9012.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Crossing relationships among ancient and experimental sunflower hybrid lineages",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Rieseberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Evolution",
+                "volume": "54",
+                "issue": "",
+                "pages": "859--865",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rieseberg, L. H. 2000. Crossing relationships among ancient and experimental sunflower hybrid lineages. Evolution 54:859-865.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Hybrid zones and the genetic architecture of a barrier to gene flow between two sunflower species",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Rieseberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Whitton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Gardner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Genetics",
+                "volume": "152",
+                "issue": "",
+                "pages": "713--727",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rieseberg, L. H., J. Whitton, and K. Gardner. 1999. Hybrid zones and the genetic architecture of a barrier to gene flow between two sunflower species. Genetics 152:713-727.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Wormy mice in a hybrid zone",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Sage",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Heyneman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Lim",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Nature",
+                "volume": "324",
+                "issue": "",
+                "pages": "60--63",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sage, R. D., D. Heyneman, K. C. Lim, and A. C. Wilson. 1986a. Wormy mice in a hybrid zone. Nature 324:60-63.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Genetic analysis of a hybrid zone between domesticus and musculus mice (Mus musculus complex): hemoglobin polymorphisms",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Sage",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Whitney",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Curr. Top. Microbiol. Immunol",
+                "volume": "127",
+                "issue": "",
+                "pages": "75--85",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sage, R. D., J. B. Whitney 3rd, and A. C. Wilson. 1986b. Genetic analysis of a hybrid zone between domesticus and musculus mice (Mus musculus complex): hemoglobin polymorphisms. Curr. Top. Microbiol. Immunol. 127:75-85.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Patterns of male sterility in a grasshopper hybrid zone imply accumulation of hybrid incompatibilities without selection",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Shuker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Underwood",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "King",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Butlin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Proc. R. Soc. Lond. B",
+                "volume": "272",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shuker, D. M., K. Underwood, T. M. King, and R. K. Butlin. 2005. Patterns of male sterility in a grasshopper hybrid zone imply accumulation of hybrid incompatibilities without selection. Proc. R. Soc. Lond. B 272: 2491.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Subspecies recognition in the house mouse: a study of two populations from the border of a hybrid zone",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Smadja",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Ganem",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Behav. Ecol",
+                "volume": "13",
+                "issue": "",
+                "pages": "312--320",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Smadja, C., and G. Ganem. 2002. Subspecies recognition in the house mouse: a study of two populations from the border of a hybrid zone. Behav. Ecol. 13:312-320.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Strong premating divergence in a unimodal hybrid zone between two subspecies of the house mouse",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Smadja",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Catalan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Ganem",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "J. Evol. Biol",
+                "volume": "17",
+                "issue": "",
+                "pages": "165--176",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Smadja, C., J. Catalan, and G. Ganem. 2004. Strong premating divergence in a unimodal hybrid zone between two subspecies of the house mouse. J. Evol. Biol. 17:165-176.",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Genetic analysis of X-linked hybrid sterility in the house mouse",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Storchova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Gregorova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Buckiova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Kyselova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Divina",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Forejt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Mammal. Genome",
+                "volume": "15",
+                "issue": "",
+                "pages": "515--524",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Storchova, R., S. Gregorova, D. Buckiova, V. Kyselova, P. Divina, and J. Forejt. 2004. Genetic analysis of X-linked hybrid sterility in the house mouse. Mammal. Genome 15:515-524.",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Natural variation for a hybrid incompatibility between two species of Mimulus",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Sweigart",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Mason",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Willis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Evolution",
+                "volume": "61",
+                "issue": "",
+                "pages": "141--151",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sweigart, A. L., A. R. Mason, and J. H. Willis. 2007. Natural variation for a hybrid incompatibility between two species of Mimulus. Evolution 61:141-151.",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "The genetic structure of the hybrid zone between the fire-bellied toads Bombina bombina and B. variegata-comparisons between transects and between loci",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Szymura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Barton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Evolution",
+                "volume": "45",
+                "issue": "",
+                "pages": "237--261",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Szymura, J. M., and N. H. Barton. 1991. The genetic structure of the hy- brid zone between the fire-bellied toads Bombina bombina and B. var- iegata-comparisons between transects and between loci. Evolution 45:237-261.",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "Female preference for male saliva: implications for sexual isolation of Mus musculus subspecies",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Talley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Laukaitis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Karn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Evolution",
+                "volume": "55",
+                "issue": "",
+                "pages": "631--634",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Talley, H. M., C. M. Laukaitis, and R. C. Karn. 2001. Female preference for male saliva: implications for sexual isolation of Mus musculus sub- species. Evolution 55:631-634.",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "Genome-wide patterns of gene flow across a house mouse hybrid zone",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Teeter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Payseur",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Harris",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Bakewell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Thibodeau",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "O'brien",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Krenz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Sans-Fuentes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Nachman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Tucker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Genome Res",
+                "volume": "18",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Teeter, K. C., B. A. Payseur, L. W. Harris, M. A. Bakewell, L. M. Thibodeau, J. E. O'Brien, J. G. Krenz, M. A. Sans-Fuentes, M. W. Nachman, and P. K. Tucker. 2008. Genome-wide patterns of gene flow across a house mouse hybrid zone. Genome Res. 18:67.",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Abrupt cline for sex chromosomes in a hybrid zone between two species of mice",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Tucker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Sage",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Warner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Eicher",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Evolution",
+                "volume": "46",
+                "issue": "",
+                "pages": "1146--1163",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tucker, P. K., R. D. Sage, J. Warner, A. C. Wilson, and E. M. Eicher. 1992. Abrupt cline for sex chromosomes in a hybrid zone between two species of mice. Evolution 46:1146-1163.",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Frontier disputes between the West-and East-European house mouse in",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Van Zegeren",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Van Oortmerssen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "Zeitschrift fur Saugetierkunde",
+                "volume": "46",
+                "issue": "",
+                "pages": "363--369",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "van Zegeren, K., and G. A. van Oortmerssen. 1981. Frontier disputes between the West-and East-European house mouse in Schleswig-Holstein, West Germany. Zeitschrift fur Saugetierkunde 46:363-369.",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "Absence of Y chromosome introgression across the hybrid zone between Mus musculus domesticus and Mus musculus musculus",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Vanlerberghe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Dod",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Boursot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Bellis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bonhomme",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Genet. Res",
+                "volume": "48",
+                "issue": "",
+                "pages": "191--197",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Vanlerberghe, F., B. Dod, P. Boursot, M. Bellis, and F. Bonhomme. 1986. Absence of Y chromosome introgression across the hybrid zone between Mus musculus domesticus and Mus musculus musculus. Genet. Res. 48:191-197.",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "Genetic analysis of the hybrid zone between two murine subspecies, Mus musculus domesticus and Mus musculus musculus",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Vanlerberghe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Boursot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Catalan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Gerasimov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bonhomme",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Botev",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Thaler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Genome",
+                "volume": "30",
+                "issue": "",
+                "pages": "427--437",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Vanlerberghe, F., P. Boursot, J. Catalan, S. Gerasimov, F. Bonhomme, B. A. Botev, and L. Thaler. 1988a. Genetic analysis of the hybrid zone between two murine subspecies, Mus musculus domesticus and Mus musculus musculus, in Bulgaria. Genome 30:427-437.",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "A steep cline for mitochondrial DNA in Danish mice",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Vanlerberghe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Boursot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Nielsen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bonhomme",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Genet. Res",
+                "volume": "52",
+                "issue": "",
+                "pages": "185--193",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Vanlerberghe, F., P. Boursot, J. T. Nielsen, and F. Bonhomme. 1988b. A steep cline for mitochondrial DNA in Danish mice. Genet. Res. 52:185-193.",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "Does geography matter in hybrid sterility in house mice?",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Vyskocilova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Trachtulec",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Forejt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Pialek",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biol. J. Linn. Soc",
+                "volume": "84",
+                "issue": "",
+                "pages": "663--674",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Vyskocilova, M., Z. Trachtulec, J. Forejt, and J. Pialek. 2005. Does geography matter in hybrid sterility in house mice? Biol. J. Linn. Soc. 84:663-674.",
+                "links": null
+            },
+            "BIBREF64": {
+                "ref_id": "b64",
+                "title": "Genetic variation segregating in natural populations of Tribolium castaneum affecting traits observed in hybrids with T. freemani",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Wade",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Johnson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Siguel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Mcnaughton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Genetics",
+                "volume": "147",
+                "issue": "",
+                "pages": "1235--1247",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wade, M. J., N. A. Johnson, R. Jones, V. Siguel, and M. McNaughton. 1997. Genetic variation segregating in natural populations of Tribolium cas- taneum affecting traits observed in hybrids with T. freemani. Genetics 147:1235-1247.",
+                "links": null
+            },
+            "BIBREF65": {
+                "ref_id": "b65",
+                "title": "Hybridization of Bombina bombina and B. variegata (Anura, Discoglossidae) at a sharp ecotone in Western Ukraine: comparisons across transects and over time",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Yanchukov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Hofman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Szymura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Mezhzherin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Morozov-Leonov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Barton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Nurnberger",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Evolution",
+                "volume": "60",
+                "issue": "",
+                "pages": "583--600",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yanchukov, A., S. Hofman, J. M. Szymura, S. V. Mezhzherin, S. Y. Morozov- Leonov, N. H. Barton, and B. Nurnberger. 2006. Hybridization of Bombina bombina and B. variegata (Anura, Discoglossidae) at a sharp ecotone in Western Ukraine: comparisons across transects and over time. Evolution 60:583-600.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "type_str": "figure",
+                "text": "Location of Mus hybrid zone and sampling transect in Europe. (A) The solid black line shows the location of the hybrid zone. Mus domesticus is located to the west and south of the hybrid zone; M. musculus to the east and north. The outlined box shows the location of the Saxon transect, and the solid box shows the location of the Bavarian transect. (B) Detailed view of the locations of sampling localities, marked with triangles.",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF1": {
+                "type_str": "figure",
+                "text": "Genomic and geographic cline analyses for genetic markers typed in mice collected from the Saxony and Bavaria transects. Markers were named so that an integer gives the chromosome number, and the decimal gives the approximate physical location of the marker in Mb along the chromosome. For the X chromosome markers, a gene name is given. LnL ratios, P values, and deviation categories are derived from the genomic clines analyses. The cline centers (CC) and widths (CW) are derived from the two-parameter geographic cline analyses. n, nonsignificant; * , significant; NE, not estimated;+, excess; \u2212, deficit of genotype; respectively following false discovery rate correction(Benjamini and Hochberg 1995). Significant deviations may exist for the probabilities of individual genotypes without an overall significant deviation for all three genotypes at a locus. Genomic clines from the two transects were compared using a ratio of the likelihoods of the genomic clines given the data from one of the transects (ln L",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF3": {
+                "type_str": "figure",
+                "text": "Heterozygosity of individual mice versus (A) hybrid index, measured as the proportion of alleles with M. musculus ancestry, and (B) geographic location of mouse collection sites measured in kilometers from western-most locality versus hybrid index, of individuals at those sites.",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF4": {
+                "type_str": "figure",
+                "text": "Genotypes of mice in two transects across the European hybrid zone. Markers are on the 19 autosomes and are named according to the chromosome on which they are found and their position on the physical map (as in Teeter et al. 2008). Dark green blocks indicate homozygotes for M. domesticus alleles, light green blocks represent homozygotes for M. musculus alleles, and intermediate green blocks correspond to heterozygotes. White blocks indicate missing data. The plots to right in each pane indicate the proportion of each individual's genome that has M. musculus ancestry, which is equivalent to the hybrid index. Individuals are sorted, with those individuals with genome compositions that resemble M. domesticus at the bottom and increasing similarity to M. musculus toward the top.",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF5": {
+                "type_str": "figure",
+                "text": "Genomic clines for homozygous M. domesticus and heterozygous genotypes for the Bavaria and Saxony hybrid zones. Hybrid index corresponds to the proportion of marker alleles with M. musculus ancestry. The dark green and light green shaded regions denote the expected genomic clines (95% CI) for the homozygous M. domesticus and heterozygous genotypes, respectively. Solid black lines denote the genomic clines for individual loci based on multinomial regression models for the homozygous (top panels) and heterozygous (bottom panels) genotypes.",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF6": {
+                "type_str": "figure",
+                "text": "Cline widths (two-parameter) from the Bavarian transect (Teeter et al. 2008), plotted against cline widths from the Saxon transect. A linear regression of the cline widths for the autosomes in the Saxon and Bavarian transects gives an r 2 value of 0.144.",
+                "uris": null,
+                "num": null
+            },
+            "TABREF0": {
+                "type_str": "table",
+                "content": "<table><tr><td colspan=\"2\">Locality Name</td><td colspan=\"2\">Distance No. of</td></tr><tr><td/><td/><td/><td>mice</td></tr><tr><td>1</td><td>Remderoda</td><td>0</td><td>35</td></tr><tr><td>2</td><td>Benkendorf</td><td>21</td><td>1</td></tr><tr><td>3</td><td>Doellnitz-Halle</td><td>33.6</td><td>5</td></tr><tr><td>4</td><td>Borau bei Weissenfels</td><td>34.2</td><td>3</td></tr><tr><td>5</td><td>Burgliebenau</td><td>36</td><td>1</td></tr><tr><td>6</td><td>Muschwitz bei Weissenfels</td><td>42.45</td><td>1</td></tr><tr><td>7</td><td>Zeitz</td><td>42.9</td><td>1</td></tr><tr><td>8</td><td>Grosspoerthen bei Zeitz</td><td>44.7</td><td>4</td></tr><tr><td>9</td><td>Nissma bei Kayna</td><td>52.95</td><td>3</td></tr><tr><td>10</td><td>Borna</td><td>69.6</td><td>6</td></tr><tr><td>11</td><td>Floessberg</td><td>73.5</td><td>4</td></tr><tr><td>12</td><td>Trebishain bei Floessberg</td><td>76.05</td><td>4</td></tr><tr><td>13</td><td>Thallwitz</td><td>81.3</td><td>10</td></tr><tr><td>14</td><td>Nischwitz</td><td>81.9</td><td>1</td></tr><tr><td>15</td><td>Dehnitz bei Wurzen,</td><td>83.85</td><td>36</td></tr><tr><td/><td>Family Lehne</td><td/><td/></tr><tr><td>16</td><td>Dehnitz/NSI</td><td>83.85</td><td>6</td></tr><tr><td>17</td><td>Lueptitz</td><td>85.95</td><td>43</td></tr><tr><td>18</td><td>Gniebitz bei Trossin</td><td>86.7</td><td>70</td></tr><tr><td>19</td><td>Trebelshain</td><td>90</td><td>14</td></tr><tr><td>20</td><td>Zschirla</td><td>91.8</td><td>1</td></tr><tr><td>21</td><td>Mehderitzsch/Losswig</td><td>103.5</td><td>1</td></tr><tr><td>22</td><td>Kreischau</td><td>104.4</td><td>2</td></tr><tr><td>23</td><td>Hohenlauft, by Rosswein</td><td>112.8</td><td>8</td></tr><tr><td>24</td><td>Troischau, by Rosswein</td><td>113.7</td><td>16</td></tr><tr><td>25</td><td>Wilsdruff</td><td>138.9</td><td>24</td></tr><tr><td>26</td><td>Lohmen</td><td>172.5</td><td>1</td></tr><tr><td>27</td><td>Pulsnitz</td><td>172.8</td><td>1</td></tr><tr><td>28</td><td>Kamenz, Museum</td><td>178.4</td><td>2</td></tr><tr><td>29</td><td>Kamenz OT Wiesa</td><td>179.1</td><td>6</td></tr><tr><td>30</td><td>Deutschbaselitz</td><td>181.5</td><td>1</td></tr><tr><td>31</td><td>Piskowitz</td><td>184.8</td><td>3</td></tr><tr><td>32</td><td>Skerbersdorf</td><td>227.1</td><td>3</td></tr><tr><td>33</td><td>Friedersdorf bei Goerlitz</td><td>230.6</td><td>4</td></tr><tr><td>34</td><td>Goerlitz, Tierpark</td><td>239.3</td><td>1</td></tr><tr><td colspan=\"2\">Total number of mice</td><td/><td>322</td></tr><tr><td>in</td><td/><td/><td/></tr></table>",
+                "text": "",
+                "num": null
+            },
+            "TABREF1": {
+                "type_str": "table",
+                "content": "<table/>",
+                "text": "",
+                "num": null
+            },
+            "TABREF2": {
+                "type_str": "table",
+                "content": "<table/>",
+                "text": "",
+                "num": null
+            }
+        }
+    }
+}

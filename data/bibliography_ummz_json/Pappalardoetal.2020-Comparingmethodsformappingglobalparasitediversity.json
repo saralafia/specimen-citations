@@ -1,0 +1,3935 @@
+{
+    "paper_id": "Pappalardoetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:30:58.028973Z"
+    },
+    "title": "Comparing methods for mapping global parasite diversity",
+    "authors": [
+        {
+            "first": "Paula",
+            "middle": [],
+            "last": "Pappalardo",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Georgia",
+                "location": {
+                    "settlement": "Athens",
+                    "country": "Georgia"
+                }
+            },
+            "email": "paulapappalardo@gmail.com"
+        },
+        {
+            "first": "Ignacio",
+            "middle": [],
+            "last": "Morales-Castilla",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Universidad de Alcal\u00e1",
+                "location": {
+                    "settlement": "Alcal\u00e1 de Henares",
+                    "country": "Spain"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Andrew",
+            "middle": [
+                "W"
+            ],
+            "last": "Park",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Georgia",
+                "location": {
+                    "settlement": "Athens",
+                    "country": "Georgia"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Shan",
+            "middle": [],
+            "last": "Huang",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Senckenberg Biodiversity and Climate Research Centre (SBiK-F)",
+                "location": {
+                    "settlement": "Frankfurt",
+                    "country": "Germany"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "John",
+            "middle": [
+                "P"
+            ],
+            "last": "Schmidt",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Georgia",
+                "location": {
+                    "settlement": "Athens",
+                    "country": "Georgia"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Patrick",
+            "middle": [
+                "R"
+            ],
+            "last": "Stephens",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Georgia",
+                "location": {
+                    "settlement": "Athens",
+                    "country": "Georgia"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Pappalardo",
+            "middle": [
+                "P"
+            ],
+            "last": "Morales-Castilla",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "I",
+            "middle": [],
+            "last": "Park",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Searching for drivers of spatial variation in biodiversity is a central aim in ecology and biogeography (e.g., Rhode, 1992; Wiens & Donoghue, 2004). Key to this effort are robust accounts for the distributions of biodiversity, such as global species richness maps. Species richness in space is also a commonly considered variable for defining conservation priorities geographically (Myers, Mittermeier, Mittermeier, Fonseca & Kent, 2000). To date, studies of large scale patterns in terrestrial biodiversity have focused primarily on free",
+    "pdf_parse": {
+        "paper_id": "Pappalardoetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Searching for drivers of spatial variation in biodiversity is a central aim in ecology and biogeography (e.g., Rhode, 1992; Wiens & Donoghue, 2004). Key to this effort are robust accounts for the distributions of biodiversity, such as global species richness maps. Species richness in space is also a commonly considered variable for defining conservation priorities geographically (Myers, Mittermeier, Mittermeier, Fonseca & Kent, 2000). To date, studies of large scale patterns in terrestrial biodiversity have focused primarily on free",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Recognition that study effort is the best predictor of the number of known parasite species per host (Nunn, Altizer, Jones, & Sechrest, 2003; Walther, Cotgreave, Gregory, & Clayton, 1995) and of parasite discovery rates (Jorge & Poulin, 2018) implies that the current picture of parasite biodiversity is incomplete and likely biased towards parasites of charismatic megafauna. As a result, there are very few parasite species for which accurate range maps are available based on geographic occurrence data (e.g., African ticks: Cumming, 1999) , and sophisticated maps of infection probability are typically only available for some parasites of high public health relevance (e.g., Soares Magalhaes, Clements, Patil, Gething, & Brooker, 2011) . Urgent questions for global management such as where hotspots of parasite biodiversity exist and how closely they correspond to hotspots of free-living animal diversity remain a difficult challenge (but see Dunn, Davies, Harris, & Gavin, 2010; Hopkins & Nunn, 2007; or Jorge & Poulin, 2018) . Investigation is further hindered by strong spatial biases in existing parasite data (Carlson et al., 2017) , making the task of generating parasite distribution and diversity maps non-trivial.",
+                "cite_spans": [
+                    {
+                        "start": 101,
+                        "end": 141,
+                        "text": "(Nunn, Altizer, Jones, & Sechrest, 2003;",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 142,
+                        "end": 187,
+                        "text": "Walther, Cotgreave, Gregory, & Clayton, 1995)",
+                        "ref_id": "BIBREF58"
+                    },
+                    {
+                        "start": 220,
+                        "end": 242,
+                        "text": "(Jorge & Poulin, 2018)",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 528,
+                        "end": 542,
+                        "text": "Cumming, 1999)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 687,
+                        "end": 740,
+                        "text": "Magalhaes, Clements, Patil, Gething, & Brooker, 2011)",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 950,
+                        "end": 955,
+                        "text": "Dunn,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 964,
+                        "end": 986,
+                        "text": "Harris, & Gavin, 2010;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 987,
+                        "end": 1008,
+                        "text": "Hopkins & Nunn, 2007;",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 1009,
+                        "end": 1033,
+                        "text": "or Jorge & Poulin, 2018)",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 1121,
+                        "end": 1143,
+                        "text": "(Carlson et al., 2017)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Thus far, most studies that estimated parasite geographic range assumed that if a host-parasite association is reported, the entire geographic range of the host can be considered the potential area of occurrence for the parasite (Brierley, Vonhof, Olival, Daszak, & Jones, 2016; Han, Kramer, & Drake, 2016; , a method we refer to as \"host filling\". This approach can overestimate parasite distribution ranges (e.g., see detailed studies on ticks: Cumming, 1999;  fleas: Shenbrot, Krasnov, & Lu, 2007) , and thus generates a misleading picture of global parasite diversity. This may occur, for example, if the parasite cannot tolerate the whole range of the environmental conditions in certain parts of the host range, if intermediate hosts are not present throughout the definitive host range, or if susceptibility varies among host populations. To move towards a better understanding of global patterns of parasite richness, it is necessary to consider alternative ways to generate parasite diversity estimates within the context of the limited occurrence data that are currently available.",
+                "cite_spans": [
+                    {
+                        "start": 229,
+                        "end": 278,
+                        "text": "(Brierley, Vonhof, Olival, Daszak, & Jones, 2016;",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 279,
+                        "end": 306,
+                        "text": "Han, Kramer, & Drake, 2016;",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 447,
+                        "end": 461,
+                        "text": "Cumming, 1999;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 462,
+                        "end": 462,
+                        "text": "",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 470,
+                        "end": 500,
+                        "text": "Shenbrot, Krasnov, & Lu, 2007)",
+                        "ref_id": "BIBREF52"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "One approach would be to lean on the rich body of literature that develops species distribution models based on environmental conditions (i.e., species distribution modelling, SDM; environmental niche modelling, ENM; see Ara\u00fajo & Peterson, 2012) , especially including climatic as well as biotic factors and human impacts. Yet, attempting to establish distributional patterns using these methods can present challenges stemming from lack of reliable absence data, in addition to geographic and taxonomic biases in sampling (Lobo, Jimenez-Valverde, & Hortal, 2010) . A comprehensive environmental modelling approach relies on abundant observations that capture most (if not all) of the realized niche to produce meaningful inferences, which is currently unrealistic for the large majority of parasitic taxa. More importantly, because their distributions are only partly conditioned by climate or the external environment, but also depend on the distributions of their hosts, applying ENM methods to mapping parasite diversity geographically introduces an extra layer of complexity and uncertainty.",
+                "cite_spans": [
+                    {
+                        "start": 221,
+                        "end": 245,
+                        "text": "Ara\u00fajo & Peterson, 2012)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 523,
+                        "end": 563,
+                        "text": "(Lobo, Jimenez-Valverde, & Hortal, 2010)",
+                        "ref_id": "BIBREF35"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Here we compare how the picture of parasite biodiversity changes when parasite ranges are inferred based on a variety of different distribution assumptions, including methods based on presence-only parasite occurrence data and the host filling method based on the distribution of the host species. An alternative method recently used to assess parasite geographic range (Byers, Schmidt, Pappalardo, Haas, & Stephens, 2019) assumes that the extent of occurrence of a parasite can be all ecoregions in which the parasite has been observed at least once. Ecoregions as biogeographic units have previously been used in a variety of macroecological studies (e.g., Barboza & Defeo, 2015; Dinerstein et al., 2017; Fritz, Bininda-Emonds, & Purvis, 2009) . Other simpler methods such as mapping point occurrences to a grid have proven useful to recover macroecological patterns in some taxonomic groups (Garc\u00eda-Rosell\u00f3 et al., 2015) and could also apply to map parasite distributions.",
+                "cite_spans": [
+                    {
+                        "start": 370,
+                        "end": 422,
+                        "text": "(Byers, Schmidt, Pappalardo, Haas, & Stephens, 2019)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 659,
+                        "end": 681,
+                        "text": "Barboza & Defeo, 2015;",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 682,
+                        "end": 706,
+                        "text": "Dinerstein et al., 2017;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 707,
+                        "end": 745,
+                        "text": "Fritz, Bininda-Emonds, & Purvis, 2009)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 894,
+                        "end": 923,
+                        "text": "(Garc\u00eda-Rosell\u00f3 et al., 2015)",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "We assess how the use of different methods to estimate the distribution ranges of parasite species influences estimates of spatial patterns of species richness using parasite occurrence data from a recently updated and published version of the Global Mammal Parasite Database (GMPD v.2, Stephens et al., 2017) . The GMPD is the most comprehensive global database of georeferenced parasite infection records in wild ungulates, carnivores and primates. We first assessed spatial variation in sampling intensity in the GMPD to choose the best sampled regions in order to more fairly compare the outcome of analyses based on different assumptions about parasite distributions. Based on this, we conducted regional analyses on two selected regions of the world. The geographic range of a parasite species was considered as either: (a) locations of reported occurrences, (b) area within threshold density contour of occurrences, (c) all ecoregions where occurrences have been reported, (d) areas of suitable climate conditions based on occurrence data, or (e) the collective geographic ranges of all reported host species. We show how these assumptions about parasite distribution affect estimates of the spatial pattern of parasite diversity and the location of hotspots of parasite richness.",
+                "cite_spans": [
+                    {
+                        "start": 276,
+                        "end": 309,
+                        "text": "(GMPD v.2, Stephens et al., 2017)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "We extracted parasite occurrence data primarily from the GMPD v.2 (Stephens et al., 2017) . In this database, parasites are broadly defined as disease-causing organisms, including viruses, bacteria, helminths, arthropods and fungi. The database focuses on wild host populations belonging to the three best studied groups of mammals: ungulates (orders: Artiodactyla and Perissodactyla), carnivores (order: Carnivora) and primates (order: Primates). We complemented the GMPD database with occurrence data on helminth parasites from Brazil (Corr\u00eaa, Bueno, Soares, Vieira, & Muniz-Pereira, 2016) .",
+                "cite_spans": [
+                    {
+                        "start": 66,
+                        "end": 89,
+                        "text": "(Stephens et al., 2017)",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 537,
+                        "end": 591,
+                        "text": "(Corr\u00eaa, Bueno, Soares, Vieira, & Muniz-Pereira, 2016)",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Parasite occurrence database",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "For the purpose of this paper, we restricted the analysis to parasites of terrestrial hosts, and only included records with geographic coordinates and species identities for both the parasite and the host. We double checked parasite occurrences that were not assigned an ecoregion and adjusted the geographic coordinates when it was appropriate after consulting the original source for details on the locality. Some parasites occurrence data may not fall within the current host geographic range because: (a) data were collected on hosts outside their native range, (b) host range has shrunk over time, (c) (Table S1 .1), maps of the raw parasite occurrences from the GMPD and the final set of occurrences used in our study ( Figure   S1 .1). All data processing, analysis and visualization were done in the R environment version 3.5.2 (R Core Team, 2018).",
+                "cite_spans": [
+                    {
+                        "start": 603,
+                        "end": 606,
+                        "text": "(c)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 607,
+                        "end": 616,
+                        "text": "(Table S1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 726,
+                        "end": 737,
+                        "text": "Figure   S1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Parasite occurrence database",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "While primates are restricted to lower latitudes, both ungulates and carnivores are widely distributed across all major habitats at all latitudes. We combined ungulates and carnivores for all the analyses, because the two groups show similar patterns of geographic bias in sampling effort, and trophic links between the two groups appear to enhance parasite sharing (Stephens et al., 2019) . We first conducted regional analysis using a subset of parasite species with 10 or more non-overlapping occurrences in two continental regions with high densities of parasite data: the continental US and nearby islands (for ungulates and carnivores) and Africa (for primates). We then compared the global maps of parasite diversity focusing only on the host filling and the ecoregion filling methods.",
+                "cite_spans": [
+                    {
+                        "start": 366,
+                        "end": 389,
+                        "text": "(Stephens et al., 2019)",
+                        "ref_id": "BIBREF54"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Parasite occurrence database",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "Using records of parasite occurrences and host-parasite associations in the GMPD, we applied different models to estimate parasite geographic ranges in order to generate parasite diversity maps.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Parasite geographic range",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "Broadly, we defined the expected geographic range of a parasite species based on one of: (a) the geographic coordinates of the reported occurrences, with a buffering scheme (the neighbourhood filling method), (b) the area within a threshold density contour of occurrence reports (the density method), (c) the combination of ecoregions containing at least one occurrence (the ecoregion filling method), (d) areas of suitable climate conditions based on occurrence data (climatic model method), or (e) the collective geographic ranges of all host species found infected with the parasite (the host filling method). The methods that we used are depicted in Figure 1 , and detailed below:",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 654,
+                        "end": 662,
+                        "text": "Figure 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Parasite geographic range",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "1. The neighbourhood filling method. To infer the geographic range of a parasite species, we assumed that if a parasite species has been found in one locality, it is likely that it is also present within a radius of approximately 100 km (1 degree latitude or longitude) in the regional analyses or 200 km for the global analyses.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Parasite geographic range",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "2. The density method. To estimate the likelihood of occurrence, we calculated a two-dimensional density kernel based on the distribution of reported localities for each parasite species. We considered density probabilities < .00001 as equivalent to 0. For the remaining densities (\u2265 .00001) we estimated the geographic range of the parasite as the area of most probable occurrence, defined as the area with densities above the .5 quantile. We provide an example with the rationale for the choice of bandwidth for the density kernel and quantile threshold to define parasite presence in Supporting Information Appendix S2 and Figures S2.2-S2.5.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Parasite geographic range",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "3. The ecoregion filling method. This method assumed that if a parasite has been found at a locality within an ecoregion, the parasite's extent of occurrence is likely to be the entire ecoregion.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Parasite geographic range",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "Ecoregions are generally defined by similar habitat and low variation in the flora, fauna, and physical environmental conditions (Olson et al., 2001 , recently updated by Dinerstein et al., 2017) . We downloaded the shape files for the terrestrial ecoregions from https ://ecore gions 2017.appsp ot.com/, and assigned parasite occurrences to each ecoregion using an equal area projection. The geographic range of a parasite species is thus the collection of all occurring ecoregions.",
+                "cite_spans": [
+                    {
+                        "start": 129,
+                        "end": 148,
+                        "text": "(Olson et al., 2001",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 171,
+                        "end": 195,
+                        "text": "Dinerstein et al., 2017)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Parasite geographic range",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "4. The climatic model method. The focus of this study was not to develop a comprehensive ENM approach (for the reasons explained in the Introduction), but for comparative purposes we fitted a simple climatic model for each parasite species. We only consider parasite species with at least 10 occurrences that do not overlap geographically for each host-parasite association. We included ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Parasite geographic range",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "Using the parasite geographic ranges produced by the different methods, we generated regional and global maps of parasite species richness. For comparison, we mapped parasite diversity with resolutions of a 1\u00b0 \u00d7 1\u00b0 grid for the regional analyses (Africa and continental USA) and a 2\u00b0 \u00d7 2\u00b0 grid for the global analysis. For each grid cell, we estimated total parasite species richness as the number of unique parasite species whose ranges overlap with that cell.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Parasite species richness",
+                "sec_num": "2.3"
+            },
+            {
+                "text": "Even for well-studied organisms such as terrestrial mammals, the distribution of sampling effort has been shown to be biased (Meyer, Kreft, Guralnick, & Jetz, 2015) . Across all host-parasite records, we also found that occurrence data were distributed unevenly in space, suggesting spatial sampling bias (Figure 2a,b ).",
+                "cite_spans": [
+                    {
+                        "start": 125,
+                        "end": 164,
+                        "text": "(Meyer, Kreft, Guralnick, & Jetz, 2015)",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 305,
+                        "end": 317,
+                        "text": "(Figure 2a,b",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Parasite species richness",
+                "sec_num": "2.3"
+            },
+            {
+                "text": "Thus, we estimated relative parasite species richness accounting for sampling effort using the least square residuals (i.e., the residual parasite species richness from a generalized least square model based on sampling effort; Lindenfors et al., 2007; Nunn et al., 2003) . To measure sampling effort we counted the number of unique citations in our database for each grid cell or ecoregion. In addition, we counted the number of potential host species (hosts species richness), which is likely to influence parasite richness, especially when using the host filling method. When parasite richness or sampling effort measures deviated from normality they were ln-transformed before calculating the residuals. To compare the spatial patterns of areas with high species richness among the different methods, we identified areas in the top 10% quantile of parasite species richness (total or relative).",
+                "cite_spans": [
+                    {
+                        "start": 228,
+                        "end": 252,
+                        "text": "Lindenfors et al., 2007;",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 253,
+                        "end": 271,
+                        "text": "Nunn et al., 2003)",
+                        "ref_id": "BIBREF42"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Parasite species richness",
+                "sec_num": "2.3"
+            },
+            {
+                "text": "For carnivores and ungulates, we focused on the continental USA and nearby islands because this is one of the best sampled regions in our data. For primates, we focused the regional analysis in Africa, which contained a high number of parasite occurrences F I G U R E 1 A schematic illustration of the five methods we compared for estimating parasite geographic ranges (all data are hypothetical in this diagram). From left to right we represent the type of data used (parasite occurrences only, or host-parasite associations), the type of assumption, the simple distribution model, and the final parasite geographic range inferred. The black dots represent point occurrences of a hypothetical parasite species (which are not used in the host filling method) and the colour shades represent distributions of hypothetical ecoregions, climatic conditions or host species geographic ranges for the respective methods. We detail all methods in the main text [Colour figure can be viewed at wileyonlinelibrary.com] ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Parasite species richness",
+                "sec_num": "2.3"
+            },
+            {
+                "text": "N W W W W W W W W W W W W W N N N N N N N N N",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Parasite species richness",
+                "sec_num": "2.3"
+            },
+            {
+                "text": "To compare sampling effort across regions and parasite taxa,",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| ACCUMUL ATION CURVE S",
+                "sec_num": "3"
+            },
+            {
+                "text": "we derived global and regional species accumulation curves for three well-studied continental regions: Europe, North America and Africa. These curves are analogous to those commonly used to study species-area relationships (Connor & McCoy, 1979) , and ",
+                "cite_spans": [
+                    {
+                        "start": 223,
+                        "end": 245,
+                        "text": "(Connor & McCoy, 1979)",
+                        "ref_id": "BIBREF15"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| ACCUMUL ATION CURVE S",
+                "sec_num": "3"
+            },
+            {
+                "text": "have",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| ACCUMUL ATION CURVE S",
+                "sec_num": "3"
+            },
+            {
+                "text": "The record of parasite occurrences for ungulates, carnivores and primates is spatially biased; some regions of the world such as North America, Europe and some parts of Africa show the highest densities of records (Figure 2a,b) . Most parasite species in our dataset have only been reported from one to a few locations: the median number of occurrences per parasite is 2, the mean is 5.14, and the maximum is 179 (see Supporting Information Appendix S1 for more information). Parasite sampling effort (represented as number of citations) varies dramatically across the world (Figure 2c,d) , and is not always associated with host diversity in a region (Figure 2e,f Figure S4 .6). For the regional analyses using parasites with 10 or more occurrences in the continental USA (Supporting Information Figure S4 .7) or Africa (Supporting Information Figure S4 .8), the accumulation curves do (Figure 4a,b,c,d ), while the host filling method led to higher species richness in the western USA ( Figure 4e ). For comparison, a map of host species richness is shown in Figure 4f . When sampling effort is taken into account (Supporting Information Appendix S6, Figure   S6 .11), either as number of citations or host species richness, there is little agreement in areas of high relative parasite richness between the host filling method and the methods based on parasite occurrences",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 214,
+                        "end": 227,
+                        "text": "(Figure 2a,b)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 575,
+                        "end": 588,
+                        "text": "(Figure 2c,d)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 652,
+                        "end": 664,
+                        "text": "(Figure 2e,f",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 665,
+                        "end": 674,
+                        "text": "Figure S4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 797,
+                        "end": 806,
+                        "text": "Figure S4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 845,
+                        "end": 854,
+                        "text": "Figure S4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 887,
+                        "end": 903,
+                        "text": "(Figure 4a,b,c,d",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 989,
+                        "end": 998,
+                        "text": "Figure 4e",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1061,
+                        "end": 1070,
+                        "text": "Figure 4f",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1153,
+                        "end": 1164,
+                        "text": "Figure   S6",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| RE SULTS",
+                "sec_num": "4"
+            },
+            {
+                "text": "(with the exception of a few grid cells in the south-western USA).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| RE SULTS",
+                "sec_num": "4"
+            },
+            {
+                "text": "Overall, the parasite richness maps for primates in Africa showed World patterns of parasite richness using the full dataset show higher estimates of total parasite richness when using the host filling method, compared with the ecoregion filling method ( Figure 6 ). It is important to note that the host filling method draws estimates of parasite diversity even in regions where our database had no parasite occurrences available (e.g., Australia). For the primates, the ecoregion filling method points to hotspots of total (Figure 6b ) or relative (Supporting Information Appendix S6, Figure S6 .14) diversity that are not detected by the host filling method. For ungulates and carnivores, the host filling method has regions with higher total (Figure 6c ) or relative diversity (Supporting Information Appendix S6, Figure S6 .13) only in North America and in Europe, but the ecoregion method identifies areas of high total (Figure 6a ) and relative (Supporting Information Appendix S6, Figure S6 .13) richness in Africa and Asia. ",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 255,
+                        "end": 263,
+                        "text": "Figure 6",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 525,
+                        "end": 535,
+                        "text": "(Figure 6b",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 587,
+                        "end": 596,
+                        "text": "Figure S6",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 746,
+                        "end": 756,
+                        "text": "(Figure 6c",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 818,
+                        "end": 827,
+                        "text": "Figure S6",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 926,
+                        "end": 936,
+                        "text": "(Figure 6a",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 989,
+                        "end": 998,
+                        "text": "Figure S6",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| RE SULTS",
+                "sec_num": "4"
+            },
+            {
+                "text": "Can we map global patterns of parasite diversity? The majority of studies that have mapped large scale patterns of parasite diversity or generated spatial predictions of the distribution of zoonotic diseases (Brierley et al., 2016; Han et al., 2016; Olival et al., 2017) have used the distributions of the hosts to infer parasite distributions (i.e., the host filling method). This may be the only reasonable approach for estimating parasite species richness when direct information on parasite occurrence localities is highly limited. In this study, we used a recently published database of wild mammal parasites (GMPD v.2, Stephens et al., 2017) to generate maps of parasite species richness directly from parasite occurrence data. This allowed us to compare regional and global maps of para- For some well-studied hosts, several studies have reported that parasites are not evenly distributed across the geographic range of their host (Cumming, 2002; Shenbrot et al., 2007; Timi & Poulin, 2003) , which could be related to competition among parasites, distribution of intermediate hosts, environmental factors, and other host features such as population density or body size (Cumming, 2002; Morand et al., 2000; Shenbrot et al., 2007) . For example, comprehensive analysis of flea occurrence data in relation to the distribution of their rodent hosts showed that the proportion of the hosts' geographic range that was occupied by fleas was highly variable, ranging from 0.2 to 83.7% (with an average of 30%), and apparent patterns of variation were not driven by sampling effort (Shenbrot et al., 2007) . Cumming (1999) , using a large database on geographic 2003). As a result, the assumption that parasites occupy the full extent of host ranges will in some cases lead to over-estimates of parasite species richness.",
+                "cite_spans": [
+                    {
+                        "start": 208,
+                        "end": 231,
+                        "text": "(Brierley et al., 2016;",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 232,
+                        "end": 249,
+                        "text": "Han et al., 2016;",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 250,
+                        "end": 270,
+                        "text": "Olival et al., 2017)",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 614,
+                        "end": 647,
+                        "text": "(GMPD v.2, Stephens et al., 2017)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 938,
+                        "end": 953,
+                        "text": "(Cumming, 2002;",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 954,
+                        "end": 976,
+                        "text": "Shenbrot et al., 2007;",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 977,
+                        "end": 997,
+                        "text": "Timi & Poulin, 2003)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 1178,
+                        "end": 1193,
+                        "text": "(Cumming, 2002;",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 1194,
+                        "end": 1214,
+                        "text": "Morand et al., 2000;",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 1215,
+                        "end": 1237,
+                        "text": "Shenbrot et al., 2007)",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 1582,
+                        "end": 1605,
+                        "text": "(Shenbrot et al., 2007)",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 1608,
+                        "end": 1622,
+                        "text": "Cumming (1999)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| D ISCUSS I ON",
+                "sec_num": "5"
+            },
+            {
+                "text": "On the other hand, parasite richness estimated from parasite distributions based strictly on direct occurrence data will underestimate true values if spatial sampling is not sufficiently systematic and comprehensive. This can happen even in very well-studied regions of the world such as Europe, and in organisms such as terrestrial European vertebrates that, unlike parasites, are quite well studied (Hawkins, Rueda, & Rodr\u00edguez, 2008) . For example, if we compare the geographic information available for parasites with occurrences reported in GBIF for their hosts, we can see a much higher number of occurrences for hosts (Supporting Information Appendix S11), but a similarly uneven distribution of data (minimum = 1, median = 129, maximum = 81,878). All methods based on parasite occurrences to infer parasite range share biases associated with collection data such as geographic and taxonomic bias, lack of systematic surveys that incorporate absence data, and differences in data mobilization (Lobo et al., 2010; Meyer et al., 2015) .",
+                "cite_spans": [
+                    {
+                        "start": 401,
+                        "end": 436,
+                        "text": "(Hawkins, Rueda, & Rodr\u00edguez, 2008)",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 1000,
+                        "end": 1019,
+                        "text": "(Lobo et al., 2010;",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 1020,
+                        "end": 1039,
+                        "text": "Meyer et al., 2015)",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| D ISCUSS I ON",
+                "sec_num": "5"
+            },
+            {
+                "text": "The ecoregion filling method perhaps represents an intermediate set of assumptions about how to make inferences from limited spatial sampling that is unlikely to produce as many false positives as the host filling method, but results in fewer false negatives compared to the neighbourhood filling method given the more coarse spatial scale of ecoregions. Because ecoregions likely also represent the environmental conditions that determine species distributions of both the parasite and host populations (Fritz et al., 2009) , they could represent a simpler version of environmental niche models.",
+                "cite_spans": [
+                    {
+                        "start": 504,
+                        "end": 524,
+                        "text": "(Fritz et al., 2009)",
+                        "ref_id": "BIBREF24"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| D ISCUSS I ON",
+                "sec_num": "5"
+            },
+            {
+                "text": "A more conservative ecoregion approach would be to only consider the ecoregion area that overlaps with known host ranges. This would seem most appropriate for well-studied species for which it is likely that most natural hosts have been documented. Another potential issue is that a parasite occurrence may be incorrectly assigned to a neighbouring ecoregion when the resolution of the data is low, for example, at the country level, and the centroid of the country is used as a georeferenced point. As such, this method should not be applied for parasite databases that only use country as their spatial units (e.g., the London Natural History Museum's Host-Parasite database, Dallas, 2016) and should be used cautiously with databases of mixed resolution such as the GMPD.",
+                "cite_spans": [
+                    {
+                        "start": 678,
+                        "end": 691,
+                        "text": "Dallas, 2016)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| D ISCUSS I ON",
+                "sec_num": "5"
+            },
+            {
+                "text": "The location data associated with the host-parasite associations reported in the GMPD are concentrated on a few areas of the world (Europe, North America, parts of Africa), even though hosts are mammalian carnivores, primates and ungulates, which represent some of the best studied host groups in general. This spatial bias is not unique to the GMPD. Similar spatial bias is found in other parasite databases (Carlson et al., 2017) and in occurrence data of free living species (e.g., amphibians, birds, mammals: Meyer et al., 2015) .",
+                "cite_spans": [
+                    {
+                        "start": 409,
+                        "end": 431,
+                        "text": "(Carlson et al., 2017)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 513,
+                        "end": 532,
+                        "text": "Meyer et al., 2015)",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| D ISCUSS I ON",
+                "sec_num": "5"
+            },
+            {
+                "text": "Important predictors to explain the uneven distribution of occurrence data in free living species are the shape and size of species geographic ranges, and socio-economic factors that affect funding and infrastructure for research (Meyer, Jetz, Guralnick, Fritz, & Kreft, 2016) . These biases likely also affect parasite occurrence data. (Allen et al., 2017; Wells et al., 2018) . Species accumulation curves (Supporting Information Appendix S4, Figure S4 .6) also showed that even in wellstudied regions such as Europe and North America, there is little evidence of an asymptote in parasite richness with increased sampling; many more parasite species likely remain to be discovered. (Hay et al., 2013; see Wardeh et al., 2015 for the use of nucleotide sequence databases), and we contend that these approaches could also profitably be applied to wild mammals.",
+                "cite_spans": [
+                    {
+                        "start": 230,
+                        "end": 276,
+                        "text": "(Meyer, Jetz, Guralnick, Fritz, & Kreft, 2016)",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 337,
+                        "end": 357,
+                        "text": "(Allen et al., 2017;",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 358,
+                        "end": 377,
+                        "text": "Wells et al., 2018)",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 684,
+                        "end": 702,
+                        "text": "(Hay et al., 2013;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 703,
+                        "end": 726,
+                        "text": "see Wardeh et al., 2015",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 445,
+                        "end": 454,
+                        "text": "Figure S4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| D ISCUSS I ON",
+                "sec_num": "5"
+            },
+            {
+                "text": "Characterizing spatial patterns of parasite diversity can help in understanding disease risk among human and non-human hosts by, for example, identifying areas where zoonotic disease and transmission risk to humans are higher (Han et al., 2016; Pedersen & Davies, 2009; Wells et al., 2018) . A large percentage of mammal parasites are associated with zoonotic diseases (Han et al., 2016) . Carnivores and ungulates, because of their association with livestock (which in turn co-occur with human populations), may serve as reservoirs of zoonotic parasites (Pedersen, Jones, Nunn, & Altizer, 2007; Wiethoelter, Beltr\u00e1n-Alcrudo, Kock, & Mor, 2015) . Conversely, given the phylogenetic relatedness of their hosts, primate parasites have a high potential to infect humans (Pedersen & Davies, 2009) . Although parasite richness estimated by the host filling method to infer parasite geographic range provides a useful estimate of the upper limit of the potential diversity of known parasites (Han et al., 2016) , data on actual parasite occurrences may be needed for realistic assessment of zoonotic risk.",
+                "cite_spans": [
+                    {
+                        "start": 226,
+                        "end": 244,
+                        "text": "(Han et al., 2016;",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 245,
+                        "end": 269,
+                        "text": "Pedersen & Davies, 2009;",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 270,
+                        "end": 289,
+                        "text": "Wells et al., 2018)",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 369,
+                        "end": 387,
+                        "text": "(Han et al., 2016)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 555,
+                        "end": 595,
+                        "text": "(Pedersen, Jones, Nunn, & Altizer, 2007;",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 596,
+                        "end": 644,
+                        "text": "Wiethoelter, Beltr\u00e1n-Alcrudo, Kock, & Mor, 2015)",
+                        "ref_id": "BIBREF62"
+                    },
+                    {
+                        "start": 767,
+                        "end": 792,
+                        "text": "(Pedersen & Davies, 2009)",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 986,
+                        "end": 1004,
+                        "text": "(Han et al., 2016)",
+                        "ref_id": "BIBREF26"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| D ISCUSS I ON",
+                "sec_num": "5"
+            },
+            {
+                "text": "Moving forward, the most promising method to map parasite diversity is likely an integrative approach that combines host distributions with parasite occurrences. For example, Merow, Wilson, and Jetz (2017) integrated expert-based maps with point occurrence data in predictive models of species distributions, combining the strength of disparate data types to better inform species distributions. In a host-parasite framework, this integrative approach could be modified to incorporate expert-based range maps for a parasite's potential hosts as well as sampling schemes related to parasite characteristics (e.g., relevance to public health or livestock management). An alternative approach is to construct species distribution models that, rather than rely on environmental correlates, explicitly simulate ecological processes such as transmission dynamics in relation to host demography and dispersal (Briscoe et al., 2019) . However, given the geographic bias we observed in parasite sampling effort, we contend that a targeted increase in sampling for parasites in understudied areas and better geographic resolution of sampling locations is needed to fully take advantage of more refined methods.",
+                "cite_spans": [
+                    {
+                        "start": 175,
+                        "end": 205,
+                        "text": "Merow, Wilson, and Jetz (2017)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 902,
+                        "end": 924,
+                        "text": "(Briscoe et al., 2019)",
+                        "ref_id": "BIBREF10"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| D ISCUSS I ON",
+                "sec_num": "5"
+            },
+            {
+                "text": "This ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACK N OWLED G M ENTS",
+                "sec_num": null
+            },
+            {
+                "text": "Code and data used in the analysis are supplied in the Supporting Information and in the Dryad Digital Repository doi:10.5061/dryad.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DATA AVA I L A B I L I T Y S TAT E M E N T",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [],
+        "bib_entries": {
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Global hotspots and correlates of emerging zoonotic diseases",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Allen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Murray",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Zambrana-Torrelio",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Morse",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Rondinini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Di Marco",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Daszak",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "Nature Communications",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/s41467-017-00923-8"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Allen, T., Murray, K. A., Zambrana-Torrelio, C., Morse, S. S., Rondinini, C., Di Marco, M., \u2026 Daszak, P. (2017). Global hotspots and correlates of emerging zoonotic diseases. Nature Communications, 8, 1124. https :// doi.org/10.1038/s41467-017-00923-8",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Uses and misuses of bioclimatic envelope modeling",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ara\u00fajo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Peterson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Ecology",
+                "volume": "93",
+                "issue": "",
+                "pages": "1527--1539",
+                "other_ids": {
+                    "DOI": [
+                        "10.1890/11-1930.1"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ara\u00fajo, M. B., & Peterson, A. T. (2012). Uses and misuses of biocli- matic envelope modeling. Ecology, 93, 1527-1539. https ://doi. org/10.1890/11-1930.1",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Global diversity patterns in sandy beach macrofauna: A biogeographic analysis",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Barboza",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Defeo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Scientific Reports",
+                "volume": "5",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/srep14515"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Barboza, F. R., & Defeo, O. (2015). Global diversity patterns in sandy beach macrofauna: A biogeographic analysis. Scientific Reports, 5, 14515. https ://doi.org/10.1038/srep1 4515",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Description and analysis of two internetbased databases of insect pathogens: EDWIP and VIDIL",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Braxton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Onstad",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Dockter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Giordano",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Larsson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Humber",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Journal of Invertebrate Pathology",
+                "volume": "83",
+                "issue": "03",
+                "pages": "89--91",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/S0022-2011(03)00089-2"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Braxton, S., Onstad, D., Dockter, D., Giordano, R., Larsson, R., & Humber, R. (2003). Description and analysis of two internet- based databases of insect pathogens: EDWIP and VIDIL. Journal of Invertebrate Pathology, 83, 185-195. https ://doi.org/10.1016/ S0022-2011(03)00089-2",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Quantifying global drivers of zoonotic bat viruses: A process-based perspective",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Brierley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Vonhof",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Olival",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Daszak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "The American Naturalist",
+                "volume": "187",
+                "issue": "",
+                "pages": "53--64",
+                "other_ids": {
+                    "DOI": [
+                        "10.1086/684391"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Brierley, L., Vonhof, M. J., Olival, K. J., Daszak, P., & Jones, K. E. (2016). Quantifying global drivers of zoonotic bat viruses: A process-based perspective. The American Naturalist, 187, E53-E64. https ://doi. org/10.1086/684391",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Forecasting species range dynamics with process-explicit models: Matching methods to applications",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Briscoe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Elith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Salguero-G\u00f3mez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Lahoz-Monfort",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Camac",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Giljohann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Guillera-Arroita",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "Ecology Letters",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/ele.13348"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Briscoe, N. J., Elith, J., Salguero-G\u00f3mez, R., Lahoz-Monfort, J. J., Camac, J. S., Giljohann, K. M., \u2026 Guillera-Arroita, G. (2019). Forecasting spe- cies range dynamics with process-explicit models: Matching meth- ods to applications. Ecology Letters, Advance Online Publication. https ://doi.org/10.1111/ele.13348",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "What factors explain the geographical range of mammalian parasites?",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Byers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Schmidt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Pappalardo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Haas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Stephens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "Proceedings of the Royal Society B: Biological Sciences",
+                "volume": "286",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1098/rspb.2019.0673"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Byers, J. E., Schmidt, J. P., Pappalardo, P., Haas, S. E., & Stephens, P. R. (2019). What factors explain the geographical range of mammalian parasites? Proceedings of the Royal Society B: Biological Sciences, 286, 20190673. http://dx.doi.org/10.1098/rspb.2019.0673",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Parasite biodiversity faces extinction and redistribution in a changing climate",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Carlson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Burgio",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Dougherty",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Phillips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Bueno",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Clements",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Getz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Science Advances",
+                "volume": "3",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/sciadv.1602422"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Carlson, C. J., Burgio, K. R., Dougherty, E. R., Phillips, A. J., Bueno, V. M., Clements, C. F., \u2026 Getz, W. M. (2017). Parasite biodiversity faces extinction and redistribution in a changing climate. Science Advances, 3, e1602422. https ://doi.org/10.1126/sciadv.1602422",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Global mammal distributions, biodiversity hotspots, and conservation",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Ceballos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Ehrlich",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Proceedings of the National Academy of Sciences USA",
+                "volume": "103",
+                "issue": "",
+                "pages": "19374--19379",
+                "other_ids": {
+                    "DOI": [
+                        "10.1073/pnas.0609334103"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ceballos, G., & Ehrlich, P. R. (2006). Global mammal distributions, biodiversity hotspots, and conservation. Proceedings of the National Academy of Sciences USA, 103, 19374-19379. https ://doi. org/10.1073/pnas.06093 34103",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Rarefaction and extrapolation with Hill numbers: A framework for sampling and estimation in species diversity studies",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Chao",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gotelli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Hsieh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Sander",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Ma",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Colwell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Ellison",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Ecological Monographs",
+                "volume": "84",
+                "issue": "",
+                "pages": "45--67",
+                "other_ids": {
+                    "DOI": [
+                        "10.1890/13-0133.1"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Chao, A., Gotelli, N. J., Hsieh, T. C., Sander, E. L., Ma, K. H., Colwell, R. K., & Ellison, A. M. (2014). Rarefaction and extrapolation with Hill numbers: A framework for sampling and estimation in species diversity studies. Ecological Monographs, 84, 45-67. https ://doi. org/10.1890/13-0133.1",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "The statistics and biology of the species-area relationship",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Connor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Mccoy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1979,
+                "venue": "The American Naturalist",
+                "volume": "113",
+                "issue": "",
+                "pages": "791--833",
+                "other_ids": {
+                    "DOI": [
+                        "10.1086/283438"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Connor, E. F., McCoy, E. D. (1979). The statistics and biology of the spe- cies-area relationship. The American Naturalist, 113, 791-833. https :// doi.org/10.1086/283438",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Checklist of helminth parasites of wild primates from Brazil",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Corr\u00eaa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Bueno",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Soares",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Vieira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Muniz-Pereira",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Revista Mexicana de Biodiversidad",
+                "volume": "87",
+                "issue": "",
+                "pages": "908--918",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.rmb.2016.03.008"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Corr\u00eaa, P., Bueno, C., Soares, R., Vieira, F. M., & Muniz-Pereira, L. C. (2016). Checklist of helminth parasites of wild primates from Brazil. Revista Mexicana de Biodiversidad, 87, 908-918. https ://doi. org/10.1016/j.rmb.2016.03.008",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Host distributions do not limit the species ranges of most African ticks (Acari: Ixodida)",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Cumming",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Bulletin of Entomological Research",
+                "volume": "89",
+                "issue": "",
+                "pages": "303--327",
+                "other_ids": {
+                    "DOI": [
+                        "10.1017/S0007485399000450"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Cumming, G. S. (1999). Host distributions do not limit the species ranges of most African ticks (Acari: Ixodida). Bulletin of Entomological Research, 89, 303-327. https ://doi.org/10.1017/S0007 48539 9000450",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Comparing climate and vegetation as limiting factors for species ranges of African ticks",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Cumming",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Ecology",
+                "volume": "83",
+                "issue": "",
+                "pages": "255--268",
+                "other_ids": {
+                    "DOI": [
+                        "10.1890/0012-9658(2002)083%5B0255:CCAVAL%5D2.0.CO;2"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Cumming, G. S. (2002). Comparing climate and vegetation as limiting fac- tors for species ranges of African ticks. Ecology, 83, 255-268. https :// doi.org/10.1890/0012-9658(2002)083[0255:CCAVA L]2.0.CO;2",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "helminthR: An R interface to the London Natural History Museum's host-parasite database",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Dallas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Ecography",
+                "volume": "39",
+                "issue": "",
+                "pages": "391--393",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/ecog.02131"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Dallas, T. (2016). helminthR: An R interface to the London Natural History Museum's host-parasite database. Ecography, 39, 391-393. https ://doi.org/10.1111/ecog.02131",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "An ecoregion-based approach to protecting half the terrestrial realm",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Dinerstein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Olson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Joshi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Vynne",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Burgess",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Wikramanayake",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Saleem",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "BioScience",
+                "volume": "67",
+                "issue": "",
+                "pages": "534--545",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/biosci/bix014"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Dinerstein, E., Olson, D., Joshi, A., Vynne, C., Burgess, N. D., Wikramanayake, E., \u2026 Saleem, M. (2017). An ecoregion-based ap- proach to protecting half the terrestrial realm. BioScience, 67, 534- 545. https ://doi.org/10.1093/biosc i/bix014",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Global drivers of human pathogen richness and prevalence",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Dunn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Davies",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Harris",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Gavin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Proceedings of the Royal Society B: Biological Sciences",
+                "volume": "277",
+                "issue": "",
+                "pages": "2587--2595",
+                "other_ids": {
+                    "DOI": [
+                        "10.1098/rspb.2010.0340"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Dunn, R. R., Davies, T. J., Harris, N. C., & Gavin, M. C. (2010). Global drivers of human pathogen richness and prevalence. Proceedings of the Royal Society B: Biological Sciences, 277, 2587-2595. https ://doi. org/10.1098/rspb.2010.0340",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "An evaluation of the robustness of global amphibian range maps",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Ficetola",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Rondinini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Bonardi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Katariya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Padoa-Schioppa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Angulo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Journal of Biogeography",
+                "volume": "41",
+                "issue": "",
+                "pages": "211--221",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/jbi.12206"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ficetola, G. F., Rondinini, C., Bonardi, A., Katariya, V., Padoa-Schioppa, E., & Angulo, A. (2014). An evaluation of the robustness of global amphibian range maps. Journal of Biogeography, 41, 211-221. https :// doi.org/10.1111/jbi.12206",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "WorldClim 2: New 1 km spatial resolution climate surfaces for global land areas",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Fick",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hijmans",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "International Journal of Climatology",
+                "volume": "37",
+                "issue": "",
+                "pages": "4302--4315",
+                "other_ids": {
+                    "DOI": [
+                        "10.1002/joc.5086"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Fick, S. E., & Hijmans, R. J. (2017). WorldClim 2: New 1 km spatial reso- lution climate surfaces for global land areas. International Journal of Climatology, 37, 4302-4315. https ://doi.org/10.1002/joc.5086",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Geographical variation in predictors of mammalian extinction risk: Big is bad, but only in the tropics",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Fritz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [
+                            "R P"
+                        ],
+                        "last": "Bininda-Emonds",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Purvis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Ecology Letters",
+                "volume": "12",
+                "issue": "",
+                "pages": "538--549",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1461-0248.2009.01307.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Fritz, S. A., Bininda-Emonds, O. R. P., & Purvis, A. (2009). Geographical variation in predictors of mammalian extinction risk: Big is bad, but only in the tropics. Ecology Letters, 12, 538-549. https ://doi. org/10.1111/j.1461-0248.2009.01307.x",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Can we derive macroecological patterns from primary Global Biodiversity Information Facility data?",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Garc\u00eda-Rosell\u00f3",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Guisande",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Manjarr\u00e9s-Hern\u00e1ndez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Gonz\u00e1lez-Dacosta",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Heine",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Pelayo-Villamil",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Lobo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Global Ecology and Biogeography",
+                "volume": "24",
+                "issue": "",
+                "pages": "335--347",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/geb.12260"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Garc\u00eda-Rosell\u00f3, E., Guisande, C., Manjarr\u00e9s-Hern\u00e1ndez, A., Gonz\u00e1lez- Dacosta, J., Heine, J., Pelayo-Villamil, P., \u2026 Lobo, J. M. (2015). Can we derive macroecological patterns from primary Global Biodiversity Information Facility data? Global Ecology and Biogeography, 24, 335- 347. https ://doi.org/10.1111/geb.12260",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Global patterns of zoonotic disease in mammals",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Han",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Kramer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Drake",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Trends in Parasitology",
+                "volume": "32",
+                "issue": "",
+                "pages": "565--577",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.pt.2016.04.007"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Han, B. A., Kramer, A. M., & Drake, J. M. (2016). Global patterns of zoo- notic disease in mammals. Trends in Parasitology, 32, 565-577. https ://doi.org/10.1016/j.pt.2016.04.007",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Using host associations to predict spatial patterns in the species richness of the parasites of North American carnivores: Carnivore-parasite richness across space",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Harris",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Dunn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Ecology Letters",
+                "volume": "13",
+                "issue": "",
+                "pages": "1411--1418",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1461-0248.2010.01527.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Harris, N. C., & Dunn, R. R. (2010). Using host associations to predict spatial patterns in the species richness of the para- sites of North American carnivores: Carnivore-parasite rich- ness across space. Ecology Letters, 13, 1411-1418. https ://doi. org/10.1111/j.1461-0248.2010.01527.x",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "What do range maps and surveys tell us about diversity patterns? Folia Geobotanica",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hawkins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Rueda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "\u00c1"
+                        ],
+                        "last": "Rodr\u00edguez",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "",
+                "volume": "43",
+                "issue": "",
+                "pages": "345--355",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s12224-008-9007-8"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hawkins, B. A., Rueda, M., & Rodr\u00edguez, M. \u00c1. (2008). What do range maps and surveys tell us about diversity patterns? Folia Geobotanica, 43, 345-355. https ://doi.org/10.1007/s12224-008-9007-8",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Global mapping of infectious disease",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Hay",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Battle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Pigott",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Moyes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Bhatt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Gething",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+                "volume": "368",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1098/rstb.2012.0250"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hay, S. I., Battle, K. E., Pigott, D. M., Smith, D. L., Moyes, C. L., Bhatt, S., \u2026 Gething, P. W. (2013). Global mapping of infectious disease. Philosophical Transactions of the Royal Society B: Biological Sciences, 368, 20120250. https ://doi.org/10.1098/rstb.2012.0250",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "A global gap analysis of infectious agents in wild primates: Gap analysis of primate parasites",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hopkins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Nunn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Diversity and Distributions",
+                "volume": "13",
+                "issue": "",
+                "pages": "561--572",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1472-4642.2007.00364.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hopkins, M. E., & Nunn, C. L. (2007). A global gap analysis of in- fectious agents in wild primates: Gap analysis of primate par- asites. Diversity and Distributions, 13, 561-572. https ://doi. org/10.1111/j.1472-4642.2007.00364.x IUCN. (2007). The IUCN red list of threatened species. version 2017-3. Retrieved from http://www.iucnr edlist.org",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Poor geographical match between the distributions of host diversity and parasite discovery effort",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Jorge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Poulin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Proceedings of the Royal Society B: Biological Sciences",
+                "volume": "285",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1098/rspb.2018.0072"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Jorge, F., & Poulin, R. (2018). Poor geographical match between the dis- tributions of host diversity and parasite discovery effort. Proceedings of the Royal Society B: Biological Sciences, 285, 20180072. http://dx. doi.org/10.1098/rspb.2018.0072",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Spatial variation in species diversity and composition of flea assemblages in small mammalian hosts: Geographical distance or faunal similarity",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Krasnov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Shenbrot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Mouillot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Khokhlova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Poulin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Journal of Biogeography",
+                "volume": "32",
+                "issue": "",
+                "pages": "633--644",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-2699.2004.01206.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Krasnov, B. R., Shenbrot, G. I., Mouillot, D., Khokhlova, I. S., & Poulin, R. (2005). Spatial variation in species diversity and composition of flea assemblages in small mammalian hosts: Geographical distance or faunal similarity? Journal of Biogeography, 32, 633-644. https ://doi. org/10.1111/j.1365-2699.2004.01206.x",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Inordinate fondness multiplied and redistributed: The number of species on earth and the new pie of life",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Larsen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Rhodes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Wiens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "The Quarterly Review of Biology",
+                "volume": "92",
+                "issue": "",
+                "pages": "229--265",
+                "other_ids": {
+                    "DOI": [
+                        "10.1086/693564"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Larsen, B. B., Miller, E. C., Rhodes, M. K., & Wiens, J. J. (2017). Inordinate fondness multiplied and redistributed: The number of species on earth and the new pie of life. The Quarterly Review of Biology, 92, 229-265. https ://doi.org/10.1086/693564",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Parasite species richness in carnivores: Effects of host body mass, latitude, geographical range and population density",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Lindenfors",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Nunn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Cunningham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Sechrest",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Gittleman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Global Ecology and Biogeography",
+                "volume": "16",
+                "issue": "",
+                "pages": "496--509",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1466-8238.2006.00301.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Lindenfors, P., Nunn, C. L., Jones, K. E., Cunningham, A. A., Sechrest, W., & Gittleman, J. L. (2007). Parasite species richness in carnivores: Effects of host body mass, latitude, geographical range and popula- tion density. Global Ecology and Biogeography, 16, 496-509. https :// doi.org/10.1111/j.1466-8238.2006.00301.x",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "The uncertain nature of absences and their importance in species distribution modelling",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Lobo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Jimenez-Valverde",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Hortal",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Ecography",
+                "volume": "33",
+                "issue": "",
+                "pages": "103--114",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1600-0587.2009.06039.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Lobo, J. M., Jimenez-Valverde, A., & Hortal, J. (2010). The uncer- tain nature of absences and their importance in species dis- tribution modelling. Ecography, 33, 103-114. https ://doi. org/10.1111/j.1600-0587.2009.06039.x",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Integrating occurrence data and expert maps for improved species range predictions",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Merow",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Jetz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Global Ecology and Biogeography",
+                "volume": "26",
+                "issue": "",
+                "pages": "243--258",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/geb.12539"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Merow, C., Wilson, A. M., & Jetz, W. (2017). Integrating occurrence data and expert maps for improved species range predictions. Global Ecology and Biogeography, 26, 243-258. https ://doi.org/10.1111/ geb.12539",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Range geometry and socio-economics dominate species-level biases in occurrence information",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Meyer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Jetz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Guralnick",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Fritz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Kreft",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Global Ecology and Biogeography",
+                "volume": "25",
+                "issue": "",
+                "pages": "1181--1193",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/geb.12483"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Meyer, C., Jetz, W., Guralnick, R. P., Fritz, S. A., & Kreft, H. (2016). Range geometry and socio-economics dominate species-level biases in occurrence information. Global Ecology and Biogeography, 25, 1181- 1193. https ://doi.org/10.1111/geb.12483",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Global priorities for an effective information basis of biodiversity distributions",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Meyer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Kreft",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Guralnick",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Jetz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Nature Communications",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/ncomms9221"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Meyer, C., Kreft, H., Guralnick, R., & Jetz, W. (2015). Global priorities for an effective information basis of biodiversity distributions. Nature Communications, 6, 8221. https ://doi.org/10.1038/ncomm s9221",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Niche conservatism and species richness patterns of squamate reptiles in eastern and southern Africa",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Morales-Castilla",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "\u00c1"
+                        ],
+                        "last": "Olalla-T\u00e1rraga",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Bini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "De Marco",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Jr",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hawkins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "\u00c1"
+                        ],
+                        "last": "Rodr\u00edguez",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Austral Ecology",
+                "volume": "36",
+                "issue": "",
+                "pages": "550--558",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1442-9993.2010.02186.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Morales-Castilla, I., Olalla-T\u00e1rraga, M. \u00c1., Bini, L. M., De Marco, P., Jr., Hawkins, B. A., & Rodr\u00edGuez, M. \u00c1. (2011). Niche conserva- tism and species richness patterns of squamate reptiles in east- ern and southern Africa. Austral Ecology, 36, 550-558. https ://doi. org/10.1111/j.1442-9993.2010.02186.x",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Endoparasite species richness of New Caledonian butterfly fishes: Host density and diet matter",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Morand",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Cribb",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kulbicki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Rigby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Chauvet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Dufour",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Sasal",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Parasitology",
+                "volume": "121",
+                "issue": "",
+                "pages": "65--73",
+                "other_ids": {
+                    "DOI": [
+                        "10.1017/S0031182099006058"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Morand, S., Cribb, T. H., Kulbicki, M., Rigby, M. C., Chauvet, C., Dufour, V., \u2026 Sasal, P. (2000). Endoparasite species richness of New Caledonian butterfly fishes: Host density and diet matter. Parasitology, 121, 65- 73. https ://doi.org/10.1017/S0031 18209 9006058",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Biodiversity hotspots for conservation priorities",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Myers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Mittermeier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Mittermeier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "A B"
+                        ],
+                        "last": "Da Fonseca",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Kent",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Nature",
+                "volume": "403",
+                "issue": "",
+                "pages": "853--858",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/35002501"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Myers, N., Mittermeier, R. A., Mittermeier, C. G., da Fonseca, G. A. B., & Kent, J. (2000). Biodiversity hotspots for conservation priorities. Nature, 403, 853-858. https ://doi.org/10.1038/35002501",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Comparative tests of parasite species richness in primates",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Nunn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Altizer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Sechrest",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "The American Naturalist",
+                "volume": "162",
+                "issue": "",
+                "pages": "597--614",
+                "other_ids": {
+                    "DOI": [
+                        "10.1086/378721"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Nunn, C. L., Altizer, S., Jones, K. E., & Sechrest, W. (2003). Comparative tests of parasite species richness in primates. The American Naturalist, 162, 597-614. https ://doi.org/10.1086/378721",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Host and viral traits predict zoonotic spillover from mammals",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Olival",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Hosseini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Zambrana-Torrelio",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Ross",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bogich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Daszak",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Nature",
+                "volume": "546",
+                "issue": "",
+                "pages": "646--650",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Olival, K. J., Hosseini, P. R., Zambrana-Torrelio, C., Ross, N., Bogich, T. L., & Daszak, P. (2017). Host and viral traits predict zoonotic spillover from mammals. Nature, 546, 646-650.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Terrestrial ecoregions of the world: A new map of life on earth",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Olson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Dinerstein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Wikramanayake",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Burgess",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "V N"
+                        ],
+                        "last": "Powell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Underwood",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Kassem",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "BioScience",
+                "volume": "51",
+                "issue": "",
+                "pages": "933--938",
+                "other_ids": {
+                    "DOI": [
+                        "10.1641/0006-3568(2001)051%5B0933:TEOTWA%5D2.0.CO;2"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Olson, D. M., Dinerstein, E., Wikramanayake, E. D., Burgess, N. D., Powell, G. V. N., Underwood, E. C., \u2026 Kassem, K. R. (2001). Terrestrial ecoregions of the world: A new map of life on earth. BioScience, 51, 933-938. https ://doi.org/10.1641/0006-3568(2001)051[0933:- TEOTW A]2.0.CO;2",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Global hotspots of species richness are not congruent with endemism or threat",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D L"
+                        ],
+                        "last": "Orme",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Davies",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Burgess",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Eigenbrod",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Pickup",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Olson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [
+                            "P F"
+                        ],
+                        "last": "Owens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Nature",
+                "volume": "436",
+                "issue": "",
+                "pages": "1016--1019",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nature03850"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Orme, C. D. L., Davies, R. G., Burgess, M., Eigenbrod, F., Pickup, N., Olson, V. A., \u2026 Owens, I. P. F. (2005). Global hotspots of species richness are not congruent with endemism or threat. Nature, 436, 1016-1019. https ://doi.org/10.1038/natur e03850",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Cross-species pathogen transmission and disease emergence in primates",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Pedersen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Davies",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "EcoHealth",
+                "volume": "6",
+                "issue": "",
+                "pages": "496--508",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s10393-010-0284-3"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Pedersen, A. B., & Davies, T. J. (2009). Cross-species pathogen trans- mission and disease emergence in primates. EcoHealth, 6, 496-508. https ://doi.org/10.1007/s10393-010-0284-3",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Infectious diseases and extinction risk in wild mammals",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Pedersen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Nunn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Altizer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Conservation Biology",
+                "volume": "21",
+                "issue": "",
+                "pages": "1269--1279",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1523-1739.2007.00776.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Pedersen, A. B., Jones, K. E., Nunn, C. L., & Altizer, S. (2007). Infectious diseases and extinction risk in wild mammals. Conservation Biology, 21, 1269-1279. https ://doi.org/10.1111/j.1523-1739.2007.00776.x",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "The decay of similarity with geographical distance in parasite communities of vertebrate hosts",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Poulin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Journal of Biogeography",
+                "volume": "30",
+                "issue": "",
+                "pages": "1609--1615",
+                "other_ids": {
+                    "DOI": [
+                        "10.1046/j.1365-2699.2003.00949.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Poulin, R. (2003). The decay of similarity with geographical distance in parasite communities of vertebrate hosts. Journal of Biogeography, 30, 1609-1615. https ://doi.org/10.1046/j.1365-2699.2003.00949.x",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Parasite biodiversity",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Poulin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Morand",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Poulin, R., & Morand, S. (2004). Parasite biodiversity. Washington, DC: Smithsonian Institution Press.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "R: A language and environment for statistical computing",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "R Core Team",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "R Foundation for Statistical Computing",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "R Core Team. (2018). R: A language and environment for statistical comput- ing. Vienna, Austria: R Foundation for Statistical Computing.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Latitudinal gradients in species diversity: The search for the primary cause",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Rhode",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Oikos",
+                "volume": "65",
+                "issue": "",
+                "pages": "514--527",
+                "other_ids": {
+                    "DOI": [
+                        "10.2307/3545569"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Rhode, K. (1992). Latitudinal gradients in species diversity: The search for the primary cause. Oikos, 65, 514-527. https ://doi. org/10.2307/3545569",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Geographical range size and host specificity in ectoparasites: A case study with Amphipsylla fleas and rodent hosts",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Shenbrot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Krasnov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Lu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Journal of Biogeography",
+                "volume": "34",
+                "issue": "",
+                "pages": "1679--1690",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-2699.2007.01736.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Shenbrot, G. I., Krasnov, B. R., & Lu, L. (2007). Geographical range size and host specificity in ectoparasites: A case study with Amphipsylla fleas and rodent hosts. Journal of Biogeography, 34, 1679-1690. https :// doi.org/10.1111/j.1365-2699.2007.01736.x",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "The applications of model-based geostatistics in helminth epidemiology and control",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Soares Magalhaes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C A"
+                        ],
+                        "last": "Clements",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Patil",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Gething",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Brooker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Advances in Parasitology",
+                "volume": "74",
+                "issue": "",
+                "pages": "267--296",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Soares Magalhaes, R. J., Clements, A. C. A., Patil, A. P., Gething, P. W., & Brooker, S. (2011). The applications of model-based geostatistics in helminth epidemiology and control. Advances in Parasitology, 74, 267-296.",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Parasite sharing in wild ungulates and their predators: Effects of phylogeny, range overlap, and trophic links",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Stephens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Altizer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Ezenwa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Gittleman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Moan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Han",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Pappalardo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "Journal of Animal Ecology",
+                "volume": "88",
+                "issue": "",
+                "pages": "1017--1028",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/1365-2656.12987"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Stephens, P. R., Altizer, S., Ezenwa, V. O., Gittleman, J. L., Moan, E., Han, B., \u2026 Pappalardo, P. (2019). Parasite sharing in wild ungulates and their predators: Effects of phylogeny, range overlap, and tro- phic links. Journal of Animal Ecology, 88, 1017-1028. https ://doi. org/10.1111/1365-2656.12987",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "The macroecology of infectious diseases: A new perspective on global-scale drivers of pathogen distributions and impacts",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Stephens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Altizer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Alonso Aguirre",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Budischak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Poulin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Ecology Letters",
+                "volume": "19",
+                "issue": "",
+                "pages": "1159--1171",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/ele.12644"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Stephens, P. R., Altizer, S., Smith, K. F., Alonso Aguirre, A., Brown, J. H., Budischak, S. A., \u2026 Poulin, R. (2016). The macroecology of infectious diseases: A new perspective on global-scale drivers of pathogen dis- tributions and impacts. Ecology Letters, 19, 1159-1171. https ://doi. org/10.1111/ele.12644",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "Global mammal parasite database version 2.0",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Stephens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Pappalardo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Huang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Byers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Farrell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Gehman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Nunn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Ecology",
+                "volume": "98",
+                "issue": "",
+                "pages": "1476--1476",
+                "other_ids": {
+                    "DOI": [
+                        "10.1002/ecy.1799"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Stephens, P. R., Pappalardo, P., Huang, S., Byers, J. E., Farrell, M. J., Gehman, A., \u2026 Nunn, C. L. (2017). Global mammal parasite data- base version 2.0. Ecology, 98, 1476-1476. https ://doi.org/10.1002/ ecy.1799",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "Parasite community structure within and across host populations of a marine pelagic fish: How repeatable is it?",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Timi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Poulin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "International Journal for Parasitology",
+                "volume": "33",
+                "issue": "",
+                "pages": "1353--1362",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Timi, J. T., & Poulin, R. (2003). Parasite community structure within and across host populations of a marine pelagic fish: How repeatable is it? International Journal for Parasitology, 33, 1353-1362.",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Sampling effort and parasite species richness",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Walther",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Cotgreave",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Price",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Gregory",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Clayton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Parasitology Today",
+                "volume": "11",
+                "issue": "",
+                "pages": "80047--80053",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/0169-4758(95)80047-6"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Walther, B. A., Cotgreave, P., Price, R. D., Gregory, R. D., & Clayton, D. H. (1995). Sampling effort and parasite species richness. Parasitology Today, 11, 306-310. https ://doi.org/10.1016/0169-4758(95)80047-6",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Database of host-pathogen and related species interactions, and their global distribution. Scientific Data, 2, 150049",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Wardeh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Risley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Mcintyre",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Setzkorn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Baylis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/sdata.2015.49"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Wardeh, M., Risley, C., McIntyre, M. K., Setzkorn, C., & Baylis, M. (2015). Database of host-pathogen and related species interactions, and their global distribution. Scientific Data, 2, 150049. https ://doi. org/10.1038/sdata.2015.49",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "Global spread of helminth parasites at the human-domestic animal-wildlife interface",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Wells",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Gibson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Clark",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Ribas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Morand",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Mccallum",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Global Change Biology",
+                "volume": "24",
+                "issue": "",
+                "pages": "3254--3265",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/gcb.14064"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Wells, K., Gibson, D. I., Clark, N. J., Ribas, A., Morand, S., & McCallum, H. I. (2018). Global spread of helminth parasites at the human-domes- tic animal-wildlife interface. Global Change Biology, 24, 3254-3265. https ://doi.org/10.1111/gcb.14064",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "Historical biogeography, ecology and species richness",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Wiens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Donoghue",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Trends in Ecology and Evolution",
+                "volume": "19",
+                "issue": "",
+                "pages": "639--644",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.tree.2004.09.011"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Wiens, J. J., & Donoghue, M. J. (2004). Historical biogeography, ecology and species richness. Trends in Ecology and Evolution, 19, 639-644. https ://doi.org/10.1016/j.tree.2004.09.011",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "Global trends in infectious diseases at the wildlife-livestock interface",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Wiethoelter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Beltr\u00e1n-Alcrudo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Kock",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Mor",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Proceedings of the National Academy of SciencesUSA",
+                "volume": "112",
+                "issue": "",
+                "pages": "9662--9667",
+                "other_ids": {
+                    "DOI": [
+                        "10.1073/pnas.1422741112"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Wiethoelter, A. K., Beltr\u00e1n-Alcrudo, D., Kock, R., & Mor, S. M. (2015). Global trends in infectious diseases at the wildlife-livestock inter- face. Proceedings of the National Academy of SciencesUSA, 112, 9662- 9667. https ://doi.org/10.1073/pnas.14227 41112",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "uris": null,
+                "text": "all 19 bioclimatic variables from the WorldClim database (http:// www.world clim.org, Fick & Hijmans, 2017) as potential predictors of parasite distributions. More details can be found in Supporting Information Appendix S3. 5. The host filling method. This method assumed that the extent of occurrence of a parasite is the entire composite geographic range of all the host species reported in our final dataset. The geographic range of a parasite species was thus the combined range occupied by all of its hosts.",
+                "type_str": "figure",
+                "num": null
+            },
+            "FIGREF1": {
+                "uris": null,
+                "text": "of primate hosts. Regional analyses only included parasite species with 10 or more occurrences so that the results of the methods of neighbourhood filling, density, ecoregions and host filling were comparable to the climatic model method. We also summarized the global patterns of parasite diversity. An example of the code to run the analyses (for the continental USA) is presented in Supporting Information Appendix S8, and the corresponding functions are provided in Supporting Information Appendix S9.To compare the parasite species richness estimated using different methods we tested for pairwise correlations and extracted principal components from the geographic distributions of richness.For the principal component analysis, each raster layer of parasite species richness was converted into a vector, and each vector was column-bound resulting in a matrix whose columns represented the mapping method, and whose rows represented a specific 1 grid cell on the map. Rows containing null values (typically non-terrestrial grid cells or cells where one or more of the methods had no information on species richness) were removed. We used the prcomp function (R Core Team, 2018) to estimate the principal components, and the % variance explained by each axis.",
+                "type_str": "figure",
+                "num": null
+            },
+            "FIGREF2": {
+                "uris": null,
+                "text": "been used extensively in analyses of species diversity(Chao et al., 2014), for example, to extrapolate diversity as a function of sampling intensity. Because we are dealing with point occurrence records collected in a non-systematic way and from different sources, our goal was only to compare the degree of saturation shown by accumulation curves as a proxy for sampling completeness, and not to make predictions of the true parasite species richness. We accumulated the number of parasite species through sampling procedures based on different types of data. Specifically, we randomly sampled an increasing number of localities, ecoregions or host species, from one up to the maximum number reported within each geographic region, and we repeated each sampling procedure 100 times.F I G U R E 2Global maps of parasite occurrences, sampling effort and host species richness for ungulates and carnivores (left panel) and primates (right panel). Sampling effort was quantified by the number of citations for each parasite. Parasite occurrences in: (a) ungulates and carnivores, (b) primates. Sampling effort in: (c) ungulates and carnivores, (d) primates. Species richness for the hosts included in our database was generated from IUCN range maps for: (e) ungulates and carnivores, (f) primates. The parasite occurrences are a subset of the GMPD database(Stephens et al., 2017) with the addition of helminth data from Correa et al. (2016). Here we represent only cleaned parasite occurrences within 50 km of IUCN host geographic ranges [Colour figure can be viewed at wileyonlinelibrary.com]",
+                "type_str": "figure",
+                "num": null
+            },
+            "FIGREF3": {
+                "uris": null,
+                "text": "achieve saturation. Principal component analyses comparing parasite species richness obtained through different methods indicated the host filling method as most distinct from all other methods, both in the continental USA and Africa (Figure 3). The correlations between parasite richness estimated with different methods and sampling effort measures are shown in Supporting Information Appendix S5. As expected, parasite richness estimates had medium to strong positive correlations with measures of sampling effort in most cases (Supporting Information Appendix S5, Figures S5.8 and S5.9). The maps showing total parasite richness in the continental USA highlight important differences in the spatial patterns related to the methods used to infer parasite range (Figure 4). The four methods using parasite occurrence data (neighbourhood filling, density, ecoregion filling and climatic model) generally resulted in hotspots of diversity (grid cells in the top 10% of diversity) in the south-eastern USA",
+                "type_str": "figure",
+                "num": null
+            },
+            "FIGREF4": {
+                "uris": null,
+                "text": "higher agreement in the location of hotspots among the different methods, at least in central Africa, but only the four methods based on parasite occurrences resulted in hotspots of parasite richness in southern Africa. The distribution of parasite richness hotspots from the host filling method(Figure 5e) is largely congruent with that of the host richness hotspots(Figure 5f). When sampling effort is taken into account, there are areas of high relative parasite richness in South Africa shared between all methods (Supporting Information Appendix S6,Figure S6.12).",
+                "type_str": "figure",
+                "num": null
+            },
+            "FIGREF5": {
+                "uris": null,
+                "text": "site richness built by different methods to infer parasite distributions. Our results show that even in well-studied areas, the different methods result in profound differences in species richness maps, not only of the range over which richness varies but also of the spatial variation in richness. Among the methods we considered, host filling produced the most distinctive patterns of parasite diversity. Even in one of the best sampled areas, the continental USA, host filling produced a picture of parasite richness that was very different from those produced by the other methods. This discrepancy is concerning, because the assumptions of the host filling method have not been well supported empirically in the literature. A previous study of North American carnivores (Harris & Dunn, 2010) tested whether large scale patterns of parasite richness were robust to violations of the assumption of host filling by removing parasite occurrences from their data, according to different scenarios and rebuilding maps of parasite richness. They showed that the latitudinal pattern in parasite richness exhibited a similar shape whether derived from the full dataset or from a reduced and geographically biased dataset. However, parasite species richness at northern latitudes showed an order of magnitude difference between the full and geographically biased dataset (Harris & Dunn, 2010: supplementary material). A dense, spatially even sampling of parasites in widely distributed hosts could help to shed light into the assumptions of the host filling method, but such detailed data are simply not available for most mammalian hosts.",
+                "type_str": "figure",
+                "num": null
+            },
+            "FIGREF6": {
+                "uris": null,
+                "text": "occurrences of African ticks combined with a review on host use and host distributions, also concluded that host ranges do not predict tick distributions. Further, in some hosts, similarity among parasite communities decreases with distance between host populations (Krasnov, Shenbrot, Mouillot, Khokhlova, & Poulin, 2005; Poulin, F I G U R E 6 Global maps of total parasite species richness for ungulates and carnivores (left panel) and primates (right panel) calculated with the ecoregion filling (a, b) or host filling (c, d) method to infer parasite geographic range [Colour figure can be viewed at wileyonlinelibrary.com]",
+                "type_str": "figure",
+                "num": null
+            },
+            "FIGREF7": {
+                "uris": null,
+                "text": "work was partially supported by the Macroecology of Infectious Disease Research Coordination Network (National Science Foundation Division of Environmental Biology 1316223, a joint program with the National Institutes of Health and the US Department of Agriculture), which also provided useful discussions; special thanks to Maxwell Farrell. P. P. thanks the Osenberg lab at the University of Georgia for useful feedback during early stages of this project and Claire Teitelbaum for assistance to double check geographic coordinates. S. H. thanks the Alexander von Humboldt Foundation and the German Science Foundation (Deutsche Forschungsgemeinschaft, HU 2748/1-1) for support through a postdoc fellowship. I. M-C. acknowledges funding from a postdoctoral fellowship by Universidad de Alcal\u00e1. We also thank the editors and external referee for thoughtful comments and suggestions during the reviewing process.",
+                "type_str": "figure",
+                "num": null
+            },
+            "TABREF3": {
+                "content": "<table/>",
+                "text": "Some of the regions with zero or only a few records in our data are likely regions of true low parasite richness. For example, Greenland and Australia have extremely low diversities of ungulates and carnivores (at least in the IUCN database). However, other areas where available data are sparse, including northern South America (for ungulates and carnivores) and central Asia (for all three host groups), have relatively high host diversity and environmental conditions that are generally suitable for most modes of parasite transmission. Thus, they likely represent insufficient sampling rather than regions of truly low parasite richness. Additional sampling, particularly in Asia, is greatly needed both to characterize parasite fauna in general and better define regions of high human zoonotic potential",
+                "type_str": "table",
+                "num": null
+            },
+            "TABREF4": {
+                "content": "<table/>",
+                "text": "The data that we used in this study represent the largest and most comprehensive dataset with host-parasite associations currently available on the parasites of wild mammals. Other compila-tions have been published but are more limited in their taxonomic scope and/or spatial resolution. For example, the London Natural History Museum's Host-Parasite Database (Dallas, 2016) presents helminth data only at the country level, whereas Braxton et al. (2003) present point locality data but focus only on pathogens of insects, and Wardeh, Risley, McIntyre, Setzkorn, and Baylis (2015) have a broad taxonomic scope of hosts and parasites but only country (and sometimes region) resolution. Even using the best available data, it is apparent that large gaps remain in our knowledge of parasite biodiversity. Non-traditional sources of data, such as expert opinion, nucleotide sequence databases, or social media, have been suggested as sources that could improve the mapping of infectious disease in humans and animals",
+                "type_str": "table",
+                "num": null
+            }
+        }
+    }
+}

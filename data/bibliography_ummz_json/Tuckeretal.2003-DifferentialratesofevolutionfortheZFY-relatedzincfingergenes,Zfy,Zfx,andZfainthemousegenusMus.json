@@ -1,0 +1,3332 @@
+{
+    "paper_id": "Tuckeretal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:34:50.235800Z"
+    },
+    "title": "Differential Rates of Evolution for the ZFY-Related Zinc Finger Genes, Zfy, Zfx, and Zfa in the Mouse Genus Mus",
+    "authors": [
+        {
+            "first": "Priscilla",
+            "middle": [
+                "K"
+            ],
+            "last": "Tucker",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Ronald",
+            "middle": [
+                "M"
+            ],
+            "last": "Adkins",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Joshua",
+            "middle": [
+                "S"
+            ],
+            "last": "Rest",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "A comparative study of the last exon of the zinc finger genes Zfx, Zfy, and Zfa from species of mice in the genus Mus was conducted to assess the extent of gene-specific and chromosome-specific effects on the evolutionary patterns among related X-, Y-, and autosomal-linked genes. Phylogenetic analyses of 29 sequences from Zfx, Zfa, and Zfy from 10 taxa were performed to infer relatedness among the zinc finger loci, and codon-based maximum likelihood analyses were conducted to assess evolutionary pattern among genes. Five models of nucleotide sequence evolution were applied and compared using a likelihood ratio test. Estimates of nonsynonymous to synonymous changes (d N /d S) for these genes suggest that amino acid substitutions are occurring at a more rapid rate across the autosomal-and Y-specific lineages compared to the X-specific lineage, with the Y-specific lineage showing the highest rate under certain models. The data suggest the action of gene-specific effects on evolutionary pattern. In particular, Zfa and Zfy genes, both with presumed restricted expression, appear less functionally constrained relative to ubiquitously expressed Zfx. Slightly elevated d N /d S for Zfy genes in comparison to Zfa also suggest Y-specific effects.",
+    "pdf_parse": {
+        "paper_id": "Tuckeretal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "A comparative study of the last exon of the zinc finger genes Zfx, Zfy, and Zfa from species of mice in the genus Mus was conducted to assess the extent of gene-specific and chromosome-specific effects on the evolutionary patterns among related X-, Y-, and autosomal-linked genes. Phylogenetic analyses of 29 sequences from Zfx, Zfa, and Zfy from 10 taxa were performed to infer relatedness among the zinc finger loci, and codon-based maximum likelihood analyses were conducted to assess evolutionary pattern among genes. Five models of nucleotide sequence evolution were applied and compared using a likelihood ratio test. Estimates of nonsynonymous to synonymous changes (d N /d S) for these genes suggest that amino acid substitutions are occurring at a more rapid rate across the autosomal-and Y-specific lineages compared to the X-specific lineage, with the Y-specific lineage showing the highest rate under certain models. The data suggest the action of gene-specific effects on evolutionary pattern. In particular, Zfa and Zfy genes, both with presumed restricted expression, appear less functionally constrained relative to ubiquitously expressed Zfx. Slightly elevated d N /d S for Zfy genes in comparison to Zfa also suggest Y-specific effects.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "The ZFY-related zinc finger genes comprise a highly conserved vertebrate gene family (Page et al. 1987; Bull, Hillis, and O'Steen 1988; Sinclair et al. 1988; Zimmerer and Threlkeld 1995) . They are characterized by an aminoterminal acidic domain, a putative localizing signal, and a carboxy-terminal DNA binding domain containing 13 zinc fingers (reviewed in Luoh et al. 1995) and are thought to function as transcription activators. In eutherian mammals these genes are sex-linked, having been incorporated into the sex chromosomes after the divergence of the lineages giving rise to marsupials and eutherian mammals well over 100 MYA (Kumar and Hedges 1998; Eizirik, Murphy, and O'Brien 2001; Ji et al. 2002) .",
+                "cite_spans": [
+                    {
+                        "start": 85,
+                        "end": 103,
+                        "text": "(Page et al. 1987;",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 104,
+                        "end": 135,
+                        "text": "Bull, Hillis, and O'Steen 1988;",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 136,
+                        "end": 157,
+                        "text": "Sinclair et al. 1988;",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 158,
+                        "end": 186,
+                        "text": "Zimmerer and Threlkeld 1995)",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 359,
+                        "end": 376,
+                        "text": "Luoh et al. 1995)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 636,
+                        "end": 659,
+                        "text": "(Kumar and Hedges 1998;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 660,
+                        "end": 694,
+                        "text": "Eizirik, Murphy, and O'Brien 2001;",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 695,
+                        "end": 710,
+                        "text": "Ji et al. 2002)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Typically in eutherians there are two copies present, one on the X chromosome (Zfx) and one on the nonrecombining portion of the Y chromosome (Zfy) (Page et al. 1987) . However, multiple Y-chromosome-linked copies have been detected in a diverse group of rodents in the family Muridae. These include wood lemmings (subfamily Arvicolinae: Lau et al. 1992) , South American oryzomyneakodontine mice (subfamily Cricitinae: Bianchi et al. 1992) and mice belonging to the genus Mus (subfamily Murinae). In several species of Mus there are two copies on the Y chromosome (Zfy-1 and Zfy-2) resulting from a recent intrachromosomal duplication, as well as an autosomal copy (Zfa) on chromosome 10, resulting from a recent retroposition of a processed Zfx transcript (Page et al. 1987; Ashworth, Swift, and Affara 1989; Mitchell et al. 1989; Nagamine et al. 1989; Mardon et al. 1990; Page et al. 1990) .",
+                "cite_spans": [
+                    {
+                        "start": 148,
+                        "end": 166,
+                        "text": "(Page et al. 1987)",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 338,
+                        "end": 354,
+                        "text": "Lau et al. 1992)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 420,
+                        "end": 440,
+                        "text": "Bianchi et al. 1992)",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 758,
+                        "end": 776,
+                        "text": "(Page et al. 1987;",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 777,
+                        "end": 810,
+                        "text": "Ashworth, Swift, and Affara 1989;",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 811,
+                        "end": 832,
+                        "text": "Mitchell et al. 1989;",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 833,
+                        "end": 854,
+                        "text": "Nagamine et al. 1989;",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 855,
+                        "end": 874,
+                        "text": "Mardon et al. 1990;",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 875,
+                        "end": 892,
+                        "text": "Page et al. 1990)",
+                        "ref_id": "BIBREF39"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Expression studies in laboratory mice demonstrate that these putatively functional genes have different patterns of expression. Zfx is ubiquitously expressed (Mardon et al. 1990) . Zfa is expressed only in adult testes (Ashworth et al. 1990) . Both Zfy-1 and Zfy-2 are expressed in the germ cells of adult testes. Zfy-1 and possibly Zfy-2 are expressed in somatic cells of the genital ridge and possibly at low levels in other tissues during development. Zfy-1, alone, is expressed in mouse embryonic stem cells and blastocysts (Koopman et al. 1989; Nagamine et al. 1989 Nagamine et al. , 1990 Su and Lau 1992; Zwingman et al. 1993; Zambrowicz et al. 1994) .",
+                "cite_spans": [
+                    {
+                        "start": 158,
+                        "end": 178,
+                        "text": "(Mardon et al. 1990)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 219,
+                        "end": 241,
+                        "text": "(Ashworth et al. 1990)",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 528,
+                        "end": 549,
+                        "text": "(Koopman et al. 1989;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 550,
+                        "end": 570,
+                        "text": "Nagamine et al. 1989",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 571,
+                        "end": 593,
+                        "text": "Nagamine et al. , 1990",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 594,
+                        "end": 610,
+                        "text": "Su and Lau 1992;",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 611,
+                        "end": 632,
+                        "text": "Zwingman et al. 1993;",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 633,
+                        "end": 656,
+                        "text": "Zambrowicz et al. 1994)",
+                        "ref_id": "BIBREF58"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "The presence of related and putatively functional genes located on the X and Y chromosomes as well as on an autosome in the genus Mus provides an opportunity to explore whether the evolution of specific genes is influenced by chromosomal location. Of particular interest is whether linkage to the Y chromosome can affect the pattern of gene evolution. Because the Y chromosome in mammals does not recombine with the X chromosome and is, thus, clonally inherited from father to son, Y-linked genes are potentially subject to a variety of phenomena that may result in higher rates of amino acid change relative to related genes elsewhere in the genome (reviewed in Tucker and Lundrigan 1995; Charlesworth and Charlesworth 2000) .",
+                "cite_spans": [
+                    {
+                        "start": 663,
+                        "end": 689,
+                        "text": "Tucker and Lundrigan 1995;",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 690,
+                        "end": 725,
+                        "text": "Charlesworth and Charlesworth 2000)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Amino acid changes on the Y chromosome can reflect chromosome-specific effects such as an increased fixation of deleterious mutations caused by processes associated with the degeneration of the Y chromosome (Charlesworth and Charlesworth 2000) . Specifically, an increase in the fixation of slightly deleterious mutations can result from the following phenomena: (1) genetic drift (Nei 1970) as a result of the Y chromosome having a smaller effective population size relative to the X chromosome and to the autosomes; e.g., when the male-to-female breeding sex ratio is one, Ylinked genes are only one-quarter as numerous as autosomes and one-third as numerous as X chromosomes; (2) Muller's ratchet (Muller 1964; Felsenstein 1974 ), a strictly stochastic process whereby the class of nonrecombining chromosomes with the fewest number of mutations is lost from the population; (3) background selection (Charlesworth, Morgan, and Charlesworth 1993; Charlesworth 1994 ), a process whereby nonrecombining chromosomes carrying strongly selected deleterious mutations are eliminated from the population, resulting in a reduced effective population of nonrecombining chromosomes, an increase in the fixation of slightly deleterious mutations, and a decrease in the fixation of mildly advantageous mutations (Charlesworth and Charlesworth 2000) ; (4) hitchhiking effects (Maynard Smith and Haigh 1974) in a nonrecombining genome where slightly deleterious alleles linked to a favorable mutation can become fixed; and (5) the Hill-Robertson effect (Hill and Robertson 1966; Felsenstein 1974 Felsenstein , 1988 Birky and Walsh 1988) where alleles under selection interfere with selection at linked sites. All of these phenomena can have the effect of increasing the fixation of amino-acid changes at weakly constrained sites (see table 1 in Charlesworth and Charlesworth 2000) .",
+                "cite_spans": [
+                    {
+                        "start": 207,
+                        "end": 243,
+                        "text": "(Charlesworth and Charlesworth 2000)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 381,
+                        "end": 391,
+                        "text": "(Nei 1970)",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 700,
+                        "end": 713,
+                        "text": "(Muller 1964;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 714,
+                        "end": 730,
+                        "text": "Felsenstein 1974",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 902,
+                        "end": 947,
+                        "text": "(Charlesworth, Morgan, and Charlesworth 1993;",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 948,
+                        "end": 965,
+                        "text": "Charlesworth 1994",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 1301,
+                        "end": 1337,
+                        "text": "(Charlesworth and Charlesworth 2000)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 1364,
+                        "end": 1394,
+                        "text": "(Maynard Smith and Haigh 1974)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 1540,
+                        "end": 1565,
+                        "text": "(Hill and Robertson 1966;",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1566,
+                        "end": 1582,
+                        "text": "Felsenstein 1974",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 1583,
+                        "end": 1601,
+                        "text": "Felsenstein , 1988",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 1602,
+                        "end": 1623,
+                        "text": "Birky and Walsh 1988)",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 1832,
+                        "end": 1867,
+                        "text": "Charlesworth and Charlesworth 2000)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Alternatively, amino acid changes on the Y chromosome can result from gene-specific effects such as positive Darwinian selection acting on Y-linked genes evolving independent of related X-linked genes. These can include sexually antagonistic genes such as genes involved in male mating success (reviewed in Rice 1996) or selfish growthpromoting Y-linked genes associated with embryonic development (Hurst 1994) .",
+                "cite_spans": [
+                    {
+                        "start": 307,
+                        "end": 317,
+                        "text": "Rice 1996)",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 398,
+                        "end": 410,
+                        "text": "(Hurst 1994)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Finally, differences in functional constraint between related genes, also a gene-specific effect, may result in different evolutionary patterns. For example, expression patterns have been correlated with degree of functional constraint where ubiquitously expressed genes are under greater functional constraint than genes with restricted tissue expression (Hastings 1996; Duret and Mouchiroud 2000) .",
+                "cite_spans": [
+                    {
+                        "start": 356,
+                        "end": 371,
+                        "text": "(Hastings 1996;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 372,
+                        "end": 398,
+                        "text": "Duret and Mouchiroud 2000)",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Here we compare the last zinc finger-encoding exon of Zfx, Zfy-1, Zfy-2, and Zfa, among species in the mouse genus Mus to determine whether these genes display different patterns of evolution and, if so, whether the patterns are consistent with chromosome-specific and/or gene-specific effects as described above. We provide evidence for distinctly elevated rates of amino acid change for the Zfa and Zfy genes in comparison to Zfx, and for slightly higher rates of amino acid change for the Zfy genes in comparison to the Zfa genes. We suggest that both gene-specific and chromosome-specific effects play a role in the differential evolution of the zinc finger genes.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "The taxonomic source for all original data collected is given in table 1. DNA sequence was obtained from Zfx, Zfa, and the Zfy genes corresponding to positions 1580-2575 from inbred mouse strain FVB/N Zfy-2 mRNA (GenBank accession number NM_009571; . Zfx/Zfy sequences from three additional taxa were taken from the literature. These include Zfx and Zfy sequences from the Norway rat, Rattus norvegicus (Murinae) (GenBank accession numbers X75171, X75172; Shimmin, Chang, and Li 1994), a putative Zfx sequence from the Japanese spinous country-rat, Tokudaia osimensis (Murinae) (D83489; Xiao, Tsuchiya, and Sutou 1998) , and an alligator (Alligator mississippiensis) zinc finger gene, Azf-1 (X61714; Valleley et al., 1992) .",
+                "cite_spans": [
+                    {
+                        "start": 587,
+                        "end": 618,
+                        "text": "Xiao, Tsuchiya, and Sutou 1998)",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 700,
+                        "end": 722,
+                        "text": "Valleley et al., 1992)",
+                        "ref_id": "BIBREF52"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods Sampling",
+                "sec_num": null
+            },
+            {
+                "text": "The targeted region was amplified from genomic DNA by polymerase chain reaction (PCR) using genespecific primers and sequenced directly in both directions by the dideoxynucleotide chain termination method in a thermocycling reaction (GIBCO BRL), using single primers kinased with 32 P ATP. The last exon of Zfy-1 differs from that of Zfy-2 by the deletion of the fifth codon preceding the termination codon. This difference was used to design a primer specific for Zfy-1 (59-TTAG-GGCAGGCCAACTTT-39). Other loci were amplified specifically by using unique primers at their 59 end (Zfa: 59-GCTTATGGTAATAATTCTGATGGA-39; Zfy: 59-GGCCCTGATGGACATCCTTTGAC-39; Zfx: 59-ACTA-AATCAGCATGTTTTGATCAC-39) and a common primer at the 39 end (59-TTAGGGCAGGCCAACTT-CTTT-39). Zfy sequences were verified as being malespecific by the failure to produce a product in PCR reactions from female M. musculus and M. domesticus in the same PCR experiment. To guarantee that only one copy of Zfx was sequenced per individual, Zfx sequences were obtained from males. Zfa sequences were from the same males and are present in two copies. There was no evidence of heterozygosity at this locus. GenBank accession numbers for original data compared in this study include AY159976 through AY160025.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "PCR Amplification of Targeted Sequences",
+                "sec_num": null
+            },
+            {
+                "text": "The conceptually translated amino acid sequences for all genes were aligned in ClustalX (Thompson et al. 1997) and forced back onto the nucleotide sequence. Identical sequences were combined in the data matrix, leaving a total of 29 sequences for subsequent analyses.",
+                "cite_spans": [
+                    {
+                        "start": 88,
+                        "end": 110,
+                        "text": "(Thompson et al. 1997)",
+                        "ref_id": "BIBREF49"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Alignment",
+                "sec_num": null
+            },
+            {
+                "text": "A parsimony analysis was performed using the parsimony ratchet as implemented in WinClada 1.00.08 (Nixon 2002) with 500 iterations per replication, 10 trees Table 1 Taxonomic Source of Original Data Collected and Analyzed for the Last Exon of the Zfx, Zfa, and the Zfy Genes",
+                "cite_spans": [
+                    {
+                        "start": 98,
+                        "end": 110,
+                        "text": "(Nixon 2002)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 157,
+                        "end": 164,
+                        "text": "Table 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Phylogeny Reconstruction",
+                "sec_num": null
+            },
+            {
+                "text": "Origin Zfx Zfa Zfy-1 Zfy-2 Mus domesticus Maryland, USA X X X X Molise, Italy X X X X Lazio, Italy X X X X Zalende, Switzerland X X X X Tafilalt Oasis, Morocco X X Sondrio, Italy X X Mus musculus Slovakia X X X X musculus Viborg, Denmark X X X X Kyushu, Japan X X X X Mus musculus castaneus Chonburi Prov., Thailand X X X X Mus spretus Azrou, Morocco X X X X b Mus spicilegus Halbturn, Austria X X X Mus macedonicus a Gradsko, Macedonia X X X Mus cookii Tak Prov., Thailand X X X Mus caroli Chonburi Prov., Thailand X X X",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Phylogeny Reconstruction",
+                "sec_num": null
+            },
+            {
+                "text": "a Data from two individuals collected from the same locality. b Zfy-2 from M. spretus is possibly not orthologous to Zfy-2 from held per iteration, and 10 sequential ratchet runs. To assess support for the topology in the data set, a parsimony bootstrap (Felsenstein 1985) was performed using NONA (Goloboff 1999) with 1,000 replications, 10 search replicates, and one starting tree per replication. For all parsimony searches, nucleotide characters were unordered and equally weighted, and gaps were treated as missing data. The alligator Azf-1 sequence was used as an outgroup.",
+                "cite_spans": [
+                    {
+                        "start": 254,
+                        "end": 272,
+                        "text": "(Felsenstein 1985)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 298,
+                        "end": 313,
+                        "text": "(Goloboff 1999)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Phylogeny Reconstruction",
+                "sec_num": null
+            },
+            {
+                "text": "A Bayesian phylogenetic analysis was conducted with MrBayes 2.1 (Huelsenbeck and Ronquist 2001) . A general time reversible (GTR) model with a gamma rate distribution and a proportion of invariable sites was used (Yang 1994) . The analysis was initiated with random starting trees and was run for 1 3 10 6 generations, sampling every 100th generation. Four continuous chains were run with the initial 50,000 generations discarded as burnin. To check that stationarity had been reached, the fluctuating value of the likelihood was checked graphically. The simulation was conducted twice.",
+                "cite_spans": [
+                    {
+                        "start": 64,
+                        "end": 95,
+                        "text": "(Huelsenbeck and Ronquist 2001)",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 213,
+                        "end": 224,
+                        "text": "(Yang 1994)",
+                        "ref_id": "BIBREF57"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Phylogeny Reconstruction",
+                "sec_num": null
+            },
+            {
+                "text": "Codon based maximum likelihood analyses were conducted using PAML 3.12 (Yang 1999) to assess evolutionary patterns within and among genes. Two methods were used. The first method allows for analysis of lineage-specific d N /d S ratios within a phylogeny (Goldman and Yang 1994) where d N is the number of nonsynonymous changes per nonsynonymous site and d S is the number of synonymous changes per synonymous site. Five models of nucleotide sequence evolution were applied to the data set. They include (1) a ''one ratio'' model where the d N / d S ratio is assumed to hold for all lineages; (2) a ''two ratio'' model where the d N /d S ratios are allowed to vary between Zfx, Zfa, and Azf-1 lineages (the X and autosomal genes) and Zfy lineages (the Y-linked genes); (3) a ''three ratio'' model where the d N /d S ratios are allowed to vary among Azf-1 (a gene whose expression pattern is not fully determined [Valleley et al. 1992] ), the Zfy/Zfa lineages (genes with putatively restricted expression), and the Zfx lineages (putative ubiquitously expressed genes); (4) a ''four ratio'' model where the d N /d S ratios are allowed to vary among the Zfx, Zfy, Zfa, and Azf-1 gene lineages; and (5) a ''free ratio'' model where the d N /d S ratios are allowed to vary across all lineages. Given the data set and the inferred phylogeny, the fit of these four different models to the data was statistically compared using the likelihood ratio test. The test statistic compares twice the difference in log likelihood values with a v 2 distribution with degrees of freedom equal to the difference in free parameters between the models.",
+                "cite_spans": [
+                    {
+                        "start": 71,
+                        "end": 82,
+                        "text": "(Yang 1999)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 267,
+                        "end": 277,
+                        "text": "Yang 1994)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 911,
+                        "end": 933,
+                        "text": "[Valleley et al. 1992]",
+                        "ref_id": "BIBREF52"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Codon Based Likelihood Analyses",
+                "sec_num": null
+            },
+            {
+                "text": "The second method allows for the detection of positively selected sites within genes. The NSsites models in PAML (Yang 1999) were used to evaluate whether positive selection has acted on particular sites in Zfy, Zfa, and Zfx (Nielsen and Yang 1998) . Two types of models were applied to the data set, one that allows for only neutral and negatively selected sites and one that allows for positively selected sites in addition to neutral and negatively selected sites. The test was also performed with a model that allows for heterogeneity of the d N /d S rate ratio among sites. As described above, the fit of the data to each of the models was statistically compared using the likelihood ratio test where the test statistic compares twice the difference in log likelihood values with a v 2 distribution with degrees of freedom equal to the difference in free parameters between the models.",
+                "cite_spans": [
+                    {
+                        "start": 113,
+                        "end": 124,
+                        "text": "(Yang 1999)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 225,
+                        "end": 248,
+                        "text": "(Nielsen and Yang 1998)",
+                        "ref_id": "BIBREF35"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Codon Based Likelihood Analyses",
+                "sec_num": null
+            },
+            {
+                "text": "No within species variation in Zfx sequences was found in either the M. domesticus or M. musculus sampled (table 1). In fact, Zfx sequences from these two species were identical to each other. No within-species variation in Zfa sequences was found within M. domesticus or within M. musculus. No within-species variation in Zfy-1 sequences from M. domesticus was found. However, two variants of Zfy-1 were found in M. musculus. The M. musculus from Japan differed from the other M. musculus samples at two nucleotide positions involving one synonymous and one nonsynonymous change. No within-species variation was found in Zfy-2 sequences from M. musculus; however, two variants of Zfy-2 were found in M. domesticus. The two M. domesticus from Molise and Lazio, Italy, respectively, differed from the remaining samples at a single site involving one synonymous change. Identical sequences were pooled for subsequent analyses.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Variation Within Species",
+                "sec_num": null
+            },
+            {
+                "text": "Percent identity within the genus Mus among Zfx nucleotide sequences ranges from 99 to 100; among Zfa sequences, from 97.5 to 100; among Zfy-1 sequences, from 98.5 to 100; and among Zfy-2 sequences, from 95.8 to 100. Percent identity between all Zfy and all Zfa sequences ranges from 82.1 to 85.7; between all Zfy and Zfx sequences, from 82.8 to 85.8; and between all Zfx and Zfa sequences, from 96.9 and 98.7.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Variation Within and Between Genes",
+                "sec_num": null
+            },
+            {
+                "text": "One-hundred and fifty-three equally most parsimonious trees were recovered from the heuristic search of 29 taxa. A strict consensus of these trees (not shown) is consistent with a 50% majority rule bootstrap consensus tree ( fig. 1) . Bayesian analyses yielded a compatible topology, the only differences being the resolution of two nodes that are collapsed in the parsimony analyses. Two distinct clades exist when the tree is rooted with the alligator zinc finger gene (Azf-1). One clade comprises the Zfx and Zfa sequences. The other clade comprises the Zfy sequences and one sequence from Tokudaia osimensis spp. labeled in GenBank as a Zfx gene (Xiao, Tsuchiya, and Sutou 1998 ). There is a lack of resolution among Zfx sequences after the Mus-Rattus split but varying degrees of resolution among Zfa sequences and Zfy sequences.",
+                "cite_spans": [
+                    {
+                        "start": 650,
+                        "end": 681,
+                        "text": "(Xiao, Tsuchiya, and Sutou 1998",
+                        "ref_id": "BIBREF56"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 225,
+                        "end": 232,
+                        "text": "fig. 1)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Phylogenetic Analyses",
+                "sec_num": null
+            },
+            {
+                "text": "Likelihood ratio tests (Goldman and Yang 1994; Yang 1998 ) to assess the fit of the five evolutionary models given the data set and phylogeny (the 50% Evolution of Zinc Finger Genes in Mus 1001 majority rule consensus tree described above) indicate that the free ratio model, the two ratio model (the d N /d S value for the Y-specific gene lineage varies independently from all other lineages), the three ratio model (the d N /d S value for the Zfx gene lineage varies independently from the d N / d S for Zfa/Zfy gene lineages and from Azf-1), and the four ratio model (d N /d S values for the X-, Y-, autosomalspecific, and Azf-1 lineages vary independently from each other) are all a significantly better fit to the data than the one ratio model (d N /d S are constant across all gene lineages) (table 2). The three, four, and free ratio models are significantly better (P , 0.05) than the two ratio model. The free and four ratio models are not significantly better than the three ratio model, and the free ratio model is not significantly better than the four ratio model. Taken together, these analyses suggest that the three ratio model best describes the data and indicate that there is not significant variation in d N /d S within the four zinc finger gene lineages. Rather, the zinc finger genes are evolving in a gene-specific manner that is possibly associated with tissue expression patterns.",
+                "cite_spans": [
+                    {
+                        "start": 23,
+                        "end": 46,
+                        "text": "(Goldman and Yang 1994;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 47,
+                        "end": 56,
+                        "text": "Yang 1998",
+                        "ref_id": "BIBREF57"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Evolutionary Patterns",
+                "sec_num": null
+            },
+            {
+                "text": "Estimates of d N /d S under the three, four, and free ratio models suggest that the amino acid substitutions are occurring at a more rapid rate across Y-specific and autosomal lineages compared to the X-specific lineages ( fig. 1) . Under the three ratio model the d N /d S for Zfy/Zfa is nine times greater than that for Zfx. Under the four ratio model, the d N /d S for Zfy is also nine times greater than that for Zfx but only slightly greater than that for Zfa, and the d N /d S for Zfa is six times greater than that for Zfx. The d N / d S ratios under the free ratio model (also shown in fig. 1) show a similar pattern.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 223,
+                        "end": 230,
+                        "text": "fig. 1)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 594,
+                        "end": 601,
+                        "text": "fig. 1)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Evolutionary Patterns",
+                "sec_num": null
+            },
+            {
+                "text": "Likelihood analyses for detecting positively selected amino acid sites yielded varying results. For Zfx, the model allowing positive selection performs significantly better (P , 0.05) than the model allowing for only neutral or negatively selected sites, both when the d N /d S rate ratio is constant and when it is allowed to vary across sites according to a beta distribution (data not shown). According to these models, a single codon (position 185 in our alignment) is positively selected (d N /d S . 1). However, the meaning of positive selection at this site is difficult to interpret without more structural and/or functional information on the Zfx protein. For Zfy and Zfa, models that allow for positive selection do not perform significantly better than models that allow for only neutral or negatively selected sites.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Evolutionary Patterns",
+                "sec_num": null
+            },
+            {
+                "text": "The existence of two distinct clades, one comprising the Zfx and Zfa sequences and the other comprising the Zfy sequences, supports the hypothesis that Zfa originated as a retroposition of a processed Zfx transcript. Monophyly of the Zfx genes and, with one anomaly (see below), the Zfy genes suggest that gene conversion has not played a major role in the evolution of these two genes in the murine rodents sampled. This is in contrast to evidence for gene conversion in human ZFX/ZFY and in Zfx/Zfy from the crab-eating fox (Dusicyon thous) (Pamilo and Bianchi 1993) . A lack of resolution among the Zfx sequences after the Mus-Rattus split is a result of a lack of phylogenetic signal as a result of the conserved nature of these sequences.",
+                "cite_spans": [
+                    {
+                        "start": 543,
+                        "end": 568,
+                        "text": "(Pamilo and Bianchi 1993)",
+                        "ref_id": "BIBREF41"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Phylogenetic Analyses",
+                "sec_num": null
+            },
+            {
+                "text": "The clade comprising the Zfy sequences includes a sequence from Tokudaia osimensis spp. labeled in GenBank as a Zfx gene (Xiao, Tsuchiya, and Sutou 1998) . This taxon has a 2N \u00bc 45 XO karyotype with no distinguishable differences in karyotype between males and females (Honda et al., 1978) . Because of the absence of the Y chromosome in this taxon, the gene was labeled Zfx. However, based on our phylogenetic analyses, this sequence is clearly related to Zfy. In all likelihood this gene is the result of a ''recent'' translocation of Zfy from the Y to the X chromosome associated with the loss of the Y chromosome from this taxon. A closely related taxon, T. osimensis muenninki, in addition to the closely related genus Rattus has the standard XX/XY sex-dermining system (Sutou, Mitsui, and Tsuchiya 2001) , indicating that the lack of the Y chromosome is a recently derived condition. Although the translocation of Zfy to the X chromosome in populations of Tokudaia osimensis could in theory provide a test for the effects of chromosome location on gene evolution, the translocation event probably occurred too recently to detect changes in evolutionary pattern.",
+                "cite_spans": [
+                    {
+                        "start": 121,
+                        "end": 153,
+                        "text": "(Xiao, Tsuchiya, and Sutou 1998)",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 269,
+                        "end": 289,
+                        "text": "(Honda et al., 1978)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 775,
+                        "end": 809,
+                        "text": "(Sutou, Mitsui, and Tsuchiya 2001)",
+                        "ref_id": "BIBREF48"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Phylogenetic Analyses",
+                "sec_num": null
+            },
+            {
+                "text": "The clade comprising the Zfy-1 genes includes a sequence labeled Zfy-2 from M. spretus. This sequence is more closely related to Zfy-1 than to other Zfy-2 sequences and suggests either that the sequence is a recent intrachromosomal duplication of Zfy-1-i.e., it is nonhomologus to other Zfy-2 genes-or a Zfy-2 sequence has undergone gene conversion. An analysis of the 39 portion of the gene may shed light on these alternatives.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Phylogenetic Analyses",
+                "sec_num": null
+            },
+            {
+                "text": "Variation in d N /d S ratios across genes over time is generally attributed to differential selective constraints. Typically, genes appear to be highly selectively constrained and d N /d S values are low. For example, Wolfe and Sharp (1993) estimated the average d N /d S for 363 genes compared between mouse and rat to be 0.14. The elevated rates for Zfy (0.38 under the four ratio model) and Zfa (0.27) may indicate such gene-specific effects as the action of positive Darwinian selection, reduced selective constraint, or, in the case of Zfy, its position in the nonrecombining region of the Y chromosome.",
+                "cite_spans": [
+                    {
+                        "start": 218,
+                        "end": 240,
+                        "text": "Wolfe and Sharp (1993)",
+                        "ref_id": "BIBREF55"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Evolutionary Patterns",
+                "sec_num": null
+            },
+            {
+                "text": "When d N /d S ratios are greater than one for a gene, positive selection is hypothesized to account for the rapid amino acid divergence. However, d N /d S ratios greater than one are a conservative estimate of positive selection, especially when made over long periods of time because positive selection can be episodic and followed by purifying selection (Zhang, Rosenberg, and Nei 1998) . This can result in a muted signal for positive selection (Schaner et al. 2001) , i.e., elevated d N /d S that are not greater than 1. While ratios of d N /d S for the Zfy genes are generally not greater than 1, the exception being the lineage giving rise to the M. spretus Zfy genes ( fig. 1) , they are relatively high for a functional gene, especially compared to the related gene, Zfx, which presumably shares a similar function (i.e., transcription activation).",
+                "cite_spans": [
+                    {
+                        "start": 356,
+                        "end": 388,
+                        "text": "(Zhang, Rosenberg, and Nei 1998)",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 448,
+                        "end": 469,
+                        "text": "(Schaner et al. 2001)",
+                        "ref_id": "BIBREF44"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 676,
+                        "end": 683,
+                        "text": "fig. 1)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Evolutionary Patterns",
+                "sec_num": null
+            },
+            {
+                "text": "This pattern is similar to what was found for another Y-chromosome-linked functional gene, the male sexdetermining locus, Sry (Whitfield, Lovell-Badge, and Goodfellow 1993; Tucker and Lundrigan 1993; Pamilo and O'Neill 1997; Wang, Zhang, and Zhang 2002; Jansa, Lundrigan, and Tucker in press) . In comparative studies of primates and rodents d N /d S values for Sry ranged from 0.47 to 1.88 for primates and from 0.33 to 0.45 for rodents, with values being especially high in the C-terminal region of the gene (Tucker and Lundrigan 1993; Whitfield, Lovell-Badge, and Goodfellow 1993; Pamilo and O'Neill 1997) . In addition, variation in the elevated d N /d S was observed among lineages (Wang, Zhang, and Zhang 2002) . Both weak positive Darwinian selection and purifying selection have been offered as explanations for these patterns (reviewed in O'Neill and O'Neill 1999; Wang, Zhang, and Zhang 2002; Jansa, Lundrigan, and Tucker 2003) . However, studies of 12 closely related species of rock wallaby (Petrogale) indicated that Sry evolution was not rapid over a short evolutionary time (O'Neill et al. 1997 , the d N /d S ratios were quite low with 71% being less than 0.03 (reviewed in O'Neill and O'Neill 1999). Furthermore, a population level study of M. domesticus (Nachman and Aquadro 1994) , in which levels of polymorphism to divergence were compared for Sry flanking sequence, revealed no evidence for selection acting on the nonrecombining portion of the Y chromosome. Taken together, these data suggest that positive Darwinian selection may not account for the elevated d N /d S in Sry, at least not over short evolutionary time periods. This may also be the case for Zfy, as there is no other evidence for positive selection acting on this gene; e.g., no positively selected sites were detected in Zfy using the codon-based likelihood analysis.",
+                "cite_spans": [
+                    {
+                        "start": 126,
+                        "end": 172,
+                        "text": "(Whitfield, Lovell-Badge, and Goodfellow 1993;",
+                        "ref_id": "BIBREF54"
+                    },
+                    {
+                        "start": 173,
+                        "end": 199,
+                        "text": "Tucker and Lundrigan 1993;",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 200,
+                        "end": 224,
+                        "text": "Pamilo and O'Neill 1997;",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 225,
+                        "end": 253,
+                        "text": "Wang, Zhang, and Zhang 2002;",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 254,
+                        "end": 292,
+                        "text": "Jansa, Lundrigan, and Tucker in press)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 510,
+                        "end": 537,
+                        "text": "(Tucker and Lundrigan 1993;",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 538,
+                        "end": 583,
+                        "text": "Whitfield, Lovell-Badge, and Goodfellow 1993;",
+                        "ref_id": "BIBREF54"
+                    },
+                    {
+                        "start": 584,
+                        "end": 608,
+                        "text": "Pamilo and O'Neill 1997)",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 687,
+                        "end": 716,
+                        "text": "(Wang, Zhang, and Zhang 2002)",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 835,
+                        "end": 873,
+                        "text": "(reviewed in O'Neill and O'Neill 1999;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 874,
+                        "end": 902,
+                        "text": "Wang, Zhang, and Zhang 2002;",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 903,
+                        "end": 937,
+                        "text": "Jansa, Lundrigan, and Tucker 2003)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 1089,
+                        "end": 1109,
+                        "text": "(O'Neill et al. 1997",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 1272,
+                        "end": 1298,
+                        "text": "(Nachman and Aquadro 1994)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Evolutionary Patterns",
+                "sec_num": null
+            },
+            {
+                "text": "Assuming that expression patterns are similar within gene lineages, the elevated d N /d S ratios for Zfy and Zfa genes in comparison to the Zfx genes is consistent with the prediction that ubiquitously expressed genes are under greater functional constraint than genes with limited tissue expression (Hastings 1996; Duret and Mouchiroud 2000) . The more slowly evolving Zfx is ubiquitously expressed in inbred mouse strains (Mardon et al. 1990 ) that are of M. domesticus/M. musculus origin (Tucker et al. 1992 ) in contrast to Zfy and Zfa tissue expression, which is limited primarily to the adult testis in inbred mouse strains (Koopman et al. 1989; Nagamine et al. 1989 Nagamine et al. , 1990 Ashworth et al. 1990; Su and Lau 1992; Zwingman et al. 1993; Zambrowicz et al., 1994) .",
+                "cite_spans": [
+                    {
+                        "start": 300,
+                        "end": 315,
+                        "text": "(Hastings 1996;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 316,
+                        "end": 342,
+                        "text": "Duret and Mouchiroud 2000)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 424,
+                        "end": 443,
+                        "text": "(Mardon et al. 1990",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 491,
+                        "end": 510,
+                        "text": "(Tucker et al. 1992",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 630,
+                        "end": 651,
+                        "text": "(Koopman et al. 1989;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 652,
+                        "end": 672,
+                        "text": "Nagamine et al. 1989",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 673,
+                        "end": 695,
+                        "text": "Nagamine et al. , 1990",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 696,
+                        "end": 717,
+                        "text": "Ashworth et al. 1990;",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 718,
+                        "end": 734,
+                        "text": "Su and Lau 1992;",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 735,
+                        "end": 756,
+                        "text": "Zwingman et al. 1993;",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 757,
+                        "end": 781,
+                        "text": "Zambrowicz et al., 1994)",
+                        "ref_id": "BIBREF58"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Evolutionary Patterns",
+                "sec_num": null
+            },
+            {
+                "text": "The even higher d N /d S for Zfy genes in comparison to Zfa genes under the four and free ratios models, however, may reflect inefficient selection on weakly constrained sites, which is an outcome of several of the hypotheses proposed to explain the degeneration of the Y chromosome over evolutionary time (Charlesworth and Charlesworth 2000) . Indeed, in a mouse-rat comparison of 834 genes the d N /d S for genes with the most restricted tissue expression is lower (avg. \u00bc 0.16; Duret and Mouchiroud 2000) than was found for Zfy. A study of the evolution of an X-and Y-linked gene pair exhibiting similar tissue expression would provide a more straightforward interpretation of the role of chromosome-specific effects on gene evolution.",
+                "cite_spans": [
+                    {
+                        "start": 306,
+                        "end": 323,
+                        "text": "(Charlesworth and",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 324,
+                        "end": 342,
+                        "text": "Charlesworth 2000)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Evolutionary Patterns",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/mbe/article/20/6/999/982829 by guest on 07 October 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "NOTE.-One ratio model: d N /d S ratio is constant for all lineages; two ratio model: d N /d S ratios are allowed to vary between Zfx, Zfa and Azf-1 (the X and autosomal copies) on the one hand and Zfy on the other; three ratio model: d N /d S ratios are allowed to vary among Zfx, Zfa/Zfy, and Azf-1; four ratio model: d N /d S ratios are allowed to vary among Zfx, Zfy, Zfa, and Azf-1 lineages; and free ratio model: d N /d S ratios are allowed to vary across all lineages.Evolution of Zinc Finger Genes in Mus 1003Downloaded from https://academic.oup.com/mbe/article/20/6/999/982829 by guest on 07 October 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We thank M. Potter (National Cancer Institute contract N01-CB-71085), E. Eicher (The Jackson Laboratory), R. Sage (University of California Santa Barbara), and M. Nachman (University of Arizona) for providing frozen tissue or DNA from various stocks and strains of wild mice. J. Zhang, S. Sandstedt, and M. Nachman provided numerous suggestions that improved the manuscript, and A. Eyre-Walker and two anonymous reviewers provided comments that improved a revision. R.M.A. was supported by the Alfred P. Sloan Foundation; P.K.T., by the National Science Foundation, DEB-9209950; and J.S.R., by National Institutes of Health grant T32-HG00040.Literature Cited",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgments",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Zfa is an expressed retroposon derived from an alternative transcript of the Zfx gene",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Ashworth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Skene",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Swift",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Lovell-Badge",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Embo. J",
+                "volume": "9",
+                "issue": "",
+                "pages": "1529--1534",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ashworth, A., B. Skene, S. Swift, and R. Lovell-Badge. 1990. Zfa is an expressed retroposon derived from an alternative transcript of the Zfx gene. Embo. J. 9:1529-1534.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Sequence of cDNA for murine Zfy-1, a candidate for Tdy",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Ashworth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Swift",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Affara",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Nucleic Acids Res",
+                "volume": "17",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ashworth, A., S. Swift, and N. Affara. 1989. Sequence of cDNA for murine Zfy-1, a candidate for Tdy. Nucleic Acids Res. 17: 2864.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Evolution of zinc finger-Y and zinc finger-X genes in oryzomyne-akodontine rodents",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Bianchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Bianchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Pamilo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Vidal-Rioja",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "De La Chapelle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bianchi, N. O., M. S. Bianchi, P. Pamilo, L. Vidal-Rioja, and A. de la Chapelle. 1992. Evolution of zinc finger-Y and zinc finger-X genes in oryzomyne-akodontine rodents (Cricetidae).",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Effects of linkage on rates of molecular evolution",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Birky",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Jr",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Walsh",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Proc. Natl. Acad. Sci. USA",
+                "volume": "85",
+                "issue": "",
+                "pages": "6414--6418",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Birky, C. W., Jr., and J. B. Walsh. 1988. Effects of linkage on rates of molecular evolution. Proc. Natl. Acad. Sci. USA 85: 6414-6418.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Mammalian ZFY sequences exist in reptiles regardless of sex-determining mechanism",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Bull",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Hillis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "O'steen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Science",
+                "volume": "242",
+                "issue": "",
+                "pages": "567--569",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bull, J. J., D. M. Hillis, and S. O'Steen. 1988. Mammalian ZFY sequences exist in reptiles regardless of sex-determining mechanism. Science 242:567-569.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "The effect of background selection against deleterious mutations on weakly selected, linked variants",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Charlesworth",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Genet. Res",
+                "volume": "63",
+                "issue": "",
+                "pages": "213--227",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Charlesworth, B. 1994. The effect of background selection against deleterious mutations on weakly selected, linked variants. Genet. Res. 63:213-227.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "The degeneration of Y chromosomes",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Charlesworth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Charlesworth",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Phil. Trans. R. Soc. Lond. Ser. B",
+                "volume": "355",
+                "issue": "",
+                "pages": "1563--1572",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Charlesworth, B., and D. Charlesworth. 2000. The degeneration of Y chromosomes. Phil. Trans. R. Soc. Lond. Ser. B 355:1563-1572.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "The effect of deleterious mutations on neutral molecular variation",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Charlesworth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Morgan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Charlesworth",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Genetics",
+                "volume": "134",
+                "issue": "",
+                "pages": "1289--1303",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Charlesworth, B., M. T. Morgan, and D. Charlesworth. 1993. The effect of deleterious mutations on neutral molecular variation. Genetics 134:1289-1303.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Determinants of substitution rates in mammalian genes: expression pattern affects selection intensity but not mutation rate",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Duret",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Mouchiroud",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Mol. Biol. Evol",
+                "volume": "17",
+                "issue": "",
+                "pages": "68--74",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Duret, L., and D. Mouchiroud. 2000. Determinants of sub- stitution rates in mammalian genes: expression pattern affects selection intensity but not mutation rate. Mol. Biol. Evol. 17:68-74.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Molecular dating and biogeography of the early placental mammal radiation",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Eizirik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Murphy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "O'brien",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "J. Hered",
+                "volume": "92",
+                "issue": "",
+                "pages": "212--219",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Eizirik, E., W. J. Murphy, and S. J. O'Brien. 2001. Molecular dating and biogeography of the early placental mammal radiation. J. Hered. 92:212-219.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "A codon-based model of nucleotide substitution for protein-coding DNA sequences",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Felsenstein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Goldman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1974,
+                "venue": "Mol. Biol. Evol",
+                "volume": "78",
+                "issue": "",
+                "pages": "725--736",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Felsenstein, J. 1974. The evolutionary advantage of recombina- tion. Genetics 78:737-756. ---. 1985. Confidence limits on phylogenies: an approach using the bootstrap. Evolution 39:783-791. ---. 1988. Sex and the evolution of recombination. Pp. 74- 86 in R. E. Michod and B. R. Levin, eds. The evolution of sex. Sinauer Associates, Sunderland, Mass. Goldman, N., and Z. Yang. 1994. A codon-based model of nucleotide substitution for protein-coding DNA sequences. Mol. Biol. Evol. 11:725-736.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "NONA (NO NAME) ver. 2. Published by the author",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Goloboff",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Goloboff, P. 1999. NONA (NO NAME) ver. 2. Published by the author, Tucuman Argentina.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Strong evolutionary conservation of broadly expressed protein isoforms in the troponin I gene family and other vertebrate gene families",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "E M"
+                        ],
+                        "last": "Hastings",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "J. Mol. Evol",
+                "volume": "42",
+                "issue": "",
+                "pages": "631--640",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hastings, K. E. M. 1996. Strong evolutionary conservation of broadly expressed protein isoforms in the troponin I gene family and other vertebrate gene families. J. Mol. Evol. 42: 631-640.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Linkage disequilibrium in finite populations",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Hill",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Robertson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1966,
+                "venue": "Theor. Appl. Genet",
+                "volume": "38",
+                "issue": "",
+                "pages": "226--231",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hill, W. G., and A. Robertson. 1966. Linkage disequilibrium in finite populations. Theor. Appl. Genet. 38:226-231.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Karyotypical differences of the Amami spinous country-rats, Tokudaia osimensis osimensis obtained from two neighboring islands",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Honda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Suzuki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Itoh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Hayashi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1978,
+                "venue": "Jpn. J. Genet",
+                "volume": "53",
+                "issue": "",
+                "pages": "297--299",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Honda, T., H. Suzuki, M. Itoh, and K. Hayashi. 1978. Karyotypical differences of the Amami spinous country-rats, Tokudaia osimensis osimensis obtained from two neighboring islands. Jpn. J. Genet. 53:297-299.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "MRBAYES: Bayesian inference of phylogenetic trees",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Huelsenbeck",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Ronquist",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Bioinformatics",
+                "volume": "17",
+                "issue": "",
+                "pages": "754--755",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Huelsenbeck, J. P., and F. Ronquist. 2001. MRBAYES: Bayesian inference of phylogenetic trees. Bioinformatics 17:754-755.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Embryonic growth and the evolution of the mammalian Y chromosome. I. The Y as an attractor for selfish growth factors",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Hurst",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Heredity",
+                "volume": "73",
+                "issue": "",
+                "pages": "223--232",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hurst, L. D. 1994. Embryonic growth and the evolution of the mammalian Y chromosome. I. The Y as an attractor for selfish growth factors. Heredity 73:223-232.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Tests for positive selection on immune and reproductive genes in closely related species of the murine genus Mus",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Jansa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lundrigan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Tucker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "J. Mol. Evol",
+                "volume": "56",
+                "issue": "",
+                "pages": "294--307",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jansa, S. A., B. L. Lundrigan, and P. K. Tucker. 2003. Tests for positive selection on immune and reproductive genes in closely related species of the murine genus Mus. J. Mol. Evol. 56:294-307.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "The earliest known eutherian mammal",
+                "authors": [
+                    {
+                        "first": "Q",
+                        "middle": [],
+                        "last": "Ji",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [
+                            "X"
+                        ],
+                        "last": "Luo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "X"
+                        ],
+                        "last": "Yuan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Wible",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Georgi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Nature",
+                "volume": "416",
+                "issue": "",
+                "pages": "816--822",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ji, Q., Z. X. Luo, C. X. Yuan, J. R. Wible, J. P. Zhang, and J. A. Georgi. 2002. The earliest known eutherian mammal. Nature 416:816-822.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Zfy gene expression patterns are not compatible with a primary role in mouse sex determination",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Koopman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Gubbay",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Collignon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Lovell-Badge",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Nature",
+                "volume": "342",
+                "issue": "",
+                "pages": "940--942",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Koopman, P., J. Gubbay, J. Collignon, and R. Lovell-Badge. 1989. Zfy gene expression patterns are not compatible with a primary role in mouse sex determination. Nature 342: 940-942.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "A molecular timescale for vertebrate evolution",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kumar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Hedges",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Nature",
+                "volume": "392",
+                "issue": "",
+                "pages": "917--920",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kumar, S., and S. B. Hedges. 1998. A molecular timescale for vertebrate evolution. Nature 392:917-920.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Unusual distribution of Zfy and Zfx sequences on the sex chromosomes of the wood lemming, a species exhibiting XY sex reversal",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Lau",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Yang-Feng",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Elder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Fredga",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Wiberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Cytogenet. Cell Genet",
+                "volume": "60",
+                "issue": "",
+                "pages": "48--54",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lau, Y. F., T. L. Yang-Feng, B. Elder, K. Fredga, and U. H. Wiberg. 1992. Unusual distribution of Zfy and Zfx sequences on the sex chromosomes of the wood lemming, a species exhibiting XY sex reversal. Cytogenet. Cell Genet 60:48-54.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "CpG islands in human ZFX and ZFY and mouse Zfx genes: sequence similarities and methylation differences",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Luoh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Jegalian",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Lee",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Chen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Ridley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Page",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Genomics",
+                "volume": "29",
+                "issue": "",
+                "pages": "353--363",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Luoh, S. W., K. Jegalian, A. Lee, E. Y. Chen, A. Ridley, and D. C. Page. 1995. CpG islands in human ZFX and ZFY and mouse Zfx genes: sequence similarities and methylation differences. Genomics 29:353-363.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Mouse Zfx protein is similar to Zfy-2: each contains an acidic activating domain and 13 zinc fingers",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Mardon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Luoh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Simpson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Gill",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Page",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Mol. Cell Biol",
+                "volume": "10",
+                "issue": "",
+                "pages": "681--688",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mardon, G., S. W. Luoh, E. M. Simpson, G. Gill, L. G. Brown, and D. C. Page. 1990. Mouse Zfx protein is similar to Zfy-2: each contains an acidic activating domain and 13 zinc fingers. Mol. Cell Biol. 10:681-688.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Duplication, deletion and polymorphism in the sex-determining region of the mouse Y chromosome",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Mardon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Mosher",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Disteche",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Nishioka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Mclaren",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Page",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Science",
+                "volume": "243",
+                "issue": "",
+                "pages": "78--80",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mardon, G., R. Mosher, C. M. Disteche, Y. Nishioka, A. McLaren, and D. C. Page. 1989. Duplication, deletion and polymorphism in the sex-determining region of the mouse Y chromosome. Science 243:78-80.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "The sex-determining region of the mouse Y chromosome encodes a protein with a highly acidic domain and 13 zinc fingers",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Mardon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Page",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Cell",
+                "volume": "56",
+                "issue": "",
+                "pages": "765--770",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mardon, G., and D. C. Page. 1989. The sex-determining region of the mouse Y chromosome encodes a protein with a highly acidic domain and 13 zinc fingers. Cell 56:765-770.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "The hitch-hiking effect of a favourable gene",
+                "authors": [
+                    {
+                        "first": "Maynard",
+                        "middle": [],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Haigh",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1974,
+                "venue": "Genet. Res",
+                "volume": "23",
+                "issue": "",
+                "pages": "23--35",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Maynard Smith, J., and J. Haigh. 1974. The hitch-hiking effect of a favourable gene. Genet. Res. 23:23-35.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Localization of murine X and autosomal sequences homologous to the human Y located testisdetermining region",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Mitchell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Simon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Affara",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ferguson-Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Avner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Bishop",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Genetics",
+                "volume": "121",
+                "issue": "",
+                "pages": "803--809",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mitchell, M., D. Simon, N. Affara, M. Ferguson-Smith, P. Avner, and C. Bishop. 1989. Localization of murine X and autosomal sequences homologous to the human Y located testis- determining region. Genetics 121:803-809.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "The relation of recombination to mutational advance",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Muller",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1964,
+                "venue": "Mutat. Res",
+                "volume": "1",
+                "issue": "",
+                "pages": "2--9",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Muller, H. J. 1964. The relation of recombination to mutational advance. Mutat. Res. 1:2-9.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Polymorphism and divergence at the 59 flanking region of the sex-determining locus, Sry, in mice",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Nachman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Aquadro",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Mol. Biol. Evol",
+                "volume": "11",
+                "issue": "",
+                "pages": "539--547",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nachman, M. W., and C. F. Aquadro. 1994. Polymorphism and divergence at the 59 flanking region of the sex-determining locus, Sry, in mice. Mol. Biol. Evol. 11:539-547.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "The 1004",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Nagamine",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Chan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hake",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Lau",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Tucker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nagamine, C. M., K. Chan, L. E. Hake, and Y. F. Lau. 1990. The 1004 Tucker et al.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "two candidate testis-determining Y genes (Zfy-1 and Zfy-2) are differentially expressed in fetal and adult mouse tissues",
+                "authors": [],
+                "year": 2021,
+                "venue": "Genes Dev",
+                "volume": "4",
+                "issue": "",
+                "pages": "63--74",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Downloaded from https://academic.oup.com/mbe/article/20/6/999/982829 by guest on 07 October 2021 two candidate testis-determining Y genes (Zfy-1 and Zfy-2) are differentially expressed in fetal and adult mouse tissues. Genes Dev. 4:63-74.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Chromosome mapping and expression of a putative testis-determining gene in mouse",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Nagamine",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Chan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kozak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Lau",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Science",
+                "volume": "243",
+                "issue": "",
+                "pages": "80--83",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nagamine, C. M., K. M. Chan, C. A. Kozak, and Y. F. Lau. 1989. Chromosome mapping and expression of a putative testis-determining gene in mouse. Science 243:80-83.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Accumulation of nonfunctional genes on sheltered chromosomes",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1970,
+                "venue": "Am. Nat",
+                "volume": "104",
+                "issue": "",
+                "pages": "311--322",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nei, M. 1970. Accumulation of nonfunctional genes on sheltered chromosomes. Am. Nat. 104:311-322.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Likelihood models for detecting positively selected amino acid sites and applications to the HIV-1 envelope gene",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Nielsen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Genetics",
+                "volume": "148",
+                "issue": "",
+                "pages": "929--936",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nielsen, R., and Z. Yang. 1998. Likelihood models for detecting positively selected amino acid sites and applications to the HIV-1 envelope gene. Genetics 148:929-936.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Whatever happened to SRY?",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "O'neill",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J W"
+                        ],
+                        "last": "O'neill",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Cell Mol. Life Sci",
+                "volume": "56",
+                "issue": "",
+                "pages": "883--893",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "O'Neill, M. J., and R. J. W. O'Neill. 1999. Whatever happened to SRY? Cell Mol. Life Sci. 56:883-893.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Low levels of sequence divergence in rock wallabies (Petrogale) suggest a lack of positive directional selection in SRY",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J W"
+                        ],
+                        "last": "O'neill",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D B"
+                        ],
+                        "last": "Eldridge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Crozier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A M"
+                        ],
+                        "last": "Graves",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Mol. Biol. Evol",
+                "volume": "14",
+                "issue": "",
+                "pages": "350--353",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "O'Neill, R. J. W., M. D. B. Eldridge, R. H. Crozier, and J. A. M. Graves. 1997. Low levels of sequence divergence in rock wallabies (Petrogale) suggest a lack of positive directional selection in SRY. Mol. Biol. Evol. 14:350-353.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Chromosomal localization of ZFX-a human gene that escapes X inactivation-and its murine homologs",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Page",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Disteche",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Simpson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "De La Chapelle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Andersson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Alitalo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Green",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Akots",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Genomics",
+                "volume": "7",
+                "issue": "",
+                "pages": "37--46",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Page, D. C., C. M. Disteche, E. M. Simpson, A. de la Chapelle, M. Andersson, T. Alitalo, L. G. Brown, P. Green, and G. Akots. 1990. Chromosomal localization of ZFX-a human gene that escapes X inactivation-and its murine homologs. Genomics 7:37-46.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "The sex-determining region of the human Y chromosome encodes a finger protein",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Page",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Mosher",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Simpson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Fisher",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Mardon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Pollack",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Mcgillivray",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "De La Chapelle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Cell",
+                "volume": "51",
+                "issue": "",
+                "pages": "1091--1104",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Page, D. C., R. Mosher, E. M. Simpson, E. M. Fisher, G. Mardon, J. Pollack, B. McGillivray, A. de la Chapelle, and L. G. Brown. 1987. The sex-determining region of the human Y chromosome encodes a finger protein. Cell 51: 1091-1104.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Evolution of the Zfx and Zfy genes: rates and interdependence between the genes",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Pamilo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Bianchi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Mol. Biol. Evol",
+                "volume": "10",
+                "issue": "",
+                "pages": "271--281",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pamilo, P., and N. O. Bianchi. 1993. Evolution of the Zfx and Zfy genes: rates and interdependence between the genes. Mol. Biol. Evol. 10:271-281.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Evolution of the Sry genes",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Pamilo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "O'neill",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Mol. Biol. Evol",
+                "volume": "14",
+                "issue": "",
+                "pages": "49--55",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pamilo, P., and R. J. O'Neill. 1997. Evolution of the Sry genes. Mol. Biol. Evol. 14:49-55.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Evolution of the Y sex chromosome in animals",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Rice",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "BioScience",
+                "volume": "46",
+                "issue": "",
+                "pages": "331--343",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rice, W. R. 1996. Evolution of the Y sex chromosome in animals. BioScience 46:331-343.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Episodic evolution of pyrin in primates: human mutations recapitulate ancestral amino acid states",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Schaner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Richards",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Wadhwa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Aksentijevich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Kastner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Tucker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Gumucio",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Nat. Genet",
+                "volume": "27",
+                "issue": "",
+                "pages": "318--321",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Schaner, P., N. Richards, A. Wadhwa, I. Aksentijevich, D. Kastner, P. Tucker, and D. Gumucio. 2001. Episodic evolution of pyrin in primates: human mutations recapitulate ancestral amino acid states. Nat. Genet. 27:318-321.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Contrasting rates of nucleotide substitution in the X-linked and Y-linked zinc finger genes",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Shimmin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Chang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Li",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "J. Mol. Evol",
+                "volume": "39",
+                "issue": "",
+                "pages": "569--578",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shimmin, L. C., B. H. Chang, and W. H. Li. 1994. Contrasting rates of nucleotide substitution in the X-linked and Y-linked zinc finger genes. J. Mol. Evol. 39:569-578.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Sequences homologous to ZFY, a candidate human sex-determining gene, are autosomal in marsupials",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Sinclair",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Foster",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Spencer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Page",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Palmer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Goodfellow",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Graves",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Nature",
+                "volume": "336",
+                "issue": "",
+                "pages": "780--783",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sinclair, A. H., J. W. Foster, J. A. Spencer, D. C. Page, M. Palmer, P. N. Goodfellow, and J. A. Graves. 1988. Sequences homologous to ZFY, a candidate human sex-determining gene, are autosomal in marsupials. Nature 336:780-783.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Demonstration of a stagespecific expression of the ZFY protein in fetal mouse testis using anti-peptide antibodies",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Su",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Lau",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Mol. Reprod. Dev",
+                "volume": "33",
+                "issue": "",
+                "pages": "252--258",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Su, H., and Y. F. Lau. 1992. Demonstration of a stage- specific expression of the ZFY protein in fetal mouse testis using anti-peptide antibodies. Mol. Reprod. Dev. 33: 252-258.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Sex determination without the Y chromosome in two Japanese rodents, Tokudaia osimensis osimensis and Tokudaia osimensis spp",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Sutou",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Mitsui",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Tsuchiya",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Mamm. Genome",
+                "volume": "12",
+                "issue": "",
+                "pages": "17--21",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sutou, S., Y. Mitsui, and K. Tsuchiya. 2001. Sex determination without the Y chromosome in two Japanese rodents, Tokudaia osimensis osimensis and Tokudaia osimensis spp. Mamm. Genome 12:17-21.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "The ClustalX windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Thompson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gibson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Plewniak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Jeanmougin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Higgins",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Nucleic Acids Res",
+                "volume": "25",
+                "issue": "",
+                "pages": "4876--4882",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thompson, J. D., T. J. Gibson, F. Plewniak, F. Jeanmougin, and D. G. Higgins. 1997. The ClustalX windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools. Nucleic Acids Res. 25:4876-4882.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "The nature of gene evolution on the mammalian Y chromosome: lessons from Sry",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Tucker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lundrigan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Philos. Trans. R. Soc. Lond. B",
+                "volume": "364",
+                "issue": "",
+                "pages": "221--227",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tucker, P. K., and B. L. Lundrigan. 1993. Rapid evolution of the sex determining locus in Old World mice and rats. Nature 364:715-717. ---. 1995. The nature of gene evolution on the mammalian Y chromosome: lessons from Sry. Philos. Trans. R. Soc. Lond. B 350:221-227.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Geographic origin of the Y chromosomes in ''old'' inbred strains of mice",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Tucker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Lee",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lundrigan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Eicher",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Mamm. Genome",
+                "volume": "3",
+                "issue": "",
+                "pages": "254--261",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tucker, P. K., B. K. Lee, B. L. Lundrigan, and E. M. Eicher, 1992. Geographic origin of the Y chromosomes in ''old'' inbred strains of mice. Mamm. Genome 3:254-261.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Cloning and expression analysis of two ZFY-related zinc finger genes from Alligator mississippiensis, a species with temperature-dependent sex determination",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Valleley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Muller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Ferguson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Sharpe",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Gene",
+                "volume": "119",
+                "issue": "",
+                "pages": "221--228",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Valleley, E. M., U. Muller, M. W. Ferguson, and P. T. Sharpe. 1992. Cloning and expression analysis of two ZFY-related zinc finger genes from Alligator mississippiensis, a species with temperature-dependent sex determination. Gene 119: 221-228.",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Erratic evolution of SRY in higher primates",
+                "authors": [
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Zhang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Mol. Biol. Evol",
+                "volume": "19",
+                "issue": "",
+                "pages": "582--584",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wang, X., J. Zhang, and Y. P. Zhang. 2002. Erratic evolution of SRY in higher primates. Mol. Biol. Evol. 19:582-584.",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Rapid sequence evolution of the mammalian sex-determining gene SRY",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Whitfield",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Lovell-Badge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Goodfellow",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Nature",
+                "volume": "364",
+                "issue": "",
+                "pages": "713--715",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Whitfield, L. S., R. Lovell-Badge, and P. N. Goodfellow. 1993. Rapid sequence evolution of the mammalian sex-determining gene SRY. Nature 364:713-715.",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "Mammalian gene evolution: nucleotide sequence divergence between mouse and rat",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Wolfe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Sharp",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "J. Mol. Evol",
+                "volume": "37",
+                "issue": "",
+                "pages": "441--456",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wolfe, P. M., and P. M. Sharp. 1993. Mammalian gene evo- lution: nucleotide sequence divergence between mouse and rat. J. Mol. Evol. 37:441-456.",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "Cloning and mapping of bovine ZFX gene to the long arm of the X-chromosome (Xq34) and homologous mapping of ZFY gene to the distal region of the short arm of the bovine (Yp13), ovine (Yp12-p13), and caprine (Yp12-p13) Y chromosome",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Xiao",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Tsuchiya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Sutou",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Mamm. Genome",
+                "volume": "9",
+                "issue": "",
+                "pages": "125--130",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Xiao, C., K. Tsuchiya, and S. Sutou. 1998. Cloning and mapping of bovine ZFX gene to the long arm of the X-chromosome (Xq34) and homologous mapping of ZFY gene to the distal region of the short arm of the bovine (Yp13), ovine (Yp12- p13), and caprine (Yp12-p13) Y chromosome. Mamm. Genome 9:125-130.",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "Likelihood ratio tests for detecting positive selection and application to primate lysozyme evolution",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Mol. Biol. Evol",
+                "volume": "39",
+                "issue": "",
+                "pages": "568--573",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang, Z. 1994. Estimating the pattern of nucleotide substitution. J. Mol. Evol. 39:105-111. ---. 1998. Likelihood ratio tests for detecting positive selection and application to primate lysozyme evolution. Mol. Biol. Evol. 15:568-573. ---. 1999. PAML: phylogenetic analysis by maximum likelihood. University College, London.",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Expression of a mouse Zfy-1/lacZ transgene in the somatic cells of the embryonic gonad and germ cells of the adult testis",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Zambrowicz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Zimmermann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Harendza",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Simpson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Page",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Brinster",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Palmiter",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Development",
+                "volume": "120",
+                "issue": "",
+                "pages": "1549--1559",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zambrowicz, B. P., J. W. Zimmermann, C. J. Harendza, E. M. Simpson, D. C. Page, R. L. Brinster, and R. D. Palmiter. 1994. Expression of a mouse Zfy-1/lacZ transgene in the somatic cells of the embryonic gonad and germ cells of the adult testis. Development 120:1549-1559.",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Positive Darwinian selection after gene duplication in primate ribonuclease genes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Rosenberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Proc. Natl. Acad. Sci. USA",
+                "volume": "95",
+                "issue": "",
+                "pages": "3708--3713",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhang, J., H. F. Rosenberg, and M. Nei. 1998. Positive Darwinian selection after gene duplication in primate ribo- nuclease genes. Proc. Natl. Acad. Sci. USA 95:3708-3713.",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "A ZFY-like sequence in fish, with comments on the evolution of the ZFY family of genes in vertebrates",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Zimmerer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Threlkeld",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Biochem. Genet",
+                "volume": "33",
+                "issue": "",
+                "pages": "227--235",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zimmerer, E. J., and L. Threlkeld. 1995. A ZFY-like sequence in fish, with comments on the evolution of the ZFY family of genes in vertebrates. Biochem. Genet. 33:227-235.",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "Transcription of the sex-determining region genes Sry and Zfy in the mouse preimplantation embryo",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Zwingman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Erickson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Boyer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Ao",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Proc. Natl. Acad. Sci. USA",
+                "volume": "90",
+                "issue": "",
+                "pages": "814--817",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zwingman, T., R. P. Erickson, T. Boyer, and A. Ao. 1993. Transcription of the sex-determining region genes Sry and Zfy in the mouse preimplantation embryo. Proc. Natl. Acad. Sci. USA 90:814-817.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "uris": null,
+                "num": null,
+                "type_str": "figure",
+                "text": ".-Parsimony bootstrap majority rule consensus tree for Zfx, Zfy, and Zfa genes from species of mice in the genus Mus, Rattus norvegicus, and Tokudaia osimensis. The autosomal-linked gene Azf-1 from Alligator mississippiensis was used as an outgroup. Numbers above the branches are bootstrap values from the parsimony analysis. Numbers in parentheses are the posterior probabilities from a Bayesian likelihood analysis. Numbers below the branches are the d N /d S ratios under a free ratio model of codon sequence evolution across lineages. Zeros reflect no nonsynonymous changes. The ' represents nonsynonymous change with no synonymous change. To the right, d N /d S are given for four additional models of codon sequence evolution across lineages as described in the methods. 1 This sequence was entered into GenBank as a Zfx sequence because of the absence of a Y chromosome in this taxon although, clearly, it is of Zfy origin. 2 Representing M. domesticus from Molise and Lazio, Italy.3  Representing M. domesticus from USA, Switzerland, Morocco, and Sondrio, Italy. 4 Representing M. musculus from Japan.5  Representing M. musculus from Slovakia, Denmark, Austria, and Thailand. 6 Zfy-2 from M. spretus is not orthologous to Zfy-2 from other taxa (see text)."
+            },
+            "TABREF0": {
+                "content": "<table><tr><td/><td/><td/><td/><td colspan=\"2\">One Ratio</td><td/><td colspan=\"2\">Two Ratio</td><td/><td>Three Ratio</td><td/><td/><td>Four Ratio</td><td/></tr><tr><td/><td>L</td><td>Free Parameter</td><td>2DL</td><td>df</td><td>P</td><td>2DL</td><td>df</td><td>P</td><td>2DL</td><td>df</td><td>P</td><td>2DL</td><td>df</td><td>P</td></tr><tr><td>One ratio</td><td>\u00ff3672</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Two ratio</td><td>\u00ff3637</td><td>2</td><td>70</td><td>1</td><td>,0.01</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Three ratio</td><td>\u00ff3621</td><td>3</td><td>101</td><td>2</td><td>,0.01</td><td>31</td><td>1</td><td>,0.01</td><td/><td/><td/><td/><td/><td/></tr><tr><td>Four ratio</td><td>\u00ff3621</td><td>4</td><td>102</td><td>3</td><td>,0.01</td><td>32</td><td>2</td><td>,0.01</td><td>1</td><td>1</td><td>0.30</td><td/><td/><td/></tr><tr><td>Free ratio</td><td>\u00ff3605</td><td>46</td><td>136</td><td>45</td><td>,0.01</td><td>66</td><td>44</td><td>0.02</td><td>35</td><td>43</td><td>0.81</td><td>34</td><td>42</td><td>0.82</td></tr></table>",
+                "num": null,
+                "type_str": "table",
+                "text": "2 Significance Values for Likelihood Ratio Tests Comparing Four Different Models for d N /d S Among Lineages"
+            }
+        }
+    }
+}

@@ -1,0 +1,2844 @@
+{
+    "paper_id": "Rollandetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:31:53.517546Z"
+    },
+    "title": "",
+    "authors": [
+        {
+            "first": "Jonathan",
+            "middle": [],
+            "last": "Rolland",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Lausanne",
+                "location": {
+                    "settlement": "Biophore, Lausanne",
+                    "country": "Switzerland"
+                }
+            },
+            "email": "jonathan.rolland@yahoo.fr"
+        },
+        {
+            "first": "Daniele",
+            "middle": [],
+            "last": "Silvestro",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Lausanne",
+                "location": {
+                    "settlement": "Biophore, Lausanne",
+                    "country": "Switzerland"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Dolph",
+            "middle": [],
+            "last": "Schluter",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of British Columbia",
+                "location": {
+                    "settlement": "Vancouver",
+                    "country": "Canada"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Antoine",
+            "middle": [],
+            "last": "Guisan",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Lausanne",
+                "location": {
+                    "settlement": "Lausanne",
+                    "country": "Switzerland"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Olivier",
+            "middle": [],
+            "last": "Broennimann",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Lausanne",
+                "location": {
+                    "settlement": "Lausanne",
+                    "country": "Switzerland"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Nicolas",
+            "middle": [],
+            "last": "Salamin",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Lausanne",
+                "location": {
+                    "settlement": "Biophore, Lausanne",
+                    "country": "Switzerland"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Understanding the mechanisms by which the abiotic and biotic requirements of species, or ecological niches, change over time is a central issue in evolutionary biology. Niche evolution is poorly understood at both the macroecological and macroevolutionary scales, as niches can shift over short periods of time but appear to change more slowly over longer timescales. Although reconstructing past niches has always been a major concern for palaeontologists and evolutionary biologists, only a few recent studies have successfully determined the factors that affect niche evolution. Here, we compare the evolution of climatic niches in four main groups of terrestrial vertebrates using a modelling approach integrating both palaeontological and neontological data, and large-scale datasets that contain information on the current distributions, phylogenetic relationships and fossil records for a total of 11,465 species. By reconstructing historical shifts in geographical ranges and climatic niches, we show that niche shifts are significantly faster in endotherms (birds and mammals) than in ectotherms (squamates and amphibians). We further demonstrate that the diversity patterns of the four clades are directly affected by the rate of niche evolution, with fewer latitudinal shifts in ectotherms.",
+    "pdf_parse": {
+        "paper_id": "Rollandetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Understanding the mechanisms by which the abiotic and biotic requirements of species, or ecological niches, change over time is a central issue in evolutionary biology. Niche evolution is poorly understood at both the macroecological and macroevolutionary scales, as niches can shift over short periods of time but appear to change more slowly over longer timescales. Although reconstructing past niches has always been a major concern for palaeontologists and evolutionary biologists, only a few recent studies have successfully determined the factors that affect niche evolution. Here, we compare the evolution of climatic niches in four main groups of terrestrial vertebrates using a modelling approach integrating both palaeontological and neontological data, and large-scale datasets that contain information on the current distributions, phylogenetic relationships and fossil records for a total of 11,465 species. By reconstructing historical shifts in geographical ranges and climatic niches, we show that niche shifts are significantly faster in endotherms (birds and mammals) than in ectotherms (squamates and amphibians). We further demonstrate that the diversity patterns of the four clades are directly affected by the rate of niche evolution, with fewer latitudinal shifts in ectotherms.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "he mechanisms by which the ecological niches of species evolve over time and among groups represent an important topic in evolutionary biology [1] [2] [3] [4] [5] [6] [7] [8] . Although niche evolution is likely to be influenced by multiple factors, the identification of such factors is difficult and debated [9] [10] [11] . Metabolic heat production (endothermy) has been proposed as a major factor that can explain differences in the evolution of climatic tolerance between groups 10 , because external temperatures directly determine the metabolic activity of ectotherms but not endotherms [12] [13] [14] . Ectotherms rely strongly on external heat sources to achieve operative body temperatures; the climatic niche of ectotherms is thus likely to be constrained by physiology because these species tend to exhibit decreased activity levels under cold conditions, which reduces the time allocated for obtaining food and mates 15, 16 . Alternatively, we hypothesize that endotherms may not be under such constraints because their body temperature is internally regulated 16, 17 . Endothermy also permits warming of the developing embryos, which increases considerably reproductive success at high latitude 15 . As a result, endotherms can tolerate a wider range of external temperatures 18 and might experience more frequent niche shifts. Here, we developed an analytical approach to compare the rates of climate niche evolution in endotherms and ectotherms based on a reconstruction of palaeo-distributions and a combination of phylogenetic data on extant species with data from the fossil record.",
+                "cite_spans": [
+                    {
+                        "start": 143,
+                        "end": 146,
+                        "text": "[1]",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 147,
+                        "end": 150,
+                        "text": "[2]",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 151,
+                        "end": 154,
+                        "text": "[3]",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 155,
+                        "end": 158,
+                        "text": "[4]",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 159,
+                        "end": 162,
+                        "text": "[5]",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 163,
+                        "end": 166,
+                        "text": "[6]",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 167,
+                        "end": 170,
+                        "text": "[7]",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 171,
+                        "end": 174,
+                        "text": "[8]",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 310,
+                        "end": 313,
+                        "text": "[9]",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 314,
+                        "end": 318,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 319,
+                        "end": 323,
+                        "text": "[11]",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 484,
+                        "end": 486,
+                        "text": "10",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 594,
+                        "end": 598,
+                        "text": "[12]",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 599,
+                        "end": 603,
+                        "text": "[13]",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 604,
+                        "end": 608,
+                        "text": "[14]",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 930,
+                        "end": 933,
+                        "text": "15,",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 934,
+                        "end": 936,
+                        "text": "16",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 1074,
+                        "end": 1077,
+                        "text": "16,",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 1078,
+                        "end": 1080,
+                        "text": "17",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 1209,
+                        "end": 1211,
+                        "text": "15",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1290,
+                        "end": 1292,
+                        "text": "18",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "T",
+                "sec_num": null
+            },
+            {
+                "text": "Recent information on vertebrate species distributions and their phylogenetic relationships has provided an opportunity to study the major changes in their ecological niches and assess biogeographical information in the context of historical climate changes. Terrestrial vertebrates are distributed over all continents and currently occupy a wide range of temperature conditions. Therefore, these organisms represent an ideal study system for investigating niche evolution related to endothermy because they include representatives from the two universally recognized endothermic groups of animals (birds and mammals) as well as two ectothermic groups (squamates and amphibians). Terrestrial vertebrates offer the unique opportunity to test whether endothermy is a major factor that affects niche evolution at broad taxonomic and geographical scales.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "T",
+                "sec_num": null
+            },
+            {
+                "text": "We assembled a worldwide dataset of 18,066,914 geo-localized occurrences of 11,465 species of birds, mammals, squamates and amphibians. We combined the occurrence data for the extant genera with a large database of vertebrate fossils that includes 25,814 occurrences of 829 genera. We only used fossils from extant genera and ignored fully extinct clades and taxa, because of the difficulty to confidently place them in the phylogeny. We reconstructed the past climatic niches (palaeo-niches) by combining the extant species and the fossil palaeo-distributions using a comparative method that can efficiently analyse large-scale phylogenetic data while incorporating fossil information. We first reconstructed the palaeo-latitudes and palaeo-altitudes for every node of each phylogenetic tree involving each vertebrate group over the last 270 Myr (see Methods and Supplementary Fig. 1 ). To estimate past temperatures at a specific latitude and altitude, we built a present-day altitude-latitude grid of mean annual temperatures and scaled this grid with the palaeo-temperature curves [19] [20] [21] . Finally, this grid was used to obtain",
+                "cite_spans": [
+                    {
+                        "start": 1085,
+                        "end": 1089,
+                        "text": "[19]",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 1090,
+                        "end": 1094,
+                        "text": "[20]",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 1095,
+                        "end": 1099,
+                        "text": "[21]",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 864,
+                        "end": 884,
+                        "text": "Supplementary Fig. 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results and discussion",
+                "sec_num": null
+            },
+            {
+                "text": "palaeo-temperatures for the palaeo-latitude and palaeo-altitude corresponding to each internal node of the phylogenetic trees. We acknowledge that using a single palaeo-temperature value to characterize the climatic niche of a species represents a simplification and does not account for intraspecific variability in the multiple dimensions of the niche [22] [23] [24] , but this assumption was necessary given that our reconstruction was concerning thousands of species.",
+                "cite_spans": [
+                    {
+                        "start": 354,
+                        "end": 358,
+                        "text": "[22]",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 359,
+                        "end": 363,
+                        "text": "[23]",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 364,
+                        "end": 368,
+                        "text": "[24]",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "The impact of endothermy on the climatic niche evolution and the distribution of vertebrate diversity",
+                "sec_num": null
+            },
+            {
+                "text": "Our ancestral temperature reconstructions suggest that endothermy had a strong impact on the rate of niche evolution (Fig. 1) . Niche evolution was faster in birds (mean evolution of the temperature on all the branches of the phylogeny = 0.70 (95% confidence interval (CI) = 0.68, 0.72) \u00b0C Myr \u22121 ) and mammals (0.52 (CI = 0.50, 0.55) \u00b0C Myr \u22121 ) than in amphibians (0.26 (CI = 0.25, 0.28) \u00b0C Myr \u22121 ) or squamates (0.30 (CI = 0.29, 0.32) \u00b0C Myr \u22121 ) ( Fig. 1) . Wilcoxon signed-rank tests were highly significant for all possible comparisons between ectotherms and endotherms (P < 2 \u00d7 10 \u221216 ). We found similar results when only the last 5 Myr were considered and when we pruned the trees to test whether the size of the tree was affecting our results ( Supplementary Fig. 2 ; see also the 'Robustness of the results' section in the Supplementary Material). These results may be primarily explained by the following three reasons: (1) endotherms have wider climatic boundaries and distributions that cover a wider latitudinal range than ectotherms 17, 18 ( Supplementary Fig. 3 ); (2) they have higher dispersal capacities than ectotherms 25 , which allow them to cross unsuitable patches of habitat across space or time (for example, from one season to another); and (3) they warm their developing embryos and feed their offspring 15 . These three key features may imbue endotherms with a higher likelihood of survival in unstable and heterogeneous environments at higher latitudes and allow them to progressively adapt to cold and unstable climates 26 . In contrast, ectothermic species may be more constrained by their physiology and are likely to have fewer opportunities to experience new climatic conditions.",
+                "cite_spans": [
+                    {
+                        "start": 1050,
+                        "end": 1053,
+                        "text": "17,",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 1054,
+                        "end": 1056,
+                        "text": "18",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1141,
+                        "end": 1143,
+                        "text": "25",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1334,
+                        "end": 1336,
+                        "text": "15",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1553,
+                        "end": 1555,
+                        "text": "26",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 117,
+                        "end": 125,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 453,
+                        "end": 460,
+                        "text": "Fig. 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 756,
+                        "end": 776,
+                        "text": "Supplementary Fig. 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1059,
+                        "end": 1079,
+                        "text": "Supplementary Fig. 3",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "The impact of endothermy on the climatic niche evolution and the distribution of vertebrate diversity",
+                "sec_num": null
+            },
+            {
+                "text": "Comparable results that showed a higher rate of niche evolution in endotherms than in ectotherms were observed in the 20 main orders (for birds and mammals) or families (for amphibians and squamates) of each group separately ( Supplementary Fig. 4 ). In particular, we found higher rates of niche evolution in the avian Anseriformes and Procellariiformes orders, the mammalian Lagomorpha and Carnivora orders, the amphibian Megophryidae and Bufonidae families, and the squamate Natricidae and Elapidae families. Many of these groups originated at high latitudes, such as Lagomorpha 27 or Carnivora 28 , or were particularly diverse at high latitudes (such as Anseriformes, Procellariformes, Carnivora, Lagomorpha, Megophryidae, Bufonidae, Natricidae and Elapidae; Supplementary Fig. 5 ). In contrast, we found slower rates of niche evolution in mainly tropical groups of birds (such as Bucerotiformes and Tinamiformes), mammals (Afrosoricida and Pholidota) and squamates (Typhlopidae and Dactyloidae). Even if these results at the order and family levels reinforce our main results, it is also possible that a significant difference in the rate of niche evolution between endotherms and ectotherms was detected only by chance, given that the number of replicates is low (only two large clades of endotherms and two of ectotherms).",
+                "cite_spans": [
+                    {
+                        "start": 582,
+                        "end": 584,
+                        "text": "27",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 598,
+                        "end": 600,
+                        "text": "28",
+                        "ref_id": "BIBREF27"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 227,
+                        "end": 247,
+                        "text": "Supplementary Fig. 4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 764,
+                        "end": 784,
+                        "text": "Supplementary Fig. 5",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "The impact of endothermy on the climatic niche evolution and the distribution of vertebrate diversity",
+                "sec_num": null
+            },
+            {
+                "text": "The rate of niche evolution has important consequences for the evolution of habitat preferences as well as for the emergence of the current global diversity patterns 2, 6, 29 . For instance, the processes that led to the construction of the most famous diversity pattern, which is the latitudinal diversity gradient (that is, the decrease of species diversity from the Equator to the poles), may have been affected by the accelerated or diminished rates of niche evolution. Because latitude has been shown to be largely correlated with temperature, we expect to find that the mean latitude preferences of ectothermic species has been slowly evolving. Based on the phylogenetic and fossil information, our ancestral reconstruction suggests that latitudinal shifts have been ~5 times slower in ectothermic species (amphibians: 0.15 (0.14; 0.15)\u00b0 of latitude per Myr; squamates: 0.23 (0.21; 0.24)\u00b0 of latitude per Myr) than in endothermic species (birds: 1.14 (1.10; 1.17)\u00b0 of latitude per Myr; mammals: 0.88 (0.85; 0.92)\u00b0 of latitude per Myr). Our reconstruction results also suggest that the latitudinal diversity gradient emerged first in ectotherms (~50 Myr ago for squamates and amphibians, consistent with the age found in other ectotherm groups 30 ) and more recently in endotherms (~20 Myr ago for mammals and birds) ( Fig. 2) .",
+                "cite_spans": [
+                    {
+                        "start": 166,
+                        "end": 168,
+                        "text": "2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 169,
+                        "end": 171,
+                        "text": "6,",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 172,
+                        "end": 174,
+                        "text": "29",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 1249,
+                        "end": 1251,
+                        "text": "30",
+                        "ref_id": "BIBREF29"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1324,
+                        "end": 1331,
+                        "text": "Fig. 2)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "The impact of endothermy on the climatic niche evolution and the distribution of vertebrate diversity",
+                "sec_num": null
+            },
+            {
+                "text": "According to the 'tropical niche conservatism' hypothesis 6 , the maximum absolute latitude of clades with a slow niche evolution, such as ectotherms, should have decreased during the Cenozoic era cooling to follow the contraction of the tropical biome. Ultimately, this contraction may have led to the accumulation of species in the tropics. To test this hypothesis, we compared the direction of dispersal of each branch of the phylogenetic tree (towards the Equator or towards the poles; from the ancestor to the descendant) during the Cretaceous period and the Cenozoic era ( Fig. 3) . We found that the distributions of all groups benefited from the higher global temperatures and mostly expanded from the tropics towards the poles during the Cretaceous period and at the beginning of the Cenozoic era. For birds, mammals and squamates, these 'out of the tropics' dispersal events lasted until the Eocene/Oligocene transition 33.9 Myr ago, which corresponded to a major cooling event that was associated with the formation of permanent ice sheets on Antarctica. Consistent with previous reports [26] [27] [28] [31] [32] [33] , we found that lineages distributed at high latitudes dispersed towards the Equator following the contraction of tropical habitats ( Fig. 3d and Supplementary Fig. 11 ) from the Eocene/Oligocene transition (33.9 Myr ago) until the middle Miocene climatic optimum (~15 Myr ago). Thus, our results suggest that the contraction of the tropical biome associated with decreased temperatures at high latitudes played a major role in the construction of the current diversity pattern of the four analysed groups during the second part of the Cenozoic era.",
+                "cite_spans": [
+                    {
+                        "start": 58,
+                        "end": 59,
+                        "text": "6",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 1099,
+                        "end": 1103,
+                        "text": "[26]",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1104,
+                        "end": 1108,
+                        "text": "[27]",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1109,
+                        "end": 1113,
+                        "text": "[28]",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 1114,
+                        "end": 1118,
+                        "text": "[31]",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 1119,
+                        "end": 1123,
+                        "text": "[32]",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 1124,
+                        "end": 1128,
+                        "text": "[33]",
+                        "ref_id": "BIBREF32"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 579,
+                        "end": 586,
+                        "text": "Fig. 3)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1263,
+                        "end": 1270,
+                        "text": "Fig. 3d",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1275,
+                        "end": 1296,
+                        "text": "Supplementary Fig. 11",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "The impact of endothermy on the climatic niche evolution and the distribution of vertebrate diversity",
+                "sec_num": null
+            },
+            {
+                "text": "Overall, we showed that 50.6% of tropical bird, 42.5% of mammal, 64.5% of amphibian and 54.9% of squamate lineages remained in the tropics (between 23.4\u00b0 N and 23.4\u00b0 S) throughout the entire represents an equivalent number of lineages dispersing towards the poles and towards the Equator. The direction of the dispersal for a given branch was measured from the absolute latitude of the ancestor to the absolute latitude of the descendant. The absolute latitude and the age of the ancestor were used to assign the branch to the time period and the latitudinal band. For a given time slice, proportions were calculated for all the branches belonging to each latitudinal band of 10\u00b0 (for example, a proportion at the 20\u00b0 latitude was calculated with the branches rooted between the 20\u00b0 and 30\u00b0 latitudes).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "The impact of endothermy on the climatic niche evolution and the distribution of vertebrate diversity",
+                "sec_num": null
+            },
+            {
+                "text": "Curves were obtained using the 'smooth.spline' R function, with a sliding window through time (a) and latitude (b-e).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "The impact of endothermy on the climatic niche evolution and the distribution of vertebrate diversity",
+                "sec_num": null
+            },
+            {
+                "text": "Cenozoic era. Ectotherms tended to experience fewer range shifts because they crossed the tropic lines less frequently than did endotherms (30.2%, 55%, 18.9% and 25.6% of current bird, mammal, amphibian and squamate lineages, respectively, had at least one ancestor that crossed the tropic lines). Consistently with previous literature 32, 33 , we showed that a substantial proportion of the lineages that gave rise to the species currently distributed in the tropics originated at high latitudes during the Cenozoic era (22.9%, 52.1%, 21.6% and 27.1% of tropical birds, mammals, amphibians and squamates, respectively) and then followed the contraction of the tropical biome towards the equator, suggesting that tropical niche conservatism played an important role in the emergence of the latitudinal diversity gradient of the four groups. Based on an unprecedented dataset of terrestrial vertebrate species encompassing distribution, fossil and phylogenetic data, our results strongly suggest that climatic niche evolution is slower in ectotherms. This result may be highly related to the narrow climatic tolerances 18 ( Supplementary Fig. 3 ) and the low dispersal capacities 25 previously reported for terrestrial ectothermic species. We also show that the rate of niche evolution has important consequences for the dynamics of species ranges and current biodiversity patterns because ectotherms have experienced a slower rate of latitudinal dispersal and a higher stasis in their habitat preferences. This slow rate of niche evolution will potentially affect the dynamics of ongoing and future extinctions because climate change adaptations may require the rapid evolution of climatic tolerances, particularly in species with narrow niches 34 . Finally, our results concerning the rate of niche evolution imply that current niche modelling approaches 35 that assume that niches are conserved through time 1 may be more accurate for modelling future distributions of ectothermic rather than endothermic species.",
+                "cite_spans": [
+                    {
+                        "start": 340,
+                        "end": 342,
+                        "text": "33",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 1118,
+                        "end": 1120,
+                        "text": "18",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1179,
+                        "end": 1181,
+                        "text": "25",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1745,
+                        "end": 1747,
+                        "text": "34",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 1856,
+                        "end": 1858,
+                        "text": "35",
+                        "ref_id": "BIBREF34"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1123,
+                        "end": 1143,
+                        "text": "Supplementary Fig. 3",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "NAtUre ecology & evolUtioN",
+                "sec_num": null
+            },
+            {
+                "text": "Phylogenies. We used the previously published phylogenies of 5,020 species of mammals 36 modified by previous studies 37, 38 , 9,993 avian species 39 , 2,871 amphibian species 40 and 4,161 squamate species 41 . For birds and mammals, maximum credibility trees were constructed based on the posterior distributions of trees using the TreeAnnotator programme 42 . The age of the root of the amphibian phylogeny defined the maximum age for our study (~270 Myr).",
+                "cite_spans": [
+                    {
+                        "start": 86,
+                        "end": 88,
+                        "text": "36",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 118,
+                        "end": 121,
+                        "text": "37,",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 122,
+                        "end": 124,
+                        "text": "38",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 147,
+                        "end": 149,
+                        "text": "39",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 176,
+                        "end": 178,
+                        "text": "40",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 206,
+                        "end": 208,
+                        "text": "41",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 357,
+                        "end": 359,
+                        "text": "42",
+                        "ref_id": "BIBREF41"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Climatic and distribution data. We obtained present-day geographical occurrences in the form of GPS coordinates for all four groups of vertebrates from the Global Biodiversity Information Facility (GBIF, http://www.gbif.org). We combined these data with the geographical information obtained from the International Union for Conservation of Nature (IUCN) red list website (http://www.iucnredlist.org), which contains polygons with precise information on the distribution of the species. We removed all GBIF occurrences outside of the IUCN polygons.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "From the GBIF database, a total of 294,704,442 occurrences were compiled, including 276,954,416 avian occurrences, 9,880,714 mammalian occurrences, 4,221,542 squamate occurrences and 3,647,770 amphibian occurrences. The occurrences available in GBIF are compiled from many different sources; thus, a stringent filtering procedure must be applied to ensure the quality of this dataset. First, we only retained the occurrences registered from direct field observations by one or several people (occurrences tagged as 'HUMAN_OBSERVATIONS' in GBIF) and occurrences from the sampling site of a specimen preserved in a collection ('PRESERVED_SPECIMEN'). We ignored the occurrences tagged as 'LITERATURE' , 'UNKNOWN' and 'MACHINE_OBSERVATION' because they are less likely to be verified by field observations. Second, we also deleted occurrences at 0\u00b0 N and 0\u00b0 E because they frequently correspond to erroneous occurrences mistyped by database users. Third, for the GBIF occurrences, we only retained coordinates with at least 4 digits, which represented the best compromise optimizing the number of occurrences (for most species) and the quality of the data. Finally, for each species, we deleted all GBIF occurrences that did not fall within the polygons of the species in the IUCN red list. This filtering step was extremely stringent and resulted in the deletion of more than half of the occurrences.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "The temperature and altitude of each occurrence were obtained using the mean annual temperature climatic layer (BIO1) and the elevation grid obtained from WorldClim (http://www.worldclim.org) at 2.5 arc-minute and 30 arc-second resolutions, respectively 43 . The minimum, maximum and mean of both the temperature and altitude were calculated for each species.",
+                "cite_spans": [
+                    {
+                        "start": 254,
+                        "end": 256,
+                        "text": "43",
+                        "ref_id": "BIBREF42"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Finally, among the species with available distribution data, we selected those that were also present in the phylogenetic trees. Thus, we obtained a total of 18,066,914 occurrences for 11,465 species that corresponded to 16,805,900 occurrences for 6,142 avian species, 851,887 occurrences for 2,922 mammalian species, 242,646 occurrences for 1,414 amphibian species and 166,481 occurrences for 987 squamate species.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Fossils. We obtained a total of 89,147 fossil occurrences from the Paleobiology Database (www.paleobiodb.org, accessed in May 2015), including 4,044 fossil occurrences for 758 avian genera, 81,269 fossil occurrences for 4,672 mammalian genera, 1,923 fossil occurrences for 230 amphibian genera and 1,911 fossil occurrences for 304 squamate genera. Because we used fossils to reconstruct the palaeo-latitudes of the phylogenies, we only considered genera that were also present in the phylogenetic trees-that sis, those that have extant relatives assigned to the same genus. Thus, the final fossil data included 25,814 occurrences from 829 genera, which included 2,663 occurrences for 247 avian genera, 21,767 occurrences for 496 mammalian genera, 908 occurrences for 49 amphibian genera and 476 occurrences for 37 squamate genera. The palaeo-latitude of each fossil occurrence was reconstructed based on the age of the fossil (or the mean age of the fossil in a temporal range), its present-day geographical coordinates and the reconstruction of historical tectonic plate positions (GPlates 44 ).",
+                "cite_spans": [
+                    {
+                        "start": 1091,
+                        "end": 1093,
+                        "text": "44",
+                        "ref_id": "BIBREF43"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "We used palaeo-latitudes of fossil taxa to calibrate the inference of ancestral latitudes (see below). In each tree, we identified the node representing the most recent common ancestor (MRCA) of the species belonging to each genus with one or more fossil occurrences (shown in detail in Supplementary Fig. 10 ). As the fossils that are distant from the MRCA have diverged more, we weighted the fossil latitude with the time between the age of the MRCA and the age of each fossil. The ancestral latitude of the MRCA of each genus was then calculated as the mean of all the weighted fossil latitudes. This weighting procedure was done only for the MRCA of each genus because limited or no information is available to assign most of the fossils to other nodes.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 287,
+                        "end": 308,
+                        "text": "Supplementary Fig. 10",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Ancestral reconstruction of latitude and altitude. We modelled the evolution of the species altitude and latitude preferences using a Brownian motion process and jointly estimated the evolutionary rate and the ancestral values at the internal nodes of the tree. Altitude was reconstructed independently from latitude, based only on present-day data of species. Previous research has shown that fossil information can drastically improve inferences of continuous trait evolution 45 . Here, fossil information enables us to estimate information for past nodes at high absolute latitudes and infer a decrease in absolute latitude through time, which would be impossible using classic methods such as uncalibrated Brownian motion. Therefore, the approach presented in this paper provides an exceptional opportunity to reconstruct contractions of the tropical biome. Here, we integrated the available fossil information as node calibrations on ancestral states for the reconstruction of latitude. For the nodes that had available fossil information, the calibration followed a normal distribution with a mean corresponding to the weighted mean of all of the fossils assigned to that node (as detailed in the 'Fossil' section). We selected a standard deviation such that the 95% credible interval of the normal distribution had a range equivalent to the average latitudinal range observed within each species. For the nodes that did not contain fossil information, we used instead flat distributions (normal distributions with arbitrarily large standard deviation).",
+                "cite_spans": [
+                    {
+                        "start": 478,
+                        "end": 480,
+                        "text": "45",
+                        "ref_id": "BIBREF44"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "We estimated the parameters (that is, the rate of the Brownian model of evolution and the ancestral states at all internal nodes) in a new Bayesian framework using Markov chain Monte Carlo (MCMC) to sample their posterior distributions. The rate parameter and the root state were sampled using the Metropolis-Hastings algorithm 46, 47 , whereas all other ancestral states were sampled directly from their posterior distribution using Gibbs sampling 48 . Under a Brownian model of evolution, a trait value changes as a function of elapsed time (t) and the rate (\u03c3 2 ), so that the expected value is normally distributed with mean equal to its initial value (x 0 ) and variance equal to the product of rate and time:",
+                "cite_spans": [
+                    {
+                        "start": 328,
+                        "end": 331,
+                        "text": "46,",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 332,
+                        "end": 334,
+                        "text": "47",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 449,
+                        "end": 451,
+                        "text": "48",
+                        "ref_id": "BIBREF47"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "\u03c3 \uf04e x x t ( , ) t 0 2",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "The posterior distribution of an ancestral state at any internal node i is a normal distribution that derives from the product of four normal distributions, encompassing the expectations of the trait value of the ancestor x i-1 , the expectations from the two descendants x\u2032 i+1 and x\u2033 i+1 , and the normal distribution assigned as calibration to the node value ( Supplementary Fig. 1 ):",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 364,
+                        "end": 384,
+                        "text": "Supplementary Fig. 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "\u23df \u03c3 \u03c3 \u03c3 \u03bc \u03c3 \u00d7 \u00d7 \u00d7 \u2212 + \u2032 + \u2032\u2032 \uf04e \uf04e \uf04e \uf04e ( ) x x t x t x t Posterior",
+                        "eq_num": "( , ) Ancestor ( , ) Descendant 1 ( , ) Descendant 2 ,"
+                    }
+                ],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Node calibration",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "i i i i i i 1 2 1 1 2 2 1 2 3 2",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "We implemented this method in R (script is available at https://github.com/ jonathanrolland/niche_evolution). We ran 2,000,000 MCMC iterations (or fewer if convergence was reached) and sampled every 1,000 steps. We assessed the convergence and sampling efficiency by inspecting the samples using the Tracer NAtUre ecology & evolUtioN programme 49 . We used this approach to reconstruct the maximum and minimum latitude/altitude through time. We also provide an assessment of the quality of ancestral states using simulations in the supplementary material.",
+                "cite_spans": [
+                    {
+                        "start": 344,
+                        "end": 346,
+                        "text": "49",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Climatic grid based on altitude and latitude through time. Based on the mean annual temperature data provided by the WorldClim climatic layer, a 180 \u00d7 90 climatic grid was constructed. This grid depicted latitudes on the x axis from \u2212 90\u00b0 to 90\u00b0 and altitudes on the y axis from \u2212 422 m to 8,685 m. For each combination of latitude and altitude (that is, for each cell), we calculated the mean of present-day temperatures. This grid was then used to obtain the temperature corresponding to the latitude and altitude coordinates of the nodes through time. Because global temperatures have changed over time and assuming that the association between temperature and both altitude and latitude may not have changed substantially, we re-scaled all of the cells of the grid at each given node age. To do this, we first calculated the difference between the global temperature at the node age and at present time using a palaeo-temperature curve (Cenozoic period 19 and pre-Cenozoic periods 20, 21 ). We then added this temperature difference to all the cells of the altitude/latitude matrix to obtain an equivalent of the altitude/latitude matrix at the node age. The palaeo-temperature of the node was then obtained on this matrix, at the latitude and the altitude reconstructed previously (see also Supplementary Fig. 7 ).",
+                "cite_spans": [
+                    {
+                        "start": 957,
+                        "end": 959,
+                        "text": "19",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 985,
+                        "end": 988,
+                        "text": "20,",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 989,
+                        "end": 991,
+                        "text": "21",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1296,
+                        "end": 1316,
+                        "text": "Supplementary Fig. 7",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Estimating the rate of niche evolution. For each node of the phylogenetic tree, we obtained an ancestral temperature using the previously reconstructed latitudes and altitudes, the climatic grid and the node age. The rate of niche evolution was then calculated for each branch of the phylogenetic tree by measuring the temperature differences between the descendant and the ancestor of each branch. We divided this difference by the length of the branch to obtain a rate of temperature change per unit of time. We then calculated the mean and the median of all of these rates (for all the branches of the tree) for each taxonomic group and the confidence intervals around those estimates using 1,000 bootstraps. The comparison between the rates of niche evolution among the four groups is displayed in Fig. 1 . As we reconstructed niches from past and current species distribution, we acknowledge that the change in the niche detected might be due to changes in the realized niche and do not reflect an evolution of the fundamental niche. Our study is based on occurrences data and not physiological thermal tolerance data, we thus modelled here only the realized climatic niches. This realized niche may not directly represent the fundamental niche of the species, as it may also reflect factors other than thermal tolerances, such as dispersal or competition 50, 51 .",
+                "cite_spans": [
+                    {
+                        "start": 1361,
+                        "end": 1364,
+                        "text": "50,",
+                        "ref_id": "BIBREF49"
+                    },
+                    {
+                        "start": 1365,
+                        "end": 1367,
+                        "text": "51",
+                        "ref_id": "BIBREF50"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 802,
+                        "end": 808,
+                        "text": "Fig. 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Life Sciences Reporting Summary. Further information on experimental design is available in the Life Sciences Reporting Summary.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Code availability. We provide all codes of the methodology used in this study at: https://github.com/jonathanrolland/niche_evolution. Data availability. We provide all data files used in this study at: https://github.com/ jonathanrolland/niche_evolution. The sample size of our study corresponded to the maximal number of species with distribution and phylogenetic data in mammals, birds, squamates and amphibians ( Supplementary material, paragraphs \"Phylogenies\" and \"Climatic and distribution d ata\"). We also tested if the number of species was affecting our results in Figure S 1.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 574,
+                        "end": 582,
+                        "text": "Figure S",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Describe any data exclusions. Yes, the criterion are described in the supplementary material (section \"Climatic an d distribution data\")",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Data exclusions",
+                "sec_num": "2."
+            },
+            {
+                "text": "Describe whether the experimental findings were reliably reproduced.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Replication",
+                "sec_num": "3."
+            },
+            {
+                "text": "All attempts at replication were successful.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Replication",
+                "sec_num": "3."
+            },
+            {
+                "text": "Describe how samples/organisms/participants were allocated into experimental groups.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Randomization",
+                "sec_num": "4."
+            },
+            {
+                "text": "There were no experimental groups.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Randomization",
+                "sec_num": "4."
+            },
+            {
+                "text": "Describe whether the investigators were blinded to group allocation during data collection and/or analysis.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Blinding",
+                "sec_num": "5."
+            },
+            {
+                "text": "Blinding was not relevant to our study, as our study is based on public databases.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Blinding",
+                "sec_num": "5."
+            },
+            {
+                "text": "Note: all studies involving animals and/or human research participants must disclose whether blinding and randomization were used.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Blinding",
+                "sec_num": "5."
+            },
+            {
+                "text": "For all figures and tables that use statistical methods, confirm that the following items are present in relevant figure legends (or in the Methods section if additional space is needed).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Statistical parameters",
+                "sec_num": "6."
+            },
+            {
+                "text": "n/a Confirmed The exact sample size (n) for each experimental group/condition, given as a discrete number and unit of measurement (animals, litters, cultures, etc.)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Statistical parameters",
+                "sec_num": "6."
+            },
+            {
+                "text": "A description of how samples were collected, noting whether measurements were taken from distinct samples or whether the same sample was measured repeatedly A statement indicating how many times each experiment was replicated",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Statistical parameters",
+                "sec_num": "6."
+            },
+            {
+                "text": "The statistical test(s) used and whether they are one-or two-sided (note: only common tests should be described solely by name; more complex techniques should be described in the Methods section)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Statistical parameters",
+                "sec_num": "6."
+            },
+            {
+                "text": "A description of any assumptions or corrections, such as an adjustment for multiple comparisons",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Statistical parameters",
+                "sec_num": "6."
+            },
+            {
+                "text": "The test results (e.g. P values) given as exact values whenever possible and with confidence intervals noted A clear description of statistics including central tendency (e.g. median, mean) and variation (e.g. standard deviation, interquartile range)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Statistical parameters",
+                "sec_num": "6."
+            },
+            {
+                "text": "See the web collection on statistics for biologists for further resources and guidance.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Clearly defined error bars",
+                "sec_num": null
+            },
+            {
+                "text": "NATuRe eCOlOGy & evOluTiON | VOL 2 | MARCH 2018 | 459-464 | www.nature.com/natecolevol",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "\u00a9 2018 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "nature research | life sciences reporting summaryJune 2017",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "The authors thank the Vital-IT facilities of the Swiss Institute of Bioinformatics for the computational support. J.R. received a Banting postdoctoral fellowship at university of British Columbia. D. Silvestro received funding from the Swedish Research Council (2015-04748) and from the Knut and Alice Wallenberg foundation. This work was funded by the University of Lausanne and the Swiss National Science Foundation (CRSIII3-147630) to N.S.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgements",
+                "sec_num": null
+            },
+            {
+                "text": "J.R., D.S. and N.S. designed the study and the methodology. J.R. wrote the first version of the manuscript and all co-authors contributed to the writing or commented the final version of the manuscript.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Author contributions",
+                "sec_num": null
+            },
+            {
+                "text": "The authors declare no competing financial interests.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Competing interests",
+                "sec_num": null
+            },
+            {
+                "text": "Supplementary information is available for this paper at https://doi.org/10.1038/ s41559-017-0451-9.Reprints and permissions information is available at www.nature.com/reprints.Correspondence and requests for materials should be addressed to J.R.Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Additional information",
+                "sec_num": null
+            },
+            {
+                "text": "Policy information about availability of computer code",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Software",
+                "sec_num": null
+            },
+            {
+                "text": "Describe the software used to analyze the data in this study.The code is available (as described in the manuscript).For manuscripts utilizing custom algorithms or software that are central to the paper but not yet described in the published literature, software must be made available to editors and reviewers upon request. We strongly encourage code deposition in a community repository (e.g. GitHub). Nature Methods guidance for providing algorithms and software for publication provides further information on this topic.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Software",
+                "sec_num": "7."
+            },
+            {
+                "text": "Policy information about availability of materials",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and reagents",
+                "sec_num": null
+            },
+            {
+                "text": "Indicate whether there are restrictions on availability of unique materials or if these materials are only available for distribution by a for-profit company.The data is available (as described in the manuscript).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials availability",
+                "sec_num": "8."
+            },
+            {
+                "text": "Describe the antibodies used and how they were validated for use in the system under study (i.e. assay and species). this study did not involve human participants.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Antibodies",
+                "sec_num": "9."
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Niche dynamics in space and time",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Pearman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Guisan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Broennimann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Randin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Trends Ecol. Evol",
+                "volume": "23",
+                "issue": "",
+                "pages": "149--158",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pearman, P. B., Guisan, A., Broennimann, O. & Randin, C. F. Niche dynamics in space and time. Trends Ecol. Evol. 23, 149-158 (2008).",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Niche conservatism: integrating evolution, ecology, and conservation biology",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Wiens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Graham",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Annu. Rev. Ecol. Evol. Syst",
+                "volume": "36",
+                "issue": "",
+                "pages": "519--539",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wiens, J. J. & Graham, C. H. Niche conservatism: integrating evolution, ecology, and conservation biology. Annu. Rev. Ecol. Evol. Syst. 36, 519-539 (2005).",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Phylogenetic biome conservatism on a global scale",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Crisp",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Nature",
+                "volume": "458",
+                "issue": "",
+                "pages": "754--756",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Crisp, M. D. et al. Phylogenetic biome conservatism on a global scale. Nature 458, 754-756 (2009).",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "The niche of higher plants: evidence for phylogenetic conservatism",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Prinzing",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Durka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Klotz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Brandl",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Proc. R Soc. Lond. B",
+                "volume": "268",
+                "issue": "",
+                "pages": "2383--2389",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Prinzing, A., Durka, W., Klotz, S. & Brandl, R. The niche of higher plants: evidence for phylogenetic conservatism. Proc. R Soc. Lond. B 268, 2383-2389 (2001).",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Could the tree diversity pattern in Europe be generated by postglacial dispersal limitation?",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Svenning",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Skov",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Ecol. Lett",
+                "volume": "10",
+                "issue": "",
+                "pages": "453--460",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Svenning, J. C. & Skov, F. Could the tree diversity pattern in Europe be generated by postglacial dispersal limitation? Ecol. Lett. 10, 453-460 (2007).",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Historical biogeography, ecology and species richness",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Wiens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Donoghue",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Trends Ecol. Evol",
+                "volume": "19",
+                "issue": "",
+                "pages": "639--644",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wiens, J. J. & Donoghue, M. J. Historical biogeography, ecology and species richness. Trends Ecol. Evol. 19, 639-644 (2004).",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Rates of projected climate change dramatically exceed past rates of climatic niche evolution among vertebrate species",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Quintero",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Wiens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Ecol. Lett",
+                "volume": "16",
+                "issue": "",
+                "pages": "1095--1103",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Quintero, I. & Wiens, J. J. Rates of projected climate change dramatically exceed past rates of climatic niche evolution among vertebrate species. Ecol. Lett. 16, 1095-1103 (2013).",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Tectonic-driven climate change and the diversification of angiosperms",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Chaboureau",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Sepulchre",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Donnadieu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Franc",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Proc. Natl. Acad. Sci. USA",
+                "volume": "111",
+                "issue": "",
+                "pages": "14066--14070",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chaboureau, A. C., Sepulchre, P., Donnadieu, Y. & Franc, A. Tectonic-driven climate change and the diversification of angiosperms. Proc. Natl. Acad. Sci. USA 111, 14066-14070 (2014).",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Linking life-history traits, ecology, and niche breadth evolution in North American eriogonoids (Polygonaceae)",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Kostikova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Litsios",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Salamin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Pearman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Am. Nat",
+                "volume": "182",
+                "issue": "",
+                "pages": "760--774",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kostikova, A., Litsios, G., Salamin, N. & Pearman, P. B. Linking life-history traits, ecology, and niche breadth evolution in North American eriogonoids (Polygonaceae). Am. Nat. 182, 760-774 (2013).",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Rates of change in climatic niches in plant and animal populations are much slower than projected climate change",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Jezkova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Wiens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Proc. R. Soc. B",
+                "volume": "283",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jezkova, T. & Wiens, J. J. Rates of change in climatic niches in plant and animal populations are much slower than projected climate change. Proc. R. Soc. B 283, 20162104 (2016).",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Accelerated rates of climatic-niche evolution underlie rapid species diversification",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Kozak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Wiens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Ecol. Lett",
+                "volume": "13",
+                "issue": "",
+                "pages": "1378--1389",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kozak, K. & Wiens, J. Accelerated rates of climatic-niche evolution underlie rapid species diversification. Ecol. Lett. 13, 1378-1389 (2010).",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Heat freezes niche evolution",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ara\u00fajo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Ecol. Lett",
+                "volume": "16",
+                "issue": "",
+                "pages": "1206--12119",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ara\u00fajo, M. B. et al. Heat freezes niche evolution. Ecol. Lett. 16, 1206-12119 (2013).",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Global metabolic impacts of recent climate warming",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Dillon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Huey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Nature",
+                "volume": "467",
+                "issue": "",
+                "pages": "704--706",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dillon, M. E., Wang, G. & Huey, R. B. Global metabolic impacts of recent climate warming. Nature 467, 704-706 (2010).",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Impacts of climate warming on terrestrial ectotherms across latitude",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Deutsch",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Proc. Natl. Acad. Sci. USA 105",
+                "volume": "",
+                "issue": "",
+                "pages": "6668--6672",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Deutsch, C. A. et al. Impacts of climate warming on terrestrial ectotherms across latitude. Proc. Natl. Acad. Sci. USA 105, 6668-6672 (2008).",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Parental care: the key to understanding endothermy and other convergent features in birds and mammals",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Farmer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Am. Nat",
+                "volume": "155",
+                "issue": "",
+                "pages": "326--334",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Farmer, C. G. Parental care: the key to understanding endothermy and other convergent features in birds and mammals. Am. Nat. 155, 326-334 (2000).",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Thermal Adaptation: A Theoretical and Empirical Analysis",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Angiletta",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Angiletta, M. J. Thermal Adaptation: A Theoretical and Empirical Analysis. (Oxford Univ. Press,New York, 2009).",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Evolution of homeothermy in mammals",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Crompton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Taylor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Jagger",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1978,
+                "venue": "Nature",
+                "volume": "272",
+                "issue": "",
+                "pages": "333--336",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Crompton, A. W., Taylor, C. R. & Jagger, J. A. Evolution of homeothermy in mammals. Nature 272, 333-336 (1978).",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Niche width impacts vertebrate diversification",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Rolland",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Salamin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Glob. Ecol. Biogeogr",
+                "volume": "25",
+                "issue": "",
+                "pages": "1252--1263",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rolland, J. & Salamin, N. Niche width impacts vertebrate diversification. Glob. Ecol. Biogeogr. 25, 1252-1263 (2016).",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "An early Cenozoic perspective on greenhouse warming and carbon-cycle dynamics",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Zachos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Dickens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Zeebe",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Nature",
+                "volume": "451",
+                "issue": "",
+                "pages": "279--283",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zachos, J. C., Dickens, G. R. & Zeebe, R. E. An early Cenozoic perspective on greenhouse warming and carbon-cycle dynamics. Nature 451, 279-283 (2008).",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Ocean overturning since the Late Cretaceous: inferences from a new benthic foraminiferal isotope compilation",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Cramer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Toggweiler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Wright",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Katz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Paleoceanography",
+                "volume": "24",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cramer, B. S., Toggweiler, J. R., Wright, M. E., Katz, M. E. & Miller, K. G. Ocean overturning since the Late Cretaceous: inferences from a new benthic foraminiferal isotope compilation. Paleoceanography 24, PA4216 (2009).",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Compilation and time-series analysis of a marine carbonate \u03b4 18 O, \u03b4 13 C, 87 Sr/ 86 Sr and \u03b4 34 S database through Earth history",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Prokoph",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Shields",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Veizer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Earth Sci. Rev",
+                "volume": "87",
+                "issue": "",
+                "pages": "113--133",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Prokoph, A., Shields, G. A. & Veizer, J. Compilation and time-series analysis of a marine carbonate \u03b4 18 O, \u03b4 13 C, 87 Sr/ 86 Sr and \u03b4 34 S database through Earth history. Earth Sci. Rev. 87, 113-133 (2008).",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Why intraspecific trait variation matters in community ecology",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Bolnick",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Trends Ecol. Evol",
+                "volume": "26",
+                "issue": "",
+                "pages": "183--192",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bolnick, D. I. et al. Why intraspecific trait variation matters in community ecology. Trends Ecol. Evol. 26, 183-192 (2011).",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "The return of the variance: intraspecific variability in community ecology",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Violle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Trends Ecol. Evol",
+                "volume": "27",
+                "issue": "",
+                "pages": "244--252",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Violle, C. et al. The return of the variance: intraspecific variability in community ecology. Trends Ecol. Evol. 27, 244-252 (2012).",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "How variation between individuals affects species coexistence",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Hart",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Schreiber",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Levine",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Ecol. Lett",
+                "volume": "19",
+                "issue": "",
+                "pages": "825--838",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hart, S. P., Schreiber, S. J. & Levine, J. M. How variation between individuals affects species coexistence. Ecol. Lett. 19, 825-838 (2016).",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "A comparative analysis of dispersal syndromes in terrestrial and semi-terrestrial animals",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Stevens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Ecol. Lett",
+                "volume": "17",
+                "issue": "",
+                "pages": "1039--1052",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stevens, V. M. et al. A comparative analysis of dispersal syndromes in terrestrial and semi-terrestrial animals. Ecol. Lett. 17, 1039-1052 (2014).",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Evolutionary consequences of changes in species' geographical distributions driven by Milankovitch climate oscillations",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Dynesius",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Jansson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Proc. Natl. Acad. Sci. USA",
+                "volume": "97",
+                "issue": "",
+                "pages": "9115--9120",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dynesius, M. & Jansson, R. Evolutionary consequences of changes in species' geographical distributions driven by Milankovitch climate oscillations. Proc. Natl. Acad. Sci. USA 97, 9115-9120 (2000).",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Evolutionary history of lagomorphs in response to global environmental change",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Ge",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "PLoS. ONE",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ge, D. et al. Evolutionary history of lagomorphs in response to global environmental change. PLoS. ONE 8, e59668 (2013).",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Dispersal is a major driver of the latitudinal diversity gradient of Carnivora",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Rolland",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Condamine",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Beeravolu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Jiguet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Morlon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Glob. Ecol. Biogeogr",
+                "volume": "24",
+                "issue": "",
+                "pages": "1059--1071",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rolland, J., Condamine, F. L., Beeravolu, C. R., Jiguet, F. & Morlon, H. Dispersal is a major driver of the latitudinal diversity gradient of Carnivora. Glob. Ecol. Biogeogr. 24, 1059-1071 (2015).",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Broad-scale ecological implications of ectothermy and endothermy in changing environments",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Buckley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Hurlbert",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Jetz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Glob. Ecol. Biogeogr",
+                "volume": "21",
+                "issue": "",
+                "pages": "873--885",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Buckley, L. B., Hurlbert, A. H. & Jetz, W. Broad-scale ecological implications of ectothermy and endothermy in changing environments. Glob. Ecol. Biogeogr. 21, 873-885 (2012).",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "The impact of Cenozoic cooling on assemblage diversity in planktonic foraminifera",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Fenton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Phil. Trans. R. Soc. B",
+                "volume": "371",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fenton, I. S. et al. The impact of Cenozoic cooling on assemblage diversity in planktonic foraminifera. Phil. Trans. R. Soc. B 371, 20150224 (2016).",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Phylogenetic patterns in the geographic distributions of birds support the tropical conservatism hypothesis",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Duch\u00eane",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Cardillo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Glob. Ecol. Biogeogr",
+                "volume": "24",
+                "issue": "",
+                "pages": "1261--1268",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Duch\u00eane, D. A. & Cardillo, M. Phylogenetic patterns in the geographic distributions of birds support the tropical conservatism hypothesis. Glob. Ecol. Biogeogr. 24, 1261-1268 (2015).",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Large-scale phylogenetic analyses reveal the causes of high tropical amphibian diversity",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Pyron",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Wiens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Proc. R Soc. B",
+                "volume": "280",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pyron, R. A. & Wiens, J. J. Large-scale phylogenetic analyses reveal the causes of high tropical amphibian diversity. Proc. R Soc. B 280, 20131622 (2013).",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Temperate extinction in squamate reptiles and the roots of latitudinal diversity gradients",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Pyron",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Glob. Ecol. Biogeogr",
+                "volume": "23",
+                "issue": "",
+                "pages": "1126--1134",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pyron, R. A. Temperate extinction in squamate reptiles and the roots of latitudinal diversity gradients. Glob. Ecol. Biogeogr. 23, 1126-1134 (2014).",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Colloquium paper: are we in the midst of the sixth mass extinction? A view from the world of amphibians",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Wake",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Vredenburg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Proc. Natl. Acad. Sci. USA 105",
+                "volume": "",
+                "issue": "",
+                "pages": "11466--11473",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wake, D. B. & Vredenburg, V. T. Colloquium paper: are we in the midst of the sixth mass extinction? A view from the world of amphibians. Proc. Natl. Acad. Sci. USA 105, 11466-11473 (2008).",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Predicting species distribution: offering more than simple habitat models",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Guisan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Thuiller",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Ecol. Lett",
+                "volume": "8",
+                "issue": "",
+                "pages": "993--1009",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Guisan, A. & Thuiller, W. Predicting species distribution: offering more than simple habitat models. Ecol. Lett. 8, 993-1009 (2005).",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "The delayed rise of present-day mammals",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Bininda-Emonds",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Nature",
+                "volume": "446",
+                "issue": "",
+                "pages": "507--512",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bininda-Emonds, O. R. et al. The delayed rise of present-day mammals. Nature 446, 507-512 (2007).",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Geographical variation in predictors of mammalian extinction risk: big is bad, but only in the tropics",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Fritz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Bininda-Emonds",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Purvis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Ecol. Lett",
+                "volume": "12",
+                "issue": "",
+                "pages": "538--549",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fritz, S. A., Bininda-Emonds, O. R. & Purvis, A. Geographical variation in predictors of mammalian extinction risk: big is bad, but only in the tropics. Ecol. Lett. 12, 538-549 (2009).",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "A simple polytomy resolver for dated phylogenies",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Kuhn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "\u00d8"
+                        ],
+                        "last": "Mooers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Thomas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Methods Ecol. Evol",
+                "volume": "2",
+                "issue": "",
+                "pages": "427--436",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kuhn, T. S., Mooers, A. \u00d8. & Thomas, G. H. A simple polytomy resolver for dated phylogenies. Methods Ecol. Evol. 2, 427-436 (2011).",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "The global diversity of birds in space and time",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Jetz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Thomas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Joy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Hartmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Mooers",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Nature",
+                "volume": "491",
+                "issue": "",
+                "pages": "444--448",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jetz, W., Thomas, G. H., Joy, J. B., Hartmann, K. & Mooers, A. O. The global diversity of birds in space and time. Nature 491, 444-448 (2012).",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "A large-scale phylogeny of Amphibia including over 2800 species, and a revised classification of extant frogs, salamanders, and caecilians",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Pyron",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Wiens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Mol. Biol. Evol",
+                "volume": "61",
+                "issue": "",
+                "pages": "543--583",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pyron, R. A. & Wiens, J. J. A large-scale phylogeny of Amphibia including over 2800 species, and a revised classification of extant frogs, salamanders, and caecilians. Mol. Biol. Evol. 61, 543-583 (2011).",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Early origin of viviparity and multiple reversions to oviparity in squamate reptiles",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Pyron",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Burbrink",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Ecol. Lett",
+                "volume": "17",
+                "issue": "",
+                "pages": "13--21",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pyron, R. A. & Burbrink, F. T. Early origin of viviparity and multiple reversions to oviparity in squamate reptiles. Ecol. Lett. 17, 13-21 (2014).",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Bayesian phylogenetics with BEAUti and the BEAST 1.7",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Drummond",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Suchard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Xie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Rambaut",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Mol. Biol. Evol",
+                "volume": "29",
+                "issue": "",
+                "pages": "1969--1973",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Drummond, A. J., Suchard, M. A., Xie, D. & Rambaut, A. Bayesian phylogenetics with BEAUti and the BEAST 1.7. Mol. Biol. Evol. 29, 1969-1973 (2012).",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Very high resolution interpolated climate surfaces for global land areas",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hijmans",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Cameron",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Parra",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Jarvis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Int. J. Climatol",
+                "volume": "25",
+                "issue": "",
+                "pages": "1965--1978",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hijmans, R. J., Cameron, S. E., Parra, J. L., Jones, P. G. & Jarvis, A. Very high resolution interpolated climate surfaces for global land areas. Int. J. Climatol. 25, 1965-1978 (2005).",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Towards communitydriven paleogeographic reconstructions: integrating open-access paleogeographic and paleobiology data with plate tectonics",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Wright",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Ahirovic",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "M\u00fcller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Seton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Biogeosciences",
+                "volume": "10",
+                "issue": "",
+                "pages": "1529--1541",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wright, N., ahirovic, S., M\u00fcller, R. D. & Seton, M. Towards community- driven paleogeographic reconstructions: integrating open-access paleogeographic and paleobiology data with plate tectonics. Biogeosciences 10, 1529-1541 (2013).",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Integrating fossils with molecular phylogenies improves inference of trait evolution",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Slater",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Harmon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Alfaro",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Evolution",
+                "volume": "66",
+                "issue": "",
+                "pages": "3931--3944",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Slater, G. J., Harmon, L. J. & Alfaro, M. E. Integrating fossils with molecular phylogenies improves inference of trait evolution. Evolution 66, 3931-3944 (2012).",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Equation of state calculations by fast computing machines",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Metropolis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Rosenbluth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Rosenbluth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Teller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Teller",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1953,
+                "venue": "J. Chem. Phys",
+                "volume": "21",
+                "issue": "",
+                "pages": "1087--1092",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Metropolis, N., Rosenbluth, A. W., Rosenbluth, M. N., Teller, A. W. & Teller, E. Equation of state calculations by fast computing machines. J. Chem. Phys. 21, 1087-1092 (1953).",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Monte Carlo sampling methods using Markov chains and their applications",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Hastings",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1970,
+                "venue": "Biometrika",
+                "volume": "57",
+                "issue": "",
+                "pages": "97--109",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hastings, W. K. Monte Carlo sampling methods using Markov chains and their applications. Biometrika 57, 97-109 (1970).",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Bayesian Data Analysis 2",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Gelman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Carlinj",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Stern",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Rubin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gelman, A., CarlinJ. B., Stern, J. B. & Rubin, D. B. Bayesian Data Analysis 2. (Chapman & Hall/CRC, London, 2014).",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "On the relationship between niche and distribution",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Pulliam",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Ecol. Lett",
+                "volume": "3",
+                "issue": "",
+                "pages": "349--361",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pulliam, H. R. On the relationship between niche and distribution. Ecol. Lett. 3, 349-361 (2000).",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Heat freezes niche evolution",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ara\u00fajo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Ecol. Lett",
+                "volume": "16",
+                "issue": "",
+                "pages": "1206--1219",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ara\u00fajo, M. B. et al. Heat freezes niche evolution. Ecol. Lett. 16, 1206-1219 (2013).",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "uris": null,
+                "num": null,
+                "text": "The rate of niche evolution in endotherms (birds and mammals, red) and ectotherms (squamates and amphibians, blue). The boxes represent the median, the first quartile and the third quartile of the niche evolution rate reconstructed for all of the branches of the phylogenetic tree of each group. For each branch, the niche evolution was calculated as the difference of temperatures between the descendants and the ancestors. Based on Wilcoxon signed-rank tests, we found a significantly faster niche evolution in endotherms (birds and mammals) than in ectotherms (squamates and amphibians) (***P < 0.001). The rate of niche evolution was also significantly different between each separate group. The 5% extreme values are not shown.present (Myr) Time before present (Myr) Diversity Construction of the latitudinal diversity gradient over time between birds and mammals (endotherms) and amphibians and squamates (ectotherms). Each panel is a matrix of 180 \u00d7 270 cells depicting time before present (between 0 and 270 Myr) on the x axis and latitude on the y axis (from 90\u00b0 N to 90\u00b0 S). Each cell represents the diversity (number of species) at a given time and at a given latitude. The late increase in species richness for endotherms (left) suggests that their latitudinal diversity gradient has emerged more recently compared with that in ectotherms (right). ancestors (\u00b0) Latitude of the ancestors (\u00b0) Latitude of the ancestors (\u00b0) Latitude of the ancestors (",
+                "type_str": "figure"
+            },
+            "FIGREF1": {
+                "uris": null,
+                "num": null,
+                "text": "The evolution of the global temperature of the earth over the last 145 Myr and the main directions of the latitudinal dispersal (towards the poles or the equator) of the four groups as a function of latitude. a, Global temperature evolution since the beginning of the Cretaceous period (145 Myr ago). b-e, The proportion of lineages that have dispersed towards the poles in latitudinal bands of 10\u00b0 for each time period: 145-65.5 Myr ago (Cretaceous; b), 65.5-33.9 Myr ago (Eocene; c), 33.9-15 Myr ago (from the Eocene/Oligocene boundary to the middle Miocene climatic optimum, MMCO; d), and 15 Myr ago to the present (MMCO-present; e). Birds, red; mammals, orange; amphibians, green; squamates, blue. A proportion of 0.5 (grey dashed line)",
+                "type_str": "figure"
+            },
+            "TABREF0": {
+                "num": null,
+                "text": "Research wishes to improve the reproducibility of the work that we publish. This form is intended for publication with all accepted life science papers and provides structure for consistency and transparency in reporting. Every life science submission will use this form; some list items might not apply to an individual manuscript, but all fields must be completed for clarity.For further information on the points included in this form, see Reporting Life Sciences Research. For further information on Nature Research policies, including our data availability policy, see Authors & Referees and the Editorial Policy Checklist.",
+                "type_str": "table",
+                "content": "<table><tr><td>Life Sciences Reporting Summary Experimental design 1. Sample size Describe how sample size was determined.</td><td>Corresponding author(s): Jonathan Rolland Initial submission Revised version</td><td>Final submission</td><td>nature research | life sciences reporting summary</td></tr><tr><td/><td/><td/><td>June 2017</td></tr><tr><td/><td/><td/><td>1</td></tr></table>"
+            }
+        }
+    }
+}

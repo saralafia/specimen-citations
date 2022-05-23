@@ -1,0 +1,4080 @@
+{
+    "paper_id": "Altetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:20:45.700974Z"
+    },
+    "title": "Improving species distribution models of zoonotic marine parasites",
+    "authors": [
+        {
+            "first": "Katharina",
+            "middle": [
+                "G"
+            ],
+            "last": "Alt",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Senckenberg Gesellschaft f\u00fcr Naturforschung",
+                "location": {
+                    "addrLine": "Max-von-Laue-Str. 13",
+                    "postCode": "D-60438",
+                    "settlement": "Frankfurt/Main",
+                    "country": "Germany"
+                }
+            },
+            "email": "katharina.alt@senckenberg.de"
+        },
+        {
+            "first": "Judith",
+            "middle": [],
+            "last": "Kochmann",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Senckenberg Gesellschaft f\u00fcr Naturforschung",
+                "location": {
+                    "addrLine": "Max-von-Laue-Str. 13",
+                    "postCode": "D-60438",
+                    "settlement": "Frankfurt/Main",
+                    "country": "Germany"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Sven",
+            "middle": [],
+            "last": "Klimpel",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Senckenberg Gesellschaft f\u00fcr Naturforschung",
+                "location": {
+                    "addrLine": "Max-von-Laue-Str. 13",
+                    "postCode": "D-60438",
+                    "settlement": "Frankfurt/Main",
+                    "country": "Germany"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Sarah",
+            "middle": [],
+            "last": "Cunze",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Senckenberg Gesellschaft f\u00fcr Naturforschung",
+                "location": {
+                    "addrLine": "Max-von-Laue-Str. 13",
+                    "postCode": "D-60438",
+                    "settlement": "Frankfurt/Main",
+                    "country": "Germany"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "environmental niche modelling is an acclaimed method for estimating species' present or future distributions. However, in marine environments the assembly of representative data from reliable and unbiased occurrences is challenging. Here, we aimed to model the environmental niche and distribution of marine, parasitic nematodes from the Pseudoterranova decipiens complex using the software Maxent. the distribution of these potentially zoonotic species is of interest, because they infect the muscle tissue of host species targeted by fisheries. To achieve the best possible model, we used two different approaches. The land distance (LD) model was based on abiotic data, whereas the definitive host distance (DHD) model included species-specific biotic data. To assess whether DHD is a suitable descriptor for Pseudoterranova spp., the niches of the parasites and their respective definitive hosts were analysed using ecospat. The performance of LD and DHD was compared based on the variables' contribution to the model. The DHD-model clearly outperformed the LD-model. While the LD-model gave an estimate of the parasites' niches, it only showed the potential distribution. The DHD-model produced an estimate of the species' realised distribution and indicated that biotic variables can help to improve the modelling of data-poor, marine species. Ecological niche modelling (ENM) is a popular tool to examine the ecological and spatial limitations of species 1,2. Thus, the availability of representative occurrence data is crucial for good modelling outcomes 3. In times of global change during which species are facing climate shifts and habitat loss, models help identify suitable habitats for species and project potential distributions of species in the future 4-6. The motivation of modelling a species' niche can be diverse, from conservation approaches of endangered species 7-9 to the risk assessments of disease vectors and zoonotic agents 10-13. While niche modelling is widely applied and well established for terrestrial species 14-17 , aquatic, especially marine organisms pose additional challenges. Data is not only rarer because marine species are hard to monitor, but also the marine environment itself is less well studied, because we can only observe a small fragment of it. Thus, for marine species it may be even more difficult to obtain good and meaningful occurrence data than for terrestrial species 18. As a result, there are much fewer studies using ENM for marine species compared to terrestrial species (e.g. 19-27). In particular, there are only few studies focussing on the distribution of marine endoparasites 28. Marine endoparasites are harder to observe than other marine organisms, because they are concealed within their host. Their complex life cycles result in a degree of dependency on other organisms. It seems therefore unlikely to describe the niche of a parasite in a meaningful way without taking into account biotic interactions. Most parasites are only host-specific regarding their definitive host, but not regarding intermediate hosts, which means that intermediate host interactions are less suitable descriptors. If the definitive host is a marine mammal, data acquisition of parasites is problematic, because of the boundaries of non-invasive detection methods. However, including parasite occurrence data from intermediate hosts (especially fishes) and definitive host distribution data separately could improve the ENM of marine parasites. To evaluate the applicability of this concept, we chose the ascaridoid nematode species complex Pseudoterranova decipiens (s.l.). The so-called codworm is a parasite of commercially relevant gadid fish species that can be found in the shelf regions throughout almost all latitudes. Apart from high infection levels in their teleost hosts that lead to a contamination of the fish filet and thus, a decrease in value, Pseudoterranova spp. are",
+    "pdf_parse": {
+        "paper_id": "Altetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "environmental niche modelling is an acclaimed method for estimating species' present or future distributions. However, in marine environments the assembly of representative data from reliable and unbiased occurrences is challenging. Here, we aimed to model the environmental niche and distribution of marine, parasitic nematodes from the Pseudoterranova decipiens complex using the software Maxent. the distribution of these potentially zoonotic species is of interest, because they infect the muscle tissue of host species targeted by fisheries. To achieve the best possible model, we used two different approaches. The land distance (LD) model was based on abiotic data, whereas the definitive host distance (DHD) model included species-specific biotic data. To assess whether DHD is a suitable descriptor for Pseudoterranova spp., the niches of the parasites and their respective definitive hosts were analysed using ecospat. The performance of LD and DHD was compared based on the variables' contribution to the model. The DHD-model clearly outperformed the LD-model. While the LD-model gave an estimate of the parasites' niches, it only showed the potential distribution. The DHD-model produced an estimate of the species' realised distribution and indicated that biotic variables can help to improve the modelling of data-poor, marine species. Ecological niche modelling (ENM) is a popular tool to examine the ecological and spatial limitations of species 1,2. Thus, the availability of representative occurrence data is crucial for good modelling outcomes 3. In times of global change during which species are facing climate shifts and habitat loss, models help identify suitable habitats for species and project potential distributions of species in the future 4-6. The motivation of modelling a species' niche can be diverse, from conservation approaches of endangered species 7-9 to the risk assessments of disease vectors and zoonotic agents 10-13. While niche modelling is widely applied and well established for terrestrial species 14-17 , aquatic, especially marine organisms pose additional challenges. Data is not only rarer because marine species are hard to monitor, but also the marine environment itself is less well studied, because we can only observe a small fragment of it. Thus, for marine species it may be even more difficult to obtain good and meaningful occurrence data than for terrestrial species 18. As a result, there are much fewer studies using ENM for marine species compared to terrestrial species (e.g. 19-27). In particular, there are only few studies focussing on the distribution of marine endoparasites 28. Marine endoparasites are harder to observe than other marine organisms, because they are concealed within their host. Their complex life cycles result in a degree of dependency on other organisms. It seems therefore unlikely to describe the niche of a parasite in a meaningful way without taking into account biotic interactions. Most parasites are only host-specific regarding their definitive host, but not regarding intermediate hosts, which means that intermediate host interactions are less suitable descriptors. If the definitive host is a marine mammal, data acquisition of parasites is problematic, because of the boundaries of non-invasive detection methods. However, including parasite occurrence data from intermediate hosts (especially fishes) and definitive host distribution data separately could improve the ENM of marine parasites. To evaluate the applicability of this concept, we chose the ascaridoid nematode species complex Pseudoterranova decipiens (s.l.). The so-called codworm is a parasite of commercially relevant gadid fish species that can be found in the shelf regions throughout almost all latitudes. Apart from high infection levels in their teleost hosts that lead to a contamination of the fish filet and thus, a decrease in value, Pseudoterranova spp. are",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "known as cause of the zoonotic disease Anisakidosis [29] [30] [31] [32] . Hence, knowledge of the distribution of these parasites is of interest to identify fishing areas at risk for a high parasite load in the respective food fish.",
+                "cite_spans": [
+                    {
+                        "start": 52,
+                        "end": 56,
+                        "text": "[29]",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 57,
+                        "end": 61,
+                        "text": "[30]",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 62,
+                        "end": 66,
+                        "text": "[31]",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 67,
+                        "end": 71,
+                        "text": "[32]",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Previously described as a single species, Pseudoterranova decipiens (s.l.) has become recognised as a complex of species. The genus now includes species from different regions, P. azarasi Yamaguti & Arima, 1942 ; n. comb. Mattiucci et al., 1998, P. bulbosa Mattiucci et al., 1998 , P. cattani George-Nascimento & Urrutia, 2000, P. decipiens (s.s.) and P. krabbei PAGGI et al.,2000 [33] [34] [35] [36] . Moreover, P. decipiens E has been described as a species candidate from the Southern Ocean 37, 38 . All these species have different geographical distributions (which could suggest different climatic tolerances) and definitive hosts, which means they cannot be modelled together as a species complex.",
+                "cite_spans": [
+                    {
+                        "start": 222,
+                        "end": 256,
+                        "text": "Mattiucci et al., 1998, P. bulbosa",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 381,
+                        "end": 385,
+                        "text": "[33]",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 386,
+                        "end": 390,
+                        "text": "[34]",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 391,
+                        "end": 395,
+                        "text": "[35]",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 396,
+                        "end": 400,
+                        "text": "[36]",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 494,
+                        "end": 497,
+                        "text": "37,",
+                        "ref_id": "BIBREF36"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "After a benthic larval stage during which the larvae are attached to bottom substrate the life cycle of the genus Pseudoterranova includes three hosts. Like all nematodes of the family Anisakidae, Pseudoterranova spp. require a first crustacean host (copepod) and optionally other macroinvertebrates, a second teleost (or squid) host, and a marine mammal as definitive host, more precisely Pinnipedia 39 . The ecology of seals involves the formation of terrestrial colonies (some species also use pack ice) during the mating season, which are used as haul out sites 40 . In consequence, the concentration of the parasites' eggs should be high in areas where the definitive hosts aggregate [41] [42] [43] [44] [45] . A connection between the presence of pinniped colonies and the codworm burden in fish has been made ever since protective measures following commercial seal hunt led to the recovery of seal populations 46 . This makes definitive host occurrences a potentially well-suited indicator for codworm distribution 41, 46, 47 , which can be used in modelling the parasites' ecological niches. A benefit of this approach is that most seals are much better monitored and recorded than other marine mammals that do not have terrestrial haul out sites.",
+                "cite_spans": [
+                    {
+                        "start": 689,
+                        "end": 693,
+                        "text": "[41]",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 694,
+                        "end": 698,
+                        "text": "[42]",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 699,
+                        "end": 703,
+                        "text": "[43]",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 704,
+                        "end": 708,
+                        "text": "[44]",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 709,
+                        "end": 713,
+                        "text": "[45]",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 1023,
+                        "end": 1026,
+                        "text": "41,",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 1027,
+                        "end": 1030,
+                        "text": "46,",
+                        "ref_id": "BIBREF45"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Based on this knowledge we aim at comparing the niches of potentially zoonotic marine parasites from the Pseudoterranova decipiens complex with those of their definitive hosts, in both, geographical and ecological space. The overall aim was to reveal whether ecological niche models of marine parasites can benefit from including definitive hosts, thus, better project distributional patterns of marine parasite species than those models including only abiotic variables.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Georeferenced, molecularly identified occurrences of Pseudoterranova decipiens (s.s.) (n = 46), P. bulbosa (n = 31), P. cattani (n = 15), P. krabbei (n = 8), P. azarasi (n = 5) and P. decipiens E (n = 4) were compiled from published literature (Table S1) 30, 32, 33, [35] [36] [37] . Parasite and host occurrence data were plotted on maps to visualise their distribution ( Fig. S1, S2 ). The results are depicted in Fig. 1 .",
+                "cite_spans": [
+                    {
+                        "start": 255,
+                        "end": 258,
+                        "text": "30,",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 259,
+                        "end": 262,
+                        "text": "32,",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 263,
+                        "end": 266,
+                        "text": "33,",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 267,
+                        "end": 271,
+                        "text": "[35]",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 272,
+                        "end": 276,
+                        "text": "[36]",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 277,
+                        "end": 281,
+                        "text": "[37]",
+                        "ref_id": "BIBREF36"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 244,
+                        "end": 254,
+                        "text": "(Table S1)",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 373,
+                        "end": 384,
+                        "text": "Fig. S1, S2",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 416,
+                        "end": 422,
+                        "text": "Fig. 1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "species distribution model improvement. The mapped habitat suitability for the six Pseudoterranova species, based on the land distance model (LD-model), did not differentiate between the northern and southern hemisphere. The LD-model for P. decipiens (s.s.) showed the highest habitat suitability in the temperate regions of the northern hemisphere, increasing towards the coast. Regions with high habitat suitability were in the Baltic Sea and the North Sea. Other modelled habitats were mapped in the North Atlantic, the North Pacific, along the coast of the Gulf of Alaska, the Sea of Okhotsk and in the Sea of Japan. Despite the sampling points being only from the northern hemisphere, modelled habitat suitability was also high around the coast off Patagonia and the Falkland Islands. The modelled habitat suitability of P. bulbosa was similar to P. decipiens (s.s.) but shifted towards the poles, into colder regions.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Pseudoterranova cattani had an austral distribution with high modelled habitat suitability in South America, especially in coastal regions off Peru, Chile, Argentina and the Rio de la Plata area. In the East Atlantic, the Benguela and the Canary Current region a very high habitat suitability was modelled. Furthermore, a high habitat suitability was found in the North Sea, Chinese Sea and the Atlantic and Pacific coasts off North America.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "A high habitat suitability for P. krabbei was detected in the North Sea, the North East Atlantic and the North West Atlantic. In the Pacific, high habitat suitability was detected at the coast off Alaska and in the Sea of Japan west off Hokkaido and in the northern Chinese Sea. The suitable habitats in the southern hemisphere were off the Chilean and Argentinean coasts and the waters of the Bass Strait between Australia and Tasmania.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "The habitat suitability for P. azarasi based on the LD-model was not able to provide any biogeographical information. High habitat suitability was modelled for P. azarasi in coastal regions in all geographical latitudes. This was unaffected by other environmental factors.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "The modelled habitat suitability for P. decipiens E was highest in the polar regions. It covered the Southern Ocean with the habitat suitability increasing towards the land mass. A high habitat suitability was detected east of the Antarctic Peninsula, which is also the area where the samples originated from. In the northern hemisphere, the LD-model predicted a high habitat suitability in the Arctic Sea and the Barents Sea.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "The habitat suitability models of the parasites gained accuracy through the introduction of definitive host distance (DHD), as indicated by the increase of area under the curve (AUC) values ( Table 1 ). The AUC-values of the LD-model are > 0.9 for all Pseudoterranova species. In the DHD-model, AUC-values significantly increased (p < 0.05, Wilcoxon test). Maxent response curves of DHD showed the same effect for all analysed parasite species: with increasing DHD modelled probability of parasite presence monotonously decreased (Fig. S3) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 192,
+                        "end": 199,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 530,
+                        "end": 539,
+                        "text": "(Fig. S3)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "The DHD-model maps of all Pseudoterranova species seem to be more geographically accurate than the maps based on the LD-model, reflecting the observed realised distribution of the parasites (Fig. S1 ). In particular, the representation in the geographical space is changed, the hemisphere in which the species and its hosts do not occur is not included, despite its apt abiotic conditions. For example, the DHD-model for P. bulbosa only includes suitable habitats in the North Atlantic and North Pacific. This corresponds to where the specimens of P. bulbosa have actually been sampled (Fig. S1 ). Furthermore, the DHD-model reduces the habitat suitability projection from the whole North-Russian coast to the Barents Sea.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 190,
+                        "end": 198,
+                        "text": "(Fig. S1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 586,
+                        "end": 594,
+                        "text": "(Fig. S1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "www.nature.com/scientificreports www.nature.com/scientificreports/ The variable contribution of the LD-model was incoherent between the six different Pseudoterranova species (Table S2) . The DHD-model had a clear pattern, which can be attributed to DHD becoming the most important variable of the model. The Maxent response curves for all modelled parasites show that the habitat suitability monotonously decreased with increasing distance to a definitive host (Fig. S3) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 174,
+                        "end": 184,
+                        "text": "(Table S2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 461,
+                        "end": 470,
+                        "text": "(Fig. S3)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "The information of DHD contributed to all modelled species (Table S2) , which makes this model superior to the LD-model which lacks this information entirely. This also applies to the species with the fewest occurrences, www.nature.com/scientificreports www.nature.com/scientificreports/ P. decipiens E, which relied almost exclusively on SST in the LD-model. Through the introduction of DHD, all other variables gain contribution (Table S2 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 59,
+                        "end": 69,
+                        "text": "(Table S2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 431,
+                        "end": 440,
+                        "text": "(Table S2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "principal components analysis and niche plots. To compare the niches of the parasites and their respective definitive hosts, a PCA_env was calculated for the Pseudoterranova species with most occurrences, P. bulbosa, P. cattani and P. decipiens (s.s.). In this analysis the environmental variables of the LD-model (depth, land distance, mean sea surface temperature, primary production, salinity) were included.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Schoener's D was calculated as a measure of niche overlap. This revealed a high overlap of the niches of P. bulbosa and its definitive host Erignathus barbatus (D = 0.543), but a much lower overlap (D = 0.018) with the host Pusa hispida (Table S3 , Fig. 2 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 237,
+                        "end": 246,
+                        "text": "(Table S3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 249,
+                        "end": 255,
+                        "text": "Fig. 2",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "The niche plots generated in ecospat reveal the proportion of the parasite niche that is covered by the host niche, indicated by niche overlap between the parasite and its host ( Fig. 2 ). Niche unfilling (green) indicates the proportion of the parasite niche that is not explained by the niche of the respective host. The niche of the parasite Pseudoterranova bulbosa is entirely covered by the niche of the ringed seal (Pusa hispida), resulting in no unfilling. The same applies to P. cattani and the South American fur seal (Arctocephalus australis). The niche of P. decipiens (s.s.) is modelled broader than the niches of the other parasite species. The host with the largest niche overlap is the grey seal (Halichoerus grypus), with the lowest unfilling of the parasite niche. The niche plots visualise that the definitive hosts cover different regions of the niche of P. decipiens (s.s.), resulting in a full niche cover of the parasite by a combination of its definitive host niches.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 179,
+                        "end": 185,
+                        "text": "Fig. 2",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "The approach undertaken here was based on the assumption that reproduction is the most basic requirement to sustain a population. In case of endohelminths, the reproduction depends on the availability of a definitive host, which enables the parasite to mature, mate and release eggs into the environment 39 . Hence, we regard the presence of definitive hosts as a suitable descriptor to help refine the models of Pseudoterranova species. We analysed whether including specific host presence records would improve the species distribution models of the parasites.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The modelling approach in Maxent was based on environmental variables available in the database GMED. The outcome for the different species varied depending on the occurrence sample size and quality. Most inaccuracies occurred for the species Pseudoterranova azarasi, which had the fewest and most inconsistent occurrence data, and would normally be considered unfit for modelling. As a result of data deficiency, the occurrences of this parasite could not be linked to all environmental variables in a meaningful way, hence, the model was exclusively based on land distance, with no other differentiation. But even the models of species with more occurrences were geographically inaccurate, because habitats which are out of the range of a species (by distance or continental barriers) were considered as suitable. Even if the model projected a high habitat suitability for a species from the North Atlantic in the southern hemisphere, the requirements of an endoparasite with a complex multi-host life cycle are likely not fulfilled. For non-parasitic species, the prediction of the LD-model might be sufficient, with mobility as the single limiting factor, preventing the species to colonise the modelled habitat 3 . But even then, biotic interactions and competition for resources might be further limiting factors. Since the life cycles of Pseudoterranova spp. are dependent on definitive host availability, potential niches need to include the host, as performed in an approach published by Kuhn et al. 28 . While the LD-model might give reasonable information on the potential distribution of a parasite, the DHD-model shows its realised distribution.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "If a model were able to represent the fundamental niche of an organism (sensu Hutchinson 76 ), its mapped habitat suitability would represent all potential habitats disregarding constraints by biotic interactions and mobility restrictions [77] [78] [79] . However, identifying the fundamental niche would only be possible under ideal circumstances, as it is combined from an organism's realised response, ecological response and physiological response to its environment 80, 81 . Species distribution models based on distributional data result in a representation of the species' realised niche. To describe the ecological niches of the Pseudoterranova species, we need to acknowledge the life cycle of the parasite by using an approach accounting for the species' biotic requirements. Georeferenced samples were taken from intermediate hosts, so these data are not necessarily useful in defining the niche of the hatched, free-living larval stage (which could be argued as the \"abiotic\" niche of the parasite). Working with occurrences from intermediate host stages is not ideal. However, if the model includes the definitive host data, by using DHD, it considers the paramount factor, for the parasite to reproduce. Hence, the resulting model should be a representation of the species' realised geographical distribution. www.nature.com/scientificreports www.nature.com/scientificreports/ The DHD-model considers the circumstance that the presence of host colonies has an impact on the concentration of larvae attached to the sea floor 39 . A study by McConnell, Marcogliese & Stacey 82 investigated the sedimentation rate of Pseudoterranova spp. eggs. The benthic life cycle of Pseudoterranova requires the eggs to reach the seabed, which means their density needs to be higher than sea water. Structural factors like depth (which usually increases with increasing land distance) and currents are crucial factors for the sedimentation rate, while processes like upwelling could be an inhibitor. A high density of eggs and hatched larvae at the sea floor influences the prevalence of the parasite in its invertebrate intermediate host, and thus in the teleost host, where it is noticed because it decreases the commercial value of a fish and its relevance regarding food safety. www.nature.com/scientificreports www.nature.com/scientificreports/ Seal hunting depleted the number of seals worldwide to 33 extant species. After hunting was widely abolished, regular monitoring has been conducted within the scope of conservation efforts. As seals are semi-terrestrial, monitoring them is much easier than other marine mammals. Therefore, seals are well monitored and there are many reliable presence records in databases like GBIF. A considerable advantage of the DHD-model is the data foundation, because the definitive hosts are much easier monitored than the parasites. Due to this advantage concerning the definitive host data, this study differs from the approach suggested by Kuhn et al. 28 , who used modelled definitive host habitat suitability as a predictor for the nematode genus Anisakis. Compared to pinnipeds, the occurrence data for some long-distance migrating cetaceans tend to be much more biased and are more difficult to acquire in the first place. In our case, the life cycle and ecology of Pseudoterranova allows us to use DHD. This approach removes the level of uncertainty created by using modelled host distributions, which might however be inevitable in other studies (e.g. 27, 28 ) . We chose to favour DHD as a direct variable over modelling definitive host distribution, to reduce geographical misrepresentation and to avoid an additional modelling step, which would create an additional level of uncertainty. Using DHD provides a species-specific descriptor, which adds spatial information to the model. This spatial component may not be relevant to the parasite's ecological requirements, but it is highly relevant for providing a realistic representation of the realised, geographical distribution. Using a modelled definitive host descriptor would not have included this kind of spatial information.",
+                "cite_spans": [
+                    {
+                        "start": 239,
+                        "end": 243,
+                        "text": "[77]",
+                        "ref_id": "BIBREF77"
+                    },
+                    {
+                        "start": 244,
+                        "end": 248,
+                        "text": "[78]",
+                        "ref_id": "BIBREF78"
+                    },
+                    {
+                        "start": 249,
+                        "end": 253,
+                        "text": "[79]",
+                        "ref_id": "BIBREF79"
+                    },
+                    {
+                        "start": 471,
+                        "end": 474,
+                        "text": "80,",
+                        "ref_id": "BIBREF80"
+                    },
+                    {
+                        "start": 3500,
+                        "end": 3503,
+                        "text": "27,",
+                        "ref_id": "BIBREF26"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The difference in variable contribution between the LD-model and the DHD-model highlights the explanatory power of the DHD variable in lieu of land distance. While land distance had the highest variable contribution to the models of two species (P. azarasi and P. cattani), DHD was the most important descriptor of all analysed species except P. decipiens E, where it, together with SST, still contributed equally to the model. The quality of a single model cannot be assessed by its AUC-value, because it might be increased by a uniform (small) set of data. However, the AUC-value can be used to compare the effect of new descriptors on the same distributional data 83 . The increased AUC-values of all species models clearly show that the model was improved by the use of DHD instead of LD.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Due to the parasite specimens originating from intermediate instead of definitive hosts, we needed to show that a definitive host can occur at each parasite's sampling site. If this is the case, there should be a clear overlap between the niches of the parasite and its associated definitive hosts. To evaluate the eligibility of DHD as a descriptor, we examined the niches of the Pseudoterranova species and their documented definitive hosts in ecological niche space. We used the R-package ecospat 84 , which is based on a principal components analysis (PCA), with the advantage of removing correlations among the predictor variables, creating the most informative descriptors, based on the original variables.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The PCA-based niche analyses, including Schoener's D and niche stability, expansion and unfilling, support the concept of the DHD-model. Despite a lower overlap between parasites and some individual hosts, the parasites' niches are covered completely by the combination of the associated definitive hosts' niches. Host species with a geographical distribution that is much broader than the parasites' could result in expansion. This may be the case for Pusa hispida and its parasites Pseudoterranova bulbosa and P. decipiens (s.s.), or Arctocephalus australis and P. cattani. Niche unfilling could indicate that the definitive host spectrum of the parasite might not have been exhaustively recorded yet. There may also be other explanations for niche unfilling, e.g. if the parasites were sampled from a migrating intermediate host. The definitive hosts are still the best option to represent the biotic requirements of the Pseudoterranova species, because of the parasites' low specificity regarding their intermediate hosts.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Under ideal circumstances, data used for habitat suitability models should be sampled with a study design that results in random, unbiased occurrences 85 . Observations should be independent from each other and the data should represent the niche adequately 79 . Therefore, sampling should not be performed in sink populations and the fitness of the sampled population should be assessed 2, 86 . However, real-life data does not easily fulfil these requirements. Endoparasites do not allow a direct sampling which is non-invasive to the host species. Considering this, sampling from intermediate hosts is not ideal, because it cannot be assumed that the parasite larva retrieved in a fish will reach maturity. However, since the reproductive stages occur in seals, sufficient sampling from the definitive hosts is not an option. All data occurrences used in this study are independent, since they were sampled in different projects. However, they are not unbiased, since most examined host species are commercially relevant and so are the sampling sites. The demerit of the data available for Pseudoterranova spp. is that specimens are rarely identified to species level, even though this is the only way to distinguish larval stages from intermediate hosts. Since only few are molecularly identified, the required number of samples is not available for every species. Occurrence data of the species resident in less accessible areas, as the Southern Ocean, are scarce (e.g. all occurrences of P. decipiens E were sampled on the route of the German RV Polarstern). Despite these circumstances, we decided to include all species which use seals as definitive hosts in the study, because it is illustrative to compare the LD-and the DHD-model in species with a range of available occurrences. To account for small sample sizes we used Maxent, which has been reported to perform well in this case [87] [88] [89] [90] . We modelled with presence only data, therefore the degree of overprediction cannot be quantified 90 . Galante et al. 90 suggest a combination of model selection and spatial filtering for data-poor species. This approach only works for species whose ecology is well known.",
+                "cite_spans": [
+                    {
+                        "start": 388,
+                        "end": 390,
+                        "text": "2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 1894,
+                        "end": 1898,
+                        "text": "[87]",
+                        "ref_id": "BIBREF87"
+                    },
+                    {
+                        "start": 1899,
+                        "end": 1903,
+                        "text": "[88]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1904,
+                        "end": 1908,
+                        "text": "[89]",
+                        "ref_id": "BIBREF89"
+                    },
+                    {
+                        "start": 1909,
+                        "end": 1913,
+                        "text": "[90]",
+                        "ref_id": "BIBREF90"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The life cycle of a parasite is tied to its (several) mandatory hosts. The definitive host is indispensable for the completion of a parasites' life cycle. Hence, to a certain degree, the distribution of a parasite is determined by the availability of its definitive host. In consequence, the habitat suitability model for a parasite species can be improved by taking into account definitive host distribution. This was done by replacing land distance (used in the LD-models) by definitive host distance (used in the DHD-model). The LD-model shows the potential distribution of Pseudoterranova spp., while the DHD-model gives an estimate of its realised distribution. www.nature.com/scientificreports www.nature.com/scientificreports/ By including the variable DHD into the model, the Maxent habitat suitability model more represents the observed occurrence of the parasite species. Habitats for boreal and austral species are only modelled in the hemisphere where their hosts actually occur.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusion",
+                "sec_num": null
+            },
+            {
+                "text": "Maxent approach. Ecological niche modelling is a correlative approach to assess the present or future habitat suitability of a given geographic area for a certain species. The method links occurrence data to the environmental conditions (most often represented by abiotic descriptors such as climate data) of the sampling area and calculates probabilities of a species' presence 2, 5, 91 .",
+                "cite_spans": [
+                    {
+                        "start": 379,
+                        "end": 381,
+                        "text": "2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 382,
+                        "end": 384,
+                        "text": "5,",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Material and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "The ENM was performed using Maxent, a machine learning algorithm which assumes that among all models, meeting certain constraints, the model with the highest entropy is most suitable to describe the data [91] [92] [93] . Standard settings of Maxent (version 3.3.3) were to calculate linear, quadratic and product features based on Cunze & Tackenberg 94 . In addition, we enhanced the number of iterations in order to ensure convergence. Maxent includes the area under the curve value (AUC-value), which indicates the quality of the model fit. The AUC-value ranges from 0-1 with a value of 0.5 representing a random model 95 . The higher the value the better the specimens are represented by the model. The AUC-values of two models of the same species were compared using the Wilcoxon test.",
+                "cite_spans": [
+                    {
+                        "start": 204,
+                        "end": 208,
+                        "text": "[91]",
+                        "ref_id": "BIBREF91"
+                    },
+                    {
+                        "start": 209,
+                        "end": 213,
+                        "text": "[92]",
+                        "ref_id": "BIBREF92"
+                    },
+                    {
+                        "start": 214,
+                        "end": 218,
+                        "text": "[93]",
+                        "ref_id": "BIBREF93"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Material and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "In order to compile georeferenced reports of Pseudoterranova spp., a literature research was conducted (Table S1 , Fig. S1 ). The keyword 'Pseudoterranova' was used in the query on Web of Science and Google Scholar. The identification to species level needed to be validated either through molecular methods (such as direct sequencing, PCR-RFLP, enzyme electrophoresis), or by morphological identification of adult stages from definitive hosts. Occurrences referenced as Pseudoterranova decipiens (s.l.) were not included into the dataset. Spatial autocorrelation was accounted for following the method described in Pearson et al. 88 .",
+                "cite_spans": [
+                    {
+                        "start": 631,
+                        "end": 633,
+                        "text": "88",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 103,
+                        "end": 112,
+                        "text": "(Table S1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 115,
+                        "end": 122,
+                        "text": "Fig. S1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Material and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "The environmental variables used in the model were taken from the global marine environment datasets (GMED). A set of ecologically meaningful factors was chosen to represent the most important factors for the modelling of the parasites and hosts. To avoid overfitting, a correlation analysis of the environmental variables was performed, excluding one variable from a pair of highly intercorrelated variables. In this process, five variables with a Pearson correlation coefficient < 0.51 were chosen: mean sea surface temperature (SST), bottom salinity (Sal), land distance (LD), depth (D) and primary production (PrimProd) with a spatial resolution of 0.083 decimal degrees (5 arc-minutes).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Material and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "To improve the model consisting solely of abiotic variables (LD-model), definitive host distance (DHD) was included as a biotic predictor, replacing land distance in a new modelling approach (DHD-model). The DHD was created in ESRI ArcGIS by calculating for each gridcell (same spatial resolution as the GMED data) the distance to the nearest gridcell containing at least one definitive host occurrence record. The variable includes the occurrence data of all respective definitive hosts for each Pseudoterranova species. The reported definitive host spectrum of the Pseudoterranova species was compiled by Mattiucci & Nascetti 96 (and references therein 33, 48, 49, 97 ) and includes 11 different species (Arctocephalus australis, Cystophora cristata, Halichoerus grypus, Erignathus barbatus, Eumetopias jubatus, Leptonychotes weddelli, Mirounga angustirostris, Otaria flavescens, Phoca vitulina, Pusa hispida, Zalophus californianus). The host occurrence data (Fig. S2) were retrieved from GBIF.org and Aquamaps.org.",
+                "cite_spans": [
+                    {
+                        "start": 655,
+                        "end": 658,
+                        "text": "33,",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 659,
+                        "end": 662,
+                        "text": "48,",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 663,
+                        "end": 666,
+                        "text": "49,",
+                        "ref_id": "BIBREF49"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 962,
+                        "end": 971,
+                        "text": "(Fig. S2)",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Material and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "For both models (LD + DHD), the Maxent variable contribution and permutation importance were taken as measures of the relative contributions of the environmental variables to the Maxent models 91 . To review whether the presence of hosts is a positive predictor for parasite presence, the one-variable response curves for the DHD variable are shown. Habitat suitability maps were generated using Esri ArcGIS. ecospat approach. In order to test our hypothesis that the biotic DHD-variable includes more information than LD, we compared the ecological niches of the parasites and associated definitive hosts. We visualized the species' realized niches based on the PCA_env approach suggested by Broennimann et al. 98 and implemented in the R package \"ecospat\" 84 . The considered niche space is spanned by the first two principal components of the principal component analysis (PCA) on the five GMED variables used in the abiotic model: mean sea surface temperature (SST), salinity (Sal), land distance (LD), depth (D) and primary production (PrimProd). We calculated Schoener's D 99, 100 , a measure for niche overlap to estimate the extent a parasite's niche is included in its related definitive host's niche, niche unfilling, niche expansion and niche stability 101 . This comparison was only shown for Pseudoterranova bulbosa, P. cattani, P. decipiens (s.s.), as only for these species a sufficient amount of occurrence data was available. The niches of P.bulbosa, P. cattani and P. decipiens (s.s.) were analysed with reference to their definitive host niches. Here, niche expansion can be interpreted as the parasite's niche proportion that does not overlap with the host niche. Niche unfilling is the proportion of the host's niche that does not overlap with the parasite's niche 101, 102 .",
+                "cite_spans": [
+                    {
+                        "start": 1079,
+                        "end": 1082,
+                        "text": "99,",
+                        "ref_id": "BIBREF99"
+                    },
+                    {
+                        "start": 1786,
+                        "end": 1790,
+                        "text": "101,",
+                        "ref_id": "BIBREF101"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Material and Methods",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We thank Maximilian Dedo L\u00fcbben for his contribution to the literature research of georeferenced parasite occurrences.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgements",
+                "sec_num": null
+            },
+            {
+                "text": "K.G.A., J.K., S.K. and S.C. conceived of the study and wrote the manuscript. K.G.A. carried out the analysis and created the figures. J.K. revised the manuscript. S.C. participated in the data analysis. All authors gave final approval for publication and agree to be held accountable for the work performed therein.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Author Contributions",
+                "sec_num": null
+            },
+            {
+                "text": "Supplementary information accompanies this paper at https://doi.org/10.1038/s41598-019-46127-6.Competing Interests: The authors declare no competing interests.Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Additional Information",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Predictive habitat distribution models in ecology",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Guisan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Zimmermann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Ecol. Model",
+                "volume": "135",
+                "issue": "",
+                "pages": "147--186",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Guisan, A. & Zimmermann, N. E. Predictive habitat distribution models in ecology. Ecol. Model. 135, 147-186 (2000).",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Predicting species distribution: offering more than simple habitat models",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Guisan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Thuiller",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Ecol. Lett",
+                "volume": "8",
+                "issue": "",
+                "pages": "993--1009",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Guisan, A. & Thuiller, W. Predicting species distribution: offering more than simple habitat models. Ecol. Lett. 8, 993-1009 (2005).",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Novel methods improve prediction of species' distributions from occurrence data",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Elith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Ecography",
+                "volume": "29",
+                "issue": "",
+                "pages": "129--151",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Elith, J. et al. Novel methods improve prediction of species' distributions from occurrence data. Ecography 29, 129-151 (2006).",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Future projections for Mexican faunas under global climate change scenarios",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Peterson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Nature",
+                "volume": "416",
+                "issue": "",
+                "pages": "626--629",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Peterson, A. T. et al. Future projections for Mexican faunas under global climate change scenarios. Nature 416, 626-629 (2002).",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Predicting the impacts of climate change on the distribution of species: are bioclimate envelope models useful?",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Pearson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Dawson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Glob. Ecol. Biogeogr",
+                "volume": "12",
+                "issue": "",
+                "pages": "361--371",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pearson, R. G. & Dawson, T. P. Predicting the impacts of climate change on the distribution of species: are bioclimate envelope models useful? Glob. Ecol. Biogeogr. 12, 361-371 (2003).",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Aedes albopictus and its environmental limits in Europe",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Cunze",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Kochmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Koch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Klimpel",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "PLOS ONE",
+                "volume": "11",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cunze, S., Kochmann, J., Koch, L. K. & Klimpel, S. Aedes albopictus and its environmental limits in Europe. PLOS ONE 11, e0162116 (2016).",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Conservation strategy for aquatic plants: endangered Ottelia acuminata (Hydrocharitaceae) as a case study",
+                "authors": [
+                    {
+                        "first": "J.-L",
+                        "middle": [],
+                        "last": "Guo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "Biodivers. Conserv",
+                "volume": "28",
+                "issue": "",
+                "pages": "1533--1548",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Guo, J.-L. et al. Conservation strategy for aquatic plants: endangered Ottelia acuminata (Hydrocharitaceae) as a case study. Biodivers. Conserv. 28, 1533-1548 (2019).",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Nature protection areas of Europe are insufficient to preserve the threatened beetle Rosalia alpina (Coleoptera: Cerambycidae): evidence from species distribution models and conservation gap analysis",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Bosso",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Ecol. Entomol",
+                "volume": "43",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/s41598-019-46127-6"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Bosso, L. et al. Nature protection areas of Europe are insufficient to preserve the threatened beetle Rosalia alpina (Coleoptera: Cerambycidae): evidence from species distribution models and conservation gap analysis. Ecol. Entomol. 43, 192-203 (2018). (2019) 9:9851 | https://doi.org/10.1038/s41598-019-46127-6 www.nature.com/scientificreports",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Species distribution models of European Turtle Doves in Germany are more reliable with presence only rather than presence absence data",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Marx",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Quillfeldt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Sci. Rep",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Marx, M. & Quillfeldt, P. Species distribution models of European Turtle Doves in Germany are more reliable with presence only rather than presence absence data. Sci. Rep. 8, 16898 (2018).",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Mosquito-Borne Diseases: Advances in Modelling Climate-Change Impacts",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Tjaden",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Caminade",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Beierkuhnlein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Thomas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Trends Parasitol",
+                "volume": "34",
+                "issue": "",
+                "pages": "227--245",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tjaden, N. B., Caminade, C., Beierkuhnlein, C. & Thomas, S. M. Mosquito-Borne Diseases: Advances in Modelling Climate- Change Impacts. Trends Parasitol. 34, 227-245 (2018).",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Present and Future of Dengue Fever in Nepal: Mapping Climatic Suitability by Ecological Niche Model",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Acharya",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Int. J. Environ. Res. Public. Health",
+                "volume": "15",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Acharya, B. K. et al. Present and Future of Dengue Fever in Nepal: Mapping Climatic Suitability by Ecological Niche Model. Int. J. Environ. Res. Public. Health 15, 187 (2018).",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Spatial and temporal patterns of human Puumala virus (PUUV) infections in Germany",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Cunze",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "PeerJ",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cunze, S. et al. Spatial and temporal patterns of human Puumala virus (PUUV) infections in Germany. PeerJ 6, e4255 (2018).",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Modeling the climatic suitability of leishmaniasis vector species in",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Koch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Kochmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Klimpel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Cunze",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Europe. Sci. Rep",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Koch, L. K., Kochmann, J., Klimpel, S. & Cunze, S. Modeling the climatic suitability of leishmaniasis vector species in Europe. Sci. Rep. 7, 13325 (2017).",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Field tests of a general ectotherm niche model show how water can limit lizard activity and distribution",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Kearney",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Munns",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Moore",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Malishev",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Bull",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Ecol. Monogr",
+                "volume": "88",
+                "issue": "",
+                "pages": "672--693",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kearney, M. R., Munns, S. L., Moore, D., Malishev, M. & Bull, C. M. Field tests of a general ectotherm niche model show how water can limit lizard activity and distribution. Ecol. Monogr. 88, 672-693 (2018).",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Decreasing brown bear (Ursus arctos) habitat due to climate change in Central Asia and the Asian Highlands",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Su",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Ecol. Evol",
+                "volume": "8",
+                "issue": "",
+                "pages": "11887--11899",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Su, J. et al. Decreasing brown bear (Ursus arctos) habitat due to climate change in Central Asia and the Asian Highlands. Ecol. Evol. 8, 11887-11899 (2018).",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Ignoring seasonal changes in the ecological niche of non-migratory species may lead to biases in potential distribution models: lessons from bats",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Smeraldo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Biodivers. Conserv",
+                "volume": "27",
+                "issue": "",
+                "pages": "2425--2441",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Smeraldo, S. et al. Ignoring seasonal changes in the ecological niche of non-migratory species may lead to biases in potential distribution models: lessons from bats. Biodivers. Conserv. 27, 2425-2441 (2018).",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Habitat suitability and movement corridors of grey wolf (Canis lupus) in Northern Pakistan",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kabir",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "PLOS ONE",
+                "volume": "12",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kabir, M. et al. Habitat suitability and movement corridors of grey wolf (Canis lupus) in Northern Pakistan. PLOS ONE 12, e0187027 (2017).",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Niche modeling and geographic range predictions in the marine environment using a machine-learning algorithm",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Wiley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Mcnyset",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Townsend Peterson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Richard Robins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Stewart",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Oceanography",
+                "volume": "16",
+                "issue": "",
+                "pages": "120--127",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wiley, E. O., McNyset, K. M., Townsend Peterson, A., Richard Robins, C. & Stewart, A. M. Niche modeling and geographic range predictions in the marine environment using a machine-learning algorithm. Oceanography 16, 120-127 (2003).",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Mapping world-wide distributions of marine mammal species using a relative environmental suitability (RES) model",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Kaschner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Watson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Trites",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Pauly",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Mar. Ecol. Prog. Ser",
+                "volume": "316",
+                "issue": "",
+                "pages": "285--310",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kaschner, K., Watson, R., Trites, A. W. & Pauly, D. Mapping world-wide distributions of marine mammal species using a relative environmental suitability (RES) model. Mar. Ecol. Prog. Ser. 316, 285-310 (2006).",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "A comparison of approaches for modelling the occurrence of marine animals",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Macleod",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Mandleberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Schweder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Bannon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Pierce",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Essential Fish Habitat Mapping in the Mediterranean (Valavanis",
+                "volume": "",
+                "issue": "",
+                "pages": "21--32",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/978-1-4020-9141-4_3"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "MacLeod, C. D., Mandleberg, L., Schweder, C., Bannon, S. M. & Pierce, G. J. A comparison of approaches for modelling the occurrence of marine animals. In Essential Fish Habitat Mapping in the Mediterranean (Valavanis, V. D. ed.) 21-32, https://doi. org/10.1007/978-1-4020-9141-4_3 (Springer Netherlands, 2008).",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Modelling the spatial distribution of plaice (Pleuronectes platessa), sole (Solea solea) and thornback ray (Raja clavata) in UK waters for marine management and planning",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Maxwell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Stelzenm\u00fcller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Eastwood",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Rogers",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "J. Sea Res",
+                "volume": "61",
+                "issue": "",
+                "pages": "258--267",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Maxwell, D. L., Stelzenm\u00fcller, V., Eastwood, P. D. & Rogers, S. I. Modelling the spatial distribution of plaice (Pleuronectes platessa), sole (Solea solea) and thornback ray (Raja clavata) in UK waters for marine management and planning. J. Sea Res. 61, 258-267 (2009).",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Ecosystem models clarify the trophic role of whales off Northwest Africa",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Morissette",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Kaschner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Gerber",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mar. Ecol. Prog. Ser",
+                "volume": "404",
+                "issue": "",
+                "pages": "289--302",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Morissette, L., Kaschner, K. & Gerber, L. R. Ecosystem models clarify the trophic role of whales off Northwest Africa. Mar. Ecol. Prog. Ser. 404, 289-302 (2010).",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Ecological coherence of marine protected area networks: a spatial assessment using species distribution models",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Sundblad",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Bergstr\u00f6m",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Sandstr\u00f6m",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "J. Appl. Ecol",
+                "volume": "48",
+                "issue": "",
+                "pages": "112--120",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sundblad, G., Bergstr\u00f6m, U. & Sandstr\u00f6m, A. Ecological coherence of marine protected area networks: a spatial assessment using species distribution models. J. Appl. Ecol. 48, 112-120 (2011).",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Species distribution modelling of marine benthos: a North Sea case study",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Reiss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Cunze",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "K\u00f6nig",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Neumann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Kr\u00f6ncke",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Mar. Ecol. Prog. Ser",
+                "volume": "442",
+                "issue": "",
+                "pages": "71--86",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Reiss, H., Cunze, S., K\u00f6nig, K., Neumann, H. & Kr\u00f6ncke, I. Species distribution modelling of marine benthos: a North Sea case study. Mar. Ecol. Prog. Ser. 442, 71-86 (2011).",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Benthos distribution modelling and its relevance for marine ecosystem management",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Reiss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "ICES J. Mar. Sci",
+                "volume": "72",
+                "issue": "",
+                "pages": "297--315",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Reiss, H. et al. Benthos distribution modelling and its relevance for marine ecosystem management. ICES J. Mar. Sci. 72, 297-315 (2015).",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Modelling the effects of climate change on the distribution and production of marine fishes: Accounting for trophic interactions in a dynamic bioclimate envelope model",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Fernandes",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Glob. Change Biol",
+                "volume": "19",
+                "issue": "",
+                "pages": "2596--2607",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fernandes, J. A. et al. Modelling the effects of climate change on the distribution and production of marine fishes: Accounting for trophic interactions in a dynamic bioclimate envelope model. Glob. Change Biol. 19, 2596-2607 (2013).",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Using biotic interactions in broad-scale estimates of species' distributions",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Gherghel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Brischoux",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Pape\u015f",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "J. Biogeogr",
+                "volume": "45",
+                "issue": "",
+                "pages": "2216--2225",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gherghel, I., Brischoux, F. & Pape\u015f, M. Using biotic interactions in broad-scale estimates of species' distributions. J. Biogeogr. 45, 2216-2225 (2018).",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Environmental variables and definitive host distribution: a habitat suitability modelling for endohelminth parasites in the marine realm",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Kuhn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Cunze",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Kochmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Klimpel",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Sci. Rep",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kuhn, T., Cunze, S., Kochmann, J. & Klimpel, S. Environmental variables and definitive host distribution: a habitat suitability modelling for endohelminth parasites in the marine realm. Sci. Rep. 6, 30246 (2016).",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Anisakidosis: Perils of the deep",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Hochberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Hamer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Clin. Infect. Dis",
+                "volume": "51",
+                "issue": "",
+                "pages": "806--812",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hochberg, N. S. & Hamer, D. H. Anisakidosis: Perils of the deep. Clin. Infect. Dis. 51, 806-812 (2010).",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Human infection with Pseudoterranova azarasi roundworm",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Arizono",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Miura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Yamada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Tegoshi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Onishi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Emerg. Infect. Dis",
+                "volume": "17",
+                "issue": "",
+                "pages": "555--556",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Arizono, N., Miura, T., Yamada, M., Tegoshi, T. & Onishi, K. Human infection with Pseudoterranova azarasi roundworm. Emerg. Infect. Dis. 17, 555-556 (2011).",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Human Pseudoterranovosis, an emerging infection in Chile",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Torres",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Jercic",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Weitz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Dobrew",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Mercado",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "J. Parasitol",
+                "volume": "93",
+                "issue": "",
+                "pages": "440--443",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Torres, P., Jercic, M. I., Weitz, J. C., Dobrew, E. K. & Mercado, R. A. Human Pseudoterranovosis, an emerging infection in Chile. J. Parasitol. 93, 440-443 (2007).",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Human infections with Pseudoterranova cattani nematodes",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Weitzel",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Chile. Emerg. Infect. Dis",
+                "volume": "21",
+                "issue": "",
+                "pages": "1874--1875",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Weitzel, T. et al. Human infections with Pseudoterranova cattani nematodes, Chile. Emerg. Infect. Dis. 21, 1874-1875 (2015).",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Allozyme and morphological identification of shape Anisakis, Contracaecum and Pseudoterranova from Japanese waters (Nematoda, Ascaridoidea)",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Mattiucci",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Syst. Parasitol",
+                "volume": "40",
+                "issue": "",
+                "pages": "81--92",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mattiucci, S. et al. Allozyme and morphological identification of shape Anisakis, Contracaecum and Pseudoterranova from Japanese waters (Nematoda, Ascaridoidea). Syst. Parasitol. 40, 81-92 (1998).",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Porrocaecum azarasi n.sp. (Nematoda) from the Japanese seal",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Yamaguti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Arima",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1942,
+                "venue": "Trans. Sapporo Nat. Hist. Soc",
+                "volume": "17",
+                "issue": "",
+                "pages": "113--116",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yamaguti, S. & Arima, S. Porrocaecum azarasi n.sp. (Nematoda) from the Japanese seal. Trans. Sapporo Nat. Hist. Soc. 17, 113-116 (1942).",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Ascaridoidea: Anisakidae), un par\u00e1sito del lobo marino com\u00fan Otaria byronia De Blainville en",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "George-Nascimento",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Urrutia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Pseudoterranova Cattani Sp. Nov",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Chile. Rev. Chil. Hist. Nat",
+                "volume": "73",
+                "issue": "",
+                "pages": "93--98",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "George-Nascimento, M. & Urrutia, X. Pseudoterranova cattani sp. nov. (Ascaridoidea: Anisakidae), un par\u00e1sito del lobo marino com\u00fan Otaria byronia De Blainville en Chile. Rev. Chil. Hist. Nat. 73, 93-98 (2000).",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Pseudoterranova decipiens species A and B (Nematoda, Ascaridoidea): nomenclatural designation, morphological diagnostic characters and genetic markers",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Paggi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Syst. Parasitol",
+                "volume": "45",
+                "issue": "",
+                "pages": "185--197",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Paggi, L. et al. Pseudoterranova decipiens species A and B (Nematoda, Ascaridoidea): nomenclatural designation, morphological diagnostic characters and genetic markers. Syst. Parasitol. 45, 185-197 (2000).",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Genetic and ecological research on anisakid endoparasites of fish and marine mammals in the Antarctic and Arctic-Boreal regions",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Bullini",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Antarctic Communities: Species, Structure and Survival",
+                "volume": "",
+                "issue": "",
+                "pages": "39--44",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bullini, L. et al. Genetic and ecological research on anisakid endoparasites of fish and marine mammals in the Antarctic and Arctic-Boreal regions. in Antarctic Communities: Species, Structure and Survival (Battaglia, B., Valencia, J. & Walton, D. W. H. eds) 39-44 (Cambridge University Press, 1997).",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Ecology of Pseudoterranova decipiens (Krabbe, 1878) (Nematoda: Anisakidae) from Antarctic waters",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Palm",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Parasitol. Res",
+                "volume": "85",
+                "issue": "",
+                "pages": "638--646",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Palm, H. W. Ecology of Pseudoterranova decipiens (Krabbe, 1878) (Nematoda: Anisakidae) from Antarctic waters. Parasitol. Res. 85, 638-646 (1999).",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "The trouble with sealworms (Pseudoterranova decipiens species complex, Nematoda): a review",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Mcclelland",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Parasitology",
+                "volume": "124",
+                "issue": "",
+                "pages": "183--203",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "McClelland, G. The trouble with sealworms (Pseudoterranova decipiens species complex, Nematoda): a review. Parasitology 124, 183-203 (2002).",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Reproductive biology of seals",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Atkinson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Rev. Reprod",
+                "volume": "2",
+                "issue": "",
+                "pages": "175--194",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Atkinson, S. Reproductive biology of seals. Rev. Reprod. 2, 175-194 (1997).",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Sealworm (Pseudoterranova decipiens) infection in common seals (Phoca vitulina) and potential intermediate fish hosts from the outer Oslofjord",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Aspholm",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Ugland",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "J\u00f8dest\u00f8l",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Berland",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Int. J. Parasitol",
+                "volume": "25",
+                "issue": "",
+                "pages": "367--373",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Aspholm, P. E., Ugland, K. I., J\u00f8dest\u00f8l, K. A. & Berland, B. Sealworm (Pseudoterranova decipiens) infection in common seals (Phoca vitulina) and potential intermediate fish hosts from the outer Oslofjord. Int. J. Parasitol. 25, 367-373 (1995).",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Anisakid nematodes in the common seal (Phoca vitulina L.) in Icelandic waters",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Olafsdottir",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Hauksson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Sarsia",
+                "volume": "83",
+                "issue": "",
+                "pages": "309--316",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Olafsdottir, D. & Hauksson, E. Anisakid nematodes in the common seal (Phoca vitulina L.) in Icelandic waters. Sarsia 83, 309-316 (1998).",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Helminth parasites in ringed seals (Pusa hispida) from Svalbard, Norway with special emphasis on nematodes: Variation with age, sex, diet, and location of host",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Johansen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Lydersen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Aspholm",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Haug",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Kovacs",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "J. Parasitol",
+                "volume": "96",
+                "issue": "",
+                "pages": "946--953",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Johansen, C. E., Lydersen, C., Aspholm, P. E., Haug, T. & Kovacs, K. M. Helminth parasites in ringed seals (Pusa hispida) from Svalbard, Norway with special emphasis on nematodes: Variation with age, sex, diet, and location of host. J. Parasitol. 96, 946-953 (2010).",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "The prevalence, abundance, and density of Pseudoterranova sp. (p) larvae in the flesh of cod (Gadus morhua) relative to proximity of grey seal (Halichoerus grypus) colonies on the coast off Drangar, northwest Iceland",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Hauksson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "J. Mar. Biol. 1-8",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1155/2011/235832"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hauksson, E. The prevalence, abundance, and density of Pseudoterranova sp. (p) larvae in the flesh of cod (Gadus morhua) relative to proximity of grey seal (Halichoerus grypus) colonies on the coast off Drangar, northwest Iceland. J. Mar. Biol. 1-8, https://doi. org/10.1155/2011/235832 (2011).",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Pseudoterranova decipiens) infection in grey seals (Halichoerus grypus), cod (Gadus morhua) and shorthorn sculpin (Myoxocephalus scorpius) in the Baltic Sea",
+                "authors": [
+                    {
+                        "first": "S.-G",
+                        "middle": [],
+                        "last": "Lunneryd",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Bostr\u00f6m",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Aspholm",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Sealworm",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Parasitol. Res",
+                "volume": "114",
+                "issue": "",
+                "pages": "257--264",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lunneryd, S.-G., Bostr\u00f6m, M. K. & Aspholm, P. E. Sealworm (Pseudoterranova decipiens) infection in grey seals (Halichoerus grypus), cod (Gadus morhua) and shorthorn sculpin (Myoxocephalus scorpius) in the Baltic Sea. Parasitol. Res. 114, 257-264 (2015).",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Infection with Pseudoterranova decipiens (Krabbe, 1878) larvae in cod (Gadus morhua) relative to proximity of seal colonies",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Jensen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Id\u00e5s",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Sarsia",
+                "volume": "76",
+                "issue": "",
+                "pages": "227--230",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jensen, T. & Id\u00e5s, K. Infection with Pseudoterranova decipiens (Krabbe, 1878) larvae in cod (Gadus morhua) relative to proximity of seal colonies. Sarsia 76, 227-230 (1992).",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Pseudoterranova decipiens) transmission to fish trawled from Hvaler, Oslofjord, Norway",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Des Clers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Andersen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Sealworm",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "J. Fish Biol",
+                "volume": "46",
+                "issue": "",
+                "pages": "8--17",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Des Clers, S. & Andersen, K. Sealworm (Pseudoterranova decipiens) transmission to fish trawled from Hvaler, Oslofjord, Norway. J. Fish Biol. 46, 8-17 (1995).",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Genetic evidence for three species within Pseudoterranova decipiens (Nematoda, Ascaridida, Ascaridoidea) in the North Atlantic and Norwegian and Barents Seas",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Paggi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Int. J. Parasitol",
+                "volume": "21",
+                "issue": "",
+                "pages": "195--212",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Paggi, L. et al. Genetic evidence for three species within Pseudoterranova decipiens (Nematoda, Ascaridida, Ascaridoidea) in the North Atlantic and Norwegian and Barents Seas. Int. J. Parasitol. 21, 195-212 (1991).",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Host specificity and abundance of parasitic nematodes (Ascaridoidea) from the stomachs of five phocid species from Newfoundland and Labrador",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Brattey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Stenson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Can. J. Zool",
+                "volume": "71",
+                "issue": "",
+                "pages": "2156--2166",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brattey, J. & Stenson, G. B. Host specificity and abundance of parasitic nematodes (Ascaridoidea) from the stomachs of five phocid species from Newfoundland and Labrador. Can. J. Zool. 71, 2156-2166 (1993).",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Anisakid nematodes as possible markers to trace fish products",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Ferrantelli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Ital. J. Food Saf",
+                "volume": "4",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ferrantelli, V. et al. Anisakid nematodes as possible markers to trace fish products. Ital. J. Food Saf. 4 (2015).",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "High prevalence of Anisakidae larvae in marketed frozen fillets of pink salmons (Oncorhynchus gorbuscha)",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Bilska-Zaj\u0105c",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Food Control",
+                "volume": "68",
+                "issue": "",
+                "pages": "216--219",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bilska-Zaj\u0105c, E. et al. High prevalence of Anisakidae larvae in marketed frozen fillets of pink salmons (Oncorhynchus gorbuscha). Food Control 68, 216-219 (2016).",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Parasites as biological tags for stock discrimination of beaked redfish (Sebastes mentella): Parasite infra-communities vs. limited resolution of cytochrome markers",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Klapper",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Kochmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "O'hara",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Karl",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Kuhn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "PLOS ONE",
+                "volume": "11",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Klapper, R., Kochmann, J., O'Hara, R. B., Karl, H. & Kuhn, T. Parasites as biological tags for stock discrimination of beaked redfish (Sebastes mentella): Parasite infra-communities vs. limited resolution of cytochrome markers. PLOS ONE 11, e0153964 (2016).",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Host size-dependent anisakid infection in Baltic cod Gadus morhua associated with differential food preferences",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Zuo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Dis. Aquat. Organ",
+                "volume": "120",
+                "issue": "",
+                "pages": "69--75",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zuo, S. et al. Host size-dependent anisakid infection in Baltic cod Gadus morhua associated with differential food preferences. Dis. Aquat. Organ. 120, 69-75 (2016).",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Parasitological evidence of stocks of Paralichthys isosceles (Pleuronectiformes: Paralichthyidae) at small and large geographical scales in South American Atlantic coasts",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Alarcos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Pereira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Taborda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Luque",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Timi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Fish. Res",
+                "volume": "173",
+                "issue": "",
+                "pages": "221--228",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Alarcos, A. J., Pereira, A. N., Taborda, N. L., Luque, J. L. & Timi, J. T. Parasitological evidence of stocks of Paralichthys isosceles (Pleuronectiformes: Paralichthyidae) at small and large geographical scales in South American Atlantic coasts. Fish. Res. 173, 221-228 (2016).",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "Anisakidae in beluga whales Delphinapterus leucas from Hudson Bay and Hudson Strait",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Najda",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Dis. Aquat. Organ",
+                "volume": "115",
+                "issue": "",
+                "pages": "9--14",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Najda, K. et al. Anisakidae in beluga whales Delphinapterus leucas from Hudson Bay and Hudson Strait. Dis. Aquat. Organ. 115, 9-14 (2015).",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "The complete mitochondrial genome of Pseudoterranova azarasi and comparative analysis with other anisakid nematodes",
+                "authors": [
+                    {
+                        "first": "S.-S",
+                        "middle": [],
+                        "last": "Liu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G.-H",
+                        "middle": [],
+                        "last": "Liu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X.-Q",
+                        "middle": [],
+                        "last": "Zhu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y.-B",
+                        "middle": [],
+                        "last": "Weng",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Infect. Genet. Evol",
+                "volume": "33",
+                "issue": "",
+                "pages": "293--298",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Liu, S.-S., Liu, G.-H., Zhu, X.-Q. & Weng, Y.-B. The complete mitochondrial genome of Pseudoterranova azarasi and comparative analysis with other anisakid nematodes. Infect. Genet. Evol. 33, 293-298 (2015).",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "Anisakids (Nematoda: Anisakidae) from ringed seal, Pusa hispida, and bearded seal, Erignathus barbatus (Mammalia: Pinnipedia) from Nunavut region",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Karpiej",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Simard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Pufall",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Rokicki",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "J. Mar. Biol. Assoc. U. K",
+                "volume": "94",
+                "issue": "",
+                "pages": "1237--1241",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Karpiej, K., Simard, M., Pufall, E. & Rokicki, J. Anisakids (Nematoda: Anisakidae) from ringed seal, Pusa hispida, and bearded seal, Erignathus barbatus (Mammalia: Pinnipedia) from Nunavut region. J. Mar. Biol. Assoc. U. K. 94, 1237-1241 (2014).",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Occurrence of zoonotic nematodes Pseudoterranova decipiens, Contracaecum osculatum and Anisakis simplex in cod (Gadus morhua) from the Baltic Sea",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Mehrdana",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Vet. Parasitol",
+                "volume": "205",
+                "issue": "",
+                "pages": "581--587",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mehrdana, F. et al. Occurrence of zoonotic nematodes Pseudoterranova decipiens, Contracaecum osculatum and Anisakis simplex in cod (Gadus morhua) from the Baltic Sea. Vet. Parasitol. 205, 581-587 (2014).",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Anisakids of seals found on the southern coast of Baltic Sea",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Skrzypczak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Rokicki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Pawliczka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Najda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Dzido",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Acta Parasitol",
+                "volume": "59",
+                "issue": "",
+                "pages": "165--172",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Skrzypczak, M., Rokicki, J., Pawliczka, I., Najda, K. & Dzido, J. Anisakids of seals found on the southern coast of Baltic Sea. Acta Parasitol. 59, 165-172 (2014).",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "Molecular identification, morphological characterization and new insights into the ecology of larval Pseudoterranova cattani in fishes from the Argentine coast with its differentiation from the Antarctic species, P. decipiens sp. E (Nematoda: Anisakidae)",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Timi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Vet. Parasitol",
+                "volume": "199",
+                "issue": "",
+                "pages": "59--72",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Timi, J. T. et al. Molecular identification, morphological characterization and new insights into the ecology of larval Pseudoterranova cattani in fishes from the Argentine coast with its differentiation from the Antarctic species, P. decipiens sp. E (Nematoda: Anisakidae). Vet. Parasitol. 199, 59-72 (2014).",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "Helminth parasites found in faecal samples of phocids from the Antarctic Peninsula",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Rengifo-Herrera",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Polar Biol",
+                "volume": "37",
+                "issue": "",
+                "pages": "685--695",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rengifo-Herrera, C. et al. Helminth parasites found in faecal samples of phocids from the Antarctic Peninsula. Polar Biol. 37, 685-695 (2014).",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "Anisakid nematodes of Greenland halibut Reinhardtius hippoglossoides from the Barents Sea",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Karpiej",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Dzido",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Rokicki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Kijewska",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "J. Parasitol",
+                "volume": "99",
+                "issue": "",
+                "pages": "650--654",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Karpiej, K., Dzido, J., Rokicki, J. & Kijewska, A. Anisakid nematodes of Greenland halibut Reinhardtius hippoglossoides from the Barents Sea. J. Parasitol. 99, 650-654 (2013).",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "Description, microhabitat selection and infection patterns of sealworm larvae (Pseudoterranova decipiens species complex, Nematoda: Ascaridoidea) in fishes from Patagonia",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Hern\u00e1ndez-Orts",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Argentina. Parasit. Vectors",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hern\u00e1ndez-Orts, J. S. et al. Description, microhabitat selection and infection patterns of sealworm larvae (Pseudoterranova decipiens species complex, Nematoda: Ascaridoidea) in fishes from Patagonia, Argentina. Parasit. Vectors 6, 252 (2013).",
+                "links": null
+            },
+            "BIBREF64": {
+                "ref_id": "b64",
+                "title": "Intestinal helminth fauna of the South American sea lion Otaria flavescens and fur seal Arctocephalus australis from northern Patagonia",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Hern\u00e1ndez-Orts",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Argentina. Journal of Helminthology Available",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hern\u00e1ndez-Orts, J. S. et al. Intestinal helminth fauna of the South American sea lion Otaria flavescens and fur seal Arctocephalus australis from northern Patagonia, Argentina. Journal of Helminthology Available at: /core/journals/journal-of-helminthology/ article/intestinal-helminth-fauna-of-the-south-american-sea-lion-otaria-flavescens-and-fur-seal-arctocephalus-australis-from- northern-patagonia-argentina/528A883C751D308F4850F8AA5C6393D9. (Accessed: 10th November 2016) (2013).",
+                "links": null
+            },
+            "BIBREF65": {
+                "ref_id": "b65",
+                "title": "Sealworm Pseudoterranova decipiens s.s. infection of European smelt Osmerus eperlanus in German coastal waters: ecological implications",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Kuhn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Benninghoff",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Karl",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Landry",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Klimpel",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Dis. Aquat. Organ",
+                "volume": "102",
+                "issue": "",
+                "pages": "217--224",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kuhn, T., Benninghoff, T., Karl, H., Landry, T. & Klimpel, S. Sealworm Pseudoterranova decipiens s.s. infection of European smelt Osmerus eperlanus in German coastal waters: ecological implications. Dis. Aquat. Organ. 102, 217-224 (2013).",
+                "links": null
+            },
+            "BIBREF66": {
+                "ref_id": "b66",
+                "title": "Emerging Pseudoterranova decipiens (Krabbe, 1878) problems in Baltic cod, Gadus morhua L., associated with grey seal colonization of spawning grounds",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Buchmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Kania",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "J. Fish Dis",
+                "volume": "35",
+                "issue": "",
+                "pages": "861--866",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Buchmann, K. & Kania, P. Emerging Pseudoterranova decipiens (Krabbe, 1878) problems in Baltic cod, Gadus morhua L., associated with grey seal colonization of spawning grounds. J. Fish Dis. 35, 861-866 (2012).",
+                "links": null
+            },
+            "BIBREF67": {
+                "ref_id": "b67",
+                "title": "Molecular identification of ascaridoid nematodes from the deep-sea onion-eye grenadier (Macrourus berglax) from the East Greenland Sea",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Kellermanns",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Klimpel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Palm",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Deep Sea Res. Part Oceanogr. Res. Pap",
+                "volume": "54",
+                "issue": "",
+                "pages": "2194--2202",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kellermanns, E., Klimpel, S. & Palm, H. W. Molecular identification of ascaridoid nematodes from the deep-sea onion-eye grenadier (Macrourus berglax) from the East Greenland Sea. Deep Sea Res. Part Oceanogr. Res. Pap. 54, 2194-2202 (2007).",
+                "links": null
+            },
+            "BIBREF68": {
+                "ref_id": "b68",
+                "title": "Molecular phylogenetics and diagnosis of Anisakis, Pseudoterranova and Contracaecum from Northern Pacific marine mammals",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Nadler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "J. Parasitol",
+                "volume": "91",
+                "issue": "",
+                "pages": "1413--1429",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nadler, S. A. et al. Molecular phylogenetics and diagnosis of Anisakis, Pseudoterranova and Contracaecum from Northern Pacific marine mammals. J. Parasitol. 91, 1413-1429 (2005).",
+                "links": null
+            },
+            "BIBREF69": {
+                "ref_id": "b69",
+                "title": "Micro-evolutionary implications of allozymic and morphometric variations in sealworms Pseudoterranova sp. (Ascaridoidea: Anisakidae) among sympatric hosts from the Southeastern Pacific Ocean",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "George-Nascimento",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Llanos",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Int. J. Parasitol",
+                "volume": "25",
+                "issue": "",
+                "pages": "1163--1171",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "George-Nascimento, M. & Llanos, A. Micro-evolutionary implications of allozymic and morphometric variations in sealworms Pseudoterranova sp. (Ascaridoidea: Anisakidae) among sympatric hosts from the Southeastern Pacific Ocean. Int. J. Parasitol. 25, 1163-1171 (1995).",
+                "links": null
+            },
+            "BIBREF70": {
+                "ref_id": "b70",
+                "title": "SSCP-based identification of members within the Pseudoterranova decipiens complex (Nematoda: Ascaridoidea: Anisakidae) using genetic markers in the internal transcribed spacers of ribosomal DNA",
+                "authors": [
+                    {
+                        "first": "X",
+                        "middle": [
+                            "Q"
+                        ],
+                        "last": "Zhu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Parasitology",
+                "volume": "124",
+                "issue": "",
+                "pages": "615--623",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhu, X. Q. et al. SSCP-based identification of members within the Pseudoterranova decipiens complex (Nematoda: Ascaridoidea: Anisakidae) using genetic markers in the internal transcribed spacers of ribosomal DNA. Parasitology 124, 615-623 (2002).",
+                "links": null
+            },
+            "BIBREF71": {
+                "ref_id": "b71",
+                "title": "Genetic variation within Pseudoterranova decipiens (Nematoda: Ascaridoidea) from Canadian Atlantic marine fishes and seals: characterization by RFLP analysis of genomic DNA",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Brattey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Davidson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Can. J. Fish. Aquat. Sci",
+                "volume": "53",
+                "issue": "",
+                "pages": "333--341",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brattey, J. & Davidson, W. S. Genetic variation within Pseudoterranova decipiens (Nematoda: Ascaridoidea) from Canadian Atlantic marine fishes and seals: characterization by RFLP analysis of genomic DNA. Can. J. Fish. Aquat. Sci. 53, 333-341 (1996).",
+                "links": null
+            },
+            "BIBREF72": {
+                "ref_id": "b72",
+                "title": "On the ecology and distribution of Pseudoterranova decipiens C (Nematoda: Anisakidae) in an intermediate host, Hippoglossoides platessoides, in northern Norwegian waters",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Bristow",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Berland",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Int. J. Parasitol",
+                "volume": "22",
+                "issue": "",
+                "pages": "203--208",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bristow, G. A. & Berland, B. On the ecology and distribution of Pseudoterranova decipiens C (Nematoda: Anisakidae) in an intermediate host, Hippoglossoides platessoides, in northern Norwegian waters. Int. J. Parasitol. 22, 203-208 (1992).",
+                "links": null
+            },
+            "BIBREF73": {
+                "ref_id": "b73",
+                "title": "Molecular genetics in anisakid nematodes from the Pacific Boreal Region. in Host Response to International Parasitic Zoonoses",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Paggi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "83--107",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Paggi, L. et al. Molecular genetics in anisakid nematodes from the Pacific Boreal Region. in Host Response to International Parasitic Zoonoses (Ishikura, H., Aikawa, M., Itakura, H. & Kikuchi, K. eds) 83-107 (Springer Japan, 1998).",
+                "links": null
+            },
+            "BIBREF74": {
+                "ref_id": "b74",
+                "title": "Identification of respiratory and gastrointestinal parasites of three species of pinnipeds (Arctocephalus australis, Arctocephalus gazella, and Otaria flavescens) in Southern Brazil",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Jacobus",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "J. Zoo Wildl. Med",
+                "volume": "47",
+                "issue": "",
+                "pages": "132--140",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jacobus, K. et al. Identification of respiratory and gastrointestinal parasites of three species of pinnipeds (Arctocephalus australis, Arctocephalus gazella, and Otaria flavescens) in Southern Brazil. J. Zoo Wildl. Med. 47, 132-140 (2016).",
+                "links": null
+            },
+            "BIBREF75": {
+                "ref_id": "b75",
+                "title": "Parasite fauna of Antarctic Macrourus whitsoni (Gadiformes: Macrouridae) in comparison with closely related macrourids",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "M\u00fcnster",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Kochmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Klimpel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Klapper",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Kuhn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Parasit. Vectors",
+                "volume": "9",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "M\u00fcnster, J., Kochmann, J., Klimpel, S., Klapper, R. & Kuhn, T. Parasite fauna of Antarctic Macrourus whitsoni (Gadiformes: Macrouridae) in comparison with closely related macrourids. Parasit. Vectors 9, 403 (2016).",
+                "links": null
+            },
+            "BIBREF76": {
+                "ref_id": "b76",
+                "title": "Concluding remarks",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hutchinson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1957,
+                "venue": "Cold Spring Harb. Symp. Quant. Biol",
+                "volume": "22",
+                "issue": "",
+                "pages": "415--417",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hutchinson, G. E. Concluding remarks. Cold Spring Harb. Symp. Quant. Biol. 22, 415-417 (1957).",
+                "links": null
+            },
+            "BIBREF77": {
+                "ref_id": "b77",
+                "title": "Resolving the biodiversity paradox",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Clark",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Ecol. Lett",
+                "volume": "10",
+                "issue": "",
+                "pages": "647--659",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Clark, J. S. et al. Resolving the biodiversity paradox. Ecol. Lett. 10, 647-659 (2007).",
+                "links": null
+            },
+            "BIBREF78": {
+                "ref_id": "b78",
+                "title": "The crucial role of the accessible area in ecological niche modeling and species distribution modeling",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Barve",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Ecol. Model",
+                "volume": "222",
+                "issue": "",
+                "pages": "1810--1819",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barve, N. et al. The crucial role of the accessible area in ecological niche modeling and species distribution modeling. Ecol. Model. 222, 1810-1819 (2011).",
+                "links": null
+            },
+            "BIBREF79": {
+                "ref_id": "b79",
+                "title": "Habitat Suitability And Distribution Models: With Applications in R",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Guisan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Thuiller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Zimmermann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Guisan, A., Thuiller, W. & Zimmermann, N. E. Habitat Suitability And Distribution Models: With Applications in R. (Cambridge University Press, 2017).",
+                "links": null
+            },
+            "BIBREF80": {
+                "ref_id": "b80",
+                "title": "Community theory and competition in Vegetation",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Austin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "215--238",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Austin, M. P. Community theory and competition in Vegetation. in Perspectives On Plant Competition (Grace, J. B. & Tilman, D. eds) 215-238 (Academic Press, Inc., 1990).",
+                "links": null
+            },
+            "BIBREF81": {
+                "ref_id": "b81",
+                "title": "Current problems of environmental gradients and species response curves in relation to continuum theory",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Austin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gaywood",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "J. Veg. Sci",
+                "volume": "5",
+                "issue": "",
+                "pages": "473--482",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Austin, M. P. & Gaywood, M. J. Current problems of environmental gradients and species response curves in relation to continuum theory. J. Veg. Sci. 5, 473-482 (1994).",
+                "links": null
+            },
+            "BIBREF82": {
+                "ref_id": "b82",
+                "title": "Settling rate and dispersal of sealworm eggs (Nematoda) determined using a revised protocol for myxozoan spores",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Mcconnell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Marcogliese",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Stacey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "J. Parasitol",
+                "volume": "83",
+                "issue": "",
+                "pages": "203--206",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "McConnell, C. J., Marcogliese, D. J. & Stacey, M. W. Settling rate and dispersal of sealworm eggs (Nematoda) determined using a revised protocol for myxozoan spores. J. Parasitol. 83, 203-206 (1997).",
+                "links": null
+            },
+            "BIBREF83": {
+                "ref_id": "b83",
+                "title": "AUC: a misleading measure of the performance of predictive distribution models",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Lobo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Jim\u00e9nez-Valverde",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Real",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Glob. Ecol. Biogeogr",
+                "volume": "17",
+                "issue": "",
+                "pages": "145--151",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lobo, J. M., Jim\u00e9nez-Valverde, A. & Real, R. AUC: a misleading measure of the performance of predictive distribution models. Glob. Ecol. Biogeogr. 17, 145-151 (2008).",
+                "links": null
+            },
+            "BIBREF84": {
+                "ref_id": "b84",
+                "title": "Ecospat: an R package to support spatial analyses and modeling of species niches and distributions",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Di Cola",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Ecography",
+                "volume": "40",
+                "issue": "",
+                "pages": "774--787",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Di Cola, V. et al. Ecospat: an R package to support spatial analyses and modeling of species niches and distributions. Ecography 40, 774-787 (2017).",
+                "links": null
+            },
+            "BIBREF85": {
+                "ref_id": "b85",
+                "title": "New developments in museum-based informatics and applications in biodiversity analysis",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Graham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Ferrier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Huettman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Moritz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Peterson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Trends Ecol. Evol",
+                "volume": "19",
+                "issue": "",
+                "pages": "497--503",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Graham, C. H., Ferrier, S., Huettman, F., Moritz, C. & Peterson, A. T. New developments in museum-based informatics and applications in biodiversity analysis. Trends Ecol. Evol. 19, 497-503 (2004).",
+                "links": null
+            },
+            "BIBREF86": {
+                "ref_id": "b86",
+                "title": "On the relationship between niche and distribution",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Pulliam",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Ecol. Lett",
+                "volume": "3",
+                "issue": "",
+                "pages": "349--361",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pulliam, H. R. On the relationship between niche and distribution. Ecol. Lett. 3, 349-361 (2000).",
+                "links": null
+            },
+            "BIBREF87": {
+                "ref_id": "b87",
+                "title": "The effect of sample size and species characteristics on performance of different species distribution modeling methods",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hernandez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Graham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Master",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Albert",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Ecography",
+                "volume": "29",
+                "issue": "",
+                "pages": "773--785",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hernandez, P. A., Graham, C. H., Master, L. L. & Albert, D. L. The effect of sample size and species characteristics on performance of different species distribution modeling methods. Ecography 29, 773-785 (2006).",
+                "links": null
+            },
+            "BIBREF88": {
+                "ref_id": "b88",
+                "title": "Predicting species distributions from small numbers of occurrence records: a test case using cryptic geckos in Madagascar",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Pearson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Raxworthy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nakamura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Peterson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "J. Biogeogr",
+                "volume": "34",
+                "issue": "",
+                "pages": "102--117",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/s41598-019-46127-6"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "9:9851 | https://doi.org/10.1038/s41598-019-46127-6 www.nature.com/scientificreports www.nature.com/scientificreports/ 88. Pearson, R. G., Raxworthy, C. J., Nakamura, M. & Peterson, A. T. Predicting species distributions from small numbers of occurrence records: a test case using cryptic geckos in Madagascar. J. Biogeogr. 34, 102-117 (2007).",
+                "links": null
+            },
+            "BIBREF89": {
+                "ref_id": "b89",
+                "title": "Measuring the relative effect of factors affecting species distribution model predictions",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Thibaud",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Petitpierre",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Broennimann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Davison",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Guisan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Methods Ecol. Evol",
+                "volume": "5",
+                "issue": "",
+                "pages": "947--955",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thibaud, E., Petitpierre, B., Broennimann, O., Davison, A. C. & Guisan, A. Measuring the relative effect of factors affecting species distribution model predictions. Methods Ecol. Evol. 5, 947-955 (2014).",
+                "links": null
+            },
+            "BIBREF90": {
+                "ref_id": "b90",
+                "title": "The challenge of modeling niches and distributions for data-poor species: a comprehensive approach to model complexity",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Galante",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Ecography",
+                "volume": "41",
+                "issue": "",
+                "pages": "726--736",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Galante, P. J. et al. The challenge of modeling niches and distributions for data-poor species: a comprehensive approach to model complexity. Ecography 41, 726-736 (2018).",
+                "links": null
+            },
+            "BIBREF91": {
+                "ref_id": "b91",
+                "title": "A statistical explanation of MaxEnt for ecologists",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Elith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Divers. Distrib",
+                "volume": "17",
+                "issue": "",
+                "pages": "43--57",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Elith, J. et al. A statistical explanation of MaxEnt for ecologists. Divers. Distrib. 17, 43-57 (2011).",
+                "links": null
+            },
+            "BIBREF92": {
+                "ref_id": "b92",
+                "title": "Maximum entropy modeling of species geographic distributions",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Phillips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Schapire",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Ecol. Model",
+                "volume": "190",
+                "issue": "",
+                "pages": "231--259",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Phillips, S. J., Anderson, R. P. & Schapire, R. E. Maximum entropy modeling of species geographic distributions. Ecol. Model. 190, 231-259 (2006).",
+                "links": null
+            },
+            "BIBREF93": {
+                "ref_id": "b93",
+                "title": "Opening the black box: an open-source release of Maxent",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Phillips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Dud\u00edk",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Schapire",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Blair",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Ecography",
+                "volume": "40",
+                "issue": "",
+                "pages": "887--893",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Phillips, S. J., Anderson, R. P., Dud\u00edk, M., Schapire, R. E. & Blair, M. E. Opening the black box: an open-source release of Maxent. Ecography 40, 887-893 (2017).",
+                "links": null
+            },
+            "BIBREF94": {
+                "ref_id": "b94",
+                "title": "Decomposition of the maximum entropy niche function -A step beyond modelling species distribution",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Cunze",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Tackenberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Environ. Model. Softw",
+                "volume": "72",
+                "issue": "",
+                "pages": "250--260",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cunze, S. & Tackenberg, O. Decomposition of the maximum entropy niche function -A step beyond modelling species distribution. Environ. Model. Softw. 72, 250-260 (2015).",
+                "links": null
+            },
+            "BIBREF95": {
+                "ref_id": "b95",
+                "title": "Area under the curve as a measure of discounting",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Myerson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Green",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Warusawitharana",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "J. Exp. Anal. Behav",
+                "volume": "76",
+                "issue": "",
+                "pages": "235--243",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Myerson, J., Green, L. & Warusawitharana, M. Area under the curve as a measure of discounting. J. Exp. Anal. Behav. 76, 235-243 (2001).",
+                "links": null
+            },
+            "BIBREF96": {
+                "ref_id": "b96",
+                "title": "Advances and trends in the molecular systematics of anisakid nematodes, with implications for their evolutionary ecology and host-parasite co-evolutionary processes",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Mattiucci",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Nascetti",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Advances In Parasitology",
+                "volume": "66",
+                "issue": "",
+                "pages": "47--148",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mattiucci, S. & Nascetti, G. Advances and trends in the molecular systematics of anisakid nematodes, with implications for their evolutionary ecology and host-parasite co-evolutionary processes. in Advances In Parasitology (Rollinson, D. & Hay, S. I. eds) 66, 47-148 (Academic Press, 2008).",
+                "links": null
+            },
+            "BIBREF97": {
+                "ref_id": "b97",
+                "title": "Molecular taxonomy in anisakids",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Paggi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Bullini",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Bull. Scand. Soc. Parasitol",
+                "volume": "4",
+                "issue": "",
+                "pages": "25--39",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Paggi, L. & Bullini, L. Molecular taxonomy in anisakids. Bull. Scand. Soc. Parasitol. 4, 25-39 (1994).",
+                "links": null
+            },
+            "BIBREF98": {
+                "ref_id": "b98",
+                "title": "Measuring ecological niche overlap from occurrence and spatial environmental data",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Broennimann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Glob. Ecol. Biogeogr",
+                "volume": "21",
+                "issue": "",
+                "pages": "481--497",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Broennimann, O. et al. Measuring ecological niche overlap from occurrence and spatial environmental data. Glob. Ecol. Biogeogr. 21, 481-497 (2012).",
+                "links": null
+            },
+            "BIBREF99": {
+                "ref_id": "b99",
+                "title": "The anolis lizards of Bimini: Resource partitioning in a complex fauna",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Schoener",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1968,
+                "venue": "Ecology",
+                "volume": "49",
+                "issue": "",
+                "pages": "704--726",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Schoener, T. W. The anolis lizards of Bimini: Resource partitioning in a complex fauna. Ecology 49, 704-726 (1968).",
+                "links": null
+            },
+            "BIBREF100": {
+                "ref_id": "b100",
+                "title": "Environmental niche equivalency versus conservatism: Quantitative approaches to niche evolution",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Warren",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Glor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Turelli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Evolution",
+                "volume": "62",
+                "issue": "",
+                "pages": "2868--2883",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Warren, D. L., Glor, R. E. & Turelli, M. Environmental niche equivalency versus conservatism: Quantitative approaches to niche evolution. Evolution 62, 2868-2883 (2008).",
+                "links": null
+            },
+            "BIBREF101": {
+                "ref_id": "b101",
+                "title": "Unifying niche shift studies: insights from biological invasions",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Guisan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Petitpierre",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Broennimann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Daehler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Kueffer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Trends Ecol. Evol",
+                "volume": "29",
+                "issue": "",
+                "pages": "260--269",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Guisan, A., Petitpierre, B., Broennimann, O., Daehler, C. & Kueffer, C. Unifying niche shift studies: insights from biological invasions. Trends Ecol. Evol. 29, 260-269 (2014).",
+                "links": null
+            },
+            "BIBREF102": {
+                "ref_id": "b102",
+                "title": "Climatic niche shifts are rare among terrestrial plant invaders",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Petitpierre",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Science",
+                "volume": "335",
+                "issue": "",
+                "pages": "1344--1348",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Petitpierre, B. et al. Climatic niche shifts are rare among terrestrial plant invaders. Science 335, 1344-1348 (2012).",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "type_str": "figure",
+                "uris": null,
+                "text": "Modelled distribution of Pseudoterranova spp. Habitat suitability maps (WGS-84 projection) of Pseudoterranova azarasi, P. bulbosa, P. cattani, P. decipiens E, P. decipiens (s.s.) and P. krabbei, using the LDmodel and the DHD-model. The modelled habitat suitability proportionally increases with colour intensity.",
+                "num": null
+            },
+            "FIGREF1": {
+                "type_str": "figure",
+                "uris": null,
+                "text": "Parasite and definitive host niches in niche space. Niche plots of Pseudoterranova bulbosa, P. cattani and P. decipiens (s.s.) and their respective hosts in niche space, defined through principal components PC1 (x-axis) and PC2 (y-axis). Correlation circle of the variables used to calculate the principal components (axis 1 = 41.64%, axis 2 = 26.3%). Blue = niche overlap, green = parasite/unfilling, red = host/expansion, 1 = LD, 2 = Depth, 3 = Primary Production, 4 = mean Sea Surface Temperature, 5 = Salinity. (2019) 9:9851 | https://doi.org/10.1038/s41598-019-46127-6",
+                "num": null
+            },
+            "FIGREF2": {
+                "type_str": "figure",
+                "uris": null,
+                "text": "(2019) 9:9851 | https://doi.org/10.1038/s41598-019-46127-6",
+                "num": null
+            },
+            "TABREF0": {
+                "type_str": "table",
+                "num": null,
+                "text": "Area under the curve (AUC) values for the different modelling approaches. AUC-values of the Maxent LD-model and DHD-model of Pseudoterranova azarasi, P. bulbosa, P. cattani, P. decipiens E, P. decipiens (s.s.) and P. krabbei.",
+                "content": "<table><tr><td>Species</td><td>n</td><td>LD AUC</td><td>DHD AUC</td></tr><tr><td>P. azarasi</td><td>5</td><td>0.912</td><td>0.950</td></tr><tr><td>P. bulbosa</td><td>31</td><td>0.973</td><td>0.985</td></tr><tr><td>P. cattani</td><td>15</td><td>0.991</td><td>0.998</td></tr><tr><td>P. decipiens E</td><td>4</td><td>0.984</td><td>0.995</td></tr><tr><td>P. decipiens (s.s.)</td><td>46</td><td>0.980</td><td>0.987</td></tr><tr><td>P. krabbei</td><td>8</td><td>0.995</td><td>0.998</td></tr></table>"
+            }
+        }
+    }
+}

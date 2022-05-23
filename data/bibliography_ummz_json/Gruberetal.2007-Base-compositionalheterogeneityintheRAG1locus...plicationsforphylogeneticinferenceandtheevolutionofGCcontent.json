@@ -1,0 +1,3112 @@
+{
+    "paper_id": "Gruberetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:27:14.725800Z"
+    },
+    "title": "Base-Compositional Heterogeneity in the RAGl Locus among Didelphid Marsupials: Implications for Phylogenetic Inference and the Evolution of GC Content",
+    "authors": [
+        {
+            "first": "Karl",
+            "middle": [
+                "F"
+            ],
+            "last": "Gruber",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Robert",
+            "middle": [
+                "S"
+            ],
+            "last": "Voss",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Sharon",
+            "middle": [
+                "A"
+            ],
+            "last": "Jansa",
+            "suffix": "",
+            "affiliation": {},
+            "email": "jansaoo3@umn.edu"
+        }
+    ],
+    "year": "",
+    "abstract": "Although theoretical studies have suggested that base-compositional heterogeneity can adversely affect phylogenetic reconstruction, only a few empirical examples of this phenomenon, mostly among ancient lineages (with divergence dates >100 Mya), have been reported. In the course of our phylogenetic research on the New World marsupial family Didelphidae, we sequenced 2790 bp of the RAGl exon from exemplar species of most extant genera. Phylogenetic analysis of these sequences recovered an anomalous node consisting of two clades previously shown to be distantly related based on analyses of other molecular data. These two clades show significantly increased GC content at RAGl third codon positions, and the resulting convergence in base composition is strong enough to overwhelm phylogenetic signal from other genes (and morphology) in most analyses of concatenated datasets. This base-compositional convergence occurred relatively recently (over tens rather than hundreds of millions of years), and the affected gene region is still in a state of evolutionary disequilibrium. Both mutation rate and substitution rate are higher in GC-rich didelphid taxa, observations consistent with RAGl sequences having experienced a higher rate of recombination in the convergent lineages. [Biased gene conversion; Didelphidae; nucleotide composition; phytogeny; RAGl; recombination.]",
+    "pdf_parse": {
+        "paper_id": "Gruberetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Although theoretical studies have suggested that base-compositional heterogeneity can adversely affect phylogenetic reconstruction, only a few empirical examples of this phenomenon, mostly among ancient lineages (with divergence dates >100 Mya), have been reported. In the course of our phylogenetic research on the New World marsupial family Didelphidae, we sequenced 2790 bp of the RAGl exon from exemplar species of most extant genera. Phylogenetic analysis of these sequences recovered an anomalous node consisting of two clades previously shown to be distantly related based on analyses of other molecular data. These two clades show significantly increased GC content at RAGl third codon positions, and the resulting convergence in base composition is strong enough to overwhelm phylogenetic signal from other genes (and morphology) in most analyses of concatenated datasets. This base-compositional convergence occurred relatively recently (over tens rather than hundreds of millions of years), and the affected gene region is still in a state of evolutionary disequilibrium. Both mutation rate and substitution rate are higher in GC-rich didelphid taxa, observations consistent with RAGl sequences having experienced a higher rate of recombination in the convergent lineages. [Biased gene conversion; Didelphidae; nucleotide composition; phytogeny; RAGl; recombination.]",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Base-compositional heterogeneity, as indicated by significant taxonomic differences in GC (versus AT) content among homologous sequences, is now widely recognized as a potential problem for phylogenetic analysis (e.g., by Loomis and Smith, 1990; Hasegawa and Hashimoto, 1993; Lake, 1994; Lockhart et al, 1994; Foster and Hickey, 1999; Mooers and Holmes, 2000; Tarrio et al., 2002; Jeffroy et al., 2006; Barrowclough et al., 2006) . Both simulation studies (Lake, 1994; Conant and Lewis, 2001 ) and analyses of biological data sets (Lockhart et al., 1994; Chang and Campbell, 2000; Tarrio et al., 2002) suggest that commonly used phylogenetic methods may cluster taxa based on GC content rather than evolutionary history when similar base composition has evolved convergently in unrelated clades. Despite considerable interest in base-compositional convergence, only a few empirical examples have been reported in the literature (Conant and Lewis, 2001) . The most compelling of these involve genes in photosynthetic organelles (Lockhart et al., 1992 (Lockhart et al., , 1994 , phyla of bacteria (Galtier and Gouy, 1998) , major clades of animals (Foster and Hickey, 1999) , and ancient lineages of vertebrates (Chang and Campbell, 2000; Lockhart et al., 1994) . Convincing examples of base-compositional convergence at lower taxonomic levels are seldom reported and few (Tarrio et al., 2000 (Tarrio et al., , 2001 have been analyzed in detail.",
+                "cite_spans": [
+                    {
+                        "start": 222,
+                        "end": 245,
+                        "text": "Loomis and Smith, 1990;",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 246,
+                        "end": 275,
+                        "text": "Hasegawa and Hashimoto, 1993;",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 276,
+                        "end": 287,
+                        "text": "Lake, 1994;",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 288,
+                        "end": 309,
+                        "text": "Lockhart et al, 1994;",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 310,
+                        "end": 334,
+                        "text": "Foster and Hickey, 1999;",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 335,
+                        "end": 359,
+                        "text": "Mooers and Holmes, 2000;",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 360,
+                        "end": 380,
+                        "text": "Tarrio et al., 2002;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 381,
+                        "end": 402,
+                        "text": "Jeffroy et al., 2006;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 403,
+                        "end": 429,
+                        "text": "Barrowclough et al., 2006)",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 456,
+                        "end": 468,
+                        "text": "(Lake, 1994;",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 469,
+                        "end": 491,
+                        "text": "Conant and Lewis, 2001",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 531,
+                        "end": 554,
+                        "text": "(Lockhart et al., 1994;",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 555,
+                        "end": 580,
+                        "text": "Chang and Campbell, 2000;",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 581,
+                        "end": 601,
+                        "text": "Tarrio et al., 2002)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 928,
+                        "end": 952,
+                        "text": "(Conant and Lewis, 2001)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 1027,
+                        "end": 1049,
+                        "text": "(Lockhart et al., 1992",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 1050,
+                        "end": 1074,
+                        "text": "(Lockhart et al., , 1994",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 1095,
+                        "end": 1119,
+                        "text": "(Galtier and Gouy, 1998)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 1146,
+                        "end": 1171,
+                        "text": "(Foster and Hickey, 1999)",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 1210,
+                        "end": 1236,
+                        "text": "(Chang and Campbell, 2000;",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 1237,
+                        "end": 1259,
+                        "text": "Lockhart et al., 1994)",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 1370,
+                        "end": 1390,
+                        "text": "(Tarrio et al., 2000",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1391,
+                        "end": 1413,
+                        "text": "(Tarrio et al., , 2001",
+                        "ref_id": "BIBREF55"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Here we report an exceptionally clear case of basecompositional convergence among New World marsupial mammals of the family Didelphidae, commonly known as opossums. Didelphids comprise about 90 species in 18 genera that collectively range from Patagonia to Canada and inhabit a wide variety of terrestrial habitats (Nowak, 1999; Gardner, 2005; Voss et al., 2005) . Recent phylogenetic studies based on nuclear genes and morphology have resulted in highly congruent estimates of didelphid relationships Voss, 2000, 2005; Voss and Jansa, 2003; Voss etal, 2005; Steiner et al. 2005; Jansa et al., 2006) . In partic-ular, sequence data from the protein-coding genes interphotoreceptor retinoid-binding protein (IRBP) and dentin matrix protein 1 (DMP1); the noncoding nuclear transthyretin intron 1 (TTR); the mitochondrial 12S rDNA gene; and morphological characters all yield remarkably congruent phylogenetic signal (Steiner et al., 2005; Jansa etal., 2006) . Certain relationships, however, have proven difficult to resolve with existing data sets.",
+                "cite_spans": [
+                    {
+                        "start": 315,
+                        "end": 328,
+                        "text": "(Nowak, 1999;",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 329,
+                        "end": 343,
+                        "text": "Gardner, 2005;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 344,
+                        "end": 362,
+                        "text": "Voss et al., 2005)",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 502,
+                        "end": 519,
+                        "text": "Voss, 2000, 2005;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 520,
+                        "end": 541,
+                        "text": "Voss and Jansa, 2003;",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 542,
+                        "end": 558,
+                        "text": "Voss etal, 2005;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 559,
+                        "end": 579,
+                        "text": "Steiner et al. 2005;",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 580,
+                        "end": 599,
+                        "text": "Jansa et al., 2006)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 914,
+                        "end": 936,
+                        "text": "(Steiner et al., 2005;",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 937,
+                        "end": 955,
+                        "text": "Jansa etal., 2006)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "To address this problem, we sequenced the recombination activating gene (RAGl) from 41 species of didelphids. RAGl is a single-copy, intron-free, proteincoding nuclear locus that has been used for phylogenetic inference in a variety of other vertebrate groups (e.g., Groth and Barrowclough, 1999; Barker etal., 2002; Waddell and Shelley, 2003; Mahon and Carpenter, 2004; San Mauro etal., 2005) . Because previous analyses of RAGl sequence data resulted in highly resolved and robustly supported phylogenetic relationships at multiple hierarchical levels, we anticipated a straightforward analysis of our didelphid data. Instead, we discovered a striking example of convergent base composition that affords an unusual opportunity to explore the application of commonly suggested methodological remedies and to examine alternative evolutionary explanations.",
+                "cite_spans": [
+                    {
+                        "start": 267,
+                        "end": 296,
+                        "text": "Groth and Barrowclough, 1999;",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 297,
+                        "end": 316,
+                        "text": "Barker etal., 2002;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 317,
+                        "end": 343,
+                        "text": "Waddell and Shelley, 2003;",
+                        "ref_id": "BIBREF58"
+                    },
+                    {
+                        "start": 344,
+                        "end": 370,
+                        "text": "Mahon and Carpenter, 2004;",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 371,
+                        "end": 393,
+                        "text": "San Mauro etal., 2005)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "We amplified and sequenced a portion of the RAGl gene corresponding to positions 240 to 3100 of Monodelphis domestica (Genbank accession U51897) using the primers listed in Table 1 . For most specimens, we amplified three 1000-to 1200-bp fragments directly from genomic DNA and used each of these amplicons in a second nested PCR to create shorter (500-to 600-bp) fragments for sequencing. For some specimens with degraded 84 SYSTEMATIC BIOLOGY VOL. 56 TABLE 1. Primers used to amplify and sequence the RAG1 locus from taxa included in this study.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 173,
+                        "end": 180,
+                        "text": "Table 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "DNA Amplification and Sequencing",
+                "sec_num": null
+            },
+            {
+                "text": "Sequence",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Primer name",
+                "sec_num": null
+            },
+            {
+                "text": "RAG-didForl RAG-newForl RAG-didFor3 RAG-newFor3 RAG-didFor4 RAG-MicFor4 RAG-didFor5 RAG-ThyFor5 RAG-didFor6 RAG-newFor6 RAG-didFor7 RAG-didRevO RAG-newRevO RAG-didRevl RAG-didRev2 RAG-didRev3 RAG-newRev3 RAG-new2Rev3 RAG-didRev4 RAG-didRev5 RAG-MicRev5 RAG-didRev6 RAG-newRev6 5'GTACCAGATGAAATCCAGTACCCA 5'CCARATGAAATCCAGYACC 5TCCTTTAGAGCTGATGGACAGA 5'GCTTTGCCGAATCTGTGG 5'TTGCTGTGGACTACCCTGTG 5'AGCAAGRTGCACCTGAGCACC 5'CTTTGTTCCTGCTGGTGCTGA 5'GACTTTGTTCCTGCTGGTG 5'AGAGTCCTGTGATGGGATGG 5'AAGAGTCCTGYGAYGGSATGG 5'GGCTTCTGGCTCTGTCTACAT 5'TACCAGATTCATTCCCTTCACT 5'CRATGGARCCATCTCTCTCC 5'AACCTTCGCAATCAGGTCTGGCC 5'CACATCAATTTTAAAAACCTTCGCA 5'TTGGCAAGAGGGGCAATAGCTGCC 5'AGGRTGTTCACRAAGGACCTC 5'ATGCAGGTTCTRCAGAAYA 5'TGGAAGATCTGCCTCCCAGTGAT 5'TTGGGCTTGGCTTCTTCAAATATC 5'AGTTGGGCTTGGCTTCTTCA 5'AACTTCCCCAATCTCCATCTG 5'TAAACTTCCCCRATCTCCA",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Primer name",
+                "sec_num": null
+            },
+            {
+                "text": "DNA, however, these smaller fragments were amplified directly from genomic DNA. The initial amplification from genomic DNA was performed as 20 /xl reactions using Ampli-Taq Gold DNA polymerase (Perkin-Elmer, Boston, MA) and reaction conditions as previously described for our work with IRBP (Jansa and Voss, 2000) . Reamplification reactions were performed as 30to 40-/xl reactions with Taq DNA polymerase (Promega, Madison, WI). The resulting PCR products were purified and prepared for sequencing using either a Qiaquick PCR purification kit (QIAGEN, Santa Clarita, CA) or EXO-SAP enzymatic digestion (USB, Cleveland, OH). PCR products were sequenced in both directions using amplification primers and dye-terminator chemistry (BigDye Cycle Sequencing; Applied Biosystems), and sequencing reactions were run on an ABI3700 automated sequencer. Base-calling ambiguities were resolved either by choosing the base on the cleanest strand or using the appropriate IUB ambiguity code if both strands showed the same ambiguity. All sequences, along with their specimen voucher numbers, have been deposited in Gen-Bank with accession numbers DQ865883 to DQ865923. The data matrix and associated trees have been deposited on TreeBase with accession numbers S1579 and M2841.",
+                "cite_spans": [
+                    {
+                        "start": 291,
+                        "end": 313,
+                        "text": "(Jansa and Voss, 2000)",
+                        "ref_id": "BIBREF26"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Primer name",
+                "sec_num": null
+            },
+            {
+                "text": "We used two approaches to test our RAG1 sequences for departures from base-compositional stationarity across taxa. First, we evaluated each taxon for differences from the average base composition across taxa for each codon position using a x 2 goodness-of-fit test (Bonferroni-corrected a = 0.001). Second, we calculated the disparity index (ID) for each codon position (Kumar and Gadagkar, 2001 ) using MEGA version 3.0 (Kumar etal., 2004) . This test compares the observed compositional difference between a given pair of sequences (D c ) with the compositional difference (Nd) that would be expected if the sequences were evolving under equilibrium (ID = D c -Nd). Two sequences that are perfectly homogeneous will have an ID value of zero; consequently, higher ID values reflect increasingly different base composition between sequence pairs. The significance of a given ID value is assessed by comparison with a Monte Carlo-generated distribution of expected values assuming a model of equilibrium base substitution (Kumar and Gadagkar, 2001) .",
+                "cite_spans": [
+                    {
+                        "start": 370,
+                        "end": 395,
+                        "text": "(Kumar and Gadagkar, 2001",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 421,
+                        "end": 440,
+                        "text": "(Kumar etal., 2004)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1021,
+                        "end": 1047,
+                        "text": "(Kumar and Gadagkar, 2001)",
+                        "ref_id": "BIBREF32"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Sequence Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Maximum parsimony (MP) analyses were performed using heuristic search algorithms implemented by PAUP* 4.0bl0 (Swofford, 2003) with all characters treated as unordered and equally weighted. Heuristic searches were performed with 1000 replicates of random stepwise taxon addition and tree bisection-reconnection (TBR) branch swapping. For maximum likelihood (ML) analyses, we determined the best-fit model of nucleotide substitution for various partitions of the molecular data using the Akaike information criterion (AIC) as implemented in ModelTest 3.6 (Posada and Crandall, 1998) . We evaluated the fit of various models to each gene (IRBP, DMP1, and RAG1) independently and to the combined molecular dataset. In addition, we partitioned the RAG1 data into third codon positions and first + second codon positions, and we evaluated the best-fit model for each of these partitions. Finally, we employed a likelihood-ratio test to determine whether a molecular clock could be applied to the sequence data. Following model evaluation and selection, we obtained the maximum likelihood tree using a heuristic search in which parameter values were fixed according to the best-fit model, and a neighborjoining tree was used as starting point for TBR branch swapping.",
+                "cite_spans": [
+                    {
+                        "start": 109,
+                        "end": 125,
+                        "text": "(Swofford, 2003)",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 553,
+                        "end": 580,
+                        "text": "(Posada and Crandall, 1998)",
+                        "ref_id": "BIBREF47"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Sequence Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "We assessed nodal support using nonparametric bootstrapping (Felsenstein, 1985) for the MP and ML analysis and Bremer support (Bremer, 1988 (Bremer, , 1994 for the MP analysis. Bootstrap values for the MP analysis were calculated from 1000 pseudoreplicated data sets, each of which was analyzed heuristically using 10 randomaddition replicates, TBR branch swapping, and no more than 10 trees saved per pseudoreplicate. The ML bootstrap analysis was based on 1000 pseudoreplicated data sets analyzed with the fast stepwise option in PAUP* using the same best-fit model employed in the original ML tree search. We calculated partitioned Bremer support (PBS; Baker and DeSalle, 1997) to quantify the relative support and conflict provided by different data partitions for individual nodes in the combineddata (IRBP+DMPl+RAGl+morphology) tree. All Bremer values were calculated using constraint trees and command files generated by TreeRot (Sorenson, 1999) . We used likelihood-based Shimodaira-Hasegawa tests (SH; Shimodaira and Hasegawa, 1999) to evaluate the fit of a given data set to alternative topologies. Specifically, we addressed whether the RAG1 data could reject the tree derived from IRBP-f-DMPl data set and vice versa.",
+                "cite_spans": [
+                    {
+                        "start": 60,
+                        "end": 79,
+                        "text": "(Felsenstein, 1985)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 126,
+                        "end": 139,
+                        "text": "(Bremer, 1988",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 140,
+                        "end": 155,
+                        "text": "(Bremer, , 1994",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 656,
+                        "end": 680,
+                        "text": "Baker and DeSalle, 1997)",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 936,
+                        "end": 952,
+                        "text": "(Sorenson, 1999)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1011,
+                        "end": 1041,
+                        "text": "Shimodaira and Hasegawa, 1999)",
+                        "ref_id": "BIBREF50"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Sequence Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "All SH tests were performed using 1000 RELL replicates allowing the parameters for the relevant model of nucleotide substitution to be estimated.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Sequence Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Finally, we applied two phylogeny-reconstruction methods specifically designed to compensate for basecompositional heterogeneity to the RAG1 data set. First, we calculated LogDet-corrected distances (Lockhart et al., 1994) and inferred a neighbor-joining tree from the resulting matrix using PAUP*. Second, we evaluated a likelihood-based method that allows for variation in GC content across lineages, as implemented in the software package nhml (Galtier and Gouy, 1998) . Unfortunately, this method (hereafter referred to as GG98) has been reported to search only a small fraction of available tree space when more than a few taxa are analyzed (Galtier and Gouy, 1998) . Given this limitation, we tested for convergence by performing two separate tree searches. In the first, we used the tree derived from all data except RAG1 as the starting topology for branch swapping; in the second, we used the tree derived from RAG1 sequences alone as the initial topology.",
+                "cite_spans": [
+                    {
+                        "start": 199,
+                        "end": 222,
+                        "text": "(Lockhart et al., 1994)",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 447,
+                        "end": 471,
+                        "text": "(Galtier and Gouy, 1998)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 646,
+                        "end": 670,
+                        "text": "(Galtier and Gouy, 1998)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Sequence Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "To examine evolutionary rates for third positions of RAG1, we used a penalized likelihood approach as implemented in r8s version 1.50 (Sanderson, 2002) . To provide the tree and branch lengths for this analysis, we optimized branch lengths for RAG1 third positions on the topology resulting from likelihood analysis of all data except RAG1 third positions. We established the best value for the smoothing parameter using the cross-validataion procedure with smoothing values ranging from 10~1 0 to 100. Searches using the optimal smoothing value (S = 0.001) employed the truncated Newton algorithm with 10 random restarts and 10 subsequent perturbations. Estimates of per-branch rates were scaled against time by setting the origin of didelphines to 40 million years based on the results published by Steiner et al. (2005) .",
+                "cite_spans": [
+                    {
+                        "start": 134,
+                        "end": 151,
+                        "text": "(Sanderson, 2002)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 801,
+                        "end": 822,
+                        "text": "Steiner et al. (2005)",
+                        "ref_id": "BIBREF52"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Sequence Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "The results of our previous didelphid phylogenetic research based on the interphotoreceptor retinoid binding protein (IRBP), dentin matrix protein 1 (DMP1), and morphology have been reported elsewhere Voss, 2000, 2005; Voss and Jansa, 2003; Jansa et al., 2006) and require only summary description here. Briefly, although trees resulting from separate analyses of these data sets show some topological differences, none are significant when assessed by comparing bootstrap support values node-by-node or by performing Shimodaira-Hasegawa tests. Therefore, we combined the IRBP, DMP1, and morphological data in a single matrix and analyzed them simultaneously using parsimony. The resulting strict consensus of four minimal-length trees (Fig. 1A) is highly resolved and includes several well-supported groups. In particular, clades C and H are recovered with strong (>90%) bootstrap support in our combined-data analysis. Both of these groups were previously sup-ported by our separate analyses of IRBP (e.g., Jansa and Voss, 2000) and DMP1 (Jansa et al., 2006) , and they have also been recovered by scnDNA hybridization (Kirsch and Palma, 1995) and by Bayesian analyses of 12S rRNA and TTR intron sequences (Steiner et al., 2005) .",
+                "cite_spans": [
+                    {
+                        "start": 201,
+                        "end": 218,
+                        "text": "Voss, 2000, 2005;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 219,
+                        "end": 240,
+                        "text": "Voss and Jansa, 2003;",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 241,
+                        "end": 260,
+                        "text": "Jansa et al., 2006)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1009,
+                        "end": 1030,
+                        "text": "Jansa and Voss, 2000)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1040,
+                        "end": 1060,
+                        "text": "(Jansa et al., 2006)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1121,
+                        "end": 1145,
+                        "text": "(Kirsch and Palma, 1995)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1208,
+                        "end": 1230,
+                        "text": "(Steiner et al., 2005)",
+                        "ref_id": "BIBREF52"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 736,
+                        "end": 745,
+                        "text": "(Fig. 1A)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Phylogenetic Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "In contrast, clades C and H were not recovered by parsimony analysis of RAG1 sequences (Fig. IB) because clades B and I form a group. This anomalous node (B+I) is strongly supported by RAG1 (parsimony bootstrap support = 97%) and does not appear to have resulted simply from long-branch attraction artifacts that are known to mislead parsimony analysis. In fact, an ML analysis of the RAG1 data set under its best-fit model of nucleotide substitution (GTR+I+F) recovered a tree (not shown) that was fully resolved but otherwise topologically consistent with the parsimony tree; notably, the B+I node was also strongly supported (likelihood bootstrap = 97%). Reciprocal Shimodaira-Hasegawa tests indicate that the tree derived from ML analysis of RAG1 is significantly different from that supported by the combined DMP1+IRBP data set (RAG1 on DMP1+IRBP tree: 8 = 113.7, P< 0.001; DMP1+IRBP on RAG1 tree: 8 = 141.4, P< 0.001).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 87,
+                        "end": 96,
+                        "text": "(Fig. IB)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Phylogenetic Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "So strong is RAG1 support for the B+I group that a combined (simultaneous) parsimony analysis of all four data sets (IRBP+DMPl+RAGl+morphology) also recovers this node (Fig. 2) . Bootstrap support for B+I, however, drops from 97% (in the RAGl-only analysis) to 78% (in the combined data analysis), presumably because of character conflict between RAG1 and the other datasets. Predictably, partitioned Bremer support (PBS) values are either all positive or only weakly conflicting at most nodes in the combined-data tree, but they are strongly conflicting for the B+I group: this node receives support only from RAG1 (PBSRAGI = +22.2), whereas the total PBS from the other data sets is strongly negative (PBSiRBp+DMPi+morphoiogy = -12.2). Of particular interest is the observation that most (97%) of the support for the B+I group comes from RAG1 third codon positions.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 168,
+                        "end": 176,
+                        "text": "(Fig. 2)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Phylogenetic Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "The frequency of G+C at third codon positions of RAG1 varies by nearly 20% across these didelphid taxa, whereas GC content at first and second positions of this gene varies by only 4% (Fig. 3 ). In contrast, IRBP and DMP1 show only slight variation in GC content at all codon positions. Both first + second and third positions of IRBP show about 4% variation in G+C frequency; first + second positions of DMP1 vary by less than 3%, whereas third positions of DMP1 vary by about 8%. Not surprisingly then, neither IRBP nor DMP1 sequences exhibit significant departures from base-compositional homogeneity across taxa at any codon positions Voss, 2000, 2005; Jansa et al., 2006) . In contrast, our RAG1 sequences exhibit marked departures from base-compositional homogeneity across taxa. Although this gene showed no significant base-compositional bias at first or second positions for any didelphid taxon, 30 species (of the Circles at nodes indicate parsimony bootstrap support (BS; white, BS < 70%; grey, 70% < BS < 90%; black, BS > 90%). Capital letters label clades identified by Jansa and Voss (2000) . An arrow indicates the node that anomalously clusters clades B and I in the RAGl tree. 41 we sequenced) show a significant departure from base-compositional homogeneity at third positions as assessed by x 2 goodness-of-fit tests. Of these, 18 species have GC content at third positions (GC3) equal to or greater than 70% (Table 2) . Given the significant basecompositional heterogeneity at third positions of RAGl, we analyzed this partition independently using both MP and ML methods. Trees recovered under each analytical approach (the ML tree is shown in Fig. 4 ) were topologically identical to the parsimony and likelihood trees previously obtained from the entire gene. As expected, the anomalous B+I group receives very strong bootstrap support (97% ML; 98% MP) from RAGl third positions.",
+                "cite_spans": [
+                    {
+                        "start": 639,
+                        "end": 656,
+                        "text": "Voss, 2000, 2005;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 657,
+                        "end": 676,
+                        "text": "Jansa et al., 2006)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1083,
+                        "end": 1104,
+                        "text": "Jansa and Voss (2000)",
+                        "ref_id": "BIBREF26"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 184,
+                        "end": 191,
+                        "text": "(Fig. 3",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1428,
+                        "end": 1437,
+                        "text": "(Table 2)",
+                        "ref_id": "TABREF2"
+                    },
+                    {
+                        "start": 1665,
+                        "end": 1671,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Base Composition Analyses",
+                "sec_num": null
+            },
+            {
+                "text": "The 18 species with GC3 > 70% are all members of clade B or clade I ( Fig. 4 ), suggesting that the anomalous grouping of these taxa is due to shared similarity in base composition. The ID values we computed to quantify base-compositional heterogeneity lend additional credence to this hypothesis. A UPGMA phenogram that clusters taxa based on ID scores reveals three main groupings: (1) taxa with GC 3 > 70%, (2) taxa with GC 3 = 61-66%, and (3) taxa with GC 3 = 57-59% ( Fig. 4, inset) . . Strict consensus of three trees derived from parsimony analysis of the combined data set including IRBP, DMPl, RAGl, and morphology (length = 3585.5, CI = 0.58, RI = 0.77). Partitioned Bremer support values from RAGl versus the remainder of the data set are given below and above each branch, respectively. The bar graph shows PBS values from morphology and each gene (or gene partition) for the anomalous node that clusters clades B and I. Circles at nodes indicate parsimony bootstrap support from the combined three-gene-plus morphology data set as in Figure 1 .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 70,
+                        "end": 76,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 473,
+                        "end": 487,
+                        "text": "Fig. 4, inset)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1047,
+                        "end": 1055,
+                        "text": "Figure 1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Base Composition Analyses",
+                "sec_num": null
+            },
+            {
+                "text": "The largest differences in ID scores (at least 8.3 ID units) occur between taxa with GC3 > 70% and the remaining taxa (with GC 3 = 57-66%).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Base Composition Analyses",
+                "sec_num": null
+            },
+            {
+                "text": "If the anomalous grouping of clades B and I is due to convergence in GC3 content, then we would expect to observe that AT ->\u2022 GC substitutions exceed AT *-GC substitutions at the nodes subtending each of the af-fected clades. To test for this bias, we used parsimony to optimize character-state transitions for RAGl third positions on a tree derived from analysis of all other data (first and second positions of RAG1+IRBP+DMP1 +morphology). In fact, character-state reconstructions at the nodes subtending clades B and I do show an extraordinary bias in favor of AT -\u00bb\u2022 GC substitutions SYSTEMATIC BIOLOGY VOL. 56 (Table 3) . This bias continues, although less strongly, along branches within each of these clades: the ratio of the total number of AT -\u00bb GC substitutions is on average three times higher than the number of AT <-GC substitutions within clades B and I (Table 3) . In contrast, exemplar clades that are less GC-rich (i.e., with GC3 in the range of 57% to 66%) have a ratio of AT -> GC to AT <-GC substitutions that is much closer (0.9) to the one-to-one ratio expected under equilibrium.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 615,
+                        "end": 624,
+                        "text": "(Table 3)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 868,
+                        "end": 877,
+                        "text": "(Table 3)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Base Composition Analyses",
+                "sec_num": null
+            },
+            {
+                "text": "Interestingly, third positions of RAGl also appear to be evolving more quickly among taxa that have elevated GC3 content than among other didelphids, a phenomenon that seems to be attributable both to an increased rate of nucleotide substitution and to an increased mutation rate. A higher substitution rate is suggested by significant rate heterogeneity across taxa at RAGl third positions as assessed by a hierarchical likelihood-ratio test designed to assess the fit of a molecular clock (-lnLcTR+i+r+ciock = 9268.74, 8 = 547.28, df = 39, P \u00ab: 0.001), together with a significant positive correlation between pairwise patristic distances (based on ML-estimated branch lengths) and the extent of departure from base-compositional homogeneity (represented by ID values) for RAGl third positions (Mantel test: 1000 replicates, r = 0.495, P< 0.001). Moreover, a penalized likelihood analysis of molecular evolutionary rate indicates that third positions of RAGl are evolving much more quickly in the GC3-rich clades (B and I) than they are in any other taxa (Fig. 5 ). This rate increase in GC3-rich taxa appears to be peculiar to the RAGl locus because it is not apparent for DMP1 or IRBP. Although DMP1 does exhibit significant among-taxa rate heterogeneity (-lnLcTR-i+r+ciock = 5966.36, 8 = 117.78, df = 39, P \u00ab 0.001), long branches for this data partition are not associated with the same taxa that show long branches for RAGl third positions. IRBP exhibits no significant rate heterogeneity among didelphids (-lnL G TR + i + r + ciock = 4511.05, 8 = 53.67, df = 39, p = 0.059).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 1057,
+                        "end": 1064,
+                        "text": "(Fig. 5",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Base Composition Analyses",
+                "sec_num": null
+            },
+            {
+                "text": "Mutation rates are impossible to measure directly from these data, but rough estimates can be obtained from individual heterozygosity values. Under the standard neutral expectation, heterozygosity scales as the product of effective population size and mutation rate (Kimura, 1983) . If effective population size does not differ substantially among these taxa (an assumption that we cannot currently evaluate), then heterozygosity could be a TABLE 3. Parsimony reconstructions of AT -* GC changes and AT <-GC changes at RAGl third positions inferred by mapping these changes on a tree derived from all other data. Reported values are the total number of changes along branches within each clade and along branches subtending those clades. A T -G C   149  212  76  159  7   AT^GC   82  36  3  176 12",
+                "cite_spans": [
+                    {
+                        "start": 266,
+                        "end": 280,
+                        "text": "(Kimura, 1983)",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 738,
+                        "end": 794,
+                        "text": "A T -G C   149  212  76  159  7   AT^GC   82  36  3  176",
+                        "ref_id": "TABREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Base Composition Analyses",
+                "sec_num": null
+            },
+            {
+                "text": "Ratio\"",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Within clade B Within clade I To GC-rich clades (B and I) Within non-GC-rich clades To non-GC-rich clades",
+                "sec_num": null
+            },
+            {
+                "text": "1.8 5.9 25.3 0.9 0.6 TABLE 4. Test for base-compositional equilibrium between selected taxa. The table shows the number of third position sites of RAGl that are A or T in one sequence and G or C in the other. Asterisks indicate a significant departure from base-compositional equilibrium (* P < 0.01).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Within clade B Within clade I To GC-rich clades (B and I) Within non-GC-rich clades To non-GC-rich clades",
+                "sec_num": null
+            },
+            {
+                "text": "Taxon 1 Taxon reasonable proxy for mutation rate. Individual heterozygosity values for the RAGl locus across didelphids range from zero to 0.005 and are significantly positively correlated with GC 3 content (r 2 = 0.0961, P = 0.049). In contrast, heterozygosity values for the other two loci (IRBP and DMP1) show no correlation with GC3 content (r 2 = 0.004, P = 0.696). Therefore, RAGl also appears to be unique in having an elevated mutation rate for those taxa with high GC3 content.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 8,
+                        "end": 13,
+                        "text": "Taxon",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Third",
+                "sec_num": null
+            },
+            {
+                "text": "To assess whether taxa in clade B and clade I are now at base-compositional equilibrium, we used the test described by Eyre-Walker (1994) that compares the relative GC content between pairs of taxa at sites that differ between them. If two sequences are at equilibrium, we expect half of the differing sites to be G or C and half to be A or T, regardless of whether the two lineages show different overall rates of evolution. Departures from this expectation can be assessed using the binomial distribution. We performed this test for six phylogenetically independent pairs, four of which show an elevated GC3 content and two that do not. Neither of the comparisons involving taxa in non-GC-rich clades shows a significant departure from equilibrium substitution rates, whereas all of the comparisons involving GC-rich taxa do (Table 4) . Therefore, members of the two clades that show shifts to higher GC content have yet to return to base-compositional equilibrium.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 827,
+                        "end": 836,
+                        "text": "(Table 4)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Third",
+                "sec_num": null
+            },
+            {
+                "text": "In order to explore the utility of phylogenetic methods designed to correct for base-compositional heterogeneity among taxa, we analyzed third positions of RAGl using both LogDet distance transformations (Lockhart et al., 1994) and the GG98 maximum likelihood method that accounts for nonhomogeneous patterns of substitution among taxa (Galtier and Gouy, 1998) . Because LogDet analysis may be affected by among-site rate heterogeneity (Lockhart et al., 1994) , we calculated LogDet distances three different ways: including only parsimony informative sites; including a likelihood estimate for the proportion of invariant sites (pinv = 0.32); and including all sites without correction. Unfortunately, none of these approaches seem to be effective for these data. All analyses recover the anomalous B+I group with very high bootstrap support (Fig. 4) . Because the GG98 model allows GC content to vary across all branches 4 . The best tree resulting from maximum likelihood analysis of RAG1 third codon positions under their best-fit model (GTR+F; -inL = 8909.47). Numbers to the right of each taxon name indicate the percent GC 3 content (bold or italic text indicate that GC 3 content is significantly higher or lower than expected, respectively). Maximum likelihood bootstrap values are shown above each branch (tildes indicate BS < 50%). For the node uniting clades B and I, bootstrap values derived from five separate analyses are shown: ML = maximum likelihood analysis under the GTR+F model; MP = maximum parsimony; NJ-LogDet = neighbor-joining based on LogDet-corrected distances without correction for among-site rate heterogeneity; NJ-LogDet pinv = neighbor-joining based on LogDet distances with a proportion of invariant sites estimated; NJ-LogDeti n f, = neighbor-joining based on LogDet distances fron parsimony-informative sites only. Symbols (square, circle, and triangle) to the left of each taxon name indicate group membership in the accompanying phenogram (inset). Inset: The phenogram derived from a UPGMA cluster analysis of base-compositional disparity index (ID) values. Group membership, as determined by this analysis, reflects taxonomic similarity in base composition only (see text).",
+                "cite_spans": [
+                    {
+                        "start": 204,
+                        "end": 227,
+                        "text": "(Lockhart et al., 1994)",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 336,
+                        "end": 360,
+                        "text": "(Galtier and Gouy, 1998)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 436,
+                        "end": 459,
+                        "text": "(Lockhart et al., 1994)",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 843,
+                        "end": 851,
+                        "text": "(Fig. 4)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 923,
+                        "end": 924,
+                        "text": "4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Phylogenetic Effects of Correcting for Base-Compositional Heterogeneity",
+                "sec_num": null
+            },
+            {
+                "text": "in the tree, it is parameter rich and too computationally intensive to perform a ML bootstrap analysis. To improve our confidence that we recovered the best tree while searching under this model, we used two different tree topologies (one based on all data except RAGl; one based on RAGl only) as starting points for the branchswapping algorithm. Both searches converged on the same topology, which contained the anomalous B+I group.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Phylogenetic Effects of Correcting for Base-Compositional Heterogeneity",
+                "sec_num": null
+            },
+            {
+                "text": "Our results clearly indicate that one episode of GC enrichment occurred in the ancestral lineage of clade B Caluromys lanatus _ Qm s u b s t i t u t i o n s / s i t e -Caluromys philander FIGURE 5. Tree topology resulting from likelihood analysis of all gene data except RAGl third positions, with branch lengths derived from likelihood optimization of RAGl third positions (left side; scale in substitutions/site). Boxplots of per branch evolutionary rate estimates for third positions of RAGl (resulting from penalized likelihood analysis; scale in substitutions/site/million years) are shown to the right of the tree. Each box plot summarizes per branch rate estimates for the set of branches contained in the clade shown next to it (from top to bottom: clade B, Marmosops, Didelphis through Metachirus, clade I, and Tlacuatzin + Monodelphis) such that the middle line of each box indicates the 50th percentile; left and right sides of the box indicate the 25th and 75th percentiles, respectively; whiskers extend to the most extreme data point that is no more than 1.5 times the interquartile range; and black dots indicate outlying values.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Phylogenetic Implications",
+                "sec_num": null
+            },
+            {
+                "text": "(Gracilinanus + Thylamys + Cryptonanus), and that another occurred in the ancestor of clade I (Marmosa + Micoureus). The resulting convergence in base composition is sufficiently strong that phylogenetic analyses of RAGl sequences, separately or in combination with other data sets, strongly support a group (B+I) that contains these two GC-rich but historically unrelated clades. It is of no small concern that two phylogenetic methods explicitly designed to account for base-compositional heterogeneity among taxa not only failed to recover the correct placement of clades B and I but supported their anomalous grouping with high statistical support. Thus, RAGl 92 SYSTEMATIC BIOLOGY VOL. 56 sequence evolution in didelphids provides a particularly clear example of convergent base composition misleading phylogenetic inference. Didelphid RAGl evolution is of further interest because it shows that severe base-compositional shifts can occur over comparatively short evolutionary timescales. Recent phylogenetic research indicates that the marsupial crown group is not known from pre-Tertiary fossils (Rougier et al., 1998) . Moreover, according to Steiner et al.'s (2005) age estimates of didelphid cladogenetic events (based on relaxed-molecular-clock methods applied to nuclear gene sequences), the base-compositional shifts described in this report probably occurred sometime between 12 and 30 million years ago. By contrast, most previously reported examples of convergent base composition (cited in our Introduction) involve clades that are hundreds of million years old. The relative re-cency of base-compositional shifts for didelphid RAGl sequences may explain, in part, why the two GC-rich lineages we identified show no evidence of having reached base-compositional equilibrium.",
+                "cite_spans": [
+                    {
+                        "start": 1103,
+                        "end": 1125,
+                        "text": "(Rougier et al., 1998)",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 1151,
+                        "end": 1174,
+                        "text": "Steiner et al.'s (2005)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Phylogenetic Implications",
+                "sec_num": null
+            },
+            {
+                "text": "Several workers have suggested that convergent base composition will only be problematic for phylogenetic inference if taxa differ in GC content by more than about 10% (Eyre-Walker, 1998; Galtier and Gouy, 1995) . Others (Conant and Lewis, 2001) have emphasized that additional evolutionary processes, including biased transition/trans version ratios and among-site rate heterogeneity, may interact with base-compositional heterogeneity to lead phylogenetic inference astray. In particular, the inability to correctly infer phylogeny from convergently GC-biased sequences appears to be exacerbated by short internal branches (Conant and Lewis, 2001; Jermiin et al., 2004) . For RAGl third positions, the average difference in GC content between biased and nonbiased clades (AGC = 14%) is above the minimum value considered problematic for phylogenetic inference. After we added 4194 bp from other nuclear genes (IRBP, DMP1, and the remaining RAG1 codon positions), however, the average base-compositional difference between these clades dropped well below this value (AGC = 3%). Nevertheless, we were still unable to recover the correct phylogeny from a combined-data analysis.",
+                "cite_spans": [
+                    {
+                        "start": 168,
+                        "end": 187,
+                        "text": "(Eyre-Walker, 1998;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 188,
+                        "end": 211,
+                        "text": "Galtier and Gouy, 1995)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 221,
+                        "end": 245,
+                        "text": "(Conant and Lewis, 2001)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 625,
+                        "end": 649,
+                        "text": "(Conant and Lewis, 2001;",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 650,
+                        "end": 671,
+                        "text": "Jermiin et al., 2004)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Phylogenetic Implications",
+                "sec_num": null
+            },
+            {
+                "text": "If small differences in base composition among taxa can have misleading phylogenetic consequences, then the sensitivity of existing tests for this phenomenon is an important methodological issue. For the concatenatedgene data set, both the contingency test for basecompositional stationarity employed by PAUP* and the ID test (Kumar and Gadagkar, 2001 ) revealed significant base-compositional heterogeneity across taxa, even though AGC was only 3%. In contrast, the x 2 goodnessof-fit test for individual departures from average GC content was unable to identify particular taxa that deviated from the average base composition of these data. However, we note that these AGC estimates are based on the total number of sites sequenced, rather than the subset of those sites that are parsimony informative. When we recalculated average differences in base composition between clades based on informative sites alone, the average AGC for RAG1 third positions between biased and nonbiased clades is 29%. When we performed a similar correction for the concatenated-gene data set, the average GC content between these clades was still high enough to be considered problematic (AGC = 15%). Therefore, we echo other workers (Jermiin et al, 2004; Conant and Lewis, 2001; Lockhart et al., 1994; Collins et al., 2005) in cautioning that it is prudent to test carefully for basecompositional bias prior to any phylogenetic analysis of nucleotide sequence data.",
+                "cite_spans": [
+                    {
+                        "start": 326,
+                        "end": 351,
+                        "text": "(Kumar and Gadagkar, 2001",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 1216,
+                        "end": 1237,
+                        "text": "(Jermiin et al, 2004;",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 1238,
+                        "end": 1261,
+                        "text": "Conant and Lewis, 2001;",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 1262,
+                        "end": 1284,
+                        "text": "Lockhart et al., 1994;",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 1285,
+                        "end": 1306,
+                        "text": "Collins et al., 2005)",
+                        "ref_id": "BIBREF8"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Phylogenetic Implications",
+                "sec_num": null
+            },
+            {
+                "text": "Although RAG1 is nonstationary and phylogenetically misleading at one hierarchical level, this gene provides both increased resolution and support for relationships among taxa within the GC-rich clades (clades B and I; compare Fig. 1A and B ). Therefore, we would like to include the relevant phylogenetic signal that this gene contains in a combined-data analysis while mitigating the misleading signal due to base-compositional convergence. One possibility involves explicitly modeling (Galtier and Gouy, 1998; Yang and Roberts, 1995) or correcting for (Lockhart etal, 1994; Lake, 1994) base-compositional heterogeneity across taxa. However, model-based approaches can be parameter-rich and difficult to implement in a combined data analysis; they are also conspicuously ineffective when applied to our nonstationary RAG1 sequences. Short of eliminating the biased gene entirely, different ways of handling such problematic .datasets have been proposed (Loomis and Smith, 1990; Hasegawa and Hashimoto, 1993; Kumar and Gadagkar, 2001; Collins et al., 2005; Jeffroy et al., 2006) . Among the most tractable are (1) analyzing amino acid sequences, (2) eliminating third positions, or (3) including only third position transversions (e.g., by \"RY-coding\"). As applied to our data, all three methods effectively eliminate the misleading signal due to basecompositional convergence: the spurious B-f-I clade was not recovered by any method, and nodes C and H were recovered with comparably high bootstrap support in all three analyses (Fig. 6 ). However, these procedures do affect the degree of resolution and support for recovered relationships within the GC-rich clades.",
+                "cite_spans": [
+                    {
+                        "start": 488,
+                        "end": 512,
+                        "text": "(Galtier and Gouy, 1998;",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 513,
+                        "end": 536,
+                        "text": "Yang and Roberts, 1995)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 555,
+                        "end": 576,
+                        "text": "(Lockhart etal, 1994;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 577,
+                        "end": 588,
+                        "text": "Lake, 1994)",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 955,
+                        "end": 979,
+                        "text": "(Loomis and Smith, 1990;",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 980,
+                        "end": 1009,
+                        "text": "Hasegawa and Hashimoto, 1993;",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1010,
+                        "end": 1035,
+                        "text": "Kumar and Gadagkar, 2001;",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 1036,
+                        "end": 1057,
+                        "text": "Collins et al., 2005;",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 1058,
+                        "end": 1079,
+                        "text": "Jeffroy et al., 2006)",
+                        "ref_id": "BIBREF29"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 227,
+                        "end": 240,
+                        "text": "Fig. 1A and B",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1531,
+                        "end": 1538,
+                        "text": "(Fig. 6",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Phylogenetic Implications",
+                "sec_num": null
+            },
+            {
+                "text": "Although RAG1 is a problematic source of data for inferring phylogenetic relationships among didelphids, examining the evolution of this gene on the best estimate of didelphid phylogeny derived from other data provides useful information about the causal mechanisms of base-compositional heterogeneity. RAG1 clearly exhibits very different evolutionary dynamics in two GCrich lineages than it does in other clades. In particular, the higher rates of substitution and mutation for taxa in clades B and I merit explanation. FIGURE 7. Sliding window analysis (window size = 100 bp) of GC3 content of RAGl for two GC-rich taxa (Thylamys venustus and Micoureus demerarae) and two non-GC-rich taxa (Monodelphis adusta and Didelphis albiventris).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Evolution of Base Composition",
+                "sec_num": null
+            },
+            {
+                "text": "recent theory that links recombination rate and the evolution of GC content in mammalian genomes.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Evolution of Base Composition",
+                "sec_num": null
+            },
+            {
+                "text": "During meiotic recombination, different alleles may form heteroduplex DNA that contains T:G and C:A mismatches (Lamb, 1984; Galtier et al., 2001) . Theoretically, these mismatches should be repaired correctly to T: A and C:G, respectively. However, mismatch repair in mammals appears to be biased by a DNA repair mechanism that preferentially repairs T:G mismatches to C:G (Brown and Jiricny, 1987) . This process has been termed biased gene conversion (BGC) and, if it occurs frequently, could cause regions of high recombination to become increasingly GC-rich (Galtier et al., 2001; Montoya-Burgos etal., 2003; Meunier and Duret, 2004) . Mounting evidence strongly favors BGC as an important process driving base-compositional differences across the mammalian genome (Eyre-Walker and Hurst, 2001; Birdsell, 2002; Piganeau et al., 2002; Galtier, 2004; Perry and Ashworth, 1999) . Moreover, if sequences are not at basecompositional equilibrium (and these GC-rich didelphid sequences are not; Table 4 ), then BGC predicts that the rate of silent substituiton (K s ) will be both elevated and GC-biased (Piganeau et al., 2002) . Consistent with these predictions, the GC-rich didelphid lineages all exhibit ah elevated rate of substitution and a biased direction of substitution from AT -\u00bb GC. In addition, heterozygosity values for these taxa suggest that the GC-rich lineages also exhibit a relatively high rate of mutation, which is not necessarily a predicted outcome of BGC.",
+                "cite_spans": [
+                    {
+                        "start": 111,
+                        "end": 123,
+                        "text": "(Lamb, 1984;",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 124,
+                        "end": 145,
+                        "text": "Galtier et al., 2001)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 373,
+                        "end": 398,
+                        "text": "(Brown and Jiricny, 1987)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 562,
+                        "end": 584,
+                        "text": "(Galtier et al., 2001;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 585,
+                        "end": 612,
+                        "text": "Montoya-Burgos etal., 2003;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 613,
+                        "end": 637,
+                        "text": "Meunier and Duret, 2004)",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 769,
+                        "end": 798,
+                        "text": "(Eyre-Walker and Hurst, 2001;",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 799,
+                        "end": 814,
+                        "text": "Birdsell, 2002;",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 815,
+                        "end": 837,
+                        "text": "Piganeau et al., 2002;",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 838,
+                        "end": 852,
+                        "text": "Galtier, 2004;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 853,
+                        "end": 878,
+                        "text": "Perry and Ashworth, 1999)",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 1102,
+                        "end": 1125,
+                        "text": "(Piganeau et al., 2002)",
+                        "ref_id": "BIBREF46"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 993,
+                        "end": 1000,
+                        "text": "Table 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Evolution of Base Composition",
+                "sec_num": null
+            },
+            {
+                "text": "Nonetheless, recent studies have suggested that recombination is itself mutagenic (Hellman et al., 2003; Lercher and Hurst, 2002) , and it is possible that this aspect of recombination is directly contributing to the elevated mutation rate for these GC-rich taxa.",
+                "cite_spans": [
+                    {
+                        "start": 82,
+                        "end": 104,
+                        "text": "(Hellman et al., 2003;",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 105,
+                        "end": 129,
+                        "text": "Lercher and Hurst, 2002)",
+                        "ref_id": "BIBREF36"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Evolution of Base Composition",
+                "sec_num": null
+            },
+            {
+                "text": "Recent evidence suggests that recombination hotspots can change genomic location over short evolutionary timescales; indeed, hotspot location varies even within human populations (Coop, 2005; Jeffreys etal., 2005) . Given these findings, one possible explanation for our results is that RAGl independently acquired a recombination hotspot in the ancestral lineages of clades B and I. Although we do not have direct estimates of recombination rates for these taxa, if RAGl contains a 1-to 2-kb recombination hotspot, then we would expect the GC-rich region in affected taxa to be localized over only part of the sequenced 2.7-kb fragment. A sliding-window analysis reveals that GC-rich and non-GC-rich sequences have a similar base-compositional profile across the first 600 to 700 bp of the RAGl exon, and that the GC-rich sequences diverge and adopt their characteristic base composition thereafter (Fig. 7) . Although this result may be consistent with alternative explanations, including selection maintaining base composition across the 5' region of the gene, it may be evidence of an elevated recombination rate for part of the gene. If so, and if recombination hotspots are as evolutionarily mobile as recent studies suggest, then the base-compositional convergence that plagues our phylogenetic analysis of the RAGl locus may be more widespread across nuclear loci than previously anticipated.",
+                "cite_spans": [
+                    {
+                        "start": 179,
+                        "end": 191,
+                        "text": "(Coop, 2005;",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 192,
+                        "end": 213,
+                        "text": "Jeffreys etal., 2005)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 900,
+                        "end": 908,
+                        "text": "(Fig. 7)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Evolution of Base Composition",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/sysbio/article/56/1/83/1660568 by University of Michigan user on 07 October 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We particularly thank Keith Barker and George Barrowclough for helpful discussions and comments. As ever, we are grateful to the curators and collections support personnel of the many museums that provided tissue samples for this work. In particular, we thank Phil Myers and Steve Hinshaw (UMMZ), Bruce Patterson and Bill Stanley (FMNH), Mark Engstrom and Burton Lim (ROM), Jim Patton (MVZ), and Robert Baker (TTU). Andrew Simons, Robert Zink, Mark Hafner, Rod eric Page, Peter Foster, and two anonymous reviewers provided helpful comments on an earlier draft. The University of Minnesota Supercomputing Institute provided valuable computing time and resources. This study was supported by funds from the National Science Foundation (DEB-0211952) and the University of Minnesota.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACKNOWLEDGMENTS",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Multiple sources of character information and the phylogeny of Hawaiian drosophilids",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Baker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Desalle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Syst. Biol",
+                "volume": "46",
+                "issue": "",
+                "pages": "654--673",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Baker, R. H., and R. DeSalle. 1997. Multiple sources of character in- formation and the phylogeny of Hawaiian drosophilids. Syst. Biol. 46:654-673.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "A phylogenetic hypothesis for passerine birds: Taxonomic and biogeographic implications of an analysis of nuclear DNA sequence data",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Barker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Barrowclough",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Groth",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Proc. R. Soc. Lond.B",
+                "volume": "269",
+                "issue": "",
+                "pages": "295--308",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barker, F. K., G. F. Barrowclough, and J. G. Groth. 2002. A phylogenetic hypothesis for passerine birds: Taxonomic and biogeographic impli- cations of an analysis of nuclear DNA sequence data. Proc. R. Soc. Lond.B 269:295-308.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "The RAG-1 exon in the avian order Caprimulgiformes: Phylogeny, heterozygosity, and base composition",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Barrowclough",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Groth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Mertz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Mol. Phylog. and Evol",
+                "volume": "41",
+                "issue": "",
+                "pages": "238--248",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barrowclough, G. F., J. G. Groth, and L. A. Mertz. 2006. The RAG-1 exon in the avian order Caprimulgiformes: Phylogeny, heterozygos- ity, and base composition. Mol. Phylog. and Evol. 41:238-248.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Integrating genomics, bioinformatics, and classical genetics to study the effects of recombination on genome evolution",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Birdsell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Mol. Biol. Evol",
+                "volume": "19",
+                "issue": "",
+                "pages": "1181--1197",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Birdsell, J. A. 2002. Integrating genomics, bioinformatics, and classical genetics to study the effects of recombination on genome evolution. Mol. Biol. Evol. 19:1181-1197.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "The limits of amino-acid sequence data in angiosperm phylogenetic reconstruction",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Bremer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Evolution",
+                "volume": "42",
+                "issue": "",
+                "pages": "795--803",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bremer, K. 1988. The limits of amino-acid sequence data in angiosperm phylogenetic reconstruction. Evolution 42:795-803.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Branch support and tree stability",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Bremer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Cladistics",
+                "volume": "10",
+                "issue": "",
+                "pages": "295--304",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bremer, K. 1994. Branch support and tree stability. Cladistics 10:295- 304.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "A specific mismatch repair event protects mammalian cells from loss of 5-methylcytosine",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Jiricny",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Cell",
+                "volume": "50",
+                "issue": "",
+                "pages": "945--950",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brown, T. C, and J. Jiricny. 1987. A specific mismatch repair event protects mammalian cells from loss of 5-methylcytosine. Cell 50:945- 950.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Bias in phylogenetic reconstruction of vertebrate rhodopsin sequences",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "S W"
+                        ],
+                        "last": "Chang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Campbell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Mol. Biol. Evol",
+                "volume": "17",
+                "issue": "",
+                "pages": "1220--1231",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chang, B. S. W., and D. L. Campbell. 2000. Bias in phylogenetic recon- struction of vertebrate rhodopsin sequences. Mol. Biol. Evol. 17:1220- 1231.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Choosing the best genes for the job: The case for stationary genes in genome-scale phylogenetics",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Collins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Fedrigo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Naylor",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Syst. Biol",
+                "volume": "54",
+                "issue": "",
+                "pages": "493--500",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Collins, T. M., O. Fedrigo, and G. P. Naylor. 2005. Choosing the best genes for the job: The case for stationary genes in genome-scale phy- logenetics. Syst. Biol. 54:493-500.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Effects of nucleotide composition bias on the success of the parsimony criterion in phylogenetic inference",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Conant",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Lewis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Mol. Biol. Evol",
+                "volume": "18",
+                "issue": "",
+                "pages": "1024--1033",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Conant, G. C, and P. O. Lewis. 2001. Effects of nucleotide composi- tion bias on the success of the parsimony criterion in phylogenetic inference. Mol. Biol. Evol. 18:1024-1033.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Can a genome change its (hot)spots?",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Coop",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Trends Ecol. Evol",
+                "volume": "20",
+                "issue": "",
+                "pages": "643--645",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Coop, G. 2005. Can a genome change its (hot)spots? Trends Ecol. Evol. 20:643-645.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "The elevated GC content at exonic third sites is not evidence against neutralist models of isochore evolution",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Duret",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Hurst",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Mol. Biol. Evol",
+                "volume": "18",
+                "issue": "",
+                "pages": "757--762",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Duret, L, and L. D. Hurst. 2001. The elevated GC content at exonic third sites is not evidence against neutralist models of isochore evolution. Mol. Biol. Evol. 18:757-762.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "DNA mismatch repair and synonymous codon evolution in mammals",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Eyre-Walker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Mol. Biol. Evol",
+                "volume": "11",
+                "issue": "",
+                "pages": "88--98",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Eyre-Walker, A. 1994. DNA mismatch repair and synonymous codon evolution in mammals. Mol. Biol. Evol. 11:88-98.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Problems with parsimony in sequences of biased base composition",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Eyre-Walker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "J. Mol. Evol",
+                "volume": "47",
+                "issue": "",
+                "pages": "686--690",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Eyre-Walker, A. 1998. Problems with parsimony in sequences of biased base composition. J. Mol. Evol. 47:686-690.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "The evolution of isochores",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Eyre-Walker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Hurst",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Nat Revi: Genet",
+                "volume": "2",
+                "issue": "",
+                "pages": "549--555",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Eyre-Walker, A., and L. D. Hurst. 2001. The evolution of isochores. Nat Revi: Genet. 2:549-555.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Confidence limits on phylogenies: An approach using the bootstrap",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Felsenstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "Evolution",
+                "volume": "39",
+                "issue": "",
+                "pages": "783--791",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Felsenstein, J. 1985. Confidence limits on phylogenies: An approach using the bootstrap. Evolution 39:783-791.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Compositional bias may affect both DNA-based and protein-based phylogenetic reconstructions",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Foster",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hickey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "J. Mol. Evol",
+                "volume": "48",
+                "issue": "",
+                "pages": "284--290",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Foster, P. G., and D. A. Hickey. 1999. Compositional bias may affect both DNA-based and protein-based phylogenetic reconstructions. J. Mol. Evol. 48:284-290.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Recombination, GC-content, and the human pseudoautosomal boundary paradox",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Galtier",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Trends Genet",
+                "volume": "20",
+                "issue": "",
+                "pages": "347--349",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Galtier, N. 2004. Recombination, GC-content, and the human pseu- doautosomal boundary paradox. Trends Genet. 20:347-349.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Inferring phylogenies from DNA sequences of unequal base compositions",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Galtier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Gouy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Proc. Natl. Acad. of Sci",
+                "volume": "92",
+                "issue": "",
+                "pages": "11317--11321",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Galtier, N., and M. Gouy. 1995. Inferring phylogenies from DNA se- quences of unequal base compositions. Proc. Natl. Acad. of Sci., USA 92:11317-11321.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Inferring pattern and process: Maximum-likelihood implementation of a nonhomogeneous model of DNA sequence evolution for phylogenetic analysis",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Galtier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Gouy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Mol. Biol. Evol",
+                "volume": "15",
+                "issue": "",
+                "pages": "871--879",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Galtier, N., and M. Gouy. 1998. Inferring pattern and process: Maximum-likelihood implementation of a nonhomogeneous model of DNA sequence evolution for phylogenetic analysis. Mol. Biol. Evol. 15:871-879.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "GCcontent evolution in mammalian genomes: The biased gene conversion hypothesis",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Galtier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Piganeau",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Mouchiroud",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Duret",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Genetics",
+                "volume": "159",
+                "issue": "",
+                "pages": "907--911",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Galtier, N., G. Piganeau, D. Mouchiroud, and L. Duret. 2001. GC- content evolution in mammalian genomes: The biased gene conver- sion hypothesis. Genetics 159:907-911.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Order Didephimorphia. Pages 3-22 in Mammal species of the world: A taxonomic and geographic reference",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Gardner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gardner, A. L. 2005. Order Didephimorphia. Pages 3-22 in Mammal species of the world: A taxonomic and geographic reference (D. E. Wilson and D. M. Reeder, eds.). Johns Hopkins University Press, Baltimore, Maryland.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Basal divergences in birds and the phylogenetic utility of the nuclear RAG-1 gene",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Groth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Barrowclough",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Mol. Phylogenet. Evol",
+                "volume": "12",
+                "issue": "",
+                "pages": "115--123",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Groth, J. G., and G. F. Barrowclough. 1999. Basal divergences in birds and the phylogenetic utility of the nuclear RAG-1 gene. Mol. Phylo- genet. Evol. 12:115-123.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Ribosomal RNA trees misleading?",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hasegawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Hashimoto",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Nature",
+                "volume": "361",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hasegawa, M., and T. Hashimoto. 1993. Ribosomal RNA trees mislead- ing? Nature 361:23.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "A neutral explanation for the correlation of diversity with recombination rates in humans",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Hellman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Ebersberger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ptak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Paabo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Przeworski",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Am. J. Hum. Genet",
+                "volume": "72",
+                "issue": "",
+                "pages": "1527--1535",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hellman, I., I. Ebersberger, S. E. Ptak, S. Paabo, and M. Przeworski. 2003. A neutral explanation for the correlation of diversity with re- combination rates in humans. Am. J. Hum. Genet. 72:1527-1535.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Different patterns of selection on the nuclear genes IRBP and DMP-1 affect the efficiency but not the outcome of phylogeny estimation for didelphid marsupials",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Jansa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Forsman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Voss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Mol. Phylogen. Evol",
+                "volume": "38",
+                "issue": "",
+                "pages": "363--380",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jansa, S. A., J. F. Forsman, and R. S. Voss. 2006. Different patterns of se- lection on the nuclear genes IRBP and DMP-1 affect the efficiency but not the outcome of phylogeny estimation for didelphid marsupials. Mol. Phylogen. Evol. 38:363-380.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Phylogenetic studies on didelphid marsupials I. Introduction and preliminary results from nuclear IRBP gene sequences",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Jansa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Voss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "J. Mammal. Evol",
+                "volume": "7",
+                "issue": "",
+                "pages": "43--77",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jansa, S. A., and R. S. Voss. 2000. Phylogenetic studies on didelphid marsupials I. Introduction and preliminary results from nuclear IRBP gene sequences. J. Mammal. Evol. 7:43-77.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Phylogenetic relationships of the marsupial genus Hyladelphys based on nuclear gene sequences and morphology",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Jansa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Voss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "J. Mammal",
+                "volume": "86",
+                "issue": "",
+                "pages": "853--865",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jansa, S. A., and R. S. Voss. 2005. Phylogenetic relationships of the marsupial genus Hyladelphys based on nuclear gene sequences and morphology. J. Mammal. 86:853-865.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Intense and highly localized gene conversion activity in human meiotic crossover hot spots",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Jeffreys",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Nat. Genet",
+                "volume": "2",
+                "issue": "",
+                "pages": "151--156",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jeffreys, A. J., and C. A. May. 2004. Intense and highly localized gene conversion activity in human meiotic crossover hot spots. Nat. Genet. 2:151-156.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Phylogenomics: The beginning of incongruence?",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Jeffroy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Brinkmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Delsuc",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Philippe",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Trends Genet",
+                "volume": "22",
+                "issue": "",
+                "pages": "225--231",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jeffroy, O., H. Brinkmann, F. Delsuc, and H. Philippe. 2006. Phyloge- nomics: The beginning of incongruence? Trends Genet. 22:225-231.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "The biasing effect of compositional heterogeneity on phylogenetic estimates may be underestimated",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Jermiin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "Y W"
+                        ],
+                        "last": "Ho",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Ababneh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Robinson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "W D"
+                        ],
+                        "last": "Larkum",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Syst. Biol",
+                "volume": "53",
+                "issue": "",
+                "pages": "638--643",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jermiin, L. S., S. Y. W. Ho., F. Ababneh, J. Robinson, and A. W. D. Larkum. 2004. The biasing effect of compositional heterogeneity on phylogenetic estimates may be underestimated. Syst. Biol. 53:638- 643.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "The neutral theory of molecular evolution",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kimura",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1983,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kimura, M. 1983. The neutral theory of molecular evolution. Cam- bridge University Press, Cambridge, UK.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Disparity index: A simple statistic to measure and test the homogeneity of substitution patterns between molecular sequences",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kumar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Gadagkar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Genetics",
+                "volume": "158",
+                "issue": "",
+                "pages": "1321--1327",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kumar, S., and S. R. Gadagkar. 2001. Disparity index: A simple statistic to measure and test the homogeneity of substitution patterns be- tween molecular sequences. Genetics 158:1321-1327.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "MEGA3: Integrated software for molecular evolutionary genetics analysis and sequence alignment",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kumar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Tamura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Brief. Bioinformatics",
+                "volume": "5",
+                "issue": "",
+                "pages": "150--163",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kumar, S., K. Tamura, and M. Nei. 2004. MEGA3: Integrated software for molecular evolutionary genetics analysis and sequence align- ment. Brief. Bioinformatics 5:150-163.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Reconstructing evolutionary trees from DNA and protein sequences: Paralinear distances",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Lake",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Proc. Nat. Acad. Sci",
+                "volume": "91",
+                "issue": "",
+                "pages": "1455--1459",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lake, J. A. 1994. Reconstructing evolutionary trees from DNA and protein sequences: Paralinear distances. Proc. Nat. Acad. Sci., USA 91:1455-1459.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "The properties of meiotic gene conversion important in its effects of evolution",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Lamb",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "Heredity",
+                "volume": "53",
+                "issue": "",
+                "pages": "113--138",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lamb, B. C. 1984. The properties of meiotic gene conversion important in its effects of evolution. Heredity 53:113-138.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Human SNP variability and mutation rate are higher in regions of high recombination",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Lercher",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Hurst",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Trends Genet",
+                "volume": "18",
+                "issue": "",
+                "pages": "337--340",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lercher, M. J., and L. D. Hurst. 2002. Human SNP variability and muta- tion rate are higher in regions of high recombination. Trends Genet. 18:337-340.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Substitutional bias confounds inference of cyanel origins from sequence data",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Lockhart",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Howe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Bryant",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Beanland",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "W D"
+                        ],
+                        "last": "Larkum",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "J. Molec. Evol",
+                "volume": "34",
+                "issue": "",
+                "pages": "153--162",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lockhart, P. J., C. J. Howe, D. A. Bryant, T. J. Beanland, and A. W. D. Larkum. 1992. Substitutional bias confounds inference of cyanel origins from sequence data. J. Molec. Evol. 34:153-162.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Recovering evolutionary trees under a more realistic model of sequence evolution",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Lockhart",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Steel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hendy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Penny",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Mol. Biol. Evol",
+                "volume": "12",
+                "issue": "",
+                "pages": "605--612",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lockhart, P. J., M. A. Steel, M. A. Hendy, and D. Penny. 1994. Recov- ering evolutionary trees under a more realistic model of sequence evolution. Mol. Biol. Evol. 12:605-612.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Molecular phylogeny of Dictyostelium discoideum by protein sequence comparison",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Loomis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Proc. Nat. Acad. Sci. USA",
+                "volume": "87",
+                "issue": "",
+                "pages": "9093--9097",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Loomis, W. F, and D. W. Smith. 1990. Molecular phylogeny of Dic- tyostelium discoideum by protein sequence comparison. Proc. Nat. Acad. Sci. USA 87:9093-9097.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "A phylogeny of putative perciform suborders based on the nuclear RAG1 gene",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Mahon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Carpenter",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Integr. Comp. Biol",
+                "volume": "44",
+                "issue": "",
+                "pages": "723--723",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mahon, A. R., and K. E. Carpenter. 2004. A phylogeny of putative per- ciform suborders based on the nuclear RAG1 gene. Integr. Comp. Biol. 44:723-723.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Recombination drives the evolution of GC-content in the human genome",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Meunier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Duret",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Mol. Biol. Evol",
+                "volume": "21",
+                "issue": "",
+                "pages": "984--990",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Meunier, J., and L. Duret. 2004. Recombination drives the evolution of GC-content in the human genome. Mol. Biol. Evol. 21:984-990.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Recombination explains isochores in mammalian genomes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Montoya-Burgos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Boursot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Galtier",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Trends Genet",
+                "volume": "19",
+                "issue": "",
+                "pages": "128--130",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Montoya-Burgos, J. I., P. Boursot, and N. Galtier. 2003. Recombination explains isochores in mammalian genomes. Trends Genet. 19:128- 130.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "The evolution of base composition and phylogenetic inference",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Mooers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Holmes",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Trends Ecol. Evol",
+                "volume": "15",
+                "issue": "",
+                "pages": "365--369",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mooers, A. O., and E. C. Holmes. 2000. The evolution of base compo- sition and phylogenetic inference. Trends Ecol. Evol. 15:365-369.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Walker's mammals of the world",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Nowak",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "SYSTEMATIC BIOLOGY",
+                "volume": "56",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nowak, R.M. 1999. Walker's mammals of the world, 6th edition. Johns Hopkins University Press, Baltimore, Maryland. SYSTEMATIC BIOLOGY VOL. 56",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Evolutionary rate of a gene affected by chromosomal position",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Perry",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Ashworth",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Curr. Biol",
+                "volume": "9",
+                "issue": "",
+                "pages": "987--989",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Perry, J., and A. Ashworth. 1999. Evolutionary rate of a gene affected by chromosomal position. Curr. Biol. 9:987-989.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Expected relationship between the silent substitution rate and the GC content: Implications for the evolution of isochores",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Piganeau",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Mouchiroud",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Duret",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Gautier",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "J. Mol. Evol",
+                "volume": "54",
+                "issue": "",
+                "pages": "129--133",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Piganeau, G., D. Mouchiroud, L. Duret, and C. Gautier. 2002. Expected relationship between the silent substitution rate and the GC content: Implications for the evolution of isochores. J. Mol. Evol. 54:129-133.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "ModelTest: Testing the model of DNA substitution",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Posada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Crandall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Bioinformatics",
+                "volume": "14",
+                "issue": "",
+                "pages": "817--818",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Posada, D., and K. A. Crandall. 1998. ModelTest: Testing the model of DNA substitution. Bioinformatics 14:817-818.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Implications of Deltatheridium specimens for early marsupial history",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Rougier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Wible",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Novacek",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Nature",
+                "volume": "396",
+                "issue": "",
+                "pages": "459--63",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rougier, G. W., J. R. Wible, and M. J. Novacek. 1998. Implications of Deltatheridium specimens for early marsupial history. Nature 396:459^63.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Initial diversification of living amphibians predated the breakup of Pangaea",
+                "authors": [
+                    {
+                        "first": "San",
+                        "middle": [],
+                        "last": "Mauro",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Vences",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Alcobendas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Zardoya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Meyer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Am. Nat",
+                "volume": "165",
+                "issue": "",
+                "pages": "590--599",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "San Mauro, D., M. Vences, M. Alcobendas, R. Zardoya, and A. Meyer. 2005. Initial diversification of living amphibians predated the breakup of Pangaea. Am. Nat. 165:590-599.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Multiple comparisons of logliklehoods with applications to phylogenetic inference",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Shimodaira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hasegawa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Mol. Biol. Evol",
+                "volume": "18",
+                "issue": "",
+                "pages": "1114--1116",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shimodaira, H., and M. Hasegawa. 1999. Multiple comparisons of log- liklehoods with applications to phylogenetic inference. Mol. Biol. Evol. 18:1114-1116.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "New DNA data from a transthyretin nuclear intron suggest an Oligocene to Miocene diversification of living South America opossums (Marsupialia: Didelphidae)",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Steiner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Tilak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "J P"
+                        ],
+                        "last": "Douzery",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Catzeflis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Mol. Phylogenet. Evol",
+                "volume": "35",
+                "issue": "",
+                "pages": "363--379",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Steiner, C, M. Tilak, E. J. P. Douzery, and F. M. Catzeflis. 2005. New DNA data from a transthyretin nuclear intron suggest an Oligocene to Miocene diversification of living South America opossums (Mar- supialia: Didelphidae). Mol. Phylogenet. Evol. 35:363-379.",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "PAUP*. Phylogenetic analysis using parsimony (*and other methods), version 4",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Swofford",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Swofford, D. L. 2003. PAUP*. Phylogenetic analysis using parsimony (*and other methods), version 4. Sinauer Associates, Sunderland, Massachusetts.",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Tree rooting with outgroups when they differ in their nudeotide composition from the ingroup: The Drosophila salterns and zvUlistoni groups, a case study",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Tamo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Rodrfguez-Trelles",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Ayala",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Mol. Phylogenet. Evol",
+                "volume": "16",
+                "issue": "",
+                "pages": "344--349",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tamo, R., F. Rodrfguez-Trelles, and F. J. Ayala. 2000. Tree rooting with outgroups when they differ in their nudeotide composition from the ingroup: The Drosophila salterns and zvUlistoni groups, a case study. Mol. Phylogenet. Evol. 16:344-349.",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "Shared nudeotide composition biases among species and their impact on phylogenetic reconstructions of the Drosophilidae",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Tarrio",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Rodriguez-Trelles",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Ayala",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Mol. Biol. Evol",
+                "volume": "18",
+                "issue": "",
+                "pages": "1464--1473",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tarrio, R., F. Rodriguez-Trelles, and F. J. Ayala. 2001. Shared nudeotide composition biases among species and their impact on phyloge- netic reconstructions of the Drosophilidae. Mol. Biol. Evol. 18:1464- 1473.",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "Phylogenetic studies on didelphid marsupials II. Nonmolecular data and new IRBP sequences: Separate and combined analyses of didelphine relationships with denser taxon sampling",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Voss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Jansa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Bull. Am. Mus. Nat. Hist",
+                "volume": "276",
+                "issue": "",
+                "pages": "1--82",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Voss, R. S., and S. A. Jansa. 2003. Phylogenetic studies on didelphid marsupials II. Nonmolecular data and new IRBP sequences: Sepa- rate and combined analyses of didelphine relationships with denser taxon sampling. Bull. Am. Mus. Nat. Hist. 276:1-82.",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "On the contents of Gracilinanus Gardner and Creighton, 1989, with the description of a previously unrecognized clade of small didelphid marsupials",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Voss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Lunde",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Jansa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Am. Mus. Novitates",
+                "volume": "3482",
+                "issue": "",
+                "pages": "1--34",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Voss, R. S., D. P. Lunde, and S. A. Jansa. 2005. On the contents of Gracili- nanus Gardner and Creighton, 1989, with the description of a previ- ously unrecognized clade of small didelphid marsupials. Am. Mus. Novitates 3482:1-34.",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Evaluating placental interordinal phylogenies with novel sequences including RAG1, gammafibrinogen, ND6, and mt-tRNA, plus MCMC-driven nudeotide, amino acid, and codon models",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Waddell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Shelley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Mol. Phylogenet. Evol",
+                "volume": "28",
+                "issue": "",
+                "pages": "197--224",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Waddell, P. J., and S. Shelley. 2003. Evaluating placental inter- ordinal phylogenies with novel sequences including RAG1, gamma- fibrinogen, ND6, and mt-tRNA, plus MCMC-driven nudeotide, amino acid, and codon models. Mol. Phylogenet. Evol. 28:197- 224.",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": ") is a non-GC-rich relative of Marmosa murina",
+                "authors": [],
+                "year": null,
+                "venue": "Mark Hafner Monodelphis brevicaudata",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Associate Editor: Mark Hafner Monodelphis brevicaudata (photographed by R.S. Voss near San Ignacio de Yuruani, Bolivar, Venezuela) is a non-GC-rich relative of Marmosa murina (depicted on the cover).",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "type_str": "figure",
+                "num": null,
+                "text": "Phylogenies of didelphid marsupials. (A) Strict consensus of four minimum-length trees based on parsimony analysis of 470 informative characters from the combined data set including IRBP, DMP1, and morphology (length = 1361.5, CI = 0.68, RI = 0.81). (B) Strict consensus of 114 minimum-length trees from parsimony analysis of 643 informative characters from RAGl (length = 2192, CI = 0.52, RI = 0.75).",
+                "uris": null
+            },
+            "FIGREF1": {
+                "type_str": "figure",
+                "num": null,
+                "text": "Scatterplot of G+C frequency at first + second versus third codon positions for RAGl (closed circles), IRBP (inverted triangles), and DMP1 (crosses).",
+                "uris": null
+            },
+            "FIGREF2": {
+                "type_str": "figure",
+                "num": null,
+                "text": "Trees resulting from parsimony analysis of combined data sets (IRBP+DMPl+RAGl+morphology), with the RAGl partition coded three different ways: (A) RAGl third positions eliminated, (B) RAGl coded as amino acids, and (C) RAGl third positions coded to allow only transversions (\"RY-coding\"). Numbers beside key nodes are bootstrap percentages; otherwise, bootstrap support is indicated by shaded circles as inFigure 1.(Continued)",
+                "uris": null
+            },
+            "FIGREF3": {
+                "type_str": "figure",
+                "num": null,
+                "text": "FIGURE 6. (Continued)",
+                "uris": null
+            },
+            "TABREF2": {
+                "type_str": "table",
+                "num": null,
+                "text": "Percent GC content at first, second, and third codon positions of RAGl for didelphid taxa included in this study. Asterisks indicate values that are significantly higher (bold) or lower (italics) than expected as assessed with a x 2 goodness-of-fit test.",
+                "content": "<table><tr><td>Taxon</td><td>First</td><td>Second</td><td/></tr><tr><td>Caluromys lanatus</td><td>51.4</td><td>40.0</td><td>57.0*</td></tr><tr><td>Cnlurotmjs philander</td><td>51.2</td><td>40.0</td><td>57.9*</td></tr><tr><td>Chironectes minimus</td><td>50.2</td><td>40.3</td><td>56.7*</td></tr><tr><td>Cryptonanus chacoensis</td><td>53.4</td><td>41.1</td><td>70.0</td></tr><tr><td>Cryptonanus unduaviensis</td><td>53.2</td><td>41.1</td><td>70.0</td></tr><tr><td>Didelphis albiventris</td><td>50.9</td><td>40.3</td><td>57.3*</td></tr><tr><td>Didelphis marsupialis</td><td>50.9</td><td>40.4</td><td>57.1*</td></tr><tr><td>Didelphis virginiana</td><td>50.9</td><td>39.9</td><td>56.8*</td></tr><tr><td>Glironia venusta</td><td>52.6</td><td>40.9</td><td>61.1</td></tr><tr><td>Gracilinanus aceramarcae</td><td>53.3</td><td>41.6</td><td>71.3*</td></tr><tr><td>Gracilinanus agilis</td><td>53.6</td><td>41.6</td><td>73.7*</td></tr><tr><td>Gracilinanus emiliae</td><td>53.7</td><td>41.2</td><td>71.0*</td></tr><tr><td>Gracilinanus microtarsus</td><td>55.4</td><td>42.9</td><td>72.5*</td></tr><tr><td>Hyladelphys kalinoivskii</td><td>51.5</td><td>41.0</td><td>62.2</td></tr><tr><td>Lutreolina crassicaudata</td><td>50.6</td><td>40.4</td><td>55.2*</td></tr><tr><td>Marmosa lepida</td><td>53.4</td><td>41.9</td><td>72.4*</td></tr><tr><td>Mannosa mexicana</td><td>53.5</td><td>41.5</td><td>73.6*</td></tr><tr><td>Marmosa murina</td><td>54.5</td><td>42.3</td><td>74.7*</td></tr><tr><td>Marmosa robinsoni</td><td>53.7</td><td>41.8</td><td>74.8*</td></tr><tr><td>Marmosa rubra</td><td>54.1</td><td>42.1</td><td>76.6*</td></tr><tr><td>Marmosops impavidus</td><td>52.6</td><td>41.0</td><td>62.4</td></tr><tr><td>Marmosops incanus</td><td>52.9</td><td>41.1</td><td>64.9</td></tr><tr><td>Marmosops noctivagus</td><td>52.3</td><td>40.8</td><td>61.5</td></tr><tr><td>Marmosops parvidens</td><td>52.2</td><td>41.0</td><td>62.5</td></tr><tr><td>Marmosops pinheiroi</td><td>51.9</td><td>40.5</td><td>61.7</td></tr><tr><td>Metachirus nudicaudatus</td><td>52.1</td><td>41.2</td><td>62.4</td></tr><tr><td>Micoureus demerarae</td><td>54.5</td><td>42.4</td><td>76.2*</td></tr><tr><td>Micoureus paraguayanus</td><td>55.4</td><td>42.9</td><td>75.1*</td></tr><tr><td>Micoureus regina</td><td>54.1</td><td>41.9</td><td>75.4*</td></tr><tr><td>Monodelphis adusta</td><td>51.5</td><td>40.7</td><td>57.9*</td></tr><tr><td>Monodelphis brevicaudata</td><td>51.3</td><td>40.6</td><td>58.6*</td></tr><tr><td>Monodelphis emiliae</td><td>51.8</td><td>40.4</td><td>59.0*</td></tr><tr><td>Monodelphis theresa</td><td>51.5</td><td>40.6</td><td>58.3*</td></tr><tr><td>Philander frenata</td><td>51.1</td><td>40.3</td><td>57.6*</td></tr><tr><td>Philander mcilhennyi</td><td>51.0</td><td>40.3</td><td>56.8*</td></tr><tr><td>Philander opossum</td><td>51.1</td><td>40.6</td><td>56.9*</td></tr><tr><td>Thylamys macrurus</td><td>53.9</td><td>42.0</td><td>72.9*</td></tr><tr><td>Thylamys pallidior</td><td>54.0</td><td>41.9</td><td>73.2*</td></tr><tr><td>Thylamys pusillus</td><td>55.4</td><td>43.3</td><td>75.2*</td></tr><tr><td>Thylamys venustus</td><td>53.2</td><td>41.5</td><td>72.3*</td></tr><tr><td>Tlacuatzin canescens</td><td>54.0</td><td>41.9</td><td>66.4</td></tr></table>"
+            }
+        }
+    }
+}

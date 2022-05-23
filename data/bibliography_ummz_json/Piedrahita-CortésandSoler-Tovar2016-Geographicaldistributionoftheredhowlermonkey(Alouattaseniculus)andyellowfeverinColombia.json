@@ -1,0 +1,1608 @@
+{
+    "paper_id": "Piedrahita-Corte\u0301sandSoler-Tovar2016-Geographicaldistributionoftheredhowlermonkey(Alouattaseniculus)andyellowfeverinColombia",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:31:18.449822Z"
+    },
+    "title": "Distribuci\u00f3n geogr\u00e1fica del mono aullador rojo (Alouatta seniculus) y la fiebre amarilla en Colombia",
+    "authors": [
+        {
+            "first": "Juan",
+            "middle": [],
+            "last": "Piedrahita-Cort\u00e9s",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Diego",
+            "middle": [],
+            "last": "Soler-Tovar",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Contribuci\u00f3n de los autores: Juan Piedrahita-Cort\u00e9s: revisi\u00f3n de literatura y escritura del manuscrito Diego Soler-Tovar: dise\u00f1o de mapas en Diva-Gis y modelos de nicho ecol\u00f3gico en Maxent, dise\u00f1o y contribuci\u00f3n a la estructuraci\u00f3n del manuscrito Todos los autores contribuyeron a la concepci\u00f3n de la idea de investigaci\u00f3n, a la interpretaci\u00f3n de los resultados y la redacci\u00f3n del manuscrito.",
+    "pdf_parse": {
+        "paper_id": "Piedrahita-Corte\u0301sandSoler-Tovar2016-Geographicaldistributionoftheredhowlermonkey(Alouattaseniculus)andyellowfeverinColombia",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Contribuci\u00f3n de los autores: Juan Piedrahita-Cort\u00e9s: revisi\u00f3n de literatura y escritura del manuscrito Diego Soler-Tovar: dise\u00f1o de mapas en Diva-Gis y modelos de nicho ecol\u00f3gico en Maxent, dise\u00f1o y contribuci\u00f3n a la estructuraci\u00f3n del manuscrito Todos los autores contribuyeron a la concepci\u00f3n de la idea de investigaci\u00f3n, a la interpretaci\u00f3n de los resultados y la redacci\u00f3n del manuscrito.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "En el marco de las pol\u00edticas frente a la enfermedad, en el pa\u00eds se han expedido los decretos 1693 de 1979, 2257 de 1986, 786 de 1990, y 2323 y 3518 de 2006, adem\u00e1s de la Resoluci\u00f3n 412 de 2000 y la adopci\u00f3n de lo dispuesto en el Reglamento Sanitario Internacional de 2005; en dichos decretos se establecen las obligaciones y las competencias frente a la enfermedad, pero en ninguno de estos instrumentos legales se reglamentan las medidas relacionadas con la presencia de los primates no humanos. Se sabe, adem\u00e1s, que el tr\u00e1fico de fauna y la interacci\u00f3n con los reservorios pueden representar un riesgo para los humanos. Por otro lado, la fiebre amarilla es una enfermedad de aparici\u00f3n c\u00edclica que suele presentarse cada cinco o siete a\u00f1os y se sabe que hay circulaci\u00f3n activa del virus selv\u00e1tico, caracter\u00edstica que la hace m\u00e1s impredecible (9) (10) (11) .",
+                "cite_spans": [
+                    {
+                        "start": 843,
+                        "end": 846,
+                        "text": "(9)",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 847,
+                        "end": 851,
+                        "text": "(10)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 852,
+                        "end": 856,
+                        "text": "(11)",
+                        "ref_id": "BIBREF10"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "El objetivo del presente art\u00edculo fue describir la presencia simult\u00e1nea de A. seniculus, establecida seg\u00fan la informaci\u00f3n disponible en la Global Biodiversity Information Facility (GBIF) y en el Sistema de Informaci\u00f3n sobre Biodiversidad de Colombia (SiB Colombia), y de antecedentes reportados de fiebre amarilla en Colombia.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Colombia es un pa\u00eds con una notable biodiversidad cuyo gran n\u00famero de especies de fauna y flora se atribuye a su geograf\u00eda ecuatorial y a su compleja topograf\u00eda. El pa\u00eds es el cuarto m\u00e1s diverso del mundo en mam\u00edferos registrados, con cerca de 471 especies nativas confirmadas. Es uno de los pa\u00edses m\u00e1s diversos del mundo en especies de primates junto con Brasil, Zaire, Camer\u00fan, Indonesia, Madagascar y Per\u00fa, pues cuenta con 31 especies y m\u00faltiples subespecies (1) .",
+                "cite_spans": [
+                    {
+                        "start": 462,
+                        "end": 465,
+                        "text": "(1)",
+                        "ref_id": "BIBREF0"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "En este estudio la atenci\u00f3n se centr\u00f3 en la especie Alouatta seniculus, por ser la de mayor distribuci\u00f3n en el pa\u00eds, as\u00ed como por su papel de hu\u00e9sped o reservorio del virus de la fiebre amarilla (1-3) (figura 1). La fiebre amarilla es una enfermedad viral aguda, producida por un arbovirus del g\u00e9nero Flavivirus, familia Flaviviridae, que adem\u00e1s es zoon\u00f3tica, end\u00e9mica y con el riesgo de reemerger en seres humanos, pese a que existe vacuna, por lo cual se la considera de inter\u00e9s en salud p\u00fablica (2, 4, 5) .",
+                "cite_spans": [
+                    {
+                        "start": 498,
+                        "end": 501,
+                        "text": "(2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 502,
+                        "end": 504,
+                        "text": "4,",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 505,
+                        "end": 507,
+                        "text": "5)",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Entre las condiciones que influyen en su aparici\u00f3n se destacan la amplia distribuci\u00f3n geogr\u00e1fica de los vectores (Aedes aegypti, Aedes albopictus, Haemogogus janthinomys y Sabethes sp.), la deforestaci\u00f3n, el crecimiento demogr\u00e1fico, la cobertura de la vacunaci\u00f3n, los perfiles ocupacionales y la variabilidad clim\u00e1tica, los cuales afectan la distribuci\u00f3n del agente, del hu\u00e9sped y del vector (figura 2). A estos factores se suman, en Colombia, el desplazamiento forzado, la explotaci\u00f3n de zonas selv\u00e1ticas v\u00edrgenes, la violencia y el narcotr\u00e1fico, factores que complican la situaci\u00f3n (4, 6, 7) . La fiebre amarilla se combate con la vacunaci\u00f3n y con adecuadas medidas de vigilancia (8) . ",
+                "cite_spans": [
+                    {
+                        "start": 584,
+                        "end": 587,
+                        "text": "(4,",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 588,
+                        "end": 590,
+                        "text": "6,",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 591,
+                        "end": 593,
+                        "text": "7)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 682,
+                        "end": 685,
+                        "text": "(8)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Se hizo un estudio de car\u00e1cter descriptivo. Los antecedentes de la presencia de fiebre amarilla en Colombia se obtuvieron de los informes y boletines del Instituto Nacional de Salud y de otras publicaciones, primordialmente del informe de fiebre amarilla en el cuarto periodo epidemiol\u00f3gico de 2015, y del art\u00edculo \"Tendencias de la mortalidad por fiebre amarilla, Colombia, 1998-2009\", publicado por Segura, et al., en el 2013 (12) .",
+                "cite_spans": [
+                    {
+                        "start": 428,
+                        "end": 432,
+                        "text": "(12)",
+                        "ref_id": "BIBREF11"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materiales y m\u00e9todos",
+                "sec_num": null
+            },
+            {
+                "text": "La presencia de A. seniculus se determin\u00f3 a partir de los datos de georreferenciaci\u00f3n disponibles en la Global Biodiversity Information Facility (GBIFhttp://www.gbif.org) y en el Sistema de Informaci\u00f3n sobre Biodiversidad de Colombia (SiB Colombia -http://www.sibcolombia.net/web/sib/home); con esta informaci\u00f3n, se elabor\u00f3 el mapa de los sitios donde se encuentra la especie en Colombia usando el programa Diva-Gis (http://www.diva-gis.org), el cual es de libre acceso, no comercial, de f\u00e1cil manejo para el mapeo y an\u00e1lisis de la informaci\u00f3n espacial, y de mucha utilidad en el estudio de la distribuci\u00f3n de organismos para explicar patrones geogr\u00e1ficos y ecol\u00f3gicos. Se elabor\u00f3 el modelo de nicho ecol\u00f3gico bajo las condiciones actuales con el programa de modelado de m\u00e1xima entrop\u00eda Maxent (http://www.cs.princeton.edu/~schapire/ maxent/), utilizando 19 capas bioclim\u00e1ticas en una resoluci\u00f3n de 2,5 arc-minutos (www.worldclim.org).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materiales y m\u00e9todos",
+                "sec_num": null
+            },
+            {
+                "text": "Para la b\u00fasqueda de la literatura cient\u00edfica, se emplearon los siguientes t\u00e9rminos de los Descriptores en Ciencias de la Salud (DeCS):",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materiales y m\u00e9todos",
+                "sec_num": null
+            },
+            {
+                "text": "(\"Yellow Fever\" OR \"Fiebre Amarilla\") AND (\"Primates\" OR \"Alouatta\") AND (\"Colombia\" OR \"America\"). Las bases de datos y los sistemas de \u00edndices y res\u00famenes (SIRes) utilizados fueron: Bireme, Doaj, Lilacs, Pubmed, Redalyc, Scielo, Science Direct y Scopus.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materiales y m\u00e9todos",
+                "sec_num": null
+            },
+            {
+                "text": "A continuaci\u00f3n se presentan los mapas de la distribuci\u00f3n de A. seniculus en Colombia seg\u00fan la GBIF y el SiB Colombia (figura 3), en los cuales se observa que los departamentos con mayor n\u00famero de registros para la especie son Antioquia, Meta y Casanare. Por otro lado, se presenta el modelo de nicho ecol\u00f3gico bajo las condiciones actuales (figura 4), en el cual se plantea un \u00edndice de probabilidad de 0 a 1 para la presencia de la especie en estudio; en el modelo se destacan Antioquia, Bol\u00edvar, La Guajira, Magdalena, Meta, Santander, Norte de Santander y Vichada como los departamentos con zonas geogr\u00e1ficas cuyo \u00edndice de probabilidad para la presencia de A. seniculus es cercano a 0,9 (90 %), y Atl\u00e1ntico, Boyac\u00e1, Casanare, Cesar, C\u00f3rdoba, Sucre y Risaralda, como aquellos con zonas geogr\u00e1ficas con un \u00edndice de probabilidad cercano a 0,7 (70 %), el cual se basa en los 19 factores bioclim\u00e1ticos determinantes de la presencia del mono aullador rojo; como se ve, la mayor favorabilidad para la presencia de la especie se da en la regi\u00f3n andina.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Resultados",
+                "sec_num": null
+            },
+            {
+                "text": "En el mapa de los casos confirmados de fiebre amarilla a nivel municipal (figura 5) reportados en el informe del Instituto Nacional de Salud para ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Resultados",
+                "sec_num": null
+            },
+            {
+                "text": "Este es un an\u00e1lisis b\u00e1sico que no permiti\u00f3 establecer de manera concluyente la existencia de primates no humanos en las \u00e1reas con antecedentes de casos de fiebre amarilla, pero, con base en la evidencia cient\u00edfica disponible en torno al papel que estos desempe\u00f1an como reservorios del virus y los antecedentes de epizootias en investigaciones de casos de fiebre amarilla, es probable que dichas variables tengan una correlaci\u00f3n significativa. La participaci\u00f3n del mono aullador rojo en el ciclo de transmisi\u00f3n del agente de la fiebre amarilla selv\u00e1tica no debe generar rechazo de los primates no humanos en el territorio nacional, por el contrario, ello debe fomentar su estudio y la adopci\u00f3n de medidas de protecci\u00f3n para aprovecharlos como centinelas de la enfermedad en Colombia (2, 4, 5) .",
+                "cite_spans": [
+                    {
+                        "start": 782,
+                        "end": 785,
+                        "text": "(2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 786,
+                        "end": 788,
+                        "text": "4,",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 789,
+                        "end": 791,
+                        "text": "5)",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "La plataforma GBIF ha sido desarrollada por una organizaci\u00f3n intergubernamental que integra 53 pa\u00edses y 43 organizaciones internacionales. Funciona como una red de nodos nacionales de acceso libre a los datos de biodiversidad de todo el mundo para apoyar la investigaci\u00f3n cient\u00edfica, fomentar la conservaci\u00f3n biol\u00f3gica y favorecer el desarrollo sostenible; el SiB Colombia es una red inform\u00e1tica de acceso libre que facilita herramientas para la integraci\u00f3n, publicaci\u00f3n y consulta de la informaci\u00f3n sobre biodiversidad. Sin embargo, el registro de A. seniculus est\u00e1 sesgado por el n\u00famero de registros para la especie en Colombia. Es necesario anotar que el hecho de que no haya registros de su presencia puede estar relacionado con la cantidad de investigaciones y, en consecuencia, el n\u00famero de localidades registradas en una y otra plataforma.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "Este sistema es \u00fatil porque no existe un conocimiento completo sobre la tendencia, la distribuci\u00f3n o los antecedentes de la fiebre amarilla en los reservorios y puede proveer una oportunidad para incentivar las investigaciones en salud en asociaci\u00f3n con redes y organizaciones de biodiversidad en el mundo. Para el caso de Colombia, no existe un estudio consolidado sobre antecedentes de la fiebre amarilla en los reservorios, pero s\u00ed existen anotaciones sobre epizootias en algunos documentos independientes (cuadro 2). Otros autores, como Defler, han llevado a cabo estudios sobre la distribuci\u00f3n de diversos primates en Colombia, los cuales son muy \u00fatiles desde el punto de vista biol\u00f3gico porque detallan el tipo de ambientes y de climas de algunas de las regiones En 69,5 % de los departamentos con antecedentes de fiebre amarilla existe el mono aullador rojo, seg\u00fan los registros de la GBIF y el SiB Colombia, y en 30,5 % no hab\u00eda registro de su presencia. Por otro lado, en siete departamentos hab\u00eda A. seniculus, pero no exist\u00edan antecedentes de fiebre amarilla.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "Se evidenci\u00f3 que en 50 % de los 32 departamentos de Colombia hab\u00eda simult\u00e1neamente antecedentes de fiebre amarilla y monos aulladores rojos. donde se encuentran las especies; no obstante, el an\u00e1lisis geogr\u00e1fico y de l\u00edmites pol\u00edticos en el pa\u00eds puede resultar m\u00e1s dispendioso (1). De cualquier modo, se sugiere tener en cuenta el trabajo de este y otros autores nacionales para futuras investigaciones.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "Es fundamental establecer la coincidencia entre la presencia de primates no humanos y los antecedentes de fiebre amarilla, as\u00ed como el modelo de nicho ecol\u00f3gico bajo las condiciones actuales, debido al papel que desempe\u00f1an dichos primates como reservorios naturales o hu\u00e9spedes de la enfermedad. Sin embargo, es dif\u00edcil elaborar una lista exhaustiva de los primates no humanos que pueden ser potenciales reservorios del virus de la fiebre amarilla, aunque se pueden puntualizar experiencias y aportes de entidades como la Organizaci\u00f3n Panamericana de Salud (OPS), los organismos del sector ambiental de pa\u00edses latinoamericanos, as\u00ed como la informaci\u00f3n independiente, para determinar las especies de mayor distribuci\u00f3n e importancia epidemiol\u00f3gica durante el ciclo de aparici\u00f3n de la fiebre amarilla selv\u00e1tica. Entre tales especies se destacan las del g\u00e9nero Alouatta spp., que resulta involucrado en la mayor\u00eda de los casos de muerte reportados en primates no humanos en zonas con circulaci\u00f3n comprobada del virus de la fiebre amarilla. Los dos aspectos clave para resaltar en este g\u00e9nero son su amplia distribuci\u00f3n Cuadro 1. Casos y muertes por fiebre amarilla (Segura, et al., 2013 en selvas de Centroam\u00e9rica y Suram\u00e9rica, y su gran sensibilidad a peque\u00f1as concentraciones de inoculaci\u00f3n del virus (3, 4, 13, 14) .",
+                "cite_spans": [
+                    {
+                        "start": 1162,
+                        "end": 1183,
+                        "text": "(Segura, et al., 2013",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1300,
+                        "end": 1303,
+                        "text": "(3,",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 1304,
+                        "end": 1306,
+                        "text": "4,",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 1307,
+                        "end": 1310,
+                        "text": "13,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1311,
+                        "end": 1314,
+                        "text": "14)",
+                        "ref_id": "BIBREF14"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "Otro aspecto importante en la definici\u00f3n de la importancia epidemiol\u00f3gica de los reservorios de la enfermedad, es reconocer que su presencia en las zonas selv\u00e1ticas de Colombia est\u00e1 condicionada por algunos factores ambientales que pueden modificar su distribuci\u00f3n. Para referirse a la zoogeograf\u00eda de las distintas especies y subespecies de primates no humanos en Colombia, es preciso describir el efecto de las diferencias altitudinales que se presentan en el pa\u00eds. Se sabe que el n\u00famero de especies disminuye a medida que aumenta la altura sobre el nivel del mar, lo cual se debe al cambio de temperatura, cuyo gradiente t\u00e9rmico con relaci\u00f3n a la altitud es de 0,55 \u00b0C menos por cada 100 metros adicionales de altura.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "Esas diferencias t\u00e9rmicas ejercen una gran presi\u00f3n en la supervivencia de los primates no humanos y se pueden explicar por dos aspectos fundamentales:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "1) el efecto altitudinal implica consecuencias primarias sobre la diversidad de vegetales boscosos, que afecta, a su vez, la disponibilidad de alimento para los primates que all\u00ed habitan: a mayor altitud, menor disponibilidad de alimento;",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "2) el efecto primario de la altura y la temperatura sobre la tolerancia individual de la especie en cuesti\u00f3n implica que los peque\u00f1os primates no humanos que habitan Colombia tienen una tolerancia t\u00e9rmica restringida, es decir, pertenecen a especies estenotermas propias de rangos estrechos de temperatura que oscilan entre los 23 y los 28 \u00b0C, muy sensibles a los cambios t\u00e9rmicos, por lo cual a mayor altitud y menor temperatura, menor tambi\u00e9n la tolerancia de los primates. Adem\u00e1s, los aulladores requieren de zonas boscosas de estructura diversa para su desplazamiento y su alimentaci\u00f3n (1, 15) .",
+                "cite_spans": [
+                    {
+                        "start": 590,
+                        "end": 593,
+                        "text": "(1,",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 594,
+                        "end": 597,
+                        "text": "15)",
+                        "ref_id": "BIBREF15"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "Dado que la vigilancia de la fiebre amarilla en Colombia no se hace en los reservorios, los mapas y la comprensi\u00f3n de la enfermedad se construyen a partir de los casos humanos. Se entiende que los sectores de salud y del ambiente son los responsables de generar ese conocimiento en el pa\u00eds, pero hoy no hay un sistema de vigilancia destinado a la detecci\u00f3n y descripci\u00f3n del perfil epidemiol\u00f3gico de la enfermedad que recurra a sus reservorios naturales como centinelas, lo que permitir\u00eda fortalecer las acciones en salud humana y animal, as\u00ed como priorizar zonas geogr\u00e1ficas para su investigaci\u00f3n y prevenci\u00f3n (5, 13, 16) , adem\u00e1s de consolidar los antecedentes de la enfermedad en el reservorio natural.",
+                "cite_spans": [
+                    {
+                        "start": 611,
+                        "end": 614,
+                        "text": "(5,",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 615,
+                        "end": 618,
+                        "text": "13,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 619,
+                        "end": 622,
+                        "text": "16)",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "Considerando que algunos primates no humanos como A. seniculus son m\u00e1s propensos a la enfermedad, e hist\u00f3ricamente se han relacionado m\u00e1s frecuentemente con la aparici\u00f3n de la fiebre amarilla, que su distribuci\u00f3n depende de aspectos ambientales y que desempe\u00f1an un papel valioso como indicadores biol\u00f3gicos o centinelas de la circulaci\u00f3n viral en zonas selv\u00e1ticas, el determinar la distribuci\u00f3n geogr\u00e1fica de la enfermedad y de estos primates constituye un primer paso para establecer lineamentos de vigilancia epidemiol\u00f3gica, tal como lo se\u00f1alan las experiencias de Argentina o Brasil, en donde se han elaborado protocolos para la vigilancia epidemiol\u00f3gica de epizootias de fiebre amarilla (16, 17) .",
+                "cite_spans": [
+                    {
+                        "start": 691,
+                        "end": 695,
+                        "text": "(16,",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 696,
+                        "end": 699,
+                        "text": "17)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "La fiebre amarilla es una enfermedad zoon\u00f3tica de transmisi\u00f3n vectorial. Los principales vectores que se encargan de su transmisi\u00f3n son A. aegypti y A. albopictus a nivel dom\u00e9stico, y H. janthynomis y Sabethes sp. a nivel selv\u00e1tico. En Latinoam\u00e9rica y en Colombia se lleva a cabo, asimismo, la vigilancia entomol\u00f3gica como apoyo a las decisiones en salud; en los protocolos de vigilancia de fiebre amarilla de pa\u00edses como Brasil, tambi\u00e9n se contempla la vigilancia en los vectores, para lo cual es importante generar el conocimiento sobre la presencia simult\u00e1nea de la enfermedad, el reservorio y los vectores, con el fin de tener una visi\u00f3n m\u00e1s completa respaldada por el trabajo interdisciplinario de las \u00e1reas de medicina humana, m\u00e9dica veterinaria y otras ciencias biol\u00f3gicas para entender la ecolog\u00eda de las enfermedades transmitidas por vectores (18) (19) (20) .",
+                "cite_spans": [
+                    {
+                        "start": 852,
+                        "end": 856,
+                        "text": "(18)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 857,
+                        "end": 861,
+                        "text": "(19)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 862,
+                        "end": 866,
+                        "text": "(20)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "Algunos autores han planteado que el prop\u00f3sito de los sistemas de vigilancia en salud animal para el desarrollo de pol\u00edticas en salud p\u00fablica debe orientarse a formular hip\u00f3tesis causales y determinar los factores de riesgo y los protectores asociados a la aparici\u00f3n de la enfermedad, pero tambi\u00e9n, a estudiar las caracter\u00edsticas ambientales y los factores determinantes propios de la poblaci\u00f3n de inter\u00e9s para llegar a conclusiones contextualizadas (20) . Sin embargo, no hay estudios detallados sobre la presencia de los primates no humanos como un factor de riesgo para la fiebre amarilla en Colombia, lo cual va m\u00e1s all\u00e1 de la descripci\u00f3n de epizootias en el curso de brotes de la enfermedad en humanos. Por otro lado, son m\u00e1s comunes los estudios que se basan en los an\u00e1lisis de riesgo y en la priorizaci\u00f3n de las poblaciones humanas que deben someterse a la vacunaci\u00f3n que en el uso de los primates no humanos como centinelas de la circulaci\u00f3n viral en el \u00e1mbito selv\u00e1tico (5, 15, 17) .",
+                "cite_spans": [
+                    {
+                        "start": 450,
+                        "end": 454,
+                        "text": "(20)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 979,
+                        "end": 982,
+                        "text": "(5,",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 983,
+                        "end": 986,
+                        "text": "15,",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 987,
+                        "end": 990,
+                        "text": "17)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "En otro estudio para determinar los factores de riesgo eco-entomol\u00f3gicos de la emergencia de arbovirus en zonas h\u00famedas, se encontraron relaciones significativas en las frecuencias de cohabitaci\u00f3n de vectores y reservorios. De cualquier modo, el estudio se centr\u00f3 en el virus del Nilo occidental y la presencia de aves con posibilidad de adquirirlo, aunque se ejemplific\u00f3 la forma en que la coincidencia de hu\u00e9spedes sensibles y vectores competentes puede representar un factor de riesgo para la emergencia o reemergencia de arbovirus en condiciones ambientales adecuadas (21) .",
+                "cite_spans": [
+                    {
+                        "start": 572,
+                        "end": 576,
+                        "text": "(21)",
+                        "ref_id": "BIBREF21"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "En el 2007 se emitieron las gu\u00edas de promoci\u00f3n de la salud y prevenci\u00f3n de enfermedades en salud p\u00fablica por parte del entonces Ministerio de la Protecci\u00f3n Social de Colombia (22) , en las cuales se determin\u00f3 que los factores de riesgo propios de la enfermedad en humanos incluyen los siguientes: el ingreso a regiones enzo\u00f3ticas sin vacunaci\u00f3n; el tipo de ocupaci\u00f3n, por ejemplo, en labores de tala de \u00e1rboles (lo cual produce la reducci\u00f3n del n\u00famero de mosquitos); el final de la \u00e9poca de lluvias cuando la densidad de los vectores es alta y la gente prepara las tierras para la siembra o la ganader\u00eda, y ser hombre entre los 15 y los 40 a\u00f1os de edad (los hombres se ven afectados cuatro veces m\u00e1s que las mujeres y suelen ocuparse m\u00e1s en el trabajo rural). Otros factores de riesgo de urbanizaci\u00f3n de la fiebre amarilla se relacionan con la expansi\u00f3n geogr\u00e1fica y el alto grado de infestaci\u00f3n de las zonas urbanas por A. aegypti. El desplazamiento de la poblaci\u00f3n por causa del conflicto armado que afecta el pa\u00eds tambi\u00e9n se estableci\u00f3, entonces, como un factor de riesgo, pues favorece el asentamiento de poblaciones no vacunadas en \u00e1reas selv\u00e1ticas.",
+                "cite_spans": [
+                    {
+                        "start": 175,
+                        "end": 179,
+                        "text": "(22)",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "En el presente estudio se concluy\u00f3 que, seg\u00fan los registros de la GBIF, en 69,5 % de los 23 departamentos con antecedentes de fiebre amarilla hab\u00eda A. seniculus, es decir, que en 50 % de los departamentos de Colombia hab\u00eda antecedentes de fiebre amarilla y registros de esta especie.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "Los datos obtenidos de la GBIF son importantes porque no existe un conocimiento cabal sobre la distribuci\u00f3n de los primates no humanos en Colombia, especialmente A. seniculus, ni de su relaci\u00f3n con los antecedentes reportados de fiebre amarilla en el pa\u00eds. Aunque la informaci\u00f3n que se presenta no es definitiva, pues depend\u00eda del n\u00famero de investigaciones y registros de la especie en Colombia en la plataforma consultada, el empleo de estas bases de datos es valioso para el estudio de temas de inter\u00e9s en salud p\u00fablica.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "Se sabe el papel que los primates no humanos desempe\u00f1an en la aparici\u00f3n de la fiebre amarilla, por lo que su empleo como centinelas de la circulaci\u00f3n viral puede aportar enormemente a las estrategias de vigilancia de la enfermedad. Su relevancia como indicadores biol\u00f3gicos debe representar un incentivo para su estudio y protecci\u00f3n, y para ampliar el conocimiento sobre la presencia simult\u00e1nea de la enfermedad y el reservorio en el contexto de la formulaci\u00f3n de nuevas investigaciones en salud y ambiente.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "Debe incentivarse el trabajo interdisciplinario en medicina, medicina veterinaria y otras ciencias biol\u00f3gicas desde la perspectiva de la epidemiolog\u00eda y la salud p\u00fablica, para entender mejor la ecolog\u00eda de las enfermedades transmitidas por vectores, as\u00ed como para articular los sistemas de vigilancia en salud humana y animal, en especial de especies silvestres, a cargo de las autoridades de salud y ambiente.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discusi\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "A Pedro Enrique Navas-Su\u00e1rez, del Departamento de Patolog\u00eda Comparativa y Experimental de la Universidad de S\u00e3o Paulo, Brasil; a Mauricio Javier Vera, del Ministerio de Salud y Protecci\u00f3n Social de Colombia; a David Mauricio Su\u00e1rez, dise\u00f1ador gr\u00e1fico de la Universidad Jorge Tadeo Lozano, Bogot\u00e1, y a Hern\u00e1n David Maestre Piedrahita, dise\u00f1ador industrial de la Pontificia Universidad Javeriana, Bogot\u00e1.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Agradecimientos",
+                "sec_num": null
+            },
+            {
+                "text": "Los autores declaramos no tener conflicto de intereses en la realizaci\u00f3n de este art\u00edculo.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conflicto de intereses",
+                "sec_num": null
+            },
+            {
+                "text": "El desarrollo del presente art\u00edculo no requiri\u00f3 de fuentes de financiaci\u00f3n.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Financiaci\u00f3n",
+                "sec_num": null
+            },
+            {
+                "text": "Biom\u00e9dica 2016;36(Supl.2):116-24 Piedrahita-Cort\u00e9s J, Soler-Tovar D",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Historia natural de los primates colombianos",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Defler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "324--358",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Defler TR. Historia natural de los primates colombianos. Segunda edici\u00f3n. Bogot\u00e1: Universidad Nacional de Colombia; 2010. p. 324-34.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": ") an emerging zoonotic disease",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Rifakis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Ben\u00edtez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "De La Paz-Pineda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Rodr\u00edguez-Morales",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Epizootics of yellow fever in Venezuela",
+                "volume": "1081",
+                "issue": "",
+                "pages": "57--60",
+                "other_ids": {
+                    "DOI": [
+                        "10.1196/annals.1373.005"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Rifakis PM, Ben\u00edtez JA, De la Paz-Pineda J, Rodr\u00edguez- Morales AJ. Epizootics of yellow fever in Venezuela (2004- 2005) an emerging zoonotic disease. Ann NY Acad Sci. 2006;1081:57-60. http://dx.doi.org/10.1196/annals.1373.005",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Yellow fever virus maintenance in Trinidad and its dispersal throughout the Americas",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Auguste",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Lemey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Pybus",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Suchard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Salas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Adesiyun",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "J Virol",
+                "volume": "84",
+                "issue": "",
+                "pages": "9967--77",
+                "other_ids": {
+                    "DOI": [
+                        "10.1128/JVI.00588-10"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Auguste AJ, Lemey P, Pybus OG, Suchard MA, Salas RA, Adesiyun AA, et al. Yellow fever virus maintenance in Trinidad and its dispersal throughout the Americas. J Virol. 2010;84:9967-77. http://dx.doi.org/10.1128/JVI.00588-10",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Circulation of antibodies against yellow fever virus in a simian population in the area of Porto Primavera Hydroelectric Plant",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Lima",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Romano-Lieber",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Duarte",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Brazil. Rev Inst Med Top S\u00e3o Paulo",
+                "volume": "52",
+                "issue": "",
+                "pages": "11--16",
+                "other_ids": {
+                    "DOI": [
+                        "10.1590/S0036-46652010000100002"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Lima MA, Romano-Lieber NS, Duarte AM. Circulation of antibodies against yellow fever virus in a simian population in the area of Porto Primavera Hydroelectric Plant, S\u00e3o Paulo, Brazil. Rev Inst Med Top S\u00e3o Paulo. 2010;52:11-5. http://dx.doi.org/10.1590/S0036-46652010000100002",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Surveillance for yellow fever virus in non-human primates in Southern Brazil",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Almeida",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Cardoso",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Da",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Dos",
+                        "middle": [],
+                        "last": "Santos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Da Fonseca",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Cruz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Faraco",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "PLoS Pathog",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pntd.0002741"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Almeida MA, Cardoso J da C, Dos Santos E, da Fonseca DF, Cruz LL, Faraco FJ, et al. Surveillance for yellow fever virus in non-human primates in Southern Brazil, 2001-2011: A tool for prioritizing human populations for vaccination. PLoS Pathog. 2014;8:e2741. http://dx.doi.org/10.1371/ journal.pntd.0002741",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Detection of arboviruses of public health interest in free-living New World primates (Sapajus spp.; Alouatta caraya) captured in Mato Grosso do Sul",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Batista",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Andreotti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Almeida",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Marques",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Rodrigues",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Chiang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Brazil. Rev Soc Bras Med Trop",
+                "volume": "46",
+                "issue": "",
+                "pages": "684--90",
+                "other_ids": {
+                    "DOI": [
+                        "10.1590/0037-8682-0181-2013"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Batista PM, Andreotti R, Almeida PS, Marques AC, Rodrigues SG, Chiang JO, et al. Detection of arboviruses of public health interest in free-living New World primates (Sapajus spp.; Alouatta caraya) captured in Mato Grosso do Sul, Brazil. Rev Soc Bras Med Trop. 2013;46:684-90. http:// dx.doi.org/10.1590/0037-8682-0181-2013",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Dynamic behavior of sylvatic yellow fever in Brazil",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "C\u00e2mara",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Gomes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Carvalho",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Castello",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1954,
+                "venue": "Rev Soc Bras Med Trop",
+                "volume": "44",
+                "issue": "",
+                "pages": "297--306",
+                "other_ids": {
+                    "DOI": [
+                        "10.1590/S0037-86822011005000024"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "C\u00e2mara FP, Gomes AL, Carvalho LM, Castello LG. Dynamic behavior of sylvatic yellow fever in Brazil (1954- 2008). Rev Soc Bras Med Trop. 2011;44:297-9. http://dx.doi. org/10.1590/S0037-86822011005000024",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Detecci\u00f3n por reacci\u00f3n en cadena de la polimerasa de transcriptasa inversa del virus de la fiebre amarilla en monos silvestres: una herramienta sensible para la vigilancia epidemiol\u00f3gica",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "M\u00e9ndez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Parra",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Neira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Rey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Biom\u00e9dica",
+                "volume": "7",
+                "issue": "",
+                "pages": "461--468",
+                "other_ids": {
+                    "DOI": [
+                        "10.7705/biomedica.v27i3.209"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "M\u00e9ndez JA, Parra E, Neira M, Rey GJ. Detecci\u00f3n por reacci\u00f3n en cadena de la polimerasa de transcriptasa inversa del virus de la fiebre amarilla en monos silvestres: una herramienta sensible para la vigilancia epidemiol\u00f3gica. Biom\u00e9dica. 2007;7:461-7 http://dx.doi.org/10.7705/biomedica. v27i3.209",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "La reemergencia de la fiebre amarilla en Colombia",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Velandia",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Revista MVZC\u00f3rdoba",
+                "volume": "9",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Velandia M. La reemergencia de la fiebre amarilla en Colombia, 2003. Revista MVZC\u00f3rdoba. 2004;9:459.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Yellow fever outbreaks in unvaccinated populations, Brazil",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Romano",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Costa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Ramos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Andrade",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Jayme",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "De",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Almeida",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "PLoS Negl Trop Dis",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pntd.0002740"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Romano AP, Costa ZG, Ramos DG, Andrade MA, Jayme V de S, Almeida MA, et al. Yellow fever outbreaks in unvaccinated populations, Brazil, 2008-2009. PLoS Negl Trop Dis. 2014;8:e2740. http://dx.doi.org/10.1371/journal. pntd.0002740",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Yellow fever in Brazil: Thoughts and hypotheses on the emergence in previously free areas",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Vasconcelos",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Rev Sa\u00fade P\u00fablica",
+                "volume": "44",
+                "issue": "",
+                "pages": "1144--1153",
+                "other_ids": {
+                    "DOI": [
+                        "10.1590/S0034-89102010005000046"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Vasconcelos PF. Yellow fever in Brazil: Thoughts and hypotheses on the emergence in previously free areas. Rev Sa\u00fade P\u00fablica. 2010;44:1144-9. http://dx.doi.org/10.1590/ S0034-89102010005000046",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Tendencias de la mortalidad por fiebre amarilla, Colombia",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Segura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Cardona",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Osley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Segura AM, Cardona D, Osley M. Tendencias de la mortalidad por fiebre amarilla, Colombia, 1998-2009.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "First report of yellow fever virus in nonhuman primates in the State of Paran\u00e1",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Tranquilin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Lehmkuhl",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Maron",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Silva",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Ziliotto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Seki",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Brazil. Rev Soc Bras Med Trop",
+                "volume": "46",
+                "issue": "",
+                "pages": "522--526",
+                "other_ids": {
+                    "DOI": [
+                        "10.1590/0037-8682-0106-2013"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "13. Tranquilin MV, Lehmkuhl RC, Maron A, Silva LR, Ziliotto L, Seki MC, et al. First report of yellow fever virus in non- human primates in the State of Paran\u00e1, Brazil. Rev Soc Bras Med Trop. 2013;46:522-4. http://dx.doi.org/10.1590/0037- 8682-0106-2013",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Evolutionary and ecological factors underlying the tempo and distribution of yellow fever virus activity",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Carrington",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Auguste",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Infect Genet Evol",
+                "volume": "13",
+                "issue": "",
+                "pages": "198--210",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.meegid.2012.08.015"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Carrington CV, Auguste AJ. Evolutionary and ecological factors underlying the tempo and distribution of yellow fever virus activity. Infect Genet Evol. 2013;13:198-210. http://dx.doi.org/10.1016/j.meegid.2012.08.015",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Yellow fever epizootics in nonhuman primates",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Moreno",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Spinola",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Tengan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Brasil",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Siciliano",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Coimbra",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Rev Inst Med Trop S\u00e3o Paulo",
+                "volume": "55",
+                "issue": "",
+                "pages": "45--50",
+                "other_ids": {
+                    "DOI": [
+                        "10.1590/S0036-46652013000100008"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Moreno ES, Spinola R, Tengan CH, Brasil RA, Siciliano MM, Coimbra TL, et al. Yellow fever epizootics in non- human primates, S\u00e3o Paulo state, Brazil, 2008-2009. Rev Inst Med Trop S\u00e3o Paulo. 2013;55:45-50. http://dx.doi. org/10.1590/S0036-46652013000100008",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Methodology for definition of yellow fever priority areas, based on environmental variables and multiple correspondence analyses",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Moreno",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Barata R De",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "PLoS Negl Trop Dis",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pntd.0001658"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Moreno ES, Barata R de C. Methodology for definition of yellow fever priority areas, based on environmental variables and multiple correspondence analyses. PLoS Negl Trop Dis. 2012;6:e1658. http://dx.doi.org/10.1371/ journal.pntd.0001658.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "The role of monkeys, mosquitoes, and humans in the occurrence of a yellow fever outbreak in a fragmented landscape in south Brazil: Protecting howler monkeys is a matter of public health",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Bicca-Marques",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Freitas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Trop Conserv Sci",
+                "volume": "3",
+                "issue": "",
+                "pages": "78--89",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bicca-Marques JC, Freitas DS. The role of monkeys, mosquitoes, and humans in the occurrence of a yellow fever outbreak in a fragmented landscape in south Brazil: Protecting howler monkeys is a matter of public health. Trop Conserv Sci. 2010;3:78-89.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Out of Africa: A molecular perspective on the introduction of yellow fever virus into the Americas",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Bryant",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Holmes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Barret",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "PLoS Pathog",
+                "volume": "3",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.ppat.0030075"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Bryant JE, Holmes EC, Barret AD. Out of Africa: A molecular perspective on the introduction of yellow fever virus into the Americas. PLoS Pathog. 2010;3:e75. http:// dx.doi.org/10.1371/journal.ppat.0030075",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Yellow fever: A reemerging threat",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Gardner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Ryman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Clin Lab Med",
+                "volume": "30",
+                "issue": "",
+                "pages": "237--60",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.cll.2010.01.001"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Gardner CL, Ryman KD. Yellow fever: A reemerging threat. Clin Lab Med. 2010;30:237-60. http://dx.doi.org/10.1016/j. cll.2010.01.001",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Proposed terms and concepts for describing and evaluating animal-health surveillance systems",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hoinville",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Alban",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Drewe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Gibbens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Gustafson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "H\u00e4sler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Prev Vet Med",
+                "volume": "112",
+                "issue": "",
+                "pages": "1--12",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.prevetmed.2013.06.006"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hoinville LJ, Alban L, Drewe JA, Gibbens JC, Gustafson J, H\u00e4sler B, et al. Proposed terms and concepts for describing and evaluating animal-health surveillance systems. Prev Vet Med. 2013;112:1-12. http://dx.doi.org/10.1016/j.prevetmed. 2013.06.006",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Factores de riesgo eco-entomol\u00f3gicos en la emergencia de arbovirosis en las zonas h\u00famedas de la comunidad valenciana",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ba\u00f1ares",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Mar\u00ed",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Chord\u00e1-Olmos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Jim\u00e9nez-Peydro",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Bol Mal Salud Amb",
+                "volume": "52",
+                "issue": "",
+                "pages": "257--67",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ba\u00f1ares AB, Mar\u00ed RB, Chord\u00e1-Olmos FA, Jim\u00e9nez-Peydro R. Factores de riesgo eco-entomol\u00f3gicos en la emergencia de arbovirosis en las zonas h\u00famedas de la comunidad valenciana. Bol Mal Salud Amb. 2012;52:257-67.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "En: Gu\u00edas de Promoci\u00f3n de la Salud y Prevenci\u00f3n de Enfermedades en la Salud P\u00fablica. Bogot\u00e1: Colecci\u00f3n Programa de Apoyo a la Reforma de Salud (PARS)",
+                "authors": [],
+                "year": 2007,
+                "venue": "MPS",
+                "volume": "",
+                "issue": "",
+                "pages": "227--272",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ministerio de la Protecci\u00f3n Social. Gu\u00eda 22. Gu\u00eda de fiebre amarilla. En: Gu\u00edas de Promoci\u00f3n de la Salud y Prevenci\u00f3n de Enfermedades en la Salud P\u00fablica. Bogot\u00e1: Colecci\u00f3n Programa de Apoyo a la Reforma de Salud (PARS), Ministerio de la Protecci\u00f3n Social (MPS); 2007. p.227-45.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "num": null,
+                "type_str": "figure",
+                "uris": null,
+                "text": "Mono aullador rojo (casta\u00f1o) (Alouatta seniculus)"
+            },
+            "FIGREF1": {
+                "num": null,
+                "type_str": "figure",
+                "uris": null,
+                "text": "Ciclos de transmisi\u00f3n de la fiebre amarilla. 1: Ciclo de transmisi\u00f3n selv\u00e1tico; 2: Ciclo de transmisi\u00f3n urbano Ilustraci\u00f3n de David Mauricio Su\u00e1rez"
+            },
+            "FIGREF2": {
+                "num": null,
+                "type_str": "figure",
+                "uris": null,
+                "text": "Localidades (puntos rojos) con presencia de Alouatta seniculus. Se destacan Antioquia, Meta y Casanare (modelado con el programa Diva-Gis) Fuente: SiB Colombia y GIBF.org (27 de febrero de 2015, GBIF Occurrence -http://doi.org/10.15468/dl.94tw36) el cuarto periodo epidemiol\u00f3gico de 2015, se observa que las regiones Caribe y de la Orinoquia fueron las m\u00e1s afectadas. Seg\u00fan Segura, et al., los departamentos con antecedentes de casos probables o confirmados de fiebre amarilla de 2006 a 2009, as\u00ed como de mortalidad entre 1998 y 2009, fueron 23, incluido el distrito de Bogot\u00e1, lo cual se correlacion\u00f3 con la presencia geogr\u00e1fica de A. seniculus seg\u00fan la GBIF y el SiB Colombia (cuadro 1) (12)."
+            },
+            "FIGREF3": {
+                "num": null,
+                "type_str": "figure",
+                "uris": null,
+                "text": "Municipios con casos confirmados de fiebre amarilla entre 2000 y 2009. Adaptado del informe de la enfermedad en el cuarto periodo epidemiol\u00f3gico, Instituto Nacional de Salud, 2015 (modelado con el programa DIVA-GIS)"
+            },
+            "FIGREF4": {
+                "num": null,
+                "type_str": "figure",
+                "uris": null,
+                "text": "Modelo de nicho ecol\u00f3gico bajo las condiciones actuales para Alouatta seniculus en Colombia. Se destacan Antioquia, Bol\u00edvar, La Guajira, Magdalena, Meta, Santander, Norte de Santander y Vichada (elaborado con el programa Maxent, 2015)"
+            },
+            "TABREF0": {
+                "num": null,
+                "content": "<table><tr><td>Meta</td><td colspan=\"2\">32</td><td>3</td><td>6</td><td/><td>8</td></tr><tr><td>Vichada</td><td/><td>9</td><td>1</td><td>2</td><td/><td>3</td></tr><tr><td>Bogot\u00e1</td><td/><td>6</td><td>0</td><td>1</td><td/><td>0</td></tr><tr><td>Atl\u00e1ntico</td><td/><td>6</td><td>0</td><td>0</td><td/><td>1</td></tr><tr><td>Caquet\u00e1</td><td/><td>5</td><td>1</td><td>5</td><td/><td>1</td></tr><tr><td>Casanare</td><td/><td>4</td><td>0</td><td>3</td><td/><td>5</td></tr><tr><td>Amazonas</td><td/><td>3</td><td>0</td><td>0</td><td/><td>0</td></tr><tr><td>Putumayo</td><td/><td>2</td><td>0</td><td>1</td><td/><td>0</td></tr><tr><td>Caldas</td><td/><td>2</td><td>0</td><td>1</td><td/><td>2</td></tr><tr><td>Sucre</td><td/><td>2</td><td>0</td><td>0</td><td/><td>3</td></tr><tr><td colspan=\"2\">Norte de Santander</td><td>2</td><td>0</td><td>24</td><td/><td>4</td></tr><tr><td>Huila</td><td/><td>1</td><td>0</td><td>0</td><td/><td>0</td></tr><tr><td>Guain\u00eda</td><td/><td>1</td><td>0</td><td>1</td><td/><td>0</td></tr><tr><td>Bol\u00edvar</td><td/><td>1</td><td>1</td><td>0</td><td/><td>1</td></tr><tr><td>Tolima</td><td/><td>1</td><td>0</td><td>0</td><td/><td>0</td></tr><tr><td>Boyac\u00e1</td><td/><td>1</td><td>0</td><td>1</td><td/><td>1</td></tr><tr><td>Santander</td><td/><td>1</td><td>0</td><td>1</td><td/><td>5</td></tr><tr><td>Guaviare</td><td/><td>1</td><td>0</td><td>2</td><td/><td>1</td></tr><tr><td>Risaralda</td><td/><td>1</td><td>0</td><td>0</td><td/><td>1</td></tr><tr><td>Antioquia</td><td/><td>1</td><td>0</td><td>0</td><td/><td>17</td></tr><tr><td>Magdalena</td><td/><td>1</td><td>0</td><td>0</td><td/><td>3</td></tr><tr><td>Cesar</td><td/><td>0</td><td>0</td><td>2</td><td/><td>2</td></tr><tr><td>Vaup\u00e9s</td><td/><td>0</td><td>0</td><td>1</td><td/><td>0</td></tr><tr><td>C\u00f3rdoba</td><td/><td>0</td><td>0</td><td>0</td><td/><td>2</td></tr><tr><td>Choc\u00f3</td><td/><td>0</td><td>0</td><td>0</td><td/><td>1</td></tr><tr><td>Valle</td><td/><td>0</td><td>0</td><td>0</td><td/><td>1</td></tr><tr><td>Quind\u00edo</td><td/><td>0</td><td>0</td><td>0</td><td/><td>1</td></tr><tr><td>Nari\u00f1o</td><td/><td>0</td><td>0</td><td>0</td><td/><td>1</td></tr><tr><td>Cauca</td><td/><td>0</td><td>0</td><td>0</td><td/><td>1</td></tr><tr><td>Arauca</td><td/><td>0</td><td>0</td><td>0</td><td/><td>1</td></tr><tr><td>La Guajira</td><td/><td>0</td><td>0</td><td>0</td><td/><td>0</td></tr><tr><td>Cundinamarca</td><td/><td>0</td><td>0</td><td>0</td><td/><td>0</td></tr><tr><td colspan=\"2\">San Andr\u00e9s y Providencia</td><td>0</td><td>0</td><td>0</td><td/><td>0</td></tr><tr><td>Cuadro 2. Alouatta</td><td>4/31</td><td colspan=\"2\">Seroneutralizaci\u00f3n</td><td/><td>Bosques de</td><td>Vidales, et al.</td></tr><tr><td>seniculus</td><td colspan=\"2\">Otros cuatro esqueletos</td><td/><td>1979</td><td>Mariangola y R\u00edo</td><td>Biom\u00e9dica</td></tr><tr><td/><td colspan=\"2\">observados en excursi\u00f3n</td><td/><td/><td>Seco, Cesar</td><td>1981;4:171-86</td></tr><tr><td>Alouatta</td><td>1/1</td><td>Sin datos</td><td/><td/><td>Corregimiento</td><td>Velandia, Revista</td></tr><tr><td>seniculus</td><td/><td/><td/><td>2003</td><td>de Minca,</td><td>MVZ C\u00f3rdoba.</td></tr><tr><td>rufiventris</td><td/><td/><td/><td/><td>Santa Marta</td><td>2004;9:459</td></tr><tr><td>Alouatta spp.</td><td>4/5</td><td colspan=\"2\">Inmunohistoqu\u00edmica</td><td>2003 y 2004</td><td colspan=\"2\">Cesar y Magdalena M\u00e9ndez, et</td></tr><tr><td/><td/><td colspan=\"2\">y reacci\u00f3n en cadena</td><td/><td/><td>al. Biom\u00e9dica</td></tr><tr><td/><td/><td colspan=\"2\">de la polimerasa</td><td/><td/><td>2007;27:461-7</td></tr><tr><td>Alouatta spp.</td><td>2/2</td><td colspan=\"2\">Aislamiento viral</td><td/><td>Parque Ecol\u00f3gico</td><td>OPS/OMS</td></tr><tr><td/><td>Otros diez muertos de</td><td/><td/><td>2003 y 2004</td><td>los Besotes,</td><td>EER Noticias</td></tr><tr><td/><td>tres manadas distintas</td><td/><td/><td/><td>Valledupar, Cesar</td><td>Semanales</td></tr><tr><td/><td/><td/><td/><td/><td/><td>Vol. 2, No. 1, 8</td></tr><tr><td/><td/><td/><td/><td/><td/><td>enero de 2004</td></tr><tr><td/><td/><td/><td/><td/><td>Parque Ecol\u00f3gico</td><td>INS. Bolet\u00edn</td></tr><tr><td>Alouatta</td><td>Sin datos</td><td colspan=\"2\">Inmunohistoqu\u00edmica</td><td>2004</td><td>los Besotes,</td><td>Epidemiol\u00f3gico</td></tr><tr><td>seniculus</td><td/><td/><td/><td/><td>Valledupar, Cesar</td><td>No. 3, 18 a 24 de</td></tr><tr><td/><td/><td/><td/><td/><td/><td>enero de 2004</td></tr></table>",
+                "type_str": "table",
+                "text": ") (12) y presencia de Alouatta seniculus (GBIF, 2015) Reportes de casos confirmados de fiebre amarilla en primates no humanos en"
+            }
+        }
+    }
+}

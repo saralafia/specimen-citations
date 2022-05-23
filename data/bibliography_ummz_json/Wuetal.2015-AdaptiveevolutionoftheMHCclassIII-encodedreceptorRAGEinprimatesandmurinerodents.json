@@ -1,0 +1,3882 @@
+{
+    "paper_id": "Wuetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:38:36.041983Z"
+    },
+    "title": "Adaptive evolution of the MHC class III-encoded receptor RAGE in primates and murine rodents",
+    "authors": [
+        {
+            "first": "X",
+            "middle": [],
+            "last": "Wu",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "The Second Affiliated Hospital of Nan-jing Medical University",
+                "location": {
+                    "settlement": "Nanjing",
+                    "country": "China"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "J",
+            "middle": [],
+            "last": "Wu",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "C",
+            "middle": [
+                "W"
+            ],
+            "last": "Thompson",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Yan",
+            "middle": [],
+            "last": "Li",
+            "suffix": "",
+            "affiliation": {},
+            "email": "liyan@sicau.edu.cn"
+        }
+    ],
+    "year": "",
+    "abstract": "The receptor for advanced glycation end products is associated with a series of physiological and pathological processes. Here, we studied the evolution of this multiligand receptor in primates and murine rodents. The evolutionary analyses reveal that adaptive selection had contributed to the variation at a number of amino acid sites in both taxa. Further, the major adaptively selected sites of both taxa are located on the extracellular ligand-and intracellular adaptor-binding regions and receptor oligomerization-related surfaces. The co-occurrence of adaptive evolution on the homologue domains suggests that they could play similar roles in these taxa. In terms of advantage fitness, the adaptive changes at these sites could contribute to host defence against the potential challenges towards these interactions and relevant signalling pathways, or the specificity of these essential points.",
+    "pdf_parse": {
+        "paper_id": "Wuetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "The receptor for advanced glycation end products is associated with a series of physiological and pathological processes. Here, we studied the evolution of this multiligand receptor in primates and murine rodents. The evolutionary analyses reveal that adaptive selection had contributed to the variation at a number of amino acid sites in both taxa. Further, the major adaptively selected sites of both taxa are located on the extracellular ligand-and intracellular adaptor-binding regions and receptor oligomerization-related surfaces. The co-occurrence of adaptive evolution on the homologue domains suggests that they could play similar roles in these taxa. In terms of advantage fitness, the adaptive changes at these sites could contribute to host defence against the potential challenges towards these interactions and relevant signalling pathways, or the specificity of these essential points.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "The major histocompatibility complex (MHC) class III gene AGER encodes a receptor for advanced glycation end products (RAGE) that is critical for various aspects of physiological and pathological processes (Hofmann et al., 1999; Cohen, 2013; Sorci et al., 2013) . It is expressed in a variety of cell types, including endothelial cells, monocytes/macrophages and T-lymphocytes (Brett et al., 1993; Chen et al., 2004; Moser et al., 2007) . In the context of immune and inflammatory responses, RAGE can sense endogenous ligands and subsequently induce cellular activation through intracellular signal pathways, such as mitogen-activated protein kinases, Rho family small GTPases Rac/Cdc42, Janus kinase-signal transducer and activator of transcription, and nuclear factor-jB (NF-jB) (Lander et al., 1997; Huttunen et al., 1999; Taguchi et al., 2000; Huttunen & Rauvala, 2004) .",
+                "cite_spans": [
+                    {
+                        "start": 206,
+                        "end": 228,
+                        "text": "(Hofmann et al., 1999;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 229,
+                        "end": 241,
+                        "text": "Cohen, 2013;",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 242,
+                        "end": 261,
+                        "text": "Sorci et al., 2013)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 377,
+                        "end": 397,
+                        "text": "(Brett et al., 1993;",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 398,
+                        "end": 416,
+                        "text": "Chen et al., 2004;",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 417,
+                        "end": 436,
+                        "text": "Moser et al., 2007)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 781,
+                        "end": 802,
+                        "text": "(Lander et al., 1997;",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 803,
+                        "end": 825,
+                        "text": "Huttunen et al., 1999;",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 826,
+                        "end": 847,
+                        "text": "Taguchi et al., 2000;",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 848,
+                        "end": 873,
+                        "text": "Huttunen & Rauvala, 2004)",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Structurally, RAGE is a member of the immunoglobulin superfamily and exhibits similar key structural features in mammals (Neeper et al., 1992; Schmidt et al., 1994; Xu et al., 2013; Sessa et al., 2014) . The extracellular part of RAGE contains a V-type immunoglobulin domain followed by two C-type immunoglobulin domains (C1 and C2). The structures of the V domain (Xie et al., 2008; Xue et al., 2011; Sirois et al., 2013) , V-C1 domains (Koch et al., 2010; Park et al., 2010; Sirois et al., 2013; Xu et al., 2013; Yatime & Andersen, 2013) , C1-C2 domains (Sirois et al., 2013) and V-C1-C2 domains (Yatime & Andersen, 2013) have been provided. These Ig-like domains consist of b-strands, which are connected to form two b-sheets. For V domain, strands A, C, C 0 , F and G form one b-sheet, and strands B, D and E form the second sheet. For C1 domain, strands A, B, D and E are embed in one sheet, and strands C, C 0 , F and G are embed in the second sheet, whereas two additional strands, A 0 and G 0 , belong to neither of two sheets (Koch et al., 2010) . For putative structure of C2 domain, strands A, B and E form one sheet, and strands A 0 , C, F, G and G 0 form the second sheet (Yatime & Andersen, 2013) . With disulphide bond, the b-sheets folded into a b-sandwich structure (Bork et al., 1994; Xue et al., 2011) . The domains V and C1 form a rigid structural unit, and residues at the interdomain interface contact through several interdomain hydrogen bonds and hydrophobic interactions (Koch et al., 2010; Park et al., 2010) . In contrast, the C2 domain connects to V-C1 through a flexible linker (Park et al., 2010; Xu et al., 2013) . The other domain includes an N-terminal signal sequence to target RAGE to the cell membrane. Following the extracellular domains are a single transmembrane spanning segment and a 46 amino acid-long cytoplasmic tail (ctRAGE). The solution structure of ctRAGE contains an unusual hooklike a-turn (residues 2-15) and an unstructured C-terminal tail (residues 16-42) (Rai et al., 2012) . The cytoplasmic domain shares little homologous features with any known phosphotyrosine, phosphothreonine, or phosphoserine motifs, but the domain is essential for RAGE-mediated signal transduction and subsequent function (Hofmann et al., 1999; Kislinger et al., 1999; Yatime & Andersen, 2013) . In addition to the cellbound form, RAGE also presents circulating secretory types, which are composed of only the extracellular domains.",
+                "cite_spans": [
+                    {
+                        "start": 121,
+                        "end": 142,
+                        "text": "(Neeper et al., 1992;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 143,
+                        "end": 164,
+                        "text": "Schmidt et al., 1994;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 165,
+                        "end": 181,
+                        "text": "Xu et al., 2013;",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 182,
+                        "end": 201,
+                        "text": "Sessa et al., 2014)",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 365,
+                        "end": 383,
+                        "text": "(Xie et al., 2008;",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 384,
+                        "end": 401,
+                        "text": "Xue et al., 2011;",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 402,
+                        "end": 422,
+                        "text": "Sirois et al., 2013)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 438,
+                        "end": 457,
+                        "text": "(Koch et al., 2010;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 458,
+                        "end": 476,
+                        "text": "Park et al., 2010;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 477,
+                        "end": 497,
+                        "text": "Sirois et al., 2013;",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 498,
+                        "end": 514,
+                        "text": "Xu et al., 2013;",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 515,
+                        "end": 539,
+                        "text": "Yatime & Andersen, 2013)",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 556,
+                        "end": 577,
+                        "text": "(Sirois et al., 2013)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 598,
+                        "end": 623,
+                        "text": "(Yatime & Andersen, 2013)",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 1035,
+                        "end": 1054,
+                        "text": "(Koch et al., 2010)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1185,
+                        "end": 1210,
+                        "text": "(Yatime & Andersen, 2013)",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 1283,
+                        "end": 1302,
+                        "text": "(Bork et al., 1994;",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 1303,
+                        "end": 1320,
+                        "text": "Xue et al., 2011)",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 1496,
+                        "end": 1515,
+                        "text": "(Koch et al., 2010;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1516,
+                        "end": 1534,
+                        "text": "Park et al., 2010)",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 1607,
+                        "end": 1626,
+                        "text": "(Park et al., 2010;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 1627,
+                        "end": 1643,
+                        "text": "Xu et al., 2013)",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 2009,
+                        "end": 2027,
+                        "text": "(Rai et al., 2012)",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 2252,
+                        "end": 2274,
+                        "text": "(Hofmann et al., 1999;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 2275,
+                        "end": 2298,
+                        "text": "Kislinger et al., 1999;",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 2299,
+                        "end": 2323,
+                        "text": "Yatime & Andersen, 2013)",
+                        "ref_id": "BIBREF50"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Receptor for advanced glycation end products is notable for recognizing a diverse set of endogenous ligands, which do not share any obvious structural characteristics. The ligands initially identified were advanced glycation end products (AGEs), which form in normal physiological processes or in response to cellular stress caused by various pathologies (Brownlee et al., 1984; Schmidt et al., 2000) . In addition to AGEs, RAGE can recognize nonsecreted cytosolic molecules, including several members of proinflammatory cytokine S100 family (Donato et al., 2013) and high-mobility group protein box-1 (HMGB1) (Lotze & Tracey, 2005) . The nuclear protein HMGB1 can be released by necrotic cells and subsequently evokes the immune response to infection, injury and inflammation (Taguchi et al., 2000) . The S100 family represents a subgroup of EF-hand calcium-binding proteins (Heizmann et al., 2002) . The components of S100 proteins are released from activated inflammatory cells and characteristically accumulate at sites of chronic inflammation (Zimmer et al., 1995; Schafer & Heizmann, 1996) . The release of these S100 family proteins into the extracellular space contributes importantly to the inflammatory response through interaction with receptors, including RAGE (Hofmann et al., 1999; Donato et al., 2013) . Besides protein ligands, RAGE is a receptor for nucleic acid and consequently mounts inflammatory responses to infection and/or tissue damage (Sirois et al., 2013; Xu et al., 2013) . As RAGE has been identified to bind to a variety of individual ligands, it is regarded as a pattern recognition receptor (PRR; Chavakis et al., 2003; Yan et al., 2008; Kalea et al., 2009) . Interestingly, the ctRAGE can also recruit different adaptor proteins, such as the extracellular signal-regulated kinase Erk1, diaphanous-1 or Toll/interleukin-1 receptor domain containing adaptor protein (Ishihara et al., 2003; Hudson et al., 2008; Sakaguchi et al., 2011; Rai et al., 2012) , subsequently serves a crucial role in signal transduction.",
+                "cite_spans": [
+                    {
+                        "start": 355,
+                        "end": 378,
+                        "text": "(Brownlee et al., 1984;",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 379,
+                        "end": 400,
+                        "text": "Schmidt et al., 2000)",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 542,
+                        "end": 563,
+                        "text": "(Donato et al., 2013)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 610,
+                        "end": 632,
+                        "text": "(Lotze & Tracey, 2005)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 777,
+                        "end": 799,
+                        "text": "(Taguchi et al., 2000)",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 876,
+                        "end": 899,
+                        "text": "(Heizmann et al., 2002)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 1048,
+                        "end": 1069,
+                        "text": "(Zimmer et al., 1995;",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 1070,
+                        "end": 1095,
+                        "text": "Schafer & Heizmann, 1996)",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 1273,
+                        "end": 1295,
+                        "text": "(Hofmann et al., 1999;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 1296,
+                        "end": 1316,
+                        "text": "Donato et al., 2013)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 1461,
+                        "end": 1482,
+                        "text": "(Sirois et al., 2013;",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 1483,
+                        "end": 1499,
+                        "text": "Xu et al., 2013)",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 1629,
+                        "end": 1651,
+                        "text": "Chavakis et al., 2003;",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 1652,
+                        "end": 1669,
+                        "text": "Yan et al., 2008;",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 1670,
+                        "end": 1689,
+                        "text": "Kalea et al., 2009)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 1897,
+                        "end": 1920,
+                        "text": "(Ishihara et al., 2003;",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1921,
+                        "end": 1941,
+                        "text": "Hudson et al., 2008;",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 1942,
+                        "end": 1965,
+                        "text": "Sakaguchi et al., 2011;",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 1966,
+                        "end": 1983,
+                        "text": "Rai et al., 2012)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "The apparently wide spectrum of the extracellular ligands and intracellular adaptors makes the recognition strategies of RAGE highly sophisticated and interesting in understanding its roles in physiological and pathological processes. It has been reported that the interaction between RAGE-ligand occurs mainly within the V domain (Kislinger et al., 1999; Taguchi et al., 2000; Leclerc et al., 2007; Ostendorp et al., 2007; Xie et al., 2007 Xie et al., , 2008 . However, recent studies on RAGE structure and function demonstrated that the C1 and C2 domains also are involved in binding ligands. RAGE can recognize S100A12, a member of S100 family, mediated only by the C1 domain (Xie et al., 2007) . The VC1 structural unit might act in binding N e -carboxy-methyllysine, one of the major AGE structures, and Ca 2+ -S100B with increased affinity than that of the isolated V domain (Dattilo et al., 2007; Xue et al., 2011) . The C1 and C2 domains can cooperate to bind to S100A6 despite the presence of the flexible linker between them (Leclerc et al., 2007) . In terms of intracellular signal propagation, some uncertainty remains over the structural nature and mechanism of ctRAGE in recognizing the intracellular adaptors because of the disordered structure and absence of known homologous motifs used for signal transduction (Rai et al., 2012) .",
+                "cite_spans": [
+                    {
+                        "start": 331,
+                        "end": 355,
+                        "text": "(Kislinger et al., 1999;",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 356,
+                        "end": 377,
+                        "text": "Taguchi et al., 2000;",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 378,
+                        "end": 399,
+                        "text": "Leclerc et al., 2007;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 400,
+                        "end": 423,
+                        "text": "Ostendorp et al., 2007;",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 424,
+                        "end": 440,
+                        "text": "Xie et al., 2007",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 441,
+                        "end": 459,
+                        "text": "Xie et al., , 2008",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 679,
+                        "end": 697,
+                        "text": "(Xie et al., 2007)",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 881,
+                        "end": 903,
+                        "text": "(Dattilo et al., 2007;",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 904,
+                        "end": 921,
+                        "text": "Xue et al., 2011)",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 1035,
+                        "end": 1057,
+                        "text": "(Leclerc et al., 2007)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 1328,
+                        "end": 1346,
+                        "text": "(Rai et al., 2012)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "In addition to their divergence regarding ligand recognition, the extracellular domains of RAGE contribute to the oligomerization, which is a prerequisite for its signal transduction (Dattilo et al., 2007; Ostendorp et al., 2007; Xie et al., 2007 Xie et al., , 2008 Koch et al., 2010; Zong et al., 2010; Rai et al., 2012; Xu et al., 2013; Yatime & Andersen, 2013) . As already reported, V domain has an important role in RAGE oligomerization. During the process of oligomerization, several nonoverlapped functional surfaces of the V domain mediate the oligomer formation and heparan sulphate can serve as an additional stabilizing factor to sustain the assemblage (Xie et al., 2008; Xu et al., 2013) . Moreover, it has been identified that C1, C2 and/or the transmembrane regions also might be responsible for the oligomerization to transduce their signal (Xie et al., 2007; Wei et al., 2012; Xu et al., 2013; Yatime & Andersen, 2013) . Considering the critical and complex roles of RAGE in physiological and pathological processes, it is of interest to understand the atomic level structural basis and the involvement strategy of functional domains by which RAGE binds these individual extracellular ligands and intracellular adaptors and undertakes oligomerization.",
+                "cite_spans": [
+                    {
+                        "start": 183,
+                        "end": 205,
+                        "text": "(Dattilo et al., 2007;",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 206,
+                        "end": 229,
+                        "text": "Ostendorp et al., 2007;",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 230,
+                        "end": 246,
+                        "text": "Xie et al., 2007",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 247,
+                        "end": 265,
+                        "text": "Xie et al., , 2008",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 266,
+                        "end": 284,
+                        "text": "Koch et al., 2010;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 285,
+                        "end": 303,
+                        "text": "Zong et al., 2010;",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 304,
+                        "end": 321,
+                        "text": "Rai et al., 2012;",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 322,
+                        "end": 338,
+                        "text": "Xu et al., 2013;",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 339,
+                        "end": 363,
+                        "text": "Yatime & Andersen, 2013)",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 664,
+                        "end": 682,
+                        "text": "(Xie et al., 2008;",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 683,
+                        "end": 699,
+                        "text": "Xu et al., 2013)",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 856,
+                        "end": 874,
+                        "text": "(Xie et al., 2007;",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 875,
+                        "end": 892,
+                        "text": "Wei et al., 2012;",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 893,
+                        "end": 909,
+                        "text": "Xu et al., 2013;",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 910,
+                        "end": 934,
+                        "text": "Yatime & Andersen, 2013)",
+                        "ref_id": "BIBREF50"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Despite the progress in elucidating the structure, function and clinical relevance of RAGE, the evolution of this PRR remains, to some extent, deficient (Sessa et al., 2014) . The overall organization of the MHC class III, in which gene AGER is located, appears to be highly conserved in human and mouse, and all the genes identified in human are shared with mouse (Trowsdale, 1995; Kumanovics et al., 2003) . Also, the primary structures of RAGE are well conserved in mammals. For example, RAGE of mouse exhibits considerable amino acid sequence similarity (78%) with its human homologue. Moreover, RAGE generally presents a conserved picture characterized by its tertiary structural and functional roles in human and mouse (Xu et al., 2013) . However, little is known about whether RAGE has been influenced by factors, such as microbes in evolutionary arms race, or endogenous changes. Previous studies have suggested that pathogens have evolved a range of anti-immune molecular methods including blockage of signalling pathways to counter both innate and adaptive immune mechanisms (Finlay & McFadden, 2006) . If such items occurred on RAGE, variations in the receptor for countering such challenges could provide insights into the features relevant to its structure and function.",
+                "cite_spans": [
+                    {
+                        "start": 153,
+                        "end": 173,
+                        "text": "(Sessa et al., 2014)",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 365,
+                        "end": 382,
+                        "text": "(Trowsdale, 1995;",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 383,
+                        "end": 407,
+                        "text": "Kumanovics et al., 2003)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 725,
+                        "end": 742,
+                        "text": "(Xu et al., 2013)",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 1085,
+                        "end": 1110,
+                        "text": "(Finlay & McFadden, 2006)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "An important step towards our understanding structural and functional innovations in host immunerelated genes includes the description of genetic variation. In this study, we analysed the patterns of nucleotide variation for this receptor in primates and murine rodents. Our results suggest that adaptive selection led to rapid evolution of RAGE in both taxa. The majority of adaptively selected amino acid sites were implicated in two types of functions: (i) the recognition of extracellular ligand and intracellular adaptor and (ii) receptor oligomerization.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "To investigate the evolutionary patterns and processes of AGER, nucleotide sequences of nine primate species were obtained from GenBank. For murines, AGER sequences were collected from 11 species. The sequences of Mus musculus and Rattus norvegicus were obtained from GenBank. Sequence data for the other murine taxa were generated in this study. The coding regions of AGER sequences from these samples were defined based on their GenBank entries of Homo sapiens and M. musculus. Full details of our taxonomic sampling are in Table S1 (Supporting Information).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 526,
+                        "end": 534,
+                        "text": "Table S1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Samples",
+                "sec_num": null
+            },
+            {
+                "text": "The complete AGER sequences of nine murine samples were amplified from genomic DNA. A number of primers have been designed which are capable of amplifying the entire coding region from different species. Primer sequences are available upon request. The PCR amplification products were purified and cloned using the pMD 19-T Vector kit (TaKaRa). The inserts were sequenced using the vector primers. The coding regions of AGER sequences from these samples were defined based on their GenBank entries of M. musculus and R. norvegicus. The sequences of primate and murine taxa were aligned independently using Clus-talW (Thompson et al., 1997) and checked manually.",
+                "cite_spans": [
+                    {
+                        "start": 616,
+                        "end": 639,
+                        "text": "(Thompson et al., 1997)",
+                        "ref_id": "BIBREF39"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DNA sequencing and alignment",
+                "sec_num": null
+            },
+            {
+                "text": "To provide comprehensive information of adaptive selection within gene AGER during primate and/or murine evolution, we performed evolutionary analyses for each taxon at different levels. First, we analysed the general substitution patterns of complete coding region. Because the four domains (V, C1, C2 and ctRAGE) perform distinct functions in physiological and pathological processes (see above), we also assayed the evolvement of these domains between pairs of species (Table S2 in Supporting Information). For each data set, we calculated the ratios of the number of nonsynonymous substitutions per nonsynonymous site (d N ) and the number of synonymous substitutions per synonymous site (d S ) using Pamilo-Bianchi-Li's method (Li, 1997) . Deviations of d N /d S from neutrality were analysed with the Z-test and Fisher's exact test (Zhang et al., 1997; Nei & Kumar, 2000) . A d N /d S ratio that exceeds one significantly indicates positive selection, while a d N /d S < 1 reflects negative selection.",
+                "cite_spans": [
+                    {
+                        "start": 732,
+                        "end": 742,
+                        "text": "(Li, 1997)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 838,
+                        "end": 858,
+                        "text": "(Zhang et al., 1997;",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 859,
+                        "end": 877,
+                        "text": "Nei & Kumar, 2000)",
+                        "ref_id": "BIBREF26"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 472,
+                        "end": 481,
+                        "text": "(Table S2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Evolutionary analyses",
+                "sec_num": null
+            },
+            {
+                "text": "After examining adaptive selection at the entire coding region and functional domain levels, we then detected the individual sites that have been influenced by positive selection covering the complete coding region for both primates and murines with CODEML in the PAML package (Yang, 1997 (Yang, , 2007 . Program CODEML adopts codon-based models (M) for studying the evolutionary mechanism of amino acid sites by comparing synonymous and nonsynonymous substitution rates (Goldman & Yang, 1994) . For each taxon, we calculated likelihood values with three pairs of models (M0 versus M2, M7 versus M8 and M8a versus M8). Null models M0, M7 and M8a assumed that all codons evolved neutrally or under purifying selection (d N /d S values \u2264 1); alternative models M2 and M8 allowed a proportion of sites to be under positive selection with d N /d S > 1. For each pair comparison, a likelihood ratio test (LRT) was used to estimate the difference between them (Nielsen & Yang, 1998; Swanson et al., 2003) . Under model M2 and M8, a Bayes empirical Bayes (BEB) procedure was used to identify the amino acid site influenced by positive selection (Yang et al., 2005) .",
+                "cite_spans": [
+                    {
+                        "start": 277,
+                        "end": 288,
+                        "text": "(Yang, 1997",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 289,
+                        "end": 302,
+                        "text": "(Yang, , 2007",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 471,
+                        "end": 493,
+                        "text": "(Goldman & Yang, 1994)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 954,
+                        "end": 976,
+                        "text": "(Nielsen & Yang, 1998;",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 977,
+                        "end": 998,
+                        "text": "Swanson et al., 2003)",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 1138,
+                        "end": 1157,
+                        "text": "(Yang et al., 2005)",
+                        "ref_id": "BIBREF49"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Evolutionary analyses",
+                "sec_num": null
+            },
+            {
+                "text": "In primates and murine rodents, adaptive selection could have effects on the evolution of RAGE The molecular signature of adaptive selection can be identified through comparative sequence analysis among species. To detect the signature of adaptive selection, we analysed the sequence variations of AGER in the primates and murine rodents. For primate sequences, none of the ratio comparisons exceeded one significantly. However, the ratios of Pan troglodytes versus Gorilla gorilla from Fisher's exact test (P = 0.066) were marginally significant. Further, the d N /d S ratios of H. sapiens to two Pan species, and P. paniscus to G. gorilla exceeded one, deviating from neutral expectation. These results suggest that RAGE potentially experienced positive selection in primates. For the V domain, we observed that none of the d N /d S ratios were larger than one for the possible comparisons. However, a different pattern was found for C1, C2 and ctRAGE coding regions. Twenty-four, three and thirty pair-wise comparisons have d N /d S > 1 for these regions, respectively, although the differences are not significant. Our results suggest that these domains might be subject to positive selection, which is consistent with the observations of the entire coding region.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results and discussion",
+                "sec_num": null
+            },
+            {
+                "text": "For murine AGER, we evaluated selection using the same strategy implemented for primates. It is of note that the d N for R. norvegicus versus R. rattus was larger than their d S , although the difference was not statistically significant. For the four functional domains, a similar pattern was observed in these domains with respect to that of primate sequences. None of the d N /d S ratios were larger than one for the possible comparisons for V domain. In contrast, for C1 and C2 domains, there were two (R. exulans versus R. fuscipes and R. norvegicus versus R. rattus) and three (R. rattus versus R. fuscipes, R. norvegicus, and R. tanezumi) comparisons that exceeded one, although the values were not significantly different. For the ctRAGE domain, the d N /d S ratios between M. caroli and M. musculus slightly exceeded one. These observations infer that RAGE could be influenced by positive selection in murine lineages similar to that of primates.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results and discussion",
+                "sec_num": null
+            },
+            {
+                "text": "For the comparisons with d N /d S > 1, especially that of murine AGER data set, the marginally significant and nonsignificant results were probably due to the fact that a small number of amino acid sites are involved in the adaptive evolution. While most amino acids in a protein are under functional constraints, adaptive variation typically occurs at just a few sites (Li, 1997) . However, it is also feasible that the selectively neutral mutations might account for such an evolutionary pattern. In this situation, it is valuable to examine the signs of adaptive changes at the individual amino acid sites in RAGE during primate and murine evolution.",
+                "cite_spans": [
+                    {
+                        "start": 370,
+                        "end": 380,
+                        "text": "(Li, 1997)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results and discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Positive selection possibly contributed to the amino acid changes of RAGE Using a codon-based test in a maximum likelihood framework (Yang, 1997 (Yang, , 2007 , we detected the implication of adaptive changes at the individual amino acid sites of RAGE in both taxa (see Materials and methods). For the primate sequences, the LRT results showed that in each comparison, the model that allowed codons to evolve adaptively (d N /d S > 1) fits the data significantly better than the models for neutrality or under purifying selection (d N /d S \u2264 1) ( Table 1) . Eight sites had d N /d S ratios exhibiting a departure from neutrality in favour of adaptive selection (P > 0.80) ( Fig. S1 in Supporting Information). Three sites (189, 201 and 221) are located in the C1 domain; site 270 is located in the C2 domain. Another group of sites (369, 376, 385 and 400) are located in the ctRAGE domain.",
+                "cite_spans": [
+                    {
+                        "start": 133,
+                        "end": 144,
+                        "text": "(Yang, 1997",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 145,
+                        "end": 158,
+                        "text": "(Yang, , 2007",
+                        "ref_id": "BIBREF48"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 547,
+                        "end": 555,
+                        "text": "Table 1)",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 674,
+                        "end": 681,
+                        "text": "Fig. S1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results and discussion",
+                "sec_num": null
+            },
+            {
+                "text": "For the murine data set, the LRT of M2 versus M0 showed that the model for adaptive selection (M2) fits the data significantly better than the model for neutrality or under purifying selection (M0) ( Table 1 and Fig. S2 in Supporting Information), suggesting that a proportion of sites could be under positive selection. The BEB analysis indicated that four sites have been subject to positive selection (Table 1) . One adaptively changed site (8) lies in the signal sequence. This sequence is removed resulting in the release of the mature RAGE protein. The other three sites (104, 171 and 394) are located in the V, C1 and ctRAGE domains, respectively. These results suggest that adaptive selection had played an important role in shaping the variation at numerous sites on multiple RAGE domains in both the evolution of primates and murine rodents.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 200,
+                        "end": 207,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 212,
+                        "end": 219,
+                        "text": "Fig. S2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 404,
+                        "end": 413,
+                        "text": "(Table 1)",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results and discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Amino acid sites under adaptive selection are located on the extracellular ligand-and intracellular adaptor-binding region or contact surfaces relevant to receptor oligomerization",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results and discussion",
+                "sec_num": null
+            },
+            {
+                "text": "To further understand the structural and functional significance of evolutionary changes at the adaptively selected amino acid sites, we located them on the three-dimensional structures of mature human and mouse RAGEs (PDB ID: 4lp5, 2LMB and 4im8) Single and double asterisks correspond to P < 0.05 or P < 0.01, respectively (one-tailed t-test). The numbers of amino acid sites represent their position in the primate and murine sequence alignments. (Fig. 1) (Rai et al., 2012; Xu et al., 2013; Yatime & Andersen, 2013) . In the V domain, the adaptively selected site 106 of murine sequences alignment (correspond to site 104 of mouse and site 105 of human RAGE) is located on a positively charged patch (Figs 1a and S3 in Supporting Information). In the human RAGE, the residue at this and nearby sites contributes to the binding of ligand Ca 2+ -S100B (Koch et al., 2010) . This patch also appears to make contact with AGE-BSA and DNA (Matsumoto et al., 2008; Xu et al., 2013) . In addition, this structural unit is responsible for binding of RAGE to heparan sulphate, which can stabilize the organization of the oligomers (Xu et al., 2013) . Site-directed mutagenesis studies suggested that the nearby residues (sites 104 and 107) of the site 105 in the human homologue ( Fig. S3 in Supporting Information) play a critical role in RAGEheparan sulphate oligomeric complexes (Xu et al., 2013) . Consistently to the previous functional perspective, the presence of adaptive evolution at this site can be a reflection of advantage(s) in contacting with the endogenous ligands. On the C1 domain, three adaptively selected sites (189, 201 and 221) of primate RAGE and one site (173) of murine alignment data set (correspond to site 171 of mouse and site 172 of human RAGE) fall into disparate functional regions (Figs 1a,b and S3 in Supporting Information). Although the sites 173 and 189 are in different taxon, they both are located on the C1-C1 contact interface that could mediate the oligomerization of RAGE (Xie et al., 2007; Koch et al., 2010) , in which the residue at site 189 can form a bridge with site 162 0 in adjacent molecules to stabilize the oligomers (Koch et al., 2010) . The site 221 in primates is distributed in a positively charged patch on the edge of the b-sandwich (Fig. 1b) . This patch is juxtaposed to the electropositive surface of V domain, forming a highly electrostatic platform (Koch et al., 2010; Park et al., 2010; Yatime & Andersen, 2013) . An essay on the crystal structure of RAGE suggested that the sites within the packed platforms of RAGE dimer interact with the acidic residues in C2 domain of another symmetry-related RAGE to form a multimeric complex (Yatime & Andersen, 2013) . In addition, the structural significance of the electropositive platform fits well to the negative feature of the diverse RAGE ligands (Koch et al., 2010) . Therefore, the variation at site 221 might contribute to recognizing specificity in adhesion molecules.",
+                "cite_spans": [
+                    {
+                        "start": 459,
+                        "end": 477,
+                        "text": "(Rai et al., 2012;",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 478,
+                        "end": 494,
+                        "text": "Xu et al., 2013;",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 495,
+                        "end": 519,
+                        "text": "Yatime & Andersen, 2013)",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 854,
+                        "end": 873,
+                        "text": "(Koch et al., 2010)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 937,
+                        "end": 961,
+                        "text": "(Matsumoto et al., 2008;",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 962,
+                        "end": 978,
+                        "text": "Xu et al., 2013)",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 1125,
+                        "end": 1142,
+                        "text": "(Xu et al., 2013)",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 1376,
+                        "end": 1393,
+                        "text": "(Xu et al., 2013)",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 2010,
+                        "end": 2028,
+                        "text": "(Xie et al., 2007;",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 2029,
+                        "end": 2047,
+                        "text": "Koch et al., 2010)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 2166,
+                        "end": 2185,
+                        "text": "(Koch et al., 2010)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 2409,
+                        "end": 2428,
+                        "text": "(Koch et al., 2010;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 2429,
+                        "end": 2447,
+                        "text": "Park et al., 2010;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 2448,
+                        "end": 2472,
+                        "text": "Yatime & Andersen, 2013)",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 2693,
+                        "end": 2718,
+                        "text": "(Yatime & Andersen, 2013)",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 2856,
+                        "end": 2875,
+                        "text": "(Koch et al., 2010)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 450,
+                        "end": 458,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1275,
+                        "end": 1282,
+                        "text": "Fig. S3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1809,
+                        "end": 1819,
+                        "text": "(Figs 1a,b",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2288,
+                        "end": 2297,
+                        "text": "(Fig. 1b)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results and discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Site 201 is another adaptively selected site in primate RAGE, lying in the loop (residues 195-205) Figure 1 . Stick model showing the locations of adaptively selected amino acid sites in mouse receptor for advanced glycation end products (RAGE) VC1 domains (a) (Xu et al., 2013) , human RAGE VC1C2 domains (b) (Yatime & Andersen, 2013) and human a-turn of ctRAGE (c) (Rai et al., 2012) . In (b), the b-sheets containing sites under selection are shown in the squares. In (c), the binding patch formed by sites 365-367 corresponding to 4-6 of ctRAGE is indicated by yellow colour. The residues of selected amino acids are shown on the three-dimensional structures in purple. The numbers of amino acid sites represent their position in the human and mouse RAGE sequences.",
+                "cite_spans": [
+                    {
+                        "start": 261,
+                        "end": 278,
+                        "text": "(Xu et al., 2013)",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 310,
+                        "end": 335,
+                        "text": "(Yatime & Andersen, 2013)",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 367,
+                        "end": 385,
+                        "text": "(Rai et al., 2012)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 99,
+                        "end": 107,
+                        "text": "Figure 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results and discussion",
+                "sec_num": null
+            },
+            {
+                "text": "between strands E and F of C1 domain (Koch et al., 2010) . Compared with b-sheet and loop topology of C1-set Ig molecules (Bork et al., 1994) , this loop is elongated by residues 198-201 in both primate and murine RAGEs (Koch et al., 2010) . The residues at site 198 of this loop also interact with C1-C2 linker through a hydrogen bond to stabilize the C terminus of C1 (Koch et al., 2010) . Taken together, the elongated length of E-F loop and the adaptive changes at site 201 suggest that this loop and its interaction with linker could be important for the function of RAGE.",
+                "cite_spans": [
+                    {
+                        "start": 37,
+                        "end": 56,
+                        "text": "(Koch et al., 2010)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 122,
+                        "end": 141,
+                        "text": "(Bork et al., 1994)",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 220,
+                        "end": 239,
+                        "text": "(Koch et al., 2010)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 370,
+                        "end": 389,
+                        "text": "(Koch et al., 2010)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results and discussion",
+                "sec_num": null
+            },
+            {
+                "text": "For C2 domain, previous studies have showed that several sites (245, 337, 274 or 312) can mediate a multimeric receptor complex with a platform formed by V and C1 domains (Koch et al., 2010; Park et al., 2010; Yatime & Andersen, 2013) . However, to date, there has been no further annotation to describe the structural features of this domain in ligand recognition or signalling transduction. The selected site 270 appears to lie in strand C of this domain (Yatime & Andersen, 2013) . It is worth noting that this site and three above-mentioned sites (245, 274 and 312) are colocated on a cleft mainly comprised of strands A 0 , G 0 , G, F and C (Yatime & Andersen, 2013) . Sites 270 and 245 are at the bottom of the cleft, and sites 274 and 312 are on the side wall (Fig. 1b) . The combined results of our evolution analysis and previous structure essay suggest that the cleft could act as a structural and functional unit in the interaction with the basic platform of V and C1 domains.",
+                "cite_spans": [
+                    {
+                        "start": 63,
+                        "end": 85,
+                        "text": "(245, 337, 274 or 312)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 171,
+                        "end": 190,
+                        "text": "(Koch et al., 2010;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 191,
+                        "end": 209,
+                        "text": "Park et al., 2010;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 210,
+                        "end": 234,
+                        "text": "Yatime & Andersen, 2013)",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 457,
+                        "end": 482,
+                        "text": "(Yatime & Andersen, 2013)",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 646,
+                        "end": 671,
+                        "text": "(Yatime & Andersen, 2013)",
+                        "ref_id": "BIBREF50"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 767,
+                        "end": 776,
+                        "text": "(Fig. 1b)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results and discussion",
+                "sec_num": null
+            },
+            {
+                "text": "For RAGE cytoplasmic domain, we observed that positively selected sites fall in two domains. One group of selected sites in the primate data set (369 and 376 correspond to 8 and 15 of ctRAGE, respectively) are located on the a-turn (residues 2-15, PDB ID: 2LMB) (Rai et al., 2012) . The hook-like shape a-turn consists of a hydrophobic patch interacting with its intracellular partner mammalian diaphanous-1 (mDia1) (Hudson et al., 2008; Rai et al., 2012) . The selected site 369 closes to this binding patch formed by site 365-367 ( Fig. 1c) . Thus, the location of selected site inferred its functional significance in binding intracellular adaptors. The remaining portion of the gene in primates (385 and 400 correspond to 24 and 39 of ctRAGE, respectively) lies in C terminus, as does site 397 of murine rodent sequence (corresponding to mouse site 394 and human site 35) ( Fig. S3 in Supporting Information). The dynamics and disorder of structure could not provide further clues for predicting the function of this domain. The presence of adaptive selection at the sites within this region, in both primate and murine sequences, led us to propose that these sites could have been responsible for the signalling cascades that are activated based on differential interactions. Alternatively, the changes might have constituted a functional adaptation to overcome microbial insults that block the signalling pathways.",
+                "cite_spans": [
+                    {
+                        "start": 262,
+                        "end": 280,
+                        "text": "(Rai et al., 2012)",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 416,
+                        "end": 437,
+                        "text": "(Hudson et al., 2008;",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 438,
+                        "end": 455,
+                        "text": "Rai et al., 2012)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 534,
+                        "end": 542,
+                        "text": "Fig. 1c)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 878,
+                        "end": 885,
+                        "text": "Fig. S3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results and discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Our analyses suggest that adaptive selection has driven the evolution at a number of RAGE sites in both primates and murine rodents. More interestingly, although none of individual sites were influenced in both taxa, we observed that the majority of these sites are located on the extracellular ligand-and intracellular adaptor-binding regions and oligomerizationrelated surfaces. It is becoming increasingly clear that, despite the numerous insults used by microbial pathogens, several general anti-immune mechanisms underlying these strategies are shared between these diverse pathogens (Finlay & McFadden, 2006; Elde & Malik, 2009) . In these scenarios, the similar distribution pattern of these adaptively selected sites would most likely represent shared strategies of the RAGEs to counter these insulting mechanisms. In terms of physiological function, not only would the shared diversity strategies of RAGEs be in favour of their interactions with a large variety of ligands and adaptors (see above), but these general strategies would also maintain their critical functions in the signalling cascades (Lander et al., 1997; Huttunen et al., 1999; Taguchi et al., 2000; Huttunen & Rauvala, 2004) . It should be noted that the existence of the differences between two taxa, such as the site 106 of murine and site 270 of primate RAGE, suggests a different mode of diversity. They may have been due to methodological differences of the receptors to overcome different environmental and/or endogenous challenges. Certainly, further studies are needed to validate the functional implication(s) of these domains and adaptively selected sites on the exact nature of RAGE.",
+                "cite_spans": [
+                    {
+                        "start": 589,
+                        "end": 614,
+                        "text": "(Finlay & McFadden, 2006;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 615,
+                        "end": 634,
+                        "text": "Elde & Malik, 2009)",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 1109,
+                        "end": 1130,
+                        "text": "(Lander et al., 1997;",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 1131,
+                        "end": 1153,
+                        "text": "Huttunen et al., 1999;",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1154,
+                        "end": 1175,
+                        "text": "Taguchi et al., 2000;",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 1176,
+                        "end": 1201,
+                        "text": "Huttunen & Rauvala, 2004)",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results and discussion",
+                "sec_num": null
+            },
+            {
+                "text": "In conclusion, our analyses provide evidence that adaptive selection has driven the evolution of RAGE in primates and murine rodents. The evolutionary significance of this immune receptor could shed more insights into its multiligand recognition, oligomerization and strategies for countering a variety of challenges.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results and discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Information regarding the samples and sequences included in this study. Table S2 The range of functional domains of RAGE from human and mouse. (Neeper et al., 1992; Schmidt et al., 1994; Xu et al., 2013) . ",
+                "cite_spans": [
+                    {
+                        "start": 143,
+                        "end": 164,
+                        "text": "(Neeper et al., 1992;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 165,
+                        "end": 186,
+                        "text": "Schmidt et al., 1994;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 187,
+                        "end": 203,
+                        "text": "Xu et al., 2013)",
+                        "ref_id": "BIBREF44"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 72,
+                        "end": 80,
+                        "text": "Table S2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Table S1",
+                "sec_num": null
+            },
+            {
+                "text": "\u00a9 2015 John Wiley & Sons Ltd International Journal of Immunogenetics, 2015, 42, 461-468",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We thank Annie Orth for providing the Mus pahari sample. We also thank University of Michigan Museum of Zoology for providing the Maxomys surifer and Maxomys whiteheadi samples. We are indebted to Vernon Tintinger for providing the Rattus exulans, R. fuscipes, R. rattus and R. tanezumi DNA samples. We are grateful to Yu-Teh Kirk Lin for providing the Mus caroli samples. Research was supported by Specialized Research Fund for the Doctoral Program of Higher Education to Y.L. (Grant No. 20115103120007).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgements",
+                "sec_num": null
+            },
+            {
+                "text": "Additional supporting information may be found in the online version of this article:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Supporting Information",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "The immunoglobulin fold. Structural classification, sequence patterns and common core",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Bork",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Holm",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Sander",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Journal of Molecular Biology",
+                "volume": "242",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bork, P., Holm, L. & Sander, C. (1994) The immunoglobulin fold. Structural classification, sequence patterns and common core. Journal of Molecular Biology, 242, 309.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Survey of the distribution of a newly characterized receptor for advanced glycation end products in tissues",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Brett",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schmidt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Yan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Zou",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Weidman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Pinsky",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "American Journal of Pathology",
+                "volume": "143",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brett, J., Schmidt, A.M., Yan, S.D., Zou, Y.S., Weidman, E., Pinsky, D. et al. (1993) Survey of the distribution of a newly characterized receptor for advanced glycation end products in tissues. American Journal of Pathology, 143, 1699.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Nonenzymatic glycosylation and the pathogenesis of diabetic complications",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Brownlee",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Vlassara",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Cerami",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "Annals of Internal Medicine",
+                "volume": "101",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brownlee, M., Vlassara, H. & Cerami, A. (1984) Nonenzymatic glycosylation and the pathogenesis of diabetic complications. Annals of Internal Medicine, 101, 527.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "The pattern recognition receptor (rage) is a counterreceptor for leukocyte integrins: a novel pathway for inflammatory cell recruitment",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Chavakis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Bierhaus",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Al-Fakhri",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Schneider",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Witte",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Linn",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "Journal of Experimental Medicine",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chavakis, T., Bierhaus, A., Al-Fakhri, N., Schneider, D., Witte, S., Linn, T. et al. (2003) The pattern recognition receptor (rage) is a counterreceptor for leukocyte integrins: a novel pathway for inflammatory cell recruitment. Journal of Experimental Medicine, 198, 1507.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Blockade of late stages of autoimmune diabetes by inhibition of the receptor for advanced glycation end products",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Chen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Yan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Colgan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Luban",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schmidt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Stern",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Herold",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Journal of Immunology",
+                "volume": "173",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chen, Y., Yan, S.S., Colgan, J., Zhang, H.P., Luban, J., Schmidt, A.M., Stern, D. & Herold, K.C. (2004) Blockade of late stages of autoimmune diabetes by inhibition of the receptor for advanced glycation end products. Journal of Immunology, 173, 1399.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Perspectives on rage signaling and its role in cardiovascular disease",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Cohen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "American Journal of Medical Genetics. Part A",
+                "volume": "161",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cohen, M.M. Jr (2013) Perspectives on rage signaling and its role in cardiovascular disease. American Journal of Medical Genetics. Part A, 161A, 2750.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "The extracellular region of the receptor for advanced glycation end products is composed of two independent structural units",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Dattilo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Fritz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Leclerc",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Kooi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Heizmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Chazin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Biochemistry",
+                "volume": "46",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dattilo, B.M., Fritz, G., Leclerc, E., Kooi, C.W., Heizmann, C.W. & Chazin, W.J. (2007) The extracellular region of the receptor for advanced glycation end products is composed of two independent structural units. Biochemistry, 46, 6957.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Functions of s100 proteins",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Donato",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Cannon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Sorci",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Riuzzi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Hsu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Weber",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Geczy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Current Molecular Medicine",
+                "volume": "13",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Donato, R., Cannon, B.R., Sorci, G., Riuzzi, F., Hsu, K., Weber, D.J. & Geczy, C.L. (2013) Functions of s100 proteins. Current Molecular Medicine, 13, 24.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Anti-immunology: evasion of the host immune system by bacterial and viral pathogens",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Elde",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Malik",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Nature Reviews Microbiology",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Elde, N.C. & Malik, H.S. (2009) The evolutionary conundrum of pathogen mimicry. Nature Reviews Microbiology, 7, 787. Finlay, B.B. & McFadden, G. (2006) Anti-immunology: evasion of the host immune system by bacterial and viral pathogens. Cell, 124, 767.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "A codon-based model of nucleotide substitution for protein-coding DNA sequences",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Goldman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Molecular Biology and Evolution",
+                "volume": "11",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Goldman, N. & Yang, Z. (1994) A codon-based model of nucleotide substitution for protein-coding DNA sequences. Molecular Biology and Evolution, 11, 725.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "S100 proteins: structure, functions and pathology",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Heizmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Fritz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Schafer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Heizmann, C.W., Fritz, G. & Schafer, B.W. (2002) S100 proteins: structure, functions and pathology. Frontiers in Bioscience, 7, d1356.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Rage mediates a novel proinflammatory axis: a central cell surface receptor for s100/calgranulin polypeptides",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hofmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Drury",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Fu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Qu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Taguchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Lu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Cell",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hofmann, M.A., Drury, S., Fu, C., Qu, W., Taguchi, A., Lu, Y. et al. (1999) Rage mediates a novel proinflammatory axis: a central cell surface receptor for s100/calgranulin polypeptides. Cell, 97, 889.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Interaction of the rage cytoplasmic domain with diaphanous-1 is required for ligand-stimulated cellular migration through activation of Rac1 and Cdc42",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Hudson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "Z"
+                        ],
+                        "last": "Kalea",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Del Mar Arriero",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Harja",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Boulanger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "D'agati",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schmidt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Journal of Biological Chemistry",
+                "volume": "283",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hudson, B.I., Kalea, A.Z., Del Mar Arriero, M., Harja, E., Boulanger, E., D'Agati, V. & Schmidt, A.M. (2008) Interaction of the rage cytoplasmic domain with diaphanous-1 is required for ligand-stimulated cellular migration through activation of Rac1 and Cdc42. Journal of Biological Chemistry, 283, 34457.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Amphoterin as an extracellular regulator of cell motility: from discovery to disease",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Huttunen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Rauvala",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Journal of Internal Medicine",
+                "volume": "255",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Huttunen, H.J. & Rauvala, H. (2004) Amphoterin as an extracellular regulator of cell motility: from discovery to disease. Journal of Internal Medicine, 255, 351.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Receptor for advanced glycation end products (rage)-mediated neurite outgrowth and activation of nf-kappab require the cytoplasmic domain of the receptor but different downstream signaling pathways",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Huttunen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Fages",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Rauvala",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Ishihara",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Tsutsumi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kawane",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nakajima",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Kasaoka",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Journal of Biological Chemistry",
+                "volume": "274",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Huttunen, H.J., Fages, C. & Rauvala, H. (1999) Receptor for advanced glycation end products (rage)-mediated neurite outgrowth and activation of nf-kappab require the cytoplasmic domain of the receptor but different downstream signaling pathways. Journal of Biological Chemistry, 274, 19919. Ishihara, K., Tsutsumi, K., Kawane, S., Nakajima, M. & Kasaoka, T. (2003) The receptor for advanced glycation end- products (rage) directly binds to erk by a d-domain-like docking site. FEBS Letters, 550, 107.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Rage: a novel biological and genetic marker for vascular disease",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "Z"
+                        ],
+                        "last": "Kalea",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schmidt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Hudson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Clinical Science",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kalea, A.Z., Schmidt, A.M. & Hudson, B.I. (2009) Rage: a novel biological and genetic marker for vascular disease. Clinical Science (London), 116, 621.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "N(epsilon)-(carboxymethyl)lysine adducts of proteins are ligands for receptor for advanced glycation end products that activate cell signaling pathways and modulate gene expression",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Kislinger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Fu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Huber",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Qu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Taguchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Du Yan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Journal of Biological Chemistry",
+                "volume": "274",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kislinger, T., Fu, C., Huber, B., Qu, W., Taguchi, A., Du Yan, S. et al. (1999) N(epsilon)-(carboxymethyl)lysine adducts of proteins are ligands for receptor for advanced glycation end products that activate cell signaling pathways and modulate gene expression. Journal of Biological Chemistry, 274, 31740.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Structural basis for ligand recognition and activation of rage",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Koch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Chitayat",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Dattilo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Schiefner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Diez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Chazin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Fritz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Structure",
+                "volume": "18",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Koch, M., Chitayat, S., Dattilo, B.M., Schiefner, A., Diez, J., Chazin, W.J. & Fritz, G. (2010) Structural basis for ligand recognition and activation of rage. Structure, 18, 1342.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Genomic organization of the mammalian mhc",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Kumanovics",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Takada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Lindahl",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Annual Review of Immunology",
+                "volume": "21",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kumanovics, A., Takada, T. & Lindahl, K.F. (2003) Genomic organization of the mammalian mhc. Annual Review of Immunology, 21, 629.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Activation of the receptor for advanced glycation end products triggers a p21(ras)-dependent mitogen-activated protein kinase pathway regulated by oxidant stress",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Lander",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Tauras",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Ogiste",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Hori",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Moss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schmidt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Journal of Biological Chemistry",
+                "volume": "272",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lander, H.M., Tauras, J.M., Ogiste, J.S., Hori, O., Moss, R.A. & Schmidt, A.M. (1997) Activation of the receptor for advanced glycation end products triggers a p21(ras)- dependent mitogen-activated protein kinase pathway regulated by oxidant stress. Journal of Biological Chemistry, 272, 17810.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "S100b and s100a6 differentially modulate cell survival by interacting with distinct rage (receptor for advanced glycation end products) immunoglobulin domains",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Leclerc",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Fritz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Weibel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Heizmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Galichet",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Journal of Biological Chemistry",
+                "volume": "282",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Leclerc, E., Fritz, G., Weibel, M., Heizmann, C.W. & Galichet, A. (2007) S100b and s100a6 differentially modulate cell survival by interacting with distinct rage (receptor for advanced glycation end products) immunoglobulin domains. Journal of Biological Chemistry, 282, 31317.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "High-mobility group box 1 protein (hmgb1): nuclear weapon in the immune arsenal",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Lotze",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Tracey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Nature Reviews Immunology",
+                "volume": "5",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lotze, M.T. & Tracey, K.J. (2005) High-mobility group box 1 protein (hmgb1): nuclear weapon in the immune arsenal. Nature Reviews Immunology, 5, 331.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Solution structure of the variable-type domain of the receptor for advanced glycation end products: new insight into age-rage interaction",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Matsumoto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Yoshida",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Murata",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Harada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Fujita",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Nakamura",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Biochemistry",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Matsumoto, S., Yoshida, T., Murata, H., Harada, S., Fujita, N., Nakamura, S. et al. (2008) Solution structure of the variable-type domain of the receptor for advanced glycation end products: new insight into age-rage interaction. Biochemistry, 47, 12299.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Receptor for advanced glycation end products expression on t cells contributes to antigen-specific cellular expansion in vivo",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Moser",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Desai",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Downie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Chen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Yan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Herold",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schmidt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Clynes",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Journal of Immunology",
+                "volume": "179",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moser, B., Desai, D.D., Downie, M.P., Chen, Y., Yan, S.F., Herold, K., Schmidt, A.M. & Clynes, R. (2007) Receptor for advanced glycation end products expression on t cells contributes to antigen-specific cellular expansion in vivo. Journal of Immunology, 179, 8051.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Cloning and expression of a cell surface receptor for advanced glycosylation end products of proteins",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Neeper",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schmidt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Brett",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Yan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Pan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Elliston",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Stern",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Shaw",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Journal of Biological Chemistry",
+                "volume": "267",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Neeper, M., Schmidt, A.M., Brett, J., Yan, S.D., Wang, F., Pan, Y.C., Elliston, K., Stern, D. & Shaw, A. (1992) Cloning and expression of a cell surface receptor for advanced glycosylation end products of proteins. Journal of Biological Chemistry, 267, 14998.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Molecular Evolution and Phylogenetics",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kumar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nei, M. & Kumar, S. (2000) Molecular Evolution and Phylogenetics. Oxford University Press, Oxford.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Likelihood models for detecting positively selected amino acid sites and applications to the hiv-1 envelope gene",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Nielsen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Genetics",
+                "volume": "148",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nielsen, R. & Yang, Z. (1998) Likelihood models for detecting positively selected amino acid sites and applications to the hiv- 1 envelope gene. Genetics, 148, 929.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Structural and functional insights into rage activation by multimeric s100b",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Ostendorp",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Leclerc",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Galichet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Koch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Demling",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Weigle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Heizmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Kroneck",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Fritz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "EMBO Journal",
+                "volume": "26",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ostendorp, T., Leclerc, E., Galichet, A., Koch, M., Demling, N., Weigle, B., Heizmann, C.W., Kroneck, P.M. & Fritz, G. (2007) Structural and functional insights into rage activation by multimeric s100b. EMBO Journal, 26, 3868.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "The 1.5 a crystal structure of human receptor for advanced glycation endproducts (rage) ectodomains reveals unique features determining ligand binding",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Park",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Adsit",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Boyington",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Journal of Biological Chemistry",
+                "volume": "285",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Park, H., Adsit, F.G. & Boyington, J.C. (2010) The 1.5 a crystal structure of human receptor for advanced glycation endproducts (rage) ectodomains reveals unique features determining ligand binding. Journal of Biological Chemistry, 285, 40762.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Signal transduction in receptor for advanced glycation end products (rage): solution structure of c-terminal rage (ctrage) and its binding to mdia1",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Rai",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Maldonado",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Burz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Reverdatto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Yan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schmidt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Shekhtman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Journal of Biological Chemistry",
+                "volume": "287",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rai, V., Maldonado, A.Y., Burz, D.S., Reverdatto, S., Yan, S.F., Schmidt, A.M. & Shekhtman, A. (2012) Signal transduction in receptor for advanced glycation end products (rage): solution structure of c-terminal rage (ctrage) and its binding to mdia1. Journal of Biological Chemistry, 287, 5133.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Tirap, an adaptor protein for tlr2/4, transduces a signal from rage phosphorylated upon ligand binding",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Sakaguchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Murata",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Yamamoto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Ono",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Sakaguchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Motoyama",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Hibino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Kataoka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Huh",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "PLoS ONE",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sakaguchi, M., Murata, H., Yamamoto, K., Ono, T., Sakaguchi, Y., Motoyama, A., Hibino, T., Kataoka, K. & Huh, N.H. (2011) Tirap, an adaptor protein for tlr2/4, transduces a signal from rage phosphorylated upon ligand binding. PLoS ONE, 6, e23132.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "The s100 family of efhand calcium-binding proteins: functions and pathology",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Schafer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Heizmann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Trends in Biochemical Sciences",
+                "volume": "21",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Schafer, B.W. & Heizmann, C.W. (1996) The s100 family of ef- hand calcium-binding proteins: functions and pathology. Trends in Biochemical Sciences, 21, 134.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Rage: a multiligand receptor contributing to the cellular response in diabetic vasculopathy and inflammation",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schmidt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hofmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Taguchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Yan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Stern",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Seminars in Thrombosis and Hemostasis",
+                "volume": "26",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Schmidt, A.M., Hofmann, M., Taguchi, A., Yan, S.D. & Stern, D.M. (2000) Rage: a multiligand receptor contributing to the cellular response in diabetic vasculopathy and inflammation. Seminars in Thrombosis and Hemostasis, 26, 485.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "The receptor for advanced glycation end-products (rage) is only present in mammals, and belongs to a family of cell adhesion molecules (CAMs)",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Sessa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Gatti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Zeni",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Antonelli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Catucci",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Koch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Pompilio",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Fritz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Raucci",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Bianchi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "PLoS ONE",
+                "volume": "9",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sessa, L., Gatti, E., Zeni, F., Antonelli, A., Catucci, A., Koch, M., Pompilio, G., Fritz, G., Raucci, A. & Bianchi, M.E. (2014) The receptor for advanced glycation end-products (rage) is only present in mammals, and belongs to a family of cell adhesion molecules (CAMs). PLoS ONE, 9, e86903.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Rage is a nucleic acid receptor that promotes inflammatory responses to DNA",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Sirois",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Jin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Bertheloot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Nakamura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Horvath",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Journal of Experimental Medicine",
+                "volume": "210",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sirois, C.M., Jin, T., Miller, A.L., Bertheloot, D., Nakamura, H., Horvath, G.L. et al. (2013) Rage is a nucleic acid receptor that promotes inflammatory responses to DNA. Journal of Experimental Medicine, 210, 2447.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Rage in tissue homeostasis, repair and regeneration",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Sorci",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Riuzzi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Giambanco",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Donato",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Biochimica et Biophysica Acta",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sorci, G., Riuzzi, F., Giambanco, I. & Donato, R. (2013) Rage in tissue homeostasis, repair and regeneration. Biochimica et Biophysica Acta, 1833, 101.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Pervasive adaptive evolution in mammalian fertilization proteins",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Swanson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Nielsen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Q",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Molecular Biology and Evolution",
+                "volume": "20",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Swanson, W.J., Nielsen, R. & Yang, Q. (2003) Pervasive adaptive evolution in mammalian fertilization proteins. Molecular Biology and Evolution, 20, 18.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Blockade of rage-amphoterin signalling suppresses tumour growth and metastases",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Taguchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Blood",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Toro",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Canet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Lee",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Qu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Nature",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Taguchi, A., Blood, D.C., del Toro, G., Canet, A., Lee, D.C., Qu, W. et al. (2000) Blockade of rage-amphoterin signalling suppresses tumour growth and metastases. Nature, 405, 354.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "The clustal_x windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Thompson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gibson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Plewniak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Jeanmougin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Higgins",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Nucleic Acids Research",
+                "volume": "25",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thompson, J.D., Gibson, T.J., Plewniak, F., Jeanmougin, F. & Higgins, D.G. (1997) The clustal_x windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools. Nucleic Acids Research, 25, 4876.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Both man & bird & beast\": comparative organization of MHC genes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Trowsdale",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Immunogenetics",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Trowsdale, J. (1995) \"Both man & bird & beast\": comparative organization of MHC genes. Immunogenetics, 41, 1.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Disulfide bonds within the c2 domain of rage play key roles in its dimerization and biogenesis",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Wei",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Lampe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Park",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Vangara",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Waldo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Cabantous",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Subaran",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Lakatta",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Lin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "PLoS ONE",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wei, W., Lampe, L., Park, S., Vangara, B.S., Waldo, G.S., Cabantous, S., Subaran, S.S., Yang, D., Lakatta, E.G. & Lin, L. (2012) Disulfide bonds within the c2 domain of rage play key roles in its dimerization and biogenesis. PLoS ONE, 7, e50736.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Hexameric calgranulin c (s100a12) binds to the receptor for advanced glycated end products (rage) using symmetric hydrophobic target-binding patches",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Xie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Burz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "He",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Bronstein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Lednev",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Shekhtman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Journal of Biological Chemistry",
+                "volume": "282",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Xie, J., Burz, D.S., He, W., Bronstein, I.B., Lednev, I. & Shekhtman, A. (2007) Hexameric calgranulin c (s100a12) binds to the receptor for advanced glycated end products (rage) using symmetric hydrophobic target-binding patches. Journal of Biological Chemistry, 282, 4218.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Structural basis for pattern recognition by the receptor for advanced glycation end products (rage)",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Xie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Reverdatto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Frolov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Hoffmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Burz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Shekhtman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Journal of Biological Chemistry",
+                "volume": "283",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Xie, J., Reverdatto, S., Frolov, A., Hoffmann, R., Burz, D.S. & Shekhtman, A. (2008) Structural basis for pattern recognition by the receptor for advanced glycation end products (rage). Journal of Biological Chemistry, 283, 27255.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Stable rageheparan sulfate complexes are essential for signal transduction",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Xu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Young",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Krahn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Song",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Corbett",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Chazin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Pedersen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Esko",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "ACS Chemical Biology",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Xu, D., Young, J.H., Krahn, J.M., Song, D., Corbett, K.D., Chazin, W.J., Pedersen, L.C. & Esko, J.D. (2013) Stable rage- heparan sulfate complexes are essential for signal transduction. ACS Chemical Biology, 8, 1611.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Advanced glycation end product recognition by the receptor for ages",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Xue",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Rai",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Singer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Chabierski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Xie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Reverdatto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Burz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schmidt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Hoffmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Shekhtman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Structure",
+                "volume": "19",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Xue, J., Rai, V., Singer, D., Chabierski, S., Xie, J., Reverdatto, S., Burz, D.S., Schmidt, A.M., Hoffmann, R. & Shekhtman, A. (2011) Advanced glycation end product recognition by the receptor for ages. Structure, 19, 722.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Mechanisms of disease: advanced glycation end-products and their receptor in inflammation and diabetes complications",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Yan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Ramasamy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schmidt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Nature Clinical Practice Endocrinology & Metabolism",
+                "volume": "4",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yan, S.F., Ramasamy, R. & Schmidt, A.M. (2008) Mechanisms of disease: advanced glycation end-products and their receptor in inflammation and diabetes complications. Nature Clinical Practice Endocrinology & Metabolism, 4, 285.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "PAML: a program package for phylogenetic analysis by maximum likelihood",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Computer Applications in the Biosciences",
+                "volume": "13",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang, Z. (1997) PAML: a program package for phylogenetic analysis by maximum likelihood. Computer Applications in the Biosciences, 13, 555.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "PAML 4: phylogenetic analysis by maximum likelihood",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Molecular Biology and Evolution",
+                "volume": "24",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang, Z. (2007) PAML 4: phylogenetic analysis by maximum likelihood. Molecular Biology and Evolution, 24, 1586.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Bayes empirical Bayes inference of amino acid sites under positive selection",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Wong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Nielsen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Molecular Biology and Evolution",
+                "volume": "22",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang, Z., Wong, W.S. & Nielsen, R. (2005) Bayes empirical Bayes inference of amino acid sites under positive selection. Molecular Biology and Evolution, 22, 1107.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Structural insights into the oligomerization mode of the human receptor for advanced glycation end-products",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Yatime",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Andersen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "FEBS Journal",
+                "volume": "280",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yatime, L. & Andersen, G.R. (2013) Structural insights into the oligomerization mode of the human receptor for advanced glycation end-products. FEBS Journal, 280, 6556.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Small-sample tests of episodic adaptive evolution: a case study of primate lysozymes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kumar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Molecular Biology and Evolution",
+                "volume": "14",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhang, J., Kumar, S. & Nei, M. (1997) Small-sample tests of episodic adaptive evolution: a case study of primate lysozymes. Molecular Biology and Evolution, 14, 1335.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "The s100 protein family: history, function, and expression",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Zimmer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Cornwall",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Landar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Song",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Brain Research Bulletin",
+                "volume": "37",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zimmer, D.B., Cornwall, E.H., Landar, A. & Song, W. (1995) The s100 protein family: history, function, and expression. Brain Research Bulletin, 37, 417.",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Homodimerization is essential for the receptor for advanced glycation end products (rage)-mediated signal transduction",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Zong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Madden",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ward",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Mooney",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Elliott",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Stitt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Journal of Biological Chemistry",
+                "volume": "285",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zong, H., Madden, A., Ward, M., Mooney, M.H., Elliott, C.T. & Stitt, A.W. (2010) Homodimerization is essential for the receptor for advanced glycation end products (rage)-mediated signal transduction. Journal of Biological Chemistry, 285, 23137.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "num": null,
+                "type_str": "figure",
+                "text": "Alignment of the amino acid sequences of primate RAGEs. The asterisks denote the site under positive selection, as indicated by the ML test.Figure S2 Alignment of the amino acid sequences of murine rodent RAGEs. The asterisks denote the site under positive selection, as indicated by the ML test.Figure S3 Alignment of the amino acid sequences of human and mouse.",
+                "uris": null
+            },
+            "TABREF0": {
+                "content": "<table><tr><td>Taxon</td><td>Model</td><td>l a</td><td>\u00c02DL b</td><td>Sites under selection identified by PAML</td></tr><tr><td>Primates</td><td>M0: one-ratio</td><td>\u00c02454.98</td><td>17.50** (M2 versus M0)</td><td>None</td></tr><tr><td/><td>M2: selection</td><td>\u00c02446.23</td><td/><td>189 (at P \u2265 0.90)</td></tr><tr><td/><td>M7: b</td><td>\u00c02449.55</td><td>6.64* (M8 versus M7)</td><td>Not allowed</td></tr><tr><td/><td>M8a: b and fixed x</td><td>\u00c02449.54</td><td>6.62* (M8 versus M8a)</td><td>Not allowed</td></tr><tr><td/><td>M8: b and x</td><td>\u00c02446.23</td><td/><td>189 (at P \u2265 0.95)</td></tr><tr><td/><td/><td/><td/><td>201, 221, 270, 369, 376, 385, 400 (at 0.90 &gt; P \u2265 0.80)</td></tr><tr><td>Murine rodents</td><td>M0: one-ratio</td><td>\u00c03011.57</td><td>23.68** (M2 versus M0)</td><td>None</td></tr><tr><td/><td>M2: selection</td><td>\u00c02099.73</td><td/><td>106 (at P \u2265 0.80)</td></tr><tr><td/><td>M7: b</td><td>\u00c03001.52</td><td>3.98 (M8 versus M7)</td><td>Not allowed</td></tr><tr><td/><td>M8a: b and fixed x</td><td>\u00c03000.10</td><td>1.14 (M8 versus M8a)</td><td>Not allowed</td></tr><tr><td/><td>M8: b and x</td><td>\u00c02999.53</td><td/><td>8, 106, 173, 397 (at P \u2265 0.80)</td></tr></table>",
+                "num": null,
+                "type_str": "table",
+                "text": "Likelihood values and sites inferred to be under positive selection for gene AGER in primates and murine rodents"
+            }
+        }
+    }
+}

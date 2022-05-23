@@ -1,0 +1,2645 @@
+{
+    "paper_id": "Phifer-Rixeyetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:31:15.795102Z"
+    },
+    "title": "Adaptive Evolution and Effective Population Size in Wild House Mice",
+    "authors": [
+        {
+            "first": "Megan",
+            "middle": [],
+            "last": "Phifer-Rixey",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Arizona",
+                "location": {}
+            },
+            "email": ""
+        },
+        {
+            "first": "Franc",
+            "middle": [],
+            "last": "Xois Bonhomme",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "CNRS UMR5554",
+                "location": {
+                    "settlement": "Montpellier",
+                    "country": "France"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Pierre",
+            "middle": [],
+            "last": "Boursot",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "CNRS UMR5554",
+                "location": {
+                    "settlement": "Montpellier",
+                    "country": "France"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Gary",
+            "middle": [
+                "A"
+            ],
+            "last": "Churchill",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "The Jackson Laboratory",
+                "institution": "",
+                "location": {
+                    "settlement": "Bar Harbor, Maine"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Jaroslav",
+            "middle": [],
+            "last": "Pi\u00e1lek",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Academy of Sciences of the Czech Republic, Brno and Studenec",
+                "location": {
+                    "country": "Czech Republic"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Priscilla",
+            "middle": [
+                "K"
+            ],
+            "last": "Tucker",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Michigan",
+                "location": {}
+            },
+            "email": ""
+        },
+        {
+            "first": "Michael",
+            "middle": [
+                "W"
+            ],
+            "last": "Nachman",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Arizona",
+                "location": {}
+            },
+            "email": ""
+        },
+        {
+            "first": "Matthew",
+            "middle": [],
+            "last": "Hahn",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Estimates of the proportion of amino acid substitutions that have been fixed by selection (a) vary widely among taxa, ranging from zero in humans to over 50% in Drosophila. This wide range may reflect differences in the efficacy of selection due to differences in the effective population size (N e). However, most comparisons have been made among distantly related organisms that differ not only in N e but also in many other aspects of their biology. Here, we estimate a in three closely related lineages of house mice that have a similar ecology but differ widely in N e : Mus musculus musculus (N e ; 25,000-120,000), M. m. domesticus (N e ; 58,000-200,000), and M. m. castaneus (N e ; 200,000-733,000). Mice were genotyped using a high-density single nucleotide polymorphism array, and the proportions of replacement and silent mutations within subspecies were compared with those fixed between each subspecies and an outgroup, Mus spretus. There was significant evidence of positive selection in M. m. castaneus, the lineage with the largest N e , with a estimated to be approximately 40%. In contrast, estimates of a for M. m. domesticus (a 5 13%) and for M. m. musculus (a 5 12 %) were much smaller. Interestingly, the higher estimate of a for M. m. castaneus appears to reflect not only more adaptive fixations but also more effective purifying selection. These results support the hypothesis that differences in N e contribute to differences among species in the efficacy of selection.",
+    "pdf_parse": {
+        "paper_id": "Phifer-Rixeyetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Estimates of the proportion of amino acid substitutions that have been fixed by selection (a) vary widely among taxa, ranging from zero in humans to over 50% in Drosophila. This wide range may reflect differences in the efficacy of selection due to differences in the effective population size (N e). However, most comparisons have been made among distantly related organisms that differ not only in N e but also in many other aspects of their biology. Here, we estimate a in three closely related lineages of house mice that have a similar ecology but differ widely in N e : Mus musculus musculus (N e ; 25,000-120,000), M. m. domesticus (N e ; 58,000-200,000), and M. m. castaneus (N e ; 200,000-733,000). Mice were genotyped using a high-density single nucleotide polymorphism array, and the proportions of replacement and silent mutations within subspecies were compared with those fixed between each subspecies and an outgroup, Mus spretus. There was significant evidence of positive selection in M. m. castaneus, the lineage with the largest N e , with a estimated to be approximately 40%. In contrast, estimates of a for M. m. domesticus (a 5 13%) and for M. m. musculus (a 5 12 %) were much smaller. Interestingly, the higher estimate of a for M. m. castaneus appears to reflect not only more adaptive fixations but also more effective purifying selection. These results support the hypothesis that differences in N e contribute to differences among species in the efficacy of selection.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Resolving the relative contributions of stochastic and adaptive processes to amino acid substitutions remains a fundamental goal of evolutionary biology. Several methods have been developed to empirically estimate the proportion of amino acid substitutions fixed by positive selection termed a (e.g., Bustamante et al. 2001; Smith and Eyre-Walker 2002;  Eyre-Walker and Keightley 2009) . These methods follow from the neutral expectation that the ratio of synonymous to nonsynonymous mutations should be the same within and between species (McDonald and Kreitman 1991) . Assuming that synonymous variation is not under selection, deviations from this expectation may be used to estimate a (e.g., Smith and Eyre-Walker 2002; Fay et al. 2002) .",
+                "cite_spans": [
+                    {
+                        "start": 301,
+                        "end": 324,
+                        "text": "Bustamante et al. 2001;",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 325,
+                        "end": 352,
+                        "text": "Smith and Eyre-Walker 2002;",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 353,
+                        "end": 353,
+                        "text": "",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 370,
+                        "end": 385,
+                        "text": "Keightley 2009)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 540,
+                        "end": 568,
+                        "text": "(McDonald and Kreitman 1991)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 696,
+                        "end": 723,
+                        "text": "Smith and Eyre-Walker 2002;",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 724,
+                        "end": 740,
+                        "text": "Fay et al. 2002)",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "The fraction of substitutions fixed by selection is a function of N e s, where N e is the effective population size and s is the selection coefficient (Kimura 1983) . Therefore, differences in estimates of a among taxa may reflect differences in s, differences in N e , or both. N e is expected to influence the contribution of positive selection to amino acid substitution in two ways. First, given an equal rate of mutation, larger populations will have a greater input of new mutations simply due to the greater number of individuals contributing mutations. Second, drift can overwhelm selection in small populations such that mutations with s on the order of 1/N e or smaller will behave as if effectively neutral (e.g., Ohta 1973; Kimura 1983) . Consequently, a is predicted to be larger in larger populations. Indeed, empirical studies provide support for a correlation between N e and rates of adaptive substitution. Taxa with the highest estimates of a tend to have high N e . In Drosophila, estimates of a are consistently above 50% (Smith and Eyre-Walker 2002; Andolfatto 2007; Begun et al. 2007; Maside and Charlesworth 2007; Shapiro et al. 2007; Bachtrog 2008; Eyre-Walker and Keightley 2009 ; for review, see Sella et al. 2009) . Estimates of a in the European Aspen, Populus tremula (N e ; 10 5 ), and the outcrossing crucifer, Capsella grandiflora (N e ; 5 \u00c2 10 5 ), are also large and in the range of 30-40% (Ingvarsson 2010; Slotte et al. 2010) . Among mammals, there is evidence that a is large (up to 57%; Halligan et al. 2010) in the house mouse, Mus musculus castaneus for which N e estimates range from 200,000 to over 700,000 (Geraldes et al. 2008 (Geraldes et al. , 2011 Halligan et al. 2010 ). On the other hand, in Arabidopsis (Foxe et al. 2008) , yeast (Doniger et al. 2008) , and humans (Mikkelsen et al. 2005; Zhang and Li 2005; Boyko et al. 2008) , taxa with low N e , adaptive substitutions appear to represent only a small fraction of amino acid divergence. However, these comparisons are between taxa that differ not only in N e but also in many aspects of their biology. To separate the effects of s and N e , one would ideally like to compare closely related taxa that differ in N e but are otherwise similar. Two recent studies have taken this approach, one comparing two fruit fly species separated by ;2 my (Jensen and Bachtrog 2011) and the other comparing multiple species of sunflowers diverging roughly 8 Ma (Strasburg et al. 2011) . Although the taxa compared are still separated by millions of years, they are more closely related than any previous comparisons and, in both studies, the species with larger N e showed more evidence of adaptive fixations.",
+                "cite_spans": [
+                    {
+                        "start": 151,
+                        "end": 164,
+                        "text": "(Kimura 1983)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 725,
+                        "end": 735,
+                        "text": "Ohta 1973;",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 736,
+                        "end": 748,
+                        "text": "Kimura 1983)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1042,
+                        "end": 1070,
+                        "text": "(Smith and Eyre-Walker 2002;",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 1071,
+                        "end": 1087,
+                        "text": "Andolfatto 2007;",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 1088,
+                        "end": 1106,
+                        "text": "Begun et al. 2007;",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 1107,
+                        "end": 1136,
+                        "text": "Maside and Charlesworth 2007;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1137,
+                        "end": 1157,
+                        "text": "Shapiro et al. 2007;",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1158,
+                        "end": 1172,
+                        "text": "Bachtrog 2008;",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 1173,
+                        "end": 1203,
+                        "text": "Eyre-Walker and Keightley 2009",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 1222,
+                        "end": 1240,
+                        "text": "Sella et al. 2009)",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 1424,
+                        "end": 1441,
+                        "text": "(Ingvarsson 2010;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 1442,
+                        "end": 1461,
+                        "text": "Slotte et al. 2010)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 1525,
+                        "end": 1546,
+                        "text": "Halligan et al. 2010)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 1649,
+                        "end": 1670,
+                        "text": "(Geraldes et al. 2008",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 1671,
+                        "end": 1694,
+                        "text": "(Geraldes et al. , 2011",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1695,
+                        "end": 1715,
+                        "text": "Halligan et al. 2010",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 1753,
+                        "end": 1771,
+                        "text": "(Foxe et al. 2008)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 1780,
+                        "end": 1801,
+                        "text": "(Doniger et al. 2008)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 1815,
+                        "end": 1838,
+                        "text": "(Mikkelsen et al. 2005;",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 1839,
+                        "end": 1857,
+                        "text": "Zhang and Li 2005;",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 1858,
+                        "end": 1876,
+                        "text": "Boyko et al. 2008)",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 2345,
+                        "end": 2371,
+                        "text": "(Jensen and Bachtrog 2011)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 2450,
+                        "end": 2473,
+                        "text": "(Strasburg et al. 2011)",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Here, we build on these results by comparing ratios of synonymous to nonsynonymous mutations within and between subspecies of house mice. These three subspecies are estimated to have diverged ;500,000 years ago (Geraldes et al. 2008 (Geraldes et al. , 2011 Duvaux et al. 2011) and show some evidence of reproductive isolation (e.g., Britton-Davidian et al. 2005; Good et al. 2008) . All three subspecies are commensal with humans and thus occupy similar ecological niches. Although estimates of N e are large for M. m. castaneus (see above), they are much smaller for M. m. domesticus (;58,000-200,000) and M. m. musculus (;25,000-120,000) (Salcedo et al. 2007; Geraldes et al. 2008 Geraldes et al. , 2011 Halligan et al. 2010 ; see supplementary table 1, Supplementary Material online). We find significant evidence of positive selection only in the subspecies with the highest N e , M. m. castaneus. However, higher estimates of a for M. m. castaneus appear to result not only from more adaptive fixations but also from more effective purifying selection.",
+                "cite_spans": [
+                    {
+                        "start": 211,
+                        "end": 232,
+                        "text": "(Geraldes et al. 2008",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 233,
+                        "end": 256,
+                        "text": "(Geraldes et al. , 2011",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 257,
+                        "end": 276,
+                        "text": "Duvaux et al. 2011)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 333,
+                        "end": 362,
+                        "text": "Britton-Davidian et al. 2005;",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 363,
+                        "end": 380,
+                        "text": "Good et al. 2008)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 640,
+                        "end": 661,
+                        "text": "(Salcedo et al. 2007;",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 662,
+                        "end": 682,
+                        "text": "Geraldes et al. 2008",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 683,
+                        "end": 705,
+                        "text": "Geraldes et al. , 2011",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 706,
+                        "end": 726,
+                        "text": "Halligan et al. 2010",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "All mice were wild-caught or from wild-derived inbred strains (supplementary table 2, Supplementary Material online). We first conducted analyses using only wild-caught individuals, including 10 M. m. castaneus from India, 8 M. m. domesticus from Western Europe, and 14 M. m. musculus from Eastern Europe. To provide a more evenly distributed geographical sample, we then expanded our analysis to include several wild-derived inbred lines from each of the three subspecies. Results from these two different sampling strategies were broadly concordant. A wild-derived laboratory strain of Mus spretus was included as an outgroup in all analyses (supplementary fig. 1 , Supplementary Material online; Tucker et al. 2005) . Mus spretus diverged from M. musculus approximately 1 Ma (She et al. 1990; Suzuki et al. 2004 ).",
+                "cite_spans": [
+                    {
+                        "start": 699,
+                        "end": 718,
+                        "text": "Tucker et al. 2005)",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 778,
+                        "end": 795,
+                        "text": "(She et al. 1990;",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 796,
+                        "end": 814,
+                        "text": "Suzuki et al. 2004",
+                        "ref_id": "BIBREF39"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 659,
+                        "end": 665,
+                        "text": "fig. 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Samples",
+                "sec_num": null
+            },
+            {
+                "text": "The McDonald-Kreitman (MK) framework is based on a comparison of synonymous and nonsynonymous mutations (McDonald and Kreitman 1991) . Data for this comparison typically come from DNA sequences of individual genes or sets of genes (e.g., Halligan et al. 2010) . Here, we take advantage of a newly developed Affymetrix genotyping array that interrogates over 600,000 single nucleotide polymorphisms (SNPs) across the genome to assess patterns of nonsynonymous and synonymous variation (Yang et al. 2009 (Yang et al. , 2011 . In this study, we focus only on those SNPs found in autosomal coding regions, a set of over 6,200 SNPs from more than 4,100 genes. The SNPs cover all of the autosomes at an average density of 2.5 SNPs/Mb (standard deviation 5 0.75). DNA samples were prepared at the University of Arizona or at the University of North Carolina, and genotyping was performed at the Jackson Laboratory. Details on base calling can be found in Yang et al. (2011) .",
+                "cite_spans": [
+                    {
+                        "start": 104,
+                        "end": 132,
+                        "text": "(McDonald and Kreitman 1991)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 238,
+                        "end": 259,
+                        "text": "Halligan et al. 2010)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 484,
+                        "end": 501,
+                        "text": "(Yang et al. 2009",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 502,
+                        "end": 521,
+                        "text": "(Yang et al. , 2011",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 948,
+                        "end": 966,
+                        "text": "Yang et al. (2011)",
+                        "ref_id": "BIBREF42"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Genotyping",
+                "sec_num": null
+            },
+            {
+                "text": "The use of a genotyping array rather than DNA sequences of individual genes has both advantages and disadvantages. SNP genotyping has the principal advantage of being a relatively low cost, high throughput method, enabling a survey of coding regions throughout the genome. Therefore, SNP genotyping reduces the biases that might be introduced by sampling a limited set of genes, biases that may be significant for traditional sequencing studies. The chief disadvantage of this approach lies in the potential ascertainment bias of SNPs interrogated by the array. First, although SNPs included are likely to represent variation segregating at higher frequencies, this bias, in and of itself, does not preclude the use of the MK framework. In addition, low-frequency variants are often removed from MK analyses (Fay et al. 2001 (Fay et al. , 2002 because they contain disproportionately more weakly deleterious mutations. Second, bias can result if a chip developed solely from data from one taxon is applied to others. SNPs on the Affymetrix chip were ascertained in a sample of house mice that included all three subspecies, but there is some evidence of ascertainment bias in SNPs used in this study (Yang et al. 2011) . The average minor allele frequency (MAF) was slightly higher for M. m. domesticus, the subspecies in which the majority of SNPs on the Affymetrix chip were ascertained, than for M. m. castaneus or M. m. musculus (MAF (standard error): M. m. domesticus, synonymous 5 0.242 (0.003), nonsynonymous 5 0.234 (0.007); M. m. castaneus, synonymous 5 0.229 (0.004), nonsynonymous 5 0.214 (0.008); M. m. musculus, synonymous 5 0.203 (0.005), nonsynonymous 5 0.203 (0.008)). However, the average MAF for the other two subspecies was also high, and all three subspecies have appreciable numbers of sites segregating at intermediate frequencies ( supplementary fig. 2 , Supplementary Material online). Finally, because the MK framework compares ratios of synonymous and nonsynonymous mutations, bias in the results due to the manner in which SNPs were chosen would require not only that nonsynonymous or synonymous SNPs were preferentially included on the array but also that this was done differently for the three subspecies, which seems unlikely. Empirical evidence that the conclusions are not strongly biased comes from the comparison of our results for one subspecies (M. m. castaneus) to those of Halligan et al. (2010) who conducted analyses based on DNA sequences sampled from the same populations and obtained similar values of a (see Discussion).",
+                "cite_spans": [
+                    {
+                        "start": 808,
+                        "end": 824,
+                        "text": "(Fay et al. 2001",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 825,
+                        "end": 843,
+                        "text": "(Fay et al. , 2002",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 1200,
+                        "end": 1218,
+                        "text": "(Yang et al. 2011)",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 2412,
+                        "end": 2434,
+                        "text": "Halligan et al. (2010)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1855,
+                        "end": 1875,
+                        "text": "supplementary fig. 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Genotyping",
+                "sec_num": null
+            },
+            {
+                "text": "Phifer-Rixey et al. \u2022 doi:10.1093/molbev/mss105 MBE One limitation of the use of ascertained SNPs is that estimates of polymorphism are not comparable to traditional estimates of diversity from sequence studies and do not reflect the true site frequency spectra (SFSs). As a result, we cannot use our data to estimate N e nor can we use methods based on the SFS to estimate a. Instead, we refer to previously published estimates of N e (supplementary table 1, Supplementary Material online).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Genotyping",
+                "sec_num": null
+            },
+            {
+                "text": "We compared polymorphism within each of the three subspecies of M. musculus to fixed differences between M. musculus and M. spretus. Sites with missing data for a given pairwise comparison were excluded. We also excluded sites at which any of the sampled alleles were designated as VINOs (variable intensity oligonucleotides; for details, see Yang et al. 2011; Didion et al. 2012) . Variation at each coding site was classified as either synonymous or nonsynonymous based on Ensembl notation (Build 63) of base position in the Mus musculus reference sequence (Build 37). If a site had conflicting overlapping designations, fell within noncoding regions in any transcript or fell within a coding region with no stop or start codon, it was excluded from the analysis. To mitigate the effects of nearly neutral mutations that may contribute proportionally more to polymorphism than to divergence, MK tests are often repeated, excluding polymorphisms that fall below a given threshold (Fay et al. 2001 (Fay et al. , 2002 . Although such an approach is arbitrary, it does address the potential underestimation of a and can be applied to SNP data. We repeated all analyses, counting polymorphic sites only when the MAF exceeded 10% or 20%, levels chosen to represent meaningful differences given the number of alleles sampled. Significance levels were calculated using v 2 tests. We then calculated the neutrality index (NI; Rand and Kann 1996) ,",
+                "cite_spans": [
+                    {
+                        "start": 343,
+                        "end": 360,
+                        "text": "Yang et al. 2011;",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 361,
+                        "end": 380,
+                        "text": "Didion et al. 2012)",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 981,
+                        "end": 997,
+                        "text": "(Fay et al. 2001",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 998,
+                        "end": 1016,
+                        "text": "(Fay et al. , 2002",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 1419,
+                        "end": 1438,
+                        "text": "Rand and Kann 1996)",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Estimates of a",
+                "sec_num": null
+            },
+            {
+                "text": "NI 5 P ns F ns = P s F s ;",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Estimates of a",
+                "sec_num": null
+            },
+            {
+                "text": "where P ns is the number of polymorphic nonsynonymous sites, F ns is the number of fixed nonsynonymous sites, P s is the number of polymorphic synonymous sites, and F s is the number of fixed synonymous sites. Neutrality indices less than one are consistent with positive selection, whereas values greater than one are consistent with weak purifying selection. From NI, we estimated a (Smith and Eyre-Walker 2002):",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Estimates of a",
+                "sec_num": null
+            },
+            {
+                "text": "a 5 1 \u00c0 NI:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Estimates of a",
+                "sec_num": null
+            },
+            {
+                "text": "Confidence intervals (CI) were determined using 1,000 bootstrap replicates of sites. These calculations were completed using a combination of custom PERL and R scripts.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Estimates of a",
+                "sec_num": null
+            },
+            {
+                "text": "The Impact of Population Structure and Changes in N e Hidden population structure and admixture can result in biased estimates of a. In addition, changes in N e may bias estimates of a. For example, consider a population that has contracted at some time in the past and then expanded to its current size. Weakly deleterious amino acid mutations may have fixed when the population was smaller, inflating estimates of a (McDonald and Kreitman 1991) . Reductions in N e may produce the opposite result, underestimating a (Eyre-Walker and Keightley 2009) . However, the effects of changes in N e on estimates of a are complex, dependent on the number of mutations that are nearly neutral, and thus difficult to predict (Charlesworth and Eyre-Walker 2006; Eyre-Walker and Keightley 2009) . In this study, all subspecies are believed to have expanded in the recent past as human commensals (Rajabi-Maham et al. 2008) and in M. m. domesticus and M. m. musculus, there is evidence that those expansions were preceded by major contractions (Rajabi-Maham et al. 2008; Duvaux et al. 2011) . The ancestral N e of these subspecies has been estimated at ;400,000-500,000 (Geraldes et al. 2011) and is closest to the estimated current N e of M. m. castaneus. Therefore, changes in N e may lead to overestimates of a in M. m. domesticus and M. m. musculus and underestimates of a in M. m. castaneus (see Discussion). Finally, we note that the wild-caught M. m. castaneus were sampled from the presumed ancestral range of house mice, whereas wildcaught M. m. musculus and M. m. domesticus were sampled from derived populations.",
+                "cite_spans": [
+                    {
+                        "start": 418,
+                        "end": 446,
+                        "text": "(McDonald and Kreitman 1991)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 535,
+                        "end": 550,
+                        "text": "Keightley 2009)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 715,
+                        "end": 750,
+                        "text": "(Charlesworth and Eyre-Walker 2006;",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 751,
+                        "end": 782,
+                        "text": "Eyre-Walker and Keightley 2009)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 884,
+                        "end": 910,
+                        "text": "(Rajabi-Maham et al. 2008)",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 1031,
+                        "end": 1057,
+                        "text": "(Rajabi-Maham et al. 2008;",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 1058,
+                        "end": 1077,
+                        "text": "Duvaux et al. 2011)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 1157,
+                        "end": 1179,
+                        "text": "(Geraldes et al. 2011)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Estimates of a",
+                "sec_num": null
+            },
+            {
+                "text": "We addressed the potential effects of these demographic phenomena in three ways. First, as stated above, we repeated our analyses with different thresholds for polymorphism. Second, we used STRUCTURE to test for evidence of admixture between subspecies and for evidence of further subdivision within each subspecies (Pritchard et al. 2000 ; see supplementary analyses, Supplementary Material online). Using these results, we repeated our analyses with subsamples from each subspecies that showed little evidence of subdivision. Third, to make sampling more consistent between subspecies, we expanded our study to include wild-derived inbred lines (6 in M. m. castaneus, 20 in M. m. domesticus, and 8 in M. m. musculus; supplementary table 2, Supplementary Material online). By doing so, we increased both the number of alleles sampled and the geographic range of the samples, including alleles from the ancestral and derived ranges of each subspecies. Using this expanded sample, we again repeated the estimation of a (see supplementary analyses, Supplementary Material online). As seen below, results were similar for all analyses.",
+                "cite_spans": [
+                    {
+                        "start": 316,
+                        "end": 338,
+                        "text": "(Pritchard et al. 2000",
+                        "ref_id": "BIBREF29"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Estimates of a",
+                "sec_num": null
+            },
+            {
+                "text": "Estimates of the NI and of a for each of the three subspecies of M. musculus are given in table 1. Whether low-frequency polymorphisms were excluded or not, M. m. castaneus had the largest values of a (0.37-0.43), whereas estimates for M. m. domesticus and M. m. musculus were much smaller (0.10-0.16 and 0.10-0.13, respectively). Notably, it is only in M. m. castaneus that CIs for a did not include zero. Estimates of N e were taken from the literature and are based on data from resequencing studies (supplementary table 1 It is important to note that although a is defined as the contribution of positive selection to amino acid substitution, estimates of a are influenced not only by the ratio of replacement to silent fixed differences but also by the ratio of replacement to silent polymorphism. Therefore, more effective positive selection can be confounded with more effective purifying selection. A simple comparison of the ratios of replacement to silent polymorphisms and ratios of replacement to silent fixations among subspecies in our study suggests that both purifying selection and positive selection are more effective in M. m. castaneus, contributing to higher overall estimates of a (table 1). The ratio of replacement to silent polymorphism, which reflects purifying selection, is lower in M. m. castaneus than in either M. m. musculus or M. m. domesticus, whereas the ratio of replacement to silent fixed differences, which reflects adaptive fixation, is higher in M. m. castaneus than in either M. m. musculus or M. m. domesticus.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 503,
+                        "end": 525,
+                        "text": "(supplementary table 1",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Estimates of a",
+                "sec_num": null
+            },
+            {
+                "text": "The use of a closely related outgroup can result in biased estimates of a when diversity is high relative to divergence (Keightley and Eyre-Walker 2012) . One potential source of bias is the misattribution of polymorphism to divergence, particularly when a single allele is sampled from either the focal taxon or the outgroup. Neutral polymorphisms misattributed to divergence tend to dilute estimates of a, ",
+                "cite_spans": [
+                    {
+                        "start": 120,
+                        "end": 152,
+                        "text": "(Keightley and Eyre-Walker 2012)",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Estimates of a",
+                "sec_num": null
+            },
+            {
+                "text": "whereas slightly deleterious mutations tend to inflate estimates of a. Bias may also result from the contribution of ancestral polymorphism to divergence and from the differences in rates of fixation of neutral and advantageous alleles (Keightley and Eyre-Walker 2012) . In this study, we sampled multiple individuals of the focal taxon and a single allele from the outgroup because it allowed us to survey more sites. However, we addressed the potential misattribution of polymorphism to divergence by repeating the analysis using genotype data for five additional inbred lines of M. spretus only counting fixed differences when there was no variation segregating in M. spretus. Results were similar (supplementary table 3 , Supplementary Material online).",
+                "cite_spans": [
+                    {
+                        "start": 236,
+                        "end": 268,
+                        "text": "(Keightley and Eyre-Walker 2012)",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 701,
+                        "end": 723,
+                        "text": "(supplementary table 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "MBE",
+                "sec_num": null
+            },
+            {
+                "text": "Population structure and changes in population size can result in biased estimates of a. We found no evidence for significant admixture among subspecies in our wild-caught samples, a result that is in agreement with previous analysis (Yang et al. 2011) . We also found no evidence for hidden structure within M. m. domesticus (see supplementary analyses, Supplementary Material online). There was evidence for subdivision within our samples of M. m. castaneus and M. m. musculus (see supplementary analyses, Supplementary Material online). However, we estimated a again for both subspecies using the largest sample for which there was no evidence of subdivision (eight individuals for M. m. castaneus and six for M. m. musculus) and found very similar results (supplementary table 4 , Supplementary Material online). Estimates of a for M. m. castaneus ranged from 0.39 to 0.43 and for M. m. musculus from 0.07 to 0.09. Changes in N e could also affect the interpretation of our results. However, the fact that similar patterns were obtained using all the data and when low-frequency polymorphisms were excluded (table 1) suggests that the bias introduced by changes in N e may not be great. In addition, we expanded our sample to include wild-derived inbred lines from a larger geographic range for each subspecies (see supplementary analyses, Supplementary Material online). Although this analysis does not address the impact of changes in N e directly, it does mitigate the potential impact of our sampling on the effects of such changes. Estimates of a for the expanded sample were lower in M. m. Andolfatto 2007; Boyko et al. 2008; Doniger et al. 2008; Foxe et al. 2008; Halligan et al. 2010; Ingvarsson 2010; Slotte et al. 2010) . The contribution of positive selection to amino acid divergence is expected to depend on both selective and demographic processes. However, previous comparisons of a among taxa have largely been restricted to groups that are relatively distantly related, varying in aspects of ecology and life history and in N e (but see Jensen and Bachtrog 2011; Strasburg et al. 2011) . In this study, we demonstrate that three closely related taxa with similar ecology and life history show marked variation in a. Furthermore, as reported for fruit flies and sunflowers (Jensen and Bachtrog 2011; Strasburg et al. 2011) , observed variation in estimates of a among house mouse subspecies is consistent with differences in estimates of N e . Our analyses were based on polymorphism and divergence in ascertained SNPs rather than in DNA sequence data, allowing us to survey the genome broadly. Ascertainment bias in a form that could affect our results seems unlikely (see Materials and Methods), and comparison of levels of variation among polymorphic sites in the three subspecies provides evidence that ascertainment was not dramatically different among subspecies. In addition, our results for M. m. castaneus are consistent with previously published estimates of a based on DNA sequence analysis. Halligan et al. (2010) used resequencing data from 77 autosomal loci to estimate a for M. m. castaneus collected from the same geographic region surveyed in our study. Using a variety of different methods, their estimates of a based on comparisons among 0-fold and 4-fold degenerate sites ranged from 0.22 to 0.57. Despite using different outgroups, their estimates are in good agreement with ours (0.37-0.43). However, it is worth considering how ascertainment bias could affect our results. If the SNPs were primarily discovered in M. m. domesticus, then they may be expected to be at higher frequencies in M. m. domesticus than in M. m. castaneus. Since deleterious replacement mutations will mostly be in excess on the low-frequency end, ascertainment bias could result in a higher ratio of replacement to silent polymorphism in the subspecies in which the SNPs were not ascertained. In this case, we observed the opposite pattern: M. m. castaneus has the lowest rates of replacement to silent polymorphism.",
+                "cite_spans": [
+                    {
+                        "start": 234,
+                        "end": 252,
+                        "text": "(Yang et al. 2011)",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 1600,
+                        "end": 1616,
+                        "text": "Andolfatto 2007;",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 1617,
+                        "end": 1635,
+                        "text": "Boyko et al. 2008;",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 1636,
+                        "end": 1656,
+                        "text": "Doniger et al. 2008;",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 1657,
+                        "end": 1674,
+                        "text": "Foxe et al. 2008;",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 1675,
+                        "end": 1696,
+                        "text": "Halligan et al. 2010;",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 1697,
+                        "end": 1713,
+                        "text": "Ingvarsson 2010;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 1714,
+                        "end": 1733,
+                        "text": "Slotte et al. 2010)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 2058,
+                        "end": 2083,
+                        "text": "Jensen and Bachtrog 2011;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 2084,
+                        "end": 2106,
+                        "text": "Strasburg et al. 2011)",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 2293,
+                        "end": 2319,
+                        "text": "(Jensen and Bachtrog 2011;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 2320,
+                        "end": 2342,
+                        "text": "Strasburg et al. 2011)",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 3023,
+                        "end": 3045,
+                        "text": "Halligan et al. (2010)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 760,
+                        "end": 782,
+                        "text": "(supplementary table 4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1111,
+                        "end": 1120,
+                        "text": "(table 1)",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "The Impact of Population Structure and Demography",
+                "sec_num": null
+            },
+            {
+                "text": "Population Structure, Changes in N e , and Estimates of a Population structure and changes in N e are predicted to affect estimates of a. In this study, the potential impact of demography is particularly relevant because of the close relationship between the subspecies. Exploring the relationship between N e and the contribution of positive selection to amino acid substitution using recently diverged taxa has the advantage of minimizing the effects of differing biology. However, recently diverged taxa necessarily share evolutionary history, having evolved together away from the outgroup until the time of their divergence. In this case, the three subspecies of M. musculus diverged from each Adaptive Evolution in Wild House Mice \u2022 doi:10.1093/molbev/mss105 MBE other ;500,000 years ago, whereas they diverged from M. spretus ; 1 Ma. Therefore, the time during which they experienced differences in N e is relatively short. As a result, estimates of a may be particularly influenced by the effects of changes in N e reflected in patterns of polymorphism rather than differences in positive selection reflected in patterns of divergence (Keightley and Eyre-Walker 2012) .",
+                "cite_spans": [
+                    {
+                        "start": 1143,
+                        "end": 1175,
+                        "text": "(Keightley and Eyre-Walker 2012)",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "The Impact of Population Structure and Demography",
+                "sec_num": null
+            },
+            {
+                "text": "Ideally, a could be estimated using a lineage specific approach. Because there is limited power for such an approach with this data set, it is important to consider the potential impact of shared evolutionary history and changes in N e on the interpretation of results. Estimates of the ancestral N e range from ;400,000 to ;500,000 (Geraldes et al. 2011) , slightly smaller than estimates of N e for M. m. castaneus and substantially larger than estimates of N e for M. m. musculus or M. m. domesticus. Although increases in N e in M. m. castaneus are predicted to lead to underestimates of a, population contractions in M. m. domesticus and M. m. musculus may have resulted in overestimates of a due to the fixation or near fixation of slightly deleterious mutations segregating prior to the bottlenecks. Both of these potential biases suggest that the inference of more positive selection in M. m. castaneus relative to the other two subspecies is conservative. Nevertheless, specific biases are difficult to predict without more detailed information on the demographic history of the subspecies. The nature of ascertained SNPs prevents the application of methods based on the SFS that have been developed to better account for complex demographic scenarios (Keightley and Eyre-Walker 2007; Eyre-Walker and Keightley 2009) . However, we have attempted to test the robustness of our result repeating our analysis with different thresholds for polymorphism, with subsamples to reduce population subdivision within subspecies, and with additional sampling of wild-derived inbred lines to cover a broader geographic range across the subspecies. We consistently found evidence of a significant contribution of positive selection to amino acid substitution for the subspecies with the largest N e , M. m. castaneus, whereas finding little evidence of positive selection in the other two subspecies.",
+                "cite_spans": [
+                    {
+                        "start": 333,
+                        "end": 355,
+                        "text": "(Geraldes et al. 2011)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1261,
+                        "end": 1293,
+                        "text": "(Keightley and Eyre-Walker 2007;",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 1294,
+                        "end": 1325,
+                        "text": "Eyre-Walker and Keightley 2009)",
+                        "ref_id": "BIBREF11"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "The Impact of Population Structure and Demography",
+                "sec_num": null
+            },
+            {
+                "text": "Importantly, we also found evidence that purifying selection is more effective in the species with the largest N e , M. m. castaneus. Estimates of a depend on both the ratio of replacement to silent fixed differences, which reflects positive selection, and the ratio of replacement to silent polymorphisms, which reflects purifying selection. Our results underscore that dependence and caution against the strict interpretation of differences in a among taxa as evidence for differences in adaptive substitution.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "The Impact of Population Structure and Demography",
+                "sec_num": null
+            },
+            {
+                "text": "This study is among the first genome-wide attempts to compare estimates of a among close relatives that occupy similar niches but differ in N e . The marked and consistent differences in estimates of a among the subspecies observed in this study suggest that this system is well suited for further investigation of the impact of N e on the efficacy of selection. The likely complex demographic histories of the subspecies add to that potential, providing an opportunity to test theoretical predictions in wild populations.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "The Impact of Population Structure and Demography",
+                "sec_num": null
+            },
+            {
+                "text": "Supplementary analyses, tables 1-9, figures 1 and 2, and data table 1 are available at Molecular Biology and Evolution online (http://www.mbe.oxfordjournals.org/).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Supplementary Material",
+                "sec_num": null
+            },
+            {
+                "text": "(10):2949-2955. 2012 doi:10.1093/molbev/mss105 Advance Access publication April 3, 2012 Downloaded from https://academic.oup.com/mbe/article/29/10/2949/1025826 by guest on 07 October 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/mbe/article/29/10/2949/1025826 by guest on 07 October 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "This work was supported by the National Institutes of Health (GM074245 to M.W.N. and GM076468 to G.A.C.) and the Czech Science Foundation (206/08/0640 to J.P.). We thank F. Pardo-Manuel de Villena for help with sample preparation and F. Pardo-Manuel de Villena, J. Didion, and H. Yang for assistance with the genotyping data used in this study. We thank M. Bomhoff and P. Degnan for assistance with PERL programming. We also thank P. Campbell, B. Harr, F. Mendez, F. Pardo-Manuel de Villena, J.B. Walsh, and reviewers for their thoughtful comments.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgments",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Hitchhiking effects of recurrent beneficial amino acid substitutions in the Drosophila melanogaster genome",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Andolfatto",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Andolfatto P. 2007. Hitchhiking effects of recurrent beneficial amino acid substitutions in the Drosophila melanogaster genome.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Similar rates of protein adaptation in Drosophila miranda and D. melanogaster, two species with different current effective population sizes",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Bachtrog",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "BMC Evol Biol",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bachtrog D. 2008. Similar rates of protein adaptation in Drosophila miranda and D. melanogaster, two species with different current effective population sizes. BMC Evol Biol. 8:334.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Population genomics: whole-genome analysis of polymorphism and divergence in Drosophila simulans",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Begun",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Holloway",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Stevens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "PLoS Biol",
+                "volume": "5",
+                "issue": "13",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Begun DJ, Holloway AK, Stevens K, et al. (13 co-authors). 2007. Population genomics: whole-genome analysis of polymor- phism and divergence in Drosophila simulans. PLoS Biol. 5: e310.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Assessing the evolutionary impact of amino acid mutations in the human genome",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Boyko",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Williamson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Indap",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "PLoS Genet",
+                "volume": "4",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Boyko AR, Williamson SH, Indap AR, et al. (14 co-authors). 2008. Assessing the evolutionary impact of amino acid mutations in the human genome. PLoS Genet. 4:e1000083.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Postzygotic isolation between the two European subspecies of the house mouse: estimates from fertility patterns in wild and laboratory-bred hybrids",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Britton-Davidian",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Fel-Clair",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Lopez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Alibert",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Boursot",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biol J Linn Soc",
+                "volume": "84",
+                "issue": "",
+                "pages": "379--393",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Britton-Davidian J, Fel-Clair F, Lopez J, Alibert P, Boursot P. 2005. Postzygotic isolation between the two European subspecies of the house mouse: estimates from fertility patterns in wild and laboratory-bred hybrids. Biol J Linn Soc. 84:379-393.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Directional selection and the site-frequency spectrum",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Bustamante",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Wakeley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Sawyer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Hartl",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Genetics",
+                "volume": "159",
+                "issue": "",
+                "pages": "1779--1788",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bustamante CD, Wakeley J, Sawyer S, Hartl DL. 2001. Directional selection and the site-frequency spectrum. Genetics 159: 1779-1788.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "The rate of adaptive evolution in enteric bacteria",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Charlesworth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Eyre-Walker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Mol Biol Evol",
+                "volume": "23",
+                "issue": "",
+                "pages": "1348--1356",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Charlesworth J, Eyre-Walker A. 2006. The rate of adaptive evolution in enteric bacteria. Mol Biol Evol. 23:1348-1356.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Discovery of novel variants in genotyping arrays improves genotype retention and reduces ascertainment bias",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Didion",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Sheppard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C-P",
+                        "middle": [],
+                        "last": "Fu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Mcmillan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Pardo-Manuel De Villena",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Churchill",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "BMC Genomics",
+                "volume": "13",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Didion JP, Yang H, Sheppard K, Fu C-P, McMillan L, Pardo-Manuel de Villena F, Churchill GA. 2012. Discovery of novel variants in genotyping arrays improves genotype retention and reduces ascertainment bias. BMC Genomics. 13:34.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "A catalog of neutral and deleterious polymorphism in yeast",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Doniger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Kim",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Swain",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Corcuera",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Williams",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Yang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Fay",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "PLoS Genet",
+                "volume": "4",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Doniger SW, Kim HS, Swain D, Corcuera D, Williams M, Yang SP, Fay JC. 2008. A catalog of neutral and deleterious polymorphism in yeast. PLoS Genet. 4:e1000183.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Isolation and gene flow: inferring the speciation history of European house mice",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Duvaux",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Belkhir",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Boulesteix",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Boursot",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Mol Ecol",
+                "volume": "20",
+                "issue": "",
+                "pages": "5248--5264",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Duvaux L, Belkhir K, Boulesteix M, Boursot P. 2011. Isolation and gene flow: inferring the speciation history of European house mice. Mol Ecol. 20:5248-5264.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Estimating the rate of adaptive molecular evolution in the presence of slightly deleterious mutations and population size change",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Eyre-Walker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Keightley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Mol Biol Evol",
+                "volume": "26",
+                "issue": "",
+                "pages": "2097--2108",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Eyre-Walker A, Keightley PD. 2009. Estimating the rate of adaptive molecular evolution in the presence of slightly deleterious mutations and population size change. Mol Biol Evol. 26: 2097-2108.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Positive and negative selection on the human genome",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Fay",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Wyckoff",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Wu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Genetics",
+                "volume": "158",
+                "issue": "",
+                "pages": "1227--1234",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fay JC, Wyckoff GJ, Wu CI. 2001. Positive and negative selection on the human genome. Genetics 158:1227-1234.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Testing the neutral theory of molecular evolution with genomic data from Drosophila",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Fay",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Wyckoff",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Wu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Nature",
+                "volume": "415",
+                "issue": "",
+                "pages": "1024--1026",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fay JC, Wyckoff GJ, Wu CI. 2002. Testing the neutral theory of molecular evolution with genomic data from Drosophila. Nature 415:1024-1026.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Selection on amino acid substitutions in Arabidopsis",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Foxe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Vun",
+                        "middle": [],
+                        "last": "Dar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Zheng",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nordborg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Gaut",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Wright",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Mol Biol Evol",
+                "volume": "25",
+                "issue": "",
+                "pages": "1375--1383",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Foxe JP, Dar VUN, Zheng H, Nordborg M, Gaut BS, Wright SI. 2008. Selection on amino acid substitutions in Arabidopsis. Mol Biol Evol. 25:1375-1383.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Inferring the history of speciation in house mice from autosomal, X-linked, Y-linked and mitochondrial genes",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Geraldes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Basset",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Gibson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Harr",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Yu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Bulatova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Ziv",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Nachman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Mol Ecol",
+                "volume": "17",
+                "issue": "",
+                "pages": "5349--5363",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Geraldes A, Basset P, Gibson B, Smith KL, Harr B, Yu HT, Bulatova N, Ziv Y, Nachman MW. 2008. Inferring the history of speciation in house mice from autosomal, X-linked, Y-linked and mitochon- drial genes. Mol Ecol. 17:5349-5363.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Higher differentiation among subspecies of the house mouse (Mus musculus) in genomic regions with low recombination",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Geraldes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Basset",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Nachman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Mol Ecol",
+                "volume": "20",
+                "issue": "",
+                "pages": "4722--4736",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Geraldes A, Basset P, Smith KL, Nachman MW. 2011. Higher differentiation among subspecies of the house mouse (Mus musculus) in genomic regions with low recombination. Mol Ecol. 20:4722-4736.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Asymmetry and polymorphism of hybrid male sterility during the early stages of speciation in house mice",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Good",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Handel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Nachman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Evolution",
+                "volume": "62",
+                "issue": "",
+                "pages": "50--65",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Good JM, Handel MA, Nachman MW. 2008. Asymmetry and polymorphism of hybrid male sterility during the early stages of speciation in house mice. Evolution 62:50-65.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Evidence for pervasive adaptive protein evolution in wild mice",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Halligan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Oliver",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Eyre-Walker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Harr",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Keightley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "PLoS Genet",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Halligan DL, Oliver F, Eyre-Walker A, Harr B, Keightley PD. 2010. Evidence for pervasive adaptive protein evolution in wild mice. PLoS Genet. 6:e1000825.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Natural selection on synonymous and nonsynonymous mutations shapes patterns of polymorphism in Populus tremula",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Ingvarsson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mol Biol Evol",
+                "volume": "27",
+                "issue": "",
+                "pages": "650--660",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ingvarsson PK. 2010. Natural selection on synonymous and nonsynonymous mutations shapes patterns of polymorphism in Populus tremula. Mol Biol Evol. 27:650-660.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Characterizing the influence of effective population size on the rate of adaptation: Gillespie's Darwin Domain",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Jensen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Bachtrog",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Genome Biol Evol",
+                "volume": "3",
+                "issue": "",
+                "pages": "687--701",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jensen J, Bachtrog D. 2011. Characterizing the influence of effective population size on the rate of adaptation: Gillespie's Darwin Domain. Genome Biol Evol. 3:687-701.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Joint inference of the distribution of fitness effects of deleterious mutations and population demography based on nucleotide polymorphism frequencies",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Keightley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Eyre-Walker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Genetics",
+                "volume": "177",
+                "issue": "",
+                "pages": "2251--2261",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Keightley PD, Eyre-Walker A. 2007. Joint inference of the distribution of fitness effects of deleterious mutations and population demography based on nucleotide polymorphism frequencies. Genetics 177:2251-2261.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Estimating the rate of adaptive molecular evolution when the evolutionary divergence between species is small",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Keightley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Eyre-Walker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "J Mol Evol",
+                "volume": "74",
+                "issue": "",
+                "pages": "61--68",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Keightley PD, Eyre-Walker A. 2012. Estimating the rate of adaptive molecular evolution when the evolutionary divergence between species is small. J Mol Evol. 74:61-68.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "The neutral theory of molecular evolution",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kimura",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1983,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kimura M. 1983. The neutral theory of molecular evolution. Cambridge (United Kingdom): Cambridge University Press.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Patterns of molecular variation and evolution in Drosophila americana and its relatives",
+                "authors": [
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Maside",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Charlesworth",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Genetics",
+                "volume": "176",
+                "issue": "",
+                "pages": "2293--2305",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Maside X, Charlesworth B. 2007. Patterns of molecular variation and evolution in Drosophila americana and its relatives. Genetics 176:2293-2305.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Adaptive protein evolution at the Adh locus in Drosophila",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Mcdonald",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kreitman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Nature",
+                "volume": "351",
+                "issue": "",
+                "pages": "652--654",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "McDonald JH, Kreitman M. 1991. Adaptive protein evolution at the Adh locus in Drosophila. Nature 351:652-654.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Initial sequence of the chimpanzee genome and comparison with the human genome",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Mikkelsen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Hillier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Eichler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Nature",
+                "volume": "67",
+                "issue": "",
+                "pages": "69--87",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mikkelsen TS, Hillier LW, Eichler EE, et al. (67 co-authors). 2005. Initial sequence of the chimpanzee genome and comparison with the human genome. Nature 437:69-87.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Slightly deleterious mutant substitutions in evolution",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Ohta",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1973,
+                "venue": "Nature",
+                "volume": "246",
+                "issue": "",
+                "pages": "96--98",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ohta T. 1973. Slightly deleterious mutant substitutions in evolution. Nature 246:96-98.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Inference of population structure using multilocus genotype data",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Pritchard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Stephens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Donelly",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Genetics",
+                "volume": "155",
+                "issue": "",
+                "pages": "945--959",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pritchard J, Stephens M, Donelly P. 2000. Inference of population structure using multilocus genotype data. Genetics 155: 945-959.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Phylogeography and postglacial expansion of Mus musculus domesticus inferred from mitochondrial DNA coalescent, from Iran to Europe",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Rajabi-Maham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Orth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bonhomme",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Mol Ecol",
+                "volume": "17",
+                "issue": "",
+                "pages": "627--641",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rajabi-Maham H, Orth A, Bonhomme F. 2008. Phylogeography and postglacial expansion of Mus musculus domesticus inferred from mitochondrial DNA coalescent, from Iran to Europe. Mol Ecol. 17:627-641.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Excess amino acid polymorphism in mitochondrial DNA: contrasts among genes from Drosophila, mice, and humans",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Rand",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Kann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Mol Biol Evol",
+                "volume": "13",
+                "issue": "",
+                "pages": "735--748",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rand DM, Kann LM. 1996. Excess amino acid polymorphism in mitochondrial DNA: contrasts among genes from Drosophila, mice, and humans. Mol Biol Evol. 13:735-748.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Nucleotide variation in wild and inbred mice",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Salcedo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Geraldes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Nachman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Genetics",
+                "volume": "177",
+                "issue": "",
+                "pages": "2277--2291",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Salcedo T, Geraldes A, Nachman MW. 2007. Nucleotide variation in wild and inbred mice. Genetics 177:2277-2291.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Pervasive natural selection in the Drosophila genome?",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Sella",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Petrov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Przeworski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Andolfatto",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "PLoS Genet",
+                "volume": "5",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sella G, Petrov DA, Przeworski M, Andolfatto P. 2009. Pervasive natural selection in the Drosophila genome? PLoS Genet. 5:e1000495.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Adaptive genic evolution in the Drosophila genomes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Shapiro",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Huang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Zhang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Proc Natl Acad Sci U S A",
+                "volume": "12",
+                "issue": "",
+                "pages": "2271--2276",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shapiro JA, Huang W, Zhang CH, et al. (12 co-authors). 2007. Adaptive genic evolution in the Drosophila genomes. Proc Natl Acad Sci U S A. 104:2271-2276.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Molecular phylogenies in the genus Mus-comparative analysis of electrophoretic, scDNA hybridization, and mtDNA RFLP data",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "X"
+                        ],
+                        "last": "She",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bonhomme",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Boursot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Thaler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Catzeflis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Biol J Linn Soc",
+                "volume": "41",
+                "issue": "",
+                "pages": "83--103",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "She JX, Bonhomme F, Boursot P, Thaler L, Catzeflis F. 1990. Molecular phylogenies in the genus Mus-comparative analysis of electrophoretic, scDNA hybridization, and mtDNA RFLP data. Biol J Linn Soc. 41:83-103.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Genome-wide evidence for efficient positive and purifying selection in Capsella grandiflora, a plant species with a large effective population size",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Slotte",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Foxe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Hazzouri",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Wright",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mol Biol Evol",
+                "volume": "27",
+                "issue": "",
+                "pages": "1813--1821",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Slotte T, Foxe JP, Hazzouri KM, Wright SI. 2010. Genome-wide evidence for efficient positive and purifying selection in Capsella grandiflora, a plant species with a large effective population size. Mol Biol Evol. 27:1813-1821.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Adaptive protein evolution in Drosophila",
+                "authors": [
+                    {
+                        "first": "Ngc",
+                        "middle": [],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Eyre-Walker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Nature",
+                "volume": "415",
+                "issue": "",
+                "pages": "1022--1024",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Smith NGC, Eyre-Walker A. 2002. Adaptive protein evolution in Drosophila. Nature 415:1022-1024.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Effective population size is positively correlated with levels of adaptive divergence among annual sunflowers",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Strasburg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Kane",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Raduski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Bonin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Michelmore",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Rieseberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Mol Biol Evol",
+                "volume": "28",
+                "issue": "",
+                "pages": "1569--1580",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Strasburg JL, Kane N, Raduski A, Bonin A, Michelmore R, Rieseberg L. 2011. Effective population size is positively correlated with levels of adaptive divergence among annual sunflowers. Mol Biol Evol. 28:1569-1580.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Temporal, spatial, and ecological modes of evolution of Eurasian Mus based on mitochondrial and nuclear gene sequences",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Suzuki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Shimada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Terashima",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Tsuchiya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Aplin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Mol Phylogenet Evol",
+                "volume": "33",
+                "issue": "",
+                "pages": "626--646",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Suzuki H, Shimada T, Terashima M, Tsuchiya K, Aplin K. 2004. Temporal, spatial, and ecological modes of evolution of Eurasian Mus based on mitochondrial and nuclear gene sequences. Mol Phylogenet Evol. 33:626-646.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Phylogenetic relationships in the subgenus Mus (genus Mus, family Muridae, subfamily Murinae): examining gene trees and species trees",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Tucker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Sandstedt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Lundrigan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biol J Linn Soc",
+                "volume": "84",
+                "issue": "",
+                "pages": "653--662",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tucker P, Sandstedt S, Lundrigan B. 2005. Phylogenetic relationships in the subgenus Mus (genus Mus, family Muridae, subfamily Murinae): examining gene trees and species trees. Biol J Linn Soc. 84:653-662.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "A customized and versatile high-density genotyping array for the mouse",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Ding",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Hutchins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Szatkiewicz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Bell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Paigen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Graber",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Pardo-Manuel De Villena",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Churchill",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Nat Methods",
+                "volume": "6",
+                "issue": "",
+                "pages": "663--666",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang H, Ding Y, Hutchins LN, Szatkiewicz J, Bell T, Paigen BJ, Graber JH, Pardo-Manuel de Villena F, Churchill GA. 2009. A customized and versatile high-density genotyping array for the mouse. Nat Methods. 6:663-666.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Subspecific origin and haplotype diversity in the laboratory mouse",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Didion",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Buus",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Bell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Welsh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bonhomme",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Yu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Nachman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Pialek",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Nat Genet",
+                "volume": "43",
+                "issue": "",
+                "pages": "648--655",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang H, Wang JR, Didion JP, Buus RJ, Bell TA, Welsh CE, Bonhomme F, Yu HT, Nachman MW, Pialek J, et al. (12 co-authors). 2011. Subspecific origin and haplotype diversity in the laboratory mouse. Nat Genet. 43:648-655.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Human SNPs reveal no evidence of frequent positive selection",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "Q"
+                        ],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Li",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Mol Biol Evol",
+                "volume": "22",
+                "issue": "",
+                "pages": "2504--2507",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhang LQ, Li WH. 2005. Human SNPs reveal no evidence of frequent positive selection. Mol Biol Evol. 22:2504-2507.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "num": null,
+                "type_str": "figure",
+                "text": "Supplementary Material online). The wide range of values for N e for each subspecies reflects uncertainty in the generation time and associated estimates of mutation rate as well as differences in the methods employed. Nonetheless, there is broad agreement between estimates of N e and a; estimates of a and N e are largest in M. m. castaneus, whereas estimates of both N e and a for M. m. musculus and M. m. domesticus are smaller. To account for the variation in N e introduced by differences in assumptions regarding generation time and mutation rate, we plotted estimates of a against published estimates of nucleotide diversity (supplementary table 1, Supplementary Material online) as a proxy for N e(fig. 1).",
+                "uris": null
+            },
+            "TABREF0": {
+                "content": "<table/>",
+                "type_str": "table",
+                "text": "Adaptive Evolution in Wild House Mice \u2022 doi:10.1093/molbev/mss105",
+                "num": null
+            },
+            "TABREF1": {
+                "content": "<table><tr><td/><td/><td/><td>Pearson's x 2</td><td>10.75*</td><td>14.64**</td><td>11.61**</td><td>0.96</td><td>1.57</td><td>1.96</td><td>1.47</td><td>0.87</td><td>1.24</td><td/><td>0.5 0.6 0.7</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>0.4</td></tr><tr><td/><td/><td/><td>CI b</td><td>0.17-0.51</td><td>0.24-0.57</td><td>0.21-0.56</td><td>20.10 to 0.27</td><td>20.09 to 0.30</td><td>20.07 to 0.34</td><td>20.09 to 0.30</td><td>20.15 to 0.28</td><td>20.11 to 0.33</td><td>Estimate of</td><td>0.0 0.3 0.2 0.1</td><td>M. m. castaneus M. m. domesticus M. m. musculus</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>-0.1</td></tr><tr><td/><td/><td/><td>NI\u00e2</td><td>0.36 0.64</td><td>0.43 0.57</td><td>0.41 0.59</td><td>0.10 0.90</td><td>0.13 0.87</td><td>0.16 0.84</td><td>0.12 0.88</td><td>0.10 0.90</td><td>0.13 0.87</td><td colspan=\"2\">0.00 -0.2 FIG. 1.</td><td>0.25</td><td>0.50 Estimate of \u03b8 (%)</td><td>0.75</td><td>1.00</td></tr><tr><td/><td>Replacement</td><td>Fixed/</td><td>Silent Fixed</td><td>0.40</td><td>0.40</td><td>0.40</td><td>0.33</td><td>0.33</td><td>0.33</td><td>0.37</td><td>0.37</td><td>0.37</td><td/><td/></tr><tr><td>Replacement</td><td>Polymorphism/</td><td>Silent</td><td>Polymorphism</td><td>0.25</td><td>0.23</td><td>0.24</td><td>0.29</td><td>0.28</td><td>0.27</td><td>0.32</td><td>0.33</td><td>0.32</td><td/><td/></tr><tr><td/><td/><td>Silent</td><td>Fixed</td><td>222</td><td>222</td><td>222</td><td>467</td><td>467</td><td>467</td><td>501</td><td>501</td><td>501</td><td/><td/></tr><tr><td/><td/><td>Silent</td><td>Polymorphism</td><td>1,332</td><td>903</td><td>636</td><td>1,509</td><td>1,243</td><td>786</td><td>969</td><td>652</td><td>444</td><td/><td/></tr><tr><td/><td/><td>Replacement</td><td>Fixed</td><td>89</td><td>89</td><td>89</td><td>152</td><td>152</td><td>152</td><td>185</td><td>185</td><td>185</td><td/><td/></tr><tr><td/><td/><td>Replacement</td><td>Polymorphism</td><td>339</td><td>207</td><td>151</td><td>442</td><td>352</td><td>216</td><td>314</td><td>216</td><td>142</td><td/><td/></tr><tr><td/><td/><td>Polymorphism</td><td>a Cutoff</td><td>&gt;0</td><td>&gt;0.10</td><td>&gt;0.20</td><td>&gt;0</td><td>&gt;0.10</td><td>&gt;0.20</td><td>&gt;0</td><td>&gt;0.10</td><td>&gt;0.20</td><td/><td/></tr><tr><td/><td/><td/><td>Subspecies</td><td>M. m. castaneus</td><td>M. m. castaneus</td><td>M. m. castaneus</td><td>M. m. domesticus</td><td>M. m. domesticus</td><td>M. m. domesticus</td><td>M. m. musculus</td><td>M. m. musculus</td><td>M. m. musculus</td><td>*P , 0.05, **P , 0.001.</td><td/></tr></table>",
+                "type_str": "table",
+                "text": "Estimates of the Neutrality Index (NI) and the Proportion of Amino Acid Substitutions Fixed by Positive Selection (a) Derived from the Ratios of Replacement and Silent Polymorphisms and Fixed Differences. ,000 bootstrap replicates. a cannot be less than 0. However, negative estimates of a do occur when the ratio of replacement polymorphism to divergence exceeds the ratio of silent polymorphism to divergence. Average estimate of a for each subspecies of Mus musculus versus average estimate of nucleotide diversity, h p . Vertical error bars reflect the range of CIs for a estimates derived using different polymorphism cutoffs. Horizontal error bars reflect the range of reported estimates of h p .",
+                "num": null
+            }
+        }
+    }
+}

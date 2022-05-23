@@ -1,0 +1,3338 @@
+{
+    "paper_id": "LaPointetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:29:21.375920Z"
+    },
+    "title": "Growth overshoot and seasonal size changes in the skulls of two weasel species",
+    "authors": [
+        {
+            "first": "Scott",
+            "middle": [],
+            "last": "Lapoint",
+            "suffix": "",
+            "affiliation": {},
+            "email": "sdlapoint@gmail.com"
+        },
+        {
+            "first": "Lara",
+            "middle": [],
+            "last": "Keicher",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Konstanz",
+                "location": {
+                    "addrLine": "Universit\u00e4tsstrasse 10",
+                    "postCode": "78457",
+                    "settlement": "Konstanz",
+                    "country": "Germany"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Martin",
+            "middle": [],
+            "last": "Wikelski",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Karol",
+            "middle": [],
+            "last": "Zub",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Dina",
+            "middle": [
+                "K N"
+            ],
+            "last": "Dechmann",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Ontogenetic changes in mammalian skulls are complex. For a very few species (i.e. some Sorex shrews), these also include seasonally driven, bidirectional size changes within individuals, presumably to reduce energy requirements during low resource availabilities. These patterns are poorly understood, but are likely most pronounced in high-metabolic species with limited means for energy conservation. We used generalized additive models to quantify the effect of location, Julian day, age and sex on the length and depth of 512 and 847 skulls of stoat (Mustela erminea) and weasel (M. nivalis) specimens collected throughout the northern hemisphere. Skull length of both species varies between sexes and geographically, with stoat skull length positively correlated with latitude. Both species demonstrate seasonal and ontogenetic patterns, including a rare, absolute growth overshoot in juvenile braincase depth. Standardized braincase depths of both species peak in their first summer, then decrease in their first winter, followed by a remarkable regrowth that peaks again during their second summer. This seasonal pattern varies in magnitude and timing between geographical regions and the sexes, matching predictions of Dehnel's phenomenon. This suggests implications for the evolution of over-wintering strategies in mammals, justifying further research on their mechanisms and value, with implications for applied osteology research.",
+    "pdf_parse": {
+        "paper_id": "LaPointetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Ontogenetic changes in mammalian skulls are complex. For a very few species (i.e. some Sorex shrews), these also include seasonally driven, bidirectional size changes within individuals, presumably to reduce energy requirements during low resource availabilities. These patterns are poorly understood, but are likely most pronounced in high-metabolic species with limited means for energy conservation. We used generalized additive models to quantify the effect of location, Julian day, age and sex on the length and depth of 512 and 847 skulls of stoat (Mustela erminea) and weasel (M. nivalis) specimens collected throughout the northern hemisphere. Skull length of both species varies between sexes and geographically, with stoat skull length positively correlated with latitude. Both species demonstrate seasonal and ontogenetic patterns, including a rare, absolute growth overshoot in juvenile braincase depth. Standardized braincase depths of both species peak in their first summer, then decrease in their first winter, followed by a remarkable regrowth that peaks again during their second summer. This seasonal pattern varies in magnitude and timing between geographical regions and the sexes, matching predictions of Dehnel's phenomenon. This suggests implications for the evolution of over-wintering strategies in mammals, justifying further research on their mechanisms and value, with implications for applied osteology research.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Seasonal fluctuations in resources are a common but, from an evolutionary viewpoint, difficult problem for animals to solve. Species respond to such extrinsic challenges with behavioural adaptations, such as food caching [1] , or physiologically, for example by suppressing bone resorption during hibernation [2] .",
+                "cite_spans": [
+                    {
+                        "start": 221,
+                        "end": 224,
+                        "text": "[1]",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 309,
+                        "end": 312,
+                        "text": "[2]",
+                        "ref_id": "BIBREF1"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "2017 The Authors. Published by the Royal Society under the terms of the Creative Commons Attribution License http://creativecommons.org/licenses/by/4.0/, which permits unrestricted use, provided the original author and source are credited. These strategies are believed to facilitate the efficient use of energy and ultimately increase survival. Species also exhibit population-level morphological adaptations, for example shifts in mammal body size-arguably the most important trait of a species and individual [3, 4] -driven by increased global temperatures [5] [6] [7] [8] . Biologists have long been intrigued by body size (e.g. skull length), quantifying its variation and identifying its drivers, yielding descriptions of ecological patterns and 'rules' (e.g. Bergmann's or Allen's rules). These patterns probably arise in response to several variables combined (i.e. resource availability), not solitary factors (e.g. latitude or precipitation) (sensu [9] ).",
+                "cite_spans": [
+                    {
+                        "start": 512,
+                        "end": 515,
+                        "text": "[3,",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 516,
+                        "end": 518,
+                        "text": "4]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 560,
+                        "end": 563,
+                        "text": "[5]",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 564,
+                        "end": 567,
+                        "text": "[6]",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 568,
+                        "end": 571,
+                        "text": "[7]",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 572,
+                        "end": 575,
+                        "text": "[8]",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 959,
+                        "end": 962,
+                        "text": "[9]",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "In addition to these extrinsic influences, individuals also experience a lifetime of intrinsic ontogenetic challenges [3, [10] [11] [12] . For example, ontogenesis for mammalian carnivores includes changes in skull shape and size as they mature from altricial juveniles to bone-crushing adults [13] . Changes in the shape and relative size of the skull of growing individuals are common in mammals [3, 10] , whereas absolute skull size principally increases until they are fully grown, except for some bone resorption in very old individuals [14] . This stability in adult skull shape and size is governed by the ossification of the skull, including the fusing of sutures and the formation of osteoclasts [15, 16] .",
+                "cite_spans": [
+                    {
+                        "start": 118,
+                        "end": 121,
+                        "text": "[3,",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 122,
+                        "end": 126,
+                        "text": "[10]",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 127,
+                        "end": 131,
+                        "text": "[11]",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 132,
+                        "end": 136,
+                        "text": "[12]",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 294,
+                        "end": 298,
+                        "text": "[13]",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 398,
+                        "end": 401,
+                        "text": "[3,",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 402,
+                        "end": 405,
+                        "text": "10]",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 542,
+                        "end": 546,
+                        "text": "[14]",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 705,
+                        "end": 709,
+                        "text": "[15,",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 710,
+                        "end": 713,
+                        "text": "16]",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Efforts to quantify potential extrinsic drivers of skull size must therefore also account for the ontogenetic patterns described above, particularly for species whose life-history stage transitions coincide with intra-annual environmental patterns such as seasonal fluctuations in resource availability. In contrast with more common over-wintering coping strategies, e.g. torpor or migration, a few species have evolved an alternative strategy: reduce their absolute energy requirements during harsh conditions [17] . Dehnel's phenomenon, first documented in red-toothed shrews (Soricinae), describes the seasonal and reversible size change of the skull [17, 18] , skeleton [19] , brain [20] and several major organs [21] of an individual. Like others before him [22, 23] , Dehnel recognized remarkable ontogenetic changes in Sorex skulls where juvenile skulls demonstrate a growth overshoot in both skull length and depth. Their skull then decreases in both dimensions from their first summer until they reach a minimum midway through their first winter, and later regrow again as they reach adulthood at the end of their first winter reaching a second size peak as adults by their second summer [17] . The juvenile absolute growth overshoot is rare in vertebrates; only known for these Sorex shrews and for the brains of captive mink (M. vison; [24] ) and ferret (M. putorius furo; [25] ), and the skulls of weasel (M. nivalis; [26] ) and polecat (M. putorius; [27] ). Importantly, Dehnel hypothesized that these changes were seasonally driven and in addition to ontogenetic effects. His hypothesis has since been supported with additional work on Sorex species, focusing especially on the brain and skull.",
+                "cite_spans": [
+                    {
+                        "start": 511,
+                        "end": 515,
+                        "text": "[17]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 654,
+                        "end": 658,
+                        "text": "[17,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 659,
+                        "end": 662,
+                        "text": "18]",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 674,
+                        "end": 678,
+                        "text": "[19]",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 687,
+                        "end": 691,
+                        "text": "[20]",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 717,
+                        "end": 721,
+                        "text": "[21]",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 763,
+                        "end": 767,
+                        "text": "[22,",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 768,
+                        "end": 771,
+                        "text": "23]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1197,
+                        "end": 1201,
+                        "text": "[17]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1347,
+                        "end": 1351,
+                        "text": "[24]",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1384,
+                        "end": 1388,
+                        "text": "[25]",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1430,
+                        "end": 1434,
+                        "text": "[26]",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1463,
+                        "end": 1467,
+                        "text": "[27]",
+                        "ref_id": "BIBREF27"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "The seasonality of the phenomenon is accepted and there is some evidence for its adaptive advantage, yet there is limited consensus on the specific drivers [28] . The benefit of being relatively small during resource availability lulls is well documented at the population level for several species, where relatively small individuals are more likely to survive [29] [30] [31] [32] . At the individual level, proactively reducing energy expenditure or requirements, for example through food caching or torpor, is a successful strategy for coping with reduced resource availability [33] , but is not feasible for species with very high metabolisms and year-round activity patterns (e.g. shrews [34] ). Instead, shrews are able to reduce their body mass, including several energy-expensive organs and the brain, reducing their absolute energy requirements when resource availability is low (sensu [35, 36] ).",
+                "cite_spans": [
+                    {
+                        "start": 156,
+                        "end": 160,
+                        "text": "[28]",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 362,
+                        "end": 366,
+                        "text": "[29]",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 367,
+                        "end": 371,
+                        "text": "[30]",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 372,
+                        "end": 376,
+                        "text": "[31]",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 377,
+                        "end": 381,
+                        "text": "[32]",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 581,
+                        "end": 585,
+                        "text": "[33]",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 693,
+                        "end": 697,
+                        "text": "[34]",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 895,
+                        "end": 899,
+                        "text": "[35,",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 900,
+                        "end": 903,
+                        "text": "36]",
+                        "ref_id": "BIBREF37"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "To better understand the evolution of the Dehnel's phenomenon, it is not only important to identify other species where individuals exhibit seasonal size changes, but also to distinguish between extrinsic and intrinsic drivers of these size changes. Stoats (M. erminea) and weasels (M. nivalis) share many ecological, physiological and behavioural traits with Sorex shrews, including limited abilities for reducing heat loss [37] , high metabolisms [37] , predatory behaviour [38] and the inability to enter torpor or hibernate [37] . Additionally, the reproductive strategies of these weasel species differ and offer opportunities for testing hypotheses on energy limitation. Males of both species provide no parental care for offspring, enabling them to invest all available energies into themselves, and should therefore exhibit the greatest seasonal size patterns. Female stoats produce a single litter per year, but not until their second year, and therefore should exhibit a seasonal pattern similar to males, but to a lesser degree. Female weasels however, can produce two litters per year and mate within a few weeks of their birth, and are therefore unlikely to exhibit a seasonal size pattern as adults owing to them diverting more energies to their offspring [38] . Although previous work has documented unusual juvenile growth overshoots in related species [24, 25, 27] including weasels [26] , no studies have done so for stoats, nor investigated seasonal patterns in stoat or weasel skulls. Our own preliminary work suggests that weasel specimens collected from northeastern Poland exhibit Dehnel's phenomenon-like seasonal patterns in braincase depth (BD), but further work was recommended to distinguish between the confounding effects of intrinsic and extrinsic variables [39] . We recorded condylobasal length (CBL), braincase breadth (BB) and braincase depth (BD), commonly used metrics in the study of Dehnel's phenomenon, on the skulls of stoat and weasel specimens collected from across the northern hemisphere during the last 120 years (Dryad: http://dx.doi.org/10.5061/ dryad.g57g1 [40] ). We standardized BB and BD with CBL (BB s , BD s ) to account for known population and species-level effects, i.e. latitudinal, sex and inter-annual variability in skull size [41] . We used generalized additive models (GAMs; [42] ) to identify age-, latitude-, season-and sex-based patterns in BD s . Because of their similarities with Sorex shrews, we hypothesized that these species would likewise demonstrate seasonal patterns in BD. We predicted that (i) both species would demonstrate juvenile growth overshoots in absolute skull depth similar to those exhibited by other Mustela species, (ii) the presence and magnitude of seasonal patterns would be positively related to latitude, and (iii) that males of both species would exhibit greater plasticity in skull depth. Our globally sourced dataset and powerful statistical approach allowed us to systematically account for and distinguish between the drivers for known (i.e. age, sex dimorphism and latitudinal variation) and potentially hitherto unknown seasonal skull size variation in these carnivores.",
+                "cite_spans": [
+                    {
+                        "start": 425,
+                        "end": 429,
+                        "text": "[37]",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 449,
+                        "end": 453,
+                        "text": "[37]",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 476,
+                        "end": 480,
+                        "text": "[38]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 528,
+                        "end": 532,
+                        "text": "[37]",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 1270,
+                        "end": 1274,
+                        "text": "[38]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1369,
+                        "end": 1373,
+                        "text": "[24,",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1374,
+                        "end": 1377,
+                        "text": "25,",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1378,
+                        "end": 1381,
+                        "text": "27]",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 1400,
+                        "end": 1404,
+                        "text": "[26]",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1789,
+                        "end": 1793,
+                        "text": "[39]",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 2106,
+                        "end": 2110,
+                        "text": "[40]",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 2288,
+                        "end": 2292,
+                        "text": "[41]",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 2338,
+                        "end": 2342,
+                        "text": "[42]",
+                        "ref_id": "BIBREF43"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Stoats and weasels (Mustelidae) inhabit many of the grasslands, forests and mountainous ecosystems of the Holarctic, ranging between 30 and 80\u00b0N latitude [38] . They are strict carnivores, with long, narrow body shapes and are sexually dimorphic in size [38] . Both species exhibit substantial variation in body length and mass across their range, even within relatively small geographical regions (e.g. Poland [26, 43] ): female weasel (excluding M. n. subpalmata) body lengths of 136-183 mm and masses of 31-82 g, male weasel body lengths of 151-222 mm and masses of 53-193 g, female stoat body lengths of 153-264 mm and masses of 45-213 g and male stoat body lengths of 166-297 mm and masses of 59-334 g [38] . Both species are relatively short-lived in natural populations: female and male stoats live up to 4 years, while female and male weasels live up to 3 years, but most for only 1 year [38] . Both species are active throughout the year and day, with alternating bouts of resting and hunting to fuel their extremely high metabolisms [37, 38] . Their body shapes, rather poor abilities for reducing heat loss [37] , and high metabolisms make thermoregulation very challenging for both species, especially those in northern latitudes.",
+                "cite_spans": [
+                    {
+                        "start": 154,
+                        "end": 158,
+                        "text": "[38]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 254,
+                        "end": 258,
+                        "text": "[38]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 411,
+                        "end": 415,
+                        "text": "[26,",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 416,
+                        "end": 419,
+                        "text": "43]",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 707,
+                        "end": 711,
+                        "text": "[38]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 896,
+                        "end": 900,
+                        "text": "[38]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1043,
+                        "end": 1047,
+                        "text": "[37,",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 1048,
+                        "end": 1051,
+                        "text": "38]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1118,
+                        "end": 1122,
+                        "text": "[37]",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Study species",
+                "sec_num": "2.1."
+            },
+            {
+                "text": "Linear measurements were taken on the intact skulls of weasel and stoat specimens housed within the following natural history collections, listed by sample sizes of weasels and stoats, respectively: (25, 6) , North Carolina Museum of Natural Sciences Raleigh (10, 9) , and the North Carolina State University (2, 4) . The species, sex and the date and location of collection were recorded for each specimen. Care was taken to distinguish between dates of preparation and dates of collection, at times requiring verification through original ledgers and collection manager receipts of samples from expeditions. Specimens with uncertain dates were not included in our analyses. To investigate geographical patterns in species skull sizes, we georeferenced specimens (precision \u00b10.1 decimal degrees) using their locality information when latitudinal and longitudinal information was not available, otherwise we used the provided coordinates. Individuals were assigned to one of three age classes (juvenile, sub-adult or adult) following guidelines proposed by King [44] and Schmidt [26] (electronic supplementary material, figure S1 ). Note that our naming convention for these age categories should not imply stages of maturation, but we probably classified independent individuals aged less than four months as 'juveniles', individuals generally aged between four and seven months with mostly ossified skulls but without pronounced nuchal or sagittal crests as 'sub-adults', and individuals older than seven months with fully ossified skulls and at least partially developed nuchal crests as 'adults'.",
+                "cite_spans": [
+                    {
+                        "start": 199,
+                        "end": 203,
+                        "text": "(25,",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 204,
+                        "end": 206,
+                        "text": "6)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 259,
+                        "end": 263,
+                        "text": "(10,",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 264,
+                        "end": 266,
+                        "text": "9)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 309,
+                        "end": 312,
+                        "text": "(2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 313,
+                        "end": 315,
+                        "text": "4)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1062,
+                        "end": 1066,
+                        "text": "[44]",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 1079,
+                        "end": 1083,
+                        "text": "[26]",
+                        "ref_id": "BIBREF26"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1120,
+                        "end": 1129,
+                        "text": "figure S1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Data collection",
+                "sec_num": "2.2."
+            },
+            {
+                "text": "Mus\u00e9um d'",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Data collection",
+                "sec_num": "2.2."
+            },
+            {
+                "text": "We recorded the CBL (measured from the posterior of the occipital condyles to the anterior tip of the premaxilla), breadth of braincase (BB; measured at the greatest width of the braincase posterior to the zygomatic arches) and the BD (measured perpendicularly from the basioccipital, i.e. omitting the auditory bullae, to the top of the braincase, avoiding the sagittal crest when present) using digital calipers (\u00b10.01 mm precision). In addition to these linear metrics, we also estimated a proxy for braincase volume for weasel (n = 164) and stoat (n = 77) specimens by calculating the volume of machined metal beads held by each braincase. We then calculated the correlation between this volume estimate and a proxy for crosssectional area (i.e. area of an ellipse, estimated as CSA = (BD/2)*(BB/2)*\u03c0) to assess the interpretability of our BD analyses. To reduce potential biases toward seasonal differences and from users, all external measurements were taken by S.L. and all braincase volume estimates were made by L.K., both without a priori knowledge of the date of collection.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Data collection",
+                "sec_num": "2.2."
+            },
+            {
+                "text": "For our analyses, we only included data from intact specimens that met our data attribute criteria, where all three linear measurements could be made, and for which we could confidently identify their sex, age category, and location and date of collection. These requirements reduced the pool of potential specimens (988 stoats and 1466 weasels) to our final dataset containing 512 and 847 stoat and weasel skull specimens, respectively, and we draw our conclusions from these data (Dryad: http://dx.doi.org/ 10.5061/dryad.g57g1 [40] ).",
+                "cite_spans": [
+                    {
+                        "start": 529,
+                        "end": 533,
+                        "text": "[40]",
+                        "ref_id": "BIBREF41"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Statistical analyses",
+                "sec_num": "2.3."
+            },
+            {
+                "text": "We first explored differences between species, sexes and age groups in each skull metric. Because these data were non-normally distributed, we used a bootstrapping procedure (electronic supplementary material, code S1) (boot package, v. 1.3-18; [45] , within program R, v. 3.3.1; [46] ) to investigate whether the presence or lack of significant differences between groups is an artefact of the data distribution. We produced a new distribution of possible skull metric measurements sampled with replacement from the observed data, producing a normally distributed, new sample of equal size to the observed for each group of interest; e.g. a new distribution of BD for juvenile female weasels. We then performed a ttest between each group of interest using the bootstrapped samples. We repeated the sampling and ttest procedure for each group comparison for 5000 iterations, tallying the number of times when the bootstrapped procedure produced t-values greater than or equal to the observed t-value (absolute value). The tally divided by 5000 is our p-value. Significant p-values (less than 0.05) indicate 'true' differences in observed means that are not artefacts of the observed data's non-normal distribution.",
+                "cite_spans": [
+                    {
+                        "start": 245,
+                        "end": 249,
+                        "text": "[45]",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 280,
+                        "end": 284,
+                        "text": "[46]",
+                        "ref_id": "BIBREF47"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Statistical analyses",
+                "sec_num": "2.3."
+            },
+            {
+                "text": "We used GAMs [42, 47] to quantify size and shape patterns in CBL, BD and BD s and to identify the drivers affecting these patterns. GAMs are semi-parametric generalizations of linear regression models that allow for both linear and nonlinear relationships between the response and predictors and include a penalizing smoothing function that allows for nonlinearity in the relationships [42] . We applied a smoothing term on the day of the year when the specimen was collected with a cyclic cubic regression spline (to account for the cyclical nature of calendar date) with four knots [42] . We elected not to increase the number of knots in an attempt to force the model to predict a single peak within the adults, as predicted by Dehnel's phenomenon, and limited the number of effective degrees of freedom to a maximum of 2 to reduce the potential for model over-fitting [42] . We first ran the full model that included all predictors (i.e. age, origin, sex and their interactions) and the day of the year (with a smoothing term) and then used the second-order Akaike's Information Criterion (AICc; [48, 49] ) to select the combination of variables and their interactions that best explained the observed patterns. We ran these models for each species separately. We performed an ANOVA on the optimal model to determine the relative influence of each predictor on the shape of the response. We then re-ran the optimal model, but with the addition of an interaction between the smoothing term and each factor separately and compared the AICc values of these models to those of the same model except without the interaction. Instances where the inclusion of the smoothing term-factor interaction improved the model performance would suggest that the response is better described for each level of the factor (e.g. for females and males) separately, rather than combined. Lastly, we inspected the residual diagnostics of the optimal models to assess the normality and homogeneity of the residuals and the model fit. All analyses were conducted within program R (v. figure S2 ), supporting the inferential utility of our linear measures. Therefore, we present our data using linear metrics that are directly comparable to the data presented by Dehnel [17] and others (e.g. [18] [19] [20] [21] ). Linear metrics are also important for logistical purposes; making a reasonable estimate for braincase volume is very challenging because the braincase must be both completely intact and free of tissue and debris. These requirements are difficult to fulfil for even the best-maintained collections; nonetheless, we were able to measure braincase volume on 36% and 42% of the weasel and stoat specimens, respectively, that we included in our analyses from the Mus\u00e9um d'Histoire Naturelle in Brussels, Belgium.",
+                "cite_spans": [
+                    {
+                        "start": 13,
+                        "end": 17,
+                        "text": "[42,",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 18,
+                        "end": 21,
+                        "text": "47]",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 386,
+                        "end": 390,
+                        "text": "[42]",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 584,
+                        "end": 588,
+                        "text": "[42]",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 872,
+                        "end": 876,
+                        "text": "[42]",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 1100,
+                        "end": 1104,
+                        "text": "[48,",
+                        "ref_id": "BIBREF49"
+                    },
+                    {
+                        "start": 1105,
+                        "end": 1108,
+                        "text": "49]",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 2248,
+                        "end": 2252,
+                        "text": "[17]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2270,
+                        "end": 2274,
+                        "text": "[18]",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 2275,
+                        "end": 2279,
+                        "text": "[19]",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 2280,
+                        "end": 2284,
+                        "text": "[20]",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 2285,
+                        "end": 2289,
+                        "text": "[21]",
+                        "ref_id": "BIBREF21"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 2063,
+                        "end": 2072,
+                        "text": "figure S2",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Statistical analyses",
+                "sec_num": "2.3."
+            },
+            {
+                "text": "Age, latitude and sex affect variation in stoat and weasel skull lengths (table 1 and figure 1 ; electronic supplementary material, figure S3 ). Male stoats have the longest skulls, followed by female stoats, male weasels and, the smallest, female weasels (table 1) (see also [38] ). The age classes were generally similar in skull length, except juvenile weasels were significantly smaller than sub-adults and adults, for both sexes (table 1; electronic supplementary material, table S3 ). This is not unexpected, because weasels can produce a second litter in autumn in years with high prey abundance [38] , thus these differences could also be produced by including specimens that represent juveniles born in the second cohort, who probably experience restricted growth as seen in rodent species (e.g. Microtus oeconomus; [32] ). Adult stoat skull lengths are positively correlated with latitude (female: Spearman's \u03c1 = 0.348, p < 0.001; male: Spearman's \u03c1 = 0.535, p < 0.001) as predicted by Bergmann's Rule, but unlike Sorex species [52] . Adult female weasel skull lengths are negatively correlated with latitude (Spearman's \u03c1 = \u22120.155, p = 0.033), whereas adult male weasels are not (figure 1). A correlation is a simple statistic however, when in reality the geographical patterns in both species are complex and deserving of further [53] found that stoats in Europe were smaller at northern latitudes, whereas stoats in North America are generally larger in the north [38] . Both species exhibit substantial size variation across their ranges [38, 41, [54] [55] [56] [57] and even within smaller, regional scales [26, 43] . Some of this variation arises from local adaptations, including subspecies attributes or extreme cases (e.g. the urban M. n. subpalmata in Cairo, Egypt; figure 1), although these patterns are likely to be driven by climatic factors and resource availability [43] .",
+                "cite_spans": [
+                    {
+                        "start": 276,
+                        "end": 280,
+                        "text": "[38]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 603,
+                        "end": 607,
+                        "text": "[38]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 825,
+                        "end": 829,
+                        "text": "[32]",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 1038,
+                        "end": 1042,
+                        "text": "[52]",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 1342,
+                        "end": 1346,
+                        "text": "[53]",
+                        "ref_id": "BIBREF54"
+                    },
+                    {
+                        "start": 1477,
+                        "end": 1481,
+                        "text": "[38]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1552,
+                        "end": 1556,
+                        "text": "[38,",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1557,
+                        "end": 1560,
+                        "text": "41,",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 1561,
+                        "end": 1565,
+                        "text": "[54]",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 1566,
+                        "end": 1570,
+                        "text": "[55]",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 1571,
+                        "end": 1575,
+                        "text": "[56]",
+                        "ref_id": "BIBREF58"
+                    },
+                    {
+                        "start": 1576,
+                        "end": 1580,
+                        "text": "[57]",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 1622,
+                        "end": 1626,
+                        "text": "[26,",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1627,
+                        "end": 1630,
+                        "text": "43]",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 1891,
+                        "end": 1895,
+                        "text": "[43]",
+                        "ref_id": "BIBREF44"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 73,
+                        "end": 94,
+                        "text": "(table 1 and figure 1",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 132,
+                        "end": 141,
+                        "text": "figure S3",
+                        "ref_id": "FIGREF6"
+                    },
+                    {
+                        "start": 434,
+                        "end": 487,
+                        "text": "(table 1; electronic supplementary material, table S3",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Patterns in Mustela skull length",
+                "sec_num": "3.2."
+            },
+            {
+                "text": "Both female and male juveniles of each species exhibit a growth overshoot in both absolute (table 1) and standardized BD ( figure 2; electronic supplementary material, figure S4 ). This overshoot varies in magnitude between the sexes and species, as juvenile mean BD for female and male stoats are 16.8% and 14.3% larger than adults, respectively, while weasels exhibit similar, but slightly less differences: 12.5% and 7.3%, respectively. This unusual growth overshoot in absolute BD is similar to what Schmidt [26] reported for weasels, but has not been reported previously for stoats. Age and its interaction with sex were retained in the four best performing GAMs for both species (table 2) . Age also had the largest effect size of the parametric model terms (electronic supplementary material, table S1), where adult specimens of both species had the smallest BD s (figure 2), and the three age classes each affected the shape of the response curve for BD s differently (electronic supplementary material, table S2). This suggests that juveniles have both a deeper than expected braincase, given their skull length, but also that juveniles experience a growth overshoot in absolute BD that then decreases again as the individual reaches adulthood (figure 2). It is important to distinguish between ontogenetic changes in shape (i.e. relative depth, BD s ) versus an overshoot in absolute BD. A shift in shape and proportion in growing individuals has long been recognized in mammals [3, 10] , including our study species [26, 44, 58] . Such a re-organization of the skull from one with a bulbous braincase and short rostrum to a flatter braincase and elongated rostrum has clear adaptive advantages, particularly for Mustelids which possess the highest bite forces relative to body size of all carnivores [59, 60] . However, there is only a slight effect of age on CBL (table 1) , but a clear age pattern in BD. This suggests that the majority of the ontogenetic shape change in these species is BD rather than skull length, including an overshoot in absolute depth of the skull and potentially the brain.",
+                "cite_spans": [
+                    {
+                        "start": 512,
+                        "end": 516,
+                        "text": "[26]",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1489,
+                        "end": 1492,
+                        "text": "[3,",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 1493,
+                        "end": 1496,
+                        "text": "10]",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 1527,
+                        "end": 1531,
+                        "text": "[26,",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1532,
+                        "end": 1535,
+                        "text": "44,",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 1536,
+                        "end": 1539,
+                        "text": "58]",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 1811,
+                        "end": 1815,
+                        "text": "[59,",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 1816,
+                        "end": 1819,
+                        "text": "60]",
+                        "ref_id": "BIBREF63"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 91,
+                        "end": 100,
+                        "text": "(table 1)",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 123,
+                        "end": 177,
+                        "text": "figure 2; electronic supplementary material, figure S4",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 685,
+                        "end": 694,
+                        "text": "(table 2)",
+                        "ref_id": "TABREF3"
+                    },
+                    {
+                        "start": 1875,
+                        "end": 1884,
+                        "text": "(table 1)",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Ontogenetic patterns in Mustela braincase depth",
+                "sec_num": "3.3."
+            },
+            {
+                "text": "We identified seasonally driven, reversible changes in the BD s of adults of both species (figure 2; electronic supplementary material, table S4). Including only adults in this analysis allowed us to reduce the potentially confounding effect of coincident ontogenetic patterns. These seasonal patterns suggest that adults of both species are able to modify the shape of their skulls after their sutures are fused and their skull is fully ossified. The influence of season on adult BD s is significant and nonlinear (table 2) ; treating the day of the year as a linear factor by removing the smoothing function on the day of the year as with a generalized linear model greatly reduced the model's performance compared to the optimal GAM for each species (stoat AICc = 91, weasel AICc = 30; compared with a AICc of 3.9 and 1.3, respectively, to the next best models that retained the smoothing term; table 2). In short, the braincase depths of both stoats and weasels decrease from their maxima as juveniles, reach their minima during their first winter, then regrow during their first summer as adults, and finally decrease again during their second winter (figure 2). This pattern is not an annual selection event that favours smaller individuals during the winter as adults with relative small BD s in summer are relatively rare (figure 2). The seasonal patterns could be partially affected by individuals of different sizes having differing propensities to enter baited traps, but this would not explain the summer size peak driven by the simultaneous capture of larger individuals and the relative rarity of smaller individuals. Both female and male adult stoats exhibited the similar and significant summer regrowth peak in BD s (figure 2; electronic supplementary material, table S2), with males consistently larger than females (electronic supplementary material, table S1). Adult male weasels did exhibit a significant summer peak in BD s also, but females did not (figure 2; electronic supplementary material, table S2), and the sexes did not differ in mean BD s (electronic supplementary material, table S1). We believe these interspecific and intraspecific differences arise from the species' reproductive strategies. Weasels are classic examples of r-strategists as they are small, short-lived, mature early, inhabit variable habitats and rely on cyclical prey populations [61] . As such, female weasels will produce two cohorts in years with high prey abundance, and in these years, females born in the first cohort may even produce their own litters before their first winter [38] . Thus, female weasels invest their energy into their offspring, rather than investing energy into themselves [62] . Male weasels, however, can invest in themselves as they provide no paternal care and should strive for a larger body size in order to fend off smaller males and to suppress females during copulation. Stoats are less opportunistic strategists than weasels. Unlike weasels, female stoats cannot produce a litter within their first year and are prevented by delayed implantation from producing more than one litter per year beyond that [38] . Thus, both female and male stoats are able to invest surplus energy into their own somatic maintenance. Additionally, because their mating opportunities are more limited than for the weasels, securing opportunities becomes important for male stoats and in these situations larger males are more successful [53] .",
+                "cite_spans": [
+                    {
+                        "start": 2384,
+                        "end": 2388,
+                        "text": "[61]",
+                        "ref_id": "BIBREF64"
+                    },
+                    {
+                        "start": 2589,
+                        "end": 2593,
+                        "text": "[38]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 2704,
+                        "end": 2708,
+                        "text": "[62]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 3144,
+                        "end": 3148,
+                        "text": "[38]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 3457,
+                        "end": 3461,
+                        "text": "[53]",
+                        "ref_id": "BIBREF54"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 515,
+                        "end": 524,
+                        "text": "(table 2)",
+                        "ref_id": "TABREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Seasonal patterns in adult Mustela braincase depth",
+                "sec_num": "3.4."
+            },
+            {
+                "text": "We also identified geographical variation in the presence, timing and magnitude of the changes in BD s of adult weasels and stoats (figure 3) in addition to the geographical and latitudinal patterns in skull length (i.e. species-level size variation). Importantly, these patterns are not only developmental effects (as seen in figure 2), as we included only adults in this analysis (electronic supplementary material, table S5), and they are not artefacts of inverse seasonal changes in CBL alone (electronic supplementary material, figure S5 ). The shifts in the timing of the peak and differences in the magnitude might suggest climatic modulators of the genetically fixed seasonal patterns, where populations from areas with more severe winter conditions (e.g. Alaska, Finland or Ontario) would show a more sinuous seasonal pattern, as seen in figure 3.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 533,
+                        "end": 542,
+                        "text": "figure S5",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Seasonal patterns in adult Mustela braincase depth",
+                "sec_num": "3.4."
+            },
+            {
+                "text": "We present evidence of two rare phenomena: an absolute growth overshoot of juvenile BD and a seasonally driven BD change in the adult skull. Although postnatal changes in skull shape and size are ubiquitous in many vertebrates, species rarely exhibit a bidirectional change, particularly as adults. Examples of body size changes exist, but are unidirectional responses to severe reductions in resource availability (e.g. drought) and are unlike the seasonal pattern we observe (e.g. salamanders [63] , cichlid fishes [64] , salmonids [65] and tortoises [66] ). El Ni\u00f1o events triggered body length decreases in adult marine iguanas (Amblyrhyncus cristatus) that later re-grew, but are an example of a reactive bidirectional size change [67] . Although bidirectional changes in bird brain volume driven by adult neurogenesis occur (e.g. [68] ), similar changes within the skull have not been documented.",
+                "cite_spans": [
+                    {
+                        "start": 495,
+                        "end": 499,
+                        "text": "[63]",
+                        "ref_id": "BIBREF67"
+                    },
+                    {
+                        "start": 517,
+                        "end": 521,
+                        "text": "[64]",
+                        "ref_id": "BIBREF68"
+                    },
+                    {
+                        "start": 534,
+                        "end": 538,
+                        "text": "[65]",
+                        "ref_id": "BIBREF69"
+                    },
+                    {
+                        "start": 553,
+                        "end": 557,
+                        "text": "[66]",
+                        "ref_id": "BIBREF70"
+                    },
+                    {
+                        "start": 736,
+                        "end": 740,
+                        "text": "[67]",
+                        "ref_id": "BIBREF71"
+                    },
+                    {
+                        "start": 836,
+                        "end": 840,
+                        "text": "[68]",
+                        "ref_id": "BIBREF72"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusion",
+                "sec_num": "4."
+            },
+            {
+                "text": "The seasonal patterns in BD s that we observed are additional to developmental changes and, as the specimens represent a global distribution collected over the last century, are not driven by reactions to episodic or unpredictable fluctuations in resource availability. We hypothesize that the observed seasonal patterns reflect an alternative over-wintering strategy that is genetically fixed, but the magnitude of these fluctuations is affected by the severity of the conditions. To further understand the mechanisms and evolution of this strategy, future efforts should consider repeated measures on living individuals to quantify intra-individual changes, and molecular investigations to quantify the mechanisms of these changes. Lastly, our observations of Dehnel's phenomenon occurring in two carnivore species that are taxonomically distantly related to Sorex shrews, provides strong support for the convergent evolution of this phenomenon. Future efforts working within this convergent evolutionary framework should provide fruitful research directives for ecologists, evolutionary biologists and researchers in human medicine.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusion",
+                "sec_num": "4."
+            },
+            {
+                "text": "Ethics. No live animals were used during this research. Data accessibility. The dataset supporting this article has been deposited at the Dryad Digital Repository: http://dx.doi. org/10.5061/dryad.g57g1 [40] . Competing interests. We have no competing interests.",
+                "cite_spans": [
+                    {
+                        "start": 203,
+                        "end": 207,
+                        "text": "[40]",
+                        "ref_id": "BIBREF41"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusion",
+                "sec_num": "4."
+            },
+            {
+                "text": "Downloaded from https://royalsocietypublishing.org/ on 07 October 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "Acknowledgements. We thank C. Dullin for providing the images for electronic supplementary material, figure S1 and the natural history staff who kindly lent us specimens or facilitated access to specimen collections: L. ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "acknowledgement",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "The evolution of food caching by birds and mammals",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Reichman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "Annu. Rev. Ecol. Evol. Syst",
+                "volume": "15",
+                "issue": "",
+                "pages": "329--351",
+                "other_ids": {
+                    "DOI": [
+                        "10.1146/annurev.es.15.110184.001553"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Smith CC, Reichman OJ. 1984 The evolution of food caching by birds and mammals. Annu. Rev. Ecol. Evol. Syst. 15, 329-351. (doi:10.1146/annurev.es.15. 110184.001553)",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Suppressed bone remodeling in black bears conserves energy and bone mass during hibernation",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Mcgee-Lawrence",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Buckendahl",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Carpenter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Henriksen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Vaughan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Donahue",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "J. Exp. Biol",
+                "volume": "218",
+                "issue": "",
+                "pages": "2067--2074",
+                "other_ids": {
+                    "DOI": [
+                        "10.1242/jeb.120725"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "McGee-Lawrence M, Buckendahl P, Carpenter C, Henriksen K, Vaughan M, Donahue S. 2015 Suppressed bone remodeling in black bears conserves energy and bone mass during hibernation. J. Exp. Biol. 218, 2067-2074. (doi:10.1242/jeb.120725)",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Allometry and size in ontogeny and phylogeny",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gould",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1966,
+                "venue": "Biol. Rev",
+                "volume": "41",
+                "issue": "",
+                "pages": "587--638",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1469-185X.1966.tb01624.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Gould SJ. 1966 Allometry and size in ontogeny and phylogeny. Biol. Rev. 41, 587-638. (doi:10.1111/j.1469-185X.1966. tb01624.x)",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Evolution of body size in the woodrat over the past 25000 years of climate change",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Betancourt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Science",
+                "volume": "270",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/science.270.5244.2012"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Smith FA, Betancourt JL, Brown JH. 1995 Evolution of body size in the woodrat over the past 25000 years of climate change. Science 270, 2012-2014. (doi:10.1126/science.270. 5244.2012)",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "October 2021 rsos.royalsocietypublishing.org R. Soc. open sci",
+                "authors": [],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Downloaded from https://royalsocietypublishing.org/ on 07 October 2021 rsos.royalsocietypublishing.org R. Soc. open sci. 4: 160947 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Climatic change and body size in two species of Japanese rodents",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Yom-Tov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Yom-Tov",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Biol. J. Linn. Soc",
+                "volume": "82",
+                "issue": "",
+                "pages": "263--267",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1095-8312.2004.00357.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Yom-Tov Y, Yom-Tov S. 2004 Climatic change and body size in two species of Japanese rodents. Biol. J. Linn. Soc. 82, 263-267. (doi:10.1111/j.1095-8312. 2004.00357.x)",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Declining body size: a third universal response to warming?",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Gardner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Peters",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Kearney",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Joseph",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Heinsohn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Trends Ecol. Evol",
+                "volume": "26",
+                "issue": "",
+                "pages": "285--291",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.tree.2011.03.005"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Gardner JL, Peters A, Kearney MR, Joseph L, Heinsohn R. 2011 Declining body size: a third universal response to warming? Trends Ecol. Evol. 26, 285-291. (doi:10.1016/j.tree.2011.03.005)",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Shrinking body size as an ecological response to climate change",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Sheridan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Bickford",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Nat. Clim. Change",
+                "volume": "1",
+                "issue": "",
+                "pages": "401--406",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nclimate1259"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Sheridan JA, Bickford D. 2011 Shrinking body size as an ecological response to climate change. Nat. Clim. Change 1, 401-406. (doi:10.1038/nclimate1259)",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Geographic and temporal correlations of mammalian size reconsidered: a resource rule",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Mcnab",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Oecologia",
+                "volume": "164",
+                "issue": "",
+                "pages": "13--23",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s00442-010-1621-5"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "McNab BK. 2010 Geographic and temporal correlations of mammalian size reconsidered: a resource rule. Oecologia 164, 13-23. (doi:10.1007/ s00442-010-1621-5)",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "In The skull: functional and evolutionary mechanisms",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Emerson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Bramble",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "J Hanken",
+                "volume": "",
+                "issue": "",
+                "pages": "384--421",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Emerson SB, Bramble DM. 1993 Scaling, allometry, and skull design. In The skull: functional and evolutionary mechanisms (eds J Hanken, BK Hall), pp. 384-421. Chicago, IL: University of Chicago Press.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Recent spatial and temporal changes in body size of terrestrial vertebrates: probable causes and pitfalls",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Yom-Tov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Geffen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Biol. Rev",
+                "volume": "86",
+                "issue": "",
+                "pages": "531--541",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1469-185X.2010.00168.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Yom-Tov Y, Geffen E. 2011 Recent spatial and temporal changes in body size of terrestrial vertebrates: probable causes and pitfalls. Biol. Rev. 86, 531-541. (doi:10.1111/j.1469-185X.2010.00168.x)",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Larger mammals have longer faces because of size-related constraints on skull form",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Cardini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Polly",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Nat. Commun",
+                "volume": "4",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/ncomms3458"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Cardini A, Polly PD. 2013 Larger mammals have longer faces because of size-related constraints on skull form. Nat. Commun. 4, 2458. (doi:10.1038/ ncomms3458)",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "A three-dimensional skull ontogeny in the bobcat (Lynx rufus) (Carnivora: Felidae): a comparison with other carnivores",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Segura",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Can. J. Zool",
+                "volume": "93",
+                "issue": "",
+                "pages": "225--237",
+                "other_ids": {
+                    "DOI": [
+                        "10.1139/cjz-2014-0148"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Segura V. 2015 A three-dimensional skull ontogeny in the bobcat (Lynx rufus) (Carnivora: Felidae): a comparison with other carnivores. Can. J. Zool. 93, 225-237. (doi:10.1139/cjz-2014-0148)",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Quantitative growth and development of human brain",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Dobbing",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sands",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1973,
+                "venue": "Arch. Dis. Child",
+                "volume": "48",
+                "issue": "",
+                "pages": "757--767",
+                "other_ids": {
+                    "DOI": [
+                        "10.1136/adc.48.10.757"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Dobbing J, Sands J. 1973 Quantitative growth and development of human brain. Arch. Dis. Child. 48, 757-767. (doi:10.1136/adc.48.10.757)",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Osteoclast differentiation and activation",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Boyle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Simonet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lacey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Nature",
+                "volume": "423",
+                "issue": "",
+                "pages": "337--342",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nature01658"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Boyle WJ, Simonet WS, Lacey DL. 2003 Osteoclast differentiation and activation. Nature 423, 337-342. (doi:10.1038/nature01658)",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Skeletal tissue mechanics",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Martin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Burr",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Sharkey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Fyhrie",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Martin RB, Burr DB, Sharkey NA, Fyhrie DP. 2015 Skeletal tissue mechanics, 2nd edn. Heidelberg, Germany: Springer.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Seasonal changes in the braincase of some representatives of the genus Sorex from the Palearctic",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Pucek",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1963,
+                "venue": "J. Mammal",
+                "volume": "44",
+                "issue": "",
+                "pages": "523--536",
+                "other_ids": {
+                    "DOI": [
+                        "10.2307/1377135"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Pucek Z. 1963 Seasonal changes in the braincase of some representatives of the genus Sorex from the Palearctic. J. Mammal. 44, 523-536. (doi:10.2307/ 1377135)",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "On the seasonal changes in the skeleton of the common shrew (Sorex araneus L.) and their physiological background",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Hyv\u00e4rinen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1969,
+                "venue": "Aquilo Ser. Zool",
+                "volume": "7",
+                "issue": "",
+                "pages": "1--32",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hyv\u00e4rinen H. 1969 On the seasonal changes in the skeleton of the common shrew (Sorex araneus L.) and their physiological background. Aquilo Ser. Zool. 7, 1-32.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Water contents and seasonal changes of the brain-weight in shrews",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Pucek",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1965,
+                "venue": "Acta Theriol",
+                "volume": "10",
+                "issue": "",
+                "pages": "353--367",
+                "other_ids": {
+                    "DOI": [
+                        "10.4098/AT.arch.65-30"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Pucek M. 1965 Water contents and seasonal changes of the brain-weight in shrews. Acta Theriol. 10, 353-367. (doi:10.4098/AT.arch.65-30)",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Seasonal and age changes in the weight of internal organs of shrews",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Pucek",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1965,
+                "venue": "Acta Theriol",
+                "volume": "10",
+                "issue": "",
+                "pages": "369--438",
+                "other_ids": {
+                    "DOI": [
+                        "10.4098/AT.arch.65-31"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Pucek Z. 1965 Seasonal and age changes in the weight of internal organs of shrews. Acta Theriol. 10, 369-438. (doi:10.4098/AT.arch.65-31)",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "A taxonomic review of the American long-tailed shrews (genera Sorex and Microsorex)",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Jackson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1928,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jackson HH. 1928 A taxonomic review of the American long-tailed shrews (genera Sorex and Microsorex). North American Fauna series, no. 51, p. 238. US Fish and Wildlife Service.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "\u00dcber die postnatale Hirnentwicklung beim Farmnerz Mustela vison f. dom (Mustelidae: Mammalia)",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Kruska",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1977,
+                "venue": "Zeitschrift f\u00fcr S\u00e4ugetierkunde",
+                "volume": "42",
+                "issue": "",
+                "pages": "240--255",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kruska D. 1977 \u00dcber die postnatale Hirnentwicklung beim Farmnerz Mustela vison f. dom (Mustelidae: Mammalia). Zeitschrift f\u00fcr S\u00e4ugetierkunde 42, 240-255.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Zur postnatalen Hirnentwicklung beim Frettchen Mustela putorius f. furo (Mustelidae; Mammalia)",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Apfelbach",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Kruska",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1979,
+                "venue": "Zeitschrift f\u00fcr S\u00e4ugetierkunde",
+                "volume": "44",
+                "issue": "",
+                "pages": "127--131",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Apfelbach V, Kruska D. 1979 Zur postnatalen Hirnentwicklung beim Frettchen Mustela putorius f. furo (Mustelidae; Mammalia). Zeitschrift f\u00fcr S\u00e4ugetierkunde 44, 127-131.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Skull variability of Mustela nivalis Linnaeus 1766 in Poland",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Schmidt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Acta Theriol",
+                "volume": "37",
+                "issue": "",
+                "pages": "141--162",
+                "other_ids": {
+                    "DOI": [
+                        "10.4098/AT.arch.92-15"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Schmidt K. 1992 Skull variability of Mustela nivalis Linnaeus 1766 in Poland. Acta Theriol. 37, 141-162. (doi:10.4098/AT.arch.92-15)",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Skull variability of Mustela putorius Linnaeus, 1758",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Buchalczyk",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Ruprecht",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1977,
+                "venue": "Acta Theriol",
+                "volume": "22",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.4098/AT.arch.77-6"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Buchalczyk T, Ruprecht AL. 1977 Skull variability of Mustela putorius Linnaeus, 1758. Acta Theriol. 22, 87-120. (doi:10.4098/AT.arch.77-6)",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Winter reduction in body mass in a very small, nonhibernating mammal: consequences for heat loss and metabolic rates",
+                "authors": [
+                    {
+                        "first": "Jre",
+                        "middle": [],
+                        "last": "Taylor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Rychlik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Churchfield",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Physiol. Biochem. Zool",
+                "volume": "86",
+                "issue": "",
+                "pages": "9--18",
+                "other_ids": {
+                    "DOI": [
+                        "10.1086/668484"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Taylor JRE, Rychlik L, Churchfield S. 2013 Winter reduction in body mass in a very small, nonhibernating mammal: consequences for heat loss and metabolic rates. Physiol. Biochem. Zool. 86, 9-18. (doi:10.1086/668484)",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Viability of large-and small-sized adults in fluctuating vole populations",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Boonstra",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Krebs",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1979,
+                "venue": "Ecology",
+                "volume": "60",
+                "issue": "",
+                "pages": "567--573",
+                "other_ids": {
+                    "DOI": [
+                        "10.2307/1936077"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Boonstra R, Krebs CJ. 1979 Viability of large-and small-sized adults in fluctuating vole populations. Ecology 60, 567-573. (doi:10.2307/1936077)",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Effects of age, sex, and density on body weight of Norwegian red deer: evidence of density-dependent senescence",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Mysterud",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Yoccoz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Stenseth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Langvatn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Proc. R. Soc. Lond. B",
+                "volume": "268",
+                "issue": "",
+                "pages": "911--919",
+                "other_ids": {
+                    "DOI": [
+                        "10.1098/rspb.2001.1585"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Mysterud A, Yoccoz NG, Stenseth NC, Langvatn R. 2001 Effects of age, sex, and density on body weight of Norwegian red deer: evidence of density-dependent senescence. Proc. R. Soc. Lond. B 268, 911-919. (doi:10.1098/rspb.2001.1585)",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Population cycles and changes in body size of the lynx in Alaska",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Yom-Tov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Yom-Tov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Macdonald",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Yom-Tov",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Oecologia",
+                "volume": "152",
+                "issue": "",
+                "pages": "239--244",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s00442-006-0653-3"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Yom-Tov Y, Yom-Tov S, MacDonald D, Yom-Tov E. 2007 Population cycles and changes in body size of the lynx in Alaska. Oecologia 152, 239-244. (doi:10.1007/s00442-006-0653-3)",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Lower body mass and higher metabolic rate enhance winter survival in root voles, Microtus oeconomus",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Zub",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Borowski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Szafra\u0144ska",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Wieczorek",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Konarzewski",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Biol. J. Linn. Soc",
+                "volume": "113",
+                "issue": "",
+                "pages": "297--309",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/bij.12306"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Zub K, Borowski Z, Szafra\u0144ska PA, Wieczorek M, Konarzewski M. 2014 Lower body mass and higher metabolic rate enhance winter survival in root voles, Microtus oeconomus. Biol. J. Linn. Soc. 113, 297-309. (doi:10.1111/bij.12306)",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Seasonal acclimatization of energy requirements in mammals: functional significance of body weight control, hypothermia, torpor, and hibernation",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Heldmaier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "; W Wiesier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Gnaiger",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Energy transformations in cells and organisms",
+                "volume": "",
+                "issue": "",
+                "pages": "130--139",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Heldmaier G. 1989 Seasonal acclimatization of energy requirements in mammals: functional significance of body weight control, hypothermia, torpor, and hibernation. In Energy transformations in cells and organisms (eds W Wiesier, E Gnaiger), pp. 130-139. Innsbruck, Austria: Georg Thieme Verlag.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "The natural history of shrews",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Churchfield",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Churchfield S. 1990 The natural history of shrews. Ithaca, NY: Cornell University Press.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Phenotypic flexibility and the evolution of organismal design",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Piersma",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Drent",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Trends Ecol",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Piersma T, Drent J. 2003 Phenotypic flexibility and the evolution of organismal design. Trends Ecol.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Variation in brain morphology of the common shrew",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Yaskin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Adv. Biol. Shrews",
+                "volume": "18",
+                "issue": "",
+                "pages": "155--161",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yaskin VA. 1994 Variation in brain morphology of the common shrew. Adv. Biol. Shrews 18, 155-161.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Trade-offs between activity and thermoregulation in a small carnivore, the least weasel Mustela nivalis",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Zub",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Szafranska",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Konarzewski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Redman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Speakman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Proc. R. Soc. B",
+                "volume": "276",
+                "issue": "",
+                "pages": "1921--1927",
+                "other_ids": {
+                    "DOI": [
+                        "10.1098/rspb.2008.1936"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Zub K, Szafranska PA, Konarzewski M, Redman P, Speakman JR. 2009 Trade-offs between activity and thermoregulation in a small carnivore, the least weasel Mustela nivalis. Proc. R. Soc. B 276, 1921-1927. (doi:10.1098/rspb.2008.1936)",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "The natural history of weasels and stoats: ecology, behavior, and management",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "King",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Powell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "King CM, Powell RA. 2007 The natural history of weasels and stoats: ecology, behavior, and management, 2nd edn. London, UK: Oxford University Press.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Profound seasonal shrinking and regrowth of the ossified braincase of phylogenetically distant mammals with similar life histories",
+                "authors": [
+                    {
+                        "first": "Dkn",
+                        "middle": [],
+                        "last": "Dechmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Lapoint",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Dullin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hertel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Jre",
+                        "middle": [],
+                        "last": "Taylor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Zub",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Wikelski",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dechmann DKN, LaPoint S, Dullin C, Hertel M, Taylor JRE, Zub K, Wikelski M In press. Profound seasonal shrinking and regrowth of the ossified braincase of phylogenetically distant mammals with similar life histories. Sci. Rep.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Data from: growth overshoot and seasonal size changes in the skulls of two weasel species",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Lapoint",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Keicher",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Wikelski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Zub",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Dkn",
+                        "middle": [],
+                        "last": "Dechmann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Dryad Digital Repository",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.5061/dryad.g57g1"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "LaPoint S, Keicher L, Wikelski M, Zub K, Dechmann DKN. 2017 Data from: growth overshoot and seasonal size changes in the skulls of two weasel species. Dryad Digital Repository. (doi:10.5061/dryad.g57g1)",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Variation in body size, sexual dimorphism and age-specific survival in stoats, Mustela erminea (Mammalia: Carnivora), with fluctuating food supplies",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Powell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "King",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Biol. J. Linn. Soc",
+                "volume": "62",
+                "issue": "",
+                "pages": "165--194",
+                "other_ids": {
+                    "DOI": [
+                        "10.1006/bijl.1996.0154"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Powell RA, King CM. 1997 Variation in body size, sexual dimorphism and age-specific survival in stoats, Mustela erminea (Mammalia: Carnivora), with fluctuating food supplies. Biol. J. Linn. Soc. 62, 165-194. (doi:10.1006/bijl.1996.0154)",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Generalized additive models: an introduction with R",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Wood",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wood S. 2006 Generalized additive models: an introduction with R. Boca Raton, FL: Chapman and Hall.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Effect of energetic constraints on distribution and winter survival of weasel males",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Zub",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Szafra\u0144ska",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Konarzewski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Speakman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "J. Anim. Ecol",
+                "volume": "80",
+                "issue": "",
+                "pages": "259--269",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-2656.2010.01762.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Zub K, Szafra\u0144ska PA, Konarzewski M, Speakman JR. 2011 Effect of energetic constraints on distribution and winter survival of weasel males. J. Anim. Ecol. 80, 259-269. (doi:10.1111/j.1365-2656.2010.01762.x)",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "A review of age determination methods for the stoat Mustela erminea",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "King",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Mamm. Rev",
+                "volume": "21",
+                "issue": "",
+                "pages": "31--49",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-2907.1991.tb00286.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "King CM. 1991 A review of age determination methods for the stoat Mustela erminea. Mamm. Rev. 21, 31-49. (doi:10.1111/j.1365-2907.1991.tb00286.x)",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "boot: bootstrap R (S-Plus) functions. R Package. vers",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Canty",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Ripley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "",
+                "volume": "1",
+                "issue": "",
+                "pages": "3--18",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Canty AR, Ripley, B. 2016 boot: bootstrap R (S-Plus) functions. R Package. vers 1.3-18.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "R: a language and environment for statistical computing",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "R Core Team",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "R Foundation for Statistical Computing",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "R Core Team. 2016 R: a language and environment for statistical computing, version 3.3.1. Vienna, Austria: R Foundation for Statistical Computing.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Generalized additive models",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Hastie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Tibshirani",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Stat. Sci",
+                "volume": "1",
+                "issue": "",
+                "pages": "297--310",
+                "other_ids": {
+                    "DOI": [
+                        "10.1214/ss/1177013604"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hastie T, Tibshirani R. 1986 Generalized additive models. Stat. Sci. 1, 297-310. (doi:10.1214/ss/ 1177013604)",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Regression and time series model selection in small samples",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Hurvich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C-L",
+                        "middle": [],
+                        "last": "Tsai",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Biometrika",
+                "volume": "76",
+                "issue": "",
+                "pages": "297--307",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/biomet/76.2.297"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hurvich CM, Tsai C-L. 1989 Regression and time series model selection in small samples. Biometrika 76, 297-307. (doi:10.1093/biomet/76.2.297)",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Model selection and multimodel inference: a practical information-theoretic approach",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Burnham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Burnham KP, Anderson DR. 2002 Model selection and multimodel inference: a practical information-theoretic approach, 2nd edn. Heidelberg, Germany: Springer.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "mgcv: mixed GAM computation vehicle with GCV/AIC/REML smoothness estimation",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Wood",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wood S. 2016 mgcv: mixed GAM computation vehicle with GCV/AIC/REML smoothness estimation, version 1.8-16.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "MuMIn: model selection and model averaging based on Information Criteria (AICc and alike)",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Barton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barton K. 2016 MuMIn: model selection and model averaging based on Information Criteria (AICc and alike), version 1.15.6.",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Bergmann's rule in shrews: geographical variation of body size in Palearctic Sorex species",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Ochoci\u0144ska",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Jre",
+                        "middle": [],
+                        "last": "Taylor",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Biol. J. Linn. Soc",
+                "volume": "78",
+                "issue": "",
+                "pages": "365--381",
+                "other_ids": {
+                    "DOI": [
+                        "10.1046/j.1095-8312.2003.00150.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ochoci\u0144ska D, Taylor JRE. 2003 Bergmann's rule in shrews: geographical variation of body size in Palearctic Sorex species. Biol. J. Linn. Soc. 78, 365-381. (doi:10.1046/j.1095-8312.2003.00150.x)",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Why do European stoats Mustela erminea not follow Bergmann's rule?",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Erlinge",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Ecography",
+                "volume": "10",
+                "issue": "",
+                "pages": "33--39",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1600-0587.1987.tb00735.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Erlinge S. 1987 Why do European stoats Mustela erminea not follow Bergmann's rule? Ecography 10, 33-39. (doi:10.1111/j.1600-0587.1987. tb00735.x)",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "Geographic variation in size and sexual dimorphism of North American weasels",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Ralls",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Harvey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ralls K, Harvey PH. 1985 Geographic variation in size and sexual dimorphism of North American weasels.",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "\u00c9tude de la variation de taille de l'hermine (Mustela erminea L.) et de la belette (Mustela nivalis L.) en Europe. Bulletin de la Societe Neuch\u00e2teloise des",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Meia",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Sciences Naturelles",
+                "volume": "113",
+                "issue": "",
+                "pages": "307--318",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Meia J. 1990 \u00c9tude de la variation de taille de l'hermine (Mustela erminea L.) et de la belette (Mustela nivalis L.) en Europe. Bulletin de la Societe Neuch\u00e2teloise des Sciences Naturelles 113, 307-318.",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Biogeographic and evolutionary implications of size variation in North American least weasels (Mustela nivalis)",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Reig",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Can. J. Zool",
+                "volume": "75",
+                "issue": "",
+                "pages": "2036--2049",
+                "other_ids": {
+                    "DOI": [
+                        "10.1139/z97-837"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Reig S. 1997 Biogeographic and evolutionary implications of size variation in North American least weasels (Mustela nivalis). Can. J. Zool. 75, 2036-2049. (doi:10.1139/z97-837)",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Geographic variation and intraspecific taxonomy of weasel Mustela nivalis (Carnivora, Mustelidae)",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Abramov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Baryshnikov",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Zoosyst. Ross",
+                "volume": "8",
+                "issue": "",
+                "pages": "365--402",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Abramov A, Baryshnikov G. 2000 Geographic variation and intraspecific taxonomy of weasel Mustela nivalis (Carnivora, Mustelidae). Zoosyst. Ross. 8, 365-402.",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "Age determination in the weasel Mustela nivalis in relation to the development of the skull",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "King",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "Zeitschrift f\u00fcr S\u00e4ugetierkunde",
+                "volume": "45",
+                "issue": "",
+                "pages": "153--173",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "King CM. 1980 Age determination in the weasel Mustela nivalis in relation to the development of the skull. Zeitschrift f\u00fcr S\u00e4ugetierkunde 45, 153-173.",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "Evolution of skull shape in carnivores: 1. Representative modern carnivores",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Radinsky",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Radinsky LB. 1981 Evolution of skull shape in carnivores: 1. Representative modern carnivores.",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "Bite forces and evolutionary adaptations to feeding ecology in carnivores",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Christiansen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Wroe",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Ecology",
+                "volume": "88",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1890/0012-9658(2007)88[347:BFAEAT]2.0.CO;2"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Christiansen P, Wroe S. 2007 Bite forces and evolutionary adaptations to feeding ecology in carnivores. Ecology 88, 347-358. (doi:10.1890/0012- 9658(2007)88[347:BFAEAT]2.0.CO;2)",
+                "links": null
+            },
+            "BIBREF64": {
+                "ref_id": "b64",
+                "title": "The life-history tactics of mustelids, and their significance for predator control and conservation in New Zealand",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "King",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Moors",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1979,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "King CM, Moors PJ. 1979 The life-history tactics of mustelids, and their significance for predator control and conservation in New Zealand. N. Z. J. rsos.royalsocietypublishing.org R. Soc. open sci. 4: 160947 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+                "links": null
+            },
+            "BIBREF66": {
+                "ref_id": "b66",
+                "title": "Possible pathways for the evolution of reproductive strategies in weasels and stoats",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Powell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "Oikos",
+                "volume": "44",
+                "issue": "",
+                "pages": "506--508",
+                "other_ids": {
+                    "DOI": [
+                        "10.2307/3565792"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Powell RA. 1985 Possible pathways for the evolution of reproductive strategies in weasels and stoats. Oikos 44, 506-508. (doi:10.2307/ 3565792)",
+                "links": null
+            },
+            "BIBREF67": {
+                "ref_id": "b67",
+                "title": "Body length shrinkage in an endangered amphibian is associated with drought",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Bendik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Gluesenkamp",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "J. Zool",
+                "volume": "290",
+                "issue": "",
+                "pages": "35--41",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/jzo.12009"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Bendik NF, Gluesenkamp AG. 2013 Body length shrinkage in an endangered amphibian is associated with drought. J. Zool. 290, 35-41. (doi:10.1111/jzo.12009)",
+                "links": null
+            },
+            "BIBREF68": {
+                "ref_id": "b68",
+                "title": "Social status regulates growth rate: consequences for life-history strategies",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hofmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Benson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Fernald",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Proc. Natl Acad. Sci. USA 96",
+                "volume": "14",
+                "issue": "",
+                "pages": "171--185",
+                "other_ids": {
+                    "DOI": [
+                        "10.1073/pnas.96.24.14171"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hofmann HA, Benson ME, Fernald RD. 1999 Social status regulates growth rate: consequences for life-history strategies. Proc. Natl Acad. Sci. USA 96, 14 171-14 176. (doi:10.1073/pnas.96.24.14171)",
+                "links": null
+            },
+            "BIBREF69": {
+                "ref_id": "b69",
+                "title": "Fish can shrink under harsh living conditions",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Huusko",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "M\u00e4ki-Pet\u00e4ys",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Stickler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Mykr\u00e4",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Funct. Ecol",
+                "volume": "25",
+                "issue": "",
+                "pages": "628--633",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-2435.2010.01808.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Huusko A, M\u00e4ki-Pet\u00e4ys A, Stickler M, Mykr\u00e4 H. 2011 Fish can shrink under harsh living conditions. Funct. Ecol. 25, 628-633. (doi:10.1111/j.1365-2435.2010. 01808.x)",
+                "links": null
+            },
+            "BIBREF70": {
+                "ref_id": "b70",
+                "title": "Growing and shrinking in the smallest tortoise, Homopus signatus signatus: the importance of rain",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Loehr",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Hofmeyr",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Henen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Oecologia",
+                "volume": "153",
+                "issue": "",
+                "pages": "479--488",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s00442-007-0738-7"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Loehr VJ, Hofmeyr MD, Henen BT. 2007 Growing and shrinking in the smallest tortoise, Homopus signatus signatus: the importance of rain. Oecologia 153, 479-488. (doi:10.1007/s00442-007-0738-7)",
+                "links": null
+            },
+            "BIBREF71": {
+                "ref_id": "b71",
+                "title": "Marine iguanas shrink to survive El Ni\u00f1o",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Wikelski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Thom",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Nature",
+                "volume": "403",
+                "issue": "",
+                "pages": "37--38",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/47396"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Wikelski M, Thom C. 2000 Marine iguanas shrink to survive El Ni\u00f1o. Nature 403, 37-38. (doi:10.1038/ 47396)",
+                "links": null
+            },
+            "BIBREF72": {
+                "ref_id": "b72",
+                "title": "A brain for all seasons: cyclical anatomical changes in song control nuclei of the canary brain",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Nottebohm",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "Science",
+                "volume": "214",
+                "issue": "",
+                "pages": "1368--1370",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/science.7313697"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Nottebohm F. 1981 A brain for all seasons: cyclical anatomical changes in song control nuclei of the canary brain. Science 214, 1368-1370. (doi:10.1126/science.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "type_str": "figure",
+                "num": null,
+                "uris": null,
+                "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+            },
+            "FIGREF1": {
+                "type_str": "figure",
+                "num": null,
+                "uris": null,
+                "text": "rsos.royalsocietypublishing.org R. Soc. open sci. 4: 160947 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+            },
+            "FIGREF2": {
+                "type_str": "figure",
+                "num": null,
+                "uris": null,
+                "text": "3.3.1; [46]) using the mgcv (v. 1.8-6; [50]) and MuMIn (v. 1.15.6; [51]) packages for executing and comparing the GAMs."
+            },
+            "FIGREF3": {
+                "type_str": "figure",
+                "num": null,
+                "uris": null,
+                "text": "Results and discussion 3.1. Braincase volume Braincase volume correlates strongly with both BD s and with CSA s in both species (stoat BD s : Spearman's \u03c1 = 0.792, p < 0.001; stoat CSA s : Spearman's \u03c1 = 0.937, p < 0.001; weasel BD s : Spearman's rsos.royalsocietypublishing.org R. Soc. open sci. 4: 160947 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Adult M. erminea (n = 323) and M. nivalis (n = 488) specimen collection locations. Circle fill colour indicates shortest to longest condylobasal lengths (yellow to blue, respectively), showing sexual size dimorphism between females and the larger males in both species and the geographical distribution of skull length across both species. \u03c1 = 0.709, p < 0.001; weasel CSA s : Spearman's \u03c1 = 0.935, p < 0.001) (electronic supplementary material,"
+            },
+            "FIGREF4": {
+                "type_str": "figure",
+                "num": null,
+                "uris": null,
+                "text": "Juveniles ('J'; dark green density contours) and sub-adults ('S'; light green density contours) have significantly taller braincases than adults ('A'; no density contours) in both species. GAM predictions using only adult specimens show seasonal patterns in the standardized braincase depths of both females (turquoise) and males (dark blue) of M. erminea (a) and M. nivalis (b). In both species, males tend to show greater seasonal changes than females (shading indicates 95% Bayesian confidence intervals)."
+            },
+            "FIGREF5": {
+                "type_str": "figure",
+                "num": null,
+                "uris": null,
+                "text": ", effective degrees of freedom (edf), log-likelihood (log(L)), second-order AIC (AICc), change in AICc ( AICc) and model weight (w) are provided. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+            },
+            "FIGREF6": {
+                "type_str": "figure",
+                "num": null,
+                "uris": null,
+                "text": "Seasonal patterns in the standardized braincase depths of adult female (turquoise triangles, line and fill) and male (dark blue plus-signs, line and fill) M. erminea (top row) and M. nivalis (bottom row) occur across the geographical range of each species, but also within several smaller geographical regions. GAM predictions suggest that the presence, magnitude and timing of the seasonal patterns varies between sexes, species and geographical regions (shading indicates 95% Bayesian confidence intervals). See electronic supplementary material, table S5 for sample sizes, p-values and model attributes."
+            },
+            "FIGREF7": {
+                "type_str": "figure",
+                "num": null,
+                "uris": null,
+                "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+            },
+            "FIGREF8": {
+                "type_str": "figure",
+                "num": null,
+                "uris": null,
+                "text": "Authors' contributions. S.L. and D.K.N.D. designed the research; S.L. and L.K. collected the data; S.L. analysed the data; S.L., D.K.N.D., L.K., M.W. and K.Z. wrote the manuscript. All authors approved the final version of this manuscript.Funding. This work was funded by the Max-Planck-Poland Biodiversity Initiative to D.K.N.D. and M.W. and a National Science Centre grant no. (2013/11/B/NZ8/00887) to K.Z."
+            },
+            "TABREF1": {
+                "type_str": "table",
+                "content": "<table><tr><td/><td/><td>condylobasal length</td><td/><td>braincase breadth</td><td/><td>braincase depth</td><td/></tr><tr><td/><td>n</td><td>mean (\u00b1s.e.m.)</td><td>variance</td><td>mean (\u00b1s.e.m.)</td><td>variance</td><td>mean (\u00b1s.e.m.)</td><td>variance</td></tr><tr><td>M. erminea</td><td>512</td><td>41.68 (0.17)</td><td>15.53</td><td>19.56 (0.09)</td><td>3.784</td><td>13.75 (0.08)</td><td>3.042</td></tr><tr><td>female</td><td>227</td><td>38.81 (0.21)</td><td>9.745</td><td>18.56 (0.11)</td><td>2.963</td><td>12.97 (0.11)</td><td>2.722</td></tr><tr><td>juvenile</td><td>44</td><td>38.00 (0.34) a</td><td>5.068</td><td>19.90 (0.22)</td><td>2.207</td><td>14.32 (0.14)</td><td>0.920</td></tr><tr><td>sub-adult</td><td>55</td><td>38.63 (0.46) a</td><td>11.74</td><td>18.78 (0.23)</td><td>2.890</td><td>13.54 (0.20)</td><td>2.263</td></tr><tr><td>adult</td><td>128</td><td>39.16 (0.28) a</td><td>10.27</td><td>18.00 (0.14)</td><td>2.235</td><td>12.26 (0.13)</td><td>2.295</td></tr><tr><td>male</td><td>285</td><td>43.97 (0.17)</td><td>8.357</td><td>20.35 (0.10)</td><td>3.030</td><td>14.37 (0.09)</td><td>2.429</td></tr><tr><td>juvenile</td><td>29</td><td>43.76 (0.42) b</td><td>5.199</td><td>22.11 (0.26)</td><td>1.888</td><td>15.87 (0.17)</td><td>0.834</td></tr><tr><td>sub-adult</td><td>61</td><td>43.65 (0.37) b</td><td>8.578</td><td>20.92 (0.21)</td><td>2.733</td><td>15.22 (0.18)</td><td>1.893</td></tr><tr><td>adult</td><td>195</td><td>44.10 (0.21) b</td><td>8.776</td><td>19.91 (0.11)</td><td>2.553</td><td>13.89 (0.10)</td><td>2.050</td></tr><tr><td>M. nivalis</td><td>847</td><td>34.24 (0.13)</td><td>13.87</td><td>15.95 (0.05)</td><td>2.377</td><td>11.12 (0.04)</td><td>1.469</td></tr><tr><td>female</td><td>351</td><td>31.65 (0.12)</td><td>5.419</td><td>14.99 (0.06)</td><td>1.239</td><td>10.36 (0.05)</td><td>0.845</td></tr><tr><td>juvenile</td><td>63</td><td>30.46 (0.21)</td><td>2.802</td><td>15.72 (0.10) e</td><td>0.579</td><td>11.17 (0.07)</td><td>0.281</td></tr><tr><td>sub-adult</td><td>98</td><td>31.84 (0.18) c</td><td>3.073</td><td>15.44 (0.09) e</td><td>0.815</td><td>10.68 (0.07)</td><td>0.514</td></tr><tr><td>adult</td><td>190</td><td>31.95 (0.19) c</td><td>6.961</td><td>14.51 (0.08)</td><td>1.173</td><td>9.93 (0.06)</td><td>0.752</td></tr><tr><td>male</td><td>496</td><td>36.07 (0.15)</td><td>11.78</td><td>16.63 (0.06)</td><td>2.062</td><td>11.66 (0.05)</td><td>1.220</td></tr><tr><td>juvenile</td><td>69</td><td>34.24 (0.29)</td><td>5.912</td><td>17.27 (0.13) f</td><td>1.139</td><td>12.21 (0.10) g</td><td>0.625</td></tr><tr><td colspan=\"2\">sub-adult 129</td><td>35.79 (0.23) d</td><td>6.691</td><td>17.02 (0.10) f</td><td>1.296</td><td>12.00 (0.07) g</td><td>0.664</td></tr><tr><td>adult</td><td>298</td><td>36.61 (0.22) d</td><td>14.29</td><td>16.31 (0.09)</td><td>2.354</td><td>11.38 (0.07)</td><td>1.404</td></tr></table>",
+                "num": null,
+                "text": "Both M. erminea and M. nivalis show numerous sex and age-based differences in condylobasal length (mm), braincase breadth (mm) and braincase depth (mm). Juvenile braincase depths of both species and sexes are significantly greater than those of sub-adults and adults. Cases where groups are not significantly different are indicated with matching superscripts, as most(29/36)  are significant. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+            },
+            "TABREF2": {
+                "type_str": "table",
+                "content": "<table><tr><td>(a)</td><td/><td>( b)</td></tr><tr><td/><td>0.425</td></tr><tr><td/><td>0.400</td></tr><tr><td>braincase depth / condylobasal length</td><td>0.375 0.350 0.325 0.300</td></tr><tr><td/><td>0.275</td></tr><tr><td/><td>0.250</td></tr><tr><td/><td>J a n F e b M a r A p r M a y J u n e J u l y A u g S e p O c t N o v D e c</td><td>J a n F e b M a r A p r M a y J u n e J u l y A u g S e p O c t N o v D e c</td></tr><tr><td/><td>day of collection</td><td>day of collection</td></tr></table>",
+                "num": null,
+                "text": "rsos.royalsocietypublishing.org R. Soc. open sci. 4: 160947 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+            },
+            "TABREF3": {
+                "type_str": "table",
+                "content": "<table/>",
+                "num": null,
+                "text": "The optimal GAM to predict BD"
+            },
+            "TABREF4": {
+                "type_str": "table",
+                "content": "<table><tr><td/><td>0.375</td><td colspan=\"2\">Belgium</td><td/><td>0.062</td><td colspan=\"2\">0.011 Alaska 0.537</td><td colspan=\"2\">0.287</td><td>0.104</td><td>0.052</td><td>Ontario</td></tr><tr><td>braincase depth / condylobasal length</td><td>0.350 0.325 0.300 0.275</td><td/><td/><td/><td>1416.7 \u22122776 5.16</td><td>1421.7 \u22122773 8.63</td><td>2305.6 \u22124582 0.00</td><td colspan=\"2\">2314.4 \u22124581 1.25</td><td>2309.2 \u22124579 3.28</td><td>2318.0 \u22124578 4.66</td></tr><tr><td/><td>0.250</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>0.375</td><td colspan=\"2\">Belgium</td><td/><td>25.9</td><td colspan=\"2\">31.9 Finland 12.9</td><td colspan=\"2\">21.9</td><td>17.9</td><td>26.9</td><td>Poland</td></tr><tr><td>braincase depth / condylobasal length</td><td>0.350 0.325 0.300 0.275 0.250</td><td/><td/><td/><td>age*origin 0.711</td><td>age*origin origin*sex 0.717</td><td>0.600</td><td colspan=\"2\">age*origin 0.608</td><td>origin*sex 0.604</td><td>origin*sex 0.611 age*origin</td></tr><tr><td/><td colspan=\"2\">J a n M a r M a y J u l y</td><td>S e p N o v</td><td>J a n</td><td colspan=\"2\">J a n M a r M a y J u l y</td><td colspan=\"2\">S e p N o v</td><td>J a n</td><td>J a n M a r M a y J u l y</td><td>S e p N o v</td><td>J a n</td></tr><tr><td/><td/><td/><td/><td/><td colspan=\"5\">age*sex day of collection age*sex age*sex age*sex</td><td>age*sex</td><td>age*sex</td></tr><tr><td/><td/><td/><td/><td/><td>sex</td><td>sex</td><td>sex</td><td colspan=\"2\">sex</td><td>sex</td><td>sex</td></tr><tr><td/><td/><td/><td/><td/><td>origin</td><td>origin</td><td>origin</td><td colspan=\"2\">origin</td><td>origin</td><td>origin</td></tr><tr><td/><td/><td/><td/><td/><td>age</td><td>age</td><td>age</td><td colspan=\"2\">age</td><td>age</td><td>age</td></tr><tr><td/><td/><td/><td/><td/><td>s(doy)</td><td>s(doy)</td><td>s(doy)</td><td colspan=\"2\">s(doy)</td><td>s(doy)</td><td>s(doy)</td></tr><tr><td/><td/><td/><td/><td/><td>0.3099</td><td>0.3078</td><td>0.3247</td><td colspan=\"2\">0.3256</td><td>0.3242</td><td>0.3252</td></tr></table>",
+                "num": null,
+                "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . M. nivalis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . rsos.royalsocietypublishing.org R. Soc. open sci. 4: 160947 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+            }
+        }
+    }
+}

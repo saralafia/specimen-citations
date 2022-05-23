@@ -1,0 +1,2432 @@
+{
+    "paper_id": "Swiderski1993-MORPHOLOGICALEVOLUTIONOFTHESCAPULAINTREESQUIRREL",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:33:18.383951Z"
+    },
+    "title": "MORPHOLOGICAL EVOLUTION OF THE SCAPULA IN TREE SQUIRRELS, CHIPMUNKS, AND GROUND SQUIRRELS (SCIURIDAE): AN ANALYSIS USING THIN-PLATE SPLINES",
+    "authors": [
+        {
+            "first": "Donald",
+            "middle": [
+                "L"
+            ],
+            "last": "Swiderski",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Michigan",
+                "location": {
+                    "postCode": "48109",
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "J",
+            "middle": [],
+            "last": "Hanken",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Michigan",
+                "location": {
+                    "postCode": "48109",
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "The mammalian scapula, like many bones, is a single structural element that serves as an attachment site for several muscles. The goal of this study was to determine whether the scapula evolves as an integrated unit, or as a collection of distinct parts. Shape differences among the scapulae of tree squirrels, chipmunks, and ground squirrels were described using thin-plate spline analysis. This technique produces a geometric description of shape differences that can be decomposed into a series of components ranging in scale from features that span the entire form to features that are highly localized. Shape differences among tree squirrel scapulae were found only in largescale features, indicating spatially integrated shape change. Chipmunks and ground squirrels differ from tree squirrels in several features, but shared differences reflecting divergence of their common ancestor were found only in the small-scale features. Divergence of ground squirrels from the common ancestor involved some large-scale changes but was dominated by small-scale changes. Divergence of chipmunks was dominated by large-scale changes. Thus, the scapula evolved as an integrated unit during some transitions but as a collection of distinct parts during others. These results suggest that evolutionary patterns of the postcranial skeleton may be as complex as the patterns that have been described for skulls and feeding mechanisms.",
+    "pdf_parse": {
+        "paper_id": "Swiderski1993-MORPHOLOGICALEVOLUTIONOFTHESCAPULAINTREESQUIRREL",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "The mammalian scapula, like many bones, is a single structural element that serves as an attachment site for several muscles. The goal of this study was to determine whether the scapula evolves as an integrated unit, or as a collection of distinct parts. Shape differences among the scapulae of tree squirrels, chipmunks, and ground squirrels were described using thin-plate spline analysis. This technique produces a geometric description of shape differences that can be decomposed into a series of components ranging in scale from features that span the entire form to features that are highly localized. Shape differences among tree squirrel scapulae were found only in largescale features, indicating spatially integrated shape change. Chipmunks and ground squirrels differ from tree squirrels in several features, but shared differences reflecting divergence of their common ancestor were found only in the small-scale features. Divergence of ground squirrels from the common ancestor involved some large-scale changes but was dominated by small-scale changes. Divergence of chipmunks was dominated by large-scale changes. Thus, the scapula evolved as an integrated unit during some transitions but as a collection of distinct parts during others. These results suggest that evolutionary patterns of the postcranial skeleton may be as complex as the patterns that have been described for skulls and feeding mechanisms.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Thus, the entire scapula could be expected to evolve as a single large unit, or the various muscle attachment areas could be expected to evolve as several smaller units. Support for both evolutionary models can be found in previous studies of scapular shape differences. Lehman (1963) , Stein (1981) , and Taylor (1974) report that localized enlargement of specific muscle attachment areas distinguish various specialists from related generalists. Oxnard (1968) reports that several orders of mammals exhibit parallel patterns of shape differences that reflect general factors acting on the whole scapula. The goal of my study is to determine which pattern characterizes the evolution of scapular shape in the Sciuridae.",
+                "cite_spans": [
+                    {
+                        "start": 271,
+                        "end": 284,
+                        "text": "Lehman (1963)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 287,
+                        "end": 299,
+                        "text": "Stein (1981)",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 306,
+                        "end": 319,
+                        "text": "Taylor (1974)",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 448,
+                        "end": 461,
+                        "text": "Oxnard (1968)",
+                        "ref_id": "BIBREF39"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Within the Sciuridae, chipmunks (Tamias) and ground squirrels (Spermophilus) are members of a monophyletic group derived from tree squirrels (Bryant 1945; Ellis and Maxson 1980; Emry and Thorington 1982, 1984; Hafner 1984; Hight et al. 1974; Moore 1959) . The closest relatives of the terrestrial lineage appear to be the tree squirrels of the conservative tribe Sciurini Burmeister, 1854, which includes Sciurus and Tamiasciurus (Hafner 1984) . The relationships of most subgenera and many species groups of terrestrial sciurids have also been resolved; figure 1 illustrates the relationships of the species used in this study and represents the combined results of several studies [within tree squirrels (Hight et al. 1974; Moore 1959) , within chipmunks (Levenson et al. 1985) , and within ground squirrels (Gerber and Bimey 1968; Nadler 1966) ].",
+                "cite_spans": [
+                    {
+                        "start": 141,
+                        "end": 154,
+                        "text": "(Bryant 1945;",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 155,
+                        "end": 177,
+                        "text": "Ellis and Maxson 1980;",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 178,
+                        "end": 186,
+                        "text": "Emry and",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 187,
+                        "end": 209,
+                        "text": "Thorington 1982, 1984;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 210,
+                        "end": 222,
+                        "text": "Hafner 1984;",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 223,
+                        "end": 241,
+                        "text": "Hight et al. 1974;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 242,
+                        "end": 253,
+                        "text": "Moore 1959)",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 430,
+                        "end": 443,
+                        "text": "(Hafner 1984)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 706,
+                        "end": 725,
+                        "text": "(Hight et al. 1974;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 726,
+                        "end": 737,
+                        "text": "Moore 1959)",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 757,
+                        "end": 779,
+                        "text": "(Levenson et al. 1985)",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 810,
+                        "end": 833,
+                        "text": "(Gerber and Bimey 1968;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 834,
+                        "end": 846,
+                        "text": "Nadler 1966)",
+                        "ref_id": "BIBREF37"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "All chipmunks and ground squirrels are less arboreal and more fossorial than tree squirrels (Broadbanks 1974; Elliot 1978; Jones et al. 1983; Lechleitner 1969; Woods 1980) . However, many of the nesting and foraging traits that comprise \"'arboreality\" and \"fossoriality\" appear to have undergone multiple independent changes in both chipmunks and ground squirrels (Swiderski 1991 a) . For example, in each genus, the species with the largest and most complex burrow sys- This content downloaded from 35.7.39.109 on Thu, 07 Oct 2021 13:12:43 UTC All use subject to https://about.jstor.org/terms The currently popular approach to analysis of integration uses multivariate statistics to identify suites of covarying distance measurements (e.g., Cheverud 1982; Gould and Garwood 1969; Riska 1986; Zelditch and Carmichael 1989) . This multivariate statistical approach can be traced to Olson and Miller (195 8) , and a bivariate version can be found in Huxley's (1932) analysis of allometry. The conceptual roots lie in D'Arcy Thompson's (1917) (Bookstein et al. 1985; Bookstein 1991; Zelditch et al. 1992 ) have criticized the traditional statistical analyses of distance measurements for their inability to cap-ture the spatial organization Thompson intended to illustrate. Bookstein (1989 Bookstein ( , 1991 presents a new technique, the analysis of thin-plate splines, which produces a rigorous quantitative analysis of the spatial organization of shape change.",
+                "cite_spans": [
+                    {
+                        "start": 92,
+                        "end": 109,
+                        "text": "(Broadbanks 1974;",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 110,
+                        "end": 122,
+                        "text": "Elliot 1978;",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 123,
+                        "end": 141,
+                        "text": "Jones et al. 1983;",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 142,
+                        "end": 159,
+                        "text": "Lechleitner 1969;",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 160,
+                        "end": 171,
+                        "text": "Woods 1980)",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 364,
+                        "end": 382,
+                        "text": "(Swiderski 1991 a)",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 742,
+                        "end": 756,
+                        "text": "Cheverud 1982;",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 757,
+                        "end": 780,
+                        "text": "Gould and Garwood 1969;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 781,
+                        "end": 792,
+                        "text": "Riska 1986;",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 793,
+                        "end": 822,
+                        "text": "Zelditch and Carmichael 1989)",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 881,
+                        "end": 905,
+                        "text": "Olson and Miller (195 8)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 948,
+                        "end": 963,
+                        "text": "Huxley's (1932)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 1022,
+                        "end": 1039,
+                        "text": "Thompson's (1917)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1040,
+                        "end": 1063,
+                        "text": "(Bookstein et al. 1985;",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 1064,
+                        "end": 1079,
+                        "text": "Bookstein 1991;",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 1080,
+                        "end": 1100,
+                        "text": "Zelditch et al. 1992",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 1271,
+                        "end": 1286,
+                        "text": "Bookstein (1989",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 1287,
+                        "end": 1305,
+                        "text": "Bookstein ( , 1991",
+                        "ref_id": "BIBREF1"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "The analysis of thin-plate splines describes shape change by interpolating between the relative displacements of discrete points, landmarks, presumed to correspond between forms (Bookstein 1989 (Bookstein , 1991 (2) dorsal end of acromio-clavicular articulation;",
+                "cite_spans": [
+                    {
+                        "start": 178,
+                        "end": 193,
+                        "text": "(Bookstein 1989",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 194,
+                        "end": 211,
+                        "text": "(Bookstein , 1991",
+                        "ref_id": "BIBREF1"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "(3) ventral end of acromio-clavicular articulation; (4) flexure marking the boundary between acromion and metacromion; (5) ventral end of caudal margin of metacromion; (6) dorsal end of metacromion-spine boundary; (7) caudal end of vertebral border, on teres fossa; (8) intersection of axillary ridge and vertebral border, between teres fossa and infraspinous fossa; (9) intersection of spine and vertebral border, between infraspinous fossa and supraspinous fossa; (I10) projection of subscapular ridge to vertebral border; (I 1) dorsal end of anterior marginal ridge; (I12) transition between blade and articular process, on the cranial edge.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "transformations affecting the entire form either uniformly or in monotone gradients. The other components represent a series of transformations affecting progressively smaller regions, down to highly localized transformations affecting the immediate vicinity of only a few closely spaced points. Thus, the components of the spline capture both large-sale, integrated changes, and small-scale, localized changes (Zelditch et al. 1 992) .",
+                "cite_spans": [
+                    {
+                        "start": 411,
+                        "end": 434,
+                        "text": "(Zelditch et al. 1 992)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "In this study, I use decompositions of thinplate splines to examine evolution of scapular shape in chipmunks and ground squirrels. Phylogenetic relationships are used to infer historical Most of the points are intersections of ridges or ends of ridges; others are corners. All points were easily identified in all specimens. These consistently recognizable points may be presumed \"landmarks,\" points that correspond across shape changes between taxa (Bookstein et al. 1985; Bookstein 1991) . Landmarks are the points at which the biological parts are sampled (Zelditch and Bookstein ms) and the points to which explanations of shape change are anchored (Bookstein 1990).",
+                "cite_spans": [
+                    {
+                        "start": 450,
+                        "end": 473,
+                        "text": "(Bookstein et al. 1985;",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 474,
+                        "end": 489,
+                        "text": "Bookstein 1991)",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 559,
+                        "end": 586,
+                        "text": "(Zelditch and Bookstein ms)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Scapulae are not perfectly flat, thus some information is lost or distorted in the two-dimensional representation of these three dimensional objects. In this study, I oriented each scapula with the plane defined by landmarks 1, 8, and 9 parallel to the plane of focus. The distortion caused by projecting all landmarks onto this plane will have greatest effect on the landmarks of the acromion and metacromion, which are separated laterally from the blade. However, the construction of the scapula is fairly simple (two nearly flat surfaces separated by a strut), and many potential effects of changes in lateral position can be easily predicted. Tilting of the spine will produce identical antero-posterior displacements of all landmarks on the acromion and metacromion. Tilting of the acromion and metacromion will appear to produce proportionate narrowing of these structures. Changing the height of the spine will affect the apparent size of the acromion and metacromion relative to the blade. These \"distortions\" must be kept in mind when interpreting shape changes localized to the acromion and metacromion.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "For each specimen, digitized landmark coordinates were transformed to shape coordinates (Bookstein et al. 1985; Tabachnick and Bookstein 1990) . Landmarks 1 and 9 at the ends of Bookstein (1989 Bookstein ( , 1991 4 ). This form is not used to \"root\" the phylogenetic analysis, nor is it treated as a hypothetical taxon representing a primitive morphology. The outgroup mean is merely a standard to which all other shapes will be compared, a reference shape that does not include prominent idiosyncratic",
+                "cite_spans": [
+                    {
+                        "start": 88,
+                        "end": 111,
+                        "text": "(Bookstein et al. 1985;",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 112,
+                        "end": 142,
+                        "text": "Tabachnick and Bookstein 1990)",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 178,
+                        "end": 193,
+                        "text": "Bookstein (1989",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 194,
+                        "end": 212,
+                        "text": "Bookstein ( , 1991",
+                        "ref_id": "BIBREF1"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 213,
+                        "end": 214,
+                        "text": "4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "* 0 B -25 A 8'~ ~~~~t .... ........ ...... .. .. . . . . ~~~~~~~~~~~~. . . . . . . . . . . . . . . . . . . . . . ' . > \\ . ' ' ' ' .... . ..... ....... . . ... . . . . . . . . .' ' \\''' 2 D -..1..'': : .......",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "features.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Because there is only one starting form, there will be only one set of principal warps. All species Bookstein (1991, p. 213 This content downloaded from 35.7.39.109 on Thu, 07 Oct 2021 13:12:43 UTC All use subject to https://about.jstor.org/terms The loadings for tree squirrels on W2 are more diverse than the loadings on W 1; only one species has a shape close to the starting form ( fig. 1 1) . fig. 11, W4 ). However, the deformations of the tree squirrels at the two extremes are trivial; these two species have virtually the same shape for this feature ( fig. 1 5A,B that of Sp. tridecemlineatus ( fig. 1 5C) . The exception is Sp. spilosoma, which has a much larger transformation along the same trend ( fig. 1 5D) . ",
+                "cite_spans": [
+                    {
+                        "start": 100,
+                        "end": 123,
+                        "text": "Bookstein (1991, p. 213",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 386,
+                        "end": 395,
+                        "text": "fig. 1 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 398,
+                        "end": 409,
+                        "text": "fig. 11, W4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 561,
+                        "end": 572,
+                        "text": "fig. 1 5A,B",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 604,
+                        "end": 614,
+                        "text": "fig. 1 5C)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 711,
+                        "end": 721,
+                        "text": "fig. 1 5D)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "All 16 species were compared with one starting form, so that all 16 could be described using a single set of terms, a single set of principal warps.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "For an evolutionary study, the most convenient Outgroups can be instrumental for inferring ancestral states, but outgroups may also have de-rived features that can be recognized only after a phylogenetic analysis (Maddison et al. 1984) .",
+                "cite_spans": [
+                    {
+                        "start": 213,
+                        "end": 235,
+                        "text": "(Maddison et al. 1984)",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "However, the outgroups in this study, the tree squirrels, are members of a lineage that has been described as morphologically uniform (Hershkovitz 1969; Moore 1959; Musser 1968) tremely primitive (Emry and Thorington 1984) .",
+                "cite_spans": [
+                    {
+                        "start": 134,
+                        "end": 152,
+                        "text": "(Hershkovitz 1969;",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 153,
+                        "end": 164,
+                        "text": "Moore 1959;",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 165,
+                        "end": 177,
+                        "text": "Musser 1968)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 196,
+                        "end": 222,
+                        "text": "(Emry and Thorington 1984)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "Therefore, I used the mean scapular shape of the tree squirrels as a reference shape that might approximate the ancestral shape. parison of partial warp loadings revealed a much more complex picture of scapular evolution than was suggested by previous morphometric studies. Leamy and Atchley ( 1984) and Oxnard ( 1968) both suggested that the scapula will evolve as a single integrated unit, along a single trajectory.",
+                "cite_spans": [
+                    {
+                        "start": 274,
+                        "end": 299,
+                        "text": "Leamy and Atchley ( 1984)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 304,
+                        "end": 318,
+                        "text": "Oxnard ( 1968)",
+                        "ref_id": "BIBREF39"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "In thin-plate spline analyses, spatially integrated change is represented by components of the larger scales, the affine and the first few nonaffine (Zelditch et al. 1992 . . . . . . . . . . . ,---,. . . . . ,,,,,,,' ,. \\, ~~~~~~~~~~~~~~~~~~~~. . . . . . . . . . . . . . . . . . . . . . . . . . . . . * ---*--* --\\ . . , ' . . . . . . , , ...........'...'..' . '' ' \" .'''\"..'...il........ . . . . . . . . . ' . . . .''''-.''\"''''.'. ' ' .\".''''..\"'\\i .''.'S'.. ' ';;4 T ' .'; .. '.. '... '.. ....-....'........*.'. .'.''; ; .",
+                "cite_spans": [
+                    {
+                        "start": 149,
+                        "end": 170,
+                        "text": "(Zelditch et al. 1992",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 171,
+                        "end": 522,
+                        "text": ". . . . . . . . . . . ,---,. . . . . ,,,,,,,' ,. \\, ~~~~~~~~~~~~~~~~~~~~. . . . . . . . . . . . . . . . . . . . . . . . . . . . . * ---*--* --\\ . . , ' . . . . . . , , ...........'...'..' . '' ' \" .'''\"..'...il........ . . . . . . . . . ' . . . .''''-.''\"''''.'. ' ' .\".''''..\"'\\i .''.'S'.. ' ';;4 T ' .'; .. '.. '... '.. ....-....'........*.'. .'.'';",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "--t-i .1 1 }2 (Donoghue 1989; Bjorklund 1991) . Tests for constant proportionality can be considered after historical coordination has been demonstrated. Examination of the scatter plots of the partial warps reveals only two features with similar distributions. Both plots suggest that there may have been a small shape change in the common ancestor of chipmunks and ground squirrels, and that later changes in a different direction separated ground squirrels from the common ancestor and Ictidomys from the other ground squirrels. This is the only evidence of historical coordination of scapular shape changes in sciurids. Leamy and Atchley (1984) and Oxnard (1968) also suggested that scapular shape changes will reflect functional shifts. However, the preceding discussion of scapular shape changes indicates that there are nine historical patterns for 10 shape features. None of these patterns is associated with the evolution of fossoriality. No feature exhibits parallel transformations in chipmunks and ground squirrels that separate the highly fossorial species (Tamias striatus and Ta. minimus; Spermophilus columbianus and Sp. tridecemlineatus) from less fossorial species. These results do not mean that scapular shape is not influenced by function; but the variety of patterns does indicate that no one factor has a strong effect. This is not the first study to show that a seemingly cohesive skeletal structure has not evolved as an integrated unit. Van der Klaauw (1948 Klaauw ( -1952 and Dullemeijer (1958) demonstrated that the skull evolves as though it contains several discrete units, and even the bones that comprise the skull do not always evolve as single elements.",
+                "cite_spans": [
+                    {
+                        "start": 14,
+                        "end": 29,
+                        "text": "(Donoghue 1989;",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 30,
+                        "end": 45,
+                        "text": "Bjorklund 1991)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 624,
+                        "end": 648,
+                        "text": "Leamy and Atchley (1984)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 653,
+                        "end": 666,
+                        "text": "Oxnard (1968)",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1471,
+                        "end": 1483,
+                        "text": "Klaauw (1948",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1484,
+                        "end": 1498,
+                        "text": "Klaauw ( -1952",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1503,
+                        "end": 1521,
+                        "text": "Dullemeijer (1958)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "Their observations and theories provided the basis for Moss's functional matrix theory of skull evolution (Moss 1962; Moss and Saletijn 1969) .",
+                "cite_spans": [
+                    {
+                        "start": 106,
+                        "end": 117,
+                        "text": "(Moss 1962;",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 118,
+                        "end": 141,
+                        "text": "Moss and Saletijn 1969)",
+                        "ref_id": "BIBREF35"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "Dullemeijer also argued that changes in the functional relationships of skull bones (e.g., changes in their mechanical connections to other bones or to associated soft parts) would result in changes in the historical associations of evolutionary changes. Indeed, dramatic changes in the evolutionary patterns of fish feeding mechanisms have been attributed to changes in the mechanical linkages among the bones (Liem 1973 (Liem , 1980  This content downloaded from 35.7.39.109 on Thu, 07 Oct 2021 13:12:43 UTC All use subject to https://about.jstor.org/terms Schaefer and Lauder 1986; Sanford and Lauder 1989 ).",
+                "cite_spans": [
+                    {
+                        "start": 411,
+                        "end": 421,
+                        "text": "(Liem 1973",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 422,
+                        "end": 434,
+                        "text": "(Liem , 1980",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 435,
+                        "end": 435,
+                        "text": "",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 559,
+                        "end": 584,
+                        "text": "Schaefer and Lauder 1986;",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 585,
+                        "end": 608,
+                        "text": "Sanford and Lauder 1989",
+                        "ref_id": "BIBREF42"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "More unusual are comparable studies of coordinated evolution in the postcranial skeleton (e.g., Emerson 1988; Swiderski 199 lb) . The lack of examples prompted discussants at a recent Dahlem conference to remark on the conservatism of the postcranial skeleton relative to the skull and jaws (Lauder et al. 1989) . This remark is based, in part, on the perceived stability of bone-bone articulations in vertebrate limbs. ",
+                "cite_spans": [
+                    {
+                        "start": 96,
+                        "end": 109,
+                        "text": "Emerson 1988;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 110,
+                        "end": 127,
+                        "text": "Swiderski 199 lb)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 291,
+                        "end": 311,
+                        "text": "(Lauder et al. 1989)",
+                        "ref_id": "BIBREF24"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [],
+        "bib_entries": {
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Principal warps: thin-plate splines and the decomposition of deformations",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Proceedings of the Michigan Morphometrics Workshop",
+                "volume": "11",
+                "issue": "",
+                "pages": "215--227",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bookstein, F. L. 1989. Principal warps: thin-plate splines and the decomposition of deformations. IEEE Transactions on Pattern Analysis and Ma- chine Intelligence 11:567-585. . 1990. Introduction to methods for landmark data. Pp. 215-227 in F. J. Rohlf and F. L. Book- stein, eds. Proceedings of the Michigan Morpho- metrics Workshop, 1988. University of Michigan Museum of Zoology Special Publication 2, Ann Ar- bor. . 1991. Morphometric tools for landmark data: geometry and biology. Cambridge University Press, New York.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Morphometrics in evolutionary biology. Special Publication 15",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Chernoff",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Elder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Humphries",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": ".",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Strauss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "Academy of Natural Sciences Philadelphia",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bookstein, F. L., B. Chernoff, R. L. Elder, J. M. Hum- phries, G. R. Smith, andR. E. Strauss. 1985. Mor- phometrics in evolutionary biology. Special Pub- lication 15. Academy of Natural Sciences Philadelphia, Philadelphia, Pa.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Tree nests of chipmunks with comments on associated behavior and ecology",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Broadbanks",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1974,
+                "venue": "Journal of Mammalogy",
+                "volume": "55",
+                "issue": "",
+                "pages": "630--639",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Broadbanks, H. E. 1974. Tree nests of chipmunks with comments on associated behavior and ecol- ogy. Journal of Mammalogy 55:630-639.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Phylogeny of Nearctic Sciuridae",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Bryant",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1945,
+                "venue": "American Midland Naturalist",
+                "volume": "33",
+                "issue": "",
+                "pages": "257--390",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bryant, M. D. 1945. Phylogeny of Nearctic Sciuridae. American Midland Naturalist 33:257-390.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Phenotypic, genetic, and environmental integration in the cranium",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Cheverud",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "Evolution",
+                "volume": "36",
+                "issue": "",
+                "pages": "499--512",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cheverud, J. M. 1982. Phenotypic, genetic, and en- vironmental integration in the cranium. Evolution 36:499-512.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Phylogenies and the analysis of evolutionary sequences, with examples from seed plants",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Donoghue",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Evolution",
+                "volume": "43",
+                "issue": "",
+                "pages": "1137--1156",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Donoghue, M. J. 1989. Phylogenies and the analysis of evolutionary sequences, with examples from seed plants. Evolution 43:1137-1156.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "The mutual structural influence of the elements in a pattern",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Dullemeijer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1958,
+                "venue": "Archives Neerlandaises de Zoologie",
+                "volume": "13",
+                "issue": "",
+                "pages": "74--88",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dullemeijer, P. 1958. The mutual structural influence of the elements in a pattern. Archives Neerlandaises de Zoologie 13, supplement 1:74-88.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Social behavior and foraging ecology of the Eastern Chipmunk (Tamias striatus) in the Adirondack Mountains",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Elliot",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1978,
+                "venue": "Smithsonian Contributions to Zoology",
+                "volume": "265",
+                "issue": "",
+                "pages": "1--107",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Elliot, L. 1978. Social behavior and foraging ecology of the Eastern Chipmunk (Tamias striatus) in the Adirondack Mountains. Smithsonian Contribu- tions to Zoology 265:1-107.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Albumin evolution within New World squirrels (Sciuridae)",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Ellis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Maxson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ellis, L. S., and L. R. Maxson. 1980. Albumin evo- lution within New World squirrels (Sciuridae).",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Testing historical patterns of change: a case study with frog pectoral girdles",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Emerson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Paleobiology",
+                "volume": "14",
+                "issue": "",
+                "pages": "174--186",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Emerson, S. B. 1988. Testing historical patterns of change: a case study with frog pectoral girdles. Pa- leobiology 14:174-186.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Descriptive and comparative osteology of the oldest fossil squirrel",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Emry",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Thorington",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Jr",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "Protosciurus (Rodentia: Sciuridae)",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Emry, R. J., and R. W. Thorington, Jr. 1982. De- scriptive and comparative osteology of the oldest fossil squirrel, Protosciurus (Rodentia: Sciuridae).",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "The tree squirrel Sciurus (Sciuridae, Rodentia) as a living fossil",
+                "authors": [],
+                "year": 1984,
+                "venue": "Living fossils. Springer-Verlag",
+                "volume": "47",
+                "issue": "",
+                "pages": "23--31",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Smithsonian Contributions to Paleobiology 47:1- 35. 1984. The tree squirrel Sciurus (Sciuridae, Rodentia) as a living fossil. Pp. 23-31 in N. Eld- redge and S. M. Stanley, eds. Living fossils. Spring- er-Verlag, New York.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Phylogenies and the comparative method",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Felsenstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "American Naturalist",
+                "volume": "125",
+                "issue": "",
+                "pages": "1--15",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Felsenstein, J. 1985. Phylogenies and the compara- tive method. American Naturalist 125:1-15.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Immunological comparisons of four subgenera of ground squirrels",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Gerber",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Birney",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1968,
+                "venue": "Systematic Zoology",
+                "volume": "17",
+                "issue": "",
+                "pages": "413--416",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gerber, J. D., and E. C. Birney. 1968. Immunological comparisons of four subgenera of ground squirrels. Systematic Zoology 17:413-416.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Procrustes methods in the statistical analysis of shape",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Goodall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Journal of the Royal Society of Statistics Series B",
+                "volume": "53",
+                "issue": "",
+                "pages": "285--339",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Goodall, C. R. 1991. Procrustes methods in the sta- tistical analysis of shape. Journal of the Royal So- ciety of Statistics Series B 53:285-339.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Levels of integration in mammalian dentitions: an analysis of correlations in Nesophantes micrus (Insectivora) and Oryzomys couesi (Rodentia)",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gould",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Garwood",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1969,
+                "venue": "Evolution",
+                "volume": "23",
+                "issue": "",
+                "pages": "276--300",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gould, S. J., and R. A. Garwood. 1969. Levels of integration in mammalian dentitions: an analysis of correlations in Nesophantes micrus (Insectivora) and Oryzomys couesi (Rodentia). Evolution 23:276- 300.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Evolutionary relationships of the Nearctic Sciuridae",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hafner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "",
+                "volume": "12",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hafner, D. J. 1984. Evolutionary relationships of the Nearctic Sciuridae. Pp. 3-23 in J. 0. Murie and G. This content downloaded from 35.7.39.109 on Thu, 07 Oct 2021 13:12:43 UTC All use subject to https://about.jstor.org/terms",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Recent mammals of the Neotropical Region: a zoogeographic and ecological review",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Michener ; Lincoln",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Hershkovitz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1969,
+                "venue": "Quarterly Review of Biology",
+                "volume": "44",
+                "issue": "",
+                "pages": "1--70",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "R. Michener, eds. The biology of ground-dwelling sciurids. University of Nebraska Press, Lincoln. Hershkovitz, P. 1969. Recent mammals of the Neo- tropical Region: a zoogeographic and ecological re- view. Quarterly Review of Biology 44:1-70.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Immunological studies of the Sciuridae",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hight",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Goodman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Prychodko",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1974,
+                "venue": "Systematic Zoology",
+                "volume": "23",
+                "issue": "",
+                "pages": "12--25",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hight, M. E., M. Goodman, and W. Prychodko. 1974. Immunological studies of the Sciuridae. Systematic Zoology 23:12-25.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Problems of relative growth",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Huxley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1932,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Huxley, J. S. 1932. Problems of relative growth, 2d ed. Dover, New York.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Mammals of the northern Great Plains",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Jr",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Armstrong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Hoffmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Jones",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1983,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jones, J. K., Jr., D. M. Armstrong, R. S. Hoffmann, and C. Jones. 1983. Mammals of the northern Great Plains. University of Nebraska Press, Lin- coln.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Form and function: structural analysis in evolutionary morphology",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Lauder",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "Paleobiology",
+                "volume": "7",
+                "issue": "",
+                "pages": "430--442",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lauder, G. V. 1981. Form and function: structural analysis in evolutionary morphology. Paleobiology 7:430-442.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Group report: How are feeding systems integrated and how have evolutionary innovations been introduced? Pp. 97-115 in",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Lauder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Crompton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Gans",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Hanken",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Liem",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "0"
+                        ],
+                        "last": "Maier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Meyer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Presley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": ".",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Rieppel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Roth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Schluter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Zweers",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lauder, G. V., A. W. Crompton, C. Gans, J. Hanken, K. F. Liem, W. 0. Maier, A. Meyer, R. Presley, 0. C. Rieppel, G. Roth, D. Schluter, and G. A. Zweers. 1989. Group report: How are feeding systems in- tegrated and how have evolutionary innovations been introduced? Pp. 97-115 in D. B. Wake and G. Roth, eds. Complex organismal functions: in- tegration and evolution in vertebrates. Wiley, New York.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Morphometric integration in the rat (Rattus sp.) scapula",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Leamy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Atchley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "Journal of Zoology",
+                "volume": "202",
+                "issue": "",
+                "pages": "43--56",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Leamy, L., and W. R. Atchley. 1984. Morphometric integration in the rat (Rattus sp.) scapula. Journal of Zoology 202:43-56.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Wild animals of Colorado",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Lechleitner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1969,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lechleitner, R. R. 1969. Wild animals of Colorado. Pruett, Boulder, Colo.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "The forelimb architecture of some fossorial rodents",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Lehman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1963,
+                "venue": "Journal of Morphology",
+                "volume": "113",
+                "issue": "",
+                "pages": "59--76",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lehman, W. H. 1963. The forelimb architecture of some fossorial rodents. Journal of Morphology 113: 59-76.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Systematics ofthe Holarctic chipmunks (Tamias)",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Levenson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Hoffmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Nadler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Deutsch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Freeman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "Journal of Mammalogy",
+                "volume": "66",
+                "issue": "",
+                "pages": "219--242",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Levenson, H., R. S. Hoffmann, C. F. Nadler, L. Deutsch, and S. D. Freeman. 1985. Systematics ofthe Hol- arctic chipmunks (Tamias). Journal of Mammal- ogy 66:219-242.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Adaptive significance of intra-and interspecific differences in the feeding repertoires of cichlid fishes",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Liem",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1973,
+                "venue": "Systematic Zoology",
+                "volume": "22",
+                "issue": "",
+                "pages": "295--314",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Liem, K. F. 1973. Evolutionary strategies and mor- phological innovations: cichlid pharyngeal jaws. Systematic Zoology 22:425-441. 1980. Adaptive significance of intra-and in- terspecific differences in the feeding repertoires of cichlid fishes. American Zoologist 20:295-314.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "A method for testing the correlated evolution of two binary characters: Are gains and losses concentrated on certain branches of a phylogenetic tree",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Maddison",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Evolution",
+                "volume": "44",
+                "issue": "",
+                "pages": "539--557",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Maddison, W. P. 1990. A method for testing the correlated evolution of two binary characters: Are gains and losses concentrated on certain branches of a phylogenetic tree? Evolution 44:539-557.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Outgroup analysis and parsimony",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Maddison",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Donoghue",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Maddison",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "Systematic Zoology",
+                "volume": "33",
+                "issue": "",
+                "pages": "83--103",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Maddison, W. P., M. J. Donoghue, and D. R. Mad- dison. 1984. Outgroup analysis and parsimony. Systematic Zoology 33:83-103.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Phylogenetic analyses of the correlated evolution of continuous characters: a simulation study",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Martins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Garland",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Evolution",
+                "volume": "45",
+                "issue": "",
+                "pages": "534--557",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Martins, E. P., and T. J. Garland, Jr. 1991. Phylo- genetic analyses of the correlated evolution of con- tinuous characters: a simulation study. Evolution 45:534-557.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Relationships among the living squirrels of the Sciurinae",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Moore",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1959,
+                "venue": "Bulletin of the American Museum of Natural History",
+                "volume": "118",
+                "issue": "",
+                "pages": "153--206",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moore, J. C. 1959. Relationships among the living squirrels of the Sciurinae. Bulletin of the American Museum of Natural History 118:153-206.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "The functional matrix",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Moss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1962,
+                "venue": "Vistas in orthodontics. Lea and Febiger",
+                "volume": "",
+                "issue": "",
+                "pages": "85--98",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moss, M. L. 1962. The functional matrix. Pp. 85-98 in B. S. Krauss and R. Riedl, eds. Vistas in ortho- dontics. Lea and Febiger, Philadelphia, Pa.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "The primary role of functional matrices in facial growth",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Moss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Saletijn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1969,
+                "venue": "American Journal of Orthodontics",
+                "volume": "55",
+                "issue": "",
+                "pages": "566--577",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moss, M. L., and L. Saletijn. 1969. The primary role of functional matrices in facial growth. American Journal of Orthodontics 55:566-577.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "A systematic study of the Mexican and Guatemalan grey squirrel Sciurus aureogaster F. Cuvier (Rodentia: Sciuridae). Miscellaneous Publications Museum of",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Musser",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1968,
+                "venue": "Zoology University of Michigan",
+                "volume": "137",
+                "issue": "",
+                "pages": "1--112",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Musser, G. G. 1968. A systematic study of the Mex- ican and Guatemalan grey squirrel Sciurus aureo- gaster F. Cuvier (Rodentia: Sciuridae). Miscella- neous Publications Museum of Zoology University of Michigan 137:1-112.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Chromosomes of Spermophilus franklinii and taxonomy of the ground squirrel genus Spermophilus",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Nadler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1966,
+                "venue": "Systematic Zoology",
+                "volume": "15",
+                "issue": "",
+                "pages": "199--205",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nadler, C. F. 1966. Chromosomes of Spermophilus franklinii and taxonomy of the ground squirrel ge- nus Spermophilus. Systematic Zoology 15:199-205.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Morphological integration",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Olson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1958,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Olson, E. C., and R. L. Miller. 1958. Morphological integration. University of Chicago Press, Chicago.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "The architecture of the shoulder in some mammals",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Oxnard",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1968,
+                "venue": "Journal of Morphology",
+                "volume": "126",
+                "issue": "",
+                "pages": "249--290",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Oxnard, C. E. 1968. The architecture of the shoulder in some mammals. Journal of Morphology 126: 249-290.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Some models for development, growth, and morphometric correlation",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Riska",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Evolution",
+                "volume": "40",
+                "issue": "",
+                "pages": "1303--1311",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Riska, B. 1986. Some models for development, growth, and morphometric correlation. Evolution 40:1303-1311.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Proceedings of the Michigan Morphometrics Workshop",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Rohlf",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Zoology Special Publication",
+                "volume": "2",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rohlf, F. J., and F. L. Bookstein, eds. 1990. Pro- ceedings of the Michigan Morphometrics Work- shop, 1988. University of Michigan Museum of Zoology Special Publication 2, Ann Arbor.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Functional morphology of the \"tongue bite\" in the osteoglossomorph fish Notopterus",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Sanford",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Lauder",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Journal of Morphology",
+                "volume": "202",
+                "issue": "",
+                "pages": "379--408",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sanford, C. P., and G. V. Lauder. 1989. Functional morphology of the \"tongue bite\" in the osteoglos- somorph fish Notopterus. Journal of Morphology 202:379-408.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Historical transformation of functional design: evolutionary morphology of feeding mechanisms in loricarioid catfishes",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Schaefer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Lauder",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Systematic Zoology",
+                "volume": "35",
+                "issue": "",
+                "pages": "489--508",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Schaefer, S. A., and G. V. Lauder. 1986. Historical transformation of functional design: evolutionary morphology of feeding mechanisms in loricarioid catfishes. Systematic Zoology 35:489-508.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Statistical methods",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Snedecor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Cochran",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1967,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Snedecor, G. W., and W. G. Cochran. 1967. Statis- tical methods. Iowa State University Press, Ames.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Comparative limb myology of two opossums, Didelphis and Chironectes",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Stein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "Journal of Morphology",
+                "volume": "169",
+                "issue": "",
+                "pages": "113--140",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stein, B. R. 1981. Comparative limb myology of two opossums, Didelphis and Chironectes. Journal of Morphology 169:113-140.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Factors influencing morphological evolution of the limbs in fossorial mammals (Sciuridae and Soricidae)",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Swiderski",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Journal of Mammalogy",
+                "volume": "72",
+                "issue": "",
+                "pages": "118--125",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Swiderski, D. L. 1991 a. Factors influencing morpho- logical evolution of the limbs in fossorial mammals (Sciuridae and Soricidae). Ph.D. dissertation. Michigan State University, East Lansing. . 1991b. Morphology and evolution of the wrists of burrowing and non-burrowing shrews (Soricidae). Journal of Mammalogy 72:118-125.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "The structure of individual variation in Miocene Globorotalia",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Tabachnick",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Evolution",
+                "volume": "44",
+                "issue": "",
+                "pages": "416--434",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tabachnick, R. E., and F. L. Bookstein. 1990. The structure of individual variation in Miocene Glo- borotalia. Evolution 44:416-434.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "The functional anatomy of the forelimb of some African Viverridae (Carnivora)",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Taylor",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1974,
+                "venue": "Journal of Morphology",
+                "volume": "143",
+                "issue": "",
+                "pages": "307--336",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Taylor, M. E. 1974. The functional anatomy of the forelimb of some African Viverridae (Carnivora). Journal of Morphology 143:307-336.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "1948-1952. Size and position of the functional components of the skull",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Thompson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "'arcy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1961,
+                "venue": "Archives Neerlandaises de Zoologie",
+                "volume": "9",
+                "issue": "",
+                "pages": "1--361",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thompson, D'Arcy W. 1961. On growth and form. Abridged ed. Edited by J. T. Bonner. Cambridge University Press, Cambridge. van der Klaauw, C. J. 1948-1952. Size and position of the functional components of the skull. Archives Neerlandaises de Zoologie 9:1-361.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "The squirrels of Canada. National Museum of Canada",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Woods",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Jr",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Woods, S. E., Jr. 1980. The squirrels of Canada. Na- tional Museum of Canada, Ottawa.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Ontogeny of integrated skull shape in the cotton rat",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Zelditch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lundrigan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Sigmodon. Evolution",
+                "volume": "46",
+                "issue": "",
+                "pages": "1164--1180",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zelditch, M. L., F. L. Bookstein, and B. L. Lundrigan. 1992. Ontogeny of integrated skull shape in the cotton rat, Sigmodon. Evolution 46:1164-1180.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Ontogenetic variation in patterns of developmental and functional integration in skulls of Sigmodon fulviventer",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Zelditch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Carmichael",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Evolution",
+                "volume": "43",
+                "issue": "",
+                "pages": "814--824",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zelditch, M. L., and A. C. Carmichael. 1989. On- togenetic variation in patterns of developmental and functional integration in skulls of Sigmodon fulviventer. Evolution 43:814-824.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "text": "tems are distantly related (Tamias striatus and Ta. minimus; Spermophilus columbianus and Sp. tridecemlineatus). Thus, there are several parallel functional transitions in this group. Comparison 1854 ? 1993 The Society for the Study of Evolution. All rights reserved.",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF1": {
+                "text": "e the tx fo re ferences FIG. 1. Phylogenetic relationships of sciurid species. (See the text for references.) of the several transformations of scapular shape should reveal whether there is a general pattern of integrated change.",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF2": {
+                "text": "patterns of change in the mean shapes of each geometric component. The historical patterns are the basis of the subsequent discussion of the integration of scapular shape changes. MATERIALS AND METHODS Shape Coordinates.-Twelve points on each scapula were digitized from video images (fig. 2).",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF3": {
+                "text": "the scapular spine were designated end points of a baseline and assigned fixed coordinates: (0, 0) and (0, 1). The result of this procedure is a new set of 10 pairs of standardized coordinates. (To preserve the dorso-ventral orientation of the scapular spine, landmarks 1 and 9 were assigned coordinates on the y-axis). The transformation",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF4": {
+                "text": "1961). (For computational reasons, the x and y displacements are analyzed separately and the two splines are combined to produce a single picture of shape changes.) The deformation of the starting form into the final form can be decomposed into affine and nonaffine components, as implied above. The nonaffine component can be decomposed further, into a series of progressively more localized components. The number of these components is three fewer than the number of landmarks. The form of each component is determined by the configuration of landmarks in the starting form, and represents the canonical form, or \"mode,\" of relative landmark displacements for shape changes at that scale of localization. These modal forms are called \"principal warps\" in reference to the bent steel plate. The contribution of change at the scale of a particular principal warp to the realized landmark displacements in the x,y plane is expressed as a vector, called a \"partial warp.\" Thus, principal warps are geometric terms in which morphological differences can be described and partial warps are the values assigned to these terms.",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF5": {
+                "text": "is graphical representation of the relationship between principal warp and partial warp. Figure 3A is a starting arrangement of landmarks, numbered as in figure 2. A principal warp of this configuration, localized to the ventral portion of the scapula is shown in figure 3B: the numbers in this panel are the relative z-axis displacements that will occur in the steel plate if there is a deformation at this scale. If (0.026, 0.076) is the partial warp score, figure 3C depicts the realized landmark displacements in the x,y plane, and figure 3D shows the equivalent Cartesian grid deformation. In the analyses that follow, the principal warps are numbered in order of increasing localization or decreasing scale. Principal warp 1 (W1) is the nonaffine component of largest scale. The affine",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF6": {
+                "text": "illustration of the relationship between principal warps and partial warps: (A) configuration of scapular landmarks in a starting form; (B) a principal warp shown as coefficients ( x 0.01 ) of relative landmark displacements; (C) a partial warp of the same principal warp shown as vectors of landmark displacements; (D) the same partial warp shown as deformation of a Cartesian grid. component can be considered at infinite scale and referred to as principal warp 0. The analysis by thin-plate splines was implemented using F. J. Rohlfs program TPSPLINE, available with Rohlf and Bookstein (1990). (For instructions to obtain the current version, write rohlf@ssbiovm.bitnet.) Comparisons. -Each species named in figure 1 is represented by a mean scapular shape: the This content downloaded from 35.7.39.109 on Thu, 07 Oct 2021 13:12:43 UTC All use subject to https://about.jstor.org/terms means of the shape coordinates for the 10 landmarks that are not on the baseline. Sample sizes for most species are 20 adults; the exceptions are Tamias amoenus (N = 18) and Spermophilus spilosoma (N = 19). All samples are drawn from museum collections and include individuals from as many geographic localities as possible, providing relatively broad representation of intraspecific variation. All species means are described as deformations of the same starting form, the mean of the five tree squirrels representing the outgroup (fig.",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF7": {
+                "text": "will be described as partial warps of the same principal warps. Each species can be compared with every other species simply by comparing the partial warps. The distributions of partial warps of the nonaffine components are presented as scatter plots of their x and y values. The distribution of loadings for the affine component is presented as a scatter plot in polar coordinates. This component of deformation converts a circle to-an ellipse. The ratio of the ellipse's major to its minor axis is a measure of the amount of affine change, \"anisotropy.\" The orientation of the major axis relative to a reference axis of the starting form indicates the direction of greatest elongation of the starting form. Anisotropy and orientation of the affine component are plotted following the advice of",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF8": {
+                "text": "figure refl onal components of the nonaffine part of any deformation of this form. The combinations of landmark displacements indicated by these warps do not express covariances; but rather the localization of shape change by geometric region. When the affine term is included, the principal warps are a complete set of features for describing deformation from this starting form to any ending form. Because the principal warps are local-izable geometric features, they are a particularly attractive set for analyzing the evolution of shape. The largest scale principal warp (Wl) of the starting form reflects, as usual (Bookstein 1991), displacement of the central landmarks relative to the dorsal and ventral ends (fig. 5A). Oriented in the y-direction, the partial warp would describe relative lengthening of one end. Figure 5B shows the central landmarks moving dorsally and -. 6. Principal warps of the mean tree squirrel representing transformations of the blade: (A) W2, (B) W5, (C) W8. Coefficients x 0.0 1.",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF9": {
+                "text": "Principal warps of the mean tree squirrel representing transformations centered on the acromion and ventral end of the blade: (A) W3, (B) W4, (C) W6, (D) W7, (E) W9. Coefficients x 0.01. the landmarks at both ends moving ventrally.Such displacements shorten the dorsal half of the scapula and lengthen the ventral half.Figure 5Cshows the same displacements in the x-direction: now, the ends move posteriorly and the center moves anteriorly.Three of the principal warps (W2, W5, and W8) represent transformations of the shape of the blade (fig. 6). The principal warp of secondlargest scale, W2, specifies coordinated displace-ments of landmarks at the anterior and posterior extremes of the dorsal margin, with opposite displacements of the landmarks near the middle (fig. 6A). This warp also includes displacements of the extreme points on the acromion and metacromion. W5 is a much more localized warp that primarily represents a contrast between displacements of the landmarks near the middle of the dorsal margin (fig. 6B). W8, the most localized of these three warps, describes contrasting dis-This content downloaded from 35.7.39.109 on Thu, 07 Oct 2021 13:12:43 UTC All use subject to https://about.jstor.org/terms :-:--'. -... . . \\,' ' :,-\\.: -:. . . .. . . .. . .. ..\\ A~~ ~ ~ ~~~ ...... 00 0 cto 10i . . . .. ... .. . . ... .. . . . ... . . . . . . . . (B) Tamias striatus, (C).Spermphilus.vaiegatus.D).Tamiasiurus.husonicus.E).Tami decemlineatus. All figus of C Tamas tritus 10C Sprohlsvreau10)Tmacuu hdoiu,()Tma uu,()S.ti decmlieaus.Al fiurs o Crteia deoratinsproucd b TSplne placements of the two landmarks on the teres fossa, at the posterior end of the margin (fig. 6C). Deformations represented by W3 and W4 affect elongate regions centered near the neck and ventral end of the spine (fig. 7A,B). On W3, the center includes the dorsal edge of the acromion, whereas on W4, the center includes the posterior tip of the metacromion. The ends are also slightly different; and W4 covers a smaller portion of the blade. Both principal warps are contrasts between displacements of a center and the ends. The remaining principal warps, W6, W7, and This content downloaded from 35.7.39.109 on Thu, 07 Oct 2021 13:12:43 UTC All use subject to https://about.jstor.org/terms W9, complete the series of deformations covering progressively smaller portions of the acromion, metacromion, and ventral blade. On W6, the tips of the acromion and metacromion have parallel displacements, whereas landmarks near the acromion-metacromion boundary are displaced in the opposite direction (fig. 7C). On both W7 and W9, the two landmarks at the tip of the acromion have opposite displacements (fig. 7D,E). The two landmarks on the neck and ventral end of the spine also have opposite displacements on these principal warps. W7 and W9 differ in the relationship of displacements at the neck and dorsal edge of the acromion: parallel in W7, opposite in W9. W7 also includes displacement of the landmark representing the acromion-metacromion boundary. Deformations. -Figure 8 presents Cartesian grid deformations (produced by TPSpline) showing scapulae of selected species as transformations of the mean tree squirrel (starting form). Grids for two tree squirrel species (fig. 8A,D) deviate only slightly from straight lines, indicating small deformations of the starting form. Still, the deformed grids show that there are different patterns of deformation; the expansions and compressions of grid lines occur between different sets of landmarks. The two chipmunks (fig. 8B,E) may share some features, but the deformation of Tamias striatus lacks the dramatic tilt of the horizontal lines shown in the deformation of Ta. rufus. The deformations of the two ground squirrels appear to be even more similar, differing primarily in the magnitude of change (fig. 8C,F). These six deformations and those for the other 10 species were decomposed into their affine and partial warp components specifically to identify groups of species that share features of mean scapular shape. Scatter plots of the loadings for each component are examined for gaps between taxonomic groups and for historical patterns reflecting the transition from arboreal to fossorial habits. The affine component makes little contribution to morphological change except in chipmunks (fig. 9). Anisotropy values are quite small for tree squirrels, even the largest tree squirrel anisotropy represents a barely perceptible shape change (fig. 1 OA). The anisotropies of most ground squirrels are only slightly larger, and that of one ground squirrel is well within the tree squirrel range. Directions of affine deformation vary widely in tree squirrels and ground squirrels, and the only species that share a Distribution of affine components of deformation from TPSpline, plotted in polar coordinates: log anisotropy, 20 (following Bookstein 1991). Symbols indicate locations of species means: circle, tree squirrel; triangle, chipmunk; square, ground squirrel. direction are two distantly related ground squirrels, Spermophilus lateralis and Sp. spilosoma. In contrast, only one chipmunk, Ta. striatus, has a small affine transformation that falls within the ground squirrel range. The other chipmunks, representing the subgenus Neotamias, have much larger affine deformations, and all of them are oriented in the antero-dorsal direction. This component of shape change makes a substantial contribution to the distinctness of Neotamias scapulae (fig. 1 OB). The bending component of largest scale, W1, also contributes little to the deformations of most tree squirrel and ground squirrel scapulae (fig. 1 1, W1). Even in Sciurus carolinensis, the tree squirrel with the largest loading for this component, the shape changes are fairly subtle: the central landmarks are displaced dorsally, compressing the dorsal end of the scapula and stretching the ventral end (fig. 1 2A). One ground squirrel, Sp. spilosoma has the opposite transformation. The other ground squirrels have deformations in the same range as tree squirrels. Most chipmunks have relatively large loadings in the -x direction. This pattern primarily represents narrowing of the supraspinous fossa with extension of the acromion (fig. 12B). This component separates most chipmunks from ground squirrels, but one chipmunk, Ta. rufus, is clearly within the ground squirrel range. Also, Ta. striatus is near the center of the Neotamias distribution.",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF10": {
+                "text": ". ... .......... .. 4 FIG. 10. Cartesian grids for affine c (B) Tamias rufus (log anisotropy = 0.152, 20 = 2460).",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF11": {
+                "text": "Changes represented by W2 also differentiate chipmunks from ground squirrels. Although neither group has diverged far from tree squirrels, they have diverged in different directions. Chipmunks have + loadings reflecting dorso-ventral compression of the supraspinous fossa with tilting of the acromion and lower metacromion (fig. 1 3A). Ground squirrels have the opposite transformation, and a particularly large -y loading distinguishes Sp. tridecemlineatus from the others. Chipmunks and ground squirrels both have broad ranges of +x loadings that reflect anteroposterior compression of the dorsal end of the blade (fig. 1 3B). The combination of large x and small y loading on W2 distinguishes Ta. striatus from Neotamias. Thus, changes represented by this warp contribute to diversity of tree squirrels, to divergence of chipmunks and ground squirrels from tree squirrels, and to divergence of chipmunk subgenera. The diversity of loadings for tree squirrels and ground squirrels on W3 is relatively low, comparable to the diversity of their WI loadings (fig. 11, W3). The diversity of chipmunks is even lower, but more importantly, their shared divergence from tree squirrels is readily apparent. All chipmunks, including Ta. striatus, are characterized by dorso-ventral compression of the acromion and ventral metacromion (fig. 14A). In contrast, these structures tend to be expanded along the antero-posterior axis in ground squirrels (fig. 14B), although some ground squirrels retain shapes that are very similar to tree squirrels. An unusual deformation that combines relatively large expansions in both antero-posterior and dorso-ventral directions characterizes Sp. spilosoma and Sp. tridecemlineatus, the two ground squirrels representing the subgenus Ictidomys. The distribution of loadings on W4 suggests that evolution of this feature in chipmunks and ground squirrels extends a linear trend found in tree squirrels (",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF12": {
+                "text": "~~~~~~~~~~~~~~~~~~~~~~~. . . . . . -. . . . . . --. . \\ *. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . \\. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . --s11 ~~~~~~~. . . . . . . . . --. . . . . ;,S 5 ;;X' / ' ' ' ' (-' * / . .........1...... 25~~~~~~ . . . . . . . . . . . . . . . . . . . 5. . . . . \\ , ~~~~~~. . . . . . . . . . . . . . Z. , , . . . \\. . . . . . . . . . A B........... FIG. 14. Cartesian grids for partial warp 3. (A) Tamias rufus, (B) Spermophilus columbianus. counting for the different deformations of the larger scale components (affine, W2, and W4). Consequently, this feature is clearly evident only in the total deformation of Ta. striatus (fig. 8). Ground squirrels have larger W6 transformations (fig. 1 7B) and relatively less diversity in the larger scale features. Consequently, the deformations of W6 contribute substantially to total deformations of the ground squirrels (fig. 8). The two species with particularly large deformations of W6 are the two members of Ictidomys: Sp. spilosoma and Sp. tridecemlineat us. All species have small loadings on W7 (fig. 11, W7). Even the largest loadings represent trivial morphological changes. Thus, this warp does not represent an important component of shape change in any taxon. All transformations of the ventral end of the scapula are at other scales. Loadings on W8 also span a small range (fig. 11, W8), but there is a tendency for loadings on this warp to differentiate between tree squirrels and terrestrial sciurids. Ground squirrels and chipmunks all share reduction of the teres fossa (fig. 18). However, the teres fossa also is reduced in one of the tree squirrels, so the two groups are not completely separate. The distribution of loadings on the most localized warp (fig. 11, W9) is similar to the dis-tribution of loadings on W6. Diversity within each of the three main groups is small, but gaps between groups are substantial and Ictidomys is distinct from other ground squirrels. In tree squirrels, the transformations of most species are trivial compared with the contributions of other warps. The exception is the transformation in Tamiasciurus hudsonicus, which is similar to that found in chipmunks. This transformation involves tapering and ventral displacement of the acromion with narrowing of the neck (fig. 1 9A). Ground squirrel loadings on W9 indicate a much larger dorso-ventral component, especially in Ictidomys. The large transformations in this subgenus also include noticeable tilting of the acromion tip (fig. 19B), which rotates the acromioclavicular articulation counter to the rotation of the whole acromion represented by W6. Thus, the acromio-clavicular articulation surface is maintained in a relatively stable orientation through the dramatic changes of the acromion's position and orientation.",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF13": {
+                "text": "~~~~~~~~~. . . . . . . . . . . . . . . . . . . . . . . . . . /~~~~~~~~~~~~~~.' --. . . . . . . e . -. -. . . . . ' . ' ' ' -. ' . ' . ' < . . . . . ' . \" ' ' -0. . ~~~~~~~. . . .... 2 , \\. ...... . . . .. . ....... ....................... ' \"' ' ' ' ' ' ' ) ' -, ,, , , -' ' ' ' , )~~~~11 .... .................. a ... .. .. 4 -~~~~~~~~~. . . . . . . . . . . . . . ... ..... ..... .. .. . . . . . . ~ ~~~4 .....B...... 10~~~~~~~~~~~~~~~~~~~.... .... FIG.1.Caresin gidsforparialwar 41()Sirscrlness1B a isirs usncs C pr mopils tidceminatu,D)S p.sioo a starting form would be the ancestral morphology. The partial warps scores would represent net divergence from the ancestor (net because the evolutionary path may not have been linear).",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF14": {
+                "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . ... . . . ... . . . . . . .. ... . .. . .... ..... . . . .... . . . .... D . . .. . . FIG. 16. Cartesian grids for partial warp 5. (A) Sciurus carolinensi columbianus, (D) Sp. tridecemlineatus.",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF15": {
+                "text": "each species, the entire set of 10 pairs of loadings (for the affine component and the nine warps) completely describes the reconfiguration of landmarks relative to the starting form. The separation of groups evident in these loadings would be detected equally well by any other complete set of morphological descriptors. The advantage of this particular set of descriptors is that they are readily interpreted as transformations of geometric regions of anatomical structures. As",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF16": {
+                "text": "''\" -'-.. .. .. .. . ..'--....................... s. FIo. 19. Cartesian gnds for partial warp 9 (Left) Tamiasciurus neat us. method for incorporating phylogenetic relationships when determining precise correlations of character transformations (cf. Felsenstein 1985; Maddison 1990; Martins and Garland 1991). However, congruent phylogenetic distributions of character state transformations can be used to indicate historical coordination",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "FIGREF17": {
+                "text": "Linkages between bones are hypothesized to predict correlated transformations of the linked bones (Lauder 19 8 1; Emerson 19 8 8). Thus, because the femur always articulates with the pelvis, transformations of the femur and pelvis should always be coordinated. However, if each bone is composed of several independently evolving regions, their articulation may predict only which regions of the bones are correlated. Changes in the locations of the articulation, or in the positions of muscle or ligament attachments could produce new suites of coordinated shape changes. The complexity of postcranial skeletal evolution could be much greater than is generally appreciated. The analysis of sciurid scapulae also demonstrates the utility of thin-plate splines for studies of morphological transformations. The regionalization of the warps-that is, their ability to localize changes to distinct geographic regions of a starting form-is not just aesthetically attractive. By recourse to their geometry, shape change can be decomposed into biologically meaningful components. In addition, reference to the starting form facilitates phylogenetic analysis.",
+                "uris": null,
+                "num": null,
+                "type_str": "figure"
+            },
+            "TABREF0": {
+                "text": "analysis of shape change, which sought simple patterns of transformation affecting entire structures. Thompson's Cartesian grid deformations provided graphic illustration of global components of shape change but were not based on quantitative analyses. However, Bookstein and coworkers",
+                "content": "<table/>",
+                "num": null,
+                "type_str": "table"
+            },
+            "TABREF5": {
+                "text": "measures only whether the sample sizes are sufficient to detect the difference. Many 89~~~~~....... ..... . . . . . . .. . . . .. . . . 0 . . . . . ..: . . . .. . . FIG. 4. Landmark~.. .. .. cofgrto fo th. tr the grand mea of the five... ... tre sqire s and followingfigures, lines... conctn landmarks... illustrate .... aprxmt scapula outline....This content downloaded from 35.7.39.109 on Thu, 07 Oct 2021 13:12:43 UTC All use subject to https://about.jstor.org/terms",
+                "content": "<table><tr><td>-13 -24</td><td/><td/></tr><tr><td>-6</td><td/><td/></tr><tr><td>0-8</td><td>0</td><td>0</td></tr><tr><td>025</td><td/><td/></tr><tr><td>670</td><td colspan=\"2\">p</td></tr><tr><td colspan=\"3\">). This paper focuses on features of the mean scapular shapes of distinct species. Often statis-tical tests are performed to indicate that a dif-ference between means is large enough to be worth reporting, that is, \"significant.\" However, the tests that have been used, a t-test for single variables, or Hotelling's T2 for multivariate cases, are not appropriate for the evaluation of differences be-tween taxonomic groups. The t-test and various multiple-group adaptations are designed to de-termine whether different samples represent the same population (Snedecor and Cochran 1967). However, samples from different species are known to be from different populations; a t-test *24 210 * morphoLogistsk cannoturelyion sortatistialtn formula . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . SYSTAT. 192.Sz an. osoiaiy.r.apo tofdtriehte differences between species (nldn icANOyAinforomative.tlin' s e Principal WarpsTe principaltesfo warpsfec of th startingla fomactrSedshown indfgue 5,o6,rand 197. Thesepinialwrs are geometrically imotn rpyorthog-5 _ 0-21 t _ * *-40 t -31 TI A B C FIG. 5. Lar in this context . (B) as disp</td></tr></table>",
+                "num": null,
+                "type_str": "table"
+            },
+            "TABREF6": {
+                "text": "This content downloaded from 35.7.39.109 on Thu, 07 Oct 2021 13:12:43 UTC All use subject to https://about.jstor.org/terms",
+                "content": "<table><tr><td/><td colspan=\"4\">EVOLUTION OF SCAPULAR SHAPE IN SQUIRRELS</td></tr><tr><td/><td>2</td><td colspan=\"2\">27</td><td>6</td><td>3</td></tr><tr><td/><td colspan=\"3\">-10</td><td>0</td></tr><tr><td/><td/><td colspan=\"3\">0-14</td><td>0-6</td></tr><tr><td/><td colspan=\"4\">150 0-38 -650 020</td></tr><tr><td/><td/><td colspan=\"3\">.33</td><td>.38</td></tr><tr><td/><td colspan=\"4\">.45 -510 350 030 3 @ 26 0-2</td></tr><tr><td/><td/><td colspan=\"3\">* -29 *-2</td><td>0 -25 0-34</td></tr><tr><td/><td colspan=\"3\">A</td><td>B</td></tr><tr><td>3</td><td colspan=\"4\">-14</td><td>02</td><td>0</td></tr><tr><td colspan=\"2\">-2</td><td colspan=\"3\">-3</td><td>-2</td></tr><tr><td/><td colspan=\"3\">00</td><td>01</td><td>00</td></tr><tr><td/><td colspan=\"3\">02</td><td>0-1</td><td>0-1</td></tr><tr><td colspan=\"4\">-50</td><td>5</td><td>20</td></tr><tr><td colspan=\"3\">47</td><td colspan=\"2\">45</td><td>-35</td></tr><tr><td colspan=\"3\">0-2</td><td colspan=\"2\">*-39</td><td>063</td></tr><tr><td colspan=\"3\">0-54</td><td colspan=\"2\">0-24</td><td>8</td><td>059</td></tr><tr><td colspan=\"3\">0 59 0-13</td><td colspan=\"2\">.* -44 62 0</td><td>* -34</td></tr></table>",
+                "num": null,
+                "type_str": "table"
+            },
+            "TABREF7": {
+                "text": "Distribution of partial warp loadings. Symbols indicate locations of species means: circle, tree squirrel; triangle, chipmunk; square, ground squirrel; +, starting form at the origin.",
+                "content": "<table><tr><td/><td/><td/><td colspan=\"2\">0.06. A</td><td/></tr><tr><td/><td/><td/><td colspan=\"2\">0.04 A</td><td/></tr><tr><td/><td/><td/><td/><td>A</td><td/></tr><tr><td colspan=\"7\">0.04. 0 0.02. 0 A 0.04 -</td></tr><tr><td>0.021</td><td colspan=\"3\">0.00</td><td>O+</td><td colspan=\"2\">0.02</td><td>0</td><td>O</td></tr><tr><td colspan=\"7\">AL -0.020\" -0.02 ?? z 0 0 0 0 0.00 0.06 0 -0.00 + c</td></tr><tr><td colspan=\"5\">IA I -0.04 0 0</td><td/></tr><tr><td colspan=\"2\">-0.04-</td><td colspan=\"3\">-00-0.04</td><td/></tr><tr><td colspan=\"2\">0.02 m~~~~~-.0</td><td/><td/><td/><td/></tr><tr><td colspan=\"7\">-.40.02 CIE] 0 0.0 0.0 0.0 0.000.020.0 A 00 0.0200</td></tr><tr><td colspan=\"3\">WI</td><td colspan=\"2\">W2</td><td/><td>W3</td></tr><tr><td>0.08</td><td/><td/><td/><td/><td/></tr><tr><td>O</td><td/><td/><td/><td/><td/></tr><tr><td colspan=\"3\">0.06</td><td colspan=\"4\">0.00</td><td>0</td></tr><tr><td colspan=\"7\">A.~~~~~~~~~~ 0.04 O 0.04 -0.02 kA 0</td></tr><tr><td>0.0</td><td/><td/><td/><td/><td/></tr><tr><td colspan=\"7\">0.02 -OO0.02 O 0.04.-. 00 0.2 o o</td></tr><tr><td colspan=\"7\">0.00 0.00 04 A -0.06</td></tr><tr><td>o</td><td colspan=\"2\">A</td><td colspan=\"4\">AA0</td><td>H</td></tr><tr><td/><td/><td/><td/><td colspan=\"3\">0 -0.08</td></tr><tr><td colspan=\"7\">0.00 0.02 0.04 0.00 0.02 0.04 -0.02 0.00</td></tr><tr><td colspan=\"3\">W4</td><td colspan=\"3\">W5</td><td>W6</td></tr><tr><td/><td/><td/><td/><td/><td/><td>0.04</td></tr><tr><td colspan=\"2\">0.02</td><td colspan=\"5\">0.00-?? 0.02 cDc</td></tr><tr><td colspan=\"7\">0.00-0~~~~~.0 0.00 0.00-0</td></tr><tr><td/><td/><td colspan=\"2\">-0.04</td><td/><td/></tr><tr><td colspan=\"7\">0.00 0.02 -0.02 0.00 0.00 0.02 0.04</td></tr><tr><td colspan=\"3\">W7</td><td colspan=\"3\">W8</td><td>W9</td></tr><tr><td>FIG. 1 1.</td><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td>). Ground</td></tr><tr><td/><td/><td/><td/><td colspan=\"3\">squirrels have somewhat larger loadings on W4,</td></tr><tr><td/><td/><td/><td/><td colspan=\"3\">but the loadings of most ground squirrels still</td></tr></table>",
+                "num": null,
+                "type_str": "table"
+            },
+            "TABREF8": {
+                "text": "...... . . . . . . . 1 0 1 0 ---..... . ............ .......... --. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . -. . . . . -* -, -,-~~~~~~~~~~~~~~~~~~~. . . . . . . . . . . . . . -. .",
+                "content": "<table><tr><td/><td/><td/><td/><td/><td/><td colspan=\"8\">8</td><td/><td/><td/><td>8</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>10</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"3\">.....</td><td colspan=\"3\">....</td><td>.</td><td colspan=\"2\">..</td><td>...</td><td>.....</td><td>.</td><td>.</td><td>2</td></tr><tr><td>.</td><td>.</td><td>..</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>-</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td colspan=\"2\">...-,.</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>11</td><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td>8i</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>I</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>S</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td>I</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"7\">0 ~~~~~~~~~~~~~~~~~~~~~~~~5 11</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">2</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>2~~</td></tr><tr><td/><td/><td/><td colspan=\"6\">A</td><td/><td/><td colspan=\"6\">.4</td><td>B</td><td>3</td></tr><tr><td colspan=\"12\">FIG.</td><td/><td/><td colspan=\"4\">12.</td><td>Cartesian</td></tr><tr><td colspan=\"17\">columbianus, is characterized by a unique broad-</td><td>in tree squirrels (fig. 11, W6). Loadings for all</td></tr><tr><td colspan=\"17\">ening of the dorsal end of the supraspinous fossa</td><td>chipmunks indicate a wide metacromion with a</td></tr><tr><td colspan=\"17\">(fig. 1 6C). The other large transformation, found</td><td>short and thin acromion, relative to the starting</td></tr><tr><td colspan=\"17\">in Sp. lateralis, Sp. spilosoma, and Sp. tridecem-</td><td>form (fig. 1 7A). The small variation in their load-</td></tr><tr><td colspan=\"17\">lineatus, increases the dorso-ventral extent of the</td><td>ings should not be interpreted to mean these</td></tr><tr><td colspan=\"8\">supraspinous fossa (fig. 16D).</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>structures are exactly the same shape in all chip-</td></tr><tr><td colspan=\"17\">Low loadings on W6 for tree squirrels indicate</td><td>munks. Rather, these loadings indicate similar</td></tr><tr><td colspan=\"17\">that there is no appreciable variation at this scale</td><td>deviations from the starting form only after ac-</td></tr><tr><td/><td/><td/><td/><td/><td colspan=\"7\">8</td><td/><td/><td/><td/><td colspan=\"2\">8</td></tr><tr><td/><td/><td/><td/><td/><td/><td>9</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>0</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"2\">10</td><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>11</td><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>11</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>(fig. 1 6A). Transformations this small probably</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>do not meaningfully affect scapular shape or</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>function, they are likely obscured by the contri-</td></tr><tr><td colspan=\"17\">Among chipmunks, Ta. striatus and Ta. ruficau-</td><td>butions of other warps. Most chipmunk loadings</td></tr><tr><td colspan=\"17\">dus have loadings similar to Sp. tridecemlinea-</td><td>also represent negligible change. The exception</td></tr><tr><td colspan=\"17\">tus; the other three species are more similar to</td><td>is a noticeable narrowing at the dorsal end of the</td></tr><tr><td colspan=\"18\">Sp. spilosoma. Thus, changes in the feature con-2~~~~~~~~~~~~~ supraspinous fossa in Ta. rufus (fig. 16B). Only</td></tr><tr><td colspan=\"17\">tribute primarily to diversity within chipmunks.</td><td>two ground squirrels have small loadings indi-</td></tr><tr><td colspan=\"18\">Changes in W5 contribute primarily to diver-A B cating virtually no divergence from tree squirrels 3</td></tr><tr><td colspan=\"17\">sity within ground squirrels. Even the largest tree</td><td>in this feature; the other four species have more</td></tr><tr><td colspan=\"18\">squirrel loading represents a minute shape change FIG. substantial transformations. One species, Sp. 13.</td></tr></table>",
+                "num": null,
+                "type_str": "table"
+            },
+            "TABREF9": {
+                "text": "This content downloaded from 35.7.39.109 on Thu, 07 Oct 2021 13:12:43 UTC All use subject to https://about.jstor.org/terms ~~~~~~~~~~~~~~~~~~~~~~~~~~. . . . . . . . . . . . . . . . . . . . 9 . . . . . . . . . . . . . . . . . . . . . . . . . . . . ~~~~~~~~...........................................w... \\ ~~~~~~~~~~~~. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ~~~~~~~~~~~~.. .. . .. ... ..........-.,,:\\ \\ ~~~~~~~~~~..... ................... ............. ... ... ... .......... .... .... .. .. .. ... ..... ... . ..... .... .. .. . . . \\........................... ........... ~~~~~~~~~~~~~~~~~~~~~~~~~~. ......... .,'...,,,,...,'' : . . -. . ''\"'' . . .. . . . . ...................... .... . s . S ,,,,~~~~.t.' ,,,. ... ' ' .-' .... 1~~~~~~~~~~~~~~~~~~. /. . . . . . . . . . . . . . . . . ............. ...... . . ........ .......",
+                "content": "<table><tr><td/><td/><td/><td colspan=\"7\">10</td><td/><td colspan=\"3\">10</td></tr><tr><td/><td/><td colspan=\"5\">:</td><td/><td/><td/><td/><td colspan=\"3\">\\.</td></tr><tr><td>. ' ' ' ' ' ' . ' ' ' ' ' ' ' ' ' 1' ' . . . . . . . . . . . .</td><td>. .</td><td>.</td><td>. .</td><td>..</td><td>. .</td><td>.</td><td>. .</td><td>.</td><td>.</td><td>.</td><td>.</td><td>..</td><td>..</td></tr></table>",
+                "num": null,
+                "type_str": "table"
+            },
+            "TABREF10": {
+                "text": ". . ......... ..... .. .. ....... .. .. I 0 . . . . . . . . . .. . . . . .. . . . . . . . .. .................... ............. . . . . . . . . ... . . . . .. . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . ............... . . . . . . . . . . . . . . . . . . . . . . . . ... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . .. . . . . . . . . . . . . ... . .......... .... .... ..... . ... . . . . . . . . . . . .. . . . . . . .. . . . . . . . . . . ......... ............ :B ................ ................... ................... ............ 10 to ...................................... .. . . . ... . . . . . . . . . . . . . . . . . . . . . . . . . ... . . . . . . .. . . . . ... . . . . ... . .. . . . . . . . . . .. . . . . . . . . . . ... . . . . ... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . ... . . . .. . . . . . . . . . . . . . . ... . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . ... . . . . . . . . . . . . . .. . ... .. . . 6 . .. . ... . .... ... . . . . . . . .. . . .. .. . ... .. .. . . . . .. .. .. . . .. . . .. . . . ... . . . . .. . .. . . .. .... .. .. ... .. .. .. ... .... .. .. . . . . ... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . ... . . . . . . . . . . . . . . .. . . . ... . . . .. . . . . ... . . . .. ... . ... . .. . . .. .. . .. .. .. .. .. .. .. . . . . . ..",
+                "content": "<table><tr><td/><td/><td/><td/><td/><td colspan=\"28\">EVOLUTION OF SCAPULAR SHAPE IN SQUIRRELS 1869</td></tr><tr><td/><td/><td/><td/><td/><td/><td>.</td><td/><td>.</td><td>.</td><td colspan=\"2\">.</td><td>.</td><td/><td>..</td><td colspan=\"2\">.</td><td colspan=\"2\">.</td><td>.</td><td>.</td><td>.</td><td/><td>.</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>.</td><td>.</td><td>.</td><td>..</td><td>..</td><td>.</td><td colspan=\"2\">.</td><td>.</td><td colspan=\"2\">...</td><td colspan=\"3\">V</td><td>.</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>.</td><td>..</td><td>....</td><td>.</td><td>..</td><td>....</td><td>..</td><td>.</td><td>.</td><td>.</td><td>..</td><td>.</td><td>.</td><td>.</td><td>.</td><td>..</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"3\">..</td><td/><td>.</td><td colspan=\"2\">.</td><td colspan=\"2\">.</td><td/><td>.</td><td/><td colspan=\"3\">..</td><td colspan=\"2\">..</td><td>.</td><td>.</td><td>.</td></tr><tr><td/><td/><td/><td colspan=\"2\">.</td><td colspan=\"3\">.</td><td/><td colspan=\"2\">.</td><td/><td/><td colspan=\"2\">.</td><td/><td/><td colspan=\"2\">.</td><td/><td colspan=\"2\">.</td><td/><td>.</td><td/><td/><td colspan=\"5\">...</td><td colspan=\"2\">.</td><td>.</td><td>.....</td><td>.</td><td>.</td><td>.</td><td>..</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr><tr><td/><td/><td/><td>.</td><td>.</td><td>.</td><td colspan=\"2\">.</td><td>.</td><td/><td>.</td><td colspan=\"2\">.</td><td/><td>.</td><td>.</td><td/><td>.</td><td colspan=\"2\">.</td><td>.</td><td colspan=\"2\">.</td><td>.</td><td>.</td><td/><td>.</td><td/><td>.</td><td colspan=\"2\">.</td><td>.</td><td>.</td><td>.</td><td>...</td><td>.</td><td>.</td><td>.</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>.</td><td>.</td><td colspan=\"2\">.</td><td>.</td><td colspan=\"3\">...</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td/><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>..</td><td>.</td><td>.</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"14\">IL:</td><td/><td/><td/><td>JL:</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"2\">2</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>..</td><td>........</td></tr><tr><td/><td/><td/><td>.</td><td/><td>.</td><td>.</td><td>.</td><td colspan=\"2\">. . .</td><td>.</td><td colspan=\"2\">. . .</td><td>.</td><td colspan=\"2\">. . .</td><td>.</td><td colspan=\"2\">. . ..</td><td>.</td><td colspan=\"2\">. . ..</td><td>.</td><td>. . .</td><td>.</td><td colspan=\"2\">. . .</td><td>.</td><td colspan=\"2\">. . .</td><td>.</td><td>. .</td><td>.</td><td>.</td><td>.</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>and ex-</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"15\">This content downloaded from</td></tr><tr><td/><td/><td/><td colspan=\"30\">35.7.39.109 on Thu, 07 Oct 2021 13:12:43 UTC</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"22\">All use subject to https://about.jstor.org/terms</td></tr></table>",
+                "num": null,
+                "type_str": "table"
+            },
+            "TABREF11": {
+                "text": "This content downloaded from 35.7.39.109 on Thu, 07 Oct 2021 13:12:43 UTC All use subject to https://about.jstor.org/terms ................ ....... . . . . . . . . . . . . . ... . .. . . ... . . . . ,:\\-.. .............~~~~~~~ ~~~~~ ...............1. ~ ~~~ , 16. . ......... ~~~~~. ... .............. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . : . . . . . . . . . . . . . . . . . . . . I. . . . . . . . . X; : -. -. . -. . . . . . . . . . <t. ~~~~.. . . . . -. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .......~ ~ ~~. ... . .... .. . .... ..... .. . . . ... . . , . . . . . . . .. . . . . . . . . . . . . . . . ... . . . . ..2 ......... ~ .......... . . . . . . . . . . . . . . . . . . . . . . . . . 2 . . . . . . 4 -' ' . . . . . . . . . . . ,",
+                "content": "<table><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>8</td><td>8</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>10</td><td>10</td></tr><tr><td/><td/><td/><td/><td/><td/><td colspan=\"6\">...</td><td>.....</td><td>...</td><td>.....</td><td>'</td></tr><tr><td/><td/><td/><td/><td/><td/><td>,</td><td/><td colspan=\"4\">...</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>4 g B~~~~~~~~~~~~~~~~~4</td></tr><tr><td/><td/><td/><td/><td/><td>A</td><td/><td/><td/><td/><td/><td/></tr><tr><td colspan=\"13\">FIG. 17. Cartesian grids for partial warp 6. (A) Tamias rufus and (B) Spermophilus variegatus.</td></tr><tr><td colspan=\"13\">such, these features are particularly amenable to</td></tr><tr><td colspan=\"13\">biological interpretation, including phylogenetic</td></tr><tr><td>analysis.</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td colspan=\"13\">Analysis of sciurid scapular shapes by com-</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td>.</td><td/><td>.</td><td>.</td><td colspan=\"2\">.</td><td>.</td><td>.</td><td>.</td><td>.</td></tr><tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>'</td><td>,.</td><td>.</td><td>,</td><td colspan=\"2\">,.</td><td>.</td><td>.</td></tr><tr><td colspan=\"13\">FIG. 18. Cartesian grids for partial warp 8, Sper-</td></tr><tr><td colspan=\"9\">mophilus variegatus.</td><td/><td/><td/></tr></table>",
+                "num": null,
+                "type_str": "table"
+            },
+            "TABREF12": {
+                "text": "This content downloaded from 35.7.39.109 on Thu, 07 Oct 2021 13:12:43 UTC All use subject to https://about.jstor.org/terms ._ _ .......... 8.-.-.. .~ ~ ~~~~~~~~~~~~~~~~~~~~~~~~.. . ...... ......... .....-~~~~~~~~~~~~~~~~~~. X io. . . . . . . . . . . . . . . ...... ........ ........... ... .........,,......... \\ ........................................... ........ .. . ... . . ,.-; . , . , * . \\. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+                "content": "<table><tr><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>..</td><td>.</td><td>.</td><td>.</td><td>.</td><td>...</td><td>..</td><td>.</td><td>.</td><td>..</td><td>.</td><td>.</td><td>.</td><td>.</td><td>..</td><td>..--</td><td>r=</td><td>..</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td>). These components rep-</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">resent shape features that span all or most of the</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">scapula. In tree squirrels, to the extent that scap-</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">ular shape changes at all, the changes are reported</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">as large scale features (W1, W2, and W3). In</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">chipmunks, there is divergence from tree squir-</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">rels reported on the three largest scale partial</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">warps, but the shape changes are not limited to</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">large scale features. Diversification within chip-</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">munks is found at small scales, as well. Scapular</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">shape changes in ground squirrels also occur at</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">both large and small scales. In fact, chipmunks</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">and ground squirrels share several small scale</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">divergences from tree squirrels. Clearly, scapular</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">shape evolution in sciurids is not limited to spa-</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">tially integrated transformations.</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"4\">Shape changes that occur at different scales</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">may still be considered integrated, if there is some</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">evidence of their coordination. Currently, there</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td colspan=\"5\">is considerable debate over the appropriate</td></tr></table>",
+                "num": null,
+                "type_str": "table"
+            }
+        }
+    }
+}

@@ -1,0 +1,3642 @@
+{
+    "paper_id": "Steppanetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:33:08.172518Z"
+    },
+    "title": "Molecular phylogeny of the endemic Philippine rodent Apomys (Muridae) and the dynamics of diversification in an oceanic archipelago",
+    "authors": [
+        {
+            "first": "Scott",
+            "middle": [
+                "J"
+            ],
+            "last": "Steppan",
+            "suffix": "",
+            "affiliation": {},
+            "email": "steppan@bio.fsu.edu"
+        },
+        {
+            "first": "Christopher",
+            "middle": [],
+            "last": "Zawadzki",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Lawrence",
+            "middle": [
+                "R"
+            ],
+            "last": "Heaney",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "We analysed the phylogenetic relationships of ten of the 13 known species of the genus Apomys using DNA sequences from cytochrome b. Apomys, endemic to oceanic portions of the Philippine archipelago, diversified during the Pliocene as these oceanic islands arose de novo. Several of the speciation events probably took place on Luzon or Mindanao, the two largest, oldest, and most topographically complex islands. Only one speciation event is associated with vicariance due to Pleistocene sea-level fluctuation, and a Pleistocene diversification model in which isolation is driven by sea-level changes is inconsistent with the data. Tectonic vicariance is nearly absent from the Philippines, in which tectonic coalescence plays a significant role. Most speciation events (about two-thirds) are associated with dispersal to newly developed oceanic islands. The data imply that the species have persisted for long periods, measured in millions of years after their origins; further implications therefore are that faunal turnover is very slow, and persistence over geological time spans is more prominent than repeated colonization and extinction. Neither the equilibrium nor the vicariance model of biogeography adequately encompasses these results; a model incorporating colonization, extinction, and speciation is necessary and must incorporate long-term persistence to accommodate our observations.",
+    "pdf_parse": {
+        "paper_id": "Steppanetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "We analysed the phylogenetic relationships of ten of the 13 known species of the genus Apomys using DNA sequences from cytochrome b. Apomys, endemic to oceanic portions of the Philippine archipelago, diversified during the Pliocene as these oceanic islands arose de novo. Several of the speciation events probably took place on Luzon or Mindanao, the two largest, oldest, and most topographically complex islands. Only one speciation event is associated with vicariance due to Pleistocene sea-level fluctuation, and a Pleistocene diversification model in which isolation is driven by sea-level changes is inconsistent with the data. Tectonic vicariance is nearly absent from the Philippines, in which tectonic coalescence plays a significant role. Most speciation events (about two-thirds) are associated with dispersal to newly developed oceanic islands. The data imply that the species have persisted for long periods, measured in millions of years after their origins; further implications therefore are that faunal turnover is very slow, and persistence over geological time spans is more prominent than repeated colonization and extinction. Neither the equilibrium nor the vicariance model of biogeography adequately encompasses these results; a model incorporating colonization, extinction, and speciation is necessary and must incorporate long-term persistence to accommodate our observations.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "The process of diversification \u2212 the increase in number of species within a given lineage over time \u2212 lies at the root of biology, and has a long history of investigation (Heaney & Vermeij, in press ). Nevertheless, the number of case studies in which the history and processes of diversification is well documented is small, even among vertebrates (e.g. Otte & Endler, 1989; Ricklefs & Schluter, 1993; Grant, 1998; Magurran & May, 1999) . Further, such studies have not usually figured in analysis of the dynamics of species-richness patterns under either of the current dominant models, the equilibrium model of island biogeography and vicariance biogeography (Whittaker, 1998; Heaney, 2000; Lomolino, 2000) . Much recent progress on some issues involving diversification has been made under the rubric of phylogeography (e.g. Riddle, 1995 Riddle, , 1996 Avise, 2000; Arbogast & Kenagy, 2001) , but most such studies deal with single species, not extensive radiations, and we know of only two that have been placed in the context of long-term dynamics of patterns of insular species richness (Moritz et al., 2000; Ricklefs & Bermingham, 2001 ). Here we test hypotheses of speciation and explore patterns of diversification in the Philippine islands using a molecular phylogeny of an endemic rodent clade.",
+                "cite_spans": [
+                    {
+                        "start": 171,
+                        "end": 198,
+                        "text": "(Heaney & Vermeij, in press",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 355,
+                        "end": 375,
+                        "text": "Otte & Endler, 1989;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 376,
+                        "end": 402,
+                        "text": "Ricklefs & Schluter, 1993;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 403,
+                        "end": 415,
+                        "text": "Grant, 1998;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 416,
+                        "end": 437,
+                        "text": "Magurran & May, 1999)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 662,
+                        "end": 679,
+                        "text": "(Whittaker, 1998;",
+                        "ref_id": "BIBREF67"
+                    },
+                    {
+                        "start": 680,
+                        "end": 693,
+                        "text": "Heaney, 2000;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 694,
+                        "end": 709,
+                        "text": "Lomolino, 2000)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 829,
+                        "end": 841,
+                        "text": "Riddle, 1995",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 842,
+                        "end": 856,
+                        "text": "Riddle, , 1996",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 857,
+                        "end": 869,
+                        "text": "Avise, 2000;",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 870,
+                        "end": 894,
+                        "text": "Arbogast & Kenagy, 2001)",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 1094,
+                        "end": 1115,
+                        "text": "(Moritz et al., 2000;",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 1116,
+                        "end": 1143,
+                        "text": "Ricklefs & Bermingham, 2001",
+                        "ref_id": "BIBREF50"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "The Philippine Islands, comprising c. 7000 islands ranging up to 100 000 km 2 , represent a natural theatre in which to investigate such issues. With the exception of one small set (the Palawan group), all of the islands are oceanic in origin, having emerged because of a complex but now well-documented set of tectonic events (Hall, 1996 (Hall, , 1998 (Hall, , 2002 . Periods of lowered sea level during the many Pleistocene 'ice ages' caused some sets of current islands to coalesce into larger ones ( Fig. 1 ), but many remained separate across channels ranging from 1 to 25 km, and each of those oceanic islands that existed during Pleistocene periods of low sea level is a highly distinctive biogeographical region with 50-85% endemism among the non-flying mammals (Heaney, 1986 (Heaney, , 1991 Heaney & Regaldo, 1998) . Overall, the mammalian fauna of the Philippine Islands is unusually rich in endemic species, including 85 out of 99 native non-flying mammals. Moreover, many genera are endemic, and many of them seem to form larger clades that are themselves endemic to the archipelago (Heaney & Rickart, 1990; Musser & Heaney, 1992) , so a great deal of diversification must have taken place within the archipelago (Heaney, 1986 (Heaney, , 2000 , leading to a description of the Philippines as 'the Galapagos times 10' (Heaney & Regaldo, 1998) . Thus, the archipelago and its biota represent a good model system for investigating the role of diversification in dynamics of species richness.",
+                "cite_spans": [
+                    {
+                        "start": 327,
+                        "end": 338,
+                        "text": "(Hall, 1996",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 339,
+                        "end": 352,
+                        "text": "(Hall, , 1998",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 353,
+                        "end": 366,
+                        "text": "(Hall, , 2002",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 770,
+                        "end": 783,
+                        "text": "(Heaney, 1986",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 784,
+                        "end": 799,
+                        "text": "(Heaney, , 1991",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 800,
+                        "end": 823,
+                        "text": "Heaney & Regaldo, 1998)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1095,
+                        "end": 1119,
+                        "text": "(Heaney & Rickart, 1990;",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1120,
+                        "end": 1142,
+                        "text": "Musser & Heaney, 1992)",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 1225,
+                        "end": 1238,
+                        "text": "(Heaney, 1986",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 1239,
+                        "end": 1254,
+                        "text": "(Heaney, , 2000",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 1329,
+                        "end": 1353,
+                        "text": "(Heaney & Regaldo, 1998)",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 504,
+                        "end": 510,
+                        "text": "Fig. 1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "Although many aspects of equilibrium island biogeography (sensu MacArthur & Wilson, 1967) , systematics, diversity patterns, ecology, and conservation have been explored within the Philippine mammalian fauna (Heaney, 1986 (Heaney, , 2000 (Heaney, , 2001 Rickart et al., 1993; Heaney & Regaldo, 1998) , few phylogenies have been generated, and few specific aspects of the process of diversification have been explored. Specifically, the geographical context of speciation (dispersal or vicariance, sympatric or allopatric) and the timing of diversification (e.g. late Pleistocene or earlier in the archipelago's history) within a set of closely related species have not been rigorously documented among mammals (but see Heaney & Ruedi, 1994; Heaney, 2000 , for some initial observations on mammals and Brown & Guttman, 2002, on frogs) .",
+                "cite_spans": [
+                    {
+                        "start": 57,
+                        "end": 89,
+                        "text": "(sensu MacArthur & Wilson, 1967)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 208,
+                        "end": 221,
+                        "text": "(Heaney, 1986",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 222,
+                        "end": 237,
+                        "text": "(Heaney, , 2000",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 238,
+                        "end": 253,
+                        "text": "(Heaney, , 2001",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 254,
+                        "end": 275,
+                        "text": "Rickart et al., 1993;",
+                        "ref_id": "BIBREF49"
+                    },
+                    {
+                        "start": 276,
+                        "end": 299,
+                        "text": "Heaney & Regaldo, 1998)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 719,
+                        "end": 740,
+                        "text": "Heaney & Ruedi, 1994;",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 741,
+                        "end": 753,
+                        "text": "Heaney, 2000",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 801,
+                        "end": 833,
+                        "text": "Brown & Guttman, 2002, on frogs)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "Of the many mammalian taxa represented in the Philippines, the murid rodents ('rats and mice') are best suited to such studies. With 22 genera and 56 species native to the country, this family is the most speciose, and most morphologically and ecologically diverse, in the Philippines, and because they are not capable of flight, they are more likely than the equally diverse bats to reflect geohistorical events clearly (Peterson & Heaney, 1993) . Among the murids, the Philippine endemic genus Apomys is the most diverse, with at least 13 species in the country, five of which are undescribed L. R. Heaney, B. R. Tabaranza Jr., S. R. Goodman & E. A. Rickart, unpubl. data) . They are abundant, small-bodied (20-75 g) mice of the rainforest, occurring on most islands and in most primary and many secondary habitats (Heaney et al., , 1999 . No phylogeny for the genus has been proposed; it has been hypothesized to be the basal member of a large clade of rodents endemic to the Philippines (Musser, 1982; Heaney & Rickart, 1990; Musser & Heaney, 1992) .",
+                "cite_spans": [
+                    {
+                        "start": 421,
+                        "end": 446,
+                        "text": "(Peterson & Heaney, 1993)",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 595,
+                        "end": 674,
+                        "text": "L. R. Heaney, B. R. Tabaranza Jr., S. R. Goodman & E. A. Rickart, unpubl. data)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 817,
+                        "end": 839,
+                        "text": "(Heaney et al., , 1999",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 991,
+                        "end": 1005,
+                        "text": "(Musser, 1982;",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 1006,
+                        "end": 1029,
+                        "text": "Heaney & Rickart, 1990;",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1030,
+                        "end": 1052,
+                        "text": "Musser & Heaney, 1992)",
+                        "ref_id": "BIBREF43"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "Pleistocene glaciations have been hypothesized to be a primary determinant of many modern biogeographical patterns (Haffer, 1969; FAUNMAP Working Group, 1996; Haffer, 1997; Zink, Blackwell-Rago & Ronquist, 2000) . Prominent among various hypotheses has been the proposal that, as biomes shift elevationally with glacial cycles, species ranges expand and contract, resulting in coalesence and fragmentation of populations. If the fragmentation leads to speciation, this Pleistocene speciation hypothesis provides a general vicariant explanation for biogeographical patterns among many taxonomic groups. In areas of high relief, such as on islands or in mountainous regions, this process has been called a 'species pump' because it is expected to accelerate the rate of speciation relative to those of less topographically diverse regions. The same process can also occur on a continental scale (Zink et al., 2000) . Recent tests of the Pleistocene speciation hypothesis have generally failed to support it, finding instead that most sister species diverged from each other prior to the most intense glaciations or prior to the Pleistocene entirely (e.g. Zink et al., 2000; Johnson, 2002) . As described in more detail below, the geological history of the Philippine Islands makes them one of the most amenable regions of the world to testing this hypothesis. The islands have undergone a wellunderstood sequence of coalescence and fragmentation because of sea-level changes. The Pleistocene speciation hypothesis predicts that sister species or sister clades will occupy adjacent islands that were previously joined together as larger oceanic 'Pleistocene islands' and that these divergences will date to the glacial period. Because the Philippine Islands are so conducive to this process, if the Pleistocene speciation process operated commonly, its effects should be detectable in the Philippines. Failure to find support for the Pleistocene speciation hypothesis in the Philippines would therefore be compelling evidence against its generality.",
+                "cite_spans": [
+                    {
+                        "start": 115,
+                        "end": 129,
+                        "text": "(Haffer, 1969;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 130,
+                        "end": 158,
+                        "text": "FAUNMAP Working Group, 1996;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 159,
+                        "end": 172,
+                        "text": "Haffer, 1997;",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 173,
+                        "end": 211,
+                        "text": "Zink, Blackwell-Rago & Ronquist, 2000)",
+                        "ref_id": "BIBREF71"
+                    },
+                    {
+                        "start": 893,
+                        "end": 912,
+                        "text": "(Zink et al., 2000)",
+                        "ref_id": "BIBREF71"
+                    },
+                    {
+                        "start": 1153,
+                        "end": 1171,
+                        "text": "Zink et al., 2000;",
+                        "ref_id": "BIBREF71"
+                    },
+                    {
+                        "start": 1172,
+                        "end": 1186,
+                        "text": "Johnson, 2002)",
+                        "ref_id": "BIBREF33"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "We investigated the phylogenetic relationships of the genus Apomys and used this information to determine the most likely mode of speciation with respect to geography. Specifically, we asked: (1) what portion of the speciation events might have taken place on a single oceanic island (2) whether the data support the Pleistocene sea-level speciation hypothesis (3) what portion of the speciation events is likely to have involved dispersal or vicariance events between isolated oceanic islands (4) when the speciation events are most likely to have occurred, and (5) what relationship the time of origin might have to the documented geological history of the Philippine archipelago. In our discussion, we address the implications of these data for the dynamics of diversification and patterns of species richness among Philippine mammals, especially with respect to the rate of turnover in the mammalian fauna of the archipelago.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "The geographical theatre in which the diversification of Apomys took place has a complex history; fortunately, that history, including the location and extent of dry-land areas, has been described in some detail recently (Hall, 1996 (Hall, , 1998 (Hall, , 2002 . Briefly, the current archipelago consists of three distinct geological units of very different origins that have approached one another and are now coalescing: the north-western (e.g. Mindoro), north-eastern (e.g. Luzon), and southeastern (e.g. Mindanao) blocks. The first of these includes the modern islands of Palawan and Mindoro and small pieces of several other extant islands. These originated as portions of Asian continental shelf that begin to rift away from the region south of modern Taiwan during the mid-Oligocene, 30-35 Myr ago (Mya). All portions of this continental material were below sea level at the time and remained below sea level until they were uplifted and emerged as de novo oceanic islands capped with marine sediments beginning about 10 Mya, in the late Miocene. This emergence took place initially in the area of modern Mindoro, which remained isolated from other islands subsequently. Palawan emerged later, beginning in the early Pliocene, c. 5 Mya, and eventually reached sufficient size and height that it was connected to northern Borneo (but not the rest of the Philippine islands) during the penultimate glacial event, c. 165 000 years ago, and perhaps during some prior glacial events. Palawan currently has a mammalian fauna largely derived from that of the continental Sunda Shelf (Heaney, 1986; Brown & Guttman, 2002) . The second primary geological unit, known today as central and northern Luzon, emerged as several small dry-land islands during the mid-Oligocene, roughly 30-35 Mya, hundreds of kilometres south-east of where it lies currently. It developed from volcanoes that lay between a spreading zone and a subduction zone, producing a series of small, very isolated islands that rose then eroded as the rock units gradually moved north-west. The first development of a large island took place in the middle Miocene, about 15 Mya, as proto-Luzon approached proto-Mindoro; a large island (at least 25 000 km 2 ) in present-day northern Luzon has persisted since that time, characterized by frequent volcanic activity associated with several subduction zones. Luzon enlarged substantially during the Pliocene (which extended from 5 to 1.8 Mya), as it and proto-Mindanao came into proximity.",
+                "cite_spans": [
+                    {
+                        "start": 221,
+                        "end": 232,
+                        "text": "(Hall, 1996",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 233,
+                        "end": 246,
+                        "text": "(Hall, , 1998",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 247,
+                        "end": 260,
+                        "text": "(Hall, , 2002",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1583,
+                        "end": 1597,
+                        "text": "(Heaney, 1986;",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 1598,
+                        "end": 1620,
+                        "text": "Brown & Guttman, 2002)",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GEOLOGICAL HISTORY OF THE PHILIPPINE ARCHIPELAGO",
+                "sec_num": null
+            },
+            {
+                "text": "The third primary geological unit, known today as Mindanao and some associated islands, originated further south-east than did proto-Luzon, at about the same time. Several small volcanic islands in a dispersed arc rose and eroded as the rock unit moved north-west; no substantial islands developed until the mid-Miocene, about 12 Mya, as proto-Mindanao approached proto-Luzon. Additional uplift began about 6-8 Mya in the late Miocene as proto-Mindanao and proto-Luzon came into closer proximity and began to coalesce. Much of the uplift of the smaller current islands and some peninsulas has taken place during the Pliocene subsequent to 5 Mya; the uplift of the southern (Bicol) peninsula of Luzon began about 3.5 Mya (Heaney et al., 1999) , Greater Negros-Panay about the same time, and such smaller islands as Sibuyan and Camiguin not more than 2 Mya. The current height of the islands is generally close to their maximum, so exposure of dry land during the last glacial maximum is probably close to the maximum extent (Heaney, 1986; Heaney, 1991; Hall, 1996 Hall, , 1998 .",
+                "cite_spans": [
+                    {
+                        "start": 720,
+                        "end": 741,
+                        "text": "(Heaney et al., 1999)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1023,
+                        "end": 1037,
+                        "text": "(Heaney, 1986;",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 1038,
+                        "end": 1051,
+                        "text": "Heaney, 1991;",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 1052,
+                        "end": 1062,
+                        "text": "Hall, 1996",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 1063,
+                        "end": 1075,
+                        "text": "Hall, , 1998",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GEOLOGICAL HISTORY OF THE PHILIPPINE ARCHIPELAGO",
+                "sec_num": null
+            },
+            {
+                "text": "Thirty-two specimens, representing ten species in the genus Apomys -datae (Meyer, 1899), gracilirostris (Ruedas, 1995) , hylocoetes (Mearns, 1905) , insignis (Mearns, 1905) , microdon (Hollister, 1913) , musculus (Miller, 1911) , plus four undescribed species -and four outgroups, were sequenced for this study. Each species was represented by at least two specimens, and four were represented by three or more. Outgroup taxa were Batomys granti (Thomas, 1895), Chrotomys gonzalesi (Rickart & Heaney, 1991) , Archboldomys luzonensis (Musser, 1982) , and Rhynchomys isarogensis (Musser & Freeman, 1981) , all of which are Philippine endemic genera. Batomys was designated the outgroup for rooting on the basis of a broader sampling of murine and muroid taxa for four nuclear exons (S. J. Steppan, R. M. Adkins & J. Anderson, unpubl. data). Locality and voucher information is listed in the Appendix. Sequences have been submitted to GenBank under accession numbers AY324458-AY324489.",
+                "cite_spans": [
+                    {
+                        "start": 104,
+                        "end": 118,
+                        "text": "(Ruedas, 1995)",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 132,
+                        "end": 146,
+                        "text": "(Mearns, 1905)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 158,
+                        "end": 172,
+                        "text": "(Mearns, 1905)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 184,
+                        "end": 201,
+                        "text": "(Hollister, 1913)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 213,
+                        "end": 227,
+                        "text": "(Miller, 1911)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 482,
+                        "end": 506,
+                        "text": "(Rickart & Heaney, 1991)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 533,
+                        "end": 547,
+                        "text": "(Musser, 1982)",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 577,
+                        "end": 601,
+                        "text": "(Musser & Freeman, 1981)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "METHODS SPECIMENS EXAMINED",
+                "sec_num": null
+            },
+            {
+                "text": "The taxonomy of Apomys has not been stable, initially because of a paucity of specimens (Musser, 1982) , then because the many specimens collected often represented new species . Our current understanding differs from that presented by in viewing A. littoralis as a junior synonym of A. insignis (the holotype is a juvenile with damaged skull, and no other specimens can be referred to the species) and in treating Apomys 'sp. A' from Sibuyan as conspecific with A. 'sp. C' from Negros Island (because no morphological differences have been detected; all specimens are attributed to sp. A). A revision of the genus is under way (L. R. Heaney, unpubl. data) . Our use of informal species designations (e.g. 'sp. D') follows .",
+                "cite_spans": [
+                    {
+                        "start": 88,
+                        "end": 102,
+                        "text": "(Musser, 1982)",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 635,
+                        "end": 656,
+                        "text": "Heaney, unpubl. data)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "METHODS SPECIMENS EXAMINED",
+                "sec_num": null
+            },
+            {
+                "text": "Complete genomic DNA was extracted from frozen tissue according to standard phenol/chloroform extraction techniques. We amplified the entire cytochrome (cyt) b gene using polymerase chain reaction (PCR) techniques using primers L14725 (P484), H15915 (P485) (Steppan et al., 1999) , and MVZ14 and MVZ5 (Smith & Patton, 1993) . DNA amplification was performed at 50-100-\u00b5L reaction volumes containing 10 \u00b5M MgCl 2 , 1.0 \u00b5M of each primer, and 2.5-5.0 U of Amplitaq Gold (Perkin-Elmer) in buffer supplied by the manufacturer. Typical cycling conditions were initial denaturation at 94\u00b0C for 15 min, followed by 40-45 cycles of denaturation (40 s at 94\u00b0C), primer annealing (40 s at 51\u00b0C), DNA extension (1 min 30 s at 72\u00b0C), and a final extension for 6 min at 72\u00b0C. Five \u00b5L of amplification product for each sample was electrophoresed on a 1% agarose gel, stained by ethidium bromide, and visualized with UV. The products were purified either by gel purification or by precipitation with polyethylene glycol (PEG) in saline (NaCl) and resuspended in 25 \u00b5L of deionized water. DNA concentration was measured by UV absorption, and the solution was diluted.",
+                "cite_spans": [
+                    {
+                        "start": 257,
+                        "end": 279,
+                        "text": "(Steppan et al., 1999)",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 301,
+                        "end": 323,
+                        "text": "(Smith & Patton, 1993)",
+                        "ref_id": "BIBREF58"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DNA EXTRACTION, AMPLIFICATION, AND SEQUENCING",
+                "sec_num": null
+            },
+            {
+                "text": "Sequencing was performed on double-stranded templates with ABI Big-dye terminator sequencing chemistry on ABI (Perkin-Elmer) 373A and 3100 automated sequencers. All individuals were sequenced completely in both directions for the entire cyt b gene with the amplification primers and the following sequencing primers: P1185 (L15279: 5\u2032\u2212 AAAGCYACYYTAACACGATT\u22123\u2032), P386 (H15149: 5\u2032\u2212TTTCTGCAGCCCCTCAGAATGATATTTGTCCTC A\u22123\u2032), B11p and B12p (Steppan, 1998) , and S85 (TCCTAGTADGTCTGGRAAG; designed specifically for Apomys). Sequences were aligned by Sequencher 4.1 (Genecodes). There were no insertions or deletions (indels) allowing unambiguous alignment by eye. All aligned sequences are available from TreeBase.",
+                "cite_spans": [
+                    {
+                        "start": 434,
+                        "end": 449,
+                        "text": "(Steppan, 1998)",
+                        "ref_id": "BIBREF60"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DNA EXTRACTION, AMPLIFICATION, AND SEQUENCING",
+                "sec_num": null
+            },
+            {
+                "text": "Phylogenetic analyses were conducted with equally weighted maximum-parsimony (MP) and maximumlikelihood (ML) criteria. A sequential optimization approach (Swofford et al., 1996; Fratti et al., 1997) was used to estimate the cyt b phylogeny. Initial trees were generated by MP. All MP analyses used heuristic searches with tree bisection-reconnection (TBR) branch swapping and 30 random-addition replicates. The ML parameter values were estimated under a nested array of substitution models for the MP tree (Swofford et al., 1996; Fratti et al., 1997) as implemented in Modeltest 3.04 (Posada & Crandall, 1998) . Each of these models was evaluated for among-site rate variation under equal rates, a portion of the sites assumed to be invariable (I), rates among all sites assumed to vary according to a gamma distribution (\u0393: Yang, 1994) , and a combination of invariable sites and gamma-distributed rates. Because each of the models can be considered a special case of the most general, GTR + I + \u0393, a likelihood-ratio test can be used to test for significant differences in the contributions of each model parameter to explaining the data (Yang, Goldman & Friday, 1995) . The TrN + \u0393 model (two transition types, one transversion type (Tamura & Nei, 1993) , with gamma-distributed among-site rate variation) was a significantly better fit for cyt b than simpler models without introducing extraneous parameters. We then conducted a ML search using the preferred model with parameters fixed at the values estimated on the MP tree. Heuristic searches were conducted with 20 random-addition replicates and TBR branch swapping. Model parameters were reestimated from the initial ML tree, and the process repeated until the topology of the reestimated tree matched that of the tree from the previous search, never requiring more than one iteration.",
+                "cite_spans": [
+                    {
+                        "start": 154,
+                        "end": 177,
+                        "text": "(Swofford et al., 1996;",
+                        "ref_id": "BIBREF62"
+                    },
+                    {
+                        "start": 178,
+                        "end": 198,
+                        "text": "Fratti et al., 1997)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 506,
+                        "end": 529,
+                        "text": "(Swofford et al., 1996;",
+                        "ref_id": "BIBREF62"
+                    },
+                    {
+                        "start": 530,
+                        "end": 550,
+                        "text": "Fratti et al., 1997)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 584,
+                        "end": 609,
+                        "text": "(Posada & Crandall, 1998)",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 825,
+                        "end": 836,
+                        "text": "Yang, 1994)",
+                        "ref_id": "BIBREF69"
+                    },
+                    {
+                        "start": 1140,
+                        "end": 1170,
+                        "text": "(Yang, Goldman & Friday, 1995)",
+                        "ref_id": "BIBREF70"
+                    },
+                    {
+                        "start": 1236,
+                        "end": 1256,
+                        "text": "(Tamura & Nei, 1993)",
+                        "ref_id": "BIBREF63"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "PHYLOGENETIC ANALYSIS",
+                "sec_num": null
+            },
+            {
+                "text": "Robustness of the results for both optimality criteria was estimated by means of 100 bootstrap replicates (Felsenstein, 1985) . We calculated decay (or Bremer support) indices (Bremer, 1994) for selected nodes on the MP tree by searching for the shortest trees containing the hypothesized constraint using AutoDecay (Eriksson, 1999) .",
+                "cite_spans": [
+                    {
+                        "start": 106,
+                        "end": 125,
+                        "text": "(Felsenstein, 1985)",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 176,
+                        "end": 190,
+                        "text": "(Bremer, 1994)",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 316,
+                        "end": 332,
+                        "text": "(Eriksson, 1999)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ROBUSTNESS AND HYPOTHESIS TESTING",
+                "sec_num": null
+            },
+            {
+                "text": "A priori biogeographical hypotheses were tested according to parsimony-and likelihood-based approaches that compare the tree scores of constrained and unconstrained (i.e. optimal) trees (see Steppan et al., 1999;  for examples applied to biogeographical hypotheses). Tree searches were constrained such that all individuals on each Pleistocene island formed a monophyletic group, but relationships among individuals within those island clades and relationships among those island clades were unconstrained. Several alternative constraints that allowed some minimal dispersal or within-modern-island speciation were tried (e.g. not all species on Luzon grouped into a single clade), effectively relaxing some assumptions. Equally weighted MP searches were conducted with constraints enforced to match predicted topologies for each hypothesis. Differences in tree lengths between constrained searches and the most parsimonious tree were tested with the Kishino\u2212 Hasegawa (Kishino & Hasegawa, 1989 ), Templeton (Templeton, 1987) , and Shimodaira\u2212Hasegawa (Shimodaira & Hasegawa, 1999) tests. Because the topology of the reference (optimal) tree was not defined a priori, we applied one-tailed tests at the 2.5% significance level for the KH and Templeton tests. The same approach was employed for ML with the optimal ML tree as the reference.",
+                "cite_spans": [
+                    {
+                        "start": 191,
+                        "end": 212,
+                        "text": "Steppan et al., 1999;",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 213,
+                        "end": 213,
+                        "text": "",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 969,
+                        "end": 994,
+                        "text": "(Kishino & Hasegawa, 1989",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1008,
+                        "end": 1025,
+                        "text": "(Templeton, 1987)",
+                        "ref_id": "BIBREF64"
+                    },
+                    {
+                        "start": 1052,
+                        "end": 1081,
+                        "text": "(Shimodaira & Hasegawa, 1999)",
+                        "ref_id": "BIBREF57"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ROBUSTNESS AND HYPOTHESIS TESTING",
+                "sec_num": null
+            },
+            {
+                "text": "The cyt b data were used to estimate divergence dates among Apomys clades. Because no Apomys fossils are available for internal rate calibrations, we used an external calibration of the divergence of Mus from Rattus at 9.5 Mya, based on a recalibrated nuclear gene molecular clock (S. J. Steppan, R. M. Adkins & J. Anderson, unpubl. data) using 12 Myr as the origin of modern murines (Jacobs & Downs, 1994) . Cyt b sequences for Mus and Rattus were obtained from GenBank (accession nos J01420 and NC001665). In a likelihood-ratio test of a molecular clock, likelihoods are estimated with and without enforcement of a clock. Likelihood ratios are chi-squared distributed, so twice the difference in log likelihoods is compared to the critical value from a chi-squared table, and the degrees of freedom are equal to the number of OTUs\u22122 (number of branches\u22121; Huelsenbeck & Rannala, 1997). A molecular clock was rejected for the complete data set (P = 0.04), and initial phylogenetic analyses showed Archboldomys to be an outlier with an unusually short branch leading to it. After the slowly evolving Archboldomys was excluded, a likelihood ratio test showed that the Apomys data did not deviate significantly from a molecular-clock model (2 L = 39.4, d.f. = 29, P = 0.06), so genetic distances were estimated under the clock model and the same TrN + \u0393 model used for phylogeny estimation. Apomys datae (slow) and A. gracilirostris (fast) also deviated somewhat from a clock-like pattern, but their exclusion had little impact on the likelihood of a molecular clock, either in addition to the exclusion of Archboldomys or by themselves. Given that deviation from the molecular clock was only marginally non-significant, we report the estimated dates with caution. We also calculated the number of third-position transversion differences, which have been recommended for mitochondrial genes because they tend to evolve in a more clock-like fashion than other transformations without the excessive homoplasy of third-position transitions, which can skew genetic distance estimates (Smith & Patton, 1999; Conroy & Cook, 2000) . Third-position transversions produced a rate estimate of 1.23% per Myr. The dates estimated by the two methods were similar, and we report the ML distances here because the transversion distances exhibited at least as much lineage-rate variation, and very recent divergences were less reliable (because of stochastic variation caused by many fewer data).",
+                "cite_spans": [
+                    {
+                        "start": 384,
+                        "end": 406,
+                        "text": "(Jacobs & Downs, 1994)",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 2078,
+                        "end": 2100,
+                        "text": "(Smith & Patton, 1999;",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 2101,
+                        "end": 2121,
+                        "text": "Conroy & Cook, 2000)",
+                        "ref_id": "BIBREF5"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DATING ESTIMATES",
+                "sec_num": null
+            },
+            {
+                "text": "Gene lineages will by necessity coalesce to a common ancestor that predates the events causing speciation by an amount that approximates the genetic diversity (coalescence times) within the ancestor. Because we are interested in dating the possible events associated with speciation and not the coalescence times of gene lineages, we adjusted the divergence dates described above by subtracting the mean divergence dates within modern species (Avise & Walker, 1998; Edwards & Beerli, 2000) . The modern values were used as representative of the average divergences within the ancestral species at the time of speciation. We focused on the diversity that accumulates within populations and geographical regions but did not include within-species comparisons from different regions because deep phylogeographical divergences may be caused by the geohistorical events we are testing for. Therefore, we included only those species that showed significant variation (datae, gracilirostris, microdon) in the calculation of average within-species divergences. Divergences between northern and southern Luzon populations of A. microdon were not included, but divergences within these regions were included. The effect of this correction is to reduce the estimated divergence dates and thus to yield a conservative estimate with respect to the Pleistocene speciation hypothesis.",
+                "cite_spans": [
+                    {
+                        "start": 443,
+                        "end": 465,
+                        "text": "(Avise & Walker, 1998;",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 466,
+                        "end": 489,
+                        "text": "Edwards & Beerli, 2000)",
+                        "ref_id": "BIBREF6"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DATING ESTIMATES",
+                "sec_num": null
+            },
+            {
+                "text": "All Apomys cyt b sequences were 1144 bp long. Of the 422 variable sites, 369 were parsimony informative, across Apomys and outgroups. Nucleotide composition was very close to mean mammalian values (Irwin, Kocher & Wilson, 1991) for all positions. The taxa did not vary significantly in nucleotide composition. Uncorrected and maximum-likelihood distances (TrN + \u0393; in parentheses) were 0.0009-0.031 within species; 0.011-0.119 among species, = 0.085, n = 300 (0.012-0.205; = 0.133); and 0.118-0.170 between Apomys and outgroups excluding Batomys, = 0.147, n = 125 (0.196-0.372; = 0.276).",
+                "cite_spans": [
+                    {
+                        "start": 197,
+                        "end": 227,
+                        "text": "(Irwin, Kocher & Wilson, 1991)",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "PHYLOGENETIC ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "Parsimony analysis yielded eight trees, the strict consensus of which was compatible with the maximum-likelihood tree (Fig. 2) bodied species (A. datae from northern Luzon and A. gracilirostris from Mindoro of the A. datae species group defined by Musser, 1982; Ruedas, 1995) and a geographically widespread clade containing the remaining species. Both of these clades are moderately to well supported, having parsimony bootstrap values of 64% and 96%, respectively (decay indices of 3 and 9), and likelihood bootstrap values of 81% and 92%. The widespread clade divided into two distinct geographical units: a southern clade from Greater Mindanao (A. hylocoetes and A. insignis from Mindanao and A. sp. F from Leyte and nearby islands) and nearby Camiguin Island (A. sp. D) and a northern/ central clade from Luzon (A. microdon and A. musculus), Greater Panay/Negros (A. sp. A/C) and oceanic Sibuyan (A. sp. A/C, A. sp. B). Both of these clades are well supported by ML analyses (96% and 82% bootstrap values) but less well so by MP analyses (64% and 45%, decay indices of 2 and 1).",
+                "cite_spans": [
+                    {
+                        "start": 248,
+                        "end": 261,
+                        "text": "Musser, 1982;",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 262,
+                        "end": 275,
+                        "text": "Ruedas, 1995)",
+                        "ref_id": "BIBREF55"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 118,
+                        "end": 126,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "PHYLOGENETIC ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "Interspecific relationships within the southern clade are robust; bootstrap values range from 86 to 100% under either criterion, and decay indices are 2, 12, and 19. Monophyly of terminal taxa is also well supported by high bootstrap values and decay indices. Most of the terminal taxa correspond to current taxonomy, except for Apomys spp. A and C (listed as distinct by ; but which ongoing morphological analysis suggests are conspecific; L. R. Heaney, unpubl. data) . The strictly Mindanao clade includes representatives of two species but shows almost no genetic variation among them. The very close and possibly ramified relationship between A. hylocoetes and A. insignis, which occur sympatrically at middle elevations on Mindanao (Heaney, 2001) , is remarkable because the two taxa are highly divergent in karyotype (Rickart & Heaney, 2002) and morphologically distinct (Musser, 1982) . Most individuals sequenced here have been karyotyped.",
+                "cite_spans": [
+                    {
+                        "start": 447,
+                        "end": 468,
+                        "text": "Heaney, unpubl. data)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 737,
+                        "end": 751,
+                        "text": "(Heaney, 2001)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 823,
+                        "end": 847,
+                        "text": "(Rickart & Heaney, 2002)",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 877,
+                        "end": 891,
+                        "text": "(Musser, 1982)",
+                        "ref_id": "BIBREF41"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "PHYLOGENETIC ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "The species of the northern/central 'A. microdon/ musculus clade' are genetically well differentiated, with moderate support for relationships. In the ML tree, the two most basal branches belong to species from Luzon, A. microdon and A. musculus, but the MP tree differs in having A. sp. B from Sibuyan an earlier branch, making biographic reconstruction equivocal. Within this clade are specimens from Negros and Sibuyan islands that are not differentiated genetically and not reciprocally monophyletic (and, as noted earlier, cannot be distinguished morphologically).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "PHYLOGENETIC ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "Questions raised in the Introduction about the process of diversification in Apomys require interpretation of the geographical history of diversification, so we begin with that issue.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "The confirmation of the monophyly of Apomys, noted above, confirms the genus as endemic to the Philippines and strongly implies that it has undergone its diversification within the archipelago. We note also that, with two exceptions, each species of Apomys occurs in a single biogeographical region of the Philippines and that these regions are defined by the extent of low sea level and maximum island coalescence during the Pleistocene glacial episodes (Fig. 1) . The two exceptions are A. musculus, which occurs throughout Luzon and on Mindoro, and A. sp. A/C, which occurs on Negros and Sibuyan (and probably Panay). In other words, each species occurs on a single, clearly definable oceanic island or a single group of islands that coalesced repeatedly during the Pleistocene; the two exceptions each involve a species that occurs on two oceanic islands that are in close proximity.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 455,
+                        "end": 463,
+                        "text": "(Fig. 1)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Biogeographical history of diversification in Apomys",
+                "sec_num": null
+            },
+            {
+                "text": "Several observations suggest that Apomys originated on Luzon Island. The endemism of both species of Rhynchomys, both species of Archboldomys, and most species of Chrotomys on Luzon supports the inference that this clade originated there. These four genera form a distinct clade among murines (S. J. Steppan, R. M. Adkins & J. Anderson, unpubl. data). The presence of three basal species on Luzon (A. datae, microdon, musculus) from both of the major clades of the genus (Fig. 2) , is consistent with this hypothesis. It is noteworthy that northern Luzon is the oldest land mass in the Philippines, having originated over 25 Mya, and from about 15-10 Mya was the only large island in what is now the Philippines (Hall, 1996 (Hall, , 1998 . We interpret the presence of A. gracilirostris on Mindoro to have resulted from dispersal to that island, which originated as a de novo oceanic island about 8-10 Mya.",
+                "cite_spans": [
+                    {
+                        "start": 712,
+                        "end": 723,
+                        "text": "(Hall, 1996",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 724,
+                        "end": 737,
+                        "text": "(Hall, , 1998",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 471,
+                        "end": 479,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Biogeographical history of diversification in Apomys",
+                "sec_num": null
+            },
+            {
+                "text": "The sister group to the A. datae\u2212gracilirostris clade contains species from a range of areas but is divided into two clades with different geographical ranges. One of these, the 'A. microdon\u2212musculus clade', contains two basal species from Luzon (A. microdon and A. musculus, although as noted above, parsimony yielded a slightly different phylogeny). Two additional species (Apomys sp. B and A. sp. A/C) occur, respectively, on Sibuyan and on Negros plus Sibuyan islands, both of which lie near to southern Luzon. We postulate that the common ancestor of A. musculus and the other two species underwent diversification when a population dispersed from Luzon to either Sibuyan or Greater Negros/Panay (Fig. 1) ; that one subsequent additional dispersal took place between Sibuyan and Negros/Panay, the direction of which cannot yet be determined; and that a second dispersal to Sibuyan may have taken place if the MP tree is correct.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 701,
+                        "end": 709,
+                        "text": "(Fig. 1)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Biogeographical history of diversification in Apomys",
+                "sec_num": null
+            },
+            {
+                "text": "The second clade includes A. hylocoetes and A. insignis on Mindanao, plus two more basal species on Leyte/Biliran and on Camiguin. We interpret this pattern as indicating a dispersal from Luzon to Greater Mindanao and the neighbouring oceanic island of Camiguin, followed by isolation of the populations on Camiguin and Greater Mindanao. A vicariance event within Greater Mindanao subsequently gave rise to A. sp. F on Leyte and adjacent islands in northern Greater Mindanao and to the ancestor of A. hylocoetes and A. insignis on Mindanao. Apomys insignis and A. hylocoetes now occur sympatrically at middle elevations (1800-2250 m) on mountains in central Mindanao (e.g. Mt. Kitanglad); the former also extends down to sea level, and the latter extends to the highest peaks (Heaney, 2001 ).",
+                "cite_spans": [
+                    {
+                        "start": 776,
+                        "end": 789,
+                        "text": "(Heaney, 2001",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Biogeographical history of diversification in Apomys",
+                "sec_num": null
+            },
+            {
+                "text": "As noted above, we lack genetic material from three species of Apomys; these require comment at this point. Two, A. abrae and A. sacobianus, are poorly known, large-bodied species restricted to northern Luzon; Musser & Carleton (in press) concluded on the basis of morphological evidence that they may be related to the 'A. microdon\u2212musculus clade.' Apomys sp. E, from Mindoro Island, is similar to A. sp. B and A. sp. A/C from Sibuyan and Negros. Presence of the former species implies additional diversification on Luzon in the A. microdon\u2212musculus clade, and the presence of the latter implies additional dispersal in the area of Negros, Sibuyan, and Mindoro.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Biogeographical history of diversification in Apomys",
+                "sec_num": null
+            },
+            {
+                "text": "Each instance of sister species occurring sympatrically on a single island may represent speciation in close proximity, under any of a variety of circumstances (sympatric, parapatric, or under small-scale habitat vicariance). With our current knowledge, we cannot distinguish between these and so lump them together for discussion, but the question of how often such speciation occurs on a single island is relevant.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "What portion of the speciation events might have taken space on a single oceanic island?",
+                "sec_num": null
+            },
+            {
+                "text": "Apomys insignis and A. hylocoetes are broadly sympatric and partially syntopic on Mindanao. As noted above, they are nearly genetically identical (0.0-0.006 TrN + \u0393 distance) and are not reciprocally monophyletic for cyt b, but they differ morphologically and karyologically (Musser, 1982; Rickart & Heaney, 2002) . Some form of autochthonous speciation on Mindanao island is likely. Other cases are more ambiguous. Cladogenesis leading to A. microdon and the ancestor of the clade including A. musculus and A. sp. B and sp. A/ C is most parsimoniously reconstructed to have occurred on Luzon for both MP and ML trees. The two trees differ, however, in whether A. sp. B and A. sp. A/ C represent two dispersals to Sibuyan or in situ spe-ciation. Inclusion of A. sacobianus and A. abrae in a clade with A. microdon\u2212musculus would imply speciation on Luzon because all are restricted to northern Luzon. We have noted the likely impact of habitat vicariance for species of rodents in other genera that occur on Luzon (Rickart et al., 1998 ), but we have noted no clear cases within Apomys. Overall, we conclude that 3-4 out of the 11 speciation events sampled here probably occurred on the two largest and oldest oceanic islands (Luzon and Mindanao), but that this is not the dominant mode of diversification in Apomys.",
+                "cite_spans": [
+                    {
+                        "start": 275,
+                        "end": 289,
+                        "text": "(Musser, 1982;",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 290,
+                        "end": 313,
+                        "text": "Rickart & Heaney, 2002)",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 1014,
+                        "end": 1035,
+                        "text": "(Rickart et al., 1998",
+                        "ref_id": "BIBREF48"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "What portion of the speciation events might have taken space on a single oceanic island?",
+                "sec_num": null
+            },
+            {
+                "text": "In order to test a strict Pleistocene sea-level vicariance hypothesis, we conducted tree searches constrained such that all individuals present on each Pleistocene island formed monophyletic groups (e.g. a Greater Luzon clade, a Greater Mindanao clade) while allowing any topological resolution within or among these island clades. These constrained searches yielded trees that were all significantly worse than the optimal trees by Templeton or Shimodaira\u2212Hasegawa tests, supporting rejection of the hypothesis (e.g. ML, Fig. 2 ; P < 0.001). This hypothesis might be overly restrictive in not allowing independent lineages to undergo vicariant speciation on the Pleistocene islands. Relaxing that constraint results in many possible combinations of hypotheses because the Pleistocene vicariance-speciation hypothesis does not specify the taxonomic rank for the vicariant events. Less restrictive constraints, for example excluding the older A. datae\u2212gracilostris lineage from the constrained Greater Luzon clade, also produced trees significantly worse than the optimal ones. We then focused on non-statistical tests of the hypothesis that sister species or sister clades occupy islands that were previously joined into the large Pleistocene islands. Of the ten nodes within Apomys above the species level, only one conforms to that prediction; A. sp. D from Billiran and Leyte and the A. hylocoetes\u2212insignis clade from Mindanao are sister clades. We conclude that support for this hypothesis is very weak.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 522,
+                        "end": 528,
+                        "text": "Fig. 2",
+                        "ref_id": "FIGREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Do the data support the Pleistocene sea-level speciation hypothesis?",
+                "sec_num": null
+            },
+            {
+                "text": "For cyt b, a molecular clock was not rejected after Archboldomys was excluded (L = \u22125991.2 vs. \u22125971.9, d.f. = 29, P > 0.06), so divergences were estimated under a clock constraint. TrN + \u0393 ML distances, corrected for observed mean within-species divergence (0.0046, 0.38 Myr) and a Mus\u2212Rattus divergence date of 9.5 Mya (Jacobs & Downs, 1994; S. J. Steppan, R. M. Adkins & J. Anderson, unpubl. data) for calibration, are plotted in Figure 3 . Because these distances are corrected to reflect divergence times of species rather than divergence times of gene lineages within species, the within-species values tend to be negative. Apomys gracilirostris is the only species in our sample that exhibits deep within-species divergences, to nearly 400 000 years, but we have limited geographical sampling for several of the other species, and additional sampling may well uncover more genetic diversity. Most species-level divergences predate the Pleistocene entirely, and the youngest of those, between the A. sp. D clade from Billiran and Leyte and the A. hylocoetes\u2212 insignis clade from Mindanao, dates to approximately 1.05 Mya in the Early Pleistocene. This is also the only speciation event that is topologically consistent with the Pleistocene sea-level vicariance hypothesis. Figure 4 shows the ML estimate of the phylogeny under a molecular clock scaled to the calibrated time scale. Notable divergence dates include the split of A. sp. D on the oceanic island Camiguin from its Greater Mindanao sister clade approximately 1.7-2.2 Mya and basal divergences within the northerncentral clade clustering between 1.4 and 2.1 Mya. The basal divergences within the genus date back to 3-4.2 Mya. Although some of the divergences fall within the Pleistocene, no peak appears in the Pleistocene; instead, we see a clear Pliocene peak in divergences.",
+                "cite_spans": [
+                    {
+                        "start": 321,
+                        "end": 343,
+                        "text": "(Jacobs & Downs, 1994;",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 344,
+                        "end": 400,
+                        "text": "S. J. Steppan, R. M. Adkins & J. Anderson, unpubl. data)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 433,
+                        "end": 441,
+                        "text": "Figure 3",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 1279,
+                        "end": 1287,
+                        "text": "Figure 4",
+                        "ref_id": "FIGREF5"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Do the data support the Pleistocene sea-level speciation hypothesis?",
+                "sec_num": null
+            },
+            {
+                "text": "The data are clearly not consistent with the Pleistocene speciation hypothesis, either in statistical tests of topological hypotheses or in the proportion of speciation events conforming to the prediction. We are aware of only one speciation event in Apomys seemingly associated with sea-level change -the presence of A. sp. F on Leyte and associated islands and its sister species on Mindanao suggests sea-level vicariance at some point, because the two regions have been repeatedly connected and reisolated as sea level changed with each glacial episode during the Pleistocene (Heaney, 1986 (Heaney, , 1991 Heaney & Regaldo, 1998) .",
+                "cite_spans": [
+                    {
+                        "start": 579,
+                        "end": 592,
+                        "text": "(Heaney, 1986",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 593,
+                        "end": 608,
+                        "text": "(Heaney, , 1991",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 609,
+                        "end": 632,
+                        "text": "Heaney & Regaldo, 1998)",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Do the data support the Pleistocene sea-level speciation hypothesis?",
+                "sec_num": null
+            },
+            {
+                "text": "Our reconstructed biogeographical history of Apomys implies little role for vicariance in speciation events. Of the two possible vicariance mechanisms, tectonic separation of landmasses and sea-level-induced isolation, the geological history of the Philippines includes only the latter. The archipelago fails to meet the criteria necessary for application of tectonic vicariance models (Rosen, 1975; Humphries & Parenti, 1986) because its tectonic pattern is not one of separation or subdivision of a landmass but one of coalescence. As noted above, our data are clearly inconsistent with Pleistocene sea-level vicariance hypotheses (with one exceptional case), and we have no clear evidence of speciation in Apomys associated with habitat vicariance.",
+                "cite_spans": [
+                    {
+                        "start": 386,
+                        "end": 399,
+                        "text": "(Rosen, 1975;",
+                        "ref_id": "BIBREF54"
+                    },
+                    {
+                        "start": 400,
+                        "end": 426,
+                        "text": "Humphries & Parenti, 1986)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "What portion of the speciation events is likely to have involved dispersal or vicariance events?",
+                "sec_num": null
+            },
+            {
+                "text": "On the other hand, evidence for the role of dispersal in speciation is abundant. Our reconstruction of the biogeographical history of Apomys (Fig. 5 ) implies dispersal from Luzon to Mindoro on at least one (A. gracilirostris) and perhaps two (A. sp. E, not sampled here) occasions, from Luzon to Greater Mindanao (A. hylocoetes-sp. D clade), from Greater Mindanao to Camiguin (A. sp. D), from Luzon to Greater Negros/ Panay and/or Sibuyan once or twice (A. sp. B and A/C), and from Sibuyan to Greater Negros/Panay (A. sp. A/ C). The totals are 5-7 dispersal events, none for tectonic vicariance, and one for sea-level vicariance. All other speciation events (3-4) were likely withinisland, as noted above, and may have involved habitat vicariance, although this is uncertain.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 141,
+                        "end": 148,
+                        "text": "(Fig. 5",
+                        "ref_id": "FIGREF6"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "What portion of the speciation events is likely to have involved dispersal or vicariance events?",
+                "sec_num": null
+            },
+            {
+                "text": "Two alternative models can be considered with respect to timing of speciation events within Apomys. First, proponents of the equilibrium model of MacArthur & Wilson (1967) have generally emphasized, and sometimes assumed, short time spans and rapid turnover in the faunas on islands (even though MacArthur and Wilson acknowledged the presence of long-term speciation as a process in both 1963 and 1967 publications; Heaney, 2000) . This view was consistent with a concurrent, widely held belief (e.g. Haffer, 1969; White, 1978; Whitmore & Prance, 1987 ) that much speciation took place during the late Pleistocene. This hypothesis of 'late Pleistocene diversification' leads to a prediction that the diversification of Apomys took place largely during the last 1 Myr, i.e. the latter half of the Pleistocene, or perhaps even later, in association with the ultimate (c. 15 000 years ago) and penultimate (c. 165 000 years ago) periods of sea-level lowering (Heaney, 1986 ).",
+                "cite_spans": [
+                    {
+                        "start": 146,
+                        "end": 171,
+                        "text": "MacArthur & Wilson (1967)",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 416,
+                        "end": 429,
+                        "text": "Heaney, 2000)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 501,
+                        "end": 514,
+                        "text": "Haffer, 1969;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 515,
+                        "end": 527,
+                        "text": "White, 1978;",
+                        "ref_id": "BIBREF65"
+                    },
+                    {
+                        "start": 528,
+                        "end": 551,
+                        "text": "Whitmore & Prance, 1987",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 956,
+                        "end": 969,
+                        "text": "(Heaney, 1986",
+                        "ref_id": "BIBREF18"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "When are the speciation events likely to have occurred?",
+                "sec_num": null
+            },
+            {
+                "text": "An alternate hypothesis might postulate that the diversification of Apomys took place much earlier, as soon as the islands that make up the Philippines Adjusted divergence date (Mya)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "When are the speciation events likely to have occurred?",
+                "sec_num": null
+            },
+            {
+                "text": "within species among species originated as de novo, oceanic dry-land islands.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "When are the speciation events likely to have occurred?",
+                "sec_num": null
+            },
+            {
+                "text": "Apomys is probably one of the genera descendent from the adaptive radiation of murids that occurred about the time of the divergence of Mus from Rattus around 10 Mya (Jacobs & Downs, 1994; S. J. Steppan, R. M. Adkins, & J. Anderson, unpubl. data.) . Luzon was then a large island, Mindanao was beginning a period of uplift and coalescence of many fragments, and Mindoro was present, but few other substantial islands in the Philippines were above water; most of the development of the archipelago as a set of dryland islands took place during the last 5 Myr (Pliocene and Pleistocene), and uplifting continues today. The constraints on the time of origin of Apomys (c. 4-5 Mya) and the origin of the majority of the Philippine islands indicates that speciation could not have occurred in the earliest uplift phase of 10 Mya but rather might have begun at the earliest during the more extensive uplift phase of 2-5 Mya (Pliocene or very early Pleistocene). This 'Pliocene diversification hypothesis' therefore predicts diversification times of mostly 2-5 Mya, during the Pliocene epoch. Further, this model might be expected to produce speciation dates that are correlated with the ages of the islands on which the mice live, whereas a high-turnover model with dispersal based on the 'late Pleistocene diversification hypothesis' is unlikely to produce a statistical association between island age and age of origin of a given species. We thus have two sets of predictions, one that anticipates ages for Apomys species of less than 1 Myr and another that anticipates ages of 2-5 Myr on most islands and perhaps more on Luzon, where we postulate the genus originated. We estimated time of divergence of the various clades of Apomys from cyt b data under a molecular clock. Although the data within Apomys are statistically consistent with a molecular clock, some lineagespecific rate variation results in approximately \u00b1 10% range in dates. Allowing for additional error due to inaccuracies in the rate calibrations (e.g. phylogenetic placement of the calibration fossil and possibly unrecognized rate variation among Mus, Rattus, and Apomys), we suggest that these should be viewed as estimating the true dates \u00b1 30% and perhaps more for the most recent divergences. Such errors would not, however, appreciably change the following discussion.",
+                "cite_spans": [
+                    {
+                        "start": 166,
+                        "end": 188,
+                        "text": "(Jacobs & Downs, 1994;",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 189,
+                        "end": 247,
+                        "text": "S. J. Steppan, R. M. Adkins, & J. Anderson, unpubl. data.)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "When are the speciation events likely to have occurred?",
+                "sec_num": null
+            },
+            {
+                "text": "Divergence dates for all within-species comparisons are less than 500 000 years ago, and those for all between-species comparisons (excluding A. hylocoetes \u2212A. insignis) range between 1.0 and 5 Mya (Fig. 3) . For the between-species comparisons there is a Pliocene peak around 2.6 Mya. Although these dates must be viewed as no more than rough estimates, it is clear that, in addition to the Pleistocene sea-level vicariance hypothesis discussed earlier, the 'late Pleistocene divergence hypothesis' can also be rejected; no evidence supports any speciation events during the last 1 Myr except for the speciation of A. hylocoetes and A. insignis on Mindanao, which involved major chromosomal rearrangements, as described above. The alternative 'Pliocene uplift diversification hypothesis' is supported by the available data, even if the estimate of genetic divergence rates is off by a factor of nearly two.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 198,
+                        "end": 206,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "When are the speciation events likely to have occurred?",
+                "sec_num": null
+            },
+            {
+                "text": "The data are also consistent with the further prediction that the age of each divergence should be correlated with the geological age of the corresponding oceanic island, although the precision is difficult to determine. We estimate the origin of the genus at 4-6 Mya, near the onset of much of the Pliocene geological uplift of the archipelago. The most basal divergence within the genus, between the A. datae\u2212 gracilirostris clade and all other extant taxa, is estimated at about 3.6-4.2 Mya, well after the beginnings of the Pliocene uplift. Diversification apparently took place rapidly thereafter; the A. datae-A. gracilirostris divergence (which involved dispersal from Luzon to Mindoro) is dated at about 2.8-3.2 Mya, and the others followed quickly. The split between the large northern A. microdon clade and the large southern A. hylocoetes clade about 2.4-3 Mya followed the development of extensive dry-land islands between the northern core of Luzon and the central core of Mindanao by about 1 Myr. Divergence between A. microdon and the ancestor of the A. musculus clade 1.9-2.2 Mya apparently took place on Luzon during the time when the island was enlarging through the uplift of its southern and central areas (Heaney, 2000) . The apparent dispersal of members of the A. musculus clade to Greater Negros/Panay and Sibuyan about 1.7 Mya followed the uplift of southern Luzon and was roughly concurrent with the uplift of Sibuyan. Dispersal to Camiguin and divergence by the ancestor of A. sp. D c. 1.8-2.1 Mya is consistent with rough estimates of the age of Camiguin of 1-2 Mya. Divergence between the ancestor of A. hylocoetes-insignis and A. sp. F (from Leyte and adjacent islands) about 1 Mya may have involved sea-level vicariance; by that time, Greater Mindanao would have existed as a single dryland mass during periods of low sea level and as several smaller islands during high sea level (as is the case today).",
+                "cite_spans": [
+                    {
+                        "start": 1226,
+                        "end": 1240,
+                        "text": "(Heaney, 2000)",
+                        "ref_id": "BIBREF21"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "What is the relationship between time of origin and the geological history of the islands?",
+                "sec_num": null
+            },
+            {
+                "text": "In summary, these dates and circumstances suggest that diversification of Apomys associated with overwater dispersal between oceanic islands occurred either subsequent to or concurrently with uplift of the various islands. A non-parametric test of association between the 'clock dates' and the estimated dates of origin of the islands is significant (P < 0.05; Fig. 6 ). In other words, the mice dispersed from Luzon, the oldest and largest island, to the various other islands fairly soon after they became dry land. This result also implies that they have persisted since then with very low rates of extinction. Clearly, if a species is endemic to a single island and originated >2 Mya, it cannot have undergone repeated extinction and recolonization; rather, it is far more likely to have persisted on the one island since its origin.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 361,
+                        "end": 367,
+                        "text": "Fig. 6",
+                        "ref_id": "FIGREF8"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "What is the relationship between time of origin and the geological history of the islands?",
+                "sec_num": null
+            },
+            {
+                "text": "One of the primary assumptions of users of the MacArthur\u2212Wilson model of island biogeography has been, with few exceptions, that ongoing colonization and extinction lead to rapid turnover in island faunas (Williamson, 1981; Whittaker, 1998; Heaney, 2000) . The data presented here strongly imply that turnover has not been rapid; rather, colonization was initially rapid but was followed by persistence on a geological time scale. The result, apparently, is a system in which colonization of de novo oceanic islands has sometimes happened soon after their uplift and has resulted in speciation and attendant diversification within the lineage as a whole. Although some diversification may have taken place on single islands, this has apparently been the case only on Luzon and Mindanao, the two largest, oldest, and most topographically diverse islands (Rickart et al., 1998) . Thus, diversification in this most speciose of Philippine murid rodents has largely been a process of colonization across sea channels to newly formed oceanic islands, followed by genetic differentiation and longterm persistence. Moritz et al. (2000) summarized evidence of similar, pre-Pleistocene origins for many extant species of continental rainforest mammals and emphasized the role of persistence, rather than turnover, in those faunas. Although our data are not consistent with recent usage of the MacArthur and Wilson equilibrium model, neither are they consistent with the vicariance model of biogeography, because it is apparent that dispersal rather than vicariance (whether by tectonic processes, sea level change, or vegetational change) has primarily driven diversification in this speciose genus. Rather than either the bivariate equilibrium or vicariance models, we believe that tripartite models that fully incorporate the processes of diversification, colonization, and extinction hold much more promise for general modelling of the dynamics of species richness in situations such as this (Heaney, 2000; Lomolino, 2000) . Specifically, the data presented here provide support for the graphical model presented by Heaney (2000) , in which phylogenesis is predicted to be ongoing and cumulative (with little extinction), gradually raising species-richness levels on isolated archipelagos to levels similar to those seen on land-bridge islands that have undergone postisolation relaxation (i.e. where a reduction in area has produced a decline in faunal richness, with rates of extinction and colonization more or less in equilibrium).",
+                "cite_spans": [
+                    {
+                        "start": 205,
+                        "end": 223,
+                        "text": "(Williamson, 1981;",
+                        "ref_id": "BIBREF68"
+                    },
+                    {
+                        "start": 224,
+                        "end": 240,
+                        "text": "Whittaker, 1998;",
+                        "ref_id": "BIBREF67"
+                    },
+                    {
+                        "start": 241,
+                        "end": 254,
+                        "text": "Heaney, 2000)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 853,
+                        "end": 875,
+                        "text": "(Rickart et al., 1998)",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 1108,
+                        "end": 1128,
+                        "text": "Moritz et al. (2000)",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 1986,
+                        "end": 2000,
+                        "text": "(Heaney, 2000;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 2001,
+                        "end": 2016,
+                        "text": "Lomolino, 2000)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 2110,
+                        "end": 2123,
+                        "text": "Heaney (2000)",
+                        "ref_id": "BIBREF21"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Implications for the dynamics of diversification and patterns of species richness",
+                "sec_num": null
+            },
+            {
+                "text": "Many questions remain to be answered. First, are the patterns of diversification shown by other endemic Philippine clades similar or different? Specifically, are the geographical patterns of phylogenetic relationship of other taxa similar to those shown by Apomys, in which Luzon is the area of oldest diversification, Mindanao a secondary area, and other islands tertiary 'off-shoots'? Limited data on shrews (Heaney & Ruedi, 1994) and frogs (Brown & Guttman, 2002) appear to show a different pattern, one of recent colonization from Asia, but too few examples are available to form general patterns. In addition, is there a consistent pattern of an association between estimated age of the species and the age of the islands on which they occur? No additional data are currently available.",
+                "cite_spans": [
+                    {
+                        "start": 410,
+                        "end": 432,
+                        "text": "(Heaney & Ruedi, 1994)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 443,
+                        "end": 466,
+                        "text": "(Brown & Guttman, 2002)",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ISSUES FOR FUTURE INVESTIGATION",
+                "sec_num": null
+            },
+            {
+                "text": "Second, are oceanic and land-bridge islands in the Philippines similar in the pattern of species richness, specifically the correlation between richness and island area? Similarity of species richness on the two types of islands would support the concept of an equilibrium number of species as envisioned by MacArthur (1972: 107-111, figs 5-20) . Alternatively, significantly lower richness on oceanic islands than on land-bridge islands, or a weak or absent correlation of richness with island area on oceanic islands, would imply that colonization of oceanic islands is too low and unpredictable to be modelled. Some preliminary data (Heaney, 1986) indicated that species richness of non-flying mammals on the oceanic islands is low and not correlated with island area, but more detailed analysis based on more extensive data is needed.",
+                "cite_spans": [
+                    {
+                        "start": 308,
+                        "end": 344,
+                        "text": "MacArthur (1972: 107-111, figs 5-20)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 636,
+                        "end": 650,
+                        "text": "(Heaney, 1986)",
+                        "ref_id": "BIBREF18"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ISSUES FOR FUTURE INVESTIGATION",
+                "sec_num": null
+            },
+            {
+                "text": "In addition to the biogeographical issues, there is the question concerning whether biparentally inherited nuclear genes show the same pattern as the maternally inherited cyt b data. Some nuclear genes have been useful for phylogenetics within animal genera (Friesen et al., 1997 (Friesen et al., , 1999 but the generality of this finding is unknown. The phylogenetic history of nuclear genes may not match that of mitochondrial genes because in many mammal species, females tend to be philopatric and males to disperse. Also, mitochondrial genes are expected to go to fixation within a population four times faster under neutral conditions because effective population size for nuclear autosomal genes is four times greater than that for mitochondrial genes (Moore, 1995) . The result is smaller effective population size for the maternally inherited mitochondria and greater geographical localization of mitochondrial lineages than in biparentally inherited autosomal genes. We are currently examining this question using three nuclear genes.",
+                "cite_spans": [
+                    {
+                        "start": 258,
+                        "end": 279,
+                        "text": "(Friesen et al., 1997",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 280,
+                        "end": 303,
+                        "text": "(Friesen et al., , 1999",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 759,
+                        "end": 772,
+                        "text": "(Moore, 1995)",
+                        "ref_id": "BIBREF39"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ISSUES FOR FUTURE INVESTIGATION",
+                "sec_num": null
+            },
+            {
+                "text": "Sequence data for ten of the c. 13 species of the Philippine endemic genus Apomys allow the construction of a robust phylogeny for the genus and estimation of the geographical history within the archipelago, which has a complex but fairly clearly documented history as a set of oceanic islands that have undergone gradual decrease in isolation (through plate movement), increase in area (through uplift and associated volcanic activity), and coalescence (through tectonic movement). We therefore reject both vicariance (induced by tectonic or Pleistocene sea-level change) and the MacArthur\u2212Wilson equilibrium model (and its implied high turnover of species) as general explanations for diversification in Apomys. Instead, our data document Pliocene diversification in which most divergence occurred after long-distance dispersal among oceanic islands; we favour a conceptual model that explicitly includes colonization, phylogenesis, and extinction. Such knowledge of the place of origin and age of diversification of species allows testing of what have previously often been untestable assumptions about rates of primary biogeographical processes (diversification, colonization, and extinction) in island archipelagos and permit accurate and predictive modelling.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "CONCLUSION",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/biolinnean/article/80/4/699/2636499 by University of Michigan user on 07 October 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "\u00a9 2003 The Linnean Society of London, Biological Journal of the Linnean Society, 2003, 80, 699-715",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/biolinnean/article/80/4/699/2636499 by University of Michigan user on 07 October 2021 DIVERSIFICATION OF PHILIPPINE RODENTS 701 \u00a9 2003 The Linnean Society of London, Biological Journal of the Linnean Society, 2003, 80, 699-715",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/biolinnean/article/80/4/699/2636499 by University of Michigan user on 07 October 2021 DIVERSIFICATION OF PHILIPPINE RODENTS 703 \u00a9 2003 The Linnean Society of London, Biological Journal of the Linnean Society, 2003, 80, 699-715",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/biolinnean/article/80/4/699/2636499 by University of Michigan user on 07 October 2021 DIVERSIFICATION OF PHILIPPINE RODENTS 705 \u00a9 2003 The Linnean Society of London, Biological Journal of the Linnean Society, 2003, 80, 699-715",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/biolinnean/article/80/4/699/2636499 by University of Michigan user on 07 October 2021 DIVERSIFICATION OF PHILIPPINE RODENTS 707 \u00a9 2003 The Linnean Society of London, Biological Journal of the Linnean Society, 2003, 80, 699-715",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/biolinnean/article/80/4/699/2636499 by University of Michigan user on 07 October 2021 DIVERSIFICATION OF PHILIPPINE RODENTS 709 \u00a9 2003 The Linnean Society of London, Biological Journal of the Linnean Society, 2003, 80, 699-715",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/biolinnean/article/80/4/699/2636499 by University of Michigan user on 07 October 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/biolinnean/article/80/4/699/2636499 by University of Michigan user on 07 October 2021 DIVERSIFICATION OF PHILIPPINE RODENTS 713 \u00a9 2003 The Linnean Society of London, Biological Journal of the Linnean Society, 2003, 80, 699-715",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We thank L. Olson, J. Wilgenbusch, A. Thistle, and two anonymous reviwers for their suggestions and comments on earlier drafts of the manuscript. ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACKNOWLEDGEMENTS",
+                "sec_num": null
+            },
+            {
+                "text": "List of specimens sequenced. Specimen IDs are as in the figures. All species are Apomys unless otherwise noted. All localities are in the Philippines. Abbrevia-",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "APPENDIX",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Comparative phylogeography as an integrative approach to historical biogeography",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Arbogast",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Kenagy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Journal of Biogeography",
+                "volume": "28",
+                "issue": "",
+                "pages": "819--825",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Arbogast BS, Kenagy GJ. 2001. Comparative phylogeogra- phy as an integrative approach to historical biogeography. Journal of Biogeography 28: 819-825.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Phylogeography, the history and formation of species",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Avise",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Avise JC. 2000. Phylogeography, the history and formation of species. Cambridge, MA: Harvard University Press.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Pleistocene phylogeographic effects on avian populations and the speciation process. Proceedings of the",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Avise",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Walker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Royal Society of London, Series B",
+                "volume": "265",
+                "issue": "",
+                "pages": "457--463",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Avise JC, Walker D. 1998. Pleistocene phylogeographic effects on avian populations and the speciation process. Pro- ceedings of the Royal Society of London, Series B 265: 457- 463.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Branch support and tree stability",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Bremer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Cladistics",
+                "volume": "10",
+                "issue": "",
+                "pages": "295--304",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bremer K. 1994. Branch support and tree stability. Cladistics 10: 295-304.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Phylogenetic systematics of the Rana signata complex of Philippine and Bornean stream frogs: reconsideration of Huxley's modification of Wallace's Line at the Oriental-Australian faunal zone interface",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Guttman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Biological Journal of the Linnean Society",
+                "volume": "76",
+                "issue": "",
+                "pages": "393--461",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brown RM, Guttman SI. 2002. Phylogenetic systematics of the Rana signata complex of Philippine and Bornean stream frogs: reconsideration of Huxley's modification of Wallace's Line at the Oriental-Australian faunal zone interface. Bio- logical Journal of the Linnean Society 76: 393-461.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Molecular systematics of a holarctic rodent (Microtus: Muridae)",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Conroy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Cook",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Journal of Mammalogy",
+                "volume": "81",
+                "issue": "",
+                "pages": "344--359",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Conroy CJ, Cook JA. 2000. Molecular systematics of a hol- arctic rodent (Microtus: Muridae). Journal of Mammalogy 81: 344-359.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Perspective: gene divergence, population divergence, and the variance in coalescence time in phylogeographic studies",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Edwards",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Beerli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Evolution",
+                "volume": "54",
+                "issue": "",
+                "pages": "1839--1854",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Edwards SV, Beerli P. 2000. Perspective: gene diver- gence, population divergence, and the variance in coales- cence time in phylogeographic studies. Evolution 54: 1839-1854.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Spatial responses of mammals to late Quaternary environmental fluctuations",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Eriksson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Science",
+                "volume": "272",
+                "issue": "",
+                "pages": "1601--1606",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Eriksson T. 1999. AutoDecay 4.0 (program distributed by the author). Stockholm: Bergius Foundation, Royal Swedish Academy of Sciences. FAUNMAP Working Group. 1996. Spatial responses of mammals to late Quaternary environmental fluctuations. Science 272: 1601-1606.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Confidence limits on phylogenies: An approach using the bootstrap",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Felsenstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "Evolution",
+                "volume": "39",
+                "issue": "",
+                "pages": "783--791",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Felsenstein J. 1985. Confidence limits on phylogenies: An approach using the bootstrap. Evolution 39: 783-791.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Evolution of the mitochondrial cytochrome oxidase II gene in Collembola",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Fratti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Simon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sullivan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Swofford",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Journal of Molecular Evolution",
+                "volume": "44",
+                "issue": "",
+                "pages": "145--158",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fratti F, Simon C, Sullivan J, Swofford DL. 1997. Evolu- tion of the mitochondrial cytochrome oxidase II gene in Col- lembola. Journal of Molecular Evolution 44: 145-158.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Polymerase chain reaction (PCR) primers for the amplification of five nuclear introns in vertebrates",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Friesen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Congdon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Kidd",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Birt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Molecular Ecology",
+                "volume": "8",
+                "issue": "",
+                "pages": "2147--2149",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Friesen VL, Congdon BC, Kidd MG, Birt TP. 1999. Poly- merase chain reaction (PCR) primers for the amplification of five nuclear introns in vertebrates. Molecular Ecology 8: 2147-2149.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Intron variation in marbled murrelets detected using analyses of single-stranded conformational polymorphisms",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Friesen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Congdon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Walsh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Birt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Molecular Ecology",
+                "volume": "6",
+                "issue": "",
+                "pages": "1047--1058",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Friesen VL, Congdon BC, Walsh HE, Birt TP. 1997. Intron variation in marbled murrelets detected using analyses of single-stranded conformational polymorphisms. Molecular Ecology 6: 1047-1058.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Speciation in Amazonian forest birds",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Haffer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1969,
+                "venue": "Science",
+                "volume": "165",
+                "issue": "",
+                "pages": "131--137",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Haffer J. 1969. Speciation in Amazonian forest birds. Science 165: 131-137.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Alternative models of vertebrate speciation in Amazonia: An overview",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Haffer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Biodiversity and Conservation",
+                "volume": "6",
+                "issue": "",
+                "pages": "451--476",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Haffer J. 1997. Alternative models of vertebrate speciation in Amazonia: An overview. Biodiversity and Conservation 6: 451-476.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Reconstructing Cenozoic SE Asia",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Hall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Tectonic evolution in Southeast Asia",
+                "volume": "",
+                "issue": "",
+                "pages": "153--184",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hall R. 1996. Reconstructing Cenozoic SE Asia. In: Hall R, Blundell D, eds. Tectonic evolution in Southeast Asia. Lon- don: Geological Society of London, 153-184.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "The plate tectonics of Cenozoic SE Asia and the distribution of land and sea",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Hall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Biogeography and geological evolution of SE Asia. Leiden: Backhuys",
+                "volume": "",
+                "issue": "",
+                "pages": "99--132",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hall R. 1998. The plate tectonics of Cenozoic SE Asia and the distribution of land and sea. In: Hall R, Holloway JD, eds. Biogeography and geological evolution of SE Asia. Leiden: Backhuys, 99-132.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Cenozoic geological and plate tectonic evolution of SE Asia and the SW Pacific: computer-based reconstructions, model and animations",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Hall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Journal of Asian Earth Sciences",
+                "volume": "20",
+                "issue": "",
+                "pages": "353--431",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hall R. 2002. Cenozoic geological and plate tectonic evolution of SE Asia and the SW Pacific: computer-based reconstruc- tions, model and animations. Journal of Asian Earth Sci- ences 20: 353-431.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Biogeography of mammals in SE Asia: estimates of rates of colonization, extinction and speciation",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Biological Journal of the Linnean Society",
+                "volume": "28",
+                "issue": "",
+                "pages": "127--165",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Heaney LR. 1986. Biogeography of mammals in SE Asia: esti- mates of rates of colonization, extinction and speciation. Bio- logical Journal of the Linnean Society 28: 127-165.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "An analysis of patterns of distribution and species richness among Philippine fruit bats (Pteropodidae)",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Bulletin of the American Museum of Natural History",
+                "volume": "206",
+                "issue": "",
+                "pages": "145--167",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Heaney LR. 1991. An analysis of patterns of distribution and species richness among Philippine fruit bats (Pteropodidae). Bulletin of the American Museum of Natural History 206: 145-167.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "The Linnean Society of London",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Steppan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Al",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Biological Journal of the Linnean Society",
+                "volume": "80",
+                "issue": "",
+                "pages": "699--715",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "S. J. STEPPAN ET AL. \u00a9 2003 The Linnean Society of London, Biological Journal of the Linnean Society, 2003, 80, 699-715",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Dynamic disequilibrium: a long-term, large-scale perspective on the equilibrium model of island biogeography",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Global Ecology and Biogeography",
+                "volume": "9",
+                "issue": "",
+                "pages": "59--74",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Heaney LR. 2000. Dynamic disequilibrium: a long-term, large-scale perspective on the equilibrium model of island biogeography. Global Ecology and Biogeography 9: 59-74.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Small mammal diversity along elevational gradients in the Philippines: an assessment of patterns and hypotheses",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Global Ecology and Biogeography",
+                "volume": "10",
+                "issue": "",
+                "pages": "15--39",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Heaney LR. 2001. Small mammal diversity along elevational gradients in the Philippines: an assessment of patterns and hypotheses. Global Ecology and Biogeography 10: 15-39.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "A synopsis of the mammalian fauna of the Philippine Islands",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Balete",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Dolar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Alcala",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Dans",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Gonzales",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Ingle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Lepiten",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Oliver",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Rickart",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Tabaranza",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Br",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Rcb",
+                        "middle": [],
+                        "last": "Utzurrum",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Fieldiana Zoology",
+                "volume": "88",
+                "issue": "",
+                "pages": "1--61",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Heaney LR, Balete DS, Dolar L, Alcala AC, Dans A, Gonzales PC, Ingle N, Lepiten M, Oliver W, Rickart EA, Tabaranza J, BR, Utzurrum RCB. 1998. A synopsis of the mammalian fauna of the Philippine Islands. Fieldiana Zool- ogy, NS 88: 1-61.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Vanishing treasures of the Philippine rain forest",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Regaldo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "The Field Museum",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Heaney LR, Regaldo JC Jr. 1998. Vanishing treasures of the Philippine rain forest. Chicago: The Field Museum.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Correlations of clades and clines: geographic, elevational, and phylogenetic distribution patterns among Philippine mammals",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Rickart",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Vertebrates in the tropics",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Heaney LR, Rickart EA. 1990. Correlations of clades and clines: geographic, elevational, and phylogenetic distribution patterns among Philippine mammals. In: Peters G, Hutterer R, eds. Vertebrates in the tropics. Bonn: Museum Alexander Koenig.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "A preliminary analysis of biogeography and phylogeny of shrews (Mammalia: Soricidae) from the Philippine Islands",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ruedi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "The biology of shrews",
+                "volume": "",
+                "issue": "",
+                "pages": "357--377",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Heaney LR, Ruedi M. 1994. A preliminary analysis of bioge- ography and phylogeny of shrews (Mammalia: Soricidae) from the Philippine Islands. In: Merritt J, Kirkland G, Rose R, eds. The biology of shrews. Pittsburgh: Carnegie Museum, 357-377.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Foundations of biogeography",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Vermeij",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Heaney LR, Vermeij G. in press. Diversification. In: Lomolino MV, Brown JH, Sax D, eds. Foundations of bioge- ography. Chicago: University of Chicago Press.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Phylogenetic methods come of age: testing hypotheses in an evolutionary context",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Huelsenbeck",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Rannala",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Science",
+                "volume": "276",
+                "issue": "",
+                "pages": "227--232",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Huelsenbeck JP, Rannala B. 1997. Phylogenetic methods come of age: testing hypotheses in an evolutionary context. Science 276: 227-232.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Cladistic biogeography",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Humphries",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Parenti",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Humphries CJ, Parenti LR. 1986. Cladistic biogeography. Oxford: Clarendon Press.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Evolution of the cytochrome b gene of mammals",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Irwin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Kocher",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Journal of Molecular Evolution",
+                "volume": "32",
+                "issue": "",
+                "pages": "128--144",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Irwin DM, Kocher TD, Wilson AC. 1991. Evolution of the cytochrome b gene of mammals. Journal of Molecular Evo- lution 32: 128-144.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Rodent and lagomorph families of Asian origins and diversification",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Jacobs",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Downs",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "National Science Museum Monographs",
+                "volume": "",
+                "issue": "",
+                "pages": "149--156",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jacobs LL, Downs WR. 1994. The evolution of murine rodents in Asia. In: Tomida Y, Li CK, Setoguchi T, eds. Rodent and lagomorph families of Asian origins and diver- sification. Tokyo: National Science Museum Monographs, 149-156.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Evolution after the flood: Phylogeography of the desert fish Utah chub",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Johnson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Evolution",
+                "volume": "56",
+                "issue": "",
+                "pages": "948--960",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Johnson JB. 2002. Evolution after the flood: Phylogeography of the desert fish Utah chub. Evolution 56: 948-960.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Evaluation of the maximum likelihood estimate of the evolutionary tree topologies from DNA data, and the branching order in Hominoidea",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Kishino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hasegawa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Journal of Molecular Evolution",
+                "volume": "29",
+                "issue": "",
+                "pages": "170--179",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kishino H, Hasegawa M. 1989. Evaluation of the maximum likelihood estimate of the evolutionary tree topologies from DNA data, and the branching order in Hominoidea. Journal of Molecular Evolution 29: 170-179.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "A call for a new paradigm of island biogeography",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Lomolino",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Global Ecology and Biogeography",
+                "volume": "9",
+                "issue": "",
+                "pages": "1--6",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lomolino MV. 2000. A call for a new paradigm of island bio- geography. Global Ecology and Biogeography 9: 1-6.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Geographical ecology: patterns in the distribution of species",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Macarthur",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1972,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MacArthur RH. 1972. Geographical ecology: patterns in the distribution of species. New York: Harper & Rowe.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "The theory of island biogeography",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Macarthur",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1967,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MacArthur RH, Wilson EO. 1967. The theory of island bio- geography. Princeton, NJ: Princeton University Press.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Evolution of biological diversity",
+                "authors": [],
+                "year": 1999,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Magurran AE, May RM, eds. 1999. Evolution of biological diversity. Oxford: Oxford University Press.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Inferring phylogenies from mtDNA variation: mitochondrial-gene trees versus nuclear-gene trees",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Moore",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Evolution",
+                "volume": "49",
+                "issue": "",
+                "pages": "718--726",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moore WS. 1995. Inferring phylogenies from mtDNA varia- tion: mitochondrial-gene trees versus nuclear-gene trees. Evolution 49: 718-726.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Diversification of rainforest faunas: an integrated molecular approach",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Moritz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Patton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Schneider",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Annual Review of Ecology and Systematics",
+                "volume": "31",
+                "issue": "",
+                "pages": "533--563",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moritz C, Patton JL, Schneider CJ, Smith TB. 2000. Diversification of rainforest faunas: an integrated molecular approach. Annual Review of Ecology and Systematics 31: 533-563.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Results of the Archbold Expeditions, 108. The definition of Apomys, a native rat of the Philippine Islands",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Musser",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "American Museum Novitates",
+                "volume": "2746",
+                "issue": "",
+                "pages": "1--43",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Musser GG. 1982. Results of the Archbold Expeditions, 108. The definition of Apomys, a native rat of the Philippine Islands. American Museum Novitates 2746: 1-43.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Mammal species of the world: a taxonomic and geographic reference",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Musser",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Carleton",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "press. Family Muridae",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Musser GM, Carleton MD. in press. Family Muridae. In: Wilson DE, Reeder DM, eds. Mammal species of the world: a taxonomic and geographic reference, 3rd edn. Washington: Smithsonian Institution.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Philippine rodents: definitions of Tarsomys and Limnomys plus a preliminary assessment of phylogenetic patterns among native Philippine murines (Murinae, Muridae)",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Musser",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Bulletin of the American Museum of Natural History",
+                "volume": "211",
+                "issue": "",
+                "pages": "2--138",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Musser GG, Heaney LR. 1992. Philippine rodents: defini- tions of Tarsomys and Limnomys plus a preliminary assess- ment of phylogenetic patterns among native Philippine murines (Murinae, Muridae). Bulletin of the American Museum of Natural History 211: 2-138.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Speciation and its consequences",
+                "authors": [],
+                "year": 1989,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Otte D, Endler JA, eds. 1989. Speciation and its conse- quences. Sunderland, MA: Sinauer Associates.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Genetic differentiation in Philippine bats of the genera Cynopterus and Haplonycteris",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Peterson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Biological Journal of the Linnean Society",
+                "volume": "49",
+                "issue": "",
+                "pages": "203--218",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Peterson AT, Heaney LR. 1993. Genetic differentiation in Philippine bats of the genera Cynopterus and Haplonycteris. Biological Journal of the Linnean Society 49: 203-218.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Modeltest: testing the model of DNA substitution",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Posada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Crandall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Bioinformatics",
+                "volume": "14",
+                "issue": "",
+                "pages": "817--818",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Posada D, Crandall KA. 1998. Modeltest: testing the model of DNA substitution. Bioinformatics 14: 817-818.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Further studies on the chromosomes of Philippine rodents (Muridae: Murinae)",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Rickart",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Proceedings of the Biological Society of Washington",
+                "volume": "115",
+                "issue": "",
+                "pages": "473--487",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rickart EA, Heaney LR. 2002. Further studies on the chromosomes of Philippine rodents (Muridae: Murinae). Proceedings of the Biological Society of Washington 115: 473-487.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "A review of the genera Crunomys and Archboldomys (Rodentia, Muridae, Murinae) with descriptions of two new species from the Philippines",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Rickart",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Balete",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Brj",
+                        "middle": [],
+                        "last": "Tabaranza",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Fieldiana Zoology NS",
+                "volume": "89",
+                "issue": "",
+                "pages": "1--24",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rickart EA, Heaney LR, Balete DS, Tabaranza BRJ. 1998. A review of the genera Crunomys and Archboldomys (Rodentia, Muridae, Murinae) with descriptions of two new species from the Philippines. Fieldiana Zoology NS 89: 1-24.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "The distribution and ecology of mammals on Leyte, Biliran, and Maripipi islands",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Rickart",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Heideman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Rcb",
+                        "middle": [],
+                        "last": "Utzurrum",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Philippines. Fieldiana: Zoology, N S",
+                "volume": "72",
+                "issue": "",
+                "pages": "1--62",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rickart EA, Heaney LR, Heideman PD, Utzurrum RCB. 1993. The distribution and ecology of mammals on Leyte, Biliran, and Maripipi islands, Philippines. Fieldiana: Zool- ogy, N S 72: 1-62.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Nonequilibrium diversity dynamics of the Lesser Antillean avifauna",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ricklefs",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Bermingham",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Science",
+                "volume": "294",
+                "issue": "",
+                "pages": "1522--1524",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ricklefs RE, Bermingham E. 2001. Nonequilibrium diver- sity dynamics of the Lesser Antillean avifauna. Science 294: 1522-1524.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Species diversity in ecological communities: historical and geograpical perspectives",
+                "authors": [],
+                "year": 1993,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ricklefs RE, Schluter D, eds. 1993. Species diversity in eco- logical communities: historical and geograpical perspectives. Chicago: University of Chicago Press.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Molecular biogeography in the pocket mice (Perognathus and Chaetodipus) and grasshopper mice (Onychomys) -the Late Cenozoic development of a North-American aridlands rodent guild",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Riddle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Journal of Mammalogy",
+                "volume": "76",
+                "issue": "",
+                "pages": "283--301",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Riddle BR. 1995. Molecular biogeography in the pocket mice (Perognathus and Chaetodipus) and grasshopper mice (Onychomys) -the Late Cenozoic development of a North- American aridlands rodent guild. Journal of Mammalogy 76: 283-301.",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "The molecular phylogeographic bridge between deep and shallow history in continental biotas",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Riddle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Trends in Ecology and Evolution",
+                "volume": "11",
+                "issue": "",
+                "pages": "207--211",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Riddle BR. 1996. The molecular phylogeographic bridge between deep and shallow history in continental biotas. Trends in Ecology and Evolution 11: 207-211.",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Vicariance model of Caribbean biogeography",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Rosen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1975,
+                "venue": "Systematic Zoology",
+                "volume": "24",
+                "issue": "",
+                "pages": "431--464",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rosen DE. 1975. Vicariance model of Caribbean biogeogra- phy. Systematic Zoology 24: 431-464.",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "Description of a new large-bodied species of Apomys Mearns, 1905 (Mammalia, Rodentia, Muridae) From Mindoro Island",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Ruedas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Philippines. Proceedings of the Biological Society of Washington",
+                "volume": "108",
+                "issue": "",
+                "pages": "302--318",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ruedas LA. 1995. Description of a new large-bodied species of Apomys Mearns, 1905 (Mammalia, Rodentia, Muridae) From Mindoro Island, Philippines. Proceedings of the Biological Society of Washington 108: 302-318.",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "The Linnean Society of London",
+                "authors": [],
+                "year": 2003,
+                "venue": "Biological Journal of the Linnean Society",
+                "volume": "80",
+                "issue": "",
+                "pages": "699--715",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "\u00a9 2003 The Linnean Society of London, Biological Journal of the Linnean Society, 2003, 80, 699-715",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "Multiple comparisons of log-likelihoods with applications to phylogenetic inference",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Shimodaira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hasegawa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Molecular Biology and Evolution",
+                "volume": "16",
+                "issue": "",
+                "pages": "1114--1116",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shimodaira H, Hasegawa M. 1999. Multiple comparisons of log-likelihoods with applications to phylogenetic inference. Molecular Biology and Evolution 16: 1114-1116.",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "The diversification of South American murid rodents: evidence from mitochondrial DNA sequence data for the akodontine tribe",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Patton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Biological Journal of the Linnean Society",
+                "volume": "50",
+                "issue": "",
+                "pages": "149--177",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Smith MF, Patton JL. 1993. The diversification of South American murid rodents: evidence from mitochondrial DNA sequence data for the akodontine tribe. Biological Journal of the Linnean Society 50: 149-177.",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Phylogenetic relationships and the radiation of sigmodontine rodents in South America: evidence from cytochrome b",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Patton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Journal of Mammalian Evolution",
+                "volume": "6",
+                "issue": "",
+                "pages": "89--128",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Smith MF, Patton JL. 1999. Phylogenetic relationships and the radiation of sigmodontine rodents in South America: evi- dence from cytochrome b. Journal of Mammalian Evolution 6: 89-128.",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "Phylogenetic relationships and species limits within Phyllotis (Rodentia: Sigmodontinae): concordance between mtDNA sequence and morphology",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Steppan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Journal of Mammalogy",
+                "volume": "79",
+                "issue": "",
+                "pages": "573--593",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Steppan SJ. 1998. Phylogenetic relationships and species limits within Phyllotis (Rodentia: Sigmodontinae): concor- dance between mtDNA sequence and morphology. Journal of Mammalogy 79: 573-593.",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "Molecular phylogeny of the marmots (Rodentia: Sciuridae): tests of evolutionary and biogeographic hypotheses",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Steppan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Akhkverdyan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Lyapunova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Fraser",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Vorontsov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Hoffmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Braun",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Systematic Biology",
+                "volume": "48",
+                "issue": "",
+                "pages": "715--734",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Steppan SJ, Akhkverdyan MR, Lyapunova EA, Fraser DG, Vorontsov NN, Hoffmann RS, Braun MJ. 1999. Molecular phylogeny of the marmots (Rodentia: Sciuridae): tests of evolutionary and biogeographic hypotheses. System- atic Biology 48: 715-734.",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "Phylogenetic inference",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Swofford",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Olsen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Waddell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Hillis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Molecular systematics",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Swofford DL, Olsen GJ, Waddell PJ, Hillis DM. 1996. Phy- logenetic inference. In: Hillis DM, Moritz C, Mable BK, eds. Molecular systematics. Sunderland, MA: Sinauer Associates.",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "Estimation of the number of nucleotide substitutions in the control region of mitochondrial-DNA in humans and chimpanzees",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Tamura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Molecular Biology and Evolution",
+                "volume": "10",
+                "issue": "",
+                "pages": "512--526",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tamura K, Nei M. 1993. Estimation of the number of nucle- otide substitutions in the control region of mitochondrial- DNA in humans and chimpanzees. Molecular Biology and Evolution 10: 512-526.",
+                "links": null
+            },
+            "BIBREF64": {
+                "ref_id": "b64",
+                "title": "Nonparametric inference from restriction cleavage sites",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Templeton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Molecular Biology and Evolution",
+                "volume": "4",
+                "issue": "",
+                "pages": "315--319",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Templeton A. 1987. Nonparametric inference from restriction cleavage sites. Molecular Biology and Evolution 4: 315-319.",
+                "links": null
+            },
+            "BIBREF65": {
+                "ref_id": "b65",
+                "title": "Modes of speciation",
+                "authors": [
+                    {
+                        "first": "Mjd",
+                        "middle": [],
+                        "last": "White",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1978,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "White MJD. 1978. Modes of speciation. San Francisco: W. H. Freeman.",
+                "links": null
+            },
+            "BIBREF66": {
+                "ref_id": "b66",
+                "title": "Biogeography and Quaternary history in tropical America",
+                "authors": [],
+                "year": 1987,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Whitmore TC, Prance GT, eds. 1987. Biogeography and Quaternary history in tropical America. Oxford: Oxford Uni- versity Press.",
+                "links": null
+            },
+            "BIBREF67": {
+                "ref_id": "b67",
+                "title": "Island biogeography: ecology, evolution, and conservation",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Whittaker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Whittaker RJ. 1998. Island biogeography: ecology, evolution, and conservation. Oxford: Oxford University Press.",
+                "links": null
+            },
+            "BIBREF68": {
+                "ref_id": "b68",
+                "title": "Island populations",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Williamson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Williamson M. 1981. Island populations. Oxford: Oxford Uni- versity Press.",
+                "links": null
+            },
+            "BIBREF69": {
+                "ref_id": "b69",
+                "title": "Maximum likelihood phylogenetic estimation from DNA sequences with variable rates over sites: Approximate methods",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Journal of Molecular Evolution",
+                "volume": "39",
+                "issue": "",
+                "pages": "306--314",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang Z. 1994. Maximum likelihood phylogenetic estimation from DNA sequences with variable rates over sites: Approximate methods. Journal of Molecular Evolution 39: 306-314.",
+                "links": null
+            },
+            "BIBREF70": {
+                "ref_id": "b70",
+                "title": "Maximum likelihood trees from DNA sequences: a peculiar statistical problem",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Goldman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Friday",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Systematic Biology",
+                "volume": "44",
+                "issue": "",
+                "pages": "384--399",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang Z, Goldman N, Friday A. 1995. Maximum likelihood trees from DNA sequences: a peculiar statistical problem. Systematic Biology 44: 384-399.",
+                "links": null
+            },
+            "BIBREF71": {
+                "ref_id": "b71",
+                "title": "The shifting roles of dispersal and vicariance in biogeography",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Zink",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Blackwell-Rago",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Ronquist",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "tions: Cincinnati Museum of Natural History and Science",
+                "volume": "267",
+                "issue": "",
+                "pages": "497--503",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zink RM, Blackwell-Rago RC, Ronquist F. 2000. The shift- ing roles of dispersal and vicariance in biogeography. Pro- ceedings of the Royal Society of London Series B 267: 497- 503. tions: Cincinnati Museum of Natural History and Sci- ence (CMNH);",
+                "links": null
+            },
+            "BIBREF72": {
+                "ref_id": "b72",
+                "title": "Field Museum of Natural History (FMNH)",
+                "authors": [],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Field Museum of Natural History (FMNH);",
+                "links": null
+            },
+            "BIBREF73": {
+                "ref_id": "b73",
+                "title": "The collector's numbers EAR refer to uncatalogued specimens housed at FMNH and collected by Eric Rickart. Archboldomys luzonensis. EAR 1826, Luzon Is., Camarines Sur Prov., Mt. Isarog, 1350 m. Batomys granti. EAR 1822, USNM 458948, Luzon Is",
+                "authors": [],
+                "year": null,
+                "venue": "Camarines Sur Prov., Mt. Isarog, 1750 m. Chrotomys gonzalesi. USNM 458952",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "United States National Museum (USNM). The collector's numbers EAR refer to uncatalogued specimens housed at FMNH and collected by Eric Rickart. Archboldomys luzonensis. EAR 1826, Luzon Is., Camarines Sur Prov., Mt. Isarog, 1350 m. Batomys granti. EAR 1822, USNM 458948, Luzon Is., Camarines Sur Prov., Mt. Isarog, 1750 m. Chrotomys gonzalesi. USNM 458952, Luzon Is., Camarines Sur Prov., Mt. Isarog, 1350 m. Rhynchomys isarogensis. EAR1840, Luzon Is., Cama- rines Sur Prov., Mt. Isarog, 1750 m. sp. A/C. FMNH 135715, FMNH 137024, Sibuyan Is., Romblon Prov., NW slope Mt. Guitinguitin, 4.5 km S, 4 km E Magdiwang; USNM 458747, Negros Is., 3 km N, 17 km W Dumaguete, Mt. Guinsayawan, 1280 m;",
+                "links": null
+            },
+            "BIBREF74": {
+                "ref_id": "b74",
+                "title": "Camiguin Is., Mt. Timpoong, 2 km N, 6.5 km W Mahinog. sp. F. USNM 458762, Leyte Is., 10.0 km N, 4.5 km E Baybay, 950 m; EAR 1491, Biliran Is., 5 km N, 10 km E Naval, 850 m. datae. FMNH 167243, FMNH 167358, Luzon Is., Kalinga Prov., Balbalan Municipality, Balbalasang, Magdalo. gracilirostris. CMNH 646, CMNH 648, Mindoro Is., Mindoro Oriental Prov., north ridge approach to Mt. Halcon, Hanglo, 13\u00b016.8\u2032N, 121\u00b000.7\u2032E. hylocoetes. FMNH 147871, FMNH 147914, Mindano Is",
+                "authors": [],
+                "year": null,
+                "venue": "Bukidnon Prov., Mt. Katanglad Range, 18.5 km S, 4 km E Camp Phillips. microdon. FMNH 167241, FMNH 167242",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "USNM 458751, Negros Is., 3 km N, 17 km W Dum- aguete, Mt. Guinsayawan, 1470 m. sp. B. FMNH 145698, Sibuyan Is., Romblon Prov., NW slope Mt. Guitinguitin, 6.75 km S, 4.5 km E Magdi- wang; FMNH 145699, Sibuyan Is., Romblon Prov., NW slope Mt. Guitinguitin, 4.5 km S, 4 km E Magdiwang. sp. D. FMNH 154816, 154854, Camiguin Is., Mt. Tim- poong, 2 km N, 6.5 km W Mahinog. sp. F. USNM 458762, Leyte Is., 10.0 km N, 4.5 km E Baybay, 950 m; EAR 1491, Biliran Is., 5 km N, 10 km E Naval, 850 m. datae. FMNH 167243, FMNH 167358, Luzon Is., Kalinga Prov., Balbalan Municipality, Balbalasang, Magdalo. gracilirostris. CMNH 646, CMNH 648, Mindoro Is., Mindoro Oriental Prov., north ridge approach to Mt. Halcon, Hanglo, 13\u00b016.8\u2032N, 121\u00b000.7\u2032E. hylocoetes. FMNH 147871, FMNH 147914, Mindano Is., Bukidnon Prov., Mt Katanglad Range, 16.5 km S, 4 km E Camp Phillips; FMNH 148149, Mindanao Is., Bukidnon Prov., Mt. Katanglad Range, 18.5 km S, 4 km E Camp Phillips. insignis. FMNH 147911, FMNH 148160, FMNH 147915, Mindanao Is., Bukidnon Prov., Mt. Katanglad Range, 16.5 km S, 4 km E Camp Phillips; FMNH 147924, Mindanao Is., Bukidnon Prov., Mt. Katanglad Range, 18.5 km S, 4 km E Camp Phillips. microdon. FMNH 167241, FMNH 167242, Luzon Is., Kalinga Prov., Balbalan Municipality, Balbalasang, Magdalo; USNM 458907, Luzon Is., Camarines Sur Prov., Mt. Isarog, 475 m; USNM 458919, Luzon Is., Mt. Isarog, 1550 m. musculus. USNM 458913, Luzon Is., Camarines Sur Prov., Mt. Isarog, elev 1350; USNM 458925, Luzon Is., Camarines Sur Prov., Mt. Isarog, elev. 1750 m.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "type_str": "figure",
+                "text": "Map of the Philippine islands showing current islands (upper and lower case) and late Pleistocene islands (upper case). Current oceanic islands that were also unconnected to other islands during the Pleistocene are likewise indicated by upper case letters.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF1": {
+                "type_str": "figure",
+                "text": "://academic.oup.com/biolinnean/article/80/4/699/2636499 by University of Michigan user on 07 October 2021",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF2": {
+                "type_str": "figure",
+                "text": ", except in showing A. musculus as the sister group to the Apomys sp. A/C clade rather than to the larger clade including Apomys sp. B. Differences in topology among the eight mostparsimonious trees involve arrangements within just c c c c two regions, the clade of five individual A. hylocoetes and A. insignis from Mindanao, and the A. sp. A/C clade from Negros and Sibuyan islands. The two criteria also yield a different branching sequence among the outgroups (Chrotomys is the first outgroup under parsimony, Rhynchomys under likelihood), but all other relationships within Apomys are the same. Monophyly of Apomys is well supported by bootstrap values of 93-94% and a decay index of 13. The first major division in the genus was between two large-",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF3": {
+                "type_str": "figure",
+                "text": "Maximum-likelihood phylogeny for Apomys using cytochrome b. Branch lengths are proportional to expected change. Numbers above branches are bootstrap proportions (parsimony/likelihood) and numbers below are decay indices. Bootstrap values of '--' indicate that the clade was not found in the maximum-parsimony tree.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF4": {
+                "type_str": "figure",
+                "text": "Histogram of divergence estimates calculated from maximum-likelihood distances for cyt b, corrected for within-species diversity.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF5": {
+                "type_str": "figure",
+                "text": "Maximum-likelihood phylogram under the assumption of a molecular clock with key biogeographical events indicated.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF6": {
+                "type_str": "figure",
+                "text": "Hypothesis of biogeographical history of Apomys. Arrows indicate dispersal events; the dashed bar indicates the vicariant speciation event induced by rising sea levels.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF7": {
+                "type_str": "figure",
+                "text": "://academic.oup.com/biolinnean/article/80/4/699/2636499 by University of Michigan user on 07 October 2021 DIVERSIFICATION OF PHILIPPINE RODENTS 711",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF8": {
+                "type_str": "figure",
+                "text": "Estimated dates of divergence of extant clades of Apomys that appear associated with between-island dispersal regressed on the date of first emergence of the target island, as estimated from the geological record. The oldest date is for Luzon and represents the estimated divergence of the genus Apomys from Rhynchomys, Chrotomys, and Archboldomys.",
+                "num": null,
+                "uris": null
+            }
+        }
+    }
+}

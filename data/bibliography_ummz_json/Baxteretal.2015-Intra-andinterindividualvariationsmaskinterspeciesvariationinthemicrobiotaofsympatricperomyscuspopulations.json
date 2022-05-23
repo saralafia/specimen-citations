@@ -1,0 +1,4075 @@
+{
+    "paper_id": "Baxteretal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:21:21.264211Z"
+    },
+    "title": "Intra-and Interindividual Variations Mask Interspecies Variation in the Microbiota of Sympatric Peromyscus Populations",
+    "authors": [
+        {
+            "first": "Nielson",
+            "middle": [
+                "T"
+            ],
+            "last": "Baxter",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Michigan",
+                "location": {
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan",
+                    "country": "USA"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Judy",
+            "middle": [
+                "J"
+            ],
+            "last": "Wan",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Alyxandria",
+            "middle": [
+                "M"
+            ],
+            "last": "Schubert",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Michigan",
+                "location": {
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan",
+                    "country": "USA"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Matthew",
+            "middle": [
+                "L"
+            ],
+            "last": "Jenior",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Michigan",
+                "location": {
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan",
+                    "country": "USA"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Philip",
+            "middle": [],
+            "last": "Myers",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Patrick",
+            "middle": [
+                "D"
+            ],
+            "last": "Schloss",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Michigan",
+                "location": {
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan",
+                    "country": "USA"
+                }
+            },
+            "email": "pschloss@umich.edu"
+        }
+    ],
+    "year": "",
+    "abstract": "Using populations of two sympatric Peromyscus species, we characterized the importance of the host species, physiology, environment, diet, and other factors in shaping the structure and dynamics of their gut microbiota. We performed a capture-markrelease experiment in which we obtained 16S rRNA gene sequence data from 49 animals at multiple time points. In addition, we performed 18S rRNA gene sequencing of the same samples to characterize the diet of each individual. Our analysis could not distinguish between the two species of Peromyscus on the basis of the structures of their microbiotas. However, we did observe a set of bacterial populations that were found in every animal. Most notable were abundant representatives of the genera Lactobacillus and Helicobacter. When we combined the 16S and 18S rRNA gene sequence analyses, we were unable to distinguish the communities on the basis of the animal's diet. Furthermore, there were no discernible differences in the structure of the gut communities based on the capture site or their developmental or physiological status. Finally, in contrast to humans, where each individual has a unique microbiota when sampled over years, among the animals captured in this study, the uniqueness of each microbiota was lost within a week of the original sampling. Wild populations provide an opportunity to study host-microbiota interactions as they originally evolved, and the ability to perform natural experiments will facilitate a greater understanding of the factors that shape the structure and function of the gut microbiota.",
+    "pdf_parse": {
+        "paper_id": "Baxteretal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Using populations of two sympatric Peromyscus species, we characterized the importance of the host species, physiology, environment, diet, and other factors in shaping the structure and dynamics of their gut microbiota. We performed a capture-markrelease experiment in which we obtained 16S rRNA gene sequence data from 49 animals at multiple time points. In addition, we performed 18S rRNA gene sequencing of the same samples to characterize the diet of each individual. Our analysis could not distinguish between the two species of Peromyscus on the basis of the structures of their microbiotas. However, we did observe a set of bacterial populations that were found in every animal. Most notable were abundant representatives of the genera Lactobacillus and Helicobacter. When we combined the 16S and 18S rRNA gene sequence analyses, we were unable to distinguish the communities on the basis of the animal's diet. Furthermore, there were no discernible differences in the structure of the gut communities based on the capture site or their developmental or physiological status. Finally, in contrast to humans, where each individual has a unique microbiota when sampled over years, among the animals captured in this study, the uniqueness of each microbiota was lost within a week of the original sampling. Wild populations provide an opportunity to study host-microbiota interactions as they originally evolved, and the ability to perform natural experiments will facilitate a greater understanding of the factors that shape the structure and function of the gut microbiota.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "T he mechanisms that give rise to differences in the structure of communities associated with hosts are poorly understood. Among humans, it is widely accepted that the bacterial species composition within the intestines (i.e., the gut microbiota) is unique to each person and that the composition of the microbiota is the product of various factors, including the individual's genetics, diet, immune system, and behaviors (1) . The amount that each of these contributes to shaping of the microbiota is unclear. Regardless, it is apparent that individuals within a family tend to harbor a more similar microbiota than others, leading to the suggestion that a person's microbiota is obtained horizontally as it is seeded by those in the environment (e.g., parents and siblings) and shaped via selection by a common culture, environment, and diet (2) (3) (4) (5) . This process of host selection and transmission has led to the hypothesis that the structure of the human gut microbiota and animal-associated communities, in general, is the result of coevolutionary processes (6) .",
+                "cite_spans": [
+                    {
+                        "start": 422,
+                        "end": 425,
+                        "text": "(1)",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 844,
+                        "end": 847,
+                        "text": "(2)",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 848,
+                        "end": 851,
+                        "text": "(3)",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 852,
+                        "end": 855,
+                        "text": "(4)",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 856,
+                        "end": 859,
+                        "text": "(5)",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 1072,
+                        "end": 1075,
+                        "text": "(6)",
+                        "ref_id": "BIBREF5"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Given that evolutionary divergence among hosts results in differences in physiology, diet, immunity, and behavior, it is reasonable to expect host-specific signatures within their microbiota. One approach has been the reciprocal transplants of gut contents between germfree animals (e.g., zebrafish to mice, mice to zebrafish) in which the altered niche space of the host environment results in a remodeling of the inoculated community (7) (8) (9) . Another approach has been to characterize the gut microbiotas of diverse animals, largely sampled in zoos and reared on artificial diets, to show that these gut communities cluster according to broad dietary classifications (e.g., herbivore, carnivore, omnivore) (10) (11) (12) . However, both approaches represent artifactual and extreme comparisons across the evolutionary history of animals. Others have performed natural experiments of sympatric and nonsympatric populations of insects (13, 14) , primates (15) (16) (17) , and bats (18) . By studying animals within a common habitat, studies utilizing sympatric populations have shown that interin-dividual variations within a host species are greater than the variation between host species. That these studies frequently fail to find convincing concordance between host evolution and the similarity of their gut communities suggests that host genetics may have a limited role in the shaping of the microbiota.",
+                "cite_spans": [
+                    {
+                        "start": 436,
+                        "end": 439,
+                        "text": "(7)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 440,
+                        "end": 443,
+                        "text": "(8)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 444,
+                        "end": 447,
+                        "text": "(9)",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 713,
+                        "end": 717,
+                        "text": "(10)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 718,
+                        "end": 722,
+                        "text": "(11)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 723,
+                        "end": 727,
+                        "text": "(12)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 940,
+                        "end": 944,
+                        "text": "(13,",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 945,
+                        "end": 948,
+                        "text": "14)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 960,
+                        "end": 964,
+                        "text": "(15)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 965,
+                        "end": 969,
+                        "text": "(16)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 970,
+                        "end": 974,
+                        "text": "(17)",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 986,
+                        "end": 990,
+                        "text": "(18)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "A hallmark of the human gut microbiota is that the structure of an individual's gut microbiota represents a signature that is unique to that individual over periods of time spanning years (3, 19, 20) . In essence, every person has a highly individualized gut microbiota. Again, it is unclear whether this is a product of the unique genetics of each individual or differences in diet, life history, or behaviors. In contrast to humans, chimpanzees do not appear to harbor individualized gut community structures (16) . In a laboratory setting, while individual Mus musculus mice living with other mice do not harbor individualized gut community structures, littermates, cagemates, and mice from the same breeding colony or vendor still tend to have more similar microbiota than others (21) (22) (23) . Such results again suggest that nongenetic factors such as diet and life history have a more significant impact on the shaping the structure of an individual's microbiota.",
+                "cite_spans": [
+                    {
+                        "start": 188,
+                        "end": 191,
+                        "text": "(3,",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 192,
+                        "end": 195,
+                        "text": "19,",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 196,
+                        "end": 199,
+                        "text": "20)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 511,
+                        "end": 515,
+                        "text": "(16)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 784,
+                        "end": 788,
+                        "text": "(21)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 789,
+                        "end": 793,
+                        "text": "(22)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 794,
+                        "end": 798,
+                        "text": "(23)",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "We sought to evaluate these observations by using sympatric populations of Peromyscus leucopus and P. maniculatus gracilis. These species are thought to have diverged from their common ancestor approximately 500 thousand years ago (24) . Both species are widely distributed throughout North America, with P. leucopus being more commonly associated with deciduous forests and P. m. gracilis being more common in boreal forests (25) . Northern Michigan is unique because it is part of a tension zone where there is a transition between boreal and deciduous habitats. As a result, P. leucopus and P. m. gracilis are sympatric in this environment, despite occupying apparently identical niches (26) . This framework provided a unique opportunity to study the contributions of host phylogeny, environment, and other factors to the shaping of the mammalian gut microbiota. Using 16S and 18S rRNA gene sequencing, we were able to characterize the gut community structures of these animals and the composition of their diets. Furthermore, because the animals were captured live and released, we were able to characterize the change in the microbiota of the animals over the course of several months. Thus, it was possible to assess inter-and intraindividual variations in the context of interspecies differences while accounting for the diet, habitat, and physiological characteristics of the individuals.",
+                "cite_spans": [
+                    {
+                        "start": 231,
+                        "end": 235,
+                        "text": "(24)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 426,
+                        "end": 430,
+                        "text": "(25)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 690,
+                        "end": 694,
+                        "text": "(26)",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Sample collection. The samples used for this study were collected over a (27) . To sequence the 18S rRNA gene, we adapted the approach used to sequence the V4 region by using the TAReuk454FWD1 and TAReukREV3 primers, which target the V4 region of the 18S rRNA gene (28) . The 16S and 18S rRNA gene sequences were processed separately with the mothur software package (29) as described previously (27) . Briefly, paired-end reads were assembled into contigs and aligned with 16S and 18S reference sequences from the SILVA small-subunit rRNA sequence database (30) . Aligned sequences were screened for chimeras with UCHIME (31) . The actual commands used in mothur are available at http://www.mothur.org/wiki/MiSeq_SOP. To assess the error rate after curating the sequences, we included mock community samples in each sequencing run and processed these samples in parallel with the fecal samples. The observed error rate was 0.03%.",
+                "cite_spans": [
+                    {
+                        "start": 73,
+                        "end": 77,
+                        "text": "(27)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 265,
+                        "end": 269,
+                        "text": "(28)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 396,
+                        "end": 400,
+                        "text": "(27)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 558,
+                        "end": 562,
+                        "text": "(30)",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 622,
+                        "end": 626,
+                        "text": "(31)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "16S rRNA gene sequences were clustered into operational taxonomic units (OTUs) by using the average-neighbor algorithm with a 3% distance cutoff. In addition, the 16S rRNA gene sequences were classified by using a naive Bayesian classifier with a training set (version 9) made available through the Ribosomal Database Project (http://rdp.cme.msu.edu) (32) . Taxonomic assignments were made on the basis of the lowest level that provided a confidence score of at least 80%. The taxonomic assignment of each OTU was made by using the majority consensus taxonomy of each sequence affiliated with the OTU. The taxonomic assignments were also used to bin each sequence into a phylotype. To minimize the detrimental effects of uneven sampling on community metrics, all samples were subsampled or rarefied to 4,465 per sample.",
+                "cite_spans": [
+                    {
+                        "start": 351,
+                        "end": 355,
+                        "text": "(32)",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "18S rRNA gene sequences were also classified by using the naive Bayesian classifier with a training set derived from the SILVA SSU reference taxonomy database (30) . The reference taxonomy used to classify the 18S rRNA sequences was manually curated to include only eukaryotic taxa whose members would make up a meaningful portion of the host's diet. That is, only sequences mapping to metazoa, embryophyta, ascomycota, or basidiomycota were included. For practical reasons, we did not attempt to remove all of the microscopic members of these taxa; however, downstream analysis showed that microscopic members accounted for only a small portion of the total sequences. The remaining sequences, presumed to be the major constituents of the Peromyscus diet, were then assigned to phylotypes at the genus level. To minimize the detrimental effects of uneven sampling on community metrics, all samples were subsampled or rarefied to 500 sequences per sample. Because of the prevalence of host DNA in many samples, we were only able to characterize the animals' diet in 87 samples by using 18S rRNA gene sequences.",
+                "cite_spans": [
+                    {
+                        "start": 159,
+                        "end": 163,
+                        "text": "(30)",
+                        "ref_id": "BIBREF29"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "Microbial community and diet analysis. We used several community analysis tools to help analyze the abundance distributions of the bacterial OTUs and phylotypes and the diet-related phylotypes. The number of observed OTUs and Shannon diversity were calculated by rarefaction with 1,000 randomizations. Comparisons of rank-transformed \u2423-diversity metrics were performed by analysis of variance (ANOVA) accounting for the presence of repeated measures for some animals. To calculate distances between the structures of communities, we used the Yue and Clayton (33) distance metric ( YC ), which takes into account the membership and abundance of each OTU, and the weighted UniFrac distance, which takes into account the phylogenetic relationships between the populations in the communities (34) . These distances were calculated in mothur on the basis of an average of 100 randomizations. Where appropriate, results based on the YC metric are denoted with a subscript and those based on the weighted UniFrac metric are denoted with a W subscript. Tests to determine whether the communities overlapped were performed by analysis of molecular variance (AMOVA) and analysis of homogeneity of variance, again accounting for repeated measures (35, 36) . In addition, we used the Wilcoxon nonparametric test to compare the median distance of each sample with that of every other sample. Correlations between matrices were performed with the Mantel test by using 10,000 randomizations. After a single subsampling, samples were assigned to community types by using Dirichlet multinomial mixture (DMM) models based on their phylotype abundance (37) ; comparisons of DMM models generated after multiple subsamplings were not meaningfully different. To identify OTUs that were significantly different between samples, we applied two approaches to data derived from a single subsampling of the data. Again, repeated analyses with multiple subsamplings did not meaningfully affect the results. First, we used the random-forest algorithm as implemented in the randomForest R package with 10,000 trees (38) . Second, we simplified the data set by selecting those OTUs that were identified in at least half of the samples and then used a rank-transformed ANOVA that corrected for repeated measures to identify OTUs that differed significantly between the two groups. In all of the analyses, P values were corrected for multiple comparisons by using the Benjamini-Hochberg correction with an experiment-wide significance threshold of 0.05 (39) .",
+                "cite_spans": [
+                    {
+                        "start": 788,
+                        "end": 792,
+                        "text": "(34)",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1236,
+                        "end": 1240,
+                        "text": "(35,",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 1241,
+                        "end": 1244,
+                        "text": "36)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 1633,
+                        "end": 1637,
+                        "text": "(37)",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 2085,
+                        "end": 2089,
+                        "text": "(38)",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 2520,
+                        "end": 2524,
+                        "text": "(39)",
+                        "ref_id": "BIBREF39"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "Nucleotide sequence accession numbers and source code availability. The sequence data obtained in this study and the MIMARKS metadata are available through the NCBI Sequence Read Archive under accession number SRP044050 and BioProject accession number PRJNA254334. A literate programming document prepared with the knitr R package is available as a GitHub repository (https://github.com/SchlossLab/wild _mice). This document contains the source code that was used to generate results and the figures.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "Field capture of Peromyscus spp. Between 25 May and 14 July 2010, we used live traps to capture and release P. leucopus and P. m. gracilis from sites within a 400-by-400-m grid (at 20-m intervals) within Pigeon River State Forest in Cheboygan County, MI. Because animals were given ear tags at the initial capture event, we were able to document the animals that were captured multiple times. We obtained 58 fecal samples from 26 P. leucopus animals and 53 fecal samples from 23 P. m. gracilis animals. Among the samples from animals captured multiple times (n \u03ed 29 animals), the median distance between successive resampling events was 45 m (minimum \u03ed 0 m, maximum \u03ed 362 m). When we overlaid the species of Peromyscus on the sampling grid, we were unable to detect variation in the range of the mice, supporting the notion that the habitats of these mice overlapped ( Fig. 1A and B ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 869,
+                        "end": 882,
+                        "text": "Fig. 1A and B",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "Host species does not affect microbiota structure. We compared the fecal communities of the two host species to test whether the genetic differences between the two animal species would translate into differences in their microbiotas. Using a variety of statistical tests, we were unable to detect a meaningful difference between the two species. First, there was no significant difference in the richness, Shannon diversity, or phylogenetic diversity between the two species of mice ( Fig. 2A) . Second, there was not a significant difference in the community structures of the characterized microbiotas of the two species when the YC or weighted UniFrac community structure metric was used. Third, there was no significant difference in the variation of their community structure within the characterized microbiotas of the two species when either of the community structure metrics was used. Finally, when we attempted to fit the OTU abundance data to DMM models, there was no support for more than one community type. In each of these comparisons, the level of variation across mice within either species was considerable (Fig. 2B) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 486,
+                        "end": 494,
+                        "text": "Fig. 2A)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1126,
+                        "end": 1135,
+                        "text": "(Fig. 2B)",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "We observed one OTU that was significantly different between the two species. This OTU was affiliated with the unclassified members of the family Porphyromonadaceae (Fig. 2C) . Furthermore, among all of the OTUs, this one provided the greatest mean decrease in accuracy (MDA \u03ed 21.0) when we used the randomforest machine-learning algorithm to distinguish between the Peromyscus species. The two OTUs that resulted in the next greatest MDAs were associated with Prevotella and Clostridium (MDAs \u03ed 20.5 and 17.7, respectively). For the random-forest feature selection procedure, we observed an out-of-bag error rate of 33.3%, suggesting that it was not possible to use these OTUs to reliably and correctly classify the communities found in the two species of mice. Thus, there was a lack of clear support for the differentiation of specific members of the Peromyscus species' microbiotas that parallels that of the host species.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 165,
+                        "end": 174,
+                        "text": "(Fig. 2C)",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "One striking feature of the Peromyscus sp. microbial communities was the large amount of variation in the composition of their gut microbiota. We observed a total of 3,021 OTUs among all of the mice; however, the median number of OTUs observed in each mouse was 277 (95% confidence interval \u03ed 112.5 to 369.75). Across all of the OTUs, 6 were present in every sample but 23 were observed in at least 90% of the mice (Fig. 3A) . The latter set of OTUs were affiliated with 10 different taxa and represented 33.1% of the 16S rRNA gene sequences sampled from the mice (Fig. 3A) . These OTUs did not overlap the one that was identified as being significantly different between the two species of mice. We next considered the taxonomic diversity of bacterial genera. Among the 358 genera that were observed, 22 were observed in at least 90% of the mice and 12 were observed in every mouse sampled (Fig. 3B ). Those genera found in at least 90% of the mice represented 86.3% of the sequences sampled, and those found in every animal represented 78.1% of the sequences sampled. Within each animal, we identified the dominant taxa and observed that Lachnospiraceae was the dominant family in 34.7% of the mice, followed by Porphyromonadaceae (30.6%) and the genus Lactobacillus (24.5%). These results demonstrate that although there was considerable variation among the Peromyscus sp. animals that we sampled, there was a conserved taxonomic core.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 415,
+                        "end": 424,
+                        "text": "(Fig. 3A)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 564,
+                        "end": 573,
+                        "text": "(Fig. 3A)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 891,
+                        "end": 899,
+                        "text": "(Fig. 3B",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "Effects of host physiology on diversity and richness. We next tested how differences in sex, reproductive condition, and age affected the gut microbiota of the Peromyscus sp. animals. We were unable to detect a statistically significant sex-based difference in the richness, Shannon diversity, phylogenetic diversity, or community structure of the Peromyscus sp. microbiota. To investigate possible sex-based differences further, we focused on sexually mature adult males and females, which had descended testes and emerged nipples, respectively; however, we were unable to identify a sex-based effect on the richness, Shannon diversity, phylogenetic diversity, or community structure. Furthermore, none of the OTUs that appeared in at least half of the samples were differentially enriched in either sex. Stratification of the mice into the age categories of juvenile (n \u03ed 30), adolescent (n \u03ed 30), and adult (n \u03ed 51) did reveal small but significant differences in the richness and diversity between the cohorts; the observed differences in their phylogenetic diversity was not statistically significant (Fig.  4A ). The overall trend was for older mice to have a richer and more complex community. This was paralleled by a modest correlation between the animals' weight and their Shannon diversity (Spearman's \u03ed 0.31; Fig. 4B) . Although there did appear to be some effect of age on the richness and diversity of the communities, it was difficult to ascribe much biological significance to these differences, considering that the differences in overall community structure were not significantly different from each other and there were no OTUs that differed in abundance among the three age categories. Overall, by the parameters we were able to measure, we were unable to detect a robust effect of host physiology on their microbiota.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 1106,
+                        "end": 1115,
+                        "text": "(Fig.  4A",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1321,
+                        "end": 1329,
+                        "text": "Fig. 4B)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "Location of sampling was not associated with variation in microbiota. Next, we hypothesized that animals collected from the same environment would be more likely to have similar microbiotas than animals collected from different environments. For this analysis, we used the sampling coordinates to define the animals' environment ( Fig. 1) . When we performed a Mantel test to examine the association between the distance between the sampling points and the \u2424 diversity of the gut microbiotas, we failed to detect a significant association (Mantel correlation coefficient for the results for P. leucopus and P. m. gracilis, respectively. The alpha diversity of the two species was calculated on the basis of the number of observed OTUs, Shannon diversity, and phylogenetic diversity; the metrics did not differ significantly between the species of mice (A). The median YC and weighted UniFrac distances among mice within the same species and across species were large, and the difference was not significant (B). The relative abundances of two OTUs were significantly different between the two species; however, the effect of the size and relative abundance of those OTUs was small (C).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 331,
+                        "end": 338,
+                        "text": "Fig. 1)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "localized habitat effect, we compared the distances collected at the same site to those collected at different sites and again failed to detect a statistically significant effect. These results suggest the lack of a geographic or habitat-based effect on the Peromyscus sp. microbiota.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "Diet was not associated with variation in microbiota. To test the role of diet in the shaping of the Peromyscus species gut micro-biota, we characterized the dietary contents of each P. leucopus and P. m. gracilis sample by 18S rRNA sequencing. The diets of P. leucopus and P. m. gracilis consisted of plant material (e.g., seeds, nuts, fruits, and green vegetation), arthropods, and fungi, which was consistent with previous results (26) . We removed sequences outside these broad taxonomic groups to minimize the contributions of microeukaryotic members of the gut microbiota. First, we tested for a difference in diet composition based on the two species of Peromyscus. We failed to find a significant difference between the structures of the diets when using AMOVA with correction for repeated measures. Second, using the Mantel test, we failed to identify a significant association between the distances between samples based on their bacterial community structure and the distances based on the structure of their diet (M \u03ed 0.07, M W \u03ed 0.11). Both analyses suggest the lack of an association between the structures of the diet and microbiota.",
+                "cite_spans": [
+                    {
+                        "start": 434,
+                        "end": 438,
+                        "text": "(26)",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "To further characterize the relationship between diet and the microbiota, we attempted to correlate the relative abundance of OTUs that were found in more than half of the samples with the relative abundance of dietary components that appeared in more than half of the samples. We were unable to detect any statistically significant Spearman correlation coefficients. Next, we used DMM models to identify clusters within the diet data. This approach identified two clusters, a cluster of samples dominated by plant material (n \u03ed 51) and a cluster of samples with a more diverse mixture of plants, arthropods, and fungi (n \u03ed 36). When we used these clusters to test for an association within the community structure distance matrix between the microbiotas of the mice, we did not observe a significant effect of diet on community structure. We then used the random-forest algorithm to identify features in the microbiota that could distinguish the two dietary groups; however, the out-of-bag error rate was 37.9%, which indicates that it was unable to correctly classify the samples. As these analyses demonstrate, we were unable to find associations between specific members of the microbiota and the dietary contents of each sample. This confirms our observation that the weak association between the distances between the microbiota and diet structures was unlikely to be biologically relevant.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "A transient microbiota. A striking characteristic of the microbiotas characterized in this study was the high intra-and interindividual variation. Studies of other animals have observed less variation in microbiota structure within an individual over time than between individuals. We sought to determine whether nondomesticated animals also harbor personalized microbiotas. To investigate this in Peromyscus spp., we took advantage of the ability to catch and release the same animal multiple times. By the OTU-based approach, the median intraindividual distance was significantly less than the median interindividual distance (Fig.  5A) ; however, by the weighted UniFrac-based approach, the difference was not significant. To investigate this further, we calculated the number of days that elapsed between recapturing events and created five time windows such that each window had approximately the same number of mice that were recaptured within that time period (i.e., 1 , and \u054620 [n \u03ed 24] days apart). We then compared the intra-animal distances within these time periods to the interanimal distances of different mice captured within the same intervals. Surprisingly, only the mice captured between 1 and 3 days apart were more similar to themselves than to other mice (Fig. 5B) . In none of the other time windows was there a significant difference between the samples collected from the same animal and the samples collected from different animals. These results suggest that any individualization of an animal's microbiota is quickly lost.",
+                "cite_spans": [
+                    {
+                        "start": 974,
+                        "end": 975,
+                        "text": "1",
+                        "ref_id": "BIBREF0"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 628,
+                        "end": 638,
+                        "text": "(Fig.  5A)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1276,
+                        "end": 1285,
+                        "text": "(Fig. 5B)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "An ongoing question within the field of microbiota research is the degree to which host species, physiology, diet, and environment contribute to shape the structure and function of the microbiota.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "The individualized structure of the Peromyscus microbiota is transient. The median intra-animal distances between samples were significantly lower than the median interanimal distances (A). To compare the change in distance with time (B), time windows were selected so that there were approximately the same number of distances between the same animals per window. The position along the x axis was determined by the mean number of days between samples for the distances within the window and was jittered so the points for the two comparisons did not overlap; the vertical bars on the x axis indicate the boundaries of each window. The squares represent the median distance, and the lengths of the error bars reflect the 95% confidence intervals, with short lines representing the interquartile range. The asterisk indicates that intraindividual distances were significantly smaller than interindividual differences during the first 3 days of sampling.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "FIG 5",
+                "sec_num": null
+            },
+            {
+                "text": "Laboratory-and zoo-based studies are able to control for these factors; however, they do so in an artificial manner by studying the animals in artificial environments with an unnatural diet. The result is a tightly controlled experimental system that does not allow one to actually study the structure of the microbiota as it likely coevolved with its host. Here we were able to measure the effects of these sources of variation on the microbiota in the animals' actual environment by performing a natural experiment. We characterized the microbiota structures of two species of Peromyscus that had overlapping habitats and similar diets, and we were unable to identify biologically meaningful effects of any of these factors. These results support a previous field-based study of Peromyscus spp. that could not identify a significant effect of environmental contamination or habitat type on cecal diversity (40) . They also support recent studies of wild European M. musculus populations that observed that large geographical distances were the most significant factor in explaining microbiota variation and that host genetics and diet had relatively minor effects on variation (41, 42) . Other natural experiments investigating the structure of the microbiota in insects (13, 14) , primates (15) (16) (17) , and bats (18) also support our results.",
+                "cite_spans": [
+                    {
+                        "start": 908,
+                        "end": 912,
+                        "text": "(40)",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 1179,
+                        "end": 1183,
+                        "text": "(41,",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 1184,
+                        "end": 1187,
+                        "text": "42)",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 1273,
+                        "end": 1277,
+                        "text": "(13,",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 1278,
+                        "end": 1281,
+                        "text": "14)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 1293,
+                        "end": 1297,
+                        "text": "(15)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1298,
+                        "end": 1302,
+                        "text": "(16)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 1303,
+                        "end": 1307,
+                        "text": "(17)",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 1319,
+                        "end": 1323,
+                        "text": "(18)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "FIG 5",
+                "sec_num": null
+            },
+            {
+                "text": "The inability to differentiate between the two species of Peromyscus suggests that the genetic differences that have accumulated in the 500 thousand years since these species differentiated have not been sufficient to differentiate their microbiotas beyond other sources of variation. These results support previous studies of closely related animal species, including primates, bats, and insects, where it has not been possible to associate host evolutionary history with their microbiota (14) (15) (16) (17) (18) . It remains to be determined whether there is a minimum evolutionary time period required to differentiate the microbiotas of two species. We hypothesize that insufficient mutations have accumulated since host speciation to impact the boundaries of possible gut community structures for these species (43, 44) . For example, fixation of mutations affecting the immune system, diet preferences, digestion, or preferred habitat would be likely to differentiate the composition of these communities.",
+                "cite_spans": [
+                    {
+                        "start": 490,
+                        "end": 494,
+                        "text": "(14)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 495,
+                        "end": 499,
+                        "text": "(15)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 500,
+                        "end": 504,
+                        "text": "(16)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 505,
+                        "end": 509,
+                        "text": "(17)",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 510,
+                        "end": 514,
+                        "text": "(18)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 817,
+                        "end": 821,
+                        "text": "(43,",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 822,
+                        "end": 825,
+                        "text": "44)",
+                        "ref_id": "BIBREF44"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "FIG 5",
+                "sec_num": null
+            },
+            {
+                "text": "Previous studies have argued that eating a similar diet can streamline the composition of the microbiota (10, 12) . In this study, we observed two types of diets in the mice-one dominated by plant material and one that was a mixture of plants, arthropods, and fungi. That we were unable to identify a Peromyscus sp. preference or distinguish between the microbiotas of animals consuming the two diet types indicates that the two species shared a niche and that their diets did not have a major impact on the variation in the observed community structures. This result is not unlike what is observed in humans, where there are immediate shifts in the gut microbiota with an abrupt change in diet; however, the microbiotas of different people do not converge to a common structure (45) .",
+                "cite_spans": [
+                    {
+                        "start": 105,
+                        "end": 109,
+                        "text": "(10,",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 110,
+                        "end": 113,
+                        "text": "12)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 779,
+                        "end": 783,
+                        "text": "(45)",
+                        "ref_id": "BIBREF45"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "FIG 5",
+                "sec_num": null
+            },
+            {
+                "text": "One distinct difference between the microbiotas of humans and the animals we characterized is the lack of individualized microbiotas. Similar results have been observed in wild populations of primates (16) . Although the Peromyscus mice we sampled did show signs of individualization of the samples collected within a week of each other, this signal was lost over longer periods of time. The contrast between the individuality of human microbiotas and the lack of individuality in wild populations suggests that there are behavioral or cultural factors (e.g., hygiene, segregated families) that drive individualization. A better understanding of the pro-cesses that maintain or reduce individualization will help in designing microbiota-focused therapies for humans.",
+                "cite_spans": [
+                    {
+                        "start": 201,
+                        "end": 205,
+                        "text": "(16)",
+                        "ref_id": "BIBREF15"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "FIG 5",
+                "sec_num": null
+            },
+            {
+                "text": "A product of the individuality observed in humans is the lack of any OTUs that are conserved across all people (3) . In spite of the significant variation among animals in this study, there was strong evidence of a core set of taxa that were observed across all of the animals in this study (Fig. 3) . At the genus and OTU levels, there were many taxa present that are commonly found in laboratory populations of M. musculus. Most striking, however, was the presence of multiple different OTUs affiliated with Lactobacillus in every animal we sampled. Furthermore, these populations were among the most abundant populations in the Peromyscus gut microbiota (median \u03ed 11.2%, range \u03ed 3.0 to 93.0%). Although Lactobacillus populations are commonly observed in M. musculus, they tend to be rare (e.g., \u03fd3%) (23) . It was also interesting that nearly all of the animals we captured harbored OTUs affiliated with Helicobacter, which is commonly associated with colitis in immunodeficient mice (46) . Our result confirms the assertion that Helicobacter bacteria are normal symbionts of rodents that can be commensals or pathogens in different contexts. Although Peromyscus and Mus are distantly related, these stark differences in gut community composition suggest the need for further exploration of the natural Mus microbiota and immune system (47) .",
+                "cite_spans": [
+                    {
+                        "start": 111,
+                        "end": 114,
+                        "text": "(3)",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 803,
+                        "end": 807,
+                        "text": "(23)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 987,
+                        "end": 991,
+                        "text": "(46)",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 1339,
+                        "end": 1343,
+                        "text": "(47)",
+                        "ref_id": "BIBREF47"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 291,
+                        "end": 299,
+                        "text": "(Fig. 3)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "FIG 5",
+                "sec_num": null
+            },
+            {
+                "text": "Natural experiments with wild animals provide a unique opportunity to study host-microbiota relationships that are not affected by artifacts introduced into domesticated animals. Our ability to leverage a capture-mark-release design with sympatric populations afforded us the ability to study animals living in the same natural habitat that were consuming similar diets. Exploration of the microbiota of natural animal populations will help us to better understand the factors that define the human microbiota and, more importantly, what makes the microbiota of each individual so unique.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "FIG 5",
+                "sec_num": null
+            },
+            {
+                "text": "January 2015 Volume 81 Number 1 Applied and Environmental Microbiology Downloaded from https://journals.asm.org/journal/aem on 07 October 2021 by 35.7.39.109.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://journals.asm.org/journal/aem on 07 October 2021 by 35.7.39.109.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "aem.asm.org January 2015 Volume 81 Number 1 Applied and Environmental Microbiology Downloaded from https://journals.asm.org/journal/aem on 07 October 2021 by 35.7.39.109.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Variation in the Peromyscus Microbiota January 2015 Volume 81 Number 1 aem.asm.org 401 Applied and Environmental Microbiology Downloaded from https://journals.asm.org/journal/aem on 07 October 2021 by 35.7.39.109.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "This work was supported by grants from the National Institutes for Health to P.D.S. (R01GM099514, R01HG005975, and P30DK034933) and a graduate research fellowship from the National Science Foundation to N.T.B.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACKNOWLEDGMENTS",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "The human microbiome project",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Turnbaugh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hamady",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Fraser-Liggett",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Knight",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Gordon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Nature",
+                "volume": "449",
+                "issue": "",
+                "pages": "804--810",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nature06244"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Turnbaugh PJ, Ley RE, Hamady M, Fraser-Liggett CM, Knight R, Gordon JI. 2007. The human microbiome project. Nature 449:804 -810. http://dx.doi.org/10.1038/nature06244.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Human gut microbiome viewed across age and geography",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Yatsunenko",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Rey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Manary",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Trehan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Dominguez-Bello",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Contreras",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Magris",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Hidalgo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Baldassano",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Anokhin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Heath",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Warner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Reeder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Kuczynski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Caporaso",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Lozupone",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Lauber",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Clemente",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Knights",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Knight",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Gordon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Nature",
+                "volume": "486",
+                "issue": "",
+                "pages": "222--227",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nature11053"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Yatsunenko T, Rey FE, Manary MJ, Trehan I, Dominguez-Bello MG, Contreras M, Magris M, Hidalgo G, Baldassano RN, Anokhin AP, Heath AC, Warner B, Reeder J, Kuczynski J, Caporaso JG, Lozupone CA, Lauber C, Clemente JC, Knights D, Knight R, Gordon JI. 2012. Human gut microbiome viewed across age and geography. Nature 486: 222-227. http://dx.doi.org/10.1038/nature11053.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "A core gut microbiome in obese and lean twins",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Turnbaugh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hamady",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Yatsunenko",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Cantarel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Duncan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Sogin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Roe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Affourtit",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Egholm",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Henrissat",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Heath",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Knight",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Gordon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Nature",
+                "volume": "457",
+                "issue": "",
+                "pages": "480--484",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nature07540"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Turnbaugh PJ, Hamady M, Yatsunenko T, Cantarel BL, Duncan A, Ley RE, Sogin ML, Jones WJ, Roe BA, Affourtit JP, Egholm M, Henrissat B, Heath AC, Knight R, Gordon JI. 2009. A core gut microbiome in obese and lean twins. Nature 457:480 -484. http://dx .doi.org/10.1038/nature07540.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "The dynamics of a family's gut microbiota reveal variations on a theme",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Schloss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Iverson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Petrosino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Schloss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "",
+                "volume": "2",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1186/2049-2618-2-25"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Schloss PD, Iverson KD, Petrosino JF, Schloss SJ. 2014. The dynamics of a family's gut microbiota reveal variations on a theme. Microbiome 2:25 http://dx.doi.org/10.1186/2049-2618-2-25.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Succession of microbial consortia in the developing infant gut microbiome",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Koenig",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Spor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Scalfone",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Fricker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Stombaugh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Knight",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Angenent",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Proc Natl Acad Sci U S A",
+                "volume": "108",
+                "issue": "1",
+                "pages": "4578--4585",
+                "other_ids": {
+                    "DOI": [
+                        "10.1073/pnas.1000081107"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Koenig JE, Spor A, Scalfone N, Fricker AD, Stombaugh J, Knight R, Angenent LT, Ley RE. 2011. Succession of microbial consortia in the developing infant gut microbiome. Proc Natl Acad Sci U S A 108(Suppl 1):S4578 -S4585. http://dx.doi.org/10.1073/pnas.1000081107.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "The hologenome theory of evolution contains Lamarckian aspects within a Darwinian framework",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Rosenberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Sharon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Zilber-Rosenberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Environ Microbiol",
+                "volume": "11",
+                "issue": "",
+                "pages": "2959--2962",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1462-2920.2009.01995.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Rosenberg E, Sharon G, Zilber-Rosenberg I. 2009. The hologenome theory of evolution contains Lamarckian aspects within a Darwinian framework. Environ Microbiol 11:2959 -2962. http://dx.doi.org/10.1111 /j.1462-2920.2009.01995.x.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Reciprocal gut microbiota transplants from zebrafish and mice to germ-free recipients reveal host habitat selection",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Rawls",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Mahowald",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Gordon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Cell",
+                "volume": "127",
+                "issue": "",
+                "pages": "423--433",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.cell.2006.08.043"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Rawls JF, Mahowald MA, Ley RE, Gordon JI. 2006. Reciprocal gut microbiota transplants from zebrafish and mice to germ-free recipients reveal host habitat selection. Cell 127:423-433. http://dx.doi.org/10.1016 /j.cell.2006.08.043.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "The effect of diet on the human gut microbiome: a metagenomic analysis in humanized gnotobiotic mice",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Turnbaugh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Ridaura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Faith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Rey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Knight",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Gordon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Sci Transl Med",
+                "volume": "1",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/scitranslmed.3000322"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Turnbaugh PJ, Ridaura VK, Faith JJ, Rey FE, Knight R, Gordon JI. 2009. The effect of diet on the human gut microbiome: a metagenomic analysis in humanized gnotobiotic mice. Sci Transl Med 1:6ra14. http://dx .doi.org/10.1126/scitranslmed.3000322.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Long-term stability of the human gut microbiota in two different rat strains",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Alpert",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Sczesny",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Gruhl",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Blaut",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Curr Issues Mol Biol",
+                "volume": "10",
+                "issue": "",
+                "pages": "17--24",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Alpert C, Sczesny S, Gruhl B, Blaut M. 2008. Long-term stability of the human gut microbiota in two different rat strains. Curr Issues Mol Biol 10:17-24.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Diet drives convergence in gut microbiome functions across mammalian phylogeny and within humans",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Muegge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Kuczynski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Knights",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Clemente",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Gonzalez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Fontana",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Henrissat",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Knight",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Gordon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Science",
+                "volume": "332",
+                "issue": "",
+                "pages": "970--974",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/science.1198719"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Muegge BD, Kuczynski J, Knights D, Clemente JC, Gonzalez A, Fon- tana L, Henrissat B, Knight R, Gordon JI. 2011. Diet drives convergence in gut microbiome functions across mammalian phylogeny and within humans. Science 332:970 -974. http://dx.doi.org/10.1126/science .1198719.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Worlds within worlds: evolution of the vertebrate gut microbiota",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Lozupone",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hamady",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Knight",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Gordon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Nat Rev Microbiol",
+                "volume": "6",
+                "issue": "",
+                "pages": "776--788",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nrmicro1978"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ley RE, Lozupone CA, Hamady M, Knight R, Gordon JI. 2008. Worlds within worlds: evolution of the vertebrate gut microbiota. Nat Rev Micro- biol 6:776 -788. http://dx.doi.org/10.1038/nrmicro1978.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Evolution of mammals and their gut microbes",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hamady",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Lozupone",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Turnbaugh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Ramey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J S",
+                        "middle": [],
+                        "last": "Bircher",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Schlegel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Tucker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Schrenzel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Knight",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Gordon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Science",
+                "volume": "320",
+                "issue": "",
+                "pages": "1647--1651",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/science.1155725"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ley RE, Hamady M, Lozupone C, Turnbaugh PJ, Ramey RR, Bircher J S, Schlegel ML, Tucker TA, Schrenzel MD, Knight R, Gordon JI. 2008. Evolution of mammals and their gut microbes. Science 320:1647-1651. http://dx.doi.org/10.1126/science.1155725.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Stability and phylogenetic correlation in gut microbiota: lessons from ants and apes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Sanders",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Powell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Kronauer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Vasconcelos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Frederickson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Pierce",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Mol Ecol",
+                "volume": "23",
+                "issue": "",
+                "pages": "1268--1283",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/mec.12611"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Sanders JG, Powell S, Kronauer DJ, Vasconcelos HL, Frederickson ME, Pierce NE. 2014. Stability and phylogenetic correlation in gut microbiota: lessons from ants and apes. Mol Ecol 23:1268 -1283. http://dx.doi.org/10 .1111/mec.12611.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "The inconstant gut microbiota of Drosophila species revealed by 16S rRNA gene analysis",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Wong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Chaston",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Douglas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "ISME J",
+                "volume": "7",
+                "issue": "",
+                "pages": "1922--1932",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/ismej.2013.86"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Wong AC, Chaston JM, Douglas AE. 2013. The inconstant gut micro- biota of Drosophila species revealed by 16S rRNA gene analysis. ISME J 7:1922-1932. http://dx.doi.org/10.1038/ismej.2013.86.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Sympatric chimpanzees and gorillas harbor convergent gut microbial communities",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Moeller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Peeters",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ndjango",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Hahn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Ochman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Genome Res",
+                "volume": "23",
+                "issue": "",
+                "pages": "1715--1720",
+                "other_ids": {
+                    "DOI": [
+                        "10.1101/gr.154773.113"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Moeller AH, Peeters M, Ndjango JB, Li Y, Hahn BH, Ochman H. 2013. Sympatric chimpanzees and gorillas harbor convergent gut microbial communities. Genome Res 23:1715-1720. http://dx.doi.org/10.1101/gr .154773.113.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Factors associated with the diversification of the gut microbial communities within chimpanzees from Gombe National Park",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Degnan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Pusey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Lonsdorf",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Goodall",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Wroblewski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Rudicell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Hahn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Ochman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Proc Natl Acad Sci U S A",
+                "volume": "109",
+                "issue": "",
+                "pages": "13034--13039",
+                "other_ids": {
+                    "DOI": [
+                        "10.1073/pnas.1110994109"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Degnan PH, Pusey AE, Lonsdorf EV, Goodall J, Wroblewski EE, Wilson ML, Rudicell RS, Hahn BH, Ochman H. 2012. Factors associated with the diversification of the gut microbial communities within chimpanzees from Gombe National Park. Proc Natl Acad Sci U S A 109:13034 -13039. http://dx.doi.org/10.1073/pnas.1110994109.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Evolutionary relationships of wild hominids recapitulated by gut microbial communities",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Ochman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Worobey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Kuo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ndjango",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Peeters",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Hahn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Hugenholtz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "PLoS Biol",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pbio.1000546"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ochman H, Worobey M, Kuo CH, Ndjango JB, Peeters M, Hahn BH, Hugenholtz P. 2010. Evolutionary relationships of wild hominids reca- pitulated by gut microbial communities. PLoS Biol 8:e1000546. http://dx .doi.org/10.1371/journal.pbio.1000546.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Microbiome analysis among bats describes influences of host phylogeny, life history, physiology and geography",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Phillips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Phelan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Dowd",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Mcdonough",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Ferguson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Hanson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Siles",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Ordonez-Garza",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "San",
+                        "middle": [],
+                        "last": "Francisco",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Baker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Mol Ecol",
+                "volume": "21",
+                "issue": "",
+                "pages": "2617--2627",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-294X.2012.05568.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Phillips CD, Phelan G, Dowd SE, McDonough MM, Ferguson AW, Hanson JD, Siles L, Ordonez-Garza N, San Francisco M, Baker RJ. 2012. Microbiome analysis among bats describes influences of host phy- logeny, life history, physiology and geography. Mol Ecol 21:2617-2627. http://dx.doi.org/10.1111/j.1365-294X.2012.05568.x.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Bacterial community variation in human body habitats across space and time",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Costello",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lauber",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hamady",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Fierer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Gordon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Knight",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Science",
+                "volume": "326",
+                "issue": "",
+                "pages": "1694--1697",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/science.1177486"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Costello EK, Lauber CL, Hamady M, Fierer N, Gordon JI, Knight R. 2009. Bacterial community variation in human body habitats across space and time. Science 326:1694 -1697. http://dx.doi.org/10.1126 /science.1177486.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "The long-term stability of the human gut microbiota",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Faith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Guruge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Charbonneau",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Subramanian",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Seedorf",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Goodman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Clemente",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Knight",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Heath",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Leibel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Rosenbaum",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Gordon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Science",
+                "volume": "341",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/science.1237439"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Faith JJ, Guruge JL, Charbonneau M, Subramanian S, Seedorf H, Good- man AL, Clemente JC, Knight R, Heath AC, Leibel RL, Rosenbaum M, Gordon JI. 2013. The long-term stability of the human gut microbiota. Sci- ence 341:1237439. http://dx.doi.org/10.1126/science.1237439.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Obesity alters gut microbial ecology",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Backhed",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Turnbaugh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Lozupone",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Knight",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Gordon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Proc Natl Acad Sci U S A",
+                "volume": "102",
+                "issue": "",
+                "pages": "11070--11075",
+                "other_ids": {
+                    "DOI": [
+                        "10.1073/pnas.0504978102"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ley RE, Backhed F, Turnbaugh P, Lozupone CA, Knight RD, Gordon JI. 2005. Obesity alters gut microbial ecology. Proc Natl Acad Sci U S A 102:11070 -11075. http://dx.doi.org/10.1073/pnas.0504978102.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Specific microbiota direct the differentiation of IL-17-producing T-helper cells in the mucosa of the small intestine",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Ivanov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "De Llanos Frutos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Manel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Yoshinaga",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Rifkin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Sartor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Finlay",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Littman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Cell Host Microbe",
+                "volume": "4",
+                "issue": "",
+                "pages": "337--349",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.chom.2008.09.009"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ivanov II, de Llanos Frutos R, Manel N, Yoshinaga K, Rifkin DB, Sartor RB, Finlay BB, Littman DR. 2008. Specific microbiota direct the differ- entiation of IL-17-producing T-helper cells in the mucosa of the small intestine. Cell Host Microbe 4:337-349. http://dx.doi.org/10.1016/j.chom .2008.09.009.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Stabilization of the murine gut microbiome following weaning",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Schloss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schubert",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Zackular",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Iverson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Young",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Petrosino",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Gut Microbes",
+                "volume": "3",
+                "issue": "",
+                "pages": "383--393",
+                "other_ids": {
+                    "DOI": [
+                        "10.4161/gmic.21008"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Schloss PD, Schubert AM, Zackular JP, Iverson KD, Young VB, Petrosino JF. 2012. Stabilization of the murine gut microbiome fol- lowing weaning. Gut Microbes 3:383-393. http://dx.doi.org/10.4161 /gmic.21008.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Biology of Peromyscus (Rodentia)",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Hibbard",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1968,
+                "venue": "Paleontology",
+                "volume": "",
+                "issue": "",
+                "pages": "6--24",
+                "other_ids": {
+                    "DOI": [
+                        "10.5962/bhl.title.39510"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hibbard CW. 1968. Paleontology, p 6-24. In King JA (ed), Biology of Peromyscus (Rodentia). American Society of Mammalogists, Stillwater, OK. http://dx.doi.org/10.5962/bhl.title.39510.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Climate-induced changes in the small mammal communities of the Northern Great Lakes Region",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Myers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lundrigan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Smg",
+                        "middle": [],
+                        "last": "Hoffman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Haraminac",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Seto",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Glob Change Biol",
+                "volume": "15",
+                "issue": "",
+                "pages": "1434--1454",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-2486.2009.01846.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Myers P, Lundrigan BL, Hoffman SMG, Haraminac AP, Seto SH. 2009. Climate-induced changes in the small mammal communities of the Northern Great Lakes Region. Glob Change Biol 15:1434 -1454. http://dx .doi.org/10.1111/j.1365-2486.2009.01846.x.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Food-habits of sympatric Peromyscus leucopus and Peromyscus maniculatus",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Wolff",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Dueser",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Berry",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "J Mammal",
+                "volume": "66",
+                "issue": "",
+                "pages": "795--798",
+                "other_ids": {
+                    "DOI": [
+                        "10.2307/1380812"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Wolff JO, Dueser RD, Berry KS. 1985. Food-habits of sympatric Pero- myscus leucopus and Peromyscus maniculatus. J Mammal 66:795-798. http: //dx.doi.org/10.2307/1380812.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Development of a dual-index sequencing strategy and curation pipeline for analyzing amplicon sequence data on the MiSeq Illumina sequencing platform",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Kozich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Westcott",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Baxter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Highlander",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Schloss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Appl Environ Microbiol",
+                "volume": "79",
+                "issue": "",
+                "pages": "5112--5120",
+                "other_ids": {
+                    "DOI": [
+                        "10.1128/AEM.01043-13"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Kozich JJ, Westcott SL, Baxter NT, Highlander SK, Schloss PD. 2013. Development of a dual-index sequencing strategy and curation pipeline for analyzing amplicon sequence data on the MiSeq Illumina sequencing platform. Appl Environ Microbiol 79:5112-5120. http://dx.doi.org/10 .1128/AEM.01043-13.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Multiple marker parallel tag environmental DNA sequencing reveals a highly complex eukaryotic community in marine anoxic water",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Stoeck",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Bass",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nebel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Christen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Breiner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Richards",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mol Ecol",
+                "volume": "19",
+                "issue": "1",
+                "pages": "21--31",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-294X.2009.04480.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Stoeck T, Bass D, Nebel M, Christen R, Jones MD, Breiner HW, Richards TA. 2010. Multiple marker parallel tag environmental DNA sequencing reveals a highly complex eukaryotic community in marine anoxic water. Mol Ecol 19(Suppl 1):S21-S31. http://dx.doi.org/10.1111/j .1365-294X.2009.04480.x.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Schloss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Westcott",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Ryabin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Hall",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hartmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Hollister",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Lesniewski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Oakley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Parks",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Robinson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Sahl",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Stres",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Thallinger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Van Horn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Weber",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Appl Environ Microbiol",
+                "volume": "75",
+                "issue": "",
+                "pages": "7537--7541",
+                "other_ids": {
+                    "DOI": [
+                        "10.1128/AEM.01541-09"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Schloss PD, Westcott SL, Ryabin T, Hall JR, Hartmann M, Hollister EB, Lesniewski RA, Oakley BB, Parks DH, Robinson CJ, Sahl JW, Stres B, Thallinger GG, Van Horn DJ, Weber CF. 2009. Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Micro- biol 75:7537-7541. http://dx.doi.org/10.1128/AEM.01541-09.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "SILVA: a comprehensive online resource for quality checked and aligned ribosomal RNA sequence data compatible with ARB",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Pruesse",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Quast",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Knittel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Fuchs",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Ludwig",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Peplies",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Glockner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Nucleic Acids Res",
+                "volume": "35",
+                "issue": "",
+                "pages": "7188--7196",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/nar/gkm864"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Pruesse E, Quast C, Knittel K, Fuchs BM, Ludwig W, Peplies J, Glock- ner FO. 2007. SILVA: a comprehensive online resource for quality checked and aligned ribosomal RNA sequence data compatible with ARB. Nucleic Acids Res 35:7188 -7196. http://dx.doi.org/10.1093/nar/gkm864.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "UCHIME improves sensitivity and speed of chimera detection",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Edgar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Haas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Clemente",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Quince",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Knight",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Bioinformatics",
+                "volume": "27",
+                "issue": "",
+                "pages": "2194--2200",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/bioinformatics/btr381"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Edgar RC, Haas BJ, Clemente JC, Quince C, Knight R. 2011. UCHIME improves sensitivity and speed of chimera detection. Bioinformatics 27: 2194 -2200. http://dx.doi.org/10.1093/bioinformatics/btr381.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Naive Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy",
+                "authors": [
+                    {
+                        "first": "Q",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Garrity",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Tiedje",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Cole",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wang Q, Garrity GM, Tiedje JM, Cole JR. 2007. Naive Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "A similarity measure based on species proportions",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Yue",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Clayton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Commun Stat Theory Methods",
+                "volume": "34",
+                "issue": "",
+                "pages": "2123--2131",
+                "other_ids": {
+                    "DOI": [
+                        "10.1080/STA-200066418"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Yue JC, Clayton MK. 2005. A similarity measure based on species pro- portions. Commun Stat Theory Methods 34:2123-2131. http://dx.doi.org /10.1080/STA-200066418.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Quantitative and qualitative beta diversity measures lead to different insights into factors that structure microbial communities",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Lozupone",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hamady",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Kelley",
+                        "middle": [],
+                        "last": "St",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Knight",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Appl Environ Microbiol",
+                "volume": "73",
+                "issue": "",
+                "pages": "1576--1585",
+                "other_ids": {
+                    "DOI": [
+                        "10.1128/AEM.01996-06"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Lozupone CA, Hamady M, Kelley ST, Knight R. 2007. Quantitative and qualitative beta diversity measures lead to different insights into factors that structure microbial communities. Appl Environ Microbiol 73:1576 - 1585. http://dx.doi.org/10.1128/AEM.01996-06.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "A new method for non-parametric multivariate analysis of variance",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Austral Ecol",
+                "volume": "26",
+                "issue": "",
+                "pages": "32--46",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1442-9993.2001.01070.pp.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Anderson MJ. 2001. A new method for non-parametric multivariate anal- ysis of variance. Austral Ecol 26:32-46. http://dx.doi.org/10.1111/j.1442 -9993.2001.01070.pp.x.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Evaluating different approaches that test whether microbial communities have the same structure",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Schloss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "ISME J",
+                "volume": "2",
+                "issue": "",
+                "pages": "265--275",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/ismej.2008.5"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Schloss PD. 2008. Evaluating different approaches that test whether mi- crobial communities have the same structure. ISME J 2:265-275. http://dx .doi.org/10.1038/ismej.2008.5.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Dirichlet multinomial mixtures: generative models for microbial metagenomics",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Holmes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Harris",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Quince",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "PLoS One",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pone.0030126"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Holmes I, Harris K, Quince C. 2012. Dirichlet multinomial mixtures: generative models for microbial metagenomics. PLoS One 7:e30126. http: //dx.doi.org/10.1371/journal.pone.0030126.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Random forests",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Breiman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Mach Learn Int Conf Mach Learn",
+                "volume": "45",
+                "issue": "",
+                "pages": "5--32",
+                "other_ids": {
+                    "DOI": [
+                        "10.1023/A:1010933404324"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Breiman L. 2001. Random forests. Mach Learn Int Conf Mach Learn 45:5-32. http://dx.doi.org/10.1023/A:1010933404324.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Controlling the false discovery rate-a practical and powerful approach to multiple testing",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Benjamini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Hochberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "J R Stat Soc Series B Stat Methodol",
+                "volume": "57",
+                "issue": "",
+                "pages": "289--300",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Benjamini Y, Hochberg Y. 1995. Controlling the false discovery rate-a practical and powerful approach to multiple testing. J R Stat Soc Series B Stat Methodol 57:289 -300.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Microbial ecological response of the intestinal flora of Peromyscus maniculatus and P. leucopus to heavy metal contamination",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Coolon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Narayanan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Wisely",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mol Ecol",
+                "volume": "19",
+                "issue": "1",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-294X.2009.04485.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Coolon JD, Jones KL, Narayanan S, Wisely SM. 2010. Microbial eco- logical response of the intestinal flora of Peromyscus maniculatus and P. leucopus to heavy metal contamination. Mol Ecol 19(Suppl 1):S67-S80. http://dx.doi.org/10.1111/j.1365-294X.2009.04485.x.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Dietary history contributes to enterotype-like clustering and functional metagenomic content in the intestinal microbiome of wild mice",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Linnenbrink",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kunzel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Fernandes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Nadeau",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Rosenstiel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Baines",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Proc Natl Acad Sci U S A",
+                "volume": "111",
+                "issue": "",
+                "pages": "2703--2713",
+                "other_ids": {
+                    "DOI": [
+                        "10.1073/pnas.1402342111"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Wang J, Linnenbrink M, Kunzel S, Fernandes R, Nadeau MJ, Rosenstiel P, Baines JF. 2014. Dietary history contributes to enterotype-like cluster- ing and functional metagenomic content in the intestinal microbiome of wild mice. Proc Natl Acad Sci U S A 111:E2703-10. http://dx.doi.org/10 .1073/pnas.1402342111.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "The role of biogeography in shaping diversity of the intestinal microbiota in house mice",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Linnenbrink",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hardouin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kunzel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Metzler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Baines",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Mol Ecol",
+                "volume": "22",
+                "issue": "",
+                "pages": "1904--1916",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/mec.12206"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Linnenbrink M, Wang J, Hardouin EA, Kunzel S, Metzler D, Baines JF. 2013. The role of biogeography in shaping diversity of the intestinal mi- crobiota in house mice. Mol Ecol 22:1904 -1916. http://dx.doi.org/10 .1111/mec.12206.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Individuality in gut microbiota composition is a complex polygenic trait shaped by multiple environmental and host genetic factors",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Benson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kelly",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Legge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Ma",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Low",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Kim",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Oh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Nehrenberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Hua",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Kachman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Moriyama",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Walter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Peterson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Pomp",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Proc Natl Acad Sci U S A",
+                "volume": "107",
+                "issue": "",
+                "pages": "18933--18938",
+                "other_ids": {
+                    "DOI": [
+                        "10.1073/pnas.1007028107"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Benson AK, Kelly SA, Legge R, Ma F, Low SJ, Kim J, Zhang M, Oh PL, Nehrenberg D, Hua K, Kachman SD, Moriyama EN, Walter J, Peterson DA, Pomp D. 2010. Individuality in gut microbiota composition is a complex polygenic trait shaped by multiple environmental and host ge- netic factors. Proc Natl Acad Sci U S A 107:18933-18938. http://dx.doi.org /10.1073/pnas.1007028107.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Factors that drive variation among gut microbial communities",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Moeller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Ochman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Gut Microbes",
+                "volume": "4",
+                "issue": "",
+                "pages": "403--408",
+                "other_ids": {
+                    "DOI": [
+                        "10.4161/gmic.26039"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Moeller AH, Ochman H. 2013. Factors that drive variation among gut microbial communities. Gut Microbes 4:403-408. http://dx.doi.org/10 .4161/gmic.26039.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Diet rapidly and reproducibly alters the human gut microbiome",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "David",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Maurice",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Carmody",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Gootenberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Button",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Wolfe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Ling",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Devlin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Varma",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Fischbach",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Biddinger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Dutton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Turnbaugh",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Nature",
+                "volume": "505",
+                "issue": "",
+                "pages": "559--563",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nature12820"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "David LA, Maurice CF, Carmody RN, Gootenberg DB, Button JE, Wolfe BE, Ling AV, Devlin AS, Varma Y, Fischbach MA, Biddinger SB, Dutton RJ, Turnbaugh PJ. 2014. Diet rapidly and reproducibly alters the human gut microbiome. Nature 505:559 -563. http://dx.doi.org/10.1038 /nature12820.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Helicobacter hepaticus triggers colitis in specific-pathogen-free interleukin-10 (IL-10)-deficient mice through an IL-12-and gamma interferon-dependent mechanism",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Kullberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Ward",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Gorelick",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Caspar",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Hieny",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Cheever",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Jankovic",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Sher",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Infect Immun",
+                "volume": "66",
+                "issue": "",
+                "pages": "5157--5166",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kullberg MC, Ward JM, Gorelick PL, Caspar P, Hieny S, Cheever A, Jankovic D, Sher A. 1998. Helicobacter hepaticus triggers colitis in specif- ic-pathogen-free interleukin-10 (IL-10)-deficient mice through an IL-12- and gamma interferon-dependent mechanism. Infect Immun 66:5157- 5166.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Gut immune maturation depends on colonization with a host-specific microbiota",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Chung",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Pamp",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J A",
+                        "middle": [],
+                        "last": "Hill",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Surana",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Edelman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Troy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Reading",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Villablanca",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Mora",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Umesaki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Mathis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Benoist",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Relman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Kasper",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Cell",
+                "volume": "149",
+                "issue": "",
+                "pages": "1578--1593",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.cell.2012.04.037"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Chung H, Pamp SJ, Hill J A, Surana NK, Edelman SM, Troy EB, Reading NC, Villablanca EJ, Wang S, Mora JR, Umesaki Y, Mathis D, Benoist C, Relman DA, Kasper DL. 2012. Gut immune maturation depends on colonization with a host-specific microbiota. Cell 149:1578 - 1593. http://dx.doi.org/10.1016/j.cell.2012.04.037.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "uris": null,
+                "type_str": "figure",
+                "text": "Spatial sampling of P. leucopus (A) and P. m. gracilis (B) indicates that their habitats overlap.",
+                "num": null
+            },
+            "FIGREF1": {
+                "uris": null,
+                "type_str": "figure",
+                "text": "YC distances [M ] \u03ed \u03ea0.03; Mantel correlation coefficient for weighted UniFrac distances [M W ] \u03ed \u03f3\u03ea0.03). To test for a more The microbiotas of P. leucopus and P. m. gracilis could not be differentiated on the basis of 16S rRNA gene sequences. Open and closed circles represent",
+                "num": null
+            },
+            "FIGREF2": {
+                "uris": null,
+                "type_str": "figure",
+                "text": "core microbiota exists across mice of both Peromyscus species. The relative abundance of the OTUs (A) and genera and other taxa (B) that were found in at least 90% of the mice. The limit of detection was 0.02%. Effects of age (A) and weight (B) on richness and diversity.Baxter et al.",
+                "num": null
+            },
+            "TABREF0": {
+                "type_str": "table",
+                "content": "<table><tr><td>, Tallahassee, FL)</td></tr><tr><td>were baited with sunflower seeds each night and opened in the morning.</td></tr><tr><td>For each catch, the mouse's weight, sex, reproductive condition, approx-</td></tr><tr><td>imate age, and other notes were collected along with the trapping coordi-</td></tr><tr><td>nates, a tissue sample for identification to the species level (25), and a fresh</td></tr><tr><td>stool sample for microbiota and dietary analyses. This study was approved</td></tr><tr><td>by the University Committee on Use and Care of Animals at the Univer-</td></tr><tr><td>sity of Michigan.</td></tr><tr><td>16S and 18S</td></tr></table>",
+                "text": "",
+                "num": null
+            }
+        }
+    }
+}

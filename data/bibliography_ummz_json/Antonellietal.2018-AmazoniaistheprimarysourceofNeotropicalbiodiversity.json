@@ -1,0 +1,2715 @@
+{
+    "paper_id": "Antonellietal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:20:53.381627Z"
+    },
+    "title": "Amazonia is the primary source of Neotropical biodiversity",
+    "authors": [
+        {
+            "first": "Alexandre",
+            "middle": [],
+            "last": "Antonelli",
+            "suffix": "",
+            "affiliation": {},
+            "email": "alexandre.antonelli@bioenv.gu.se."
+        },
+        {
+            "first": "Alexander",
+            "middle": [],
+            "last": "Zizka",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Fernanda",
+            "middle": [
+                "Antunes"
+            ],
+            "last": "Carvalho",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Gothenburg",
+                "location": {
+                    "postCode": "SE-405 30",
+                    "settlement": "Gothenburg",
+                    "country": "Sweden"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Ruud",
+            "middle": [],
+            "last": "Scharn",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Christine",
+            "middle": [
+                "D"
+            ],
+            "last": "Bacon",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Daniele",
+            "middle": [],
+            "last": "Silvestro",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Fabien",
+            "middle": [
+                "L"
+            ],
+            "last": "Condamine",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Gothenburg",
+                "location": {
+                    "postCode": "SE-405 30",
+                    "settlement": "Gothenburg",
+                    "country": "Sweden"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "This open access article is distributed under Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0 (CC BY-NC-ND).",
+    "pdf_parse": {
+        "paper_id": "Antonellietal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "This open access article is distributed under Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0 (CC BY-NC-ND).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "The American tropics (the Neotropics) are the most species-rich realm on Earth, and for centuries, scientists have attempted to understand the origins and evolution of their biodiversity. It is now clear that different regions and taxonomic groups have responded differently to geological and climatic changes. However, we still lack a basic understanding of how Neotropical biodiversity was assembled over evolutionary timescales. Here we infer the timing and origin of the living biota in all major Neotropical regions by performing a crosstaxonomic biogeographic analysis based on 4,450 species from six major clades across the tree of life (angiosperms, birds, ferns, frogs, mammals, and squamates), and integrate >1.3 million species occurrences with large-scale phylogenies. We report an unprecedented level of biotic interchange among all Neotropical regions, totaling 4,525 dispersal events. About half of these events involved transitions between major environmental types, with a predominant directionality from forested to open biomes. For all taxonomic groups surveyed here, Amazonia is the primary source of Neotropical diversity, providing >2,800 lineages to other regions. Most of these dispersal events were to Mesoamerica (\u223c1,500 lineages), followed by dispersals into open regions of northern South America and the Cerrado and Chaco biomes. Biotic interchange has taken place for >60 million years and generally increased toward the present. The total amount of time lineages spend in a region appears to be the strongest predictor of migration events. These results demonstrate the complex origin of tropical ecosystems and the key role of biotic interchange for the assembly of regional biotas.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "biogeography | biome shift | evolution | Neotropics | phylogenetics T he Neotropical realm, spanning from Mexico to southern South America and including the West Indies (1) , is one of the most species-rich regions on Earth (2, 3) . This vast region comprises many different biomes and habitats such as seasonally dry forests, arid zones, high-elevation grasslands, young and old mountain systems, and extensive rainforests, such as the Atlantic Forests and Amazonia (4) . Because each region and biome possesses its own species diversity and communities, it is crucial to investigate the diversification history and biotic connections of each constituent region to understand how Neotropical biodiversity was assembled (5, 6) .",
+                "cite_spans": [
+                    {
+                        "start": 169,
+                        "end": 172,
+                        "text": "(1)",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 224,
+                        "end": 227,
+                        "text": "(2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 228,
+                        "end": 230,
+                        "text": "3)",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 467,
+                        "end": 470,
+                        "text": "(4)",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 720,
+                        "end": 723,
+                        "text": "(5,",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 724,
+                        "end": 726,
+                        "text": "6)",
+                        "ref_id": "BIBREF5"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Consensus is emerging that Neotropical diversification results from a complex interaction of biotic and abiotic processes (2, 5) , which are now being teased apart by novel analytical approaches (7) . Abiotic events of biological significance include the hydrologic and topographic changes brought about by mountain uplift (4), but also by several events of global and regional climatic changes (8, 9) . Biotic triggers of speciation include species interactions (10, 11) and soil adaptations (12) , as well as the evolution of other organism-specific traits. Neotropical diversification has been extensive in some regions, such as Amazonia, where speciation in rainforest environments has taken place since at least the Paleocene (\u223c58 Mya, Ma; ref. 13) . Other environments, such as the highelevation grasslands in the northern Andes, have a more recent, but still remarkable, diversification history in the last few million years (14, 15) .",
+                "cite_spans": [
+                    {
+                        "start": 122,
+                        "end": 125,
+                        "text": "(2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 126,
+                        "end": 128,
+                        "text": "5)",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 195,
+                        "end": 198,
+                        "text": "(7)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 395,
+                        "end": 398,
+                        "text": "(8,",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 399,
+                        "end": 401,
+                        "text": "9)",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 463,
+                        "end": 467,
+                        "text": "(10,",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 468,
+                        "end": 471,
+                        "text": "11)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 493,
+                        "end": 497,
+                        "text": "(12)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 750,
+                        "end": 753,
+                        "text": "13)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 932,
+                        "end": 936,
+                        "text": "(14,",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 937,
+                        "end": 940,
+                        "text": "15)",
+                        "ref_id": "BIBREF14"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "What remains less clear, however, is the role of biotic interchange in the standing diversity of Neotropical regions. In addition to differences in speciation and extinction rates, regional diversity is determined by the immigration of species from other regions over time. In some cases, immigrant lineages may constitute a substantial proportion of the local diversity, such as in Ecuadorian Amazonia, where ca. 20% of all tree species arrived by dispersal from other regions (16) . Within the limits of a single region, dispersal events have been high in several plant genera (17, 18) . In contrast, dispersal events (including successful establishment) across environmentally disparate regions are considered rare on a global scale (19) .",
+                "cite_spans": [
+                    {
+                        "start": 478,
+                        "end": 482,
+                        "text": "(16)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 579,
+                        "end": 583,
+                        "text": "(17,",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 584,
+                        "end": 587,
+                        "text": "18)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 736,
+                        "end": 740,
+                        "text": "(19)",
+                        "ref_id": "BIBREF18"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Current evidence from the analysis of dated molecular phylogenies has shown that some Neotropical regions might be more permeable than others. South American savannas, for instance, have been colonized multiple times independently by ancestors from other regions (20, 21) . Alternatively, intrinsic differences among taxonomic groups (such as dispersal ability) may allow some lineages, but not others, to colonize new regions. Although some taxa tend to maintain their ecological requirements over time, staying in their region of origin or dispersing to distant regions with the same environmental conditions (i.e., niche conservatism,",
+                "cite_spans": [
+                    {
+                        "start": 263,
+                        "end": 267,
+                        "text": "(20,",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 268,
+                        "end": 271,
+                        "text": "21)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Amazonia is not only the world's most diverse rainforest but is also the region in tropical America that has contributed most to its total biodiversity. We show this by estimating and comparing the evolutionary history of a large number of animal and plant species. We find that there has been extensive interchange of evolutionary lineages among different regions and biomes, over the course of tens of millions of years. Amazonia stands out as the primary source of diversity, which can be mainly explained by the total amount of time Amazonian lineages have occupied the region. The exceedingly rich and heterogeneous diversity of the American tropics could only be achieved by high rates of dispersal events across the continent.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Significance",
+                "sec_num": null
+            },
+            {
+                "text": "refs. 19 and 22) , others show frequent regional and ecological shifts (21, 23, 24) . For the great majority of Neotropical regions and taxonomic groups, however, our knowledge of their biotic interchanges and dispersal histories remains surprisingly poor, with few exceptions (e.g., refs. 25 and 26). In particular, we lack an understanding of which regions served as primary sources and sinks of biodiversity, defined here as providers and receivers of lineages, respectively, rather than implying habitat quality as in population biology (27) .",
+                "cite_spans": [
+                    {
+                        "start": 6,
+                        "end": 16,
+                        "text": "19 and 22)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 71,
+                        "end": 75,
+                        "text": "(21,",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 76,
+                        "end": 79,
+                        "text": "23,",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 80,
+                        "end": 83,
+                        "text": "24)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 541,
+                        "end": 545,
+                        "text": "(27)",
+                        "ref_id": "BIBREF27"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Significance",
+                "sec_num": null
+            },
+            {
+                "text": "Understanding the dynamics of biotic interchange is challenging, as several abiotic and biotic factors are likely to be involved (28) . Based on the Theory of Island Biogeography (29) , there should be a positive relationship between the number of dispersal events and the area of a region, and a negative relationship with geographic isolation. Similarly, the more shared perimeter (adjacency) two regions have, the more interchange should also be expected (28) . However, many Neotropical regions and biomes have changed considerably through time (9), making it crucial to also consider historical changes in a region's area and connectivity. In general, the more combined time lineages spend in a region (expressed as total branch lengths in a phylogeny), the more opportunities they should have to diversify and emigrate (30, 31) . Regions with high diversity could be more difficult to enter than species-poor regions, because of competitive exclusion and niche filling (32, 33) , or show the opposite pattern, based on empirical evidence from invasive species (34, 35) . To date, none of these variables has been assessed as a general predictor of biotic interchange in the Neotropics.",
+                "cite_spans": [
+                    {
+                        "start": 129,
+                        "end": 133,
+                        "text": "(28)",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 179,
+                        "end": 183,
+                        "text": "(29)",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 458,
+                        "end": 462,
+                        "text": "(28)",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 825,
+                        "end": 829,
+                        "text": "(30,",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 830,
+                        "end": 833,
+                        "text": "31)",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 975,
+                        "end": 979,
+                        "text": "(32,",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 980,
+                        "end": 983,
+                        "text": "33)",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 1066,
+                        "end": 1070,
+                        "text": "(34,",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1071,
+                        "end": 1074,
+                        "text": "35)",
+                        "ref_id": "BIBREF35"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Significance",
+                "sec_num": null
+            },
+            {
+                "text": "Here we assess the evolutionary assembly of Neotropical biotas through a cross-taxonomic biogeographic analysis. Fossils can be useful for inferring biogeographic history (36) , but the Neotropical fossil record is too scarce for most periods, regions, and taxonomic groups to allow robust estimates (37) . We therefore take advantage of recently published, well-sampled molecular phylogenies, which hold a large but unrealized potential in revealing the evolution of tropical biotas (17, 38) . We integrate these phylogenies with large species occurrence datasets, spatial information on Neotropical regions and biomes, and their evolution and connectivity through time. We address the following questions: was the amount of biotic interchange similar among Neotropical regions, or have particular regions contributed substantially more or less than others? How often were dispersal events associated with shifts between major biome types? To what extent was the direction of interchange determined by taxonomic group? Did biotic interchange among regions occur evenly through time, or were there periods of more frequent dispersal events? Which general descriptors of a region and its biota predict the amount of biotic interchange with other regions?",
+                "cite_spans": [
+                    {
+                        "start": 171,
+                        "end": 175,
+                        "text": "(36)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 300,
+                        "end": 304,
+                        "text": "(37)",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 484,
+                        "end": 488,
+                        "text": "(17,",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 489,
+                        "end": 492,
+                        "text": "38)",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Significance",
+                "sec_num": null
+            },
+            {
+                "text": "Data Compilation and Analyses. Our vetted dataset encompassed 1,331,323 georeferenced records representing 68,329 species, derived from the integration of densely sampled molecular phylogenetic trees with a large dataset of species distributions (SI Appendix, Figs. S1 and S2, Table S1 , and Supporting Methods). Table S2 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 277,
+                        "end": 285,
+                        "text": "Table S1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 313,
+                        "end": 321,
+                        "text": "Table S2",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Direction of Interchange. Our biogeographic analyses show that all regions have served as both sources and sinks of lineages ( Fig. 2 , Tables 1 and 2 , and SI Appendix, Figs. S9 and S10 and Tables S4-S6). We identified a total of 4,525 dispersal events across the Neotropics, estimated under an unconstrained biogeographic model (assuming equal connectivity among regions through time), and 5,818 dispersal events inferred under a time-constrained model (reflecting the hypothesized history of existence and connectivity among regions). We focus our results and discussion on the unconstrained model, as it incurs the fewest assumptions, but we report all results in Tables 1 and 2 and the SI Appendix.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 127,
+                        "end": 133,
+                        "text": "Fig. 2",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 136,
+                        "end": 150,
+                        "text": "Tables 1 and 2",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Amazonia was the most important source of diversity, providing 2,855 lineages (63% of all dispersal events) to other Neotropical regions. This was about 4.6 times as many as the second most important source region, Mesoamerica (615), followed by Cerrado and Chaco (455). In contrast, Mesoamerica was the most important sink, receiving the highest number of lineages (788; 17%), but it was closely followed by Dry Northern South America (771) and Cerrado and Chaco (766). Amazonia also served as a sink of diversity, but only moderately so, and ranked fifth among all regions.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "An evaluation of the number of dispersal events out of Amazonia ( Fig. 2 and SI Appendix, Tables S4-S6) revealed that about a quarter of all events were into Mesoamerica (711), closely followed by two open/dry regions: Dry Northern South America (622) and Cerrado and Chaco (517). The West Indies and the other three open/dry regions (Dry Western South America, Caatinga, Patagonian Steppe) all received fewer than 100 dispersal events each.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 66,
+                        "end": 72,
+                        "text": "Fig. 2",
+                        "ref_id": "FIGREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "When considering each taxonomic group separately, Amazonia remained the primary source of lineages to other Neotropical regions ( Fig. 3 and SI Appendix, Tables S4-S6). The second main source varied among Mesoamerica (angiosperms and birds), Cerrado and Chaco (frogs, mammals, and squamates), and Atlantic Forests (ferns). A large number of dispersal events involved shifts between major biome types (forested/wet and open/dry), rather than dispersals to other regions but within the same major biome type (2,124 vs. 333 events, respectively; Fig. 1 and SI Appendix, Table  S6 ). Of these, the vast majority (1,820) involved transitions from wet to dry biomes compared with shifts in the other direction (304). An almost equally large number of shifts involved mixed regions (containing both forested and open biomes) and are considered ambiguous (2,068 events).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 130,
+                        "end": 136,
+                        "text": "Fig. 3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 543,
+                        "end": 549,
+                        "text": "Fig. 1",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 567,
+                        "end": 576,
+                        "text": "Table  S6",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Timing of Interchange. All regions and taxonomic groups showed fluctuations in the relative number of dispersal events through time (i.e., in proportion to the number of lineages at each time; Materials and Methods), rather than constant rates ( Fig. 4 and SI Appendix, Figs. S11-S13). We found a general increase in the number of relative dispersal events toward the present, in particular during the last 10 My.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 246,
+                        "end": 252,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Differences in Biogeographic Models. We found a general congruence in the main results obtained under the unconstrained and the time-stratified connectivity matrices between regions. Under both models (Fig. 2, Tables 1 and 2 , and SI Appendix, Fig. S9 ), Amazonia remained the most important source of dispersal events, and Mesoamerica the most important sink. A general agreement was also found for individual clades (Fig. 3 and SI Appendix, Fig.  S10 ), whereas the temporal pattern of dispersal events between regions was affected by the prespecified constraints (SI Appendix, Figs. S11 and S12). We encountered differences for some pairs of regions, such as a marked asymmetry in dispersal events involving Mesoamerica under the constrained model compared with a stronger balance under the unconstrained model.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 201,
+                        "end": 224,
+                        "text": "(Fig. 2, Tables 1 and 2",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 244,
+                        "end": 251,
+                        "text": "Fig. S9",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 418,
+                        "end": 425,
+                        "text": "(Fig. 3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 443,
+                        "end": 452,
+                        "text": "Fig.  S10",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Predictors of Emigration and Immigration. The total branch length in a region was the strongest predictor for immigration and emigration ( Fig. 5 and SI Appendix, Figs. S14-S19 and Tables S7 and S8), followed by a region's current area (positively associated with emigration) and isolation (negatively associated with immigration). These were the only predictors identified as important (95% credible intervals do not contain 0) in the global model; that is, considering all regions and taxa simultaneously. For three of the four clades with enough representation to be included in our models, we found less immigration into Amazonia than expected, and for angiosperms and birds, we found higher emigration than expected.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 139,
+                        "end": 145,
+                        "text": "Fig. 5",
+                        "ref_id": "FIGREF5"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "The Reticulate Assembly of Neotropical Biodiversity. Our results reveal unprecedented levels of biotic interchange across all major Neotropical regions and over tens of millions of years. Clearly, the interchange of lineages has been a pivotal process for the assembly of regional biotas. The importance of Amazonia as the primary source of Neotropical lineages is strongly supported across all analyses (e.g., Figs. 2 and 3) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 411,
+                        "end": 425,
+                        "text": "Figs. 2 and 3)",
+                        "ref_id": "FIGREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The biotic interchange between Amazonia and Mesoamerica is remarkable, both for the high number of inferred dispersal events (711 across all lineages; SI Appendix, Tables S4-S6) and for the long period of interchange ( Fig. 4 and SI Appendix, Figs. S11-S13). Once considered a continent in splendid isolation (39), these results reinforce the more recent idea that South America has instead had a long and continuous exchange of lineages with the North American continent (40) . This interchange was not hindered by the relatively narrow water gaps between these continents, which disappeared during the final stages of the emergence of the Isthmus of Panama (41).",
+                "cite_spans": [
+                    {
+                        "start": 472,
+                        "end": 476,
+                        "text": "(40)",
+                        "ref_id": "BIBREF40"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 219,
+                        "end": 225,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Shifts Across Major Biome Types. We detected a relatively high (47%) proportion of dispersal events associated with shifts in broadly defined biome types; that is, between open/dry (sometimes only seasonally) and more constantly forested/wet regions ( Fig. 1B and SI Appendix, Table S6 ) compared with shifts across regions, but within the same biome type (7%). However, we expect that the majority of those shifts classified as ambiguous (46%) may also be region-only shifts (e.g., rainforest dwellers and mountain specialists), based on previous cross-regional studies (e.g., refs. [16] [17] [18] . These results contrast with the view that biome shifts The ranked values correspond to dispersal events inferred from timecalibrated molecular phylogenies estimated under an unconstrained and a time-stratified biogeographic model of region connectivity (SI Appendix, Tables S5 and S6) .",
+                "cite_spans": [
+                    {
+                        "start": 584,
+                        "end": 588,
+                        "text": "[16]",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 589,
+                        "end": 593,
+                        "text": "[17]",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 594,
+                        "end": 598,
+                        "text": "[18]",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 252,
+                        "end": 259,
+                        "text": "Fig. 1B",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 277,
+                        "end": 285,
+                        "text": "Table S6",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 868,
+                        "end": 885,
+                        "text": "Tables S5 and S6)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "over evolutionary time are rare events, as previously demonstrated for Southern Hemisphere plant lineages (19) . Among the documented shifts in biome types, most events (86%; SI Appendix, Table S6 ) involved transitions from forested/wet regions into open/dry habitats, rather than in the opposite direction, confirming a previous study on Cerrado plants (21) .",
+                "cite_spans": [
+                    {
+                        "start": 106,
+                        "end": 110,
+                        "text": "(19)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 355,
+                        "end": 359,
+                        "text": "(21)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 188,
+                        "end": 196,
+                        "text": "Table S6",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "We recorded a high interchange of lineages between the rainforests of lowland Amazonia and the Andean Grasslands, mostly located above 5,000 m above sea level (SI Appendix, Fig. S20 ). Although these shifts require substantial eco-physiological adaptations, our results demonstrate that they have played a major role in the assembly of Neotropical alpine ecosystems. Cross-altitudinal dispersal events had been suggested for a few taxonomic groups previously (42-44), but were not considered common. Range shifts along elevation gradients appear to be an important evolutionary process, similar to what was recently documented for Borneo (45) .",
+                "cite_spans": [
+                    {
+                        "start": 638,
+                        "end": 642,
+                        "text": "(45)",
+                        "ref_id": "BIBREF45"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 173,
+                        "end": 181,
+                        "text": "Fig. S20",
+                        "ref_id": "FIGREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The inference of a high number of shifts in major biome types could be partly masked by the large spatial scale required by our analyses. All regions and biomes comprise mosaics of different fine-scale habitats, which could have served as entrance pathways to colonizing lineages without requiring immediate adaptations. Further research is needed to assess to what extent dispersing lineages are preadapted to new environments, as opposed to developing new features in situ (28, 46) .",
+                "cite_spans": [
+                    {
+                        "start": 475,
+                        "end": 479,
+                        "text": "(28,",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 480,
+                        "end": 483,
+                        "text": "46)",
+                        "ref_id": "BIBREF46"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "It is notable that Amazonia provided more species to Mesoamerica, located on a landmass that has only been connected with South America for a short period of time and along a strait margin, rather than the surrounding dry regions in northern and central-east South America, with which Amazonia shares long borders and multiple transition zones. This result could primarily reflect dispersal events between the Choc\u00f3, included in Olson's (47) definition of Amazonia adopted here, and Mesoamerica. A biogeographic analysis using a different expert-based region classification, in which we adopted a more restrictive delimitation of Amazonia, suggests that most interchange indeed involves Amazonia (SI Appendix, Fig. S21 ). Our results corroborate a recent analysis of plot data for rainforest woody plants, which showed a large number of shared species between Panama and eastern Ecuador and concluded that the abundance and environmental tolerance of species were strong predictors of their ability to occupy both regions (48) .",
+                "cite_spans": [
+                    {
+                        "start": 1022,
+                        "end": 1026,
+                        "text": "(48)",
+                        "ref_id": "BIBREF48"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 710,
+                        "end": 718,
+                        "text": "Fig. S21",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Predictors of Interchange. As expected, both the area and total branch length of a region were strongly and positively correlated with emigration (Fig. 5) . It is surprising, however, that in our dispersal model including all taxa we found no positive effect of isolation or length of the perimeter on emigration. We expected a higher number of dispersal events between regions that are adjacent and broadly connected, based on theoretical expectations and empirical evidence (28) .",
+                "cite_spans": [
+                    {
+                        "start": 476,
+                        "end": 480,
+                        "text": "(28)",
+                        "ref_id": "BIBREF28"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 146,
+                        "end": 154,
+                        "text": "(Fig. 5)",
+                        "ref_id": "FIGREF5"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The positive relationship between the total branch length and the number of immigration events in a region suggests that Neotropical regions are not yet saturated with species, as would have been predicted under a scenario of competitive exclusion and niche filling (32, 33) . Instead, our results reflect patterns of recent invasions of nonnative plants, birds, and fishes, in which regions with the highest species richness are also those with most invasions (34, 35) . The relation between species richness and resilience to invasions may depend on the spatial and temporal scale considered (33, 35) , and ongoing invasions are likely also related to the higher human density seen in species-rich environments (34) . In addition, the high number of immigrants will, by themselves, also lead to an increase in the total branch length of a region. We also note that branch length sums were strongly correlated to the total number of occurrences in a region, meaning we cannot exclude an undetected effect of sampling biases beyond our measure of phylogenetic sampling.",
+                "cite_spans": [
+                    {
+                        "start": 266,
+                        "end": 270,
+                        "text": "(32,",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 271,
+                        "end": 274,
+                        "text": "33)",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 461,
+                        "end": 465,
+                        "text": "(34,",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 466,
+                        "end": 469,
+                        "text": "35)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 594,
+                        "end": 598,
+                        "text": "(33,",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 599,
+                        "end": 602,
+                        "text": "35)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 713,
+                        "end": 717,
+                        "text": "(34)",
+                        "ref_id": "BIBREF34"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Comparison Among Organisms. There was a generally high level of congruence in the directionality of dispersal events across taxa (Fig. 3 ), despite their biological and ecological differences. For instance, all taxa showed a substantial interchange between Amazonia and Mesoamerica, the Atlantic Forests, the Cerrado and Chaco, and the Andean Grasslands. Interchange with the West Indies and the Dry Western South America was low for all groups.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 129,
+                        "end": 136,
+                        "text": "(Fig. 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Concerning the timing of interchange with Amazonia ( Fig. 4 and SI Appendix, Figs. S11-S13), we detected some level of taxonomic congruence (e.g., angiosperms, birds, and mammals increasing in relative dispersal rates with the Cerrado and Chaco and with Dry Northern South America in the last 20 My), but in most cases the fluctuations appear stochastic over time and across taxonomic groups. This reinforces the idea that lineages have individual evolutionary histories and biogeographic origins, and that biotas are the result of repeated interchanges followed by in situ speciation (5) .",
+                "cite_spans": [
+                    {
+                        "start": 585,
+                        "end": 588,
+                        "text": "(5)",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 53,
+                        "end": 59,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Conclusions. Our study shows that Amazonia is the primary source of Neotropical biodiversity: not only did it generate enormous in situ diversity but it also provided lineages to all other Neotropical regions, across all studied taxonomic groups, and throughout the Cenozoic. Taken together, our results demonstrate that even very dissimilar regions, in terms of environmental variables and constituent biota, do not evolve in isolation, but are highly biologically interconnected over evolutionary timescales. Biotic interchange can be largely, but not fully, predicted by simple abiotic and biotic variables. The cross-taxonomic framework applied here could be used to investigate the evolutionary history of many other regions and biotas, to better understand the history of life on Earth.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "A full description of the methodology used and known limitations of our data and methodology, such as those caused by incomplete sampling of species occurrences and molecular sequences in public databases (49, 50) , are described in SI Appendix, Supporting Methods.",
+                "cite_spans": [
+                    {
+                        "start": 205,
+                        "end": 209,
+                        "text": "(49,",
+                        "ref_id": "BIBREF49"
+                    },
+                    {
+                        "start": 210,
+                        "end": 213,
+                        "text": "50)",
+                        "ref_id": "BIBREF50"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Data Compilation. We focused our analyses on the Neotropical realm as defined by Morrone (1) . Within the Neotropics, we defined and delimited 10 regions, broadly corresponding to environmentally and biologically different terrestrial biomes proposed by Olson et al. (47) (Fig. 1 and SI Appendix,  Fig. S22 ). We reconstructed the biogeographic history of two groups of plants (angiosperms and ferns) and four groups of vertebrates (birds, frogs, mammals, and squamates). We downloaded occurrence records for all species from the Global Biodiversity Information Facility (SI Appendix, Supporting Methods). We used SpeciesGeoCoder v.1.8 (51) for automated cleaning of the occurrence records. We classified each species as present or absent in each Neotropical region, using an occurrence filter of \u22655% to recognize a species as present in a region (selected to maximize inclusion while minimizing false-positives, after testing for multiple thresholds between 0% and 50%; SI Appendix, Fig. S23 ). We retrieved published large-scale time-calibrated phylogenies for all study groups (see SI Appendix for references), from which we extracted predominantly Neotropical clades (\u226585% of the species).",
+                "cite_spans": [
+                    {
+                        "start": 81,
+                        "end": 92,
+                        "text": "Morrone (1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 267,
+                        "end": 271,
+                        "text": "(47)",
+                        "ref_id": "BIBREF47"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 272,
+                        "end": 306,
+                        "text": "(Fig. 1 and SI Appendix,  Fig. S22",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 984,
+                        "end": 992,
+                        "text": "Fig. S23",
+                        "ref_id": "FIGREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Analyses. We use the terms migration and dispersal interchangeably in a biogeographic context, meaning establishment of evolutionary lineages in a new region rather than, for example, annual bird migrations. We do not attempt to differentiate between dispersal and vicariance, that is, the separation of populations by the formation of barriers, which has also contributed to shaping current diversity patterns in the Neotropics (52) . We implemented the dispersalextinction-cladogenesis model (53) in the R package BioGeoBEARS (54) to infer geographical range evolution of lineages. We developed two sets of analyses: one in which biotic connectivity among all regions was allowed at any point in time, and one in which we modeled connectivity based on paleogeographic and geological evidence (SI Appendix, Table S3 ). We identified shifts between regions in 5-My time bins. We computed the absolute number of dispersal events through time by extracting the areas and ages of all nodes from each phylogeny. The number of branches and total amount of branch lengths in any phylogeny of extant species increase with time, potentially increasing the number of dispersal events toward the present even under a constant dispersal rate (55) . We therefore also calculated relative numbers of dispersal events by dividing absolute numbers by the total length of all branches within each time bin (37) . We tested the dependence of the number of dispersal events estimated for each region on six predictor variables ( Fig. 5 ; excluding one because of high correlation). We tested the covariance of the predictors using the Variance Inflation Factor and Pearson correlations. We fit two linear mixedeffects models with a random intercept, using taxon as random effect in a Bayesian framework. We excluded data from the two taxa with the fewest species sampled (ferns and frogs), as the number of dispersal events was zero for several regions in these clades, and assumed one shift for the remaining The values correspond to dispersal events inferred from time-calibrated molecular phylogenies estimated under an unconstrained and a time-stratified biogeographic model of region connectivity (SI Appendix, Tables S5 and S6). three cases with no observed shifts to enable logarithmic transformation. We log-transformed predictors and responses and used a gamma prior with shape 1 and scale 0.5 for the hyper parameters of the random intercepts per taxon.",
+                "cite_spans": [
+                    {
+                        "start": 429,
+                        "end": 433,
+                        "text": "(52)",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 494,
+                        "end": 498,
+                        "text": "(53)",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 1231,
+                        "end": 1235,
+                        "text": "(55)",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 1390,
+                        "end": 1394,
+                        "text": "(37)",
+                        "ref_id": "BIBREF37"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 808,
+                        "end": 816,
+                        "text": "Table S3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1511,
+                        "end": 1517,
+                        "text": "Fig. 5",
+                        "ref_id": "FIGREF5"
+                    },
+                    {
+                        "start": 2198,
+                        "end": 2216,
+                        "text": "Tables S5 and S6).",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded by guest on October 7, 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "ACKNOWLEDGMENTS. We are very grateful for the constructive comments by three anonymous reviewers and the handling editor, which helped to substantially improve this manuscript. We also thank S\u00f8ren Faurby, Allison Perrigo, Isabel Sanmart\u00edn, Carlos Jaramillo, Lucia Lohmann, James Albert, Mark Torchin, and Michael Donoghue for discussions and feedback at various stages of this project. Funding for this work was provided by the Swedish Research Council (B0569601), the European Research Council under the European Union's Seventh Framework Programme (FP/2007-2013, ERC Grant Agreement 331024), the Swedish Foundation for Strategic Research, the Faculty of Sciences at the University of Gothenburg, the David Rockefeller Center for Latin American Studies at Harvard University, the Wenner-Gren Foundations, and a Wallenberg Academy Fellowship (to A.A.); the Swedish Research Council (2015-04748 to D.S.); the Carl Tryggers Stiftelse grant (CTS 12:24) and an \"Investissements d'Avenir\" grant managed by Agence Nationale de la Recherche (CEBA, ref. ANR-10-LABX-25-01 to F.L.C.).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "acknowledgement",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Biogeographical regionalisation of the Neotropical region",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Morrone",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Zootaxa",
+                "volume": "3782",
+                "issue": "",
+                "pages": "1--110",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Morrone JJ (2014) Biogeographical regionalisation of the Neotropical region. Zootaxa 3782:1-110.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Why are there so many plant species in the Neotropics?",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Antonelli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Sanmart\u00edn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Taxon",
+                "volume": "60",
+                "issue": "",
+                "pages": "403--414",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Antonelli A, Sanmart\u00edn I (2011) Why are there so many plant species in the Neo- tropics? Taxon 60:403-414.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "An integrated assessment of the vascular plant species of the Americas",
+                "authors": [
+                    {
+                        "first": "Ulloa",
+                        "middle": [],
+                        "last": "Ulloa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Science",
+                "volume": "358",
+                "issue": "",
+                "pages": "1614--1617",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ulloa Ulloa C, et al. (2017) An integrated assessment of the vascular plant species of the Americas. Science 358:1614-1617.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Amazonia through time: Andean uplift, climate change, landscape evolution, and biodiversity",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Hoorn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Science",
+                "volume": "330",
+                "issue": "",
+                "pages": "927--931",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hoorn C, et al. (2010) Amazonia through time: Andean uplift, climate change, landscape evolution, and biodiversity. Science 330:927-931.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Neotropical plant evolution: Assembling the big picture",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hughes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Pennington",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Antonelli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Bot J Linn Soc",
+                "volume": "171",
+                "issue": "",
+                "pages": "1--18",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hughes CE, Pennington RT, Antonelli A (2013) Neotropical plant evolution: Assem- bling the big picture. Bot J Linn Soc 171:1-18.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Neotropical biodiversity: Timing and potential drivers",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Rull",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Trends Ecol Evol",
+                "volume": "26",
+                "issue": "",
+                "pages": "508--513",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rull V (2011) Neotropical biodiversity: Timing and potential drivers. Trends Ecol Evol 26:508-513.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "The abiotic and biotic drivers of rapid diversification in Andean bellflowers (Campanulaceae)",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Lagomarsino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Condamine",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Antonelli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Mulch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Davis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "New Phytol",
+                "volume": "210",
+                "issue": "",
+                "pages": "1430--1442",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lagomarsino LP, Condamine FL, Antonelli A, Mulch A, Davis CC (2016) The abiotic and biotic drivers of rapid diversification in Andean bellflowers (Campanulaceae). New Phytol 210:1430-1442.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "The response of vegetation on the Andean flank in western Amazonia to Pleistocene climate change",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "C\u00e1rdenas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Science",
+                "volume": "331",
+                "issue": "",
+                "pages": "1055--1058",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "C\u00e1rdenas ML, et al. (2011) The response of vegetation on the Andean flank in western Amazonia to Pleistocene climate change. Science 331:1055-1058.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Global warming and Neotropical rainforests: A historical perspective",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Jaramillo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "C\u00e1rdenas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Annu Rev Earth Planet Sci",
+                "volume": "41",
+                "issue": "",
+                "pages": "741--766",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jaramillo C, C\u00e1rdenas A (2013) Global warming and Neotropical rainforests: A his- torical perspective. Annu Rev Earth Planet Sci 41:741-766.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Herbivores promote habitat specialization by trees in Amazonian forests",
+                "authors": [
+                    {
+                        "first": "Pva",
+                        "middle": [],
+                        "last": "Fine",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Mesones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Coley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Science",
+                "volume": "305",
+                "issue": "",
+                "pages": "663--665",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fine PVA, Mesones I, Coley PD (2004) Herbivores promote habitat specialization by trees in Amazonian forests. Science 305:663-665.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "The evolution of antiherbivore defenses and their contribution to species coexistence in the tropical tree genus Inga",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kursar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "106",
+                "issue": "",
+                "pages": "18073--18078",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kursar TA, et al. (2009) The evolution of antiherbivore defenses and their contribu- tion to species coexistence in the tropical tree genus Inga. Proc Natl Acad Sci USA 106: 18073-18078.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "The contribution of edaphic heterogeneity to the evolution and diversity of Burseraceae trees in the western Amazon",
+                "authors": [
+                    {
+                        "first": "Pva",
+                        "middle": [],
+                        "last": "Fine",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Daly",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Villa Mu\u00f1oz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Mesones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Cameron",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Evolution",
+                "volume": "59",
+                "issue": "",
+                "pages": "1464--1478",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fine PVA, Daly DC, Villa Mu\u00f1oz G, Mesones I, Cameron KM (2005) The contribution of edaphic heterogeneity to the evolution and diversity of Burseraceae trees in the western Amazon. Evolution 59:1464-1478.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Late Paleocene fossils from the Cerrejon Formation, Colombia, are the earliest record of Neotropical rainforest",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Wing",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "106",
+                "issue": "",
+                "pages": "18627--18632",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wing SL, et al. (2009) Late Paleocene fossils from the Cerrejon Formation, Colombia, are the earliest record of Neotropical rainforest. Proc Natl Acad Sci USA 106: 18627-18632.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "P\u00e1ramo is the world's fastest evolving and coolest biodiversity hotspot",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Madri\u00f1\u00e1n",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Cort\u00e9s",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Richardson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Madri\u00f1\u00e1n S, Cort\u00e9s AJ, Richardson JE (2013) P\u00e1ramo is the world's fastest evolving and coolest biodiversity hotspot. Front Genet 4:192.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "The tropical Andean plant diversity powerhouse",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hughes",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "New Phytol",
+                "volume": "210",
+                "issue": "",
+                "pages": "1152--1154",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hughes CE (2016) The tropical Andean plant diversity powerhouse. New Phytol 210: 1152-1154.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "The role of immigrants in the assembly of the South American rainforest tree flora",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Pennington",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Dick",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Philos Trans R Soc Lond B Biol Sci",
+                "volume": "359",
+                "issue": "",
+                "pages": "1611--1622",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pennington RT, Dick CW (2004) The role of immigrants in the assembly of the South American rainforest tree flora. Philos Trans R Soc Lond B Biol Sci 359:1611-1622.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Dispersal assembly of rain forest tree communities across the Amazon basin",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Dexter",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "114",
+                "issue": "",
+                "pages": "2645--2650",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dexter KG, et al. (2017) Dispersal assembly of rain forest tree communities across the Amazon basin. Proc Natl Acad Sci USA 114:2645-2650.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Finding needles in the haystack: Where to look for rare species in the American tropics",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Zizka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Steege",
+                        "middle": [],
+                        "last": "Ht",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Pessoa",
+                        "middle": [],
+                        "last": "Mdcr",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Antonelli A",
+                "volume": "41",
+                "issue": "",
+                "pages": "321--330",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zizka A, Steege Ht, Pessoa MdCR, Antonelli A (2018) Finding needles in the haystack: Where to look for rare species in the American tropics. Ecography 41:321-330.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Phylogenetic biome conservatism on a global scale",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Crisp",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Nature",
+                "volume": "458",
+                "issue": "",
+                "pages": "754--756",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Crisp MD, et al. (2009) Phylogenetic biome conservatism on a global scale. Nature 458: 754-756.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Habitat shifts shaping the diversity of a biodiversity hotspot through time: Insights from the phylogenetic structure of Caesalpinioideae in the Brazilian Cerrado",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Souza-Neto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Cianciaruso",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Collevatti",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "J Biogeogr",
+                "volume": "43",
+                "issue": "",
+                "pages": "340--350",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Souza-Neto AC, Cianciaruso MV, Collevatti RG (2016) Habitat shifts shaping the di- versity of a biodiversity hotspot through time: Insights from the phylogenetic struc- ture of Caesalpinioideae in the Brazilian Cerrado. J Biogeogr 43:340-350.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Recent assembly of the Cerrado, a neotropical plant diversity hotspot, by in situ evolution of adaptations to fire",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Simon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "106",
+                "issue": "",
+                "pages": "20359--20364",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Simon MF, et al. (2009) Recent assembly of the Cerrado, a neotropical plant diversity hotspot, by in situ evolution of adaptations to fire. Proc Natl Acad Sci USA 106: 20359-20364.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Plant diversity patterns in neotropical dry forests and their conservation implications",
+                "authors": [
+                    {
+                        "first": "-R K",
+                        "middle": [],
+                        "last": "Banda",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Science",
+                "volume": "353",
+                "issue": "",
+                "pages": "1383--1387",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Banda-R K, et al. (2016) Plant diversity patterns in neotropical dry forests and their conservation implications. Science 353:1383-1387.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Niche lability in the evolution of a Caribbean lizard community",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Losos",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Nature",
+                "volume": "424",
+                "issue": "",
+                "pages": "542--545",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Losos JB, et al. (2003) Niche lability in the evolution of a Caribbean lizard community. Nature 424:542-545.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "The niche and phylogeography of a passerine reveal the history of biological diversification between the Andean and the Atlantic forests",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Trujillo-Arias",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Mol Phylogenet Evol",
+                "volume": "112",
+                "issue": "",
+                "pages": "107--121",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Trujillo-Arias N, et al. (2017) The niche and phylogeography of a passerine reveal the history of biological diversification between the Andean and the Atlantic forests. Mol Phylogenet Evol 112:107-121.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Sources and sinks of diversification and conservation priorities for the Mexican tropical dry forest",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "X"
+                        ],
+                        "last": "Becerra",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Venable",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "PLoS One",
+                "volume": "3",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Becerra JX, Venable DL (2008) Sources and sinks of diversification and conservation priorities for the Mexican tropical dry forest. PLoS One 3:e3436.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Historical Biogeography of endemic seed plant genera in the Caribbean: Did GAARlandia play a role?",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Nieto-Bl\u00e1zquez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Antonelli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Roncal",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Ecol Evol",
+                "volume": "7",
+                "issue": "",
+                "pages": "10158--10174",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nieto-Bl\u00e1zquez ME, Antonelli A, Roncal J (2017) Historical Biogeography of endemic seed plant genera in the Caribbean: Did GAARlandia play a role? Ecol Evol 7: 10158-10174.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Sources and sinks in population biology",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Dias",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Trends Ecol Evol",
+                "volume": "11",
+                "issue": "",
+                "pages": "326--330",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dias PC (1996) Sources and sinks in population biology. Trends Ecol Evol 11:326-330.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Biome shifts and niche evolution in plants",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Donoghue",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Edwards",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Annu Rev Ecol Syst",
+                "volume": "45",
+                "issue": "",
+                "pages": "547--572",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Donoghue MJ, Edwards EJ (2014) Biome shifts and niche evolution in plants. Annu Rev Ecol Syst 45:547-572.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "The Theory of Island Biogeography",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Macarthur",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1967,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MacArthur RH, Wilson EO (1967) The Theory of Island Biogeography (Princeton Univ Press, Princeton).",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Evidence for a time-integrated species-area effect on the latitudinal gradient in tree diversity",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Fine",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Ree",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Am Nat",
+                "volume": "168",
+                "issue": "",
+                "pages": "796--804",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fine PV, Ree RH (2006) Evidence for a time-integrated species-area effect on the latitudinal gradient in tree diversity. Am Nat 168:796-804.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Global gradients in vertebrate diversity predicted by historical area-productivity dynamics and contemporary environment",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Jetz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Fine",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "PLoS Biol",
+                "volume": "10",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jetz W, Fine PV (2012) Global gradients in vertebrate diversity predicted by his- torical area-productivity dynamics and contemporary environment. PLoS Biol 10: e1001292.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Niche filling slows the diversification of Himalayan songbirds",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Price",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Nature",
+                "volume": "509",
+                "issue": "",
+                "pages": "222--225",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Price TD, et al. (2014) Niche filling slows the diversification of Himalayan songbirds. Nature 509:222-225.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Biodiversity as a barrier to ecological invasion",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kennedy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Nature",
+                "volume": "417",
+                "issue": "",
+                "pages": "636--638",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kennedy TA, et al. (2002) Biodiversity as a barrier to ecological invasion. Nature 417: 636-638.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Species richness and patterns of invasion in plants, birds, and fishes in the United States",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Stohlgren",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Biol Invasions",
+                "volume": "8",
+                "issue": "",
+                "pages": "427--447",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stohlgren TJ, et al. (2006) Species richness and patterns of invasion in plants, birds, and fishes in the United States. Biol Invasions 8:427-447.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "The myth of plant species saturation",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Stohlgren",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Barnett",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Jarnevich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Flather",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Kartesz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Ecol Lett",
+                "volume": "11",
+                "issue": "",
+                "pages": "313--322",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stohlgren TJ, Barnett DT, Jarnevich CS, Flather C, Kartesz J (2008) The myth of plant species saturation. Ecol Lett 11:313-322.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Fossil biogeography: A new model to infer dispersal, extinction and sampling from palaeontological data",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Silvestro",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Philos Trans R Soc Lond B Biol Sci",
+                "volume": "371",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Silvestro D, et al. (2016) Fossil biogeography: A new model to infer dispersal, ex- tinction and sampling from palaeontological data. Philos Trans R Soc Lond B Biol Sci 371:20150225.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "An engine for global plant diversity: Highest evolutionary turnover and emigration in the American tropics",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Antonelli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Front Genet",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Antonelli A, et al. (2015) An engine for global plant diversity: Highest evolutionary turnover and emigration in the American tropics. Front Genet 6:130.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Plant phylogeny as a window on the evolution of hyperdiversity in the tropical rainforest biome",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Eiserhardt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Tlp",
+                        "middle": [],
+                        "last": "Couvreur",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Baker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "New Phytol",
+                "volume": "214",
+                "issue": "",
+                "pages": "1408--1422",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Eiserhardt WL, Couvreur TLP, Baker WJ (2017) Plant phylogeny as a window on the evolution of hyperdiversity in the tropical rainforest biome. New Phytol 214: 1408-1422.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Splendid Isolation: The Curious History of South American Mammals",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Simpson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Simpson GG (1980) Splendid Isolation: The Curious History of South American Mammals (Yale Univ Press, New Haven, CT).",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Biological evidence supports an early and complex emergence of the Isthmus of Panama",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Bacon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "112",
+                "issue": "",
+                "pages": "6110--6115",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bacon CD, et al. (2015) Biological evidence supports an early and complex emergence of the Isthmus of Panama. Proc Natl Acad Sci USA 112:6110-6115.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Middle Miocene closure of the Central American Seaway",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Montes",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Science",
+                "volume": "348",
+                "issue": "",
+                "pages": "226--229",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Montes C, et al. (2015) Middle Miocene closure of the Central American Seaway. Science 348:226-229.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Amazonian amphibian diversity is primarily derived from late Miocene Andean lineages",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Santos",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "PLoS Biol",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Santos JC, et al. (2009) Amazonian amphibian diversity is primarily derived from late Miocene Andean lineages. PLoS Biol 7:e56.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Tracing the impact of the Andean uplift on Neotropical plant evolution",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Antonelli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Jaa",
+                        "middle": [],
+                        "last": "Nylander",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Persson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Sanmart\u00edn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "106",
+                "issue": "",
+                "pages": "9749--9754",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Antonelli A, Nylander JAA, Persson C, Sanmart\u00edn I (2009) Tracing the impact of the Andean uplift on Neotropical plant evolution. Proc Natl Acad Sci USA 106:9749-9754.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Evolution into and out of the Andes: A Bayesian analysis of historical diversification in Thamnophilus antshrikes",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Brumfield",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Edwards",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Evolution",
+                "volume": "61",
+                "issue": "",
+                "pages": "346--367",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brumfield RT, Edwards SV (2007) Evolution into and out of the Andes: A Bayesian analysis of historical diversification in Thamnophilus antshrikes. Evolution 61: 346-367.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Evolution of endemism on a young tropical mountain",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Merckx",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Nature",
+                "volume": "524",
+                "issue": "",
+                "pages": "347--350",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Merckx VS, et al. (2015) Evolution of endemism on a young tropical mountain. Nature 524:347-350.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Three keys to the radiation of angiosperms into freezing environments",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Zanne",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Nature",
+                "volume": "506",
+                "issue": "",
+                "pages": "89--92",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zanne AE, et al. (2014) Three keys to the radiation of angiosperms into freezing environments. Nature 506:89-92.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Terrestrial ecoregions of the world: A new map of life on earth: A new global map of terrestrial ecoregions provides an innovative tool for conserving biodiversity",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Olson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Bioscience",
+                "volume": "51",
+                "issue": "",
+                "pages": "933--938",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Olson DM, et al. (2001) Terrestrial ecoregions of the world: A new map of life on earth: A new global map of terrestrial ecoregions provides an innovative tool for conserving biodiversity. Bioscience 51:933-938.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Filter-dispersal assembly of lowland Neotropical rainforests across the Andes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Bemmels",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Ecography",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/ecog.03473"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Bemmels JB, et al. (March 12, 2018) Filter-dispersal assembly of lowland Neotropical rainforests across the Andes. Ecography, 10.1111/ecog.03473.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Widespread sampling biases in herbaria revealed from largescale digitization",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Daru",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "New Phytol",
+                "volume": "217",
+                "issue": "",
+                "pages": "939--955",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Daru BH, et al. (2018) Widespread sampling biases in herbaria revealed from large- scale digitization. New Phytol 217:939-955.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Multidimensional biases, gaps and uncertainties in global plant occurrence information",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Meyer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Weigelt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Kreft",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Ecol Lett",
+                "volume": "19",
+                "issue": "",
+                "pages": "992--1006",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Meyer C, Weigelt P, Kreft H (2016) Multidimensional biases, gaps and uncertainties in global plant occurrence information. Ecol Lett 19:992-1006.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "SpeciesGeoCoder: Fast categorization of species occurrences for analyses of biodiversity, biogeography, ecology and evolution",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "T\u00f6pel",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Syst Biol",
+                "volume": "66",
+                "issue": "",
+                "pages": "145--151",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "T\u00f6pel M, et al. (2017) SpeciesGeoCoder: Fast categorization of species occurrences for analyses of biodiversity, biogeography, ecology and evolution. Syst Biol 66: 145-151.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Diversification of the Amazonian flora and its relation to key geological and environmental events: A molecular perspective",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Pennington",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Dick",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Amazonia, Landscape and Species Evolution",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pennington RT, Dick CW (2010) Diversification of the Amazonian flora and its relation to key geological and environmental events: A molecular perspective. Amazonia, Landscape and Species Evolution (Blackwell, Oxford).",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "A likelihood framework for inferring the evolution of geographic range on phylogenetic trees",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Ree",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Moore",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Webb",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Donoghue",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Evolution",
+                "volume": "59",
+                "issue": "",
+                "pages": "2299--2311",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ree RH, Moore BR, Webb CO, Donoghue MJ (2005) A likelihood framework for inferring the evolution of geographic range on phylogenetic trees. Evolution 59:2299-2311.",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Probabilistic historical biogeography: New models for founder-event speciation, imperfect detection, and fossils allow improved accuracy and modeltesting",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Matzke",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Front Biogeogr",
+                "volume": "26",
+                "issue": "",
+                "pages": "242--248",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Matzke N (2013) Probabilistic historical biogeography: New models for founder-event speciation, imperfect detection, and fossils allow improved accuracy and model- testing. Front Biogeogr 26:242-248.",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "A rich fossil record yields calibrated phylogeny for Acanthaceae (Lamiales) and evidence for marked biases in timing and directionality of intercontinental disjunctions",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Tripp",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Mcdade",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Syst Biol",
+                "volume": "63",
+                "issue": "",
+                "pages": "660--684",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tripp EA, McDade LA (2014) A rich fossil record yields calibrated phylogeny for Acanthaceae (Lamiales) and evidence for marked biases in timing and directionality of intercontinental disjunctions. Syst Biol 63:660-684.",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "qgraph: Network visualizations of relationships in psychometric data",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Epskamp",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Cramer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Waldorp",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Schmittmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Borsboom",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "J Stat Softw",
+                "volume": "48",
+                "issue": "",
+                "pages": "1--18",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Epskamp S, Cramer AO, Waldorp LJ, Schmittmann VD, Borsboom D (2012) qgraph: Network visualizations of relationships in psychometric data. J Stat Softw 48:1-18.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "uris": null,
+                "num": null,
+                "text": "Our analytical pipeline identified 214 predominantly Neotropical clades including 4,450 species. These comprised 104 clades of flowering plants or angiosperms (2,114 spp; representing 46.7% of the total number of species in the utilized phylogenies), four clades of ferns (53 spp; 1.16%), 54 of birds (1,237 spp; 27.5%), 11 of frogs (155 spp; 4.13%), 13 of mammals (359 spp; 8.23%), and 28 of squamates, which comprised lizards, snakes, and worm lizards or amphisbaenians (532 spp; 12.24%). All species in all phylogenies were coded as present or absent in 10 Neotropical regions (Fig. 1): two predominantly forested/wet regions (Amazonia and Atlantic Forests), six predominantly open/dry regions, at least seasonally (Andean Grasslands, Caatinga, Cerrado and Chaco, Dry Northern South America, Dry Western South America, and Patagonian Steppe), and two regions comprising a mixture of these two major biome types (Mesoamerica and West Indies; SI Appendix, Figs. S3-S8 and",
+                "type_str": "figure"
+            },
+            "FIGREF1": {
+                "uris": null,
+                "num": null,
+                "text": "Neotropical regions used in the biogeographic analyses, grouped by major biome type and plotted together with the abbreviations used for subsequent analyses. These regions are derived from the classification of terrestrial biomes and ecoregions by Olson et al.(48), but adapted to differentiate disjunct biomes and to simplify the complexity in Mesoamerica and the West Indies, which comprise both forested and open habitats.",
+                "type_str": "figure"
+            },
+            "FIGREF3": {
+                "uris": null,
+                "num": null,
+                "text": "(A) Biotic interchange among Neotropical regions estimated from dated molecular phylogenies, comprising 4,450 species in six taxonomic groups (angiosperms, birds, ferns, frogs, mammals, squamates). Arrows indicate the direction and number of dispersal events, with line thickness proportional to the number of events. Only connections with more than 10 events are shown (see SI Appendix, Tables S5 and S6for a full list). The position of the circles in the layout reflects the biotic connection among regions, as calculated by a force-directed placement algorithm implemented in the R package qgraph (56). Dispersal events out of Amazonia are highlighted in red. The color of the circles corresponds to those in Fig. 1. AGL, Andean Grasslands; AMA, Amazonia; ATF, Atlantic Forests; CAA, Caatinga; CEC, Cerrado and Chaco; DNO, Dry Northern South America; DWE, Dry Western South America; Mes, Mesoamerica; PAS, Patagonian Steppe; WIN, West Indies. (B) Number of nonambiguous dispersal events associated with shifts in major biome types compared with shifts to other regions within the same biome type. Shifts involving Mesoamerica and the West Indies are considered ambiguous (n = 2,068; SI Appendix,Table S6).",
+                "type_str": "figure"
+            },
+            "FIGREF4": {
+                "uris": null,
+                "num": null,
+                "text": "Clade-specific lineage interchange among Neotropical regions, using the same color scheme and methodology as inFig. 2. Fern image courtesy of Pixabay/Geralt. Flower image courtesy of Pixabay/821292. Animal images courtesy of Malin Laggren. Taxon-specific interchange between Amazonia and (A) Mesoamerica, (B) Cerrado and Chado, (C) Andean Grasslands, and (D) Atlantic Forests throughout the Cenozoic (older events are pruned from the figure but included in the total calculation of events). Dispersal rates are normalized in relation to the number of available lineages in each phylogeny. Age in millions of years ago (Ma).",
+                "type_str": "figure"
+            },
+            "FIGREF5": {
+                "uris": null,
+                "num": null,
+                "text": "Relationship between the number of dispersal events out of a region (emigration) and into a region (immigration), and predictor variables. (A and B) Regression coefficients of a Bayesian multiple linear mixed effects model calculated based on all regions and clades. (C-E) Partial fit of the number of dispersal events for area and cumulative branch length, calculated for all regions and clades except ferns and frogs. The fitted lines show the posterior mean predicted values from the same model, assuming average values for all other predictors, whereas the points show the raw data. Shaded lines show 95% credible intervals. Dispersal events into or out of Amazonia are shown in red.",
+                "type_str": "figure"
+            },
+            "TABREF0": {
+                "num": null,
+                "text": "Regional sources of Neotropical biodiversity",
+                "type_str": "table",
+                "content": "<table><tr><td>Rank</td><td>Region</td><td>Unconstrained</td><td>Stratified</td></tr><tr><td>1</td><td>Amazonia</td><td>2,855</td><td>3,674</td></tr><tr><td>2</td><td>Mesoamerica</td><td>615</td><td>28</td></tr><tr><td>3</td><td>Cerrado and Chaco</td><td>455</td><td>860</td></tr><tr><td>4</td><td>Atlantic Forests</td><td>296</td><td>303</td></tr><tr><td>5</td><td>Andean Grasslands</td><td>105</td><td>11</td></tr><tr><td>6</td><td>Patagonian Steppe</td><td>81</td><td>78</td></tr><tr><td>7</td><td>West Indies</td><td>65</td><td>249</td></tr><tr><td>8</td><td>Dry Northern South</td><td>31</td><td>396</td></tr><tr><td/><td>America</td><td/><td/></tr><tr><td>9</td><td>Caatinga</td><td>12</td><td>85</td></tr><tr><td>10</td><td>Dry Western South</td><td>10</td><td>134</td></tr><tr><td/><td>America</td><td/><td/></tr></table>"
+            },
+            "TABREF1": {
+                "num": null,
+                "text": "Sinks of Neotropical biodiversity",
+                "type_str": "table",
+                "content": "<table><tr><td>Rank</td><td>Region</td><td>Unconstrained</td><td>Stratified</td></tr><tr><td>1</td><td>Mesoamerica</td><td>788</td><td>1,756</td></tr><tr><td>2</td><td>Dry Northern South</td><td>771</td><td>772</td></tr><tr><td/><td>America</td><td/><td/></tr><tr><td>3</td><td>Cerrado and Chaco</td><td>766</td><td>806</td></tr><tr><td>4</td><td>Atlantic Forests</td><td>661</td><td>723</td></tr><tr><td>5</td><td>Amazonia</td><td>494</td><td>458</td></tr><tr><td>6</td><td>Andean Grasslands</td><td>298</td><td>509</td></tr><tr><td>7</td><td>Patagonian Steppe</td><td>210</td><td>224</td></tr><tr><td>8</td><td>West Indies</td><td>201</td><td>213</td></tr><tr><td>9</td><td>Caatinga</td><td>199</td><td>202</td></tr><tr><td>10</td><td>Dry Western South</td><td>137</td><td>155</td></tr><tr><td/><td>America</td><td/><td/></tr></table>"
+            }
+        }
+    }
+}

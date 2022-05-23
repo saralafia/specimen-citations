@@ -1,0 +1,3619 @@
+{
+    "paper_id": "Williamsetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:38:18.829254Z"
+    },
+    "title": "Human-dominated land uses favour species affiliated with more extreme climates, especially in the tropics",
+    "authors": [
+        {
+            "first": "Miguel",
+            "middle": [],
+            "last": "Ara\u00fajo",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "Centre for Biodiversity and Environment Research",
+                "institution": "Univ. College London",
+                "location": {
+                    "postCode": "0000-0002-0198-4537",
+                    "settlement": "London",
+                    "country": "UK. -A"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Jessica",
+            "middle": [
+                "J"
+            ],
+            "last": "Williams",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Memorial Univ. of Newfoundland",
+                "location": {
+                    "settlement": "St John's",
+                    "region": "NL",
+                    "country": "Canada"
+                }
+            },
+            "email": "jessica.williams.16@ucl.ac.uk"
+        },
+        {
+            "first": "Amanda",
+            "middle": [
+                "E"
+            ],
+            "last": "Bates",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Memorial Univ. of Newfoundland",
+                "location": {
+                    "settlement": "St John's",
+                    "region": "NL",
+                    "country": "Canada"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Tim",
+            "middle": [],
+            "last": "Newbold",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Memorial Univ. of Newfoundland",
+                "location": {
+                    "settlement": "St John's",
+                    "region": "NL",
+                    "country": "Canada"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Rapid human population growth has driven conversion of land for uses such as agriculture, transportation and buildings. The removal of natural vegetation changes local climate, with human-dominated land uses often warmer and drier than natural habitats. Yet, it remains an open question whether land-use changes influence the composition of ecological assemblages in a direction consistent with the mechanism of local climatic change. Here, we used a global database of terrestrial vertebrates (mammals, birds, reptiles and amphibians) to test whether human-dominated land uses systematically favour species with distinctive realised climatic niches. We 1) explored the responses of community-average temperature and precipitation niches to different types of land use, 2) quantified the abundances of species with distinctive climatic niches across land uses and 3) tested for differences in emergent patterns in communities from tropical versus temperate latitudes. We found that, in comparison to species from undisturbed natural habitats, the average animal found in human-altered habitats lives in areas with higher maximum and lower minimum temperatures and higher maximum and lower minimum precipitation levels. We further found that tropical assemblages diverged more strongly than temperate assemblages between natural and human-altered habitats, possibly because tropical species are more sensitive to climatic conditions. These results strongly implicate the role of land-use change in favouring species affiliated with more extreme climatic conditions, thus systematically reshaping the composition of terrestrial biological assemblages. Our findings have the potential to inform species' vulnerability assessments and highlight the importance of preserving local climate refugia.",
+    "pdf_parse": {
+        "paper_id": "Williamsetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Rapid human population growth has driven conversion of land for uses such as agriculture, transportation and buildings. The removal of natural vegetation changes local climate, with human-dominated land uses often warmer and drier than natural habitats. Yet, it remains an open question whether land-use changes influence the composition of ecological assemblages in a direction consistent with the mechanism of local climatic change. Here, we used a global database of terrestrial vertebrates (mammals, birds, reptiles and amphibians) to test whether human-dominated land uses systematically favour species with distinctive realised climatic niches. We 1) explored the responses of community-average temperature and precipitation niches to different types of land use, 2) quantified the abundances of species with distinctive climatic niches across land uses and 3) tested for differences in emergent patterns in communities from tropical versus temperate latitudes. We found that, in comparison to species from undisturbed natural habitats, the average animal found in human-altered habitats lives in areas with higher maximum and lower minimum temperatures and higher maximum and lower minimum precipitation levels. We further found that tropical assemblages diverged more strongly than temperate assemblages between natural and human-altered habitats, possibly because tropical species are more sensitive to climatic conditions. These results strongly implicate the role of land-use change in favouring species affiliated with more extreme climatic conditions, thus systematically reshaping the composition of terrestrial biological assemblages. Our findings have the potential to inform species' vulnerability assessments and highlight the importance of preserving local climate refugia.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Human modification of the Earth's land surface has accelerated over the last half century, leading to rapid ecosystem change over increasingly large spatial extents (Meyer and Turner II 1992 , Millennium Ecosystem Assessment 2005 , Steffen et al. 2015 . It is well recognised that land-use change is reshaping biodiversity (Millennium Ecosystem Assessment 2005 , Pereira et al. 2012 . Identifying the key mechanisms linking land-use change to shifts in biological assemblages will support predictions of species loss and the impacts of future land conversions, and ultimately the development of more sustainable benefits to humans from ecosystems (Foley et al. 2005 , Haines-Young 2009 , van Vuuren et al. 2012 , Titeux et al. 2017 .",
+                "cite_spans": [
+                    {
+                        "start": 165,
+                        "end": 190,
+                        "text": "(Meyer and Turner II 1992",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 191,
+                        "end": 229,
+                        "text": ", Millennium Ecosystem Assessment 2005",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 230,
+                        "end": 251,
+                        "text": ", Steffen et al. 2015",
+                        "ref_id": "BIBREF76"
+                    },
+                    {
+                        "start": 323,
+                        "end": 360,
+                        "text": "(Millennium Ecosystem Assessment 2005",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 361,
+                        "end": 382,
+                        "text": ", Pereira et al. 2012",
+                        "ref_id": "BIBREF67"
+                    },
+                    {
+                        "start": 647,
+                        "end": 665,
+                        "text": "(Foley et al. 2005",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 666,
+                        "end": 685,
+                        "text": ", Haines-Young 2009",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 686,
+                        "end": 710,
+                        "text": ", van Vuuren et al. 2012",
+                        "ref_id": "BIBREF80"
+                    },
+                    {
+                        "start": 711,
+                        "end": 731,
+                        "text": ", Titeux et al. 2017",
+                        "ref_id": "BIBREF79"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "While land-use change directly alters the available habitat for species (Millennium Ecosystem Assessment 2005) , removing primary vegetation can also lead to local climatic changes (Frishkoff et al. 2016) . The temperature regimes of croplands, pastures and (to a lesser extent) plantation forests differ from primary forests, with increases in temperature often reported (Senior et al. 2017) . Forest canopies can also buffer temperature extremes (Ewers and Banks-Leite 2013) , with both increases in maximum temperatures (hot extremes) and slight decreases in minimum temperatures (cold extremes) recorded in non-forested human-disturbed habitats, such as agricultural areas (Alkama and Cescatti 2016, De Frenne et al. 2019) . Along with a local warming effect, the variability in temperature extremes differs between land uses; for example, day-to-day maximum temperatures are more variable and thus less predictable in pastures compared to forested habitats (Frishkoff et al. 2015) . Further, disturbed habitats may offer fewer microhabitat refugia compared to primary vegetation (Gonz\u00e1lez del Pliego et al. 2016) . Water regimes may also differ among land uses, with the removal of vegetation reducing precipitation levels and moisture feedback into the atmosphere (Savenije 1995 , Sampaio et al. 2007 . Overall, human-altered habitats tend to be hotter and drier than natural, more vegetated habitats (Britter and Hanna 2003 , Frishkoff et al. 2016 , Senior et al. 2017 . These localised climatic changes are expected to shift the types of species that can colonise and survive under altered environmental conditions (Frishkoff et al. 2016 , Nowakowski et al. 2018 .",
+                "cite_spans": [
+                    {
+                        "start": 72,
+                        "end": 110,
+                        "text": "(Millennium Ecosystem Assessment 2005)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 181,
+                        "end": 204,
+                        "text": "(Frishkoff et al. 2016)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 372,
+                        "end": 392,
+                        "text": "(Senior et al. 2017)",
+                        "ref_id": "BIBREF75"
+                    },
+                    {
+                        "start": 448,
+                        "end": 476,
+                        "text": "(Ewers and Banks-Leite 2013)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 677,
+                        "end": 688,
+                        "text": "(Alkama and",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 689,
+                        "end": 726,
+                        "text": "Cescatti 2016, De Frenne et al. 2019)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 962,
+                        "end": 985,
+                        "text": "(Frishkoff et al. 2015)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1084,
+                        "end": 1117,
+                        "text": "(Gonz\u00e1lez del Pliego et al. 2016)",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 1270,
+                        "end": 1284,
+                        "text": "(Savenije 1995",
+                        "ref_id": "BIBREF74"
+                    },
+                    {
+                        "start": 1285,
+                        "end": 1306,
+                        "text": ", Sampaio et al. 2007",
+                        "ref_id": "BIBREF73"
+                    },
+                    {
+                        "start": 1407,
+                        "end": 1430,
+                        "text": "(Britter and Hanna 2003",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 1431,
+                        "end": 1454,
+                        "text": ", Frishkoff et al. 2016",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1455,
+                        "end": 1475,
+                        "text": ", Senior et al. 2017",
+                        "ref_id": "BIBREF75"
+                    },
+                    {
+                        "start": 1623,
+                        "end": 1645,
+                        "text": "(Frishkoff et al. 2016",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1646,
+                        "end": 1670,
+                        "text": ", Nowakowski et al. 2018",
+                        "ref_id": "BIBREF61"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Tracking climate-related change for entire biological assemblages has been achieved by quantifying shifts in the climatic niches of species found in particular locations (Devictor et al. 2008 , Barnagaud et al. 2013 , Frishkoff et al. 2015 . Here, climatic niches are referring to the climatic dimensions of a species' classic niche sensu Hutchinson (Hutchinson 1957 ). Species' tolerance limits (fundamental climatic niches) have typically been measured using physiological tolerance assays in the laboratory (Frishkoff et al. 2015) . Such tolerance assays provide estimates of climatic tolerance limits in the absence of other environmental factors -although only for species that can survive in artificial laboratory conditions -and return thresholds that may be decoupled from population shifts in nature (Mitchell et al. 2018) . By contrast, realised climatic niches (the range of environmental conditions occupied in nature; HilleRisLambers et al. 2013) are estimated from observed species' distributions (Barnagaud et al. 2013) . Realised niches are also influenced by non-abiotic factors and consequently may not capture species' true climatic limits (Ara\u00fajo et al. 2013 , HilleRisLambers et al. 2013 . For example, species' realised climatic niches may also partially be a product of the spatial (and thus climatic) distribution of their critical habitats (Barnagaud et al. 2012 (Barnagaud et al. , 2013 . However, realised niches are often the only feasible measures of climatic tolerances for the majority of species. The combination of realised climatic niche estimates with species assemblage data has emerged as a key tool to quantify the effects of climatic changes on the composition of whole assemblages (Oliver et al. 2017) .",
+                "cite_spans": [
+                    {
+                        "start": 170,
+                        "end": 191,
+                        "text": "(Devictor et al. 2008",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 192,
+                        "end": 215,
+                        "text": ", Barnagaud et al. 2013",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 216,
+                        "end": 239,
+                        "text": ", Frishkoff et al. 2015",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 350,
+                        "end": 366,
+                        "text": "(Hutchinson 1957",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 510,
+                        "end": 533,
+                        "text": "(Frishkoff et al. 2015)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 809,
+                        "end": 831,
+                        "text": "(Mitchell et al. 2018)",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 1011,
+                        "end": 1034,
+                        "text": "(Barnagaud et al. 2013)",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 1159,
+                        "end": 1178,
+                        "text": "(Ara\u00fajo et al. 2013",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 1179,
+                        "end": 1208,
+                        "text": ", HilleRisLambers et al. 2013",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1365,
+                        "end": 1387,
+                        "text": "(Barnagaud et al. 2012",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 1388,
+                        "end": 1412,
+                        "text": "(Barnagaud et al. , 2013",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 1721,
+                        "end": 1741,
+                        "text": "(Oliver et al. 2017)",
+                        "ref_id": "BIBREF64"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "A few studies have started to explore whether local changes in environmental conditions are driving systematic changes in ecological assemblage composition. Lower forest cover and deforestation of primary forest to non-forest land uses have been shown to favour vertebrate species inhabiting (realised niche) or tolerant of (fundamental niche) warmer conditions (when comparing both average and maximum temperatures; e.g. French birds, Barnagaud et al. 2013; Costa Rican and Columbian ectothermic vertebrates, Frishkoff et al. 2015, Nowakowski et al. 2018) . Vegetation removal can also select species relatively tolerant of drier climates, and thus with drier realised precipitation niches (e.g. Costa Rican birds, Frishkoff et al. 2016; insects, Menke et al. 2011 , Piano et al. 2017 . Animals in human-altered sites may also have to be tolerant of greater climatic variation, due to changes in vegetation structure, subsequent potential loss of climate-buffering microhabitats and greater variation in temperatures in some human-disturbed land uses compared to natural habitats (Frishkoff et al. 2015 , Gonz\u00e1lez del Pliego et al. 2016 . Indeed, the average breadth of climatic niches within species assemblages can be wider in urban compared to nonurban (rural or forest) assemblages (Barnagaud et al. 2012 , Piano et al. 2017 . Very few studies have considered how both maximum and minimum extremes of climatic conditions, and variability in exposure to extremes, may impact assemblages in disturbed habitats.",
+                "cite_spans": [
+                    {
+                        "start": 436,
+                        "end": 458,
+                        "text": "Barnagaud et al. 2013;",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 459,
+                        "end": 474,
+                        "text": "Costa Rican and",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 475,
+                        "end": 556,
+                        "text": "Columbian ectothermic vertebrates, Frishkoff et al. 2015, Nowakowski et al. 2018)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 716,
+                        "end": 738,
+                        "text": "Frishkoff et al. 2016;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 739,
+                        "end": 765,
+                        "text": "insects, Menke et al. 2011",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 766,
+                        "end": 785,
+                        "text": ", Piano et al. 2017",
+                        "ref_id": "BIBREF69"
+                    },
+                    {
+                        "start": 1081,
+                        "end": 1103,
+                        "text": "(Frishkoff et al. 2015",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1104,
+                        "end": 1137,
+                        "text": ", Gonz\u00e1lez del Pliego et al. 2016",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 1287,
+                        "end": 1309,
+                        "text": "(Barnagaud et al. 2012",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 1310,
+                        "end": 1329,
+                        "text": ", Piano et al. 2017",
+                        "ref_id": "BIBREF69"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "One key question is whether tropical and temperate assemblages will display similar responses to the altered climatic conditions in disturbed habitats. Evidence from a wide range of studies indicate that tropical species are more sensitive to climate and land-use change than their temperate counterparts, possibly because they have evolved in a climate that has been relatively stable since the Holocene (Janzen 1967 , Corlett 2011 , Newbold et al. 2016 , Pacifici et al. 2017 . Many species in the tropics are also exposed to temperatures that are closer to their upper thermal tolerance limits, leading to the expectation that tropical species will be relatively sensitive to warming and the removal of thermal refugia (Deutsch et al. 2008 , Khaliq et al. 2014 , Sunday et al. 2014 . Whether the effects of land use on the climatic niche properties of assemblages differ geographically has not previously been tested. We predict that there will be larger effects of land use on the climatic properties of assemblages at tropical compared to temperate latitudes.",
+                "cite_spans": [
+                    {
+                        "start": 405,
+                        "end": 417,
+                        "text": "(Janzen 1967",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 418,
+                        "end": 432,
+                        "text": ", Corlett 2011",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 433,
+                        "end": 454,
+                        "text": ", Newbold et al. 2016",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 455,
+                        "end": 477,
+                        "text": ", Pacifici et al. 2017",
+                        "ref_id": "BIBREF65"
+                    },
+                    {
+                        "start": 722,
+                        "end": 742,
+                        "text": "(Deutsch et al. 2008",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 743,
+                        "end": 763,
+                        "text": ", Khaliq et al. 2014",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 764,
+                        "end": 784,
+                        "text": ", Sunday et al. 2014",
+                        "ref_id": "BIBREF77"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "In this study, we test whether the local climatic changes associated with human-altered land uses lead to predictable changes in the structure of entire ecological assemblages. We take advantage of the global scope of our data to test the prediction that effects will be stronger at tropical compared to temperate latitudes. We also predict that human-altered habitats will host species able to tolerate a wider range of climatic conditions. Further, to attribute assemblage-level changes to the contributions of different species, we investigate whether the abundances of species with different climatic niches vary systematically with land use. We predicte that species affiliated with warmer-than-average temperatures, drier-than-average precipitation levels and greater-than-average range-wide variation in both temperature and precipitation conditions will be the least negatively affected by human-altered habitats.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Data representing the assemblage composition of terrestrial vertebrates in different land uses were acquired from the PREDICTS (Projecting Responses of Ecological Diversity In Changing Terrestrial Systems) Project database (Hudson et al. 2016 (Hudson et al. , 2017 . The PREDICTS database combines data from studies worldwide that compared ecological assemblages under different levels of land use (Hudson et al. 2014) . We focus on terrestrial vertebrates because there is reasonably comprehensive species distribution information available for these taxa, which makes the estimation of their realised climatic niches possible. The subset of PREDICTS data that have abundance records for vertebrate assemblages are from 146 studies (6948 assemblages), representing 4147 species (527 mammals, 2941 birds, 317 reptiles and 362 amphibians). The PREDICTS Project database is hierarchically structured: it consists of data from original source publications, each containing one or more studies (studies within a single source are divided if sampling methods differ), which may themselves be split into spatial blocks of individual sampled sites (publication > study > block > site; Hudson et al. 2014) .",
+                "cite_spans": [
+                    {
+                        "start": 223,
+                        "end": 242,
+                        "text": "(Hudson et al. 2016",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 243,
+                        "end": 264,
+                        "text": "(Hudson et al. , 2017",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 398,
+                        "end": 418,
+                        "text": "(Hudson et al. 2014)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 1178,
+                        "end": 1197,
+                        "text": "Hudson et al. 2014)",
+                        "ref_id": "BIBREF35"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abundance and land use data",
+                "sec_num": null
+            },
+            {
+                "text": "The PREDICTS Project team assigned a predominant land-use category to each site within each study, based on the description of the habitat given in the original source publication, classified against a detailed set of criteria (Hudson et al. 2014 , Supplementary material Appendix 1 Table A1 ). Land-use categories considered in the present study were: 1) primary vegetation (natural vegetation, no evidence of past destruction), secondary vegetation (natural vegetation recovering from destruction), split into two groups, 2) young secondary vegetation (sites that have not had long to recover) and 3) advanced secondary vegetation (included intermediate and mature secondary vegetation from the PREDICTS Project database i.e. sites that have been recovering for longer), 4) plantations (e.g. timber/fruit/coffee/ oil-palm or rubber plantations), 5) croplands (areas used to cultivate herbaceous crops, including for animal feed) and 6) pastures (land on which livestock are grazed). Even though the land-use classification is coarse and somewhat subjective, a repeatability study showed classifications to be reasonably consistent (reported in Hudson et al. 2014) .",
+                "cite_spans": [
+                    {
+                        "start": 227,
+                        "end": 246,
+                        "text": "(Hudson et al. 2014",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 1146,
+                        "end": 1165,
+                        "text": "Hudson et al. 2014)",
+                        "ref_id": "BIBREF35"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 283,
+                        "end": 291,
+                        "text": "Table A1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Abundance and land use data",
+                "sec_num": null
+            },
+            {
+                "text": "Species' distributions (extent of occurrence maps) were used to estimate species' realised climatic niches (from here referred to as 'climatic niches'). The extent of occurrence maps for terrestrial mammals, amphibians and reptiles were acquired from the International Union for Conservation of Nature (IUCN 2016) and for birds from BirdLife International (2012). Since we were interested in the full extent of species' natural ranges, we included all parts of the geographic range where the species occurrence status was considered to be extant, probably extant, possibly extinct or extinct (post 1500); and we included areas where the species is thought to be resident or present in the breeding or non-breeding seasons. Specifically, we excluded areas where the species is possibly extant, its presence is uncertain or is vagrant, and areas that are used for relatively short periods of the year as passages during migration or if the seasonal occurrence is uncertain. The range maps for birds followed the same coding scheme as those provided by IUCN. The original polygon maps were rasterised to an equal-area grid (500 \u00d7 500 m per pixel; WGS 1984 Cylindrical Equal Area projection). We selected this resolution as a compromise between the computational limitations of small spatial grains and the need to include as many very-narrow-ranged species as possible. For species with known elevational limits (number of species with only upper limit known = 2264, lower limit known = 9, both limits known = 694; IUCN 2016, BirdLife International 2018), distribution maps were cut by these limits (which is standard practice when estimating species' extent-of-occurrence; Jetz et al. 2007) .",
+                "cite_spans": [
+                    {
+                        "start": 1671,
+                        "end": 1688,
+                        "text": "Jetz et al. 2007)",
+                        "ref_id": "BIBREF41"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Distribution data",
+                "sec_num": null
+            },
+            {
+                "text": "We required data for a wide range of species over the global terrestrial area, for which no better maps exist (Herkt et al. 2017) . Our analyses (which did not predict into unsampled space or time) required a quantitative estimate of the relative (across species) means and range-wide variation in climatic conditions with which each species was affiliated. Expert drawn species distribution maps tend to underestimate species' extent-of-occurrence, but overestimate species occupancy (Herkt et al. 2017 ). Therefore, we tested the robustness of our realised climatic niche estimates by comparing our main results to results using climatic niches derived from occurrence records in the Global Biodiversity Information Facility (GBIF, < www.gbif.org >), which provides information on area of occupancy (see Supplementary material Appendix 2 for details on how we acquired realised niche estimates from GBIF data). Since GBIF occurrence records have strong geographic and taxonomic biases (Meyer et al. 2015) , we focus on the results using the IUCN and BirdLife International maps in the main text.",
+                "cite_spans": [
+                    {
+                        "start": 110,
+                        "end": 129,
+                        "text": "(Herkt et al. 2017)",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 485,
+                        "end": 503,
+                        "text": "(Herkt et al. 2017",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 987,
+                        "end": 1006,
+                        "text": "(Meyer et al. 2015)",
+                        "ref_id": "BIBREF51"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Distribution data",
+                "sec_num": null
+            },
+            {
+                "text": "We acquired estimates of climate from WorldClim ver. 1.4 (Hijmans et al. 2005) , at a 30-arc-second resolution (0.86 km 2 at the equator). These estimates represent averages for the period 1960-1990. The raw estimates were resampled to a 500-m equal-area projection (WGS 1984 Cylindrical Equal Area) using bilinear interpolation to match species' distribution data, following previous studies (Khaliq et al. 2017 . In our analysis, we focused on four climatic variables: maximum temperature of the hottest month (T max ), minimum temperature of the coldest month (T min ) and precipitation of the wettest (Pp max ) and driest (Pp min ) months. Variables describing climatic extremes are suggested to be more appropriate than averages for explaining species' distribution and responses to environmental pressures (Zimmermann et al. 2009 , Ara\u00fajo et al. 2011 , Mantyka-Pringle et al. 2012 .",
+                "cite_spans": [
+                    {
+                        "start": 57,
+                        "end": 78,
+                        "text": "(Hijmans et al. 2005)",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 393,
+                        "end": 412,
+                        "text": "(Khaliq et al. 2017",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 812,
+                        "end": 835,
+                        "text": "(Zimmermann et al. 2009",
+                        "ref_id": "BIBREF84"
+                    },
+                    {
+                        "start": 836,
+                        "end": 856,
+                        "text": ", Ara\u00fajo et al. 2011",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 857,
+                        "end": 886,
+                        "text": ", Mantyka-Pringle et al. 2012",
+                        "ref_id": "BIBREF46"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Climatic data",
+                "sec_num": null
+            },
+            {
+                "text": "We quantified the extremes and variation across species' distributions of each of the four climatic variables. We did this by overlaying distribution maps onto climate data and calculating the maximum (for T max and Pp max ) or minimum (for T min and Pp min ) and standard deviation (Frishkoff et al. 2016) of each climatic variable for each species (ArcGIS 10.4; ESRI 2015). We use the term 'range-wide variation' to reflect the breadth of recorded climatic extremes across a species' distribution. Estimates of climatic niche properties were available for 3606 species (448 mammals, 2709 birds, 121 reptiles and 328 amphibians), from 6123 assemblages (140 studies across 47 countries, see Supplementary material Appendix 3 Fig.  A4 , Table A3 for the spatial extent sampled). Consequently, for each species we calculated eight climatic niche properties: their T max maximum value and range-wide variation, T min minimum value and range-wide variation, Pp max maximum value and range-wide variation and Pp min minimum value and range-wide variation.",
+                "cite_spans": [
+                    {
+                        "start": 283,
+                        "end": 306,
+                        "text": "(Frishkoff et al. 2016)",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 725,
+                        "end": 733,
+                        "text": "Fig.  A4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 736,
+                        "end": 744,
+                        "text": "Table A3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Species-level climatic niche",
+                "sec_num": null
+            },
+            {
+                "text": "For each species assemblage, we calculated community weighted means (CWMs) of species-level climatic extremes and range-wide variation for each climatic niche property. CWMs are calculated by finding the average of each species' climatic niche property across all species in an assemblage, weighted by species' abundance (Jiguet et al. 2011 , Oliver et al. 2017 . As an example, higher CWM values for maximum T max (denoted by CWM(maxT max )) signifies communities with higher proportions of individuals of species found in areas with relatively higher maximum temperatures. At the other end of the spectrum, lower CWM values for minimum T min (CWM(minT min )) reflects communities with higher proportions of individuals of species affiliated with lower minimum temperatures. We use CWM(maxPp max ) and CWM(minPp min ) to refer to the community weighted means for maximum Pp max and minimum Pp min , respectively. Similarly, communities with higher CWM T max range-wide variation are composed of higher proportions of individuals of species that occupy areas experiencing a larger range of maximum temperatures. Further, we produced CWMs unweighted by species abundance (i.e. average for a species within a community, Supplementary material Appendix 4) to check that weighting by abundance did not affect our results. We also calculated the correlations between the community-average climatic niche properties to see whether changes in these properties across land uses may be linked (Supplementary material Appendix 5). In addition, to explore the potential influence of outliers on CWMs, we also a) produced community weighted medians (i.e. the median value of each species' climatic extreme and variation across all species in an assemblage, weighted by species' abundance), and b) produced CWMs after excluding the upper and lower 2.5% of species-level climatic extremes and range-wide variation values.",
+                "cite_spans": [
+                    {
+                        "start": 321,
+                        "end": 340,
+                        "text": "(Jiguet et al. 2011",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 341,
+                        "end": 361,
+                        "text": ", Oliver et al. 2017",
+                        "ref_id": "BIBREF64"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Community-level metrics",
+                "sec_num": null
+            },
+            {
+                "text": "Changes in community-level metrics allow us to gain an overall impression of changes in the structure of ecological assemblages. However, community change is multi-dimensional, and the same numerical responses can be underpinned by different responses of species with distinctive climatic niches, representing alternative mechanisms of change. For instance, having a greater proportion of individuals from species affiliated with warmer maximum temperatures and/ or fewer individuals from species affiliated with colder maximum temperatures could both contribute to higher CWM(maxT max ) values (Jiguet et al. 2011) . Whether a species has higher or lower abundances in certain land-use types also likely depends on the breadth of climatic conditions they are able to tolerate. Thus, we explored how differences in the abundance of species groups with different climatic niche properties contribute to changes in community-level properties. To do so, we investigated the response to land use of species with different climatic niches (climatic extremes and range-wide variation). For this analysis, due to the prediction that responses to land use will differ between geographic zones, assemblages at tropical and temperate latitudes were analysed separately. Species within each assemblage were split a) into four groups around the within-study medians of the T max maximum and range-wide variation and then, separately, b) into four groups based on Pp min minimum and range-wide variation (Supplementary material Appendix 6 Table A5, A6). We focused on T max and Pp min for this analysis because the differences in CWMs across land uses were strongest for these climatic variables.",
+                "cite_spans": [
+                    {
+                        "start": 595,
+                        "end": 615,
+                        "text": "(Jiguet et al. 2011)",
+                        "ref_id": "BIBREF42"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Community-level metrics",
+                "sec_num": null
+            },
+            {
+                "text": "Migratory species can move to avoid certain climatic conditions (Robinson et al. 2009) , which may bias our results. Therefore, we also compared community-average realised climatic niche properties with and without the inclusion of migratory birds (migratory status acquired from BirdLife International 2018).",
+                "cite_spans": [
+                    {
+                        "start": 64,
+                        "end": 86,
+                        "text": "(Robinson et al. 2009)",
+                        "ref_id": "BIBREF70"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Community-level metrics",
+                "sec_num": null
+            },
+            {
+                "text": "We considered three additional covariates that may influence community-level climatic metrics (Frishkoff et al. 2015) . In all models, we considered a site's 1) elevation and 2) climate (matching the variable used to calculate the CWM, e.g. T max for CWM(maxT max )). Measures of these two covariates from each site were acquired from WorldClim ver. 1.4 (Hijmans et al. 2005 ). Species' range size influences sensitivity to land use , an effect that may be independent of range-wide climatic variation, with which it is often strongly correlated (Supplementary material Appendix 7 Table A7 ). Therefore, we also considered 3) community-average range size as a potential covariate in models of CWM range-wide climatic variation. The community-average range sizes (community weighted means) were presented in and published alongside the paper (doi: 10.6084/ m9.figshare.7262732). The estimates were based on the same species' distribution maps as described above. The polygon maps were first projected onto an equal-area grid using the Project_management function, and the area of each polygon calculated using the CalculateAreas_stats function, in ArcGIS 10.4 (ESRI 2015). The areas of the polygons were then summed to estimate the total range area of each species, before a community weighted mean was calculated, weighted by abundance . CWM range sizes were unobtainable for 18.7% of assemblages, so these assemblages were excluded in range-wide climatic variation analyses, leaving 4977 assemblages composed of 3415 species (394 mammals, 2649 birds, 74 reptiles and 298 amphibians). Packages in R 3.4.0 (R Core Team) used for data-handling and geospatial operations included 'plyr' v.1.8.4 (Wickham 2011), 'raster' v.2.5.8 (Hijmans 2016), 'rredlist' v.0.5.0 (Chamberlain 2018) and 'sp' v.1.2.5 (Pebesma and Bivand 2005, Bivand et al. 2013) .",
+                "cite_spans": [
+                    {
+                        "start": 94,
+                        "end": 117,
+                        "text": "(Frishkoff et al. 2015)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 354,
+                        "end": 374,
+                        "text": "(Hijmans et al. 2005",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 1796,
+                        "end": 1808,
+                        "text": "(Pebesma and",
+                        "ref_id": "BIBREF66"
+                    },
+                    {
+                        "start": 1809,
+                        "end": 1841,
+                        "text": "Bivand 2005, Bivand et al. 2013)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 581,
+                        "end": 589,
+                        "text": "Table A7",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Covariates",
+                "sec_num": null
+            },
+            {
+                "text": "We used linear mixed-effects models to test for differences across land uses in 1) community-average climatic extremes, 2) community-average range-wide climatic variation (Table 1) and 3) abundances of species groups with different climatic niches. Models were produced in R 3.4.0 (R Core Team), using the package 'lme4' v.1.1.17 (Bates et al. 2015 ). Below we explain which fixed effects, random effects and covariates were included in each model (see Table 2 for further details).",
+                "cite_spans": [
+                    {
+                        "start": 330,
+                        "end": 348,
+                        "text": "(Bates et al. 2015",
+                        "ref_id": "BIBREF6"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 171,
+                        "end": 180,
+                        "text": "(Table 1)",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 453,
+                        "end": 460,
+                        "text": "Table 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Statistical analyses",
+                "sec_num": null
+            },
+            {
+                "text": "To explore how community-average climatic niches differed across land uses, we produced a set of eight models (one model for each climatic niche property: CWM(maxT max ), CWM(minT min ), CWM(maxPp max ), CWM(minPp min ), CWM range-wide variation in T max/min , Pp max/min ). We log(x + 1) transformed CWM(maxPp max ) and CWM(minPp min ). We selected fixed effects using backwards stepwise model simplification (with the models fitted using maximum likelihood; Zuur et al. 2009) . Land use, geographic zone (tropical or temperate), and the interaction of zone with land use were always included as categorical fixed effects. Sites were classified as 'Tropical' if located between 23.44\u00b0N and 23.44\u00b0S, and 'Temperate' if located between the tropics and Arctic or Antarctic Circle (thus including boreal habitats between 50 and 60\u00b0N, as there were not enough data to classify them separately). The site's elevation and the value of the climatic variable in question at each site were added as continuous covariates into the backwards stepwise model simplification. We set a threshold for excluding correlated covariates at |r| > 0.5 (recommended for mixed-effects models by Harrison et al. 2018) ; if the correlation between elevation and the value of the climatic variable in question at each site were above this threshold, the climatic variable was kept preferentially, as it likely had a more direct influence on communities. For CWM range-wide climatic variation, we also included CWM range size ) as a continuous covariate into the backwards stepwise model simplification. Within all models we also included a nested random-intercept term for study identity (to account for non-random structure in the response data due to studydependent differences, e.g. sampling methods) and for the spatial 'blocks' of sampled sites within studies. We did not include random slopes in our models (i.e. to let the effect of land use vary across studies) due to convergence issues, which were likely caused by the unbalanced sampling of land uses among studies. However, despite the convergence issues, the results for models with random slopes (not shown) were quantitatively very similar. Further, CWMs may be prone to type I errors (Miller et al. 2019) ; so, for each CWM model, we also used a null model approach to further test the significance of our observed results. To produce null models, we randomly shuffled species-level climatic affiliations between species within each study (we randomised within studies because of the hierarchical structure and global spread of the PREDICTS dataset; Cornwell and Ackerly 2010, Yang et al. 2012) . For each CWM model, 999 randomisations were produced. We then compared our observed results to those produced from the null models using the randomised datasets, with results classed as significant if they were outside the lower 2.5th or upper 97.5th percentile of the null model (i.e. a two-tailed test).",
+                "cite_spans": [
+                    {
+                        "start": 460,
+                        "end": 477,
+                        "text": "Zuur et al. 2009)",
+                        "ref_id": "BIBREF85"
+                    },
+                    {
+                        "start": 1171,
+                        "end": 1192,
+                        "text": "Harrison et al. 2018)",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 2223,
+                        "end": 2243,
+                        "text": "(Miller et al. 2019)",
+                        "ref_id": "BIBREF54"
+                    },
+                    {
+                        "start": 2616,
+                        "end": 2633,
+                        "text": "Yang et al. 2012)",
+                        "ref_id": "BIBREF83"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Community-average climatic extremes and range-wide variation",
+                "sec_num": null
+            },
+            {
+                "text": "Ambient conditions affect endothermic and ectothermic vertebrates differently, due to their distinctive physiologies (Deutsch et al. 2008 , McNab 2012 , Frishkoff et al. 2016 , Senior et al. 2017 ; therefore, we also produced a separate set of models comparing the response to land use of community-average climatic niche properties for these two groups. The methods, results and a discussion of these analyses can be found in the Supplementary material Appendix 8 Table  A8 -A11, Fig. A6 .",
+                "cite_spans": [
+                    {
+                        "start": 117,
+                        "end": 137,
+                        "text": "(Deutsch et al. 2008",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 138,
+                        "end": 150,
+                        "text": ", McNab 2012",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 151,
+                        "end": 174,
+                        "text": ", Frishkoff et al. 2016",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 175,
+                        "end": 195,
+                        "text": ", Senior et al. 2017",
+                        "ref_id": "BIBREF75"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 465,
+                        "end": 474,
+                        "text": "Table  A8",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 481,
+                        "end": 488,
+                        "text": "Fig. A6",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Community-average climatic extremes and range-wide variation",
+                "sec_num": null
+            },
+            {
+                "text": "In our abundance models we log(x + 1) transformed the abundance measures. We chose this transformation because many different types of abundance measure (including non-integer measures) were included in the database, and so values did not conform to a Poisson distribution. Land use (categorical fixed effect), the site's elevation and the value of the climatic variable in question at each site (continuous fixed effects) were considered in a backwards stepwise model simplification as above (using the same method for excluding highly correlated covariates). As in the previous models, we included a nested random-intercept term for study identity and spatial block. In these models, advanced and young secondary vegetation categories were grouped to become 'secondary vegetation' to ensure all land-use categories had data for over 50 assemblages in each model. For all models, we tested the statistical significance of fixed effects using likelihood ratio tests (Zuur et al. 2009) . To test the main effects, we removed all interaction terms. For the models' final structures, see Supplementary material Appendix 9 Table A12 . We used Moran's I tests to check for spatial autocorrelation in the residuals of each individual study (Newbold et al. 2015) .",
+                "cite_spans": [
+                    {
+                        "start": 966,
+                        "end": 984,
+                        "text": "(Zuur et al. 2009)",
+                        "ref_id": "BIBREF85"
+                    },
+                    {
+                        "start": 1234,
+                        "end": 1255,
+                        "text": "(Newbold et al. 2015)",
+                        "ref_id": "BIBREF58"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1119,
+                        "end": 1128,
+                        "text": "Table A12",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Abundances of species groups with different climatic niches",
+                "sec_num": null
+            },
+            {
+                "text": "Species' climatic niches may also partially be a product of the spatial (and thus climatic) distribution of their critical habitats (Barnagaud et al. 2012 (Barnagaud et al. , 2013 . As a result, any observed differences in niche properties among land uses may simply reflect differences in the occurrence of habitat specialists (forest specialists in particular due to forest canopies buffering climatic extremes; De Frenne et al. 2019). To check whether this was the case, we explored the influence of habitat specialisation on climatic niche differences across land uses. We first compared species-level climatic niche properties with an index of species-level habitat breadth, and then compared specieslevel climatic niche properties between forest specialists and non forest-specialists (Supplementary material Appendix 10). Finally, we ran two sets of models to compare the responses to land use in community-average climatic metrics when forest specialist species were included and excluded from analyses. See Supplementary material Appendix 10 for further details of these tests.",
+                "cite_spans": [
+                    {
+                        "start": 132,
+                        "end": 154,
+                        "text": "(Barnagaud et al. 2012",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 155,
+                        "end": 179,
+                        "text": "(Barnagaud et al. , 2013",
+                        "ref_id": "BIBREF5"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Habitat specialisation",
+                "sec_num": null
+            },
+            {
+                "text": "Community-average climatic niche properties varied both across land uses and between geographic zones (Table 3 , Fig. 1) . In comparison to primary vegetation, assemblages in human-altered habitats were composed, on average, of species affiliated with higher maximum and lower minimum temperatures and higher maximum and lower minimum precipitation levels, and generally wider range-wide variation in T max (the effect of land use for all climatic niche properties, p < 0.001; Fig. 1 ). Differences in climatic niche properties of assemblages relative to primary vegetation were generally larger within the tropics (Fig. 1) . These results appear to be driven by human-disturbed land uses having both higher Table 2 . The fixed effects, covariates and random effects considered for each model (denoted by X). The response variables were either community-average (community weighted mean, CWM) climatic extremes (maximum or minimum) or range-wide variation in one of the climatic variables considered (maximum temperature of the hottest month, T max ; minimum temperature of the coldest month, T min ; precipitation of the wettest month, Pp max ; precipitation of the driest month, Pp min ), or the abundance of a species' group. Fixed effects included landuse type (LU; this effect was included in every model), geographic zone (GZ; tropical versus temperate latitudes) and the interaction between the two (LUxGZ). Covariates included a site's elevation (though this was excluded from models focused on T max ), the value of the climatic variable in question at the site (CV) and community-average range size (Range). The fixed effects and covariates were selected using backwards stepwise model simplification. The random effects included study identity (to account for differences between studies in sampling methods and response variables) and spatial block (to account for the spatial structure of sites sampled within each study).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 102,
+                        "end": 110,
+                        "text": "(Table 3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 113,
+                        "end": 120,
+                        "text": "Fig. 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 477,
+                        "end": 483,
+                        "text": "Fig. 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 615,
+                        "end": 623,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 708,
+                        "end": 715,
+                        "text": "Table 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Summary of results",
+                "sec_num": null
+            },
+            {
+                "text": "Response ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Model",
+                "sec_num": null
+            },
+            {
+                "text": "CWM(maxT max ) X X X X X X CWM(minT min ) X X X X X X X CWM(maxPp max ) or (minPp min ) (log(x + 1) transformed) X X X X X X X Variation in T max X X X X X X X Variation in T min /Pp max /Pp min X X X X X X X X Abundance models",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Model",
+                "sec_num": null
+            },
+            {
+                "text": "Abundance of the species' group (log(x + 1) transformed) X X (although excluded in T max and tropical Pp min models)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Model",
+                "sec_num": null
+            },
+            {
+                "text": "X X X",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Model",
+                "sec_num": null
+            },
+            {
+                "text": "abundances of some species (as predicted, those inhabiting areas with higher maximum temperatures, lower minimum precipitation levels, and a broader range of climate conditions) and lower abundances of others (those inhabiting areas with lower maximum temperatures, higher minimum precipitation levels, and a narrower range of climatic conditions; Fig. 2, 3) . Our findings were robust to several possible confounding issues. First, very small differences were observed between community-average climatic niche properties produced with and without migratory bird species included (Supplementary material Appendix 11 Table A20 , BirdLife International 2018), so migratory species were included in the analyses. Second, using a null model approach provided additional support for our results relating to communityaverage climatic extreme affiliations, with the majority of observed results found to be significant using a two-tailed test (Fig. 1) . However, fewer observed community-average range-wide climatic variation results were significantly different in comparison to null expectations (Fig. 1) , thus we urge caution when interpreting these results. Third, when using occurrence data from GBIF, the results were generally qualitatively and quantitatively very similar to those presented in the main text (Supplementary material Appendix 2 Fig.  A1-A3 ). Fourth, correlations among community-average climatic niche properties were generally low, though a few (e.g. between CWM T max range-wide variation, CWM T min rangewide variation and CWM(minT min )) were more highly correlated (Supplementary material Appendix 5 Table A4 ). Fifth, correlations between species-level climatic niche properties and habitat breadth were all low (|r| < 0.41). Although there were some differences observed between species-level climatic niche properties for species classed as forest versus non forestspecialists (Supplementary material Appendix 10 Fig. A7 ), the results from models including and excluding forest specialists were also qualitatively and quantitatively very similar (Supplementary material Appendix 10 Fig. A8, A9) . Finally, using community weighted medians or CWMs that excluded the upper and lower 2.5% of species-level climatic affiliations both produced qualitatively and quantitatively very similar results to models produced using CWMs that included all species (results not shown), from this we are confident that our results are not being driven by outliers.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 348,
+                        "end": 358,
+                        "text": "Fig. 2, 3)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 616,
+                        "end": 625,
+                        "text": "Table A20",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 936,
+                        "end": 944,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1091,
+                        "end": 1099,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1345,
+                        "end": 1356,
+                        "text": "Fig.  A1-A3",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1623,
+                        "end": 1631,
+                        "text": "Table A4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1939,
+                        "end": 1946,
+                        "text": "Fig. A7",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2109,
+                        "end": 2121,
+                        "text": "Fig. A8, A9)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Model",
+                "sec_num": null
+            },
+            {
+                "text": "Overall (with the exception of temperate plantations), CWM(maxT max ) was higher in human-disturbed land uses than primary vegetation, with larger differences relative to primary vegetation in tropical croplands and pastures compared to these same habitats at temperate latitudes (for all community-average climatic niche properties, land use by geographic zone interaction effect, p < 0.015; Fig. 1 ). CWM(minT min ) was consistently lower in human-disturbed land uses than primary vegetation. Differences in land-use responses between tropical and temperate assemblages were smaller than for CWM(maxT max ), but the interaction remained significant (p < 0.001). Interestingly, the difference between CWM(minT min ) in young secondary vegetation compared to primary vegetation was much larger at temperate compared to tropical latitudes. There were inconsistent (although significant) geographic differences in community-average Table 3 . The range (and mean in parentheses) of community weighted means (CWM) for each climatic niche property across land uses and within each geographic zone. The climatic niche properties included the CWM of the climatic extreme (maximum or minimum) and rangewide variation in maximum temperature of the hottest month (T max ), minimum temperature of the coldest month (T min ), precipitation of the wettest month (Pp max ) and precipitation of the driest month (Pp min ). ASV and YSV denote advanced and young secondary vegetation, respectively. Figure 1 . Geographic variation (tropical versus temperate latitudes) in modelled differences across land uses in community weighted mean (CWM) maximum (max, a, e) or minimum (min, e, g) and range-wide variation (b, d, f, h) in maximum temperature of the hottest month (a, b), minimum temperature of the coldest month (c, d), precipitation of the wettest month (e, f ) and precipitation of the driest month (g, h). All values are relative to assemblages within primary vegetation (dotted line). Error bars show 95% confidence intervals. ASV and YSV denote advanced and young secondary vegetation, respectively. Transformed values were back-transformed from the log-scale used for analysis before plotting. A star (*) or dot (\u25aa) above values indicates that the result was significant when compared against null models in a two-tailed or one-tailed test, respectively. Figure 2 . The total abundance of species with different thermal (T max ) niches at tropical (a-d) and temperate (e-h) latitudes across humanaltered land uses, relative to assemblages within primary vegetation (dotted line). Species groups differ in the range-wide variation in thermal (T max ) conditions experienced over their range ('broad' versus 'narrow') and maximum T max value ('warm' versus 'cold'). Error bars show 95% confidence intervals; SV denotes secondary vegetation (consisting of the young and advanced secondary vegetation land use categories). Values were back-transformed from the log-scale used for analysis before plotting. N.S. denotes that the effect of land use was not significant within that species group. . Species groups differ in the range-wide variation in precipitation (Pp min ) levels experienced throughout their range ('broad' versus 'narrow') and minimum P min values ('dry' versus 'wet').",
+                "cite_spans": [
+                    {
+                        "start": 1694,
+                        "end": 1706,
+                        "text": "(b, d, f, h)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 393,
+                        "end": 399,
+                        "text": "Fig. 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 930,
+                        "end": 937,
+                        "text": "Table 3",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1482,
+                        "end": 1490,
+                        "text": "Figure 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2349,
+                        "end": 2357,
+                        "text": "Figure 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Community-level climatic properties",
+                "sec_num": null
+            },
+            {
+                "text": "Error bars show 95% confidence intervals; SV denotes secondary vegetation (consisting of the young and advanced secondary vegetation land use categories). Values were back-transformed from the log-scale used for analysis before plotting. N.S. denotes that the effect of land use was not significant within that species group. thermal range-wide variation across land uses. It is important to note that CWM(minT min ) and CWM(T max range-wide variation) values were relatively highly negatively correlated (Supplementary material Appendix 5 Table A4 ), which hinders our ability to separate their relative importance. CWMs were generally higher for maximum Pp max and lower for minimum Pp min in human-altered land uses compared to primary vegetation across both geographic zones. In most cases, differences in CWM(maxPp max ) and CWM(minPp min ) values relative to primary vegetation were larger at tropical compared to temperate latitudes. Tropicaltemperate differences in community-average precipitation range-wide variation between land uses were not consistent, but the pattern was similar for both Pp max and Pp min , with no noticeable general difference between primary vegetation and human-dominated land uses (Fig. 1) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 505,
+                        "end": 548,
+                        "text": "(Supplementary material Appendix 5 Table A4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1218,
+                        "end": 1226,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Community weighted means",
+                "sec_num": null
+            },
+            {
+                "text": "The abundances of species groups across land uses differed in direction and magnitude depending on the groups' thermal niche properties (Fig. 2) . In the tropics, species with warmer T max maximum values and broader T max range-wide variation had higher abundances relative to primary vegetation across human-altered land uses (Fig. 2) . Generally, other species groups had lower abundances in human-altered land uses. Similar patterns were observed at temperate latitudes, although differences between primary vegetation and human-altered land uses were generally smaller compared to tropical latitudes (Fig. 2) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 136,
+                        "end": 144,
+                        "text": "(Fig. 2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 327,
+                        "end": 335,
+                        "text": "(Fig. 2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 604,
+                        "end": 612,
+                        "text": "(Fig. 2)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Abundance models",
+                "sec_num": null
+            },
+            {
+                "text": "The abundances of species groups across land uses also varied between groups differing in precipitation niches (Fig. 3) . At tropical latitudes, species groups with wetter-than-average minimum Pp min values had the lowest abundances within human-dominated land uses compared to primary vegetation. Species with narrower-and drier-than-average Pp min range-wide variation and minimum values, respectively, were the only group that had higher abundances in some human-disturbed land uses compared to primary vegetation. Differences among species groups were much smaller at temperate latitudes (Fig. 3) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 111,
+                        "end": 119,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 592,
+                        "end": 600,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Abundance models",
+                "sec_num": null
+            },
+            {
+                "text": "For full statistical results, see Supplementary material Appendix 9 Table A14 , A15. The residuals of the communitylevel climatic properties models generally didn't show significant spatial autocorrelation for > 5% of studies (as would be expected by chance; Supplementary material Appendix 9 Table A16 ), but did for the abundance models (range across species groups and climatic variables 0-25% of studies; Supplementary material Appendix 9 Table A17 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 68,
+                        "end": 77,
+                        "text": "Table A14",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 293,
+                        "end": 302,
+                        "text": "Table A16",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 443,
+                        "end": 452,
+                        "text": "Table A17",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Abundance models",
+                "sec_num": null
+            },
+            {
+                "text": "Species from assemblages in human-dominated land uses tend to be affiliated with more extreme climates, on average, than species found in primary vegetation, especially within the tropics. This is driven by human-altered land uses having both higher and lower abundances of species with different climatic niches. Specifically, assemblages in human-disturbed land uses were composed of greater proportions of individuals of species affiliated with higher maximum temperature and precipitation and lower minimum temperature and precipitation. These results enhance our understanding of potential interactions between land-use and climate change. Both these major drivers are reshaping communities by selecting for species with affinities for greater extremes in climate (Barnagaud et al. 2012 , Blois et al. 2013 , Tayleur et al. 2016 ), suggesting the likelihood of synergistic interactions. This finding improves our ability to predict how biodiversity will be reshaped by future climatic changes in a world increasingly dominated by human-disturbed land uses.",
+                "cite_spans": [
+                    {
+                        "start": 769,
+                        "end": 791,
+                        "text": "(Barnagaud et al. 2012",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 792,
+                        "end": 811,
+                        "text": ", Blois et al. 2013",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 812,
+                        "end": 833,
+                        "text": ", Tayleur et al. 2016",
+                        "ref_id": "BIBREF78"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Local climatic changes are strong ecological filters, influencing which individuals benefit or lose out from land-use change, and ultimately community composition (Frishkoff et al. 2015) . Here, we quantified the effect of species gains and losses on the structure of whole assemblages. A key question is what mechanisms are driving the patterns we observed? In addition to changes in average temperatures, land-use change can increase the frequency of heat waves (Mishra et al. 2015) and extreme cold events (Medvigy et al. 2012) . Unlike in forests, where the buffering effect of canopies results in warmer minimum and lower maximum temperatures (Ewers and Banks-Leite 2013) , species in human-dominated land uses may not have access to the microhabitats required to avoid extreme heat and cold exposure (Kearney et al. 2009 , McNab 2012 , Sunday et al. 2014 . Our results highlight that human-dominated land uses may be particularly problematic for cold-affiliated species if they cannot tolerate or avoid the warmer temperatures, and for warm-adapted specialists if they cannot tolerate or avoid extreme cold events.",
+                "cite_spans": [
+                    {
+                        "start": 163,
+                        "end": 186,
+                        "text": "(Frishkoff et al. 2015)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 464,
+                        "end": 484,
+                        "text": "(Mishra et al. 2015)",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 509,
+                        "end": 530,
+                        "text": "(Medvigy et al. 2012)",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 648,
+                        "end": 676,
+                        "text": "(Ewers and Banks-Leite 2013)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 806,
+                        "end": 826,
+                        "text": "(Kearney et al. 2009",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 827,
+                        "end": 839,
+                        "text": ", McNab 2012",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 840,
+                        "end": 860,
+                        "text": ", Sunday et al. 2014",
+                        "ref_id": "BIBREF77"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Human-dominated land uses also favoured species affiliated with greater extremes of precipitation. This effect on community composition may be a consequence of direct and/or indirect effects of local climatic changes resulting from landuse change on biodiversity (Frishkoff et al. 2016 , Ogilvie et al. 2017 . Directly, changes may favour species that can tolerate the new, drier climate (Frishkoff et al. 2016) . Indirectly, the drier climatic conditions may favour vegetation that is characteristic of more arid climates, subsequently favouring species better able to exploit this vegetation (Frishkoff et al. 2016) . However, our finding that communities, on average, were affiliated with higher maximum precipitation levels in human-altered land uses was surprising, and the mechanisms underlying this trend warrant further exploration. Such an effect may arise due to differences in moisture levels, which are linked to land-use type and precipitation (Fu et al. 2003) , and may impact species' abilities to survive in certain land uses. Although, the links between land use, precipitation and moisture levels are complex due to the multitude of other factors that can influence moisture availability, such as topography, soil properties (e.g. particle size), and the plant species growing (Fu et al. 2003) . Another unexpected result was that species with drier-and narrower-than-average Pp min minimum and range-wide variation, respectively, had higher abundances in tropical croplands. It may be that species' experiencing narrower variation in minimum local precipitation levels are better able to cope with drier climates, and thus able to persist and even increase in abundance after land conversion (providing they can tolerate the other changes that occur). Although we are cautious in interpreting this result, as it is only observed in tropical croplands, it highlights the complexities underlying responses to precipitation changes. Nevertheless, our findings implicate a potentially important effect of changes in local precipitation regimes on terrestrial vertebrates.",
+                "cite_spans": [
+                    {
+                        "start": 263,
+                        "end": 285,
+                        "text": "(Frishkoff et al. 2016",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 286,
+                        "end": 307,
+                        "text": ", Ogilvie et al. 2017",
+                        "ref_id": "BIBREF62"
+                    },
+                    {
+                        "start": 388,
+                        "end": 411,
+                        "text": "(Frishkoff et al. 2016)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 594,
+                        "end": 617,
+                        "text": "(Frishkoff et al. 2016)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 957,
+                        "end": 973,
+                        "text": "(Fu et al. 2003)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 1295,
+                        "end": 1311,
+                        "text": "(Fu et al. 2003)",
+                        "ref_id": "BIBREF27"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Biogeographic histories may also have a role in climatic niche differences across land uses, with species' realised niches arising from the spatial and climatic distribution of their habitats (Barnagaud et al. 2013) . Consequently, shifts towards species that can tolerate greater extremes of climate in humanaltered land uses could be explained by losses of forest specialists, which may coincidentally have climatic niches that do not encompass these extremes (Barnagaud et al. 2013, Ewers and Banks-Leite 2013) . However, our habitat breadth index was not correlated with species' climatic affinities, and similar results were produced when forest specialists were excluded from models (Supplementary material Appendix 10). So, although we do not rule out a role of species' biogeographic histories, our results are consistent with local climatic differences between primary and human-dominated land uses playing a strong role in the observed patterns.",
+                "cite_spans": [
+                    {
+                        "start": 192,
+                        "end": 215,
+                        "text": "(Barnagaud et al. 2013)",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 462,
+                        "end": 495,
+                        "text": "(Barnagaud et al. 2013, Ewers and",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 496,
+                        "end": 513,
+                        "text": "Banks-Leite 2013)",
+                        "ref_id": "BIBREF21"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Assemblages from tropical locations generally displayed larger differences than temperate assemblages in communityaverage climatic niche metrics relative to primary habitats, particularly in croplands and pastures. There are at least three potential explanations for this result. First, lower seasonality in the tropics and greater historical climate stability may render species more sensitive to environmental changes and the removal of microhabitats (Janzen 1967 , Sunday et al. 2014 . Second, the weaker differences across land uses at temperate latitudes may also be because these species are not living as close to their warm tolerance thresholds (Deutsch et al. 2008 , Kearney et al. 2009 , and so can tolerate (or even benefit from) warmer temperatures (Kearney et al. 2009) . Third, the magnitude of temperature increases following conversion of primary vegetation tend to be less pronounced in northern latitudes (partly due to the greater effect of snow albedo in cleared landscapes; Alkama and Cescatti 2016, Findell et al. 2017) . Critically, the tropics hold more species, and a greater relative proportion of these species are presently threatened compared to higher latitudes (Brook et al. 2008) . Regardless of the mechanism(s), our results add to the growing number of studies highlighting the vulnerability of the tropics to global drivers of change (Brook et al. 2008) . This is an important result, given that both land-use and climate change have been projected to occur to the greatest extent and soonest within the tropics (Sala et al. 2000 , Pacifici et al. 2017 .",
+                "cite_spans": [
+                    {
+                        "start": 453,
+                        "end": 465,
+                        "text": "(Janzen 1967",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 466,
+                        "end": 486,
+                        "text": ", Sunday et al. 2014",
+                        "ref_id": "BIBREF77"
+                    },
+                    {
+                        "start": 653,
+                        "end": 673,
+                        "text": "(Deutsch et al. 2008",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 674,
+                        "end": 695,
+                        "text": ", Kearney et al. 2009",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 761,
+                        "end": 782,
+                        "text": "(Kearney et al. 2009)",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 995,
+                        "end": 1005,
+                        "text": "Alkama and",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 1006,
+                        "end": 1041,
+                        "text": "Cescatti 2016, Findell et al. 2017)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1192,
+                        "end": 1211,
+                        "text": "(Brook et al. 2008)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 1369,
+                        "end": 1388,
+                        "text": "(Brook et al. 2008)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 1547,
+                        "end": 1564,
+                        "text": "(Sala et al. 2000",
+                        "ref_id": "BIBREF72"
+                    },
+                    {
+                        "start": 1565,
+                        "end": 1587,
+                        "text": ", Pacifici et al. 2017",
+                        "ref_id": "BIBREF65"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Aboveground temperatures in secondary forests are similar or slightly warmer compared with primary forests (Senior et al. 2017) ; thus, secondary vegetation may provide temporary thermal refugia for migrating species, or those living near their thermal tolerance limits and unable to track climatic changes (Dent and Wright 2009, Senior et al. 2017) . Our results partly agree with these expectations, with the smallest differences in community-average climatic niche often observed between primary and advanced secondary vegetation, but not to the degree that other research suggests (particularly within the tropics). Instead, we find that the thermal niches of species within secondary vegetation can be distinguished from species found in primary vegetation, with community-average climatic niches in young secondary vegetation generally differing more than those in plantations when compared to primary vegetation.",
+                "cite_spans": [
+                    {
+                        "start": 107,
+                        "end": 127,
+                        "text": "(Senior et al. 2017)",
+                        "ref_id": "BIBREF75"
+                    },
+                    {
+                        "start": 307,
+                        "end": 316,
+                        "text": "(Dent and",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 317,
+                        "end": 349,
+                        "text": "Wright 2009, Senior et al. 2017)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Despite a prevalent use of distribution maps to describe species' realised niches and community weighted means (CWMs) to quantify changes in the structure of ecological assemblages (Barnagaud et al. 2013 , Betts et al. 2017 , Khaliq et al. 2017 , Allan et al. 2019 , Merckx and Van Dyck 2019 , Peters et al. 2019 , these methods have potential pitfalls. First, if a species is tolerant of human-altered land uses, they may be able to expand their ranges into cooler, previously uninhabitable climates, by switching habitats and colonising the warmer human-altered habitat (e.g. along elevational gradients; Frishkoff et al. 2019) . If this has happened historically, before species' ranges were mapped, calculating realised thermal niches from current distributions may lead to a too-low estimate of the minimum temperature that a species can actually tolerate. However, human-altered land uses that are unable to buffer temperatures have colder minima compared to natural vegetation (Ewers and Banks-Leite 2013, De Frenne et al. 2019) , so even if species do expand into new areas by colonising human land uses, they may still face colder extremes. Further work focusing on the propensity of species to switch habitats along climate gradients and the climatic difference populations will experience there is a key future research direction. Second, CWMs have the potential to have inflated type I error rates (Miller et al. 2019) . However, we are confident in our observations that humandominated land uses are favouring species affiliated with more extreme climates based on multiple lines of evidence. 1) The majority of our results are robust based on comparisons to null model expectations and removal of extreme data. 2) We observe consistent patterns in our abundance analyses, where we do not use CWMs, that in human-altered land uses species affiliated with lower maximum temperatures or wetter minimum precipitation levels often have lower abundances in comparison to primary vegetation than warmer-or drieraffiliated species. We urge caution however in interpreting the range-wide variation results, as these were not strongly supported with respect to null model expectations.",
+                "cite_spans": [
+                    {
+                        "start": 181,
+                        "end": 203,
+                        "text": "(Barnagaud et al. 2013",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 204,
+                        "end": 223,
+                        "text": ", Betts et al. 2017",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 224,
+                        "end": 244,
+                        "text": ", Khaliq et al. 2017",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 245,
+                        "end": 264,
+                        "text": ", Allan et al. 2019",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 265,
+                        "end": 291,
+                        "text": ", Merckx and Van Dyck 2019",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 292,
+                        "end": 312,
+                        "text": ", Peters et al. 2019",
+                        "ref_id": "BIBREF68"
+                    },
+                    {
+                        "start": 607,
+                        "end": 629,
+                        "text": "Frishkoff et al. 2019)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 984,
+                        "end": 994,
+                        "text": "(Ewers and",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 995,
+                        "end": 1035,
+                        "text": "Banks-Leite 2013, De Frenne et al. 2019)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1410,
+                        "end": 1430,
+                        "text": "(Miller et al. 2019)",
+                        "ref_id": "BIBREF54"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Building a complete understanding of how land use and climate change interact to apply similar or contrasting pressures is vital to predict biodiversity change accurately (Oliver and Morecroft 2014) . Key future directions for research include integrating predictions based on fundamental climatic niches (though these are currently not available for the range of species analysed and are also difficult to estimate in a way that reflects real-world conditions; see Mitchell et al. 2018 ) and the comparison of these predictions with results based on realised tolerances (which may not accurately reflect physiological climatic tolerances; Ara\u00fajo et al. 2013 , Khaliq et al. 2017 , Rolland et al. 2018 .",
+                "cite_spans": [
+                    {
+                        "start": 171,
+                        "end": 198,
+                        "text": "(Oliver and Morecroft 2014)",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 466,
+                        "end": 486,
+                        "text": "Mitchell et al. 2018",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 640,
+                        "end": 658,
+                        "text": "Ara\u00fajo et al. 2013",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 659,
+                        "end": 679,
+                        "text": ", Khaliq et al. 2017",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 680,
+                        "end": 701,
+                        "text": ", Rolland et al. 2018",
+                        "ref_id": "BIBREF71"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Overall, human-altered habitats favour species affiliated with higher maximum and lower minimum temperatures and higher maximum and lower minimum precipitation levels, leading to shifts in community composition (turnover of species as well as shifts in abundance) between land-use types, especially within the tropics. These results are likely due, at least in part, to local climatic changes mediated by land-use change (either directly or indirectly), which lead to hotter local climates, changes in precipitation regimes (Frishkoff et al. 2015) and greater exposure to temperature extremes (Medvigy et al. 2012) . Our results demonstrate that land-use and climate change favour similar species, especially in the tropics, which has significant implications for the future impacts of these drivers of change. We show that minimum temperature, an often-neglected climate change variable, appears to have important impacts on community composition. Understanding the effects of land-use change, and how land use influences local climate, is key to anticipate the effects of future environmental change around the globe. This knowledge can also help us to design appropriate and effective management schemes to mitigate shifts in local climatic conditions through restoring and incorporating natural climate refugia into altered landscapes.",
+                "cite_spans": [
+                    {
+                        "start": 524,
+                        "end": 547,
+                        "text": "(Frishkoff et al. 2015)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 593,
+                        "end": 614,
+                        "text": "(Medvigy et al. 2012)",
+                        "ref_id": "BIBREF48"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "Acknowledgements -We thank Richard Pearson, Kate Jones and Jean-Yves Barnagaud for valuable feedback on earlier versions of this manuscript, and Richard Field and Tom Oliver for useful discussion. We thank Conor Waldock for his invaluable contribution in helping to produce the species' climatic indices based on data from GBIF, Adrienne Etard for the use of her species' habitat specialisation index and Stuart Butchart for the use of his BirdLife data. Funding -This work was supported by a Royal Society Univ. Research Fellowship to TN (grant number: UF150526), and a Royal Society Research Grant to TN that supports the PhD studentship of JJW (grant number: RG160501). Author contributions -JJW and TN conceived the project with input from AEB, JJW carried out the analyses and lead the writing of the manuscript, all authors contributed to writing the manuscript and gave approval of the final draft.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "acknowledgement",
+                "sec_num": null
+            },
+            {
+                "text": "Data available from the Dryad Digital Repository: < https:// doi.org/10.5061/dryad.c2fqz6149 > (Williams et al. 2019) .",
+                "cite_spans": [
+                    {
+                        "start": 95,
+                        "end": 117,
+                        "text": "(Williams et al. 2019)",
+                        "ref_id": "BIBREF82"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Data availability statement",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Biophysical climate impacts of recent changes in global forest cover",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Alkama",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Cescatti",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Science",
+                "volume": "351",
+                "issue": "",
+                "pages": "600--604",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Alkama, R. and Cescatti, A. 2016. Biophysical climate impacts of recent changes in global forest cover. -Science 351: 600-604.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Hotspots of human impact on threatened terrestrial vertebrates",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Allan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "PLoS Biol",
+                "volume": "17",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Allan, J. R. et al. 2019. Hotspots of human impact on threatened terrestrial vertebrates. -PLoS Biol. 17: e3000158.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Climate change threatens European conservation areas",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ara\u00fajo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Ecol. Lett",
+                "volume": "14",
+                "issue": "",
+                "pages": "484--492",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ara\u00fajo, M. B. et al. 2011. Climate change threatens European con- servation areas. -Ecol. Lett. 14: 484-492.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Heat freezes niche evolution",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Ara\u00fajo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Ecol. Lett",
+                "volume": "16",
+                "issue": "",
+                "pages": "1206--1219",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ara\u00fajo, M. B. et al. 2013. Heat freezes niche evolution. -Ecol. Lett. 16: 1206-1219.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Relating habitat and climatic niches in birds",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Barnagaud",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "PLoS One",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barnagaud, J. Y. et al. 2012. Relating habitat and climatic niches in birds. -PLoS One 7: e32819.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Species' thermal preferences affect forest bird communities along landscape and local scale habitat gradients",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Barnagaud",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Ecography",
+                "volume": "36",
+                "issue": "",
+                "pages": "1218--1226",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barnagaud, J. Y. et al. 2013. Species' thermal preferences affect for- est bird communities along landscape and local scale habitat gradients. -Ecography 36: 1218-1226.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Fitting linear mixed-effects models using lme4",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Bates",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "J. Stat. Softw",
+                "volume": "67",
+                "issue": "",
+                "pages": "1--48",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bates, D. et al. 2015. Fitting linear mixed-effects models using lme4. -J. Stat. Softw. 67: 1-48.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Global forest loss disproportionately erodes biodiversity in intact landscapes",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Betts",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Nature",
+                "volume": "547",
+                "issue": "",
+                "pages": "441--444",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Betts, M. G. et al. 2017. Global forest loss disproportionately erodes biodiversity in intact landscapes. -Nature 547: 441-444.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "BirdLife International data zone",
+                "authors": [],
+                "year": 2018,
+                "venue": "BirdLife International",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "BirdLife International 2018. BirdLife International data zone. -BirdLife International, Cambridge, UK, < www.datazone. birdlife.org/home >, accessed November 2018.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Bird species distribution maps of the world",
+                "authors": [],
+                "year": 2012,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Birdlife International, NatureServe 2012. Bird species distribution maps of the world. -Ver. 2.0, <www.birdlife.org/datazone/ info/spcdownload>.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Applied spatial data analysis with R",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Bivand",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bivand, R. S. et al. 2013. Applied spatial data analysis with R, 2nd ed. -Springer, < www.asdar-book.org/ >.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Climate change and the past, present and future of biotic interactions",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Blois",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Science",
+                "volume": "341",
+                "issue": "",
+                "pages": "499--504",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Blois, J. et al. 2013. Climate change and the past, present and future of biotic interactions. -Science 341: 499-504.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Flow and dispersion in urban canopies",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Britter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Hanna",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Annu. Rev. Fluid Mech",
+                "volume": "35",
+                "issue": "",
+                "pages": "469--496",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Britter, R. and Hanna, S. 2003. Flow and dispersion in urban canopies. -Annu. Rev. Fluid Mech. 35: 469-496.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Synergies among extinction drivers under global change",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Brook",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Trends Ecol. Evol",
+                "volume": "23",
+                "issue": "",
+                "pages": "453--460",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brook, B. W. et al. 2008. Synergies among extinction drivers under global change. -Trends Ecol. Evol. 23: 453-460.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "rredlist: 'IUCN' Red List client",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Chamberlain",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chamberlain, S. 2018. rredlist: 'IUCN' Red List client. -R pack- age ver. 0.5.0, <https://CRAN.R-project.org/package=rredlist>.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Climate change in the tropics: the end of the world as we know it?",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Corlett",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Biol. Conserv",
+                "volume": "151",
+                "issue": "",
+                "pages": "22--25",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Corlett, R. T. 2011. Climate change in the tropics: the end of the world as we know it? -Biol. Conserv. 151: 22-25.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "A link between plant traits and abundance: evidence from coastal California woody plants",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Cornwell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Ackerly",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "J. Ecol",
+                "volume": "98",
+                "issue": "",
+                "pages": "814--821",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cornwell, W. K. and Ackerly, D. D. 2010. A link between plant traits and abundance: evidence from coastal California woody plants. -J. Ecol. 98: 814-821.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Global buffering of temperatures under forest canopies",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "De Frenne",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "Nat. Ecol. Evol",
+                "volume": "3",
+                "issue": "",
+                "pages": "744--749",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "De Frenne, P. et al. 2019. Global buffering of temperatures under forest canopies. -Nat. Ecol. Evol. 3: 744-749.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "The future of tropical species in secondary forests: a quantitative review",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Dent",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Wright",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Biol. Conserv",
+                "volume": "142",
+                "issue": "",
+                "pages": "2833--2843",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dent, D. H. and Wright, S. J. 2009. The future of tropical species in secondary forests: a quantitative review. -Biol. Conserv. 142: 2833-2843.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Impacts of climate warming on terrestrial ectotherms across latitude",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Deutsch",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Proc. Natl Acad. Sci",
+                "volume": "105",
+                "issue": "",
+                "pages": "6668--6672",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Deutsch, C. A. et al. 2008. Impacts of climate warming on ter- restrial ectotherms across latitude. -Proc. Natl Acad. Sci. USA 105: 6668-6672.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Birds are tracking climate warming, but not fast enough",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Devictor",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Proc. R. Soc. B",
+                "volume": "275",
+                "issue": "",
+                "pages": "2743--2748",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Devictor, V. et al. 2008. Birds are tracking climate warming, but not fast enough. -Proc. R. Soc. B 275: 2743-2748. ESRI 2015. ArcGIS Desktop: ver. 10.3. -Environmental Systems Research Inst.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Fragmentation impairs the microclimate buffering effect of tropical forests",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Ewers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Banks-Leite",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "PLoS One",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ewers, R. M. and Banks-Leite, C. 2013. Fragmentation impairs the microclimate buffering effect of tropical forests. -PLoS One 8: e58093.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "The impact of anthropogenic land use and land cover change on regional climate extremes",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Findell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Nat. Commun",
+                "volume": "8",
+                "issue": "",
+                "pages": "1--9",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Findell, K. L. et al. 2017. The impact of anthropogenic land use and land cover change on regional climate extremes. -Nat. Commun. 8: 1-9.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Global consequences of land use",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Foley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Science",
+                "volume": "309",
+                "issue": "",
+                "pages": "570--574",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Foley, J. A. et al. 2005. Global consequences of land use. -Science 309: 570-574.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Thermal niche predicts tolerance to habitat conversion in tropical amphibians and reptiles",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Frishkoff",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Global Change Biol",
+                "volume": "21",
+                "issue": "",
+                "pages": "3901--3916",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Frishkoff, L. O. et al. 2015. Thermal niche predicts tolerance to habitat conversion in tropical amphibians and reptiles. -Global Change Biol. 21: 3901-3916.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Climate change and habitat conversion favour the same species",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Frishkoff",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Ecol. Lett",
+                "volume": "19",
+                "issue": "",
+                "pages": "1081--1090",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Frishkoff, L. O. et al. 2016. Climate change and habitat conversion favour the same species. -Ecol. Lett. 19: 1081-1090.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Elevation shapes the reassembly of Anthropocene lizard communities",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Frishkoff",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "Nat. Ecol. Evol",
+                "volume": "3",
+                "issue": "",
+                "pages": "638--646",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Frishkoff, L. O. et al. 2019. Elevation shapes the reassembly of Anthropocene lizard communities. -Nat. Ecol. Evol. 3: 638-646.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "The effects of land use on soil moisture variation in the Danangou catchment of the Loess Plateau",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Fu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "China. -Catena",
+                "volume": "54",
+                "issue": "",
+                "pages": "197--213",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fu, B. et al. 2003. The effects of land use on soil moisture variation in the Danangou catchment of the Loess Plateau, China. -Catena 54: 197-213.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Thermally buffered microhabitats recovery in tropical secondary forests following land abandonment",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Gonz\u00e1lez Del Pliego",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Biol. Conserv",
+                "volume": "201",
+                "issue": "",
+                "pages": "385--395",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gonz\u00e1lez del Pliego, P. et al. 2016. Thermally buffered microhabi- tats recovery in tropical secondary forests following land aban- donment. -Biol. Conserv. 201: 385-395.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Land use and biodiversity relationships",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Haines-Young",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Land Use Policy",
+                "volume": "26",
+                "issue": "",
+                "pages": "178--186",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Haines-Young, R. 2009. Land use and biodiversity relationships. -Land Use Policy 26: 178-186.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "A brief introduction to mixed effects modelling and multi-model inference in ecology",
+                "authors": [
+                    {
+                        "first": "X",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Harrison",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "PeerJ",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Harrison, X. A. et al. 2018. A brief introduction to mixed effects modelling and multi-model inference in ecology. -PeerJ 6: e4794.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Macroecological conclusions based on IUCN expert maps: a call for caution",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M B"
+                        ],
+                        "last": "Herkt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Global Ecol. Biogeogr",
+                "volume": "26",
+                "issue": "",
+                "pages": "930--941",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Herkt, K. M. B. et al. 2017. Macroecological conclusions based on IUCN expert maps: a call for caution. -Global Ecol. Biogeogr. 26: 930-941.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "raster: geographic data analysis and modelling",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hijmans",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hijmans, R. J. 2016. raster: geographic data analysis and modelling. -R package ver. 2.5-8, <https://CRAN.R-project.org/ package=raster>.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Very high resolution interpolated climate surfaces for global land areas",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hijmans",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Int. J. Climatol",
+                "volume": "25",
+                "issue": "",
+                "pages": "1965--1978",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hijmans, R. J. et al. 2005. Very high resolution interpolated climate surfaces for global land areas. -Int. J. Climatol. 25: 1965-1978.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "How will biotic interactions influence climate change-induced range shifts?",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Hillerislambers",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Ann. N. Y. Acad. Sci",
+                "volume": "1297",
+                "issue": "",
+                "pages": "112--125",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "HilleRisLambers, J. et al. 2013. How will biotic interactions influ- ence climate change-induced range shifts? -Ann. N. Y. Acad. Sci. 1297: 112-125.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "The PREDICTS database: a global database of how local terrestrial biodiversity responds to human impacts",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Hudson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Ecol. Evol",
+                "volume": "4",
+                "issue": "",
+                "pages": "4701--4735",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hudson, L. N. et al. 2014. The PREDICTS database: a global data- base of how local terrestrial biodiversity responds to human impacts. -Ecol. Evol. 4: 4701-4735.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Dataset: the 2016 release of the PRE-DICTS database. Resource: database in RDS format. -Natural History Museum Data Portal, < data",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Hudson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hudson, L. N. et al. 2016. Dataset: the 2016 release of the PRE- DICTS database. Resource: database in RDS format. -Natural History Museum Data Portal, < data.nhm.ac.uk >.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "The database of the PREDICTS (projecting responses of ecological diversity in changing terrestrial systems) project",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Hudson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Ecol. Evol",
+                "volume": "7",
+                "issue": "",
+                "pages": "145--188",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hudson, L. N. et al. 2017. The database of the PREDICTS (pro- jecting responses of ecological diversity in changing terrestrial systems) project. -Ecol. Evol. 7: 145-188.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Concluding remarks. -Cold Spring Habor Symp",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hutchinson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1957,
+                "venue": "Q. Biol",
+                "volume": "22",
+                "issue": "",
+                "pages": "415--427",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hutchinson, G. E. 1957. Concluding remarks. -Cold Spring Habor Symp. Q. Biol. 22: 415-427.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "The IUCN Red List of threatened species",
+                "authors": [],
+                "year": null,
+                "venue": "IUCN 2016",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "IUCN 2016. The IUCN Red List of threatened species. -Ver. 2016-1, < www.iucnredlist.org >.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Why mountain passes are higher in the tropics",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Janzen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1967,
+                "venue": "Am. Nat",
+                "volume": "101",
+                "issue": "",
+                "pages": "233--246",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Janzen, D. H. 1967. Why mountain passes are higher in the trop- ics. -Am. Nat. 101: 233-246.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Projected impacts of climate and land-use change on the global diversity of birds",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Jetz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "PLoS Biol",
+                "volume": "5",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jetz, W. et al. 2007. Projected impacts of climate and land-use change on the global diversity of birds. -PLoS Biol. 5: e50157.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Community responses to extreme climatic conditions",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Jiguet",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Curr. Zool",
+                "volume": "57",
+                "issue": "",
+                "pages": "406--413",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jiguet, F. et al. 2011. Community responses to extreme climatic conditions. -Curr. Zool. 57: 406-413.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "The potential for behavioral thermoregulation to buffer 'cold-blooded' animals against climate warming",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kearney",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Proc. Natl Acad. Sci",
+                "volume": "106",
+                "issue": "",
+                "pages": "3835--3840",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kearney, M. et al. 2009. The potential for behavioral thermoregu- lation to buffer 'cold-blooded' animals against climate warming. -Proc. Natl Acad. Sci. USA 106: 3835-3840.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Global variation in thermal tolerances and vulnerability of endotherms to climate change",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Khaliq",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Proc. R. Soc. B",
+                "volume": "281",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Khaliq, I. et al. 2014. Global variation in thermal tolerances and vulnerability of endotherms to climate change. -Proc. R. Soc. B 281: 20141097.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "The influence of thermal tolerances on geographical ranges of endotherms",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Khaliq",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Global Ecol. Biogeogr",
+                "volume": "26",
+                "issue": "",
+                "pages": "650--668",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Khaliq, I. et al. 2017. The influence of thermal tolerances on geo- graphical ranges of endotherms. -Global Ecol. Biogeogr. 26: 650-668.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Interactions between climate and habitat loss effects on biodiversity: a systematic review and meta-analysis",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Mantyka-Pringle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Global Change Biol",
+                "volume": "18",
+                "issue": "",
+                "pages": "1239--1252",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mantyka-Pringle, C. S. et al. 2012. Interactions between climate and habitat loss effects on biodiversity: a systematic review and meta-analysis. -Global Change Biol. 18: 1239-1252.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Exteme measures: the ecological energetics of birds and mammals",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Mcnab",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "McNab, B. K. 2012. Exteme measures: the ecological energetics of birds and mammals. -Univ. Chicago Press.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Simulated links between deforestation and extreme cold events in South America",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Medvigy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "J. Clim",
+                "volume": "25",
+                "issue": "",
+                "pages": "3851--3866",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Medvigy, D. et al. 2012. Simulated links between deforestation and extreme cold events in South America. -J. Clim. 25: 3851-3866.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Urban areas may serve as habitat and corridors for dry-adapted, heat tolerant species; an example from ants",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Menke",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Urban Ecosyst",
+                "volume": "14",
+                "issue": "",
+                "pages": "135--163",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Menke, S. B. et al. 2011. Urban areas may serve as habitat and corridors for dry-adapted, heat tolerant species; an example from ants. -Urban Ecosyst. 14: 135-163.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Urbanisaiton-driven homogenisation is more pronounced and happens at wider spatial scales in nocturnal and mobile flying insects",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Merckx",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Van Dyck",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "Global Ecol. Biogeogr",
+                "volume": "28",
+                "issue": "",
+                "pages": "1440--1455",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Merckx, T. and Van Dyck, H. 2019. Urbanisaiton-driven homog- enisation is more pronounced and happens at wider spatial scales in nocturnal and mobile flying insects. -Global Ecol. Biogeogr. 28: 1440-1455.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Global priorities for an effective information basis of biodiversity distributions",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Meyer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Nat. Commun",
+                "volume": "6",
+                "issue": "",
+                "pages": "1--8",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Meyer, C. et al. 2015. Global priorities for an effective information basis of biodiversity distributions. -Nat. Commun. 6: 1-8.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Human population growth and global land-use",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Meyer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Turner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Annu. Rev. Ecol. Syst",
+                "volume": "23",
+                "issue": "",
+                "pages": "39--61",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Meyer, W. B. and Turner II, B. L. 1992. Human population growth and global land-use. -Annu. Rev. Ecol. Syst. 23: 39-61.",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Ecosystems and human well-being: biodiversity synthesis, ecosystems",
+                "authors": [],
+                "year": 2005,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Millennium Ecosystem Assessment 2005. Ecosystems and human well-being: biodiversity synthesis, ecosystems. -Island Press.",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Functional traits and community composition: a comparison among community-weighted means, weighted correlations and multilevel models",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E D"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "Methods Ecol. Evol",
+                "volume": "10",
+                "issue": "",
+                "pages": "415--425",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Miller, J. E. D. et al. 2019. Functional traits and community com- position: a comparison among community-weighted means, weighted correlations and multilevel models. -Methods Ecol. Evol. 10: 415-425.",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "Changes in observed climate extremes in global urban areas",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Mishra",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Environ. Res. Lett",
+                "volume": "10",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mishra, V. et al. 2015. Changes in observed climate extremes in global urban areas. -Environ. Res. Lett. 10: 024005.",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "Revisiting concepts of thermal physiology: predicting responses of mammals to climate change",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Mitchell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "J. Anim. Ecol",
+                "volume": "87",
+                "issue": "",
+                "pages": "956--973",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mitchell, D. et al. 2018. Revisiting concepts of thermal physiology: predicting responses of mammals to climate change. -J. Anim. Ecol. 87: 956-973.",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "Future effects of climate and land-use change on terrestrial vertebrate community diversity under different scenarios",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Newbold",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Proc. R. Soc. B",
+                "volume": "285",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Newbold, T. 2018. Future effects of climate and land-use change on terrestrial vertebrate community diversity under different scenarios. -Proc. R. Soc. B 285: 20180792.",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Global effects of land use on local terrestrial biodiversity",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Newbold",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Nature",
+                "volume": "520",
+                "issue": "",
+                "pages": "45--50",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Newbold, T. et al. 2015. Global effects of land use on local ter- restrial biodiversity. -Nature 520: 45-50.",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Global patterns of terrestrial assemblage turnover within and among land uses",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Newbold",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Ecography",
+                "volume": "39",
+                "issue": "",
+                "pages": "1151--1163",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Newbold, T. et al. 2016. Global patterns of terrestrial assemblage turnover within and among land uses. -Ecography 39: 1151-1163.",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "Widespread winners and narrow-ranged losers: land use homogenizes biodiversity in local assemblages worldwide",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Newbold",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "PLoS Biol",
+                "volume": "16",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Newbold, T. et al. 2018. Widespread winners and narrow-ranged losers: land use homogenizes biodiversity in local assemblages worldwide. -PLoS Biol. 16: e2006841.",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "Thermal biology mediates responses of amphibians and reptiles to habitat modification",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Nowakowski",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Ecol. Lett",
+                "volume": "21",
+                "issue": "",
+                "pages": "345--355",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nowakowski, A. J. et al. 2018. Thermal biology mediates responses of amphibians and reptiles to habitat modification. -Ecol. Lett. 21: 345-355.",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "Interannual bumble bee abundance is driven by indirect climate effects on floral resource phenology",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ogilvie",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Ecol. Lett",
+                "volume": "20",
+                "issue": "",
+                "pages": "1507--1515",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ogilvie, J. E. et al. 2017. Interannual bumble bee abundance is driven by indirect climate effects on floral resource phenology. -Ecol. Lett. 20: 1507-1515.",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "Interactions between climate change and land use change on biodiversity: attribution problems, risks and opportunities",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Oliver",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Morecroft",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Rev. Clim. Change",
+                "volume": "5",
+                "issue": "",
+                "pages": "317--335",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Oliver, T. H. and Morecroft, M. D. 2014. Interactions between climate change and land use change on biodiversity: attribution problems, risks and opportunities. -Wiley Interdiscip. Rev. Clim. Change 5: 317-335.",
+                "links": null
+            },
+            "BIBREF64": {
+                "ref_id": "b64",
+                "title": "Large extents of intensive land use limit community reorganization during climate warming",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Oliver",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Global Change Biol",
+                "volume": "23",
+                "issue": "",
+                "pages": "2272--2283",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Oliver, T. H. et al. 2017. Large extents of intensive land use limit community reorganization during climate warming. -Global Change Biol. 23: 2272-2283.",
+                "links": null
+            },
+            "BIBREF65": {
+                "ref_id": "b65",
+                "title": "Species' traits influenced their response to recent climate change. -Nat",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Pacifici",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Clim. Change",
+                "volume": "7",
+                "issue": "",
+                "pages": "205--208",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pacifici, M. et al. 2017. Species' traits influenced their response to recent climate change. -Nat. Clim. Change 7: 205-208.",
+                "links": null
+            },
+            "BIBREF66": {
+                "ref_id": "b66",
+                "title": "Classes and methods for spatial data in R. -R News",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Pebesma",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Bivand",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "",
+                "volume": "5",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pebesma, E. J. and Bivand, R. S. 2005. Classes and methods for spatial data in R. -R News 5, < https://cran.r-project.org/doc/ Rnews/ >.",
+                "links": null
+            },
+            "BIBREF67": {
+                "ref_id": "b67",
+                "title": "Global biodiversity change: the bad, the good and the unknown",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Pereira",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Ann. Rev. Environ. Resour",
+                "volume": "37",
+                "issue": "",
+                "pages": "25--50",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pereira, H. M. et al. 2012. Global biodiversity change: the bad, the good and the unknown. -Ann. Rev. Environ. Resour. 37: 25-50.",
+                "links": null
+            },
+            "BIBREF68": {
+                "ref_id": "b68",
+                "title": "Climate-land-use interactions shape tropical mountain biodiversity and ecosystem functions",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Peters",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "Nature",
+                "volume": "568",
+                "issue": "",
+                "pages": "88--92",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Peters, M. K. et al. 2019. Climate-land-use interactions shape tropical mountain biodiversity and ecosystem functions. -Nature 568: 88-92.",
+                "links": null
+            },
+            "BIBREF69": {
+                "ref_id": "b69",
+                "title": "Urbanization drives community shifts towards thermophilic and dispersive species at local and landscape scales",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Piano",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Global Change Biol",
+                "volume": "23",
+                "issue": "",
+                "pages": "2554--2564",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Piano, E. et al. 2017. Urbanization drives community shifts towards thermophilic and dispersive species at local and landscape scales. -Global Change Biol. 23: 2554-2564.",
+                "links": null
+            },
+            "BIBREF70": {
+                "ref_id": "b70",
+                "title": "Travelling through a warming world: climate change and migratory species",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Robinson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Endanger Species Res",
+                "volume": "7",
+                "issue": "",
+                "pages": "87--99",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Robinson, R. A. et al. 2009. Travelling through a warming world: climate change and migratory species. -Endanger Species Res. 7: 87-99.",
+                "links": null
+            },
+            "BIBREF71": {
+                "ref_id": "b71",
+                "title": "The impact of endothermy on the climatic niche evolution and the distribution of vertebrate diversity",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Rolland",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Nat. Ecol. Evol",
+                "volume": "2",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rolland, J. et al. 2018. The impact of endothermy on the climatic niche evolution and the distribution of vertebrate diversity. -Nat. Ecol. Evol. 2: 459.",
+                "links": null
+            },
+            "BIBREF72": {
+                "ref_id": "b72",
+                "title": "Global biodiversity scenarios for the year 2100",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Sala",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Science",
+                "volume": "287",
+                "issue": "",
+                "pages": "1770--1774",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sala, O. E. et al. 2000. Global biodiversity scenarios for the year 2100. -Science 287: 1770-1774.",
+                "links": null
+            },
+            "BIBREF73": {
+                "ref_id": "b73",
+                "title": "Regional climate change over eastern Amazonia caused by pasture and soybean cropland expansion",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Sampaio",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Geophys. Res. Lett",
+                "volume": "34",
+                "issue": "",
+                "pages": "1--7",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sampaio, G. et al. 2007. Regional climate change over eastern Ama- zonia caused by pasture and soybean cropland expansion. -Geophys. Res. Lett. 34: 1-7.",
+                "links": null
+            },
+            "BIBREF74": {
+                "ref_id": "b74",
+                "title": "Does moisture feedback affect rainfall significantly? -Phys",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "H G"
+                        ],
+                        "last": "Savenije",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Chem. Earth",
+                "volume": "20",
+                "issue": "",
+                "pages": "507--513",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Savenije, H. H. G. 1995. Does moisture feedback affect rainfall significantly? -Phys. Chem. Earth 20: 507-513.",
+                "links": null
+            },
+            "BIBREF75": {
+                "ref_id": "b75",
+                "title": "A pantropical analysis of the impacts of forest degradation and conversion on local temperature",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Senior",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Ecol. Evol",
+                "volume": "7",
+                "issue": "",
+                "pages": "7897--7908",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Senior, R. A. et al. 2017. A pantropical analysis of the impacts of forest degradation and conversion on local temperature. -Ecol. Evol. 7: 7897-7908.",
+                "links": null
+            },
+            "BIBREF76": {
+                "ref_id": "b76",
+                "title": "The trajectory of the anthropocene: the great acceleration",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Steffen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Anthr. Rev",
+                "volume": "2",
+                "issue": "",
+                "pages": "81--98",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Steffen, W. et al. 2015. The trajectory of the anthropocene: the great acceleration. -Anthr. Rev. 2: 81-98.",
+                "links": null
+            },
+            "BIBREF77": {
+                "ref_id": "b77",
+                "title": "Thermal-safety margins and the necessity of thermoregulatory behavior across latitude and elevation",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Sunday",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Proc. Natl Acad. Sci",
+                "volume": "111",
+                "issue": "",
+                "pages": "5610--5615",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sunday, J. M. et al. 2014. Thermal-safety margins and the necessity of thermoregulatory behavior across latitude and elevation. -Proc. Natl Acad. Sci. USA 111: 5610- 5615.",
+                "links": null
+            },
+            "BIBREF78": {
+                "ref_id": "b78",
+                "title": "Regional variation in climate change winners and losers highlights the rapid loss of cold-dwelling species",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Tayleur",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Divers. Distrib",
+                "volume": "22",
+                "issue": "",
+                "pages": "468--480",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tayleur, C. M. et al. 2016. Regional variation in climate change winners and losers highlights the rapid loss of cold-dwelling species. -Divers. Distrib. 22: 468-480.",
+                "links": null
+            },
+            "BIBREF79": {
+                "ref_id": "b79",
+                "title": "Global scenarios for biodiversity need to better integrate climate and land use change",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Titeux",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Divers. Distrib",
+                "volume": "23",
+                "issue": "",
+                "pages": "1231--1234",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Titeux, N. et al. 2017. Global scenarios for biodiversity need to better integrate climate and land use change. -Divers. Distrib. 23: 1231-1234.",
+                "links": null
+            },
+            "BIBREF80": {
+                "ref_id": "b80",
+                "title": "Roads from Rio+20. Pathways to achieve global sustainability goals by 2050",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Van Vuuren",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "van Vuuren, D. et al. 2012. Roads from Rio+20. Pathways to achieve global sustainability goals by 2050. -PBL Netherlands Environmental Assessment Agency, The Hague.",
+                "links": null
+            },
+            "BIBREF81": {
+                "ref_id": "b81",
+                "title": "The split-apply-combine strategy for data analysis",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Wickham",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "J. Stat. Softw",
+                "volume": "40",
+                "issue": "",
+                "pages": "1--29",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wickham, H. 2011. The split-apply-combine strategy for data analysis. -J. Stat. Softw. 40: 1-29.",
+                "links": null
+            },
+            "BIBREF82": {
+                "ref_id": "b82",
+                "title": "Data from: Human-dominated land uses favour species affiliated with more extreme climates",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Williams",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2019,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.5061/dryad.c2fqz6149>"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Williams, J. J. et al. 2019. Data from: Human-dominated land uses favour species affiliated with more extreme climates, especially in the tropics. -Dryad Digital Repository, <https://doi.org/10.5061/ dryad.c2fqz6149>.",
+                "links": null
+            },
+            "BIBREF83": {
+                "ref_id": "b83",
+                "title": "The effect of environmental and phylogenetic drivers on community assembly in an alpine meadow community",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Ecology",
+                "volume": "93",
+                "issue": "",
+                "pages": "2321--2328",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang, Z. et al. 2012. The effect of environmental and phylogenetic drivers on community assembly in an alpine meadow commu- nity. -Ecology 93: 2321-2328.",
+                "links": null
+            },
+            "BIBREF84": {
+                "ref_id": "b84",
+                "title": "Climatic extremes improve predictions of spatial patterns of tree species",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Zimmermann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Proc. Natl Acad. Sci",
+                "volume": "106",
+                "issue": "",
+                "pages": "19723--19728",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zimmermann, N. E. et al. 2009. Climatic extremes improve predic- tions of spatial patterns of tree species. -Proc. Natl Acad. Sci. USA 106: 19723-19728.",
+                "links": null
+            },
+            "BIBREF85": {
+                "ref_id": "b85",
+                "title": "Mixed effects models and extensions in ecology with R",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Zuur",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zuur, A. et al. 2009. Mixed effects models and extensions in ecol- ogy with R, 1st ed. -Springer.",
+                "links": null
+            },
+            "BIBREF86": {
+                "ref_id": "b86",
+                "title": "Supplementary material (available online as Appendix ecog-04806 at < www.ecography.org/appendix/ecog-04806 >)",
+                "authors": [],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "1--11",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Supplementary material (available online as Appendix ecog- 04806 at < www.ecography.org/appendix/ecog-04806 >). Appendix 1-11.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "num": null,
+                "uris": null,
+                "type_str": "figure",
+                "text": "The total abundance of species with different precipitation niches (Pp min ) at tropical (a-d) and temperate (e-h) latitudes across human-altered land uses, relative to assemblages within primary vegetation (dotted line)"
+            },
+            "TABREF0": {
+                "num": null,
+                "content": "<table><tr><td/><td colspan=\"2\">Geographic zone</td></tr><tr><td>Land use</td><td>Tropical</td><td>Temperate</td></tr><tr><td>Primary vegetation</td><td>1369 (1123)</td><td>774 (587)</td></tr><tr><td>Advanced secondary</td><td>504 (363)</td><td>84 (75)</td></tr><tr><td>vegetation (ASV)</td><td/><td/></tr><tr><td>Young secondary</td><td>301 (269)</td><td>156 (150)</td></tr><tr><td>vegetation (YSV)</td><td/><td/></tr><tr><td>Plantation</td><td>865 (622)</td><td>270 (246)</td></tr><tr><td>Cropland</td><td>439 (355)</td><td>485 (458)</td></tr><tr><td>Pasture</td><td>564 (435)</td><td>291 (273)</td></tr><tr><td>Total</td><td>4042 (3167)</td><td>2060 (1789)</td></tr></table>",
+                "type_str": "table",
+                "text": "The number of vertebrate assemblages from the PREDICTS Project database within each land use included in the analyses looking at differences in community-average climatic extremes (and, in parentheses, range-wide variation). For definitions of landuse types, see Supplementary material Appendix 1Table A1andHudson et al. (2014)."
+            }
+        }
+    }
+}

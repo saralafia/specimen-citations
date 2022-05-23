@@ -1,0 +1,4037 @@
+{
+    "paper_id": "Nayaetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:30:38.650308Z"
+    },
+    "title": "Latitudinal Trends in Digestive Flexibility: Testing the Climatic Variability Hypothesis with Data on the Intestinal Length of Rodents",
+    "authors": [
+        {
+            "first": "Daniel",
+            "middle": [
+                "E"
+            ],
+            "last": "Naya",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Pontificia Universidad Cat\u00f3 lica de Chile",
+                "location": {
+                    "postCode": "6513677",
+                    "settlement": "Santiago",
+                    "region": "CP",
+                    "country": "Chile"
+                }
+            },
+            "email": "dnaya@bio.puc.cl"
+        },
+        {
+            "first": "Francisco",
+            "middle": [],
+            "last": "Bozinovic",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Pontificia Universidad Cat\u00f3 lica de Chile",
+                "location": {
+                    "postCode": "6513677",
+                    "settlement": "Santiago",
+                    "region": "CP",
+                    "country": "Chile"
+                }
+            },
+            "email": "fbozinovic@bio.puc.cl"
+        },
+        {
+            "first": "William",
+            "middle": [
+                "H"
+            ],
+            "last": "Karasov",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Wisconsin",
+                "location": {
+                    "postCode": "53706",
+                    "settlement": "Madison",
+                    "region": "Wisconsin"
+                }
+            },
+            "email": "wkarasov@wisc.edu"
+        }
+    ],
+    "year": "",
+    "abstract": "Flexibility of digestive features can be understood considering the benefits of digestion, which links animal foraging to metabolizable energy and nutrient gain, and its costs, which are partly indexed by digestive tract tissue mass, one of the most expensive to maintain in terms of energy and protein metabolism. In this article, we applied a meta-analytical approach to current data on rodents' small intestine length flexibility to evaluate the climatic variability hypothesis (CVH). This hypothesis states the following: (1) as the range of climatic fluctuation experienced by terrestrial animals increases with latitude, individuals at higher latitudes should be more flexible to persist at a site; (2) the greater phenotypic flexibility allows species to occupy more habitats and to become more widely distributed. We compiled data from 25 articles, which provided a total of 86 estimations of flexibility involving 20 rodent species. Consistent with CVH predictions, we found a positive correlation between small intestine length flexibility and latitude and between small intestine length flexibility and the number of habitats occupied by different species. When seen from the perspective of digestive physiology, our analysis is an important piece of evidence on the adaptive value of digestive flexibility in small mammals.",
+    "pdf_parse": {
+        "paper_id": "Nayaetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Flexibility of digestive features can be understood considering the benefits of digestion, which links animal foraging to metabolizable energy and nutrient gain, and its costs, which are partly indexed by digestive tract tissue mass, one of the most expensive to maintain in terms of energy and protein metabolism. In this article, we applied a meta-analytical approach to current data on rodents' small intestine length flexibility to evaluate the climatic variability hypothesis (CVH). This hypothesis states the following: (1) as the range of climatic fluctuation experienced by terrestrial animals increases with latitude, individuals at higher latitudes should be more flexible to persist at a site; (2) the greater phenotypic flexibility allows species to occupy more habitats and to become more widely distributed. We compiled data from 25 articles, which provided a total of 86 estimations of flexibility involving 20 rodent species. Consistent with CVH predictions, we found a positive correlation between small intestine length flexibility and latitude and between small intestine length flexibility and the number of habitats occupied by different species. When seen from the perspective of digestive physiology, our analysis is an important piece of evidence on the adaptive value of digestive flexibility in small mammals.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Phenotypic plasticity (i.e., the ability of a genotype to produce distinct phenotypes when exposed to different environments) comprises a central concept in the understanding of how organisms interact with their environment and thus a central topic in the ecological and evolutionary research agenda (Pigliucci 2005) . A particular case of phenotypic plasticity is phenotypic flexibility, which refers to reversible change in organism traits due to changes in internal or external environmental conditions (Piersma and Drent 2003) . In the past 2 decades, empirical evidence showed that phenotypic flexibility met all the conditions required to be selected for (Scheiner 1993 (Scheiner , 2002 Pigliucci 2001 Pigliucci , 2005 . Hence, the environmental modification of an organism's physiology and structure to changing conditions is often hypothesized to be a response that increases biological performance.",
+                "cite_spans": [
+                    {
+                        "start": 300,
+                        "end": 316,
+                        "text": "(Pigliucci 2005)",
+                        "ref_id": "BIBREF70"
+                    },
+                    {
+                        "start": 506,
+                        "end": 530,
+                        "text": "(Piersma and Drent 2003)",
+                        "ref_id": "BIBREF68"
+                    },
+                    {
+                        "start": 661,
+                        "end": 675,
+                        "text": "(Scheiner 1993",
+                        "ref_id": "BIBREF78"
+                    },
+                    {
+                        "start": 676,
+                        "end": 692,
+                        "text": "(Scheiner , 2002",
+                        "ref_id": "BIBREF78"
+                    },
+                    {
+                        "start": 693,
+                        "end": 707,
+                        "text": "Pigliucci 2001",
+                        "ref_id": "BIBREF70"
+                    },
+                    {
+                        "start": 708,
+                        "end": 724,
+                        "text": "Pigliucci , 2005",
+                        "ref_id": "BIBREF70"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Flexibility of digestive features, such as enzymatic activity, nutrient uptake rates, and gut size, has been the focus of many studies throughout the past century (for review, see Karasov and Diamond 1983; Starck 1999; McWilliams and Karasov 2001; Naya and Bozinovic 2004; Naya et al. 2007) . Because the gut represents the functional link between foraging (energy intake) and the energy available for survival, growth, and reproduction (Karasov 1990; Secor 2001) , it might be expected that animals adjust their digestive attributes to changes in food availability and/or quality in order to maximize overall energy return (Sibly 1981) . Also, the digestive tract tissue is one of the most expensive to maintain in terms of energy and protein metabolism (Cant et al. 1996) , and, consequently, adjusting the amount of this tissue to the functional demand could represent an important energy-saving mechanism.",
+                "cite_spans": [
+                    {
+                        "start": 180,
+                        "end": 205,
+                        "text": "Karasov and Diamond 1983;",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 206,
+                        "end": 218,
+                        "text": "Starck 1999;",
+                        "ref_id": "BIBREF87"
+                    },
+                    {
+                        "start": 219,
+                        "end": 247,
+                        "text": "McWilliams and Karasov 2001;",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 248,
+                        "end": 272,
+                        "text": "Naya and Bozinovic 2004;",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 273,
+                        "end": 290,
+                        "text": "Naya et al. 2007)",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 437,
+                        "end": 451,
+                        "text": "(Karasov 1990;",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 452,
+                        "end": 463,
+                        "text": "Secor 2001)",
+                        "ref_id": "BIBREF81"
+                    },
+                    {
+                        "start": 624,
+                        "end": 636,
+                        "text": "(Sibly 1981)",
+                        "ref_id": "BIBREF82"
+                    },
+                    {
+                        "start": 755,
+                        "end": 773,
+                        "text": "(Cant et al. 1996)",
+                        "ref_id": "BIBREF6"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "For the particular case of rodents, dozens of studies on small intestine size flexibility of wild species were performed during the past 2 decades. This was coincident with the development of optimal digestion models (Sibly 1981; Penry and Jumars 1987) , which provide a clear theoretical framework in which to interpret digestive adjust- were collected or captive colonies originated. Points marked with an asterisk refer to studies that reported the region but not the specific locality where animals belong; in these cases we used the geographical coordinate of the institution where animals were analyzed. In addition, we also ran the analyses using the middle point of each area (instead of the locality of the institution), but obtained results did not differ from those reported in the text. Sources: 1, Thomomys bottae (Loeb et al. 1991) ; 2, Mus musculus (Kristan and Hammond 2003) ; 3, Clethrionomys gapperi, Microtus pennsylvanicus, Microtus longicaudus, and Phenacomys intermedius (Norrie and Millar 1990) ; 4, Peromyscus maniculatus (Green and Millar 1987) ; 5, Microtus ochrogaster (Gross et al. 1985; Hammond and Wunder 1991; Hammond 1993) ; 6, P. maniculatus (French and Porter 1994) ; 7, Peromyscus leucopus and P. maniculatus (Derting and Noakes 1995); 8, M. ochrogaster and M. pennsylvanicus (Young Owl and Batzli 1998) ; 9, P. maniculatus (Hammond and Kristan 2000) ; 10, P. leucopus (Derting and Hornung 2003) ; 11, Microtus pinetorum (Derting and Austin 1998) ; 12, Abrothrix andinus (Bozinovic et al. 1988 (Bozinovic et al. , 1990 and Phyllotis darwini (Sabat and Bozinovic 2000) ; 13, Akodon azarae (del Valle et al. 2006) ; 14, Clethrionomys glareolus and Arvicola terrestris (Lee and Houston 1993, 1995) and Microtus agrestis (McDevitt and Speakman 1994; Lee and Houston 1995) ; 15, A. terrestris (Woodall 1989) ; 16, Apodemus agrarius (Brokowska 1995) ; 17, Otomys sloggetti (Schwaibold and Pillay 2003) ; 18, Meriones unguiculatus and Microtus brandti (Pei et al. 2001a (Pei et al. , 2001b . ments as a response to changing environmental conditions. In addition, during the past 2 decades, there was a progressive recognition of some attributes of rodents that made them an attractive model in which to study digestive flexibility (Demment and Van Soest 1985; Hume 1989; Justice and Smith 1992; Cork 1994) . First, the way by which food intake rate and gut volume scale with body mass (approximately 0.75 and 1.0, respectively) determines that to cope with changes in food intake, a potential buffer capacity of the gut decreases with body size; hence, gut size adjustments should be more relevant in small-sized species. Second, in general terms, rodents have high massspecific metabolic rate (because of their small body size), and thus, energy-saving mechanisms have a great value in these species. Third, many rodent species occur in highly variable environments and consume diets of poor quality and/or in which quality markedly changes between seasons.",
+                "cite_spans": [
+                    {
+                        "start": 217,
+                        "end": 229,
+                        "text": "(Sibly 1981;",
+                        "ref_id": "BIBREF82"
+                    },
+                    {
+                        "start": 230,
+                        "end": 252,
+                        "text": "Penry and Jumars 1987)",
+                        "ref_id": "BIBREF67"
+                    },
+                    {
+                        "start": 827,
+                        "end": 845,
+                        "text": "(Loeb et al. 1991)",
+                        "ref_id": "BIBREF54"
+                    },
+                    {
+                        "start": 864,
+                        "end": 890,
+                        "text": "(Kristan and Hammond 2003)",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 993,
+                        "end": 1017,
+                        "text": "(Norrie and Millar 1990)",
+                        "ref_id": "BIBREF62"
+                    },
+                    {
+                        "start": 1046,
+                        "end": 1069,
+                        "text": "(Green and Millar 1987)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1096,
+                        "end": 1115,
+                        "text": "(Gross et al. 1985;",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 1116,
+                        "end": 1140,
+                        "text": "Hammond and Wunder 1991;",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 1141,
+                        "end": 1154,
+                        "text": "Hammond 1993)",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 1175,
+                        "end": 1199,
+                        "text": "(French and Porter 1994)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 1244,
+                        "end": 1270,
+                        "text": "(Derting and Noakes 1995);",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 1271,
+                        "end": 1338,
+                        "text": "8, M. ochrogaster and M. pennsylvanicus (Young Owl and Batzli 1998)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1359,
+                        "end": 1385,
+                        "text": "(Hammond and Kristan 2000)",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 1404,
+                        "end": 1430,
+                        "text": "(Derting and Hornung 2003)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 1456,
+                        "end": 1481,
+                        "text": "(Derting and Austin 1998)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1506,
+                        "end": 1528,
+                        "text": "(Bozinovic et al. 1988",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 1529,
+                        "end": 1553,
+                        "text": "(Bozinovic et al. , 1990",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 1576,
+                        "end": 1602,
+                        "text": "(Sabat and Bozinovic 2000)",
+                        "ref_id": "BIBREF77"
+                    },
+                    {
+                        "start": 1623,
+                        "end": 1646,
+                        "text": "(del Valle et al. 2006)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 1701,
+                        "end": 1709,
+                        "text": "(Lee and",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 1710,
+                        "end": 1729,
+                        "text": "Houston 1993, 1995)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1752,
+                        "end": 1780,
+                        "text": "(McDevitt and Speakman 1994;",
+                        "ref_id": "BIBREF58"
+                    },
+                    {
+                        "start": 1781,
+                        "end": 1802,
+                        "text": "Lee and Houston 1995)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1823,
+                        "end": 1837,
+                        "text": "(Woodall 1989)",
+                        "ref_id": "BIBREF92"
+                    },
+                    {
+                        "start": 1862,
+                        "end": 1878,
+                        "text": "(Brokowska 1995)",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 1902,
+                        "end": 1930,
+                        "text": "(Schwaibold and Pillay 2003)",
+                        "ref_id": "BIBREF80"
+                    },
+                    {
+                        "start": 1980,
+                        "end": 1997,
+                        "text": "(Pei et al. 2001a",
+                        "ref_id": "BIBREF66"
+                    },
+                    {
+                        "start": 1998,
+                        "end": 2017,
+                        "text": "(Pei et al. , 2001b",
+                        "ref_id": "BIBREF66"
+                    },
+                    {
+                        "start": 2259,
+                        "end": 2287,
+                        "text": "(Demment and Van Soest 1985;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 2288,
+                        "end": 2298,
+                        "text": "Hume 1989;",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 2299,
+                        "end": 2322,
+                        "text": "Justice and Smith 1992;",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 2323,
+                        "end": 2333,
+                        "text": "Cork 1994)",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "In this article, we applied a meta-analytical approach to current data on rodents' small intestine length flexibility to evaluate the climatic variability hypothesis (CVH; Janzen 1967; Stevens 1989; Gaston and Chown 1999 ; see also Dobzhansky 1950) . This hypothesis states the following:",
+                "cite_spans": [
+                    {
+                        "start": 185,
+                        "end": 198,
+                        "text": "Stevens 1989;",
+                        "ref_id": "BIBREF88"
+                    },
+                    {
+                        "start": 199,
+                        "end": 220,
+                        "text": "Gaston and Chown 1999",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 232,
+                        "end": 248,
+                        "text": "Dobzhansky 1950)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "(1) as the range of climatic fluctuation experienced by terrestrial animals increases with latitude (or altitude), individuals at higher latitudes (or altitudes) require a broader range of tolerances to persist at a site; (2) the broader range of tolerance allows species to occupy more habitats and to become more widely distributed. Given that the range of tolerance of an organism is related to its mechanisms of phenotypic flexibility, the CVH implies that physiological flexibility should increase with latitude (Chown et al. 2004 and references therein) . Thus, we specifically aimed to test whether there was a positive correlation among small intestine length flexibility and (i) geographical latitude, (ii) climatic variability, and (iii) the number of habitats occupied by different species.",
+                "cite_spans": [
+                    {
+                        "start": 517,
+                        "end": 559,
+                        "text": "(Chown et al. 2004 and references therein)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "We selected the small intestine for the analyses because this digestive organ is the major organ responsible for a Lack of data on food habits of Otomys sloggetti required exclusion of two comparisons from the large and one from the reduced data sets. energy and nutrient absorption (Karasov and Hume 1997) . Moreover, changes in digestive capacity in response to changing intake level are achieved mainly by reversible changes in small intestine gross morphology (Karasov and McWilliams 2005) . Regarding the morphometric level of analysis, we selected changes in small intestine length over changes in small intestine mass because much more data on flexibility were found for the former variable. We found a total of 25 studies, published between 1985 and 2006, that reported a total of 86 morphological comparisons for 20 rodent species ( fig. 1 ). Table A1 (available as an Microsoft Excel data file or as a tab-delimited ASCII data file) provies raw data used in the analyses, including species body mass and trophic category, geographical latitude, climatic variability data, list of habitats occupied for each species, and small intestine length flexibility values. We did not include in the database studies that compared small intestine length between populations of the same species (e.g., Hansson and Jaarola 1989; Corp et al. 1997) . In addition, to avoid any size-related problems, such as a scaling relationship between flexibility and body mass, we chose an arbitrary body size upper limit of 300 g and excluded those studies performed on animals of greater size (e.g., Virgl and Messier 1992) .",
+                "cite_spans": [
+                    {
+                        "start": 283,
+                        "end": 306,
+                        "text": "(Karasov and Hume 1997)",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 464,
+                        "end": 493,
+                        "text": "(Karasov and McWilliams 2005)",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 1300,
+                        "end": 1325,
+                        "text": "Hansson and Jaarola 1989;",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 1326,
+                        "end": 1343,
+                        "text": "Corp et al. 1997)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 1585,
+                        "end": 1608,
+                        "text": "Virgl and Messier 1992)",
+                        "ref_id": "BIBREF91"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 842,
+                        "end": 848,
+                        "text": "fig. 1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 852,
+                        "end": 860,
+                        "text": "Table A1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Database Description",
+                "sec_num": null
+            },
+            {
+                "text": "For each comparison, we recorded from the original articles the geographical coordinates for where animals were collected or for where the captive colony originated, the methodological approach followed by the authors (ex-perimental or observational), the tested or supposed cause of flexibility (temperature or diet quality for experimental studies and season or reproductive state for observational studies), the species' food habit (omnivorous, granivorous, or herbivorous), and the specimens' body masses (table A1 [Excel data, ASCII data]). In addition, we obtained the number of habitats occupied by each species from the University of Michigan Museum of Zoology (http:// animaldiversity.ummz.umich.edu/) and from Walker's Mammals of the World (Nowak 1999; table A1 [Excel data, ASCII data] ). Finally, for each geographical point, we obtained data on two measurements of climatic variability: temperature annual range (the difference between maximum temperature of the warmest month and minimum temperature of the coldest month) and temperature seasonality (standard deviation of the mean monthly temperature). Climatic data were obtained from Diva-Gis (http://www.diva-gis.org/climate.htm; table A1 [Excel data, ASCII data]).",
+                "cite_spans": [
+                    {
+                        "start": 750,
+                        "end": 762,
+                        "text": "(Nowak 1999;",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 763,
+                        "end": 796,
+                        "text": "table A1 [Excel data, ASCII data]",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Database Description",
+                "sec_num": null
+            },
+            {
+                "text": "We first calculated the small intestine length flexibility (d) as an unbiased standardized mean difference (the Hedges's difference; i.e., the difference between experimental and control group means expressed in units of pooled standard deviation and corrected for small-sample bias) and then calculated its associated variance for each one of the 86 comparisons (table A1 [Excel data, ASCII data]). Given that we define an a priori direction for the expected change in small intestine length on the basis of optimal digestion models' predictions (Sibly 1981; Penry and Jumars 1987) , negative values of flexibility can be obtained if the control mean is greater than the experimental group mean. Thus, negative flexibility values indicate that observed changes are opposite the optimal models' expectations or, given their low frequency and absolute value, are much more likely to be noise around nonflexibility. However, as a precaution regarding our use of negative values of flexibility, we also performed analyses (not shown) replacing those values with values of 0, and our main conclusions did not change. To avoid a problem of lack of independence as a result of the fact that most studies report more than one comparison, we reduced the original data set to one value (mean and maximum flexibility) for each species, locality, cause of flexibility, and study combination. This yielded two reduced data sets, one for the mean and another for the maximum flexibility of 38 independent comparisons. In addition, to avoid a problem of overrepresentation of some species, we further condensed the original data set to unique values (mean and maximum flexibility) for each species. This yields two additional data sets, one for species mean and another for species maximum flexibility, each with 20 comparisons. After that, we estimated the cumulative small intestine length flexibility for each level of a factor (E; a weighted average of Hedges's differences) and its confidence interval for an a value of 0.05 by using a bootstrapping procedure with 1,000 iterations. Differences in cumulative flexibility among levels of a factor were evaluated using random-effects meta-analytical models plus heterogeneity tests (see Rosenberg et al. 2000; Gurevitch and Hedges 2001 ). Because we found no categorical structure of the data (see \"Results\"), we pooled all the comparisons to evaluate the relationship between small intestine length flexibility and body mass, geographical latitude, climatic variability, and the number of habitats occupied by each species. For this last purpose, we used random-effects meta-analytical models with continuous predictor variables (see Rosenberg et al. 2000; Gurevitch and Hedges 2001) . Note that in both continuous and categorical meta-analytical models, total heterogeneity (Q T ) is decomposed into the heterogeneity explained by the model (Q M ) and error heterogeneity (Q E ) in a fashion similar to that in a regression analysis or in a one-way ANOVA. Both Q M and Q E can be tested against a x 2 distribution with df for Q M and df for Q E (where m \u03ea 1 n \u03ea m n is the number of comparisons and m the number of levels). These analyses were conducted using MetaWin, version 2.0 (Rosenberg et al. 2000) . In addition, we evaluated the correlation among pairs of variables through the method of phylogenetically independent contrasts (Felsenstein 1985) . For that propose, we used the phylogenetic tree published by Lovegrove (2003) and some additional information (Martin et al. 2000; Huchon et al. 2002) . Given that real branch lengths were not available for the entire phylogeny, we considered two types of arbitrary branch lengths: constant (all branches equal to 1; fig. A1 , left) and that proposed by Pagel (1992;  fig. A1, right) . To test hypotheses with independent contrasts, we followed a conservative approach subtracting 1 df for each unresolved branch (Purvis and Garland 1993; Garland and D\u00edaz-Uriarte 1999) . Phylogenetic analyses were performed using COMPARE, version 4.6b (Martins 2004) .",
+                "cite_spans": [
+                    {
+                        "start": 547,
+                        "end": 559,
+                        "text": "(Sibly 1981;",
+                        "ref_id": "BIBREF82"
+                    },
+                    {
+                        "start": 560,
+                        "end": 582,
+                        "text": "Penry and Jumars 1987)",
+                        "ref_id": "BIBREF67"
+                    },
+                    {
+                        "start": 2226,
+                        "end": 2248,
+                        "text": "Rosenberg et al. 2000;",
+                        "ref_id": "BIBREF76"
+                    },
+                    {
+                        "start": 2249,
+                        "end": 2274,
+                        "text": "Gurevitch and Hedges 2001",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 2674,
+                        "end": 2696,
+                        "text": "Rosenberg et al. 2000;",
+                        "ref_id": "BIBREF76"
+                    },
+                    {
+                        "start": 2697,
+                        "end": 2723,
+                        "text": "Gurevitch and Hedges 2001)",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 3222,
+                        "end": 3245,
+                        "text": "(Rosenberg et al. 2000)",
+                        "ref_id": "BIBREF76"
+                    },
+                    {
+                        "start": 3376,
+                        "end": 3394,
+                        "text": "(Felsenstein 1985)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 3458,
+                        "end": 3474,
+                        "text": "Lovegrove (2003)",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 3507,
+                        "end": 3527,
+                        "text": "(Martin et al. 2000;",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 3528,
+                        "end": 3547,
+                        "text": "Huchon et al. 2002)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 3751,
+                        "end": 3763,
+                        "text": "Pagel (1992;",
+                        "ref_id": "BIBREF64"
+                    },
+                    {
+                        "start": 3764,
+                        "end": 3764,
+                        "text": "",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 3910,
+                        "end": 3935,
+                        "text": "(Purvis and Garland 1993;",
+                        "ref_id": "BIBREF71"
+                    },
+                    {
+                        "start": 3936,
+                        "end": 3966,
+                        "text": "Garland and D\u00edaz-Uriarte 1999)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 4034,
+                        "end": 4048,
+                        "text": "(Martins 2004)",
+                        "ref_id": "BIBREF57"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 3714,
+                        "end": 3721,
+                        "text": "fig. A1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 3765,
+                        "end": 3780,
+                        "text": "fig. A1, right)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Statistical Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "We did not find differences in small intestine length flexibility among methodological approaches, causes of flexibility, or species' food habits (table 1). In addition, we did not observe a significant correlation between small intestine length flexibility and body mass (all comparisons: , , , fig. 2A, solid line) or between latitude and temperature seasonality ( fig. 2B, solid line) . However, these results are due to the points located in Europe (specifically in Britain and Poland), which, probably because of the influence of oceans on their climates, are markedly stable for their latitudes. Accordingly, when these points are removed from the analyses, a markedly positive correlation between latitude and temperature variability is observed ( fig. 2, dashed lines) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 296,
+                        "end": 316,
+                        "text": "fig. 2A, solid line)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 367,
+                        "end": 387,
+                        "text": "fig. 2B, solid line)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 755,
+                        "end": 776,
+                        "text": "fig. 2, dashed lines)",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "In agreement with CVH predictions, we observed a highly significant positive relationship between latitude and small intestine length flexibility ( fig. 3 ) and also between small intestine length flexibility and the number of habitats occupied by different species (fig. 4) . A correlation between small intestine length flexibility and temperature variability was also observed but only after removing the points corresponding to Europe (table 2) . Results from phylogenetically informed analyses are similar to those obtained from conventional methods (table 3) . The major difference between the approaches was that in phylogenetic analyses, the correlation between number of habitats and small intestine length flexibility was greater than in conventional analyses.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 148,
+                        "end": 154,
+                        "text": "fig. 3",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 266,
+                        "end": 274,
+                        "text": "(fig. 4)",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 439,
+                        "end": 448,
+                        "text": "(table 2)",
+                        "ref_id": "TABREF2"
+                    },
+                    {
+                        "start": 555,
+                        "end": 564,
+                        "text": "(table 3)",
+                        "ref_id": "TABREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Although diversity in physiology is well known among animals, it is remarkable that few analyses exist concerning the effect of global geographic differences on the physiological responses of animals (Spicer and Gaston 1999; Chown and Nicolson 2004) . These analyses may explain how physiological traits are affected by environmental variables and thus may give insights on the evolutionary process underlying biological diversity (Chown and Nicolson 2004) . Here we used, for the first time, modern metaanalytical tools to evaluate latitudinal pattern in physiological flexibility. Our estimations of phenotypic flexibility consider not only the difference between environment means but also the variance existing within each environment.",
+                "cite_spans": [
+                    {
+                        "start": 200,
+                        "end": 224,
+                        "text": "(Spicer and Gaston 1999;",
+                        "ref_id": "BIBREF86"
+                    },
+                    {
+                        "start": 225,
+                        "end": 249,
+                        "text": "Chown and Nicolson 2004)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 431,
+                        "end": 456,
+                        "text": "(Chown and Nicolson 2004)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Historically, the CVH has been evaluated from two different perspectives. The first perspective is based on the ecological patterns (at the population and community levels) that are expected to emerge from it. For example, as predicted by the CVH, it was observed that both species distributional range (Rapoport 1975; Stevens 1989; France 1992 ) and similarity in species assemblage composition along altitudinal gradients (Huey 1978 and references therein) decrease with latitude. In addition, for some mammalian species, a positive correlation between temperature variability and distributional range size (Pagel et al. 1991; Letcher and Harvey 1994) and between latitude and the number of habitats occupied by different species (Pagel et al. 1991; Hern\u00e1ndez and Vrba 2005) has been observed. From a second perspective, the CVH has been evaluated, as in our case, through the comparison of phenotypic flexibility between different populations and species along latitudinal gradients. These studies, mainly re- , considering the mean flexibility value for each species/locality/study/cause combination (B), and considering the maximum flexibility value for each species/locality/study combination (C). Small intestine length flexibility is expressed as the difference between control and experimental group means in units of pooled standard deviation and corrected for small sample bias (the Hedges's difference). Lack of data on Microtus brandti habitats excludes one comparison from the large data set and another from the reduced data set. stricted to the analysis of thermal tolerance in ectothermic species, usually demonstrate an increase in phenotypic flexibility with increasing latitude (e.g., genus Drosophila [Levins 1969; Kimura 1988; Hoffman and Watson 1993] , insects [Addo-Bediako et al. 2000] , amphibians [Snyder and Weathers 1975] , and lizards [van Berkum 1988; Cruz et al. 2005] ).",
+                "cite_spans": [
+                    {
+                        "start": 303,
+                        "end": 318,
+                        "text": "(Rapoport 1975;",
+                        "ref_id": "BIBREF72"
+                    },
+                    {
+                        "start": 319,
+                        "end": 332,
+                        "text": "Stevens 1989;",
+                        "ref_id": "BIBREF88"
+                    },
+                    {
+                        "start": 333,
+                        "end": 344,
+                        "text": "France 1992",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 424,
+                        "end": 434,
+                        "text": "(Huey 1978",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 609,
+                        "end": 628,
+                        "text": "(Pagel et al. 1991;",
+                        "ref_id": "BIBREF65"
+                    },
+                    {
+                        "start": 629,
+                        "end": 653,
+                        "text": "Letcher and Harvey 1994)",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 732,
+                        "end": 751,
+                        "text": "(Pagel et al. 1991;",
+                        "ref_id": "BIBREF65"
+                    },
+                    {
+                        "start": 752,
+                        "end": 776,
+                        "text": "Hern\u00e1ndez and Vrba 2005)",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1722,
+                        "end": 1735,
+                        "text": "[Levins 1969;",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 1736,
+                        "end": 1748,
+                        "text": "Kimura 1988;",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 1749,
+                        "end": 1773,
+                        "text": "Hoffman and Watson 1993]",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 1784,
+                        "end": 1810,
+                        "text": "[Addo-Bediako et al. 2000]",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 1824,
+                        "end": 1850,
+                        "text": "[Snyder and Weathers 1975]",
+                        "ref_id": "BIBREF83"
+                    },
+                    {
+                        "start": 1865,
+                        "end": 1882,
+                        "text": "[van Berkum 1988;",
+                        "ref_id": "BIBREF90"
+                    },
+                    {
+                        "start": 1883,
+                        "end": 1900,
+                        "text": "Cruz et al. 2005]",
+                        "ref_id": "BIBREF11"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "However, it should be noted that evidence supporting the CVH predictions is controversial. First, the generality of the predictions at the populational and community levels has been debated vigorously, especially the decrease in species' distributional ranges with latitudes lower than \u223c20\u040a (see Rohde et al. 1993; Rohde 1996; Gaston et al. 1998; Gaston and Chown 1999) . Second, at the organismal level, some studies did not find a correlation between the amount of environmental thermal variability and flexibility between populations and/or species of the same genus (e.g., Brown and Feldmeth 1971) or between phenotypic flexibility and latitude for different populations of the same species (e.g., James et al. 1997) . Several factors have been proposed to explain these results, such as gene flow between populations, high costs associated with phenotypic flexibility, and the fact that animals are able to select their microenvironment(s) in a way that avoids climatic variability (Yamamot and Ohba 1983; James et al. 1997; Guralnick 2006) . Finally, in some cases, such as in sex determination, it may be expected that temperature variability promotes an increase in genetic determination, more than in an increase in developmental plasticity (Lagomarsino and Conover 1993 and references therein).",
+                "cite_spans": [
+                    {
+                        "start": 296,
+                        "end": 314,
+                        "text": "Rohde et al. 1993;",
+                        "ref_id": "BIBREF75"
+                    },
+                    {
+                        "start": 315,
+                        "end": 326,
+                        "text": "Rohde 1996;",
+                        "ref_id": "BIBREF74"
+                    },
+                    {
+                        "start": 327,
+                        "end": 346,
+                        "text": "Gaston et al. 1998;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 347,
+                        "end": 369,
+                        "text": "Gaston and Chown 1999)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 577,
+                        "end": 601,
+                        "text": "Brown and Feldmeth 1971)",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 702,
+                        "end": 720,
+                        "text": "James et al. 1997)",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 987,
+                        "end": 1010,
+                        "text": "(Yamamot and Ohba 1983;",
+                        "ref_id": "BIBREF93"
+                    },
+                    {
+                        "start": 1011,
+                        "end": 1029,
+                        "text": "James et al. 1997;",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1030,
+                        "end": 1045,
+                        "text": "Guralnick 2006)",
+                        "ref_id": "BIBREF28"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "In this study, we found correlational evidence for predictions of the CVH in both conventional and phylogenetic analyses. Specifically, we found a positive correlation between latitude and small intestine length flexibility and between small intestine length flexibility and the number of habitats occupied by each species. We also observed a correlation between small intestine length flexibility and temperature variability, but in this case, the relationship was weaker. Thus, our data are consistent with the CVH and indicate that latitude is a better predictor of physiological flexibility than is climatic variability, a fact that is in agreement with some previous findings. For example, Letcher and Harvey (1994) reported that latitude is a better predictor of Palearctic mammal distributional range sizes than is temperature variability. Moreover, analysis of recent data on global-scale patterns of small mammals' metabolic rates shows that latitude explains more variance than do specific climatic variables (Speakman 2000; Rezende et al. 2004) . In this regard, it was proposed that (i) latitude could be a better predictor of long-term regimens of climatic variables than could contemporary records of weather stations and (ii) latitude is correlated with several other ecologically relevant factors, such as day length and environmental productivity, in addition to climatic variables (Rezende et al. 2004) . We agree with these ideas and note that latitude is also related to several historical factors, such as the number of available habitats (Pagel et al. 1991) and biogeographical boundaries (Gaston et al. 1998) , which can affect organism traits. Indeed, for the particular case of small intestine length flexibility, we add another potential explanation: the fact that basal metabolic rate increases with increasing latitude (Speakman 2000; Lovegrove 2003; Rezende et al. 2004) could determine that animals at higher latitudes require greater amounts of digestive flexibility to continuously cope with greater energetic demands.",
+                "cite_spans": [
+                    {
+                        "start": 695,
+                        "end": 720,
+                        "text": "Letcher and Harvey (1994)",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 1019,
+                        "end": 1034,
+                        "text": "(Speakman 2000;",
+                        "ref_id": "BIBREF84"
+                    },
+                    {
+                        "start": 1035,
+                        "end": 1055,
+                        "text": "Rezende et al. 2004)",
+                        "ref_id": "BIBREF73"
+                    },
+                    {
+                        "start": 1399,
+                        "end": 1420,
+                        "text": "(Rezende et al. 2004)",
+                        "ref_id": "BIBREF73"
+                    },
+                    {
+                        "start": 1560,
+                        "end": 1579,
+                        "text": "(Pagel et al. 1991)",
+                        "ref_id": "BIBREF65"
+                    },
+                    {
+                        "start": 1611,
+                        "end": 1631,
+                        "text": "(Gaston et al. 1998)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1847,
+                        "end": 1862,
+                        "text": "(Speakman 2000;",
+                        "ref_id": "BIBREF84"
+                    },
+                    {
+                        "start": 1863,
+                        "end": 1878,
+                        "text": "Lovegrove 2003;",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 1879,
+                        "end": 1899,
+                        "text": "Rezende et al. 2004)",
+                        "ref_id": "BIBREF73"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "On the other hand, gut size flexibility has been suggested as one of the most important physiological adjustments to cope with changes in internal and external environmental conditions (Piersma and Lindstrom 1997) . In this vein, it is widely known that when animals have to cope with an increase in energy demands (e.g., during the cold season or during lactation) or a decline in the quality (e.g., metabolizable energy) of the diet consumed, they compensate by increasing the amount of food ingested (Batzli et al. 1994; Speakman and Krol 2005) . As expected from optimal digestion models (Sibly 1981; Penry and Jumars 1987) , this increase in food intake is usually followed by an increase in gut dimensions (Karasov and Hume 1997) . This way, animals are more able to maintain a constant coefficient of digestibility at increased levels of food consumption. The match between function and induced morphology, together with the congruence between empirical data and optimal digestion models, supports the idea that gut size flexibility is an adaptation (see Karasov and McWilliams 2005) . However, identifying a correlation between environments and different phenotypes that are products of flexibility is just one step in the demonstration of the adaptive value of phenotypic flexibility. Testing the adaptive value of flexibility also requires demonstration that the phenotype evoked by each environment has higher relative fitness than do the alternative (\"wrong\") phenotypes (Thompson 1991; Dudley and Schmitt 1996) . The problem is that flexibility, when adaptive, precludes by itself the expression of the \"wrong\" phenotypes in each environment. Hence, a final test of the adaptative flexibility hypothesis might be to artificially extend the range of phenotypes within environments (i.e., phenotypic and/or genetic manipulation of the focal trait), which is a highly problematic issue for most organism traits (see Schmitt et al. 1999) . To tackle this problem, at least partially, it has been suggested that between-species comparative studies can be of great importance in evaluating the adaptive value of phenotypic flexibility (Doughty and Reznick 2004) . Specifically, if flexibility has an adaptive value, it should be expected to be reflected in an interspecific correlation between the amount of flexibility and the factors that cause it. This pattern of variation is precisely what we reported here for gut size flexibility. Thus, when seen from the perspective of digestive physiology, our study represents an important piece of evidence on the adaptive value of gut size flexibility in small mammals.",
+                "cite_spans": [
+                    {
+                        "start": 185,
+                        "end": 213,
+                        "text": "(Piersma and Lindstrom 1997)",
+                        "ref_id": "BIBREF69"
+                    },
+                    {
+                        "start": 503,
+                        "end": 523,
+                        "text": "(Batzli et al. 1994;",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 524,
+                        "end": 547,
+                        "text": "Speakman and Krol 2005)",
+                        "ref_id": "BIBREF85"
+                    },
+                    {
+                        "start": 592,
+                        "end": 604,
+                        "text": "(Sibly 1981;",
+                        "ref_id": "BIBREF82"
+                    },
+                    {
+                        "start": 605,
+                        "end": 627,
+                        "text": "Penry and Jumars 1987)",
+                        "ref_id": "BIBREF67"
+                    },
+                    {
+                        "start": 712,
+                        "end": 735,
+                        "text": "(Karasov and Hume 1997)",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 1062,
+                        "end": 1090,
+                        "text": "Karasov and McWilliams 2005)",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 1483,
+                        "end": 1498,
+                        "text": "(Thompson 1991;",
+                        "ref_id": "BIBREF89"
+                    },
+                    {
+                        "start": 1499,
+                        "end": 1523,
+                        "text": "Dudley and Schmitt 1996)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 1926,
+                        "end": 1946,
+                        "text": "Schmitt et al. 1999)",
+                        "ref_id": "BIBREF79"
+                    },
+                    {
+                        "start": 2142,
+                        "end": 2168,
+                        "text": "(Doughty and Reznick 2004)",
+                        "ref_id": "BIBREF18"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Studies of phenotypic variation expressed by single organisms have been of central interest to much physiological research but have remained underexploited in evolutionary biology (Piersma and Drent 2003) . In this context, this study shows how meta-analysis of current data on phenotypic flexibility can illuminate patterns in physiological ecology and evolution.",
+                "cite_spans": [
+                    {
+                        "start": 180,
+                        "end": 204,
+                        "text": "(Piersma and Drent 2003)",
+                        "ref_id": "BIBREF68"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "erously provided a list of useful references, and three anonymous reviewers made valuable suggestions. D.E.N. acknowledges M. Lima for his continuous support during the past four years (and especially for his lessons on the domestication process) and L. Ebensperger, F. Jaksic, and P. Marquet for lucid discussions during the course of this study. Funding was provided by Comisi\u00f3 n Nacional de Investigaci\u00f3 n Cient\u00edfica y Tecnol\u00f3 gica, Chile (Fondecyt 3060046 to D.E.N. and Fondap 1501-0001, program 1, to F.B.) and by the National Science Foundation (IOS 0615678 to W.H.K.). Figure A1 : Phylogenetic trees used to calculate independent contrasts. Left, branch lengths constant (all equal to 1; species). Right, branch n p 20 lengths estimated following Pagel (1992; species) . For complete names of all species, see legend of figure 1. n p 17",
+                "cite_spans": [
+                    {
+                        "start": 754,
+                        "end": 766,
+                        "text": "Pagel (1992;",
+                        "ref_id": "BIBREF64"
+                    },
+                    {
+                        "start": 767,
+                        "end": 775,
+                        "text": "species)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 576,
+                        "end": 585,
+                        "text": "Figure A1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "A. Canavero, H. Naya, and E. Rezende helped us with geographical and phylogenetic analyses. M. Pigluicci gen-",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgments",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Thermal tolerance, climatic variability and latitude",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Addo-Bediako",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Chown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gaston",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Proceedings of the Royal Society B: Biological Sciences",
+                "volume": "267",
+                "issue": "",
+                "pages": "739--745",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Addo-Bediako, A., S. L. Chown, and K. J. Gaston. 2000. Thermal tolerance, climatic variability and latitude. Proceedings of the Royal Society B: Biological Sciences 267:739-745.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "The integrated processing response in herbivorous small mammals. Pages 324-336 in",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Batzli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Broussard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Oliver",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "The digestive system in mammals",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Batzli, G. O., A. D. Broussard, and R. J. Oliver. 1994. The integrated processing response in herbivorous small mammals. Pages 324- 336 in D. J. Chivers and P. Langer, eds. The digestive system in mammals. Cambridge University Press, Cambridge.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Cambios del tracto digestivo de Abrothrix andinus (Cricetidae): efecto de la calidad de dieta y requerimientos de energ\u00eda",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bozinovic",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Veloso",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Rosenmann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Revista Chilena de Historia Natural",
+                "volume": "61",
+                "issue": "",
+                "pages": "245--251",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bozinovic, F., C. Veloso, and M. Rosenmann. 1988. Cambios del tracto digestivo de Abrothrix andinus (Cricetidae): efecto de la calidad de dieta y requerimientos de energ\u00eda. Revista Chilena de Historia Natural 61:245-251.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Seasonal changes in energy expenditure and digestive tract of Abrothrix andinus (Cricetidae) in the Andes range",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bozinovic",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Novoa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Veloso",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Physiological Zoology",
+                "volume": "63",
+                "issue": "",
+                "pages": "1216--1231",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bozinovic, F., F. F. Novoa, and C. Veloso. 1990. Seasonal changes in energy expenditure and digestive tract of Abrothrix andinus (Cri- cetidae) in the Andes range. Physiological Zoology 63:1216-1231.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Seasonal changes in gut morphology of the striped field mouse (Apodemus agrarius)",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Brokowska",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Canadian Journal of Zoology",
+                "volume": "73",
+                "issue": "",
+                "pages": "1095--1099",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brokowska, A. 1995. Seasonal changes in gut morphology of the striped field mouse (Apodemus agrarius). Canadian Journal of Zo- ology 73:1095-1099.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Evolution in constant and fluctuating environments: thermal tolerance of desert pupfish (Cyprinodon)",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Feldmeth",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1971,
+                "venue": "Evolution",
+                "volume": "25",
+                "issue": "",
+                "pages": "390--398",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brown, J. H., and C. R. Feldmeth. 1971. Evolution in constant and fluctuating environments: thermal tolerance of desert pupfish (Cy- prinodon). Evolution 25:390-398.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "The regulation of intestinal metabolism and its impact on whole animal energetics",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Cant",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Mcbride",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Croom",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Journal of Animal Science",
+                "volume": "74",
+                "issue": "",
+                "pages": "2541--2553",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cant, J. P., B. W. McBride, and W. J. Croom Jr. 1996. The regulation of intestinal metabolism and its impact on whole animal energetics. Journal of Animal Science 74:2541-2553.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Insect physiological ecology",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Chown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Nicolson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chown, S. L., and S. W. Nicolson. 2004. Insect physiological ecology. Oxford University Press, New York.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Macrophysiology: large-scale patterns in physiological traits and their ecological implications",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Chown",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gaston",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Robinson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Functional Ecology",
+                "volume": "18",
+                "issue": "",
+                "pages": "159--167",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chown, S. L., K. J. Gaston, and D. Robinson. 2004. Macrophysiology: large-scale patterns in physiological traits and their ecological im- plications. Functional Ecology 18:159-167.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Digestive constraints on dietary scope in small and moderately small mammals: how much do we really understand? Pages 337-369 in",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Cork",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "The digestive system in mammals",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cork, S. J. 1994. Digestive constraints on dietary scope in small and moderately small mammals: how much do we really understand? Pages 337-369 in D. J. Chivers and P. Langer, eds. The digestive system in mammals. Cambridge University Press, Cambridge.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Apparent absorption efficiency and gut morphometry of wood mice, Apodemus sylvaticus, from two distinct populations with different diets",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Corp",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Gorman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Speakman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Physiological Zoology",
+                "volume": "70",
+                "issue": "",
+                "pages": "610--614",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Corp, N., M. L. Gorman, and J. P. Speakman. 1997. Apparent ab- sorption efficiency and gut morphometry of wood mice, Apodemus sylvaticus, from two distinct populations with different diets. Phys- iological Zoology 70:610-614.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "The importance of phylogenetic scale in tests of Bergmann's and Rapoport's rules: lessons from a clade of South American lizards",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Cruz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Fitzgerald",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Espinoza",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Schulte",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Journal of Evolutionary Biology",
+                "volume": "18",
+                "issue": "",
+                "pages": "1559--1574",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cruz, F. B., L. A. Fitzgerald, R. E. Espinoza, and J. A. Schulte II. 2005. The importance of phylogenetic scale in tests of Bergmann's and Rapoport's rules: lessons from a clade of South American lizards. Journal of Evolutionary Biology 18:1559-1574.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Phenotypic plasticity in response to low-quality diet in the South American omnivorous rodent Akodon azarae (Rodentia: Sigmodontinae)",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Del Valle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Busch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Comparative Biochemistry and Physiology A",
+                "volume": "145",
+                "issue": "",
+                "pages": "397--405",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "del Valle, J. C., C. Busch, and A. A. L\u00f3 pez Ma\u00f1anes. 2006. Phenotypic plasticity in response to low-quality diet in the South American omnivorous rodent Akodon azarae (Rodentia: Sigmodontinae). Comparative Biochemistry and Physiology A 145:397-405.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "A nutritional explanation for body-size patterns of ruminant and nonruminant herbivores",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Demment",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Van Soest",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "American Naturalist",
+                "volume": "125",
+                "issue": "",
+                "pages": "641--672",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Demment, M. W., and P. J. Van Soest. 1985. A nutritional explanation for body-size patterns of ruminant and nonruminant herbivores. American Naturalist 125:641-672.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Changes in gut capacity with lactation and cold exposure in a species with low rates of energy use, the pine vole (Mircrotus pinetorum)",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Derting",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Austin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Physiological Zoology",
+                "volume": "71",
+                "issue": "",
+                "pages": "611--623",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Derting, T. L., and W. H. Austin. 1998. Changes in gut capacity with lactation and cold exposure in a species with low rates of energy use, the pine vole (Mircrotus pinetorum). Physiological Zoology 71:611-623.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Energy demand, diet quality, and central processing organs in wild white-footed mice (Peromyscus leucopus)",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Derting",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Hornung",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Journal of Mammalogy",
+                "volume": "84",
+                "issue": "",
+                "pages": "1381--1398",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Derting, T. L., and C. Hornung. 2003. Energy demand, diet quality, and central processing organs in wild white-footed mice (Pero- myscus leucopus). Journal of Mammalogy 84:1381-1398.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Seasonal changes in gut capacity in the white-footed mouse (Peromyscus leucopus) and meadow vole (Microtus pennsylvanicus)",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Derting",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Noakes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Iii",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Canadian Journal of Zoology",
+                "volume": "73",
+                "issue": "",
+                "pages": "243--252",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Derting, T. L, and E. B. Noakes III. 1995. Seasonal changes in gut capacity in the white-footed mouse (Peromyscus leucopus) and meadow vole (Microtus pennsylvanicus). Canadian Journal of Zo- ology 73:243-252.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Evolution in the tropics",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Dobzhansky",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1950,
+                "venue": "American Scientist",
+                "volume": "38",
+                "issue": "",
+                "pages": "209--221",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dobzhansky, T. 1950. Evolution in the tropics. American Scientist 38:209-221.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Patterns and analysis of adaptive phenotypic plasticity in animals. Pages 126-150 in",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Doughty",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Reznick",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Phenotypic plasticity",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Doughty, P., and D. N. Reznick. 2004. Patterns and analysis of adap- tive phenotypic plasticity in animals. Pages 126-150 in T. J. DeWitt and S. M. Schneider, eds. Phenotypic plasticity. Oxford University Press, Oxford.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Testing the adaptive plasticity hypothesis: density-dependent selection on manipulated stem length in Impatiens capensis",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Dudley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Schmitt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "American Naturalist",
+                "volume": "147",
+                "issue": "",
+                "pages": "445--465",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dudley, S., and J. Schmitt. 1996. Testing the adaptive plasticity hy- pothesis: density-dependent selection on manipulated stem length in Impatiens capensis. American Naturalist 147:445-465.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Phylogenies and the comparative method",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Felsenstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "American Naturalist",
+                "volume": "125",
+                "issue": "",
+                "pages": "1--15",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Felsenstein, J. 1985. Phylogenies and the comparative method. Amer- ican Naturalist 125:1-15.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "The North American latitudinal gradient in species richness and geographical range of freshwater crayfish and amphipods",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "France",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "American Naturalist",
+                "volume": "139",
+                "issue": "",
+                "pages": "342--354",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "France, R. 1992. The North American latitudinal gradient in species richness and geographical range of freshwater crayfish and am- phipods. American Naturalist 139:342-354.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Energy acquisition and allocation in Peromyscus maniculatus exposed to aldicarb and cool temperatures",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "French",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Porter",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Environmental Toxicology and Chemistry",
+                "volume": "13",
+                "issue": "",
+                "pages": "927--933",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "French, J. B., and W. P. Porter. 1994. Energy acquisition and allocation in Peromyscus maniculatus exposed to aldicarb and cool temper- atures. Environmental Toxicology and Chemistry 13:927-933.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Polytomies and phylogenetically independent contrasts: an examination of the bounded degrees of freedom approach",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Garland",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Jr",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "D\u00edaz-Uriarte",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Systematic Biology",
+                "volume": "48",
+                "issue": "",
+                "pages": "547--558",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Garland, T., Jr., and R. D\u00edaz-Uriarte. 1999. Polytomies and phylo- genetically independent contrasts: an examination of the bounded degrees of freedom approach. Systematic Biology 48:547-558.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Why Rapoport's rule does not generalize",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gaston",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Chown",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Oikos",
+                "volume": "84",
+                "issue": "",
+                "pages": "309--312",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gaston, K. J., and S. L. Chown. 1999. Why Rapoport's rule does not generalize. Oikos 84:309-312.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Rapoport's rule: time for an epitaph?",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gaston",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Blackburn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Spicer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Trends in Ecology & Evolution",
+                "volume": "13",
+                "issue": "",
+                "pages": "70--74",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gaston, K. J., T. M. Blackburn, and J. I. Spicer. 1998. Rapoport's rule: time for an epitaph? Trends in Ecology & Evolution 13:70- 74.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Changes in gut dimensions and capacity of Peromyscus maniculatus relative to diet quality and energy needs",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Green",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Millar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Canadian Journal of Zoology",
+                "volume": "65",
+                "issue": "",
+                "pages": "2159--2162",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Green, D. A., and J. S. Millar. 1987. Changes in gut dimensions and capacity of Peromyscus maniculatus relative to diet quality and energy needs. Canadian Journal of Zoology 65:2159-2162.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Effects of food quality and energy needs: changes in gut morphology and capacity of Microtus ochrogaster",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Gross",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Wunder",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "Journal of Mammalogy",
+                "volume": "66",
+                "issue": "",
+                "pages": "661--667",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gross, J. E., Z. Wang, and B. A. Wunder. 1985. Effects of food quality and energy needs: changes in gut morphology and capacity of Microtus ochrogaster. Journal of Mammalogy 66:661-667.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Do flatland-and mountain-dwelling species show different structuring of their experienced environment over latitude? a western vs. central-eastern North America rodent multispecies comparison",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Guralnick",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Diversity and Distribution",
+                "volume": "12",
+                "issue": "",
+                "pages": "731--741",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Guralnick, R. 2006. Do flatland-and mountain-dwelling species show different structuring of their experienced environment over lati- tude? a western vs. central-eastern North America rodent multi- species comparison. Diversity and Distribution 12:731-741.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Meta-analyses: combining the results of independent experiments",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Gurevitch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Hedges",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gurevitch, J., and L. V. Hedges. 2001. Meta-analyses: combining the results of independent experiments. Pages 347-369 in S. M. Schei- ner and J. Gurevitch, eds. Analysis of ecological experiments. Ox- ford University Press, New York.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Seasonal changes in gut size of the wild prairie vole (Microtus ochrogaster)",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hammond",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Canadian Journal of Zoology",
+                "volume": "71",
+                "issue": "",
+                "pages": "820--827",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hammond, K. A. 1993. Seasonal changes in gut size of the wild prairie vole (Microtus ochrogaster). Canadian Journal of Zoology 71:820-827.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Responses to lactation and cold exposure by deer mice (Peromyscus maniculatus",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hammond",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Kristan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Physiological and Biochemical Zoology",
+                "volume": "73",
+                "issue": "",
+                "pages": "547--556",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hammond, K. A., and D. M. Kristan. 2000. Responses to lactation and cold exposure by deer mice (Peromyscus maniculatus). Phys- iological and Biochemical Zoology 73:547-556.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "The role of diet quality and energy need in the nutritional ecology of a small herbivore, Microtus ochrogaster",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hammond",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Wunder",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Physiological Zoology",
+                "volume": "64",
+                "issue": "",
+                "pages": "541--567",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hammond, K. A., and B. A. Wunder. 1991. The role of diet quality and energy need in the nutritional ecology of a small herbivore, Microtus ochrogaster. Physiological Zoology 64:541-567.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Body size related to cyclicity in microtines: dominance behaviour or digestive efficiency?",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Hansson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Jaarola",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Oikos",
+                "volume": "55",
+                "issue": "",
+                "pages": "356--364",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hansson, L., and M. Jaarola. 1989. Body size related to cyclicity in microtines: dominance behaviour or digestive efficiency? Oikos 55:356-364.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Rapoport effect and biomic specialization in African mammals: revisiting the climatic variability hypothesis",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hern\u00e1ndez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Vrba",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Journal of Biogeography",
+                "volume": "32",
+                "issue": "",
+                "pages": "903--918",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hern\u00e1ndez, M., and E. S. Vrba. 2005. Rapoport effect and biomic specialization in African mammals: revisiting the climatic vari- ability hypothesis. Journal of Biogeography 32:903-918.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Geographical variation in the acclimation response of Drosophila to temperature extremes",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hoffman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Watson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "American Naturalist",
+                "volume": "142",
+                "issue": "",
+                "pages": "93--113",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hoffman, A. A., and M. Watson. 1993. Geographical variation in the acclimation response of Drosophila to temperature extremes. American Naturalist 142(suppl.):S93-S113.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Rodent phylogeny and a timescale for the evolution of glires: evidence from an extensive taxon sampling using three nuclear genes",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Huchon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Madsen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J J B"
+                        ],
+                        "last": "Sibbald",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Ament",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Stanhope",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Catzeflis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Jong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "J P"
+                        ],
+                        "last": "Douzery",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Molecular Biology and Evolution",
+                "volume": "19",
+                "issue": "",
+                "pages": "1053--1065",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Huchon, D., O. Madsen, M. J .J. B. Sibbald, K. Ament, M. J. Stanhope, F. Catzeflis, W. W. de Jong, and E. J. P. Douzery. 2002. Rodent phylogeny and a timescale for the evolution of glires: evidence from an extensive taxon sampling using three nuclear genes. Mo- lecular Biology and Evolution 19:1053-1065.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Latitudinal patterns of between-altitude faunal similarity: mountains might be \"higher\" in the tropics",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Huey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1978,
+                "venue": "American Naturalist",
+                "volume": "112",
+                "issue": "",
+                "pages": "225--254",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Huey, R. B. 1978. Latitudinal patterns of between-altitude faunal similarity: mountains might be \"higher\" in the tropics. American Naturalist 112:225-254.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Optimal digestive strategies in mammalian herbivores",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Hume",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Physiological Zoology",
+                "volume": "62",
+                "issue": "",
+                "pages": "1145--1163",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hume, I. D. 1989. Optimal digestive strategies in mammalian her- bivores. Physiological Zoology 62:1145-1163.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Genetic and environmental responses to temperature of Drosophila melanogaster from a latitudinal cline",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "James",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "B R"
+                        ],
+                        "last": "Azevedo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Patridge",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Genetics",
+                "volume": "146",
+                "issue": "",
+                "pages": "881--890",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "James, A. C., R. B. R. Azevedo, and L. Patridge. 1997. Genetic and environmental responses to temperature of Drosophila melano- gaster from a latitudinal cline. Genetics 146:881-890.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Why mountain passes are higher in the tropics",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Janzen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1967,
+                "venue": "American Naturalist",
+                "volume": "101",
+                "issue": "",
+                "pages": "233--249",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Janzen, D. H. 1967. Why mountain passes are higher in the tropics. American Naturalist 101:233-249.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "A model of dietary fiber utilization by small mammalian herbivores, with empirical results for Neotoma",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Justice",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "American Naturalist",
+                "volume": "139",
+                "issue": "",
+                "pages": "398--416",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Justice, K. E., and F. A. Smith. 1992. A model of dietary fiber uti- lization by small mammalian herbivores, with empirical results for Neotoma. American Naturalist 139:398-416.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Digestion in birds: chemical and physiological determinants and ecological implications",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Karasov",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Karasov, W. H. 1990. Digestion in birds: chemical and physiological determinants and ecological implications. Pages 391-415 in M. L.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Avian foraging: theory, methodology, and applications",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Morrison",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Ralph",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Verner",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "Cooper Ornithological Society",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Morrison, C. J. Ralph, J. Verner, and J. R. Jehl, eds. Avian foraging: theory, methodology, and applications. Cooper Ornithological So- ciety, Lawrence, KS.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Adaptive regulation of sugar and amino acid transport by vertebrate intestine",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Karasov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Diamond",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1983,
+                "venue": "American Journal of Physiology",
+                "volume": "245",
+                "issue": "",
+                "pages": "443--462",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Karasov, W. H., and J. M. Diamond. 1983. Adaptive regulation of sugar and amino acid transport by vertebrate intestine. American Journal of Physiology 245:G443-G462.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Vertebrate gastrointestinal system",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Karasov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Hume",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Pages 407-480 in W. H. Dantzler, ed. Handbook of physiology. Sec. 13. Comparative physiology",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Karasov, W. H., and I. D. Hume. 1997. Vertebrate gastrointestinal system. Pages 407-480 in W. H. Dantzler, ed. Handbook of phys- iology. Sec. 13. Comparative physiology. Oxford University Press, New York.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Digestive constraints in mammalian and avian ecology. Pages 87-112 in",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Karasov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Mcwilliams",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Science",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Karasov, W. H., and S. R. McWilliams. 2005. Digestive constraints in mammalian and avian ecology. Pages 87-112 in J. M. Starck and T. Wang, eds. Physiological and ecological adaptations to feed- ing in vertebrates. Science, Enfield, NH.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Adaptations to temperate climates and evolution of overwintering strategies in the Drosophila melanogaster species group",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Kimura",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Evolution",
+                "volume": "42",
+                "issue": "",
+                "pages": "1288--1297",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kimura, T. M. 1988. Adaptations to temperate climates and evolution of overwintering strategies in the Drosophila melanogaster species group. Evolution 42:1288-1297.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Physiological and morphological response to simultaneous cold exposure and parasite infection by wild-derived house mice",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Kristan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hammond",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Functional Ecology",
+                "volume": "17",
+                "issue": "",
+                "pages": "464--471",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kristan, D. M., and K. A. Hammond. 2003. Physiological and mor- phological response to simultaneous cold exposure and parasite infection by wild-derived house mice. Functional Ecology 17:464- 471.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Variation in environmental and genotypic sex-determining mechanism across a latitudinal gradient in the fish",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Lagomarsino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Conover",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Menidia menidia. Evolution",
+                "volume": "47",
+                "issue": "",
+                "pages": "487--494",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lagomarsino, I. V., and D. O. Conover. 1993. Variation in environ- mental and genotypic sex-determining mechanism across a lati- tudinal gradient in the fish, Menidia menidia. Evolution 47:487- 494.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "The effect of diet quality on gut anatomy in British voles",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Lee",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Houston",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Journal of Comparative Physiology B",
+                "volume": "163",
+                "issue": "",
+                "pages": "337--339",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lee, W. B., and D. C. Houston. 1993. The effect of diet quality on gut anatomy in British voles. Journal of Comparative Physiology B 163:337-339.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "The rate of change of gut anatomy in voles in relation to diet quality",
+                "authors": [],
+                "year": 1995,
+                "venue": "Journal of Zoology",
+                "volume": "236",
+                "issue": "",
+                "pages": "341--345",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "---. 1995. The rate of change of gut anatomy in voles in relation to diet quality. Journal of Zoology (London) 236:341-345.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Variation in geographical range size among mammals of the Palearctic",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Letcher",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Harvey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "American Naturalist",
+                "volume": "144",
+                "issue": "",
+                "pages": "30--42",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Letcher, A. J., and P. H. Harvey. 1994. Variation in geographical range size among mammals of the Palearctic. American Naturalist 144: 30-42.",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Thermal acclimation and heat resistance in Drosophila species",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Levins",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1969,
+                "venue": "American Naturalist",
+                "volume": "103",
+                "issue": "",
+                "pages": "483--499",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Levins, R. 1969. Thermal acclimation and heat resistance in Dro- sophila species. American Naturalist 103:483-499.",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Responses of pocket gophers (Thomomys bottae) to changes in diet quality",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Loeb",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Schwab",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Demment",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Oecologia (Berlin)",
+                "volume": "86",
+                "issue": "",
+                "pages": "542--551",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Loeb, S. C., R. G. Schwab, and M. W. Demment. 1991. Responses of pocket gophers (Thomomys bottae) to changes in diet quality. Oecologia (Berlin) 86:542-551.",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "The influence of climate on the basal metabolic rate of small mammals: a slow-fast metabolic continuum",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Lovegrove",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Journal of Comparative Physiology B",
+                "volume": "173",
+                "issue": "",
+                "pages": "87--112",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lovegrove, B. G. 2003. The influence of climate on the basal met- abolic rate of small mammals: a slow-fast metabolic continuum. Journal of Comparative Physiology B 173:87-112.",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "Molecular phylogeny of European Muroid rodents based on complete cytochrome b sequences",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Martin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Gerlach",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Schlotterer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Meyer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Molecular Phylogenetics and Evolution",
+                "volume": "16",
+                "issue": "",
+                "pages": "37--47",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Martin, Y., G. Gerlach, C. Schlotterer, and A. Meyer. 2000. Molecular phylogeny of European Muroid rodents based on complete cyto- chrome b sequences. Molecular Phylogenetics and Evolution 16: 37-47.",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "COMPARE, version 4.6b. Computer Programs for the Statistical Analysis of Comparative Data",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Martins",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Martins, E. P. 2004. COMPARE, version 4.6b. Computer Programs for the Statistical Analysis of Comparative Data, Indiana Univer- sity, Bloomington.",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Central limits to sustainable metabolic rate have no role in a cold acclimation of the short-tailed field vole (Microtus agrestis)",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Mcdevitt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Speakman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Physiological Zoology",
+                "volume": "67",
+                "issue": "",
+                "pages": "1117--1139",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "McDevitt, R. M., and J. R. Speakman. 1994. Central limits to sus- tainable metabolic rate have no role in a cold acclimation of the short-tailed field vole (Microtus agrestis). Physiological Zoology 67: 1117-1139.",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Phenotypic flexibility in digestive system structure and function in migratory birds and its ecological significance",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Mcwilliams",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Karasov",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Comparative Biochemistry and Physiology A",
+                "volume": "128",
+                "issue": "",
+                "pages": "579--593",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "McWilliams, S. R., and W. H. Karasov. 2001. Phenotypic flexibility in digestive system structure and function in migratory birds and its ecological significance. Comparative Biochemistry and Physi- ology A 128:579-593.",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "Digestive phenotypic flexibility in post-metamorphic amphibians: studies on a model organism",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Naya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bozinovic",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Biological Research",
+                "volume": "37",
+                "issue": "",
+                "pages": "365--370",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Naya, D. E., and F. Bozinovic. 2004. Digestive phenotypic flexibility in post-metamorphic amphibians: studies on a model organism. Biological Research 37:365-370.",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "Phenotypic plasticity in laboratory mice and rats: a meta-analysis of current ideas on gut size flexibility",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Naya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Karasov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bozinovic",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Evolutionary Ecology Research",
+                "volume": "9",
+                "issue": "",
+                "pages": "1363--1374",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Naya, D. E., W. H. Karasov, and F. Bozinovic. 2007. Phenotypic plasticity in laboratory mice and rats: a meta-analysis of current ideas on gut size flexibility. Evolutionary Ecology Research 9:1363- 1374.",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "Food resources and reproduction in four microtine rodents",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Norrie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Millar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Canadian Journal of Zoology",
+                "volume": "68",
+                "issue": "",
+                "pages": "641--650",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Norrie, M. B., and J. S. Millar. 1990. Food resources and reproduction in four microtine rodents. Canadian Journal of Zoology 68:641- 650.",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "Mammals of the world",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Nowak",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nowak, R. M. 1999. Mammals of the world. Johns Hopkins Uni- versity Press, Baltimore.",
+                "links": null
+            },
+            "BIBREF64": {
+                "ref_id": "b64",
+                "title": "A method for the analysis of comparative data",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Pagel",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Journal of Theoretical Biology",
+                "volume": "156",
+                "issue": "",
+                "pages": "431--442",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pagel, M. D. 1992. A method for the analysis of comparative data. Journal of Theoretical Biology 156:431-442.",
+                "links": null
+            },
+            "BIBREF65": {
+                "ref_id": "b65",
+                "title": "Ecological aspects of the geographical distribution and diversity of mammalian species",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Pagel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "May",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Collie",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "American Naturalist",
+                "volume": "137",
+                "issue": "",
+                "pages": "791--815",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pagel, M. D., R. M. May, and A. R. Collie. 1991. Ecological aspects of the geographical distribution and diversity of mammalian spe- cies. American Naturalist 137:791-815.",
+                "links": null
+            },
+            "BIBREF66": {
+                "ref_id": "b66",
+                "title": "Effects of dietary fiber on digesta passage, nutrient digestibility, and gastrointestinal tract morphology in the granivorous Mongolian gerbil (Meriones ochrogaster)",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "X"
+                        ],
+                        "last": "Pei",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Hume",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Physiological and Biochemical Zoology",
+                "volume": "74",
+                "issue": "",
+                "pages": "457--464",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pei, Y. X., D. H. Wang, and I. D. Hume. 2001a. Effects of dietary fiber on digesta passage, nutrient digestibility, and gastrointestinal tract morphology in the granivorous Mongolian gerbil (Meriones ochrogaster). Physiological and Biochemical Zoology 74:742-749. ---. 2001b. Selective digesta retention and coprophagy in Brandt's vole (Microtus brandti). Journal of Comparative Physi- ology B 171:457-464.",
+                "links": null
+            },
+            "BIBREF67": {
+                "ref_id": "b67",
+                "title": "Modeling animal guts as chemical reactors",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Penry",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Jumars",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "American Naturalist",
+                "volume": "129",
+                "issue": "",
+                "pages": "69--96",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Penry, D. L., and P. A. Jumars. 1987. Modeling animal guts as chem- ical reactors. American Naturalist 129:69-96.",
+                "links": null
+            },
+            "BIBREF68": {
+                "ref_id": "b68",
+                "title": "Phenotypic flexibility and the evolution of organismal design",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Piersma",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Drent",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Trends in Ecology & Evolution",
+                "volume": "18",
+                "issue": "",
+                "pages": "228--233",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Piersma, T., and J. Drent. 2003. Phenotypic flexibility and the evo- lution of organismal design. Trends in Ecology & Evolution 18: 228-233.",
+                "links": null
+            },
+            "BIBREF69": {
+                "ref_id": "b69",
+                "title": "Rapid reversible changes in organ size as a component of adaptive behaviour",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Piersma",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Lindstrom",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Trends in Ecology & Evolution",
+                "volume": "12",
+                "issue": "",
+                "pages": "134--138",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Piersma, T., and A. Lindstrom. 1997. Rapid reversible changes in organ size as a component of adaptive behaviour. Trends in Ecol- ogy & Evolution 12:134-138.",
+                "links": null
+            },
+            "BIBREF70": {
+                "ref_id": "b70",
+                "title": "Evolution of phenotypic plasticity: where are we going now?",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Pigliucci",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Trends in Ecology & Evolution",
+                "volume": "20",
+                "issue": "",
+                "pages": "481--486",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pigliucci, M. 2001. Phenotypic plasticity: beyond nature and nurture. Johns Hopkins University Press, Baltimore. ---. 2005. Evolution of phenotypic plasticity: where are we going now? Trends in Ecology & Evolution 20:481-486.",
+                "links": null
+            },
+            "BIBREF71": {
+                "ref_id": "b71",
+                "title": "Polytomies in comparative analyses of continuous characters",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Purvis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Garland",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Systematic Biology",
+                "volume": "42",
+                "issue": "",
+                "pages": "569--575",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Purvis, A., and T. Garland Jr. 1993. Polytomies in comparative anal- yses of continuous characters. Systematic Biology 42:569-575.",
+                "links": null
+            },
+            "BIBREF72": {
+                "ref_id": "b72",
+                "title": "Aerograf\u00eda: estrategias geogr\u00e1ficas de las especies",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Rapoport",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1975,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rapoport, E. H. 1975. Aerograf\u00eda: estrategias geogr\u00e1ficas de las especies. Fondo de Cultura Econ\u00f3 mica, Ciudad de Mexico.",
+                "links": null
+            },
+            "BIBREF73": {
+                "ref_id": "b73",
+                "title": "Climatic adaptation and the evolution of basal and maximum rates of metabolism in rodents",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Rezende",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bozinovic",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Garland",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Evolution",
+                "volume": "58",
+                "issue": "",
+                "pages": "1361--1374",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rezende, E. L., F. Bozinovic, and T. Garland Jr. 2004. Climatic ad- aptation and the evolution of basal and maximum rates of me- tabolism in rodents. Evolution 58:1361-1374.",
+                "links": null
+            },
+            "BIBREF74": {
+                "ref_id": "b74",
+                "title": "Rapoport's rule is a local phenomenon and cannot explain latitudinal gradients in species diversity",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Rohde",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Biodiversity Letters",
+                "volume": "3",
+                "issue": "",
+                "pages": "10--13",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rohde, K. 1996. Rapoport's rule is a local phenomenon and cannot explain latitudinal gradients in species diversity. Biodiversity Let- ters 3:10-13.",
+                "links": null
+            },
+            "BIBREF75": {
+                "ref_id": "b75",
+                "title": "Rapoport's rule does not apply to marine teleost and cannot explain latitudinal gradients in species richness",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Rohde",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Heap",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Heap",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "American Naturalist",
+                "volume": "142",
+                "issue": "",
+                "pages": "1--16",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rohde, K., M. Heap, and D. Heap. 1993. Rapoport's rule does not apply to marine teleost and cannot explain latitudinal gradients in species richness. American Naturalist 142:1-16.",
+                "links": null
+            },
+            "BIBREF76": {
+                "ref_id": "b76",
+                "title": "MetaWin statistical software for meta-analysis, version 2.1. Sinauer, Sunderland",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Rosenberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Adams",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Gurevitch",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rosenberg, M. S., D. C. Adams, and J. Gurevitch. 2000. MetaWin statistical software for meta-analysis, version 2.1. Sinauer, Sun- derland, MA.",
+                "links": null
+            },
+            "BIBREF77": {
+                "ref_id": "b77",
+                "title": "Digestive plasticity and the cost of acclimation to dietary chemistry in the omnivorous leaf-eared mouse Phyllotis darwini",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Sabat",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bozinovic",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Journal of Comparative Physiology B",
+                "volume": "170",
+                "issue": "",
+                "pages": "411--417",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sabat, P., and F. Bozinovic. 2000. Digestive plasticity and the cost of acclimation to dietary chemistry in the omnivorous leaf-eared mouse Phyllotis darwini. Journal of Comparative Physiology B 170: 411-417.",
+                "links": null
+            },
+            "BIBREF78": {
+                "ref_id": "b78",
+                "title": "Selection experiments and the study of phenotypic plasticity",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Scheiner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Annual Reviews in Ecology and Systematics",
+                "volume": "24",
+                "issue": "",
+                "pages": "889--898",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Scheiner, S. M. 1993. Genetics and evolution of phenotypic plasticity. Annual Reviews in Ecology and Systematics 24:35-68. ---. 2002. Selection experiments and the study of phenotypic plasticity. Journal of Evolutionary Biology 15:889-898.",
+                "links": null
+            },
+            "BIBREF79": {
+                "ref_id": "b79",
+                "title": "Manipulative approaches to testing adaptive plasticity: phytochrome-mediated shade-avoidance responses in plants",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Schmitt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Dudley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Pigliucci",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "American Naturalist",
+                "volume": "154",
+                "issue": "",
+                "pages": "43--54",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Schmitt, J., S. A. Dudley, and M. Pigliucci. 1999. Manipulative ap- proaches to testing adaptive plasticity: phytochrome-mediated shade-avoidance responses in plants. American Naturalist 154(suppl.):S43-S54.",
+                "links": null
+            },
+            "BIBREF80": {
+                "ref_id": "b80",
+                "title": "The gut morphology of the African ice rat, Otomys sloggetti robertsi, shows adaptations to cold environments and sex-specific seasonal variation",
+                "authors": [
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Schwaibold",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Pillay",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Journal of Comparative Physiology B",
+                "volume": "173",
+                "issue": "",
+                "pages": "653--659",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Schwaibold, U., and N. Pillay. 2003. The gut morphology of the African ice rat, Otomys sloggetti robertsi, shows adaptations to cold environments and sex-specific seasonal variation. Journal of Com- parative Physiology B 173:653-659.",
+                "links": null
+            },
+            "BIBREF81": {
+                "ref_id": "b81",
+                "title": "Regulation of digestive performance: a proposed adaptive response",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Secor",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Comparative Biochemistry and Physiology A",
+                "volume": "128",
+                "issue": "",
+                "pages": "565--577",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Secor, S. M. 2001. Regulation of digestive performance: a proposed adaptive response. Comparative Biochemistry and Physiology A 128:565-577.",
+                "links": null
+            },
+            "BIBREF82": {
+                "ref_id": "b82",
+                "title": "Physiological ecology: an evolutionary approach to resource use",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Sibly",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sibly, R. M. 1981. Strategies of digestion and defecation. Pages 109- 139 in C. R. Townsend and P. Calow, eds. Physiological ecology: an evolutionary approach to resource use. Blackwell Scientific, Oxford.",
+                "links": null
+            },
+            "BIBREF83": {
+                "ref_id": "b83",
+                "title": "Temperature adaptations in amphibians",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Snyder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Weathers",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1975,
+                "venue": "American Naturalist",
+                "volume": "109",
+                "issue": "",
+                "pages": "93--101",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Snyder, G. K., and W. W. Weathers. 1975. Temperature adaptations in amphibians. American Naturalist 109:93-101.",
+                "links": null
+            },
+            "BIBREF84": {
+                "ref_id": "b84",
+                "title": "The cost of living: field metabolic rates of small mammals. Pages 178-294 in",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Speakman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Advances in ecological research",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Speakman, J. R. 2000. The cost of living: field metabolic rates of small mammals. Pages 178-294 in A. H. Fisher and D. G. Raffaelli, eds. Advances in ecological research. Academic Press, San Diego, CA.",
+                "links": null
+            },
+            "BIBREF85": {
+                "ref_id": "b85",
+                "title": "Limits to sustained energy intake. IX. A review of hypotheses",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Speakman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Krol",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Journal of Comparative Physiology B",
+                "volume": "175",
+                "issue": "",
+                "pages": "375--394",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Speakman, J. R., and E. Krol. 2005. Limits to sustained energy intake. IX. A review of hypotheses. Journal of Comparative Physiology B 175:375-394.",
+                "links": null
+            },
+            "BIBREF86": {
+                "ref_id": "b86",
+                "title": "Physiological diversity and its ecological implications",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Spicer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gaston",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Spicer, J. I., and K. J. Gaston. 1999. Physiological diversity and its ecological implications. Blackwell Scientific, Oxford.",
+                "links": null
+            },
+            "BIBREF87": {
+                "ref_id": "b87",
+                "title": "Structural flexibility of the gastro-intestinal tract of vertebrates: implications for evolutionary morphology",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Starck",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Zoologischer Anzeiger",
+                "volume": "238",
+                "issue": "",
+                "pages": "87--101",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Starck, J. M. 1999. Structural flexibility of the gastro-intestinal tract of vertebrates: implications for evolutionary morphology. Zoolog- ischer Anzeiger 238:87-101.",
+                "links": null
+            },
+            "BIBREF88": {
+                "ref_id": "b88",
+                "title": "The latitudinal gradient in geographical range: how so many species coexist in the tropics",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Stevens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "American Naturalist",
+                "volume": "133",
+                "issue": "",
+                "pages": "240--256",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stevens, G. C. 1989. The latitudinal gradient in geographical range: how so many species coexist in the tropics. American Naturalist 133:240-256.",
+                "links": null
+            },
+            "BIBREF89": {
+                "ref_id": "b89",
+                "title": "Phenotypic plasticity as a component of evolutionary change",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Thompson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Trends in Ecology & Evolution",
+                "volume": "6",
+                "issue": "",
+                "pages": "246--249",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thompson, J. 1991. Phenotypic plasticity as a component of evo- lutionary change. Trends in Ecology & Evolution 6:246-249.",
+                "links": null
+            },
+            "BIBREF90": {
+                "ref_id": "b90",
+                "title": "Latitudinal patterns of the thermal sensitivity of sprint speed in lizards",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Van Berkum",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "American Naturalist",
+                "volume": "132",
+                "issue": "",
+                "pages": "327--343",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "van Berkum, F. H. 1988. Latitudinal patterns of the thermal sensitivity of sprint speed in lizards. American Naturalist 132:327-343.",
+                "links": null
+            },
+            "BIBREF91": {
+                "ref_id": "b91",
+                "title": "Seasonal variation in body composition and morphology of adult muskrats in central Saskatchewan",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Virgl",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Messier",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Canada. Journal of Zoology",
+                "volume": "228",
+                "issue": "",
+                "pages": "461--477",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Virgl, J. A., and F. Messier. 1992. Seasonal variation in body com- position and morphology of adult muskrats in central Saskatch- ewan, Canada. Journal of Zoology (London) 228:461-477.",
+                "links": null
+            },
+            "BIBREF92": {
+                "ref_id": "b92",
+                "title": "The effects of increased dietary cellulose on the anatomy, physiology and behaviour of the captive water voles, Arvicola terrestris (L.) (Rodentia: Microtinae)",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Woodall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Comparative Biochemistry and Physiology A",
+                "volume": "94",
+                "issue": "",
+                "pages": "615--621",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Woodall, P. F. 1989. The effects of increased dietary cellulose on the anatomy, physiology and behaviour of the captive water voles, Arvicola terrestris (L.) (Rodentia: Microtinae). Comparative Bio- chemistry and Physiology A 94:615-621.",
+                "links": null
+            },
+            "BIBREF93": {
+                "ref_id": "b93",
+                "title": "Strategic difference in thermal adaptation between two Drosophila species, D. virilis and D. immigrans",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Yamamot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Ohba",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1983,
+                "venue": "Oecologia (Berlin)",
+                "volume": "52",
+                "issue": "",
+                "pages": "333--339",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yamamot, A., and S. Ohba. 1983. Strategic difference in thermal adaptation between two Drosophila species, D. virilis and D. im- migrans. Oecologia (Berlin) 52:333-339.",
+                "links": null
+            },
+            "BIBREF94": {
+                "ref_id": "b94",
+                "title": "The integrated processing response of voles to fiber content of natural diets",
+                "authors": [
+                    {
+                        "first": "Young",
+                        "middle": [],
+                        "last": "Owl",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Batzli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Functional Ecology",
+                "volume": "12",
+                "issue": "",
+                "pages": "4--13",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Young Owl, M., and G. O. Batzli. 1998. The integrated processing response of voles to fiber content of natural diets. Functional Ecol- ogy 12:4-13.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "type_str": "figure",
+                "text": "Temperature seasonality world map (in units of standard deviation of the mean monthly temperature), showing the points where animals",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF1": {
+                "type_str": "figure",
+                "text": "Relationship between temperature annual range and geographical latitude (A) and between temperature seasonality and geographical latitude (B). Solid line p all data included; dashed line p data originating from Europe excluded.",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF2": {
+                "type_str": "figure",
+                "text": "Relationship between small intestine length flexibility and geographical latitude considering all the comparisons (A), considering the mean flexibility value for each species/locality/study/cause combination (B), and considering the maximum flexibility value for each species/locality/study combination (C). Small intestine length flexibility is expressed as the difference between control and experimental group means in units of pooled standard deviation and corrected for small sample bias (the Hedges's difference).",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF3": {
+                "type_str": "figure",
+                "text": "Relationship between small intestine length flexibility and the number of habitats occupied for each species considering all the comparisons (A)",
+                "uris": null,
+                "num": null
+            },
+            "TABREF0": {
+                "type_str": "table",
+                "content": "<table><tr><td/><td colspan=\"2\">All comparisons</td><td>Mean flexibility</td><td/><td colspan=\"2\">Maximum flexibility</td></tr><tr><td>Factor and level</td><td>E (95% CI)</td><td>n</td><td>E(95% CI)</td><td>n</td><td>E(95% CI)</td><td>n</td></tr><tr><td>Methodological approach:</td><td/><td/><td/><td/><td/><td/></tr><tr><td>Experimental</td><td>.56 (.36-.76)</td><td>53</td><td>.59 (.33-.84)</td><td>26</td><td>.90 (.60-1.21)</td><td>26</td></tr><tr><td>Observational</td><td>.44 (.24-.66)</td><td>33</td><td>.42 (.14-.68)</td><td>12</td><td>.64 (.33-.97)</td><td>12</td></tr><tr><td>x 2</td><td>.49</td><td/><td>.54</td><td/><td>1.01</td><td/></tr><tr><td>P</td><td>!.48</td><td/><td>!.46</td><td/><td>!.32</td><td/></tr><tr><td>Cause of flexibility:</td><td/><td/><td/><td/><td/><td/></tr><tr><td>Diet</td><td>.57 (.30-.85)</td><td>31</td><td>.65 (.31-1.06)</td><td>17</td><td>.94 (.55-1.39)</td><td>17</td></tr><tr><td>Temperature</td><td>.54 (.20-.81)</td><td>22</td><td>.49 (.11-.85)</td><td>9</td><td>.84 (.43-1.23)</td><td>9</td></tr><tr><td>Season</td><td>.36 (.12-.58)</td><td>24</td><td>.24 (\u03ea.11-.59)</td><td>7</td><td>.41 (\u03ea.01-.86)</td><td>7</td></tr><tr><td>Reproduction</td><td>.63 (.26-.99)</td><td>9</td><td>.64 (.28-.95)</td><td>5</td><td>.93 (.62-1.23)</td><td>5</td></tr><tr><td>x 2</td><td>1.54</td><td/><td>1.96</td><td/><td>2.60</td><td/></tr><tr><td>P</td><td>!.67</td><td/><td>!.58</td><td/><td>!.45</td><td/></tr><tr><td>Food habit: a</td><td/><td/><td/><td/><td/><td/></tr><tr><td>Herbivorous</td><td>.46 (.27-.66)</td><td>36</td><td>.55 (.30-.85)</td><td>13</td><td>.87 (.53-1.25)</td><td>13</td></tr><tr><td>Granivorous</td><td>.76 (.36-1.35)</td><td>13</td><td>.72 (.27-1.41)</td><td>9</td><td>.96 (.43-1.65)</td><td>9</td></tr><tr><td>Omnivorous</td><td>.49 (.24-.73)</td><td>35</td><td>.43 (.09-.74)</td><td>15</td><td>.71 (.35-1.07)</td><td>15</td></tr><tr><td>x 2</td><td>1.63</td><td/><td>.95</td><td/><td>.61</td><td/></tr><tr><td>P</td><td>!.44</td><td/><td>!.62</td><td/><td>!.74</td><td/></tr><tr><td>All studies together</td><td>.50 (.36-.64)</td><td>86</td><td>.52 (.32-.72)</td><td>38</td><td>.77 (.55-.99)</td><td>38</td></tr></table>",
+                "text": "Cumulative effect size of small intestine length flexibility (E), with the 95% confidence interval (CI) and the sample size (n) for each factor tested",
+                "num": null
+            },
+            "TABREF2": {
+                "type_str": "table",
+                "content": "<table><tr><td/><td colspan=\"4\">Temperature annual range</td><td colspan=\"4\">Temperature seasonality</td></tr><tr><td/><td>r</td><td>x 2</td><td>df</td><td>P</td><td>r</td><td>x 2</td><td>df</td><td>P</td></tr><tr><td>All data included:</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td colspan=\"2\">Flexibility (all comparisons) \u03ea.18</td><td>.01</td><td>84</td><td>!.91</td><td colspan=\"2\">\u03ea.02 1.2</td><td>84</td><td>!.27</td></tr><tr><td>Mean flexibility</td><td>\u03ea.34</td><td>.90</td><td>36</td><td>!.34</td><td>\u03ea.17</td><td>.02</td><td>36</td><td>!.90</td></tr><tr><td>Maximum flexibility</td><td>\u03ea.39</td><td>1.91</td><td>36</td><td>!.17</td><td>\u03ea.25</td><td>.54</td><td>36</td><td>!.46</td></tr><tr><td>Data from Europe excluded:</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Flexibility (all comparisons)</td><td colspan=\"2\">.38 12.7</td><td>65</td><td>!.001</td><td colspan=\"2\">.36 9.9</td><td>65</td><td>!.01</td></tr><tr><td>Mean flexibility</td><td>.33</td><td>6.9</td><td>28</td><td>!.01</td><td colspan=\"2\">.31 4.8</td><td>28</td><td>!.05</td></tr><tr><td>Maximum flexibility</td><td>.29</td><td>4.6</td><td>28</td><td>!.05</td><td colspan=\"2\">.20 1.8</td><td>28</td><td>!.18</td></tr><tr><td colspan=\"9\">Note: Removing the points corresponding to Europe excluded 19 comparisons from the large data sets and</td></tr><tr><td>eight from the reduced data sets.</td><td/><td/><td/><td/><td/><td/><td/><td/></tr></table>",
+                "text": "Pearson product-moment correlation between small intestine length flexibility and temperature variability",
+                "num": null
+            },
+            "TABREF3": {
+                "type_str": "table",
+                "content": "<table><tr><td>m b</td><td>Latitude</td><td>TAR</td><td>No. habitats</td></tr></table>",
+                "text": "Pearson product-moment correlations for conventional analyses (using mean and maximum value for each species) and phylogenetically independent contrasts (PIC) Note: Number of species shown in parentheses. TAR p temperature annual range. Data from Europe were excluded in the analyses with climatic variables. Analyses for temperature seasonality did not qualitatively differ from those for TAR and thus are not presented in this table.",
+                "num": null
+            }
+        }
+    }
+}

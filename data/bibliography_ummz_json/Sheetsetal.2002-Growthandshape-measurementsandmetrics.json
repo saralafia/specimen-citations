@@ -1,0 +1,817 @@
+{
+    "paper_id": "Sheetsetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:32:35.061095Z"
+    },
+    "title": "Points of View",
+    "authors": [
+        {
+            "first": "H",
+            "middle": [
+                "David"
+            ],
+            "last": "Sheets",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Canisius College",
+                "location": {
+                    "postCode": "14208",
+                    "settlement": "Buffalo",
+                    "region": "New York",
+                    "country": "USA"
+                }
+            },
+            "email": "sheets@canisius.edu"
+        },
+        {
+            "first": "Miriam",
+            "middle": [
+                "L"
+            ],
+            "last": "Zelditch",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Michigan",
+                "location": {
+                    "postCode": "48109-1079",
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan",
+                    "country": "USA"
+                }
+            },
+            "email": "zelditch@umich.edu"
+        },
+        {
+            "first": "Donald",
+            "middle": [
+                "L"
+            ],
+            "last": "Swiderski",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Michigan",
+                "location": {
+                    "postCode": "48109-1079",
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan",
+                    "country": "USA"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "",
+    "pdf_parse": {
+        "paper_id": "Sheetsetal",
+        "_pdf_hash": "",
+        "abstract": [],
+        "body_text": [
+            {
+                "text": "presented an interesting analysis of growth in turtles, making the case that information about process should be incorporated in ontogenetic studies. More speci cally, descriptions of shape and size are insuf cient for understanding process and, one must dig deeper and consider explicitly the mechanisms and processes responsible for the patterns detected in size and shape data. In criticizing Magwene's arguments, we do not intend to defend a purely pattern-oriented approach; we agree that information about process should be incorporated into shape analyses whenever such information is available. However, Magwene seemed to imply that his mathematical approaches are superior to those used by others who work exclusively with size and shape data (e.g., Zelditch et al., 1992 Zelditch et al., , 2000 Walker, 1993) and that those methods, rather than the special characteristics of his data, offer insight into process. One important question raised by Magwene's argument is whether conventional shape analysis, in the absence of growth markers, is actually misleading when it comes to inferring processes. The second is whether his mathematical approach to landmark data offers any advantages over those approaches in more general use. The methods suggested by Magwene offer no more insights into process than those typically applied to geometric size and shape data, the now standard use of Procrustes superimpostion, projection into Kendall's tangent space for statistical analyses, and the visualization of results (Bookstein, 1991 (Bookstein, , 1996 Rohlf, 1999) .",
+                "cite_spans": [
+                    {
+                        "start": 759,
+                        "end": 780,
+                        "text": "Zelditch et al., 1992",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 781,
+                        "end": 804,
+                        "text": "Zelditch et al., , 2000",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 805,
+                        "end": 818,
+                        "text": "Walker, 1993)",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 1523,
+                        "end": 1539,
+                        "text": "(Bookstein, 1991",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 1540,
+                        "end": 1558,
+                        "text": "(Bookstein, , 1996",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 1559,
+                        "end": 1571,
+                        "text": "Rohlf, 1999)",
+                        "ref_id": "BIBREF6"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "To discuss the merits of Magwene's analytic methods separately from those of his data, we clari ed the distinctive feature of his data and then reexamined his claims regarding the limits of shape analysis, showing that they depend on an assumption that might not generally hold. We also focused on the speci c mathematical issues as they pertain to analyses of landmark data, demonstrating their limitations for such purposes in light of ontogenetic data from piranhas (for full details on sampling, phylogenetic relationships among taxa, and methods of analysis, see Zelditch et al., 2001 ).",
+                "cite_spans": [
+                    {
+                        "start": 568,
+                        "end": 589,
+                        "text": "Zelditch et al., 2001",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Magwene's data are unusually rich because each specimen contains a record of its ontogeny, i.e., in looking at an individual, it is possible to see where a particular landmark was located as well as where it presently is. This provides both more and less information than can be obtained by simply measuring the same individual twice at different ontogenetic stages. It provides more information because an ontogenetic series is recorded in a single specimen, so Magwene could treat a whole ontogenetic series as a single con guration of landmarks. Lacking such markers, an individual specimen records only a single ontogenetic stage, so each con guration of landmarks represents that one stage. In geometric studies, this distinction is important because a con guration of landmarks is a single shape, and the methods analyze changes of those whole con gurations.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "SPECIAL NATURE OF MAGWENE'S DATA",
+                "sec_num": null
+            },
+            {
+                "text": "Magwene did not compare two con gurations to determine changes in shape; rather, he looked at the changes in locations of landmarks on one single shape. Such data provide more information about growth than can be found by comparing shapes of different individuals but provide less information about the ontogeny of form. The shape of a young specimen is not accurately represented by the landmarks recorded from early stages because juvenile scutes that abutted early in development become widely separated as material is deposited between them. Thus, the collection of landmarks recording the position of an intersection between scutes at t 0 does not record the shape of the plastron at t 0 .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "SPECIAL NATURE OF MAGWENE'S DATA",
+                "sec_num": null
+            },
+            {
+                "text": "With these natural records of growth, Magwene could measure the displacement of one landmark over time; he was not restricted to inferring processes from observations of differences in shape, such as inferring that a growth rate is relatively high in one region because it enlarges relative to others. Usually, inference is the best we can do; even then, we can only infer an average growth rate over a region (or over a suture). With markers that show the change in the position of a landmark over time, it is possible to determine where material is deposited and the relative rates of deposition. Such data offer more than an analysis of pure shape.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "SPECIAL NATURE OF MAGWENE'S DATA",
+                "sec_num": null
+            },
+            {
+                "text": "The richness of Magwene's data is undeniable. Unfortunately, few vertebrates have natural and visible markers of growth. It is possible to mark growing bone, but doing so involves unusual resources if the aim is to conduct broad comparative studies. Such studies require breeding, rearing, and marking growing individuals (in fairly large numbers) from all taxa within the group of interest. It is dif cult enough to nd adequate ontogenetic series from enough taxa to conduct comparative studies at all. Without the resources to breed, rear, and mark large samples of numerous species, studies are likely to be limited to size and shape data. Thus, one important question raised by Magwene's argument is whether conventional shape analysis, in the absence of growth markers, is actually misleading when it comes to inferring processes.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "SPECIAL NATURE OF MAGWENE'S DATA",
+                "sec_num": null
+            },
+            {
+                "text": "FROM THE ONTOGENY OF S HAPE Magwene illustrated the limits of shape analysis by a thought experiment in which a set of nested rectangles represent the ontogeny of shape in three species, an ancestor and its two descendants, X and Y (Magwene, 2001 : Fig. 1 ) (reproduced here as Fig. 1 ). In the ancestor, the shape of both subunits is constant, as is overall shape. Size is the only aspect of form that changes. In descendant X ( Fig. 1B) , growth of the subunits is asymmetric, i.e., more material is deposited on the bottom and right of each rectangle than on the top and left, but the shapes of the subunits do not change. Because this same asymmetry is found in both boxes, the complex comprising them both also is constant in shape over ontogeny. In descendant Y (Fig. 1C) , the shape of each subunit is again constant, but each grows asymmetrically in a different way. In one, rates of accretion are greater on the bottom and right, whereas in the other the rates of accretion are higher on the top and on the right; consequently, the shape of the complex changes.",
+                "cite_spans": [
+                    {
+                        "start": 232,
+                        "end": 246,
+                        "text": "(Magwene, 2001",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 249,
+                        "end": 255,
+                        "text": "Fig. 1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 278,
+                        "end": 284,
+                        "text": "Fig. 1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 430,
+                        "end": 438,
+                        "text": "Fig. 1B)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 768,
+                        "end": 777,
+                        "text": "(Fig. 1C)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "INFERRING DEVELOPMENTAL PROCESSES",
+                "sec_num": null
+            },
+            {
+                "text": "According to Magwene, an analysis of size and shape alone would result in the conclusion that no change had occurred in the evolution of descendant X from the ancestor. In addition, a comparison of descendant Y to the ancestor, if focused on overall shape, would nd that a change had occurred but would be unable to specify its source. An analysis focusing on the subunits would not nd any change at all. Thus, Magwene concluded that knowing the form at two different points in time is not suf cient to infer the growth processes.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INFERRING DEVELOPMENTAL PROCESSES",
+                "sec_num": null
+            },
+            {
+                "text": "Magwene's conclusion depends on an unstated assumption about the data, that all landmarks are located on the periphery of the rectangles, such as at the corners of each subunit. Given such a sparse sampling of the morphology, we certainly could not detect changes in proportions within a subunit. For example, we could not tell that a point located at the center of each subunit in the ancestral juvenile remained central through ontogeny but was displaced toward the top and left in descendant X and upward and to the left in one subunit of descendant Y but downward and to the left in the other subunit in that taxon. By placing landmarks at the center of each subunit (or at any other interior point), we could parse changes within subunits and detect their impact on the relative locations of the new units.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INFERRING DEVELOPMENTAL PROCESSES",
+                "sec_num": null
+            },
+            {
+                "text": "In effect, Magwene's thought experiment shows that shape analysis cannot localize changes within unsampled regions. Specically, one cannot determine whether a change occurred within a region in the absence of landmarks within it. That drawback is not the fault of the mathematics of shape analysis nor is it a special problem for inferences based on shape. It is the fault of limited data, of having too few (and too widely separated) landmarks to characterize changes in shape.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INFERRING DEVELOPMENTAL PROCESSES",
+                "sec_num": null
+            },
+            {
+                "text": "Even well-sampled forms yield limited information because the data are locations of anatomical loci, such as a foramen or an intersection between sutures or a tip of a bony process. There are no data between these points. Magwene made this point in the context of his critique of the thin-plate spline, quoting Bookstein on the fact that the deformed grids depicting the changes in form are suggestive visualizations only and do not specify real changes of little bits of the organism. In Magwene's view, this distinction is important because understanding how these little bits of organism move is precisely what is needed for analyses of growth processes. But no analysis of landmarks, regardless of analytic method (including his) will reveal what happens between landmarks. To the extent that we can reasonably conclude that regions enlarging relative to others grow at a higher rate, the spline allows us to infer process. However, the spline is merely an interpolation function, a visualization tool. No analytic (or graphical) method can supply data where there are none. This is equally true of Magwene's method, which still tells us only what happens at a landmark.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INFERRING DEVELOPMENTAL PROCESSES",
+                "sec_num": null
+            },
+            {
+                "text": "TO LANDMARK DATA The two major strictly mathematical differences between the approach recommended by Magwene and more conventional geometric analyses are (1) using complex number notation rather than real x,y coordinate data and (2) using shape coordinates obtained by the two-point registration in a principal components analysis (PCA) rather than coordinates obtained by a Procrustes superimposition or components of the thin-plate spline (i.e., partial warps, including the uniform component). Because these are separate issues, we treat them separately.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MAGWENE'S MATHEMATICAL APPROACHES",
+                "sec_num": null
+            },
+            {
+                "text": "Magwene contrasted the advantages of complex numbers relative to an approach dismissed by virtually all workers, that of treating x,y coordinates as separate variables. The use of complex numbers to represent a landmark means that each landmark is treated as a single object. Multiplication of the complex number z D x C i y (representing a landmark location) by any other complex number is equivalent to a rigid rotation and rescaling of the landmark pair. Complex numbers impose a restriction on the possible operations that is not present in a pair of real number coordinates for the same landmark. The space of complex numbers is isomorphic to R 2 (the vector space of two coordinate real valued vectors; Hassani, 1999) , meaning that a single complex number contains the same information as a pair of real numbers, but properties of complex number multiplication introduce a constraint that can alter the outcome of PCA. The complex number approach also may be more limited than conventional shape coordinates because complex number notation cannot be extended to three-dimensional data (i.e., x,y,z coordinates). Two-dimensional analyses suf ce for bilaterally attened organisms such as piranhas, but three-dimensional analyses may be necessary to capture ontogenetic change and variation in many organisms, including mammalian skulls and turtle carapaces. It might be possible to extend the complex number notation to a higher dimension using the algebra of quaternians (Hassani, 1999) , but quaternians are isomorphic to R 4 , which is four rather than three dimensions. For analysis of three-dimensional landmarks, the use of complex numbers does not seem to be a productive approach.",
+                "cite_spans": [
+                    {
+                        "start": 709,
+                        "end": 723,
+                        "text": "Hassani, 1999)",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 1477,
+                        "end": 1492,
+                        "text": "(Hassani, 1999)",
+                        "ref_id": "BIBREF3"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Complex Number Notation",
+                "sec_num": null
+            },
+            {
+                "text": "Complex numbers pose several dif culties for PCA. Magwene's xPCA (complex number PCA) analyses yielded eigenvalues of the variance-covariance matrix that are real, but the eigenvectors and scores are complex. Thus, it takes a two-dimensional plot to display a single xPCA component (one for the real part of the score and the other for the imaginary part). An xPCA plot then shows two PCA axes that are constrained (by the use of complex numbers). One of the constraints imposed by this approach is that the axis must be weighted by the same real number eigenvalue rather than by an optimal weighting value (the eigenvalue) chosen for each axis independently, as is done in a realnumber based PCA. Because the axes of an ordinary PCA are not constrained in the same way xPCA axes are, the rst two PCA axes of a real-number PCA will always explain at least as much information as do the rst pair of xPCA axes, and in most situations more. If we start with a pair of xPCA axes and then relax the constraint that both axis have the same eigenvalue, we would nd that relaxing the constraint never reduces the variance explained but might allow us to rotate one or both axes to improve the amount of variance explained by the pair of axes.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Complex Number Notation",
+                "sec_num": null
+            },
+            {
+                "text": "The information contained in growth markers does not demand analysis by means of complex numbers. Although it is not our aim herein to detail a method whereby that information can be extracted using conventional geometric methods, but because the analyses of landmarks (including the coordinates of growth markers) are shape analyses, we see no dif culty in extending conventional methods to those data. Coordinates of the markers can be analyzed like other coordinates as the vectors connecting them can be examined like any other vectors connecting homologous landmarks. Sometimes, information about scale must be restored to the data, such as when the aim is to measure the quantity of material deposited between markers or to quantify that rate of deposition; these issues concern absolute rates rather than relative rates of growth. In such cases, information about scale can be restored to the data by multiplying the coordinates by centroid size.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Complex Number Notation",
+                "sec_num": null
+            },
+            {
+                "text": "Shape coordinates calculated by the twopoint registration induce covariances among landmarks because all coordinates are correlated with baseline length. The strength of the correlation depends on the distance of a landmark from the baseline (Dryden and Mardia, 1998) . Because of the dependence on the results on the baseline, Bookstein (1996) explicitly warned against using these coordinates in PCA. A series of numerical experiments were carried out to estimate the effect that use of Bookstein coordinates has on the percentage of the total variance explained by the rst PCA axis. The Monte Carlo simulation began by adding independent, normally distributed errors (generated using a random number generator) of the same root mean square (RMS) amplitude to each of the 16 landmark positions of the reference form used by Zelditch et al. (2000) for study of developmental patterns. Each Monte Carlo set of n specimens was generated in this fashion. The percentage of the variance explained by the rst PCA axis was calculated based on the variance-covariance matrix of each of the partial warp scores after a partial Procrustes superimposition and on Bookstein coordinates based along the standard length of the reference (landmarks 1 and 7). Differences between the results of the analyses of the two forms of data are attributable to the superimposition method applied to the data. For each sample size n and RMS error level, 200 Monte Carlo sets were formed, and the mean and 95% con dence interval for the percentage of the variance explained by the rst PCA axis was determined. The results shown in Table 1 (for RMS error amplitudes and sample sizes roughly typical of our studies) indicate that the percentage of variance explained by the rst PCA axis based on Bookstein coordinates is always significantly higher than the percentage of variance explained by the rst PCA axis based on the partial warp scores. These results do not depend on the RMS error level at the xed small sample size but are dependent on sample size.",
+                "cite_spans": [
+                    {
+                        "start": 242,
+                        "end": 267,
+                        "text": "(Dryden and Mardia, 1998)",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 328,
+                        "end": 344,
+                        "text": "Bookstein (1996)",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 826,
+                        "end": 848,
+                        "text": "Zelditch et al. (2000)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1607,
+                        "end": 1614,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Use of Bookstein Coordinates (Baseline Registration) in a PCA",
+                "sec_num": null
+            },
+            {
+                "text": "Although the data in Table 1 do not represent an exhaustive study of the issue, the use of a baseline registration method (Bookstein coordinates) increases the percentage of variance explained by the rst PCA axis in this simple simulation, where any covariance structure in the data is due to random uctuations. These results are consistent with the analytic mathematical results, indicating that baseline registration methods induce correlations in landmark positions and hence that baseline registration methods should not be used in conjunction with PCA.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 21,
+                        "end": 28,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Use of Bookstein Coordinates (Baseline Registration) in a PCA",
+                "sec_num": null
+            },
+            {
+                "text": "To the extent that growth markers provide more information about developmental processes than is typically available in ontogenetic shape analyses, analyses of them are richer than those relying on size and shape data alone. Most workers will not have access to that kind of data because most species do not naturally record growth processes, and few workers have the resources to make those processes visible by marking growing individuals. Visible markers of growth permit more detailed and precise descriptions of the process, although they can detract from shape analyses when the shape at the outset of the process cannot be recovered from the coordinates of the markers. That problem applies to the analyses of growing scutes; the shape of the plastron at t 0 cannot be inferred from the location of the landmarks recording the growth markers because they no longer abut (as they necessarily did at t 0 ). Growth markers are not the only source of information about process. Such information can also be obtained by measuring causal factors (such as levels of growth hormones) and analyzing their impact on shape. The covariances between those factors and shape, which can be analyzed by regression (Monteiro, 1999) or partial least squares (Rohlf and Corti, 2000) will almost invariably yield more information than can be obtained from records of shape change over time.",
+                "cite_spans": [
+                    {
+                        "start": 1205,
+                        "end": 1221,
+                        "text": "(Monteiro, 1999)",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 1247,
+                        "end": 1270,
+                        "text": "(Rohlf and Corti, 2000)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "SUMMARY",
+                "sec_num": null
+            },
+            {
+                "text": "Magwene overstated the defects of analyses based purely on size and shape data. There is more information available when the same individuals are repeatedly measured at visible growth markers, and asymmetric growth rates at sutures cannot be documented without landmarks that reveal those asymmetries, just as any other process of asymmetric growth cannot be documented in the absence of necessary data. However, most of his arguments about shape data apply to all analyses of landmarks, including his. In particular, no landmark-based method offers information about changes between landmarks; those changes are necessarily matters of inference. When it comes to the speci cally mathematical differences between conventional geometric methods and those recommended by Magwene, i.e., complex number notation and the PCA of shape coordinates obtained by the two-point registration, the methods offered by Magwene do not offer a richer, more powerful, or even equally as general an approach.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "SUMMARY",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/sysbio/article/51/5/817/1678497 by guest on 07 October 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We thank Dean Adams and F. James Rohlf for their helpful reviews of this manuscript. In addition, the comments of F. James Rohlf on the constraints imposed by the use of complex numbers in a PCA made a valuable addition to the manuscript.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACKNOWLEDGMENTS",
+                "sec_num": null
+            },
+            {
+                "text": "A Reply to Laurin JASON S. ANDERSON Department of Biology, University of Toronto, 3359 Mississauga Road, Mississauga, Ontario L5L 1C6, Canada; Laurin 2002recently raised some concerns with my study (Anderson, 2001 ) that require clari cation and merit further discussion. Laurin's criticisms fall into two categories: the monophyly of Lissamphibia (modern amphibians: frogs, salamanders, and caecilians) and my preference for a de nition of Tetrapoda other than that of Gauthier et al. (1988) , the de nition with priority. The latter criticism touches upon several problems with the application of phylogenetic nomenclature to historical names that have arisen due to recent work (Laurin, 1998) , which I address here in detail. I illustrate how adoption of the PhyloCode (Cantino and de Queiroz, 2000) resolves my nomenclatural issues. For purposes of clarity, I assume the large-scale tree shape found by Laurin and Reisz (1997) , Laurin (1998) , Anderson (2001) , and Ruta et al. (in press) of (temnospondyls (lepospondyls C amniotes)) to be valid and stable. Thus, the discussion is limited to where lissamphibians root with respect to this topology and what names are appropriate for these clades.",
+                "cite_spans": [
+                    {
+                        "start": 36,
+                        "end": 58,
+                        "text": "Department of Biology,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 59,
+                        "end": 81,
+                        "text": "University of Toronto,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 82,
+                        "end": 104,
+                        "text": "3359 Mississauga Road,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 105,
+                        "end": 117,
+                        "text": "Mississauga,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 118,
+                        "end": 134,
+                        "text": "Ontario L5L 1C6,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 135,
+                        "end": 142,
+                        "text": "Canada;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 198,
+                        "end": 213,
+                        "text": "(Anderson, 2001",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 470,
+                        "end": 492,
+                        "text": "Gauthier et al. (1988)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 681,
+                        "end": 695,
+                        "text": "(Laurin, 1998)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 908,
+                        "end": 931,
+                        "text": "Laurin and Reisz (1997)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 934,
+                        "end": 947,
+                        "text": "Laurin (1998)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 950,
+                        "end": 965,
+                        "text": "Anderson (2001)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Use of Well-Known Names in Phylogenetic Nomenclature:",
+                "sec_num": null
+            },
+            {
+                "text": "As Laurin 2002 with origins within Temnospondyli (temnospondyl hypothesis), they are a clade with origins within Lepospondyli (lepospondyl hypothesis), or they are polyphyletic with origins in both Temnospondyli and Lepospondyli (polyphyletic hypothesis). My study, which was an analyses of lepospondyl relationships, only included one lissamphibian, the Jurassic Eocaecilia (Jenkins and Walsh, 1993; Carroll, 2000) because caecilians have been cited as closely resembling such \"microsaurs\" as Rhynchonkos (Carroll and Currie, 1975; Carroll, 2000) . Therefore, my study was not a test of lissamphibian monophyly (that work is ongoing), as was stated. However, Laurin took exception to a passing comment I made that my analyses suggested the possibility of a polyphyletic Lissamphibia. This comment of mine requires clari cation.I found Eocaecilia nested deeply within \"microsaurs.\" Speci cally, it was placed as the sister taxon to brachystelechids (node 23 of Anderson, 2001) , and they in turn were sister taxa to Rhynchonkos (node 22). There are several synapomorphies supporting these relationships (nine and eight unambiguous synapomorphies, respectively; Anderson, 2001) and the more general placement of Eocaecilia within Lepospondyli. For example, there is the presence of the odontoid process of the atlas (a lepospondyl",
+                "cite_spans": [
+                    {
+                        "start": 375,
+                        "end": 400,
+                        "text": "(Jenkins and Walsh, 1993;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 401,
+                        "end": 415,
+                        "text": "Carroll, 2000)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 506,
+                        "end": 532,
+                        "text": "(Carroll and Currie, 1975;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 533,
+                        "end": 547,
+                        "text": "Carroll, 2000)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 961,
+                        "end": 976,
+                        "text": "Anderson, 2001)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "LISSAMPHIBIA?",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Morphometric tools for landmark data: Geometry and biology",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "BOOKSTEIN, F. L. 1991. Morphometric tools for landmark data: Geometry and biology. Cambridge Univ. Press, New York.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Combining the tools of geometric morphometrics. Pages 131-151 in Advances in morphometrics",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "BOOKSTEIN, F. L. 1996. Combining the tools of geometric morphometrics. Pages 131-151 in Advances in mor- phometrics (L. F. Marcus, M. Corti, A. Loy, G. J. P. Naylor, and D. E. Slice, eds.). Plenum, New York.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Statistical shape analyses",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Dryden",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Mardia",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "DRYDEN, I. L., AND K. V. MARDIA. 1998. Statistical shape analyses. John Wiley & Sons, New York.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Mathematical physics",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Hassani",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "HASSANI, S. 1999. Mathematical physics. Springer, New York.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Comparing ontogenetic trajectories using growth process data",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Magwene",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Syst. Biol",
+                "volume": "50",
+                "issue": "",
+                "pages": "640--656",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MAGWENE, P. 2001. Comparing ontogenetic trajectories using growth process data. Syst. Biol. 50:640-656.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Multivariate regression models and geometric morphometrics: The search for causal factors in the analyses of shape",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Monteiro",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Syst. Biol",
+                "volume": "48",
+                "issue": "",
+                "pages": "192--199",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MONTEIRO, L. R. 1999. Multivariate regression models and geometric morphometrics: The search for causal factors in the analyses of shape. Syst. Biol. 48:192-199.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Shape statistics: Procrustes superimpositions and tangent spaces",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Rohlf",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "J. Classif",
+                "volume": "16",
+                "issue": "",
+                "pages": "197--223",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "ROHLF, F. J. 1999. Shape statistics: Procrustes superim- positions and tangent spaces. J. Classif. 16:197-223.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Use of two-block partial least-squares to study covariation in shape",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Rohlf",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Corti",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Syst. Biol",
+                "volume": "49",
+                "issue": "",
+                "pages": "740--753",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "ROHLF, F. J., AND M. CORTI. 2000. Use of two-block partial least-squares to study covariation in shape. Syst. Biol. 49:740-753.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Ontogenetic allometry of threespine stickleback body form using landmark based morphometrics. Pages 193-214 in Contributions to morphometrics",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A L F"
+                        ],
+                        "last": "Walker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Marcus",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Bello",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "WALKER, J. A. 1993. Ontogenetic allometry of three- spine stickleback body form using landmark based morphometrics. Pages 193-214 in Contributions to morphometrics (L. F. Marcus, E. Bello, and A.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Museo Nacional de Ciencias Naturales",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Garcia-Valdecasas",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Garcia-Valdecasas, eds.). Museo Nacional de Ciencias Naturales, Madrid.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Ontogeny of integrated skull growth in the cotton rat Sigmodon fulviventer",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Zelditch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lundrigan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Evolution",
+                "volume": "46",
+                "issue": "",
+                "pages": "1164--1180",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "ZELDITCH, M. L., F. L. BOOKSTEIN, AND B. L. LUNDRIGAN. 1992. Ontogeny of integrated skull growth in the cotton rat Sigmodon fulviventer. Evolu- tion 46:1164-1180.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "type_str": "figure",
+                "text": "Analysis of three complex shapes, each comprising two subunits. (A-C) from Magwene's gure 1, ancestor and descendants X and Y. (D-F). The same cases but adding a central landmark. Vectors depict the relative displacements of that central point over ontogeny.",
+                "uris": null,
+                "num": null
+            },
+            "TABREF0": {
+                "type_str": "table",
+                "text": "Change in the percentage of variance of the rst PCA axis due to the use of Bookstein coordinates (baseline registration). Each entry is the mean and 95% con dence interval (in parenthesis) determined over 200 Monte Carlo sets of the percentage of variance explained by PCA axis 1.",
+                "content": "<table><tr><td/><td/><td colspan=\"2\">% variance explained by PCA axis 1</td></tr><tr><td/><td>RMS</td><td>Procrustes</td><td>Baseline</td></tr><tr><td>n</td><td>error</td><td>superimpostion</td><td>registration</td></tr><tr><td>25</td><td>0.01</td><td>13.9 (11.9-16.2)</td><td>25.4 (19.6-32.1)</td></tr><tr><td>25</td><td>0.05</td><td>13.8 (12.0-15.9)</td><td>25.1 (19.2-31.6)</td></tr><tr><td>25</td><td>0.03</td><td>13.8 (11.9-16.1)</td><td>24.9 (19.2-31.8)</td></tr><tr><td>50</td><td>0.03</td><td>10.1 (9.0-11.5)</td><td>21.7 (17.3-26.5)</td></tr><tr><td>100</td><td>0.03</td><td>7.9 (7.2-8.6)</td><td>20.7 (17.2-24.2)</td></tr><tr><td>200</td><td>0.03</td><td>6.5 (6.1-6.9)</td><td>19.4 (16.8-22.1)</td></tr></table>",
+                "num": null
+            }
+        }
+    }
+}

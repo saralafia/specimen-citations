@@ -1,0 +1,3645 @@
+{
+    "paper_id": "Wangetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:37:50.224310Z"
+    },
+    "title": "Comparative genomic analysis reveals more functional nasal chemoreceptors in nocturnal mammals than in diurnal mammals",
+    "authors": [
+        {
+            "first": "Guodong",
+            "middle": [],
+            "last": "Wang",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "State Key Laboratory of Genetic Resources and Evolution",
+                "institution": "Chinese Academy of Sciences",
+                "location": {
+                    "postCode": "650223",
+                    "settlement": "Kunming",
+                    "country": "China"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "",
+            "middle": [],
+            "last": "Zhu Zhouhai",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "Laboratory for Conservation and Utilization of Bio-resources",
+                "institution": "Yunnan University",
+                "location": {
+                    "postCode": "650223",
+                    "settlement": "Kunming",
+                    "country": "China"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Shi",
+            "middle": [],
+            "last": "Peng",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "State Key Laboratory of Genetic Resources and Evolution",
+                "institution": "Chinese Academy of Sciences",
+                "location": {
+                    "postCode": "650223",
+                    "settlement": "Kunming",
+                    "country": "China"
+                }
+            },
+            "email": "shipengsir@gmail.com"
+        },
+        {
+            "first": "\u2020",
+            "middle": [],
+            "last": "Zhang",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "Laboratory for Conservation and Utilization of Bio-resources",
+                "institution": "Yunnan University",
+                "location": {
+                    "postCode": "650223",
+                    "settlement": "Kunming",
+                    "country": "China"
+                }
+            },
+            "email": "zhangyp1@263.net.cn"
+        }
+    ],
+    "year": "",
+    "abstract": "Natural selection has a critical role in the diversity of morphological traits. However, the genetic basis underlying the evolution and diversity of morphological characteristics, particularly in the context an organism's behavior, lifestyle, and environment, is not well understood. The discovery of nasal chemoreceptors in mammals provided an opportunity to address this question. Here, we identify 4 nasal chemoreceptor gene families (V1R, V2R, OR, and TAAR) from horse, guinea pig, marmoset and orangutan genome sequences, respectively. Together with previously described mammalian nasal chemoreceptor gene repertoires, we found a significant positive correlation between functional gene number and morphological complexity, both in the main olfactory system and the vomeronasal system. The combined analysis of morphological data, behavioral data, and gene repertoires suggests that nocturnal mammals tend to possess more species-specific chemoreceptor genes and more complicated olfactory organs than diurnal mammals. Moreover, analysis of evolutionary forces revealed the existence of positive selection on the species-specific genes, likely reflecting the species-specific detection of odors and pheromones. Taken together, these results reflect a rare case of adaptation to circadian rhythm activity at the genome scale, and strongly suggest that the complexity of morphological olfactory organs and the diversification of nasal chemoreceptors in nocturnal mammals are under selection for the ability to perceive the variety of odors that nocturnal mammals may encounter in their particular dark environments.",
+    "pdf_parse": {
+        "paper_id": "Wangetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Natural selection has a critical role in the diversity of morphological traits. However, the genetic basis underlying the evolution and diversity of morphological characteristics, particularly in the context an organism's behavior, lifestyle, and environment, is not well understood. The discovery of nasal chemoreceptors in mammals provided an opportunity to address this question. Here, we identify 4 nasal chemoreceptor gene families (V1R, V2R, OR, and TAAR) from horse, guinea pig, marmoset and orangutan genome sequences, respectively. Together with previously described mammalian nasal chemoreceptor gene repertoires, we found a significant positive correlation between functional gene number and morphological complexity, both in the main olfactory system and the vomeronasal system. The combined analysis of morphological data, behavioral data, and gene repertoires suggests that nocturnal mammals tend to possess more species-specific chemoreceptor genes and more complicated olfactory organs than diurnal mammals. Moreover, analysis of evolutionary forces revealed the existence of positive selection on the species-specific genes, likely reflecting the species-specific detection of odors and pheromones. Taken together, these results reflect a rare case of adaptation to circadian rhythm activity at the genome scale, and strongly suggest that the complexity of morphological olfactory organs and the diversification of nasal chemoreceptors in nocturnal mammals are under selection for the ability to perceive the variety of odors that nocturnal mammals may encounter in their particular dark environments.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Darwinian natural selection has a critical role in the diversity of morphological traits. Although the molecular basis of rapid adaptive selection has been extensively studied for individual genes [1] [2] [3] [4] in past decades, more recently it has started to be investigated at the genome scale [5] [6] [7] . However, little is known about how adaptive evolution drives the diversity of morphological traits among species at the molecular level. This lack of knowledge may be partially the result of an absence of studies of the relationships between morphological traits and their controlling genes in the context of an organism's behavior, lifestyle, and its environment. The mammalian olfactory sensory system (also called olfaction was thought to be specialized for recognizing pheromones [10] . This distinction, however, has been blurred by recent studies showing that both systems can detect both kinds of chemical signal [11] [12] [13] [14] . The morphologies of olfactory organs show striking diversity of size and shape among mammals [15] . For example, rodents' MOEs are well developed, while catarrhine primates have comparatively small and poorly differentiated MOEs [16] . Similarly, a well-developed vomeronasal sensory epithelium (VNSE) has been demonstrated in rodents (e.g., mouse, rat, and golden hamster), and in opossum lagomorphs, but a simpler VNO was observed in ungulates (e.g., horse, cattle and sheep) and carnivores (e.g., dog) [17] . In hominoids and old world monkeys, the VNO is either absent or nonfunctional [17] .",
+                "cite_spans": [
+                    {
+                        "start": 197,
+                        "end": 200,
+                        "text": "[1]",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 201,
+                        "end": 204,
+                        "text": "[2]",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 205,
+                        "end": 208,
+                        "text": "[3]",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 209,
+                        "end": 212,
+                        "text": "[4]",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 298,
+                        "end": 301,
+                        "text": "[5]",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 302,
+                        "end": 305,
+                        "text": "[6]",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 306,
+                        "end": 309,
+                        "text": "[7]",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 796,
+                        "end": 800,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 932,
+                        "end": 936,
+                        "text": "[11]",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 937,
+                        "end": 941,
+                        "text": "[12]",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 942,
+                        "end": 946,
+                        "text": "[13]",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 947,
+                        "end": 951,
+                        "text": "[14]",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 1047,
+                        "end": 1051,
+                        "text": "[15]",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1183,
+                        "end": 1187,
+                        "text": "[16]",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 1459,
+                        "end": 1463,
+                        "text": "[17]",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 1544,
+                        "end": 1548,
+                        "text": "[17]",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Four different chemoreceptor gene families are involved in mammalian olfactory perception. The 2 olfactory organs each express two superfamilies of nasal chemoreceptors: olfactory receptor (OR) genes and trace amine-associated receptor (TAAR) genes in the MOE, and vomeronasal receptor 1 (V1R) genes and vomeronasal receptor 2 (V2R) genes in the VNO [18] [19] [20] . Although all of the nasal chemoreceptors encoded by these 4 super gene families are 7 transmembrane G-protein coupled receptors, they originated independently in earlier vertebrates and do not have any significant sequence identity [21] . To date, the complete gene repertoires of nasal chemoreceptors have been described in several vertebrates [22] . Comparative genomic analyses reveal a great diversity of nasal chemosensory receptor gene repertoires among mammals [5, [23] [24] [25] [26] [27] [28] .",
+                "cite_spans": [
+                    {
+                        "start": 350,
+                        "end": 354,
+                        "text": "[18]",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 355,
+                        "end": 359,
+                        "text": "[19]",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 360,
+                        "end": 364,
+                        "text": "[20]",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 599,
+                        "end": 603,
+                        "text": "[21]",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 712,
+                        "end": 716,
+                        "text": "[22]",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 835,
+                        "end": 838,
+                        "text": "[5,",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 839,
+                        "end": 843,
+                        "text": "[23]",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 844,
+                        "end": 848,
+                        "text": "[24]",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 849,
+                        "end": 853,
+                        "text": "[25]",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 854,
+                        "end": 858,
+                        "text": "[26]",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 859,
+                        "end": 863,
+                        "text": "[27]",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 864,
+                        "end": 868,
+                        "text": "[28]",
+                        "ref_id": "BIBREF27"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "The morphological complexity of the nasal chemosensory systems, as well as the number of nasal chemoreceptor genes, varies substantially among mammals. These observations led to the hypothesis that the functional gene repertoires of nasal chemoreceptors might be positively correlated with olfactory morphological complexity. Though our previous study in a limited number of mammals suggested the V1R gene repertoire is positively correlated to the complexity of VNO anatomy [23, 27] , this hypothesis has not been systematically tested. Another of our recent studies on V1R in mammals suggested that nest-living species possessed a greater number of intact V1R genes than openliving species, and that nocturnal terricolous mammals tended to possess more intact V1R genes than did diurnal species [29] . However, whether this applies to other nasal chemoreceptors in the nasal chemosensory system remains to be determined. Thus, despite the extensive study of the evolution of nasal chemoreceptors [5, 21, [24] [25] [26] [27] [30] [31] [32] , it is still necessary to investigate whether animal lifestyles significantly influence the number of other types of functional nasal chemoreceptor gene (V2R, OR and TAAR). Nocturnal animals depend predominantly on olfactory cues to mediate social interactions and sexual communication, and generally have a highly developed sense of smell [33] [34] [35] [36] [37] ; therefore, we hypothesize that nocturnal mammals should generally have more functional nasal chemoreceptors than diurnal mammals. To test this hypothesis, we identified 4 nasal chemoreceptor gene families (V1R, V2R, OR and TAAR) from 4 recently available genome assemblies (horse, guinea pig, marmoset, and orangutan) with high sequence quality (at least 6\u00d7 coverage) and conducted a systematic genomic analysis of all nasal chemosensory gene families from 12 mammalian genomes in the context of the animals' diverse lifestyles. We provide evidence supporting the hypotheses that (1) the functional gene repertoire of nasal chemoreceptors is a good indicator of olfactory morphological complexity, and (2) nocturnal mammals generally have more functional nasal chemoreceptors that allows them to adapt to their environments.",
+                "cite_spans": [
+                    {
+                        "start": 475,
+                        "end": 479,
+                        "text": "[23,",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 480,
+                        "end": 483,
+                        "text": "27]",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 797,
+                        "end": 801,
+                        "text": "[29]",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 998,
+                        "end": 1001,
+                        "text": "[5,",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 1002,
+                        "end": 1005,
+                        "text": "21,",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 1006,
+                        "end": 1010,
+                        "text": "[24]",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1011,
+                        "end": 1015,
+                        "text": "[25]",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1016,
+                        "end": 1020,
+                        "text": "[26]",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1021,
+                        "end": 1025,
+                        "text": "[27]",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1026,
+                        "end": 1030,
+                        "text": "[30]",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 1031,
+                        "end": 1035,
+                        "text": "[31]",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 1036,
+                        "end": 1040,
+                        "text": "[32]",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 1382,
+                        "end": 1386,
+                        "text": "[33]",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 1387,
+                        "end": 1391,
+                        "text": "[34]",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 1392,
+                        "end": 1396,
+                        "text": "[35]",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1397,
+                        "end": 1401,
+                        "text": "[36]",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 1402,
+                        "end": 1406,
+                        "text": "[37]",
+                        "ref_id": "BIBREF36"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Sequences of previously described nasal chemoreceptor genes (OR, TAAR, V1R and V2R) were retrieved from the literature [24] [25] [26] [27] 32] . Additional genes were obtained by computational searching of the newly available high quality genome sequences from Ensembl (www.ensembl.org) and the Genome Sequencing Center at Washington University School of Medicine (http://genome.wustl.edu/). These genome sequences include guinea pig (Cavia porcellus; CavPor2.0; 7\u00d7 coverage), horse (Equus caballus; Equ-Cal2.0; 7\u00d7 coverage), Sumatran orangutan (Pongo abelii; PonPyg2.0.1; 6\u00d7 coverage), white-tufted-ear marmoset (Callithrix jacchus; CaJac2.0.1; 6\u00d7 coverage), and Rhesus macaque (Macaca mulatta; RheMac1; 6\u00d7 coverage).",
+                "cite_spans": [
+                    {
+                        "start": 119,
+                        "end": 123,
+                        "text": "[24]",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 124,
+                        "end": 128,
+                        "text": "[25]",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 129,
+                        "end": 133,
+                        "text": "[26]",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 134,
+                        "end": 138,
+                        "text": "[27]",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 139,
+                        "end": 142,
+                        "text": "32]",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Identification of nasal chemoreceptor gene repertoires",
+                "sec_num": "1.1"
+            },
+            {
+                "text": "V2R genes were searched from the above genome sequences using the method of Yang et al. [31] . V1R, OR and TAAR gene repertoires were identified using a modified version of a previously described method [23] . Briefly, candidate genes were detected from the local databases by homology searching using WU-BLAST, with a cutoff E-value of 10 -5 . The identified putative sequences were then subjected to BLAST searching against the non-redundant database of GenBank to ensure that the best hit was obtained. Open reading frames (ORFs) encoding protein products longer than 270 amino acids and containing a putative seven-transmembrane domain were considered as intact genes. A hit sequence was considered a disrupted gene if its disrupted open reading frame was longer than 200 nucleotides, which was usually incomplete across the 13 internal domains (7 transmembrane, 3 extracellular, and 3 intracellular ones).",
+                "cite_spans": [
+                    {
+                        "start": 88,
+                        "end": 92,
+                        "text": "[31]",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 203,
+                        "end": 207,
+                        "text": "[23]",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Identification of nasal chemoreceptor gene repertoires",
+                "sec_num": "1.1"
+            },
+            {
+                "text": "The circadian rhythm, social mating behavior, and diet tro-phic data were separately collected from literature [38] and the \"Animal Diversity Web\" (http://animaldiversity.ummz. umich.edu/site/index.html) [39] . The anatomy data for the MOE and VNO were taken from compilations in Meisami and Bhatnagar [16] and Takami [17] . To investigate the relationship between nasal chemoreceptor gene repertoires and morphological complexity, we performed ordinary linear regression analysis. In brief, we compared the real VNO size taken from empirical evidence with the number of gene families in the analysis of VNO size. We coded each anatomical complexity level as 1, 2, and 3, and so on, corresponding to VNO and main olfactory bulb (MOB) morphological complexity from simpleness/smallness to complexity/bigness. R software (http://www.r-project.org/) was used to perform the statistical analyses.",
+                "cite_spans": [
+                    {
+                        "start": 111,
+                        "end": 115,
+                        "text": "[38]",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 204,
+                        "end": 208,
+                        "text": "[39]",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 302,
+                        "end": 306,
+                        "text": "[16]",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 318,
+                        "end": 322,
+                        "text": "[17]",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Analysis of the morphological, behavioral, and ecological data",
+                "sec_num": "1.2"
+            },
+            {
+                "text": "Amino acid sequences of nasal chemoreceptors were aligned by ClustalW [40] with the default parameters, followed by manual adjustments. Phylogenetic trees were reconstructed using the neighbor-joining method [41] with protein Poisson distances [42] . MEGA4 was used for the phylogenetic analysis [43] . We classified the chemoreceptor genes into species-specific clusters, defined as a monophyletic clade of genes from a single species. In addition, we used the more stringent definition that the monophyletic species-specific clusters should have a statistical bootstrap value of at least 70%.",
+                "cite_spans": [
+                    {
+                        "start": 70,
+                        "end": 74,
+                        "text": "[40]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 208,
+                        "end": 212,
+                        "text": "[41]",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 244,
+                        "end": 248,
+                        "text": "[42]",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 296,
+                        "end": 300,
+                        "text": "[43]",
+                        "ref_id": "BIBREF42"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Phylogenetic and evolutionary analysis",
+                "sec_num": "1.3"
+            },
+            {
+                "text": "To examine the pattern of nucleotide substitution in species-specific clusters, we aligned each cluster independently by ClustalW [40] . The genetic distance within/between each clusters were computed by MEGA4 [43] using complete deletion of positions with gaps and maximum composite likelihood as the DNA substitution model. The number of synonymous substitutions per synonymous site (dS) and the number of nonsynonymous substitutions per nonsynonymous site (dN) were estimated by the maximum likelihood method using the codeml program of the PAML package (runmode=-2, CodonFreq=2) [44] . We used the \"site-specific\" model to analyze each of the species-specific clusters with >20 members. First, we estimated the branch lengths on the tree under model M0 (one-ratio) and used them as initial values for further analysis. Secondly, the recommended models (M7, M8) were employed to compare with the null model M7 (beta), which assumes a beta distribution for \u03c9 (in the interval 0<\u03c9<1), with the alternative model M8 (beta&\u03c9), which allows an extra class of sites with positive selection (\u03c9>1). A likelihood ratio test (LRT) [45] was then conducted to test for positive selection. Finally, we identified residues under positive selection when the LRT suggested its presence using the Bayes empirical Bayes (BEB) method to calculate the posterior probability that a site has \u03c9>1.",
+                "cite_spans": [
+                    {
+                        "start": 130,
+                        "end": 134,
+                        "text": "[40]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 210,
+                        "end": 214,
+                        "text": "[43]",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 583,
+                        "end": 587,
+                        "text": "[44]",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 1124,
+                        "end": 1128,
+                        "text": "[45]",
+                        "ref_id": "BIBREF44"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Phylogenetic and evolutionary analysis",
+                "sec_num": "1.3"
+            },
+            {
+                "text": "In this study, we identified four nasal chemoreceptor gene families (V1R, V2R, OR and TAAR) from 4 recently available genome assembles (horse, guinea pig, marmoset and orangutan) with high sequence quality (at least 6\u00d7 coverage). We did not investigate the mammalian genome sequences with 2-fold coverage because of their low sequence quality. V1R genes families here were compared with the most recently published data obtained from other identification pipeline [46] , for validating the identification of complete nasal chemosensory receptor gene repertoires. We expected that the majority of, if not all, nasal chemoreceptor genes in these high-quality genomes have been detected, because the comparison results showed tiny difference (\u22642) between two distinct gene mining pipelines [25, 46] . In addition, we updated the V1R gene repertoire in rhesus monkey because it had not been systematically surveyed on a genomic scale, although a few V1R pseudogenes were described previously [47] . To compare our results with others, we used the same classification criteria for gene category as described in Shi and Zhang [25] . Briefly, for each nasal chemosensory receptor gene family, we classified the identified sequences into 2 categories, intact and disrupted genes (see Materials and methods). We noted that the number of intact genes is a conservative estimate, because some intact genes were regarded as disrupted genes because of sequencing errors or partial sequences resulting from the incomplete genome sequences. Figure 1 shows the number of intact nasal chemoreceptor genes identified for these 4 species (and those previously identified in 9 other species) and the amino acid sequences derived from newly identified intact genes are presented in Supporting Information Dataset 1.",
+                "cite_spans": [
+                    {
+                        "start": 464,
+                        "end": 468,
+                        "text": "[46]",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 787,
+                        "end": 791,
+                        "text": "[25,",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 792,
+                        "end": 795,
+                        "text": "46]",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 988,
+                        "end": 992,
+                        "text": "[47]",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 1120,
+                        "end": 1124,
+                        "text": "[25]",
+                        "ref_id": "BIBREF24"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1526,
+                        "end": 1534,
+                        "text": "Figure 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Dramatic variation in the nasal chemoreceptor repertoire among mammals",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "The mammalian nasal chemoreceptor gene repertoires appear to vary even more than was previously reported [23] [24] [25] [26] [27] 52] . For example, the newly identified horse OR repertoire has 751 more genes than the largest previously described mammalian OR repertoire (cow with 2129 genes) [26] . In terms of intact gene number, horse also has the largest functional repertoire (1213 intact genes) of all the described mammals. On the other hand, the smallest OR repertoire previously found was in rhesus monkey with 309 intact genes and 297 disrupted genes. Here we identified 262 and 300 intact genes in orangutan and marmoset, respectively. Both of them have smaller functional repertoires than other primates. By contrast, guinea pig has a large OR repertoire, similar to mouse and rat [49] , with 848 intact genes and 1412 disrupted genes. Our results, together with the previously described mammalian OR repertoires, reveal a 4.6-fold variation in the number of functional genes among mammals. Similarly high variation in gene number was found in the TAAR gene family, the second olfactory receptor gene family in the MOE. For example, 4 and 2",
+                "cite_spans": [
+                    {
+                        "start": 105,
+                        "end": 109,
+                        "text": "[23]",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 110,
+                        "end": 114,
+                        "text": "[24]",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 115,
+                        "end": 119,
+                        "text": "[25]",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 120,
+                        "end": 124,
+                        "text": "[26]",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 125,
+                        "end": 129,
+                        "text": "[27]",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 130,
+                        "end": 133,
+                        "text": "52]",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 293,
+                        "end": 297,
+                        "text": "[26]",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 793,
+                        "end": 797,
+                        "text": "[49]",
+                        "ref_id": "BIBREF48"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Dramatic variation in the nasal chemoreceptor repertoire among mammals",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "Size of nasal chemoreceptor gene repertoires (V1R; V2R; OR and TAAR) in 13 mammals. Shown are the numbers of intact genes and the numbers of disrupted genes (in parentheses). The gray bar indicates the nasal chemoreceptor number from the nocturnal mammals. The phylogenetic relationship and divergence time among mammals is taken from [48] . The numbers of nasal chemoreceptor genes in horse, guinea pig, orangutan and marmoset are described in this paper, whereas the repertoires of other mammals have been reported: a [26] , b [24] , c [32] , d [25] , e [49] , f [50] , g [51] , and h [52] .",
+                "cite_spans": [
+                    {
+                        "start": 335,
+                        "end": 339,
+                        "text": "[48]",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 520,
+                        "end": 524,
+                        "text": "[26]",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 529,
+                        "end": 533,
+                        "text": "[24]",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 538,
+                        "end": 542,
+                        "text": "[32]",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 547,
+                        "end": 551,
+                        "text": "[25]",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 556,
+                        "end": 560,
+                        "text": "[49]",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 565,
+                        "end": 569,
+                        "text": "[50]",
+                        "ref_id": "BIBREF49"
+                    },
+                    {
+                        "start": 574,
+                        "end": 578,
+                        "text": "[51]",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 587,
+                        "end": 591,
+                        "text": "[52]",
+                        "ref_id": "BIBREF51"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Figure 1",
+                "sec_num": null
+            },
+            {
+                "text": "intact TAAR genes were separately identified from orangutan and marmoset, in comparison with 12 and 11 intact genes in guinea pig and horse, respectively.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Figure 1",
+                "sec_num": null
+            },
+            {
+                "text": "The across-mammal variation in the number of gene families for the VNO system is even greater than that for the MOE system. The smallest V1R gene repertoire is found in the marmoset, with 7 intact genes and 48 disrupted genes. Additionally, a total of 6 intact and 132 disrupted V1R genes were identified from orangutan. In contrast, 34 and 90 intact V1R genes are described from horse and guinea pig, respectively. Thus, the variation in the V1R repertoire in mammals is greater than that of OR (38-fold between platypus and marmoset). Hominoids and old world (OW) monkeys possess vestigial vomeronasal organs, and vomeronasal chemoreception is absent in these organisms [17] . In parallel to the regression of the morphological structures, a pseudogenization process of genes devoted to VNO related chemical communication is found in these primates [17] . Indeed, in chimpanzee and rhesus monkey only pseudogenes have been isolated for the V1R gene family. Although 5 human and one gorilla V1R genes with full-length open reading frames have been described, they no longer experience functional constraints and are subject to an ongoing pseudogenization process [53, 54] . Consistent with these observations, TRPC2, a unique and essential channel involved in vomeronasal transduction, was found to be degenerated in catarrhine primates [52, 53] . Thus, 6 intact genes retained in the orangutan genome are probably relics of an ongoing pseudogenization process, as is seen in humans [53] . However, we unexpectedly found that the number of intact V1R genes in marmoset is similar to that in orangutan. New world (NW) monkeys and prosimians clearly have VNOs [17] and are generally believed to have more V1R genes than catarrhine primates. Although the marmoset genome sequence is not completed, this result is not likely to be due to the quality of the genome sequence because an earlier independent study also failed to find functional V1R genes in marmoset by genome library screening, strongly suggesting deletion of functional V1R genes in marmoset [55] . This observation raises an interesting question of when the V1R functional repertoire shrank during primate evolution. One scenario is that the contraction occurred in the common ancestor of NW and OW monkeys. Another scenario is that the repertoire decreased independently in the OWM/hominoid and marmosets, but not in other NW monkeys. It would be interesting to study V1R gene repertoires in more primates, especially in NW monkeys, to determine which scenario is the real one.",
+                "cite_spans": [
+                    {
+                        "start": 672,
+                        "end": 676,
+                        "text": "[17]",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 851,
+                        "end": 855,
+                        "text": "[17]",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 1164,
+                        "end": 1168,
+                        "text": "[53,",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 1169,
+                        "end": 1172,
+                        "text": "54]",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 1338,
+                        "end": 1342,
+                        "text": "[52,",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 1343,
+                        "end": 1346,
+                        "text": "53]",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 1484,
+                        "end": 1488,
+                        "text": "[53]",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 1659,
+                        "end": 1663,
+                        "text": "[17]",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 2054,
+                        "end": 2058,
+                        "text": "[55]",
+                        "ref_id": "BIBREF54"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Figure 1",
+                "sec_num": null
+            },
+            {
+                "text": "A total of 14 intact and 151 disrupted V2R genes were found in guinea pig. This number of intact genes is much smaller than in mouse and rat (121 in mouse and 79 in rat) [24] , while the number of disrupted genes is similar, suggesting that a large V2R gene repertoire might be unique in the Muridae family, but not common in all rodents. In addition, we did not find any intact V2R genes, but identified 20 and 24 disrupted genes, respectively, from the orangutan and marmoset genome. One explanation for this result is that both species possess the uniform vomeronasal system [56] , which only contains G\u03b1i2-expressing vomeronasal sensory neurons, where V1Rs, but not V2Rs are expressed [56] . In addition, one intact V2R gene and eight disrupted genes were identified in the horse. This result is puzzling, because the horse was reported to have the uniform vomeronasal system and thus is expected to lack functional V2Rs [56] . It is possible that this V2R gene is expressed outside of nasal organs and has different functions, because our further phylogenetic analysis shows that this V2R gene belongs to V2R family C, which has a distinct evolutionary origin [25, 31] , a different expression pattern [57] [58] [59] , and possibly a distinctive function [24] from other V2Rs.",
+                "cite_spans": [
+                    {
+                        "start": 170,
+                        "end": 174,
+                        "text": "[24]",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 578,
+                        "end": 582,
+                        "text": "[56]",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 689,
+                        "end": 693,
+                        "text": "[56]",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 925,
+                        "end": 929,
+                        "text": "[56]",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 1165,
+                        "end": 1169,
+                        "text": "[25,",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1170,
+                        "end": 1173,
+                        "text": "31]",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 1207,
+                        "end": 1211,
+                        "text": "[57]",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 1212,
+                        "end": 1216,
+                        "text": "[58]",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 1217,
+                        "end": 1221,
+                        "text": "[59]",
+                        "ref_id": "BIBREF58"
+                    },
+                    {
+                        "start": 1260,
+                        "end": 1264,
+                        "text": "[24]",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Figure 1",
+                "sec_num": null
+            },
+            {
+                "text": "As mentioned above, it has been suggested that the morphological complexity of olfactory components or the number of nasal chemoreceptor gene families might be used as an indicator of the sophistication of olfactory sensation. If this were true, we would predict a positive correlation between the volume or complexity of the anatomical olfactory organs and the number of functional nasal chemoreceptors. We examined the relationship between the morphological complexity of the corresponding olfactory organ and the number of functional nasal chemoreceptor genes. To exclude the effect of other ecological factors, the semiaquatic platypus was removed from this analysis, and thus this dataset is comprised of the functional V1R, V2R, OR and TAAR genes from 12 terrestrial mammals including 1 Australidelphia, 8 Euarchontoglires, and 3 Laurasiatheria [48] , which are expected to represent a wide range of mammalian phylogeny. First, we found a significant positive correlation between the functional gene number and anatomical size, after controlling for the body weight, in the VNO (R 2 =0.897; P<0.001; Figure 2 (a)) and MOE systems (R 2 =0.948; P=0.001; Figure 2 (b)), based on previously described anatomical data [60, 61] . Considering size alone as a measure of organ morphology is an oversimplification, so we repeated the above analysis using a VNO morphological complexity dataset taken from Takami [17] , which is expected to be a more comprehensive proxy for the VNO anatomical structure. Our results remained virtually unchanged (R 2 =0.61; P=0.002; Figure 2(c) ). Similarly, the MOB complexity is positively correlated with the number of functional OR and TAAR genes (R 2 = 0.755; P=0.002; Figure 2(d) ). These observations suggest that mammals with more complicated olfactory organs generally tend to have more nasal chemoreceptors.",
+                "cite_spans": [
+                    {
+                        "start": 851,
+                        "end": 855,
+                        "text": "[48]",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 1219,
+                        "end": 1223,
+                        "text": "[60,",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 1224,
+                        "end": 1227,
+                        "text": "61]",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 1409,
+                        "end": 1413,
+                        "text": "[17]",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1106,
+                        "end": 1114,
+                        "text": "Figure 2",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1158,
+                        "end": 1166,
+                        "text": "Figure 2",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1563,
+                        "end": 1574,
+                        "text": "Figure 2(c)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1704,
+                        "end": 1715,
+                        "text": "Figure 2(d)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Positive correlation between repertoires of functional nasal chemoreceptor and the morphological complexity of olfactory organs",
+                "sec_num": "2.2"
+            },
+            {
+                "text": "Were the dramatic changes in the structure of olfactory organs as well as the size of nasal chemoreceptor gene repertoires caused by the diversity of mammalian behaviors and lifestyles, and perhaps other ecological factors? To address this question, we compared the number of functional nasal chemoreceptors between nocturnal and diurnal species. We found a significantly larger gene number in nocturnal mammals than in diurnal mammals for V1R (P=0.049, independent samples t-test), V2R (P=0.018), OR (P=0.001) and TAAR (P=0.007) ( Figure 3) . In this analysis, guinea pig, a crepuscular animal [38] was excluded because of its ambiguous rhythm activity. As the main olfactory and vomeronasal [17] , and MOB anatomical categories are taken from [16] . Mean value and standard error are shown. [39] and Kurumiya and Kawamura [38] .",
+                "cite_spans": [
+                    {
+                        "start": 595,
+                        "end": 599,
+                        "text": "[38]",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 693,
+                        "end": 697,
+                        "text": "[17]",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 745,
+                        "end": 749,
+                        "text": "[16]",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 793,
+                        "end": 797,
+                        "text": "[39]",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 824,
+                        "end": 828,
+                        "text": "[38]",
+                        "ref_id": "BIBREF37"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 532,
+                        "end": 541,
+                        "text": "Figure 3)",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Nocturnal mammals possess larger nasal chemoreceptor repertoires than diurnal mammals",
+                "sec_num": "2.3"
+            },
+            {
+                "text": "systems are proposed to possess overlapping functions [11] [12] [13] [14] , we grouped the four nasal chemoreceptor gene families together and repeated the above analysis. Similar results were obtained (P<0.001). On average, the number of functional nasal chemoreceptor genes in nocturnal mammals is 1445.33, whereas diurnal mammals have an average of 611.5 genes. In addition, there is a significant positive correlation between circadian rhythm activity and the number of functional chemoreceptors among mammals (R 2 =0.61, P<0.01), indicating that nocturnal mammals possess more functional nasal chemoreceptor genes than diurnal mammals, which might consequently reflect the difference in odorant detection ability between organisms with different types of circadian rhythm activity. One caveat of our analysis is that only three nocturnal species are examined. Future studies using additional nocturnal mammals would help verify our results.",
+                "cite_spans": [
+                    {
+                        "start": 54,
+                        "end": 58,
+                        "text": "[11]",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 59,
+                        "end": 63,
+                        "text": "[12]",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 64,
+                        "end": 68,
+                        "text": "[13]",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 69,
+                        "end": 73,
+                        "text": "[14]",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Nocturnal mammals possess larger nasal chemoreceptor repertoires than diurnal mammals",
+                "sec_num": "2.3"
+            },
+            {
+                "text": "The above finding is further supported by additional lines of evidence. First, owing to their long lasting scent, odorants bring incomparable advantages for mammals to communicate with mates or to detect food in dark environments [62] . Thus, chemical signaling and the sense of smell are used extensively to establish and maintain communication in nocturnal mammals [63, 64] . Second, consistent with our results of the positive correlation of olfactory organ complexity with the number of functional chemoreceptors, the morphological data reveals that nocturnal mammals tend to have anatomically larger or more complex olfactory organs. For instance, the nocturnal mammals tend to have relatively larger MOBs than diurnal species, which could, in part, be due to the nocturnal animals depending predominantly on olfactory cues [15, 16] . In addition, the vomeronasal organs are well developed in nocturnal strepsirrhines, small and extremely variable in platyrrhines, and rudimentary in adult diurnal catarrhines [15, 60, 65, 66] . Moreover, the most complex vomeronasal organs were found in nocturnal mammals [17] . Interestingly, more complicated segregated vomeronasal systems have been reported exclusively in nocturnal mammals (such as mouse, rat, and opossum). It seems that the complex morphology of the nasal chemosensory system is selectively favored in nocturnal mammals. Third, diurnal mammals generally have a well functioning vision system for detecting information from the environment. An extreme case is catarrhine primates, who acquired trichromatic color vision by gene duplication. Color vision helps these primates detect ripe fruits and young leaves and sense the subtle color changes of female sexual organs [67] . However, these primates lost many olfactory receptors and lack the majority of vomeronasal receptors, suggesting that the loss of nasal chemoreceptors in these primates is a consequence of the acquisition of trichromatic vision [52, 68] . By contrast, organisms with primarily nocturnal behaviors always possess poorer vision. As a result of this, opsin genes mediating visual transduction in response to light might have undergone a relaxation of selective constraints and thus might have become nonfunctional pseudogenes. In fact, the pseudogenization of the short-wavelength opsin gene (S opsin gene) has occurred independently in several nocturnal mammals, such as bush babies, loris, lemurs, and blind Ehrenberg's mole rats [69, 70] . If the gain of trichromatic vision is indeed compensation for the loss of nasal chemoreceptors in diurnal mammals, as suggested by several authors [53, 68] , our results would indicate that the chemical-mediated nasal sensory system might be selectively fa-vored in nocturnal mammals to compensate for the defects of the photosensory system.",
+                "cite_spans": [
+                    {
+                        "start": 230,
+                        "end": 234,
+                        "text": "[62]",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 367,
+                        "end": 371,
+                        "text": "[63,",
+                        "ref_id": "BIBREF62"
+                    },
+                    {
+                        "start": 372,
+                        "end": 375,
+                        "text": "64]",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 829,
+                        "end": 833,
+                        "text": "[15,",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 834,
+                        "end": 837,
+                        "text": "16]",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 1015,
+                        "end": 1019,
+                        "text": "[15,",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1020,
+                        "end": 1023,
+                        "text": "60,",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 1024,
+                        "end": 1027,
+                        "text": "65,",
+                        "ref_id": "BIBREF64"
+                    },
+                    {
+                        "start": 1028,
+                        "end": 1031,
+                        "text": "66]",
+                        "ref_id": "BIBREF65"
+                    },
+                    {
+                        "start": 1112,
+                        "end": 1116,
+                        "text": "[17]",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 1732,
+                        "end": 1736,
+                        "text": "[67]",
+                        "ref_id": "BIBREF66"
+                    },
+                    {
+                        "start": 1967,
+                        "end": 1971,
+                        "text": "[52,",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 1972,
+                        "end": 1975,
+                        "text": "68]",
+                        "ref_id": "BIBREF67"
+                    },
+                    {
+                        "start": 2468,
+                        "end": 2472,
+                        "text": "[69,",
+                        "ref_id": "BIBREF68"
+                    },
+                    {
+                        "start": 2473,
+                        "end": 2476,
+                        "text": "70]",
+                        "ref_id": "BIBREF69"
+                    },
+                    {
+                        "start": 2626,
+                        "end": 2630,
+                        "text": "[53,",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 2631,
+                        "end": 2634,
+                        "text": "68]",
+                        "ref_id": "BIBREF67"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Nocturnal mammals possess larger nasal chemoreceptor repertoires than diurnal mammals",
+                "sec_num": "2.3"
+            },
+            {
+                "text": "To examine whether other behaviors or lifestyles can affect changes in the number of functional nasal chemoreceptors, we also analyzed the number of intact nasal chemoreceptors based on different dietary trophic groups and distinct mating and social systems. The effects of diet and social system are of interest, because olfaction is thought not only a sensor for food detection, but is also used in animals' social behaviors, such as sexual behavior and controlling intermale aggression. On the basis of the main food intake, the 12 mammals can be classified into two different dietary trophic groups: omnivores and herbivores. Interestingly, our results show the different dietary groups have no significant association with the numbers of functional MOE system or VNO system olfactory chemoreceptors or a combination of both (P=0.758). Similarly, solitary mammals do not have more functional nasal chemoreceptors than social mammals (P=0.788). However, we cannot completely exclude the possibility that our observations are affected by the relatively small sample size or the simplification of our behavioral classifications. In the future, it would be interesting to verify our results by comparing the number of nasal chemoreceptor genes in more mammals using more precise classifications of behavior.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Nocturnal mammals possess larger nasal chemoreceptor repertoires than diurnal mammals",
+                "sec_num": "2.3"
+            },
+            {
+                "text": "To understand the evolutionary mechanism driving the high number of functional nasal chemoreceptor genes in nocturnal mammals, we constructed neighbor-joining (NJ) trees of all the functional V1Rs, V2Rs, ORs, and TAARs from cow, horse, dog, mouse, rat, human, chimpanzee, orangutan, rhesus monkey, marmoset, and opossum ( Figure 4 ). The phylogenetic trees show several interesting branching patterns. First, the nasal chemoreceptor repertoires tend to form lineage-specific clusters and it seems the lineage-specific clusters are more predominant for VNS chemoreceptors than for MOS chemoreceptors, which is consistent with the findings from a recent study [32] . Second, the difference between the phylogenies of nasal chemoreceptors in animals with distinct lifestyles is considerable. Specifically, nocturnal mammals possess more lineage-specific clusters than diurnal mammals (Figure 4 ), suggesting that the nocturnal mammals have acquired more chemosensory genes by the retention of newly duplicated genes. An extreme case is the V2R gene family, in which almost all lineage-specific clusters are exclusively found in nocturnal mammals, with the exception of a V2R family C gene in horses. To quantify the difference in phylogenetic patterns between nocturnal and diurnal mammals, we calculated the proportion of lineage-specific genes in each chemoreceptor superfamily and found a significantly higher proportion of lineage-specific chemoreceptor genes in nocturnal mammals than in diurnal mammals for MOE mediated chemoreceptor repertoires (\u03c7 2 =39.923, P=2.64\u00d710 -10 ) and VNO mediated chemoreceptor repertoires (\u03c7 2 =16.1418, P=5.88\u00d710 -5 ). In addition, we identified 206 lineage-specific clusters in nocturnal mammals, which is significantly more than were found in diurnal mammals (82 clusters) (P=0.01, independent samples t-test). Essentially the same results were obtained when only statistically well-supported clusters (>70% bootstrap) were considered (Table S1 ). The frequent gene expansions that occurred in nocturnal mammals might reflect functional requirements to adapt to their particular environments. Interestingly, lineage-specific gene duplications have also been described in mammalian gustatory chemoreception receptor families, such as bitter taste receptors (T2R), and have been suggested to be adapted to the ecological and dietary diversity in mammals [71, 72] .",
+                "cite_spans": [
+                    {
+                        "start": 658,
+                        "end": 662,
+                        "text": "[32]",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 1573,
+                        "end": 1576,
+                        "text": "-10",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1647,
+                        "end": 1649,
+                        "text": "-5",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2388,
+                        "end": 2392,
+                        "text": "[71,",
+                        "ref_id": "BIBREF70"
+                    },
+                    {
+                        "start": 2393,
+                        "end": 2396,
+                        "text": "72]",
+                        "ref_id": "BIBREF71"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 322,
+                        "end": 330,
+                        "text": "Figure 4",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 881,
+                        "end": 890,
+                        "text": "(Figure 4",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 1971,
+                        "end": 1980,
+                        "text": "(Table S1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Preferential lineage-specific gene expansion driven by adaptive evolution in nocturnal mammals",
+                "sec_num": "2.4"
+            },
+            {
+                "text": "To test this adaptive hypothesis, we calculated the number of synonymous (dS) and nonsynonymous (dN) substitutions per site among paralogous genes within each of the lineage-specific expansions using the \"by-site\" likelihood method [44, 73, 74] . Here, we only tested those clusters that were >70% bootstrap statistically supported as well as having >20 members, because a large number of sequences improves the accuracy and power of the positive selection analyses [75] . Thus, our dataset includes four V1R, four OR, and one V2R gene clusters, all of which come from nocturnal animals (the genetic distance between each of the clusters is shown in Table S2 ). As shown in Table 1 , our results show that the alternative model is significantly better than the null model in all species-specific clusters analyzed (9/9), even after multiple testing corrections, suggesting the species-specific expansions might have been under positive selection. In addition, from each cluster we identified a set of amino acids under adaptive selection using the Bayes empirical Bayes (BEB) method. As expected, most of these sites tend to locate in potential ligand-binding regions. For example, 6/7 putative positively selected sites with >95% posterior probability in V2Rs are located in the extracellular loops, which are widely thought to be important for the interaction of V2R receptor with their ligands [76] . Thus, the above observations suggest that newly duplicated species-specific genes tend to be subjected to diversifying selection, driven by the need to recognize a diverse array of odors that nocturnal mammals encounter in their special dark environments.",
+                "cite_spans": [
+                    {
+                        "start": 232,
+                        "end": 236,
+                        "text": "[44,",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 237,
+                        "end": 240,
+                        "text": "73,",
+                        "ref_id": "BIBREF72"
+                    },
+                    {
+                        "start": 241,
+                        "end": 244,
+                        "text": "74]",
+                        "ref_id": "BIBREF73"
+                    },
+                    {
+                        "start": 466,
+                        "end": 470,
+                        "text": "[75]",
+                        "ref_id": "BIBREF74"
+                    },
+                    {
+                        "start": 1397,
+                        "end": 1401,
+                        "text": "[76]",
+                        "ref_id": "BIBREF75"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 650,
+                        "end": 658,
+                        "text": "Table S2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 674,
+                        "end": 681,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Preferential lineage-specific gene expansion driven by adaptive evolution in nocturnal mammals",
+                "sec_num": "2.4"
+            },
+            {
+                "text": "The above analysis on mammalian nasal chemoreceptor gene repertoires suggests that there is a significant positive correlation between functional gene number and morphological complexity both in the main olfactory system and the vomeronasal system [23] . Combining morphological data, behavioral data, and gene repertoires, we revealed that nocturnal mammals tend to possess more species-specific chemoreceptor genes and more complicated olfactory organs than diurnal mammals. Moreover, analysis of evolu-tionary forces reveals the influence of positive selection on the species-specific genes, likely reflecting the speciesspecific detection of odors and pheromones. Our research also suggests that the complexity of morphological olfactory organs and the diversification of nasal chemoreceptors in nocturnal mammals are under selection for the ability to perceive various sets of odors that nocturnal mammals encounter in their particular dark environments. Thus, we provide a case of molecular adaptation to circadian rhythm activity at the genome scale.",
+                "cite_spans": [
+                    {
+                        "start": 248,
+                        "end": 252,
+                        "text": "[23]",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Conclusions",
+                "sec_num": "3"
+            },
+            {
+                "text": "Dataset 1 Intact OR, TAAR, V1R, and V2R protein sequences from horse, guinea pig, marmoset, and orangutan (Supple-mentary_Dataset_1.txt) The supporting information is available online at csb.scichina.com and www.springerlink.com. The supporting materials are published as submitted, without typesetting or editing. The responsibility for scientific accuracy and content remains entirely with the authors.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Supporting Information",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We thank Margaret Bakewell, Benyang Liao, and members ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "acknowledgement",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Approaches for identifying targets of positive selection",
+                "authors": [
+                    {
+                        "first": "J D",
+                        "middle": [],
+                        "last": "Jensen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Wong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Aquadro",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Trends Genet",
+                "volume": "23",
+                "issue": "",
+                "pages": "568--577",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jensen J D, Wong A, Aquadro C F. Approaches for identifying tar- gets of positive selection. Trends Genet, 2007, 23: 568-577",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Positive natural selection in the human lineage",
+                "authors": [
+                    {
+                        "first": "P C",
+                        "middle": [],
+                        "last": "Sabeti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S F",
+                        "middle": [],
+                        "last": "Schaffner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Fry",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Science",
+                "volume": "312",
+                "issue": "",
+                "pages": "1614--1620",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sabeti P C, Schaffner S F, Fry B, et al. Positive natural selection in the human lineage. Science, 2006, 312: 1614-1620",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Adaptive evolution of a duplicated pancreatic ribonuclease gene in a leaf-eating monkey",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y P",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Rosenberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Nat Genet",
+                "volume": "30",
+                "issue": "",
+                "pages": "411--415",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhang J, Zhang Y P, Rosenberg H F. Adaptive evolution of a dupli- cated pancreatic ribonuclease gene in a leaf-eating monkey. Nat Genet, 2002, 30: 411-415",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Positive Darwinian selection after gene duplication in primate ribonuclease genes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H F",
+                        "middle": [],
+                        "last": "Rosenberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "95",
+                "issue": "",
+                "pages": "3708--3713",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhang J, Rosenberg H F, Nei M. Positive Darwinian selection after gene duplication in primate ribonuclease genes. Proc Natl Acad Sci USA, 1998, 95: 3708-3713",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Patterns of positive selection in six Mammalian genomes",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Kosiol",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Vinar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Da",
+                        "middle": [],
+                        "last": "Fonseca R R",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "PLoS Genet",
+                "volume": "4",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kosiol C, Vinar T, Da Fonseca R R, et al. Patterns of positive selec- tion in six Mammalian genomes. PLoS Genet, 2008, 4: e1000144",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Did brain-specific genes evolve faster in humans than in chimpanzees?",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Shi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M A",
+                        "middle": [],
+                        "last": "Bakewell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Trends Genet",
+                "volume": "22",
+                "issue": "",
+                "pages": "608--613",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shi P, Bakewell M A, Zhang J. Did brain-specific genes evolve faster in humans than in chimpanzees? Trends Genet, 2006, 22: 608-613",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "More genes underwent positive selection in chimpanzee evolution than in human evolution",
+                "authors": [
+                    {
+                        "first": "M A",
+                        "middle": [],
+                        "last": "Bakewell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Shi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "104",
+                "issue": "",
+                "pages": "7489--7494",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bakewell M A, Shi P, Zhang J. More genes underwent positive selec- tion in chimpanzee evolution than in human evolution. Proc Natl Acad Sci USA, 2007, 104: 7489-7494",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Molecular mechanisms in worms and mammals",
+                "authors": [
+                    {
+                        "first": "B C",
+                        "middle": [],
+                        "last": "Prasad",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Reed",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Chemosensation",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Trends Genet",
+                "volume": "15",
+                "issue": "",
+                "pages": "150--153",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Prasad B C, Reed R R. Chemosensation: Molecular mechanisms in worms and mammals. Trends Genet, 1999, 15: 150-153",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "A novel family of genes encoding putative pheromone receptors in mammals",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Dulac",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Axel",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Cell",
+                "volume": "83",
+                "issue": "",
+                "pages": "195--206",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dulac C, Axel R. A novel family of genes encoding putative phero- mone receptors in mammals. Cell, 1995, 83: 195-206",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "The differential projections of the olfactory bulb and accessory olfactory bulb in mammals",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Scalia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Winans",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1975,
+                "venue": "J Comp Neurol",
+                "volume": "161",
+                "issue": "",
+                "pages": "31--55",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Scalia F, Winans S S. The differential projections of the olfactory bulb and accessory olfactory bulb in mammals. J Comp Neurol, 1975, 161: 31-55",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Emerging views on the distinct but related roles of the main and accessory olfactory systems in responsiveness to chemosensory signals in mice",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Restrepo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Arellano",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A M",
+                        "middle": [],
+                        "last": "Oliva",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Horm Behav",
+                "volume": "46",
+                "issue": "",
+                "pages": "247--256",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Restrepo D, Arellano J, Oliva A M, et al. Emerging views on the dis- tinct but related roles of the main and accessory olfactory systems in responsiveness to chemosensory signals in mice. Horm Behav, 2004, 46: 247-256",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Is the vomeronasal system really specialized for detecting pheromones?",
+                "authors": [
+                    {
+                        "first": "K N",
+                        "middle": [],
+                        "last": "Baxi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K M",
+                        "middle": [],
+                        "last": "Dorries",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Eisthen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Trends Neurosci",
+                "volume": "29",
+                "issue": "",
+                "pages": "1--7",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Baxi K N, Dorries K M, Eisthen H L. Is the vomeronasal system really specialized for detecting pheromones? Trends Neurosci, 2006, 29: 1-7",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Parallel processing of social signals by the mammalian main and accessory olfactory systems",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Spehr",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Spehr",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Ukhanov",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Cell Mol Life Sci",
+                "volume": "63",
+                "issue": "",
+                "pages": "1476--1484",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Spehr M, Spehr J, Ukhanov K, et al. Parallel processing of social signals by the mammalian main and accessory olfactory systems. Cell Mol Life Sci, 2006, 63: 1476-1484",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "The combined role of the main olfactory and vomeronasal systems in social communication in mammals",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Kelliher",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Horm behav",
+                "volume": "52",
+                "issue": "",
+                "pages": "561--570",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kelliher K R. The combined role of the main olfactory and vomero- nasal systems in social communication in mammals. Horm behav, 2007, 52: 561-570",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Comparison of brain structure volumes in Insectivora and Primates. III. Main olfactory bulb (MOB)",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Baron",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H D",
+                        "middle": [],
+                        "last": "Frahm",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K P",
+                        "middle": [],
+                        "last": "Bhatnagar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1983,
+                "venue": "J Hirnforsch",
+                "volume": "24",
+                "issue": "",
+                "pages": "551--568",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Baron G, Frahm H D, Bhatnagar K P, et al. Comparison of brain structure volumes in Insectivora and Primates. III. Main olfactory bulb (MOB). J Hirnforsch, 1983, 24: 551-568",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Structure and diversity in mammalian accessory olfactory bulb",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Meisami",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Bhatnagar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Microsc Res Tech",
+                "volume": "43",
+                "issue": "",
+                "pages": "476--499",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Meisami E, Bhatnagar K P. Structure and diversity in mammalian accessory olfactory bulb. Microsc Res Tech, 1998, 43: 476-499",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Recent progress in the neurobiology of the vomeronasal organ",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Takami",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Microsc Res Tech",
+                "volume": "58",
+                "issue": "",
+                "pages": "228--250",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Takami S. Recent progress in the neurobiology of the vomeronasal organ. Microsc Res Tech, 2002, 58: 228-250",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Molecular detection of pheromone signals in mammals: From genes to behaviour",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Dulac",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Torello",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Nat Rev Neurosci",
+                "volume": "4",
+                "issue": "",
+                "pages": "551--562",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dulac C, Torello A T. Molecular detection of pheromone signals in mammals: From genes to behaviour. Nat Rev Neurosci, 2003, 4: 551-562",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Genes and ligands for odorant, vomeronasal and taste receptors",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Mombaerts",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Nat Rev Neurosci",
+                "volume": "5",
+                "issue": "",
+                "pages": "263--278",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mombaerts P. Genes and ligands for odorant, vomeronasal and taste receptors. Nat Rev Neurosci, 2004, 5: 263-278",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "A second class of chemosensory receptors in the olfactory epithelium",
+                "authors": [
+                    {
+                        "first": "S D",
+                        "middle": [],
+                        "last": "Liberles",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Buck",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Nature",
+                "volume": "442",
+                "issue": "",
+                "pages": "645--650",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Liberles S D, Buck L B. A second class of chemosensory receptors in the olfactory epithelium. Nature, 2006, 442: 645-650",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Origin of the genetic components of the vomeronasal system in the common ancestor of all extant vertebrates",
+                "authors": [
+                    {
+                        "first": "W E",
+                        "middle": [],
+                        "last": "Grus",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Mol Biol Evol",
+                "volume": "26",
+                "issue": "",
+                "pages": "407--419",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Grus W E, Zhang J. Origin of the genetic components of the vo- meronasal system in the common ancestor of all extant vertebrates. Mol Biol Evol, 2009, 26: 407-419",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Evolutionary dynamics of olfactory and other chemosensory receptor genes in vertebrates",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Niimura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "J Hum Genet",
+                "volume": "51",
+                "issue": "",
+                "pages": "505--517",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Niimura Y, Nei M. Evolutionary dynamics of olfactory and other chemosensory receptor genes in vertebrates. J Hum Genet, 2006, 51: 505-517",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Dramatic variation of the vomeronasal pheromone receptor gene repertoire among five orders of placental and marsupial mammals",
+                "authors": [
+                    {
+                        "first": "W E",
+                        "middle": [],
+                        "last": "Grus",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Shi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y P",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "102",
+                "issue": "",
+                "pages": "5767--5772",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Grus W E, Shi P, Zhang Y P, et al. Dramatic variation of the vo- meronasal pheromone receptor gene repertoire among five orders of placental and marsupial mammals. Proc Natl Acad Sci USA, 2005, 102: 5767-5772",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "V2R gene families degenerated in primates, dog and cow, but expanded in opossum",
+                "authors": [
+                    {
+                        "first": "J M",
+                        "middle": [],
+                        "last": "Young",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Trask",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Trends Genet",
+                "volume": "23",
+                "issue": "",
+                "pages": "212--215",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Young J M, Trask B J. V2R gene families degenerated in primates, dog and cow, but expanded in opossum. Trends Genet, 2007, 23: 212-215",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Comparative genomic analysis identifies an evolutionary shift of vomeronasal receptor gene repertoires in the vertebrate transition from water to land",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Shi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Genome Res",
+                "volume": "17",
+                "issue": "",
+                "pages": "166--174",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shi P, Zhang J. Comparative genomic analysis identifies an evolu- tionary shift of vomeronasal receptor gene repertoires in the verte- brate transition from water to land. Genome Res, 2007, 17: 166-174",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Extensive gains and losses of olfactory receptor genes in Mammalian evolution",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Niimura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "PLoS ONE",
+                "volume": "2",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Niimura Y, Nei M. Extensive gains and losses of olfactory receptor genes in Mammalian evolution. PLoS ONE, 2007, 2: e708",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Largest vertebrate vomeronasal type 1 receptor gene repertoire in the semiaquatic platypus",
+                "authors": [
+                    {
+                        "first": "W E",
+                        "middle": [],
+                        "last": "Grus",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Shi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Mol Biol Evol",
+                "volume": "24",
+                "issue": "",
+                "pages": "2153--2157",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Grus W E, Shi P, Zhang J. Largest vertebrate vomeronasal type 1 re- ceptor gene repertoire in the semiaquatic platypus. Mol Biol Evol, 2007, 24: 2153-2157",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Extraordinary diversity of chemosensory receptor gene repertoires among vertebrates",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Shi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Chemosensory Systems in Mammals, Fishes, and Insects",
+                "volume": "",
+                "issue": "",
+                "pages": "1--23",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shi P, Zhang J. Extraordinary diversity of chemosensory receptor gene repertoires among vertebrates. In: Korsching S, Meyerhof W, eds. Chemosensory Systems in Mammals, Fishes, and Insects. Berlin: Springer, 2009. 1-23",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "More functional V1R genes occur in nest-living and nocturnal terricolous mammals",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Shi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Zhu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Genome Biol Evol",
+                "volume": "2",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wang G, Shi P, Zhu Z, et al. More functional V1R genes occur in nest-living and nocturnal terricolous mammals. Genome Biol Evol, 2010, 2: 277",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Evolutionary dynamics of olfactory receptor genes in fishes and tetrapods",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Niimura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "102",
+                "issue": "",
+                "pages": "6039--6044",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Niimura Y, Nei M. Evolutionary dynamics of olfactory receptor genes in fishes and tetrapods. Proc Natl Acad Sci USA, 2005, 102: 6039-6044",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Composition and evolution of the V2r vomeronasal receptor gene repertoire in mice and rats",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Shi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y P",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Genomics",
+                "volume": "86",
+                "issue": "",
+                "pages": "306--315",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang H, Shi P, Zhang Y P, et al. Composition and evolution of the V2r vomeronasal receptor gene repertoire in mice and rats. Genom- ics, 2005, 86: 306-315",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Distinct evolutionary patterns between chemoreceptors of 2 vertebrate olfactory systems and the differential tuning hypothesis",
+                "authors": [
+                    {
+                        "first": "W E",
+                        "middle": [],
+                        "last": "Grus",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Mol Biol Evol",
+                "volume": "25",
+                "issue": "",
+                "pages": "1593--1601",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Grus W E, Zhang J. Distinct evolutionary patterns between chemo- receptors of 2 vertebrate olfactory systems and the differential tuning hypothesis. Mol Biol Evol, 2008, 25: 1593-1601",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Recognition of individual, sex and species odours by salamanders of the Plethodon glutinosus-P. jordani complex",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M D"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "Anim Behav",
+                "volume": "32",
+                "issue": "",
+                "pages": "353--361",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "E.M. D. Recognition of individual, sex and species odours by sala- manders of the Plethodon glutinosus-P. jordani complex. Anim Be- hav, 1984, 32: 353-361",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Pheromonal attractions to particular males by female redback salamanders (Plethodon cinereus)",
+                "authors": [
+                    {
+                        "first": "J R",
+                        "middle": [],
+                        "last": "Gillette",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Kolb",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J A",
+                        "middle": [],
+                        "last": "Smith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "The Biology of Plethodontid Salamanders",
+                "volume": "",
+                "issue": "",
+                "pages": "431--440",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gillette J R, Kolb S E, Smith J A, et al. Pheromonal attractions to particular males by female redback salamanders (Plethodon ciner- eus). In: Bruce R C, Jaeger R G, Houck L D, eds. The Biology of Plethodontid Salamanders. New York: Springer, 2000. 431-440",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Intra-and interspecific communication in salamanders through chemical signals on the substrate",
+                "authors": [
+                    {
+                        "first": "R G",
+                        "middle": [],
+                        "last": "Jaeger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Gergits",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1979,
+                "venue": "Anim Behav",
+                "volume": "27",
+                "issue": "",
+                "pages": "150--156",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jaeger R G, Gergits W F. Intra-and interspecific communication in salamanders through chemical signals on the substrate. Anim Behav, 1979, 27: 150-156",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Territorial salamanders assess sexual and competitive information using chemical signals",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Mathis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Anim Behav",
+                "volume": "40",
+                "issue": "",
+                "pages": "953--962",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mathis A. Territorial salamanders assess sexual and competitive in- formation using chemical signals. Anim Behav, 1990, 40: 953-962",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Chemical signaling and pheromone evolution in plethodontid salamanders",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Palmer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Ph.D. Dissertation. Corvallis: Oregon State University",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Palmer C A. Chemical signaling and pheromone evolution in pletho- dontid salamanders. Ph.D. Dissertation. Corvallis: Oregon State Uni- versity, 2004",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Circadian oscillation of the multiple unit activity in the guinea pig suprachiasmatic nucleus",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kurumiya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Kawamura",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "J Comp Physiol",
+                "volume": "162",
+                "issue": "",
+                "pages": "301--308",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kurumiya S, Kawamura H. Circadian oscillation of the multiple unit activity in the guinea pig suprachiasmatic nucleus. J Comp Physiol, 1988, 162: 301-308",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "The Animal Diversity Web (online)",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Myers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Espinosa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C S",
+                        "middle": [],
+                        "last": "Parr",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Myers P, Espinosa R, Parr C S, et al. The Animal Diversity Web (online). Accessed at http://animaldiversity.org. 2006",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "A package for performing multiple sequence alignment on a microcomputer",
+                "authors": [
+                    {
+                        "first": "D G",
+                        "middle": [],
+                        "last": "Higgins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Sharp",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Clustal",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Gene",
+                "volume": "73",
+                "issue": "",
+                "pages": "237--244",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Higgins D G, Sharp P M. CLUSTAL: A package for performing multiple sequence alignment on a microcomputer. Gene, 1988, 73: 237-244",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "The neighbor-joining method: A new method for reconstructing phylogenetic trees",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Saitou",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Mol Biol Evol",
+                "volume": "4",
+                "issue": "",
+                "pages": "406--425",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Saitou N, Nei M. The neighbor-joining method: A new method for reconstructing phylogenetic trees. Mol Biol Evol, 1987, 4: 406-425",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Molecular evolution and phylogenetics",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kumar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nei M, Kumar S. Molecular evolution and phylogenetics. New York: Oxford University Press, 2000",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "MEGA4: Molecular Evolutionary Genetics Analysis (MEGA) software version 4.0",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Tamura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Dudley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Mol Biol Evol",
+                "volume": "24",
+                "issue": "",
+                "pages": "1596--1599",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tamura K, Dudley J, Nei M, et al. MEGA4: Molecular Evolutionary Genetics Analysis (MEGA) software version 4.0. Mol Biol Evol, 2007, 24: 1596-1599",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "PAML: A program package for phylogenetic analysis by maximum likelihood",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Comput Appl Biosci",
+                "volume": "13",
+                "issue": "",
+                "pages": "555--556",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang Z. PAML: A program package for phylogenetic analysis by maximum likelihood. Comput Appl Biosci, 1997, 13: 555-556",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Accuracy and power of the likelihood ratio test in detecting adaptive molecular evolution",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Anisimova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J P",
+                        "middle": [],
+                        "last": "Bielawski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Yang",
+                        "middle": [
+                            "Z"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Mol Biol Evol",
+                "volume": "18",
+                "issue": "",
+                "pages": "1585--1592",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Anisimova M, Bielawski J P, Yang Z. Accuracy and power of the likelihood ratio test in detecting adaptive molecular evolution. Mol Biol Evol, 2001, 18: 1585-1592",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Extreme variability among mammalian V1R gene families",
+                "authors": [
+                    {
+                        "first": "J M",
+                        "middle": [],
+                        "last": "Young",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H F",
+                        "middle": [],
+                        "last": "Massa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Hsu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Genome Res",
+                "volume": "20",
+                "issue": "",
+                "pages": "10--18",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Young J M, Massa H F, Hsu L, et al. Extreme variability among mammalian V1R gene families. Genome Res, 2010, 20: 10-18",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Novel human vomeronasal receptor-like genes reveal species-specific families",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Rodriguez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Mombaerts",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Curr Biol",
+                "volume": "12",
+                "issue": "",
+                "pages": "409--411",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rodriguez I, Mombaerts P. Novel human vomeronasal receptor-like genes reveal species-specific families. Curr Biol, 2002, 12: R409-411",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Mammalian phylogenomics comes of age",
+                "authors": [
+                    {
+                        "first": "W J",
+                        "middle": [],
+                        "last": "Murphy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P A",
+                        "middle": [],
+                        "last": "Pevzner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "'brien",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Trends Genet",
+                "volume": "20",
+                "issue": "",
+                "pages": "631--639",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Murphy W J, Pevzner P A, O'brien S J. Mammalian phylogenomics comes of age. Trends Genet, 2004, 20: 631-639",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Comparative genomics of odorant and pheromone receptor genes in rodents",
+                "authors": [
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Firestein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Genomics",
+                "volume": "89",
+                "issue": "",
+                "pages": "441--450",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhang X, Firestein S. Comparative genomics of odorant and phero- mone receptor genes in rodents. Genomics, 2007, 89: 441-450",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Trace amine-associated receptors form structurally and functionally distinct subfamilies of novel G protein-coupled receptors",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Lindemann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ebeling",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N A",
+                        "middle": [],
+                        "last": "Kratochwil",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Genomics",
+                "volume": "85",
+                "issue": "",
+                "pages": "372--385",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lindemann L, Ebeling M, Kratochwil N A, et al. Trace amine-associated receptors form structurally and functionally distinct subfamilies of novel G protein-coupled receptors. Genomics, 2005, 85: 372-385",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Similar numbers but different repertoires of olfactory receptor genes in humans and chimpanzees",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Go",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Niimura",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Mol Biol Evol",
+                "volume": "25",
+                "issue": "",
+                "pages": "1897--1907",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Go Y, Niimura Y. Similar numbers but different repertoires of olfac- tory receptor genes in humans and chimpanzees. Mol Biol Evol, 2008, 25: 1897-1907",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Divergent V1R repertoires in five species: Amplification in rodents, decimation in primates, and a surprisingly small repertoire in dogs",
+                "authors": [
+                    {
+                        "first": "J M",
+                        "middle": [],
+                        "last": "Young",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kambere",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B J",
+                        "middle": [],
+                        "last": "Trask",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Genome Res",
+                "volume": "15",
+                "issue": "",
+                "pages": "231--240",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Young J M, Kambere M, Trask B J, et al. Divergent V1R repertoires in five species: Amplification in rodents, decimation in primates, and a surprisingly small repertoire in dogs. Genome Res, 2005, 15: 231-240",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Evolutionary deterioration of the vomeronasal pheromone transduction pathway in catarrhine primates",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Webb",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "100",
+                "issue": "",
+                "pages": "8337--8341",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhang J, Webb D M. Evolutionary deterioration of the vomeronasal pheromone transduction pathway in catarrhine primates. Proc Natl Acad Sci USA, 2003, 100: 8337-8341",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Relaxed selective pressure on an essential component of pheromone transduction in primate evolution",
+                "authors": [
+                    {
+                        "first": "E R",
+                        "middle": [],
+                        "last": "Liman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Innan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "100",
+                "issue": "",
+                "pages": "3328--3332",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Liman E R, Innan H. Relaxed selective pressure on an essential component of pheromone transduction in primate evolution. Proc Natl Acad Sci USA, 2003, 100: 3328-3332",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Identification of V1R-like putative pheromone receptor sequences in non-human primates. Characterization of V1R pseudogenes in marmoset, a primate species that possesses an intact vomeronasal organ",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Giorgi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Rouquier",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Chem Senses",
+                "volume": "27",
+                "issue": "",
+                "pages": "529--537",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Giorgi D, Rouquier S. Identification of V1R-like putative pheromone receptor sequences in non-human primates. Characterization of V1R pseudogenes in marmoset, a primate species that possesses an intact vomeronasal organ. Chem Senses, 2002, 27: 529-537",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "Morphological evidence for two types of Mammalian vomeronasal system",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Takigami",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Mori",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Tanioka",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Chem Senses",
+                "volume": "29",
+                "issue": "",
+                "pages": "301--310",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Takigami S, Mori Y, Tanioka Y, et al. Morphological evidence for two types of Mammalian vomeronasal system. Chem Senses, 2004, 29: 301-310",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "The vomeronasal receptor V2R2 does not require escort molecules for expression in heterologous systems",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Silvotti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Giannini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Tirindelli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Chem Senses",
+                "volume": "30",
+                "issue": "",
+                "pages": "1--8",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Silvotti L, Giannini G, Tirindelli R. The vomeronasal receptor V2R2 does not require escort molecules for expression in heterologous sys- tems. Chem Senses, 2005, 30: 1-8",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "Co-expression of putative pheromone receptors in the sensory neurons of the vomeronasal organ",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Martini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Silvotti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Shirazi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "J Neurosci",
+                "volume": "21",
+                "issue": "",
+                "pages": "843--848",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Martini S, Silvotti L, Shirazi A, et al. Co-expression of putative pheromone receptors in the sensory neurons of the vomeronasal or- gan. J Neurosci, 2001, 21: 843-848",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Combinatorial co-expression of pheromone receptors, V2Rs",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Silvotti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Moiani",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Gatti",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "J Neurochem",
+                "volume": "103",
+                "issue": "",
+                "pages": "1753--1763",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Silvotti L, Moiani A, Gatti R, et al. Combinatorial co-expression of pheromone receptors, V2Rs. J Neurochem, 2007, 103: 1753-1763",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "New and revised data on volumes of brain structures in insectivores and primates",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Stephan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Frahm",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Baron",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "Folia Primatol",
+                "volume": "35",
+                "issue": "",
+                "pages": "1--29",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stephan H, Frahm H, Baron G. New and revised data on volumes of brain structures in insectivores and primates. Folia Primatol, 1981, 35: 1-29",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "Anatomic mapping of neuronal odor responses in the developing rat olfactory bulb",
+                "authors": [
+                    {
+                        "first": "K M",
+                        "middle": [],
+                        "last": "Guthrie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Gall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "J Comp Neurol",
+                "volume": "455",
+                "issue": "",
+                "pages": "56--71",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Guthrie K M, Gall C. Anatomic mapping of neuronal odor responses in the developing rat olfactory bulb. J Comp Neurol, 2003, 455: 56- 71",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "Pheromones in small rodents and their potential use in pest control",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Christiansen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1976,
+                "venue": "Proceedings of the 7th Vertebrate Pest Conference",
+                "volume": "",
+                "issue": "",
+                "pages": "185--195",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Christiansen E. Pheromones in small rodents and their potential use in pest control. In: Siebe C C, ed. Proceedings of the 7th Vertebrate Pest Conference, 1976 Mar. 9-11, Monterey. Davis: University of California, 1976. 185-195",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "Sensory adaptations in subterranean mammals. Evolution of subterranean mammals at the organismal and molecular levels",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Burda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Bruns",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Mu\u00a8ller",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "269--293",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Burda H, Bruns V, Mu\u00a8Ller M. Sensory adaptations in subterranean mammals. Evolution of subterranean mammals at the organismal and molecular levels, 1990, 269-293.",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "Sensory capabilities and communication in subterranean rodents",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Francescoli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Lacey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Patton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Life Underground: The Biology of Subterranean Rodents",
+                "volume": "",
+                "issue": "",
+                "pages": "111--144",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Francescoli G, Lacey E, Patton J, et al. Sensory capabilities and communication in subterranean rodents. In: Lacey E A, Patton J L, Cameron G N, eds. Life Underground: The Biology of Subterranean Rodents. Chicago: University of Chicago, 2000. 111-144",
+                "links": null
+            },
+            "BIBREF64": {
+                "ref_id": "b64",
+                "title": "Comparison of brain structure volumes in insectivora and primates. IV. Non-cortical visual structures",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Stephan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H D",
+                        "middle": [],
+                        "last": "Frahm",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Baron",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "J Hirnforsch",
+                "volume": "25",
+                "issue": "",
+                "pages": "385--403",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stephan H, Frahm H D, Baron G. Comparison of brain structure volumes in insectivora and primates. IV. Non-cortical visual struc- tures. J Hirnforsch, 1984, 25: 385-403",
+                "links": null
+            },
+            "BIBREF65": {
+                "ref_id": "b65",
+                "title": "Expression of neuron-specific markers by the vomeronasal neuroepithelium in six species of primates. The anatomical record",
+                "authors": [
+                    {
+                        "first": "J C",
+                        "middle": [],
+                        "last": "Dennis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T D",
+                        "middle": [],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K P",
+                        "middle": [],
+                        "last": "Bhatnagar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "",
+                "volume": "281",
+                "issue": "",
+                "pages": "1190--1200",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dennis J C, Smith T D, Bhatnagar K P, et al. Expression of neu- ron-specific markers by the vomeronasal neuroepithelium in six spe- cies of primates. The anatomical record, 2004, 281: 1190-1200",
+                "links": null
+            },
+            "BIBREF66": {
+                "ref_id": "b66",
+                "title": "Evolution and selection of trichromatic vision in primates",
+                "authors": [
+                    {
+                        "first": "A K",
+                        "middle": [],
+                        "last": "Surridge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Osorio",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Mundy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Trends Ecol Evol",
+                "volume": "18",
+                "issue": "",
+                "pages": "198--205",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Surridge A K, Osorio D, Mundy N I. Evolution and selection of trichromatic vision in primates. Trends Ecol Evol, 2003, 18: 198-205",
+                "links": null
+            },
+            "BIBREF67": {
+                "ref_id": "b67",
+                "title": "Loss of olfactory receptor genes coincides with the acquisition of full trichromatic vision in primates",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Gilad",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Przeworski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Lancet",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "PLoS Biol",
+                "volume": "2",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gilad Y, Przeworski M, Lancet D. Loss of olfactory receptor genes coincides with the acquisition of full trichromatic vision in primates. PLoS Biol, 2004, 2: E5",
+                "links": null
+            },
+            "BIBREF68": {
+                "ref_id": "b68",
+                "title": "Adaptive loss of ultraviolet-sensitive/violet-sensitive (UVS/VS) cone opsin in the blind mole rat (Spalax ehrenbergi)",
+                "authors": [
+                    {
+                        "first": "David-Gray Z K",
+                        "middle": [],
+                        "last": "Bellingham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Munoz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Eur J Neurosci",
+                "volume": "16",
+                "issue": "",
+                "pages": "1186--1194",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "David-Gray Z K, Bellingham J, Munoz M, et al. Adaptive loss of ul- traviolet-sensitive/violet-sensitive (UVS/VS) cone opsin in the blind mole rat (Spalax ehrenbergi). Eur J Neurosci, 2002, 16: 1186-1194",
+                "links": null
+            },
+            "BIBREF69": {
+                "ref_id": "b69",
+                "title": "Evidence from opsin genes rejects nocturnality in ancestral primates",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Tan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A D",
+                        "middle": [],
+                        "last": "Yoder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Yamashita",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "102",
+                "issue": "",
+                "pages": "14712--14716",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tan Y, Yoder A D, Yamashita N, et al. Evidence from opsin genes rejects nocturnality in ancestral primates. Proc Natl Acad Sci USA, 2005, 102: 14712-14716",
+                "links": null
+            },
+            "BIBREF70": {
+                "ref_id": "b70",
+                "title": "Adaptive diversification of bitter taste receptor genes in Mammalian evolution",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Shi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Mol Biol Evol",
+                "volume": "20",
+                "issue": "",
+                "pages": "805--814",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shi P, Zhang J, Yang H, et al. Adaptive diversification of bitter taste receptor genes in Mammalian evolution. Mol Biol Evol, 2003, 20: 805-814",
+                "links": null
+            },
+            "BIBREF71": {
+                "ref_id": "b71",
+                "title": "Contrasting modes of evolution between vertebrate sweet/umami receptor genes and bitter receptor genes",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Shi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Mol Biol Evol",
+                "volume": "23",
+                "issue": "",
+                "pages": "292--300",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shi P, Zhang J. Contrasting modes of evolution between vertebrate sweet/umami receptor genes and bitter receptor genes. Mol Biol Evol, 2006, 23: 292-300",
+                "links": null
+            },
+            "BIBREF72": {
+                "ref_id": "b72",
+                "title": "Likelihood ratio tests for detecting positive selection and application to primate lysozyme evolution",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Mol Biol Evol",
+                "volume": "15",
+                "issue": "",
+                "pages": "568--573",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang Z. Likelihood ratio tests for detecting positive selection and applica- tion to primate lysozyme evolution. Mol Biol Evol, 1998, 15: 568-573",
+                "links": null
+            },
+            "BIBREF73": {
+                "ref_id": "b73",
+                "title": "Statistical methods for detecting molecular adaptation",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Bielawski",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Trends Ecol Evol",
+                "volume": "15",
+                "issue": "",
+                "pages": "496--503",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang Z, Bielawski J P. Statistical methods for detecting molecular adaptation. Trends Ecol Evol, 2000, 15: 496-503",
+                "links": null
+            },
+            "BIBREF74": {
+                "ref_id": "b74",
+                "title": "Accuracy and power of bayes prediction of amino acid sites under positive selection",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Anisimova",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J P",
+                        "middle": [],
+                        "last": "Bielawski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Yang",
+                        "middle": [
+                            "Z"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Mol Biol Evol",
+                "volume": "19",
+                "issue": "",
+                "pages": "950--958",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Anisimova M, Bielawski J P, Yang Z. Accuracy and power of bayes prediction of amino acid sites under positive selection. Mol Biol Evol, 2002, 19: 950-958",
+                "links": null
+            },
+            "BIBREF75": {
+                "ref_id": "b75",
+                "title": "Evolution and comparative genomics of odorant-and pheromone-associated genes in rodents",
+                "authors": [
+                    {
+                        "first": "R D",
+                        "middle": [],
+                        "last": "Emes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S A",
+                        "middle": [],
+                        "last": "Beatson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C P",
+                        "middle": [],
+                        "last": "Ponting",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Genome Res",
+                "volume": "14",
+                "issue": "",
+                "pages": "591--602",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Emes R D, Beatson S A, Ponting C P, et al. Evolution and compara- tive genomics of odorant-and pheromone-associated genes in ro- dents. Genome Res, 2004, 14: 591-602",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "uris": null,
+                "type_str": "figure",
+                "text": "Correlation of nasal chemoreceptor gene numbers with morphological complexity of olfactory organs. The intact VNO and MOE receptor number is separately plotted against (a) AOB volume (after controlling for body weight) and (b) OB volume (after controlling for body weight), based on the anatomy data taken from[60,61]. Data from V1Rs and V2Rs are combined for VNO receptors, and data from ORs and TAARs are combined for MOE receptors. (c) VNO receptors vs. VNO complexity and (d) MOE receptors vs. MOB size. The VNO's morphological complexity categories are used as described in",
+                "num": null
+            },
+            "FIGREF1": {
+                "uris": null,
+                "type_str": "figure",
+                "text": "Nasal chemoreceptor genes are overrepresented in nocturnal mammals as compared to diurnal mammals. Median value and range of the numbers of nasal chemoreceptor genes are shown. Error bars show the standard error of the mean. Statistically significant differences are shown by * for P-value<5% and ** for P-value<1%. The circadian rhythm data are taken from Myers et al.",
+                "num": null
+            },
+            "FIGREF2": {
+                "uris": null,
+                "type_str": "figure",
+                "text": "Neighbor-joining (NJ) trees of intact nasal chemoreceptors from 11 mammals. (a) The OR tree; (b) the TAAR tree; (c) the V1R tree; (d) the V2R tree. The nocturnality and diurnality are represented in the middle circle by black and white, respectively.",
+                "num": null
+            },
+            "TABREF0": {
+                "content": "<table><tr><td>Gene cluster</td><td>Species</td><td>n</td><td>P</td><td colspan=\"2\">Corrected P 1) Omega</td><td>Tree length for dS</td><td>Positive selection sites (under M8 model)</td></tr><tr><td>OR</td><td colspan=\"4\">Opossum 27 3.89\u00d710 -14 3.50\u00d710 -13</td><td>3.60935</td><td>3.09079</td><td>6L*, 11E**, 22E*, 51S**, 105V*, 309R**</td></tr><tr><td>OR</td><td colspan=\"4\">Opossum 27 9.21\u00d710 -16 8.29\u00d710 -15</td><td>1.80814</td><td>1.90960</td><td>2E*, 12F*, 55V*, 77I*, 91I*, 93M*, 94G*, 128M*, 132L**,</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td>136I**, 143A*, 189D**, 232T**, 238I*, 241G*, 242S**,</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td>246F**, 253G*, 266V*</td></tr><tr><td>OR</td><td colspan=\"3\">Opossum 21 3.86\u00d710 -6</td><td>3.47\u00d710 -5</td><td>1.61734</td><td>2.91006</td><td>59F*, 91I*, 288T*, 293Q*</td></tr><tr><td>OR</td><td colspan=\"3\">Opossum 24 1.96\u00d710 -3</td><td>1.76\u00d710 -2</td><td>1.48573</td><td>3.48121</td><td>None</td></tr><tr><td>V1R</td><td colspan=\"3\">Opossum 29 6.90\u00d710 -4</td><td>6.21\u00d710 -3</td><td>2.8956</td><td>6.71547</td><td>65T*</td></tr><tr><td>V1R</td><td>Mouse</td><td colspan=\"2\">28 3.92\u00d710 -9</td><td>3.53\u00d710 -8</td><td>4.81304</td><td>0.54389</td><td>8L**, 136V**, 226D*, 227A**, 237H**</td></tr><tr><td>V1R</td><td>Mouse</td><td colspan=\"2\">22 1.02\u00d710 -8</td><td>9.21\u00d710 -8</td><td>2.18805</td><td>2.12313</td><td>152S*, 161D*, 162D**, 291V*</td></tr><tr><td>V1R</td><td colspan=\"4\">Opossum 20 1.40\u00d710 -14 1.26\u00d710 -13</td><td>6.4642</td><td>0.76999</td><td>150S**, 163R**, 260S**, 266H**</td></tr><tr><td>V2R</td><td>Mouse</td><td colspan=\"3\">23 5.75\u00d710 -11 5.18\u00d710 -10</td><td>5.28563</td><td>0.41990</td><td>35Q*, 145E*, 152K**, 170S**, 251P*, 275D*, 359G**</td></tr><tr><td>a) 1)</td><td/><td/><td/><td/><td/><td/></tr></table>",
+                "type_str": "table",
+                "text": "Likelihood ratio test of positive selection for the species-specific clusters a) P-values are Bonferroni corrected for the multiple statistical testing; *, positive selection sites are inferred at P-value= 95%; **, positive selection sites are inferred at P-value= 99%.",
+                "num": null
+            },
+            "TABREF1": {
+                "content": "<table/>",
+                "type_str": "table",
+                "text": "Supplementary_Table_S1.xls) Supplementary_Table_S2.doc)",
+                "num": null
+            }
+        }
+    }
+}

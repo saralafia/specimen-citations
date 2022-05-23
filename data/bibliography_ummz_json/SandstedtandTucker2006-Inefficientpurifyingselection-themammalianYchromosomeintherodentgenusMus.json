@@ -1,0 +1,1391 @@
+{
+    "paper_id": "SandstedtandTucker2006-Inefficientpurifyingselection-themammalianYchromosomeintherodentgenusMus",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:32:27.308714Z"
+    },
+    "title": "Inefficient purifying selection: the mammalian Y chromosome in the rodent genus Mus",
+    "authors": [
+        {
+            "first": "Sara",
+            "middle": [
+                "A"
+            ],
+            "last": "Sandstedt",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Michigan",
+                "location": {
+                    "postCode": "48109",
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan",
+                    "country": "USA"
+                }
+            },
+            "email": "sandsted@umich.edu"
+        },
+        {
+            "first": "Priscilla",
+            "middle": [
+                "K"
+            ],
+            "last": "Tucker",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Michigan",
+                "location": {
+                    "postCode": "48109",
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan",
+                    "country": "USA"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Two related genes with potentially similar functions, one on the Y chromosome and one on the X chromosome, were examined to determine if they evolved differently because of their chromosomal positions. Six hundred fifty-seven base pairs of coding sequence of Jarid1d (Smcy) on the Y chromosome and Jarid1c (Smcx) on the X chromosome were sequenced in 13 rodent taxa. An analysis of replacement and silent substitutions, using a counting method designed for samples with small evolutionary distances, showed a significant difference between the two genes. The different patterns of replacement and silent substitutions within Jarid1d and Jarid1c may be a result of evolutionary mechanisms that are particularly strong on the Y chromosome because of its unique properties. These findings are similar to results of previous studies of Y chromosomal genes in these and other mammalian taxa, suggesting that genes on the mammalian Y evolve in a chromosome-specific manner.",
+    "pdf_parse": {
+        "paper_id": "SandstedtandTucker2006-Inefficientpurifyingselection-themammalianYchromosomeintherodentgenusMus",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Two related genes with potentially similar functions, one on the Y chromosome and one on the X chromosome, were examined to determine if they evolved differently because of their chromosomal positions. Six hundred fifty-seven base pairs of coding sequence of Jarid1d (Smcy) on the Y chromosome and Jarid1c (Smcx) on the X chromosome were sequenced in 13 rodent taxa. An analysis of replacement and silent substitutions, using a counting method designed for samples with small evolutionary distances, showed a significant difference between the two genes. The different patterns of replacement and silent substitutions within Jarid1d and Jarid1c may be a result of evolutionary mechanisms that are particularly strong on the Y chromosome because of its unique properties. These findings are similar to results of previous studies of Y chromosomal genes in these and other mammalian taxa, suggesting that genes on the mammalian Y evolve in a chromosome-specific manner.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Chromosomal sex determination has evolved separately in some plants, fishes, birds, insects, and in mammals (reviewed by Bull 1983). Interestingly, the properties of Y chromosomes are similar in some of the independently evolved instances that have been studied (e.g., Fridolfsson et al. 1998; Steinemann and Steinemann 1998; Tucker et al. 2003 ; Ceplitis and Ellegren 2004; Zhang 2004) . One model of sex chromosome evolution, derived mainly from studies in Drosophila, is that chromosomal sex determination may evolve from genic sex determination by the gradual accumulation of sex-specific genes in the region of the sex-determining gene, where they would be more likely to be inherited by offspring of the correct sex. Suppression of recombination may keep these genes that are beneficial to males from being inherited by females but also allow divergence and erosion of the sex-specific genes (reviewed by Rice 1996) .",
+                "cite_spans": [
+                    {
+                        "start": 269,
+                        "end": 293,
+                        "text": "Fridolfsson et al. 1998;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 294,
+                        "end": 325,
+                        "text": "Steinemann and Steinemann 1998;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 326,
+                        "end": 344,
+                        "text": "Tucker et al. 2003",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 375,
+                        "end": 386,
+                        "text": "Zhang 2004)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 911,
+                        "end": 921,
+                        "text": "Rice 1996)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "While much is known about the evolution of the Y in Drosophila, less is known about other organisms. For example, the dioecious plant Silene latifolia appears to differ from Drosophila and mammals because its Y chromosome may not have experienced degeneration and its X lacks dosage compensation (reviewed by Negrutiu et al. 2001 ). Because independently evolved Y chromosomes may behave differently from the model, it is useful to study the evolution of the Y chromosome in depth in other organisms, including mammals.",
+                "cite_spans": [
+                    {
+                        "start": 309,
+                        "end": 329,
+                        "text": "Negrutiu et al. 2001",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Distinguishable X and Y chromosomes that evolved from a homologous chromosome pair are found in all mammalian groups including eutherians (placental mammals), monotremes, and marsupials (reviewed by Toder et al. 2000) . Sex chromosomes have characteristics that may cause their genes to evolve with different rates and patterns from genes on other chromosomes. Two of these characteristics are that most of the Y is completely genetically linked and it has a small effective population size, each of which may interfere with natural selection through several mechanisms (recently reviewed by Rice 1996; Charlesworth and Charlesworth 2000; Lahn et al. 2001; Tucker et al. 2003) . We are interested in determining if genes on the Y chromosome show patterns of evolution consistent with an interference with natural selection, which causes purifying selection to be inefficient, or if these genes evolve in a locus-specific manner related to their particular functions.",
+                "cite_spans": [
+                    {
+                        "start": 199,
+                        "end": 217,
+                        "text": "Toder et al. 2000)",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 657,
+                        "end": 676,
+                        "text": "Tucker et al. 2003)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "If features of the Y chromosome interfere with purifying selection, the ratio of nonsynonymous changes per nonsynonymous site to synonymous changes per synonymous site (dN/dS) should be less than one, but more than the baseline dN/dS ratio caused by purifying selection. The gene under study may be compared to a similar gene that is thought to undergo purifying selection. Some Y chromosomal genes have ''gametologs'' which are related genes found on the X chromosome, with similarity retained from before recombination between the X and Y chromosomes ceased (Garcia-Moreno and Mindell 2000). If purifying selection is interfered with by the properties of the Y, the dN/dS of a Y chromosomal gene is expected to be higher than the dN/dS of its X chromosomal gametolog.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Recently, pairwise comparisons of gametologs were made between human and mouse, and human and macaque (Wyckoff et al. 2002) . Indeed, the dN/ dS of the Y chromosomal genes was higher than the dN/dS of their X chromosomal gametologs. It was concluded that either the Y chromosome genes are continuing to evolve new functions or that a Y chromosomal effect is causing more nonsynonymous substitutions. These results are intriguing, but it is also valuable to examine this question in a finerscale phylogenetic context in which less time has elapsed and fewer multiple hits have occurred. We chose to examine gametologous gene pairs within the mouse genus Mus. One advantage of using this particular system is that two Y chromosomal genes (Sry and Zfy) have already been examined in these species. However, each of these genes may have evolved as it did because of factors unrelated to their positions on the Y chromosome (Tucker and Lundrigan 1993; Jansa et al. 2003; Tucker et al. 2003) , compelling further study.",
+                "cite_spans": [
+                    {
+                        "start": 102,
+                        "end": 123,
+                        "text": "(Wyckoff et al. 2002)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 919,
+                        "end": 946,
+                        "text": "(Tucker and Lundrigan 1993;",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 947,
+                        "end": 965,
+                        "text": "Jansa et al. 2003;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 966,
+                        "end": 985,
+                        "text": "Tucker et al. 2003)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Here we examine gametologs that are not as likely to be affected by complicating factors. We sequenced and analyzed Jarid1d from the Y chromosome [formerly Smcy, Selected mouse cDNA on Y (Agulnik et al. 1994a) ] and Jarid1c from the X chromosome [formerly Smcx (Agulnik et al. 1994b) ] in species of the mouse genus Mus (family Muridae, subfamily Murinae). These genes are members of the highly conserved Jarid subfamily (reviewed by Patsialou et al. 2005) and were renamed to reflect that relationship in January 2004 (http://www.informatics.jax.org). Jarid1c partially escapes X inactivation in mice (Wu et al. 1994b; Sheardown et al. 1996) and in humans (Wu et al. 1994a) . Jarid1c also appears to escape X inactivation in other primates, horses, dogs, whales, and elephants (Jegalian and Page 1998), al-though more Jarid1c mRNA is expressed in female mouse brains than Jarid1c and Jarid1d combined in male mouse brains (Xu et al. 2002) . In gametolog pairs in which the X-linked gene escapes inactivation, males may be constrained to have exactly one functionally equivalent gene on the Y chromosome to maintain an equivalent gene dosage (reviewed by Lahn and Page 1997; Disteche 1999). Jarid1d and Jarid1c were chosen for this study because the genes are similar in expression patterns (Agulnik et al. 1994a ) and seem likely to share functions (Agulnik et al. 1999 ; but see Jensen et al. 2005). Thus, differences between them are more likely to be due to their chromosomal positions than differences between other gene pairs that have very different expression patterns or functions. We report a Y chromosomal effect on the evolution of Jarid1d when compared to Jarid1c in the mammalian genus Mus.",
+                "cite_spans": [
+                    {
+                        "start": 187,
+                        "end": 209,
+                        "text": "(Agulnik et al. 1994a)",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 261,
+                        "end": 283,
+                        "text": "(Agulnik et al. 1994b)",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 602,
+                        "end": 619,
+                        "text": "(Wu et al. 1994b;",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 620,
+                        "end": 642,
+                        "text": "Sheardown et al. 1996)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 657,
+                        "end": 674,
+                        "text": "(Wu et al. 1994a)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 923,
+                        "end": 939,
+                        "text": "(Xu et al. 2002)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1291,
+                        "end": 1312,
+                        "text": "(Agulnik et al. 1994a",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 1350,
+                        "end": 1370,
+                        "text": "(Agulnik et al. 1999",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Species. Thirteen taxa, including some of the most commonly studied species of the genus Mus, were used (see Lundrigan et al. 2002 for collecting information). The genera Mus, Mastomys, and Hylomyscus, are members of the rodent family Muridae and the subfamily Murinae, the Old-world Mice and Rats. Many of the same species used in the study of rodent Sry (Tucker and Lundrigan 1993) were used here to make the results more comparable. The sister group to Mus is unknown, although there is evidence from DNA hybridization and nuclear DNA sequence for a sister group relationship with the Praomys group (Catzeflis and Denys 1992; Chevret, et al. 1994; Jansa and Weksler 2004). Members of the Praomys group (Hylomyscus alleni and Mastomys hildebrandtii) were used as outgroups in rooted trees in this study.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and methods",
+                "sec_num": null
+            },
+            {
+                "text": "Amplification of the target sequences. In mice, Jarid1d and Jarid1c share the same genomic structure of 26 exons (Agulnik et al. 1999) . Jarid1d is present in marsupials, indicating that Jarid1c and Jarid1d diverged at least 120 million years ago (Agulnik et al. 1994a). Jarid1d encodes several of the H-Y antigens that can cause the rejection of male-donor tissue transplants in female recipients (Scott et al. 1995; Wang et al. 1995) . Both Jarid1d and Jarid1c are members of the jumonji family of transcription factors (Takeuchi et al. 1995) and Jarid1c mutations are related to X-linked mental retardation in humans (Jensen et al. 2005).",
+                "cite_spans": [
+                    {
+                        "start": 113,
+                        "end": 134,
+                        "text": "(Agulnik et al. 1999)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 398,
+                        "end": 417,
+                        "text": "(Scott et al. 1995;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 418,
+                        "end": 435,
+                        "text": "Wang et al. 1995)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 522,
+                        "end": 544,
+                        "text": "(Takeuchi et al. 1995)",
+                        "ref_id": "BIBREF3"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and methods",
+                "sec_num": null
+            },
+            {
+                "text": "The polymerase chain reaction (PCR) (Saiki et al. 1985) was used as described, with primers developed specifically for these species (Sandstedt and Tucker 2004), to amplify a fragment that includes exons 23 and 24, a portion of exon 25, and introns 23, 24 and 25 from both genes in all taxa. All sequences were deposited in GenBank (accession No. #AY260478-AY260503).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and methods",
+                "sec_num": null
+            },
+            {
+                "text": "Phylogeny. Jarid1d and Jarid1c nucleotide sequences were aligned using Clustal X (Thompson et al. 1997 ) and adjusted by hand using amino acid translations as a guide with the program MacClade 4.0 (Maddison and Maddison 2000). Unambiguous alignments of exon sequences were obtained for each gene separately using Clustal X (Thompson et al. 1997) . Although there were 687 bp in this region of Jarid1d and only 660 in Jarid1c, their comparison required the same length sequence for both genes. To produce equally long sequences, X and Y sequences were aligned together using Clustal X. These alignments were adjusted by hand using a conceptual translation in MacClade as a guide. Characters that aligned with gaps were removed, totaling 30 bases from Jarid1d and 3 from Jarid1c. Maximum parsimony as implemented in PAUP* v4.0b10 (Swofford 2002) was used to build unrooted gene trees from the Jarid1c and Jarid1d nucleotide sequences. The branch-and-bound option was used. Characters were equally weighted and unordered.Jarid1c and Jarid1d intron and exon data were also combined with sequences from four other nuclear genes in parsimony and maximum likelihood analyses as described (Tucker et al. 2005 ).",
+                "cite_spans": [
+                    {
+                        "start": 81,
+                        "end": 102,
+                        "text": "(Thompson et al. 1997",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 323,
+                        "end": 345,
+                        "text": "(Thompson et al. 1997)",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 1181,
+                        "end": 1200,
+                        "text": "(Tucker et al. 2005",
+                        "ref_id": "BIBREF8"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Silent and replacement substitutions. Because of the small number of substitutions in the sequences studied, a method that is particularly appropriate for small samples was used . For this analysis, the uncorrected numbers of replacement and silent substitutions were counted along the branches of the most parsimonious nuclear tree, with its root removed. Ancestral sequences were reconstructed using the program Anc-Gene Zhang et al. 1998; Zhang 2004 ). This program first determines the ancestral amino acid sequences using a distance-based Bayesian method, and then reconstructs the nucleotide sequence at each node. Both the Poisson model and the JTT empirical model of amino acid substitution under the extended parsimony mode of Anc-Gene were used. The resulting ancestral sequences were compared using the Nei and Gojobori method (Nei and Gojobori 1986) implemented in MEGA 2.1 (Kumar et al. 2001). Replacement and silent changes were mapped along each branch on the nuclear tree topology, separately for Jarid1c and Jarid1d. The numbers of replacement and silent changes per branch for each gene were added together, then compared using Fisher\u00d5s exact test, which is appropriate for small samples, implemented in the Fisher program . Similar analyses were done with parsimony ancestral reconstructions using the ACCTRAN and DELTRAN methods of ancestral reconstruction in PAUP* v4.0b10 (Swofford 2002).",
+                "cite_spans": [
+                    {
+                        "start": 423,
+                        "end": 441,
+                        "text": "Zhang et al. 1998;",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 442,
+                        "end": 452,
+                        "text": "Zhang 2004",
+                        "ref_id": "BIBREF15"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "The number of potential sites for a replacement change, N, and the number of potential sites for a silent change, S, were calculated using the Nei and Gojobori method (Nei and Gojobori 1986) implemented in MEGA 2.1 (Kumar et al. 2001 ). N and S were each averaged over the branches of the Jarid1d and Jarid1c trees, separately. The dN/dS of each gene was calculated using the changes counted using Anc-gene and the averages of N and S.",
+                "cite_spans": [
+                    {
+                        "start": 215,
+                        "end": 233,
+                        "text": "(Kumar et al. 2001",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Phylogenetic analyses. Eight unrooted equally most parsimonious trees were recovered from the branchand-bound search of 26 OTUs (13 taxa, Jarid1d and Jarid1c of each). As expected, two distinct clades, one made up of Jarid1d genes and one made up of Jarid1c genes, show that these two loci have evolved separately since before the origins of the species examined here (Fig. 1 ). This topology also suggests that if gene conversion has occurred, it has not included this portion of these genes.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 368,
+                        "end": 375,
+                        "text": "(Fig. 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "The tree topology built using only Jarid1d and Jarid1c is unresolved in several clades. To obtain a well-supported and completely resolved topology for use in ancestral reconstruction, maximum parsimony and maximum likelihood outgroup-rooted trees were built using sequences from six nuclear genes including Jarid1d and Jarid1c (Tucker et al. 2005 ). These trees are identical to each other, but this topology differs from the Jarid1d-and Jarid1cspecific tree from the first analysis in two ways. The branches that were previously unresolved are now resolved, and the relationship of Hylomyscus and Mastomys is changed (Fig. 2 ). This tree topology was converted to an unrooted topology for the analysis. Numbers of replacement and silent substitutions within the genus Mus were counted on each reconstructed tree. Using the ACCTRAN reconstructions, Jarid1c has 5 replacement and 14 silent changes. Jarid1d has 22 replacement and 17 silent changes ( Table 1 ). The exact numbers of substitutions differ with the different methods of reconstructing ancestral sequences but in each case the results are similar: There are more replacement substitutions relative to silent substitutions in Jar-id1d than in Jarid1c. For each reconstruction method, Fisher\u00d5s exact test shows a significant difference in the numbers of synonymous and nonsynonymous substitutions between Jarid1d and Jarid1c (p < 0.05) (Table 1) . When replacement and silent substitutions of the most distantly related taxa, Hylomyscus and Mastomys, are included with those of Mus, the difference is significant only when the DELTRAN reconstructions are used. This disparity in results can be traced to the long branch between the Hylomyscus/Mastomys clade and the Mus clade, where uncorrected distances may not be appropriate measures. (Agulnik et al. 1994a, b) . Neither Jarid1c nor Jarid1d has diverged rapidly. Along some branches of the Mus tree (Fig. 2) , there are no substitutions in either gene. Although this did not substantially affect our conclusions, it does indicate that tests designed for less-diverged sequences are preferable. One such test showed that Jarid1d has significantly more replacement substitutions than Jarid1c has. This result is consistent with a three-taxon study of Jar-id1c/d in human, mouse, and horse, in which the median dN/dS was 0.17 for Jarid1d and 0.02 for Jar-id1c (Agulnik et al. 1997) . Though the exact numbers reported by Agulnik et al. (1997) differ from those that we find using other methods, this indicates that there are relatively more replacement substitutions in Jarid1d in both closely related and distantly related taxa.",
+                "cite_spans": [
+                    {
+                        "start": 328,
+                        "end": 347,
+                        "text": "(Tucker et al. 2005",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 1798,
+                        "end": 1823,
+                        "text": "(Agulnik et al. 1994a, b)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2370,
+                        "end": 2391,
+                        "text": "(Agulnik et al. 1997)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2431,
+                        "end": 2452,
+                        "text": "Agulnik et al. (1997)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 619,
+                        "end": 626,
+                        "text": "(Fig. 2",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 950,
+                        "end": 957,
+                        "text": "Table 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1396,
+                        "end": 1405,
+                        "text": "(Table 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1912,
+                        "end": 1920,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Although the dN/dS of Jarid1d on the Y chromosome is higher than the dN/dS of Jarid1c on the X chromosome (0.40 and 0.28, respectively, when calculated using the Poisson method), they are similar relative to other X-Y gene pairs. This is not necessarily what would be expected based on the length of time that Jarid1d and Jarid1c have been diverging from one another. The mammalian X and Y likely diverged from each other in a series of steps, separated by time. The present-day signatures of these steps are strata, defined by the synonymous distance between pairs of gametologs on the X and Y (Lahn and Page 1999). The gene pairs Sox3/Sry, Zfx/y, and Jarid1c/d diverged at different times as shown by the X chromosomal strata of the X chromosomal members of the pairs (Lahn and Page 1999; Sandstedt and Tucker 2004). Since Jarid1c is either in X chromosomal stratum 1 or 2, it has been diverging from Jarid1d longer than Zfx [dN/dS = 0.04 (Tucker et al. 2003) ], a stratum 3 gene, has been diverging from Zfy [dN/dS = 0.38 (Tucker et al. 2003) ]. The relatively subtle difference between Jarid1d\u00d5s and Jarid1c\u00d5s dN/ dS may be due to greater functional constraints on Jarid1d than on other Y chromosomal genes or to lesser functional constraint on Jarid1c than on other X chromosomal genes (in the part of the gene studied) ( Table 2 ). Data from Wyckoff et al. (2002) also show that the difference in dN/dS between Jarid1d and Jarid1c is smaller than the difference between several other X-Y gene pairs in pairwise comparisons of mouse genes with human genes. Another implication of the position of these gene pairs in strata, which diverged at different times, is that the elevated dN/dS of Y chromosomal genes cannot be completely attributed to positive selection for new functions. If Y chromosomal genes gained new functions soon after they stopped recombining with their X chromosomal gametologs, they would have many nonsynonymous changes during that time, but few later after their new functions were obtained (Wyckoff et al. 2002) . That pattern has not been seen in mouse X-Y gene pairs from strata 1 through 3; instead a high nonsynonymous substitution rate continues along recent branches within the genus Mus, not just in ancestral portions of the mammalian tree (current study; Tucker and Lundrigan 1993; Tucker et al. 2003) .",
+                "cite_spans": [
+                    {
+                        "start": 941,
+                        "end": 961,
+                        "text": "(Tucker et al. 2003)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 1025,
+                        "end": 1045,
+                        "text": "(Tucker et al. 2003)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 1348,
+                        "end": 1369,
+                        "text": "Wyckoff et al. (2002)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 2019,
+                        "end": 2040,
+                        "text": "(Wyckoff et al. 2002)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 2320,
+                        "end": 2339,
+                        "text": "Tucker et al. 2003)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1327,
+                        "end": 1334,
+                        "text": "Table 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Sequence from the autosomal locus Jarid1b from Mus musculus corresponding to the sequenced region of Jarid1c and Jarid1d is available in GenBank (accession No. BC048180). The sequence of Mus musculus Jarid1a was not alignable with this region. About 120 amino acids could be aligned with confidence between the Jarid1b/c/d genes. There are no nonsynonymous changes in Jarid1c in this region and five nonsynonymous changes in Jarid1d. No nonsynonymous substitutions of Jarid1d change amino acids that are conserved in both Jarid1b and Jarid1c. This may indicate that Jarid1d remains evolutionarily constrained by specific, important codons, perhaps because of a need for dosage compensation relative to Jarid1c.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Genes that survive on the Y chromosome either have acquired critical male-specific functions or are required for equivalent dosage relative to their X-linked gametologs. Jarid1d is functionally constrained and ubiquitously expressed, while its Xlinked gametolog Jarid1c escapes X inactivation to some degree in many tissues. We find that there are more nonsynonymous changes in Jarid1d than in Jaird1c, but it is a subtle difference relative to other X/Y gene pairs. Together these factors suggest that dosage requirements have had a greater impact on the evolution of Jarid1d than male-specific functions.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "While it is possible that non-Y-specific effects may be responsible for the pattern of evolution of Jarid1d, the results of this study, combined with the results of studies of other Y-linked genes in these same taxa (Tucker and Lundrigan 1993; Jansa et al. 2003; Tucker et al. 2003) , strongly suggest that there is a Y chromosomal effect on gene evolution in the genus Mus. The Y chromosomal effect occurs for genes with different expression patterns, found in one or many copies. The X chromosomal gametologs of these genes differ in their X inactivation patterns and their strata. Taken together, these observations suggest that (1) a higher dN/dS is a constant feature of Y chromosomal gene evolution, which is not limited to a burst of nonsynonymous change soon after X-Y gene pair divergence and (2) it occurs in dissimilar genes. The results reported herein were obtained from gametologs assumed to be functionally equivalent, using closely related taxa, and in a well-supported phylogenetic context. Indeed, they are in accord with and strengthen the results of a pairwise comparison of six X-Y gametologs in distantly related mammals in which the dN/dS was always higher in the Y chromosomal gene (Wyckoff et al. 2002) . ",
+                "cite_spans": [
+                    {
+                        "start": 216,
+                        "end": 243,
+                        "text": "(Tucker and Lundrigan 1993;",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 244,
+                        "end": 262,
+                        "text": "Jansa et al. 2003;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 263,
+                        "end": 282,
+                        "text": "Tucker et al. 2003)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 1206,
+                        "end": 1227,
+                        "text": "(Wyckoff et al. 2002)",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "DOI: 10.1007/s00335-005-0050-y Volume 17, 14\u00c021 (2006) \u00d3 Springer Science+Business Media, Inc. 2006",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "S.A. SANDSTEDT AND P.K. TUCKER: JARID1C/D EVOLUTION IN MUS",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "The authors thank Jianzhi Zhang for his comments on an earlier draft of this work. This work was supported by NIH grant EY12994 and NSF grant DEB9209950.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgments",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "A mouse Y-chromosome gene encoded by a region essential for spermatogenesis and expression of male-specific minor histocompatibility antigens",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Agulnik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Mitchell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lerner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Woods",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Bishop",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Hum Mol Genet",
+                "volume": "3",
+                "issue": "",
+                "pages": "873--878",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Agulnik AI, Mitchell MJ, Lerner JL, Woods DR, Bishop CE (1994a) A mouse Y-chromosome gene encoded by a region essential for spermatogenesis and expression of male-specific minor histocompatibility antigens. Hum Mol Genet 3, 873\u00c0878",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "A novel X gene with a widely transcribed Y-linked homologue escapes X-inactivation in mouse and human",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Agulnik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Mitchell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M-G",
+                        "middle": [],
+                        "last": "Mattei",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Borsani",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Avner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Hum Mol Genet",
+                "volume": "3",
+                "issue": "",
+                "pages": "879--884",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Agulnik AI, Mitchell MJ, Mattei M-G, Borsani G, Avner PA, et al. (1994b) A novel X gene with a widely transcribed Y-linked homologue escapes X-inactiva- tion in mouse and human. Hum Mol Genet 3, 879\u00c0884",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Solovyev VV (1997) Analysis of mutation rates in the",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Agulnik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Bishop",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lerner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Agulnik",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Agulnik AI, Bishop CE, Lerner JL, Agulnik SI, Solo- vyev VV (1997) Analysis of mutation rates in the",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Gene trap capture of a novel mouse gene, Jumonji, required for neural-tube formation",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Takeuchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Yamazaki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Katohfukui",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Tsuchiya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kondo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Genes Devel",
+                "volume": "9",
+                "issue": "",
+                "pages": "1211--1222",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Takeuchi T, Yamazaki Y, Katohfukui Y, Tsuchiya R, Kondo S, et al. (1995) Gene trap capture of a novel mouse gene, Jumonji, required for neural-tube forma- tion. Genes Devel 9, 1211\u00c01222",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "The CLUSTAL X windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Thompson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gibson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Plewniak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Jeanmougin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Higgins",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Nucleic Acids Res",
+                "volume": "25",
+                "issue": "",
+                "pages": "4876--4888",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thompson JD, Gibson TJ, Plewniak F, Jeanmougin F, Higgins DG (1997) The CLUSTAL X windows inter- face: flexible strategies for multiple sequence align- ment aided by quality analysis tools. Nucleic Acids Res 25, 4876\u00c04888",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "The minimal mammalian Y chromosome -the marsupial Y as a model system",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Toder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Wakefield",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Jam",
+                        "middle": [],
+                        "last": "Graves",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Cytogenet Cell Genet",
+                "volume": "91",
+                "issue": "",
+                "pages": "285--292",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Toder R, Wakefield MJ, Graves JAM (2000) The minimal mammalian Y chromosome -the marsupial Y as a model system. Cytogenet Cell Genet 91, 285\u00c0292",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Rapid evolution of the sex determining locus in Old World mice and rats",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Tucker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lundrigan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Nature",
+                "volume": "364",
+                "issue": "",
+                "pages": "715--717",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tucker PK, Lundrigan BL (1993) Rapid evolution of the sex determining locus in Old World mice and rats. Nature 364, 715\u00c0717",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Differential rates of evolution for the ZFY-related zinc finger genes, Zfy, Zfx and Zfa in the mouse genus Mus",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Tucker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Adkins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Rest",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Mol Biol Evol",
+                "volume": "20",
+                "issue": "",
+                "pages": "999--1005",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tucker PK, Adkins RM, Rest JS (2003) Differential rates of evolution for the ZFY-related zinc finger genes, Zfy, Zfx and Zfa in the mouse genus Mus. Mol Biol Evol 20, 999\u00c01005",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Phylogenetic relationships in the subgenus Mus (genus Mus, family Muridae, subfamily Murinae): examining gene trees and species trees",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Tucker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Sandstedt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lundrigan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biol J Linn Soc",
+                "volume": "84",
+                "issue": "",
+                "pages": "653--662",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Tucker PK, Sandstedt SA, Lundrigan BL (2005) Phy- logenetic relationships in the subgenus Mus (genus Mus, family Muridae, subfamily Murinae): examin- ing gene trees and species trees. Biol J Linn Soc 84, 653\u00c0662",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "a male-specific histocompatibility antigen derived from the SMCY protein",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Meadows",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Jmm",
+                        "middle": [],
+                        "last": "Den Haan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Sherman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Chen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Science",
+                "volume": "269",
+                "issue": "",
+                "pages": "1588--1590",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wang W, Meadows LR, den Haan JMM, Sherman NE, Chen Y, et al. (1995) Human H-Y: a male-specific histocompatibility antigen derived from the SMCY protein. Science 269, 1588\u00c01590",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Rapid sequence evolution of the mammalian sexdetermining gene SRY",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Whitfield",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Lovell-Badge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Goodfellow",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Nature",
+                "volume": "364",
+                "issue": "",
+                "pages": "713--715",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "46. Whitfield LS, Lovell-Badge R, Goodfellow PN (1993) Rapid sequence evolution of the mammalian sex- determining gene SRY. Nature 364, 713\u00c0715",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Isolation and characterization of XE169, a novel human gene that escapes X-inactivation",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Wu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Ellison",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Salido",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Yen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Mohandas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Hum Mol Genet",
+                "volume": "3",
+                "issue": "",
+                "pages": "153--160",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wu J, Ellison J, Salido E, Yen P, Mohandas T, et al. (1994a) Isolation and characterization of XE169, a no- vel human gene that escapes X-inactivation. Hum Mol Genet 3, 153\u00c0160",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "The murine Xe169 gene escapes X-inactivation like its human homologue",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Wu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Salido",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Yen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Mohandas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Hhq",
+                        "middle": [],
+                        "last": "Heng",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Nat Genet",
+                "volume": "7",
+                "issue": "",
+                "pages": "491--496",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wu J, Salido EC, Yen PH, Mohandas TK, Heng HHQ, et al. (1994b) The murine Xe169 gene escapes X-inac- tivation like its human homologue. Nat Genet 7, 491\u00c0496",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Molecular evolution of functional genes on the mammalian Y chromosome",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Wyckoff",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C-I",
+                        "middle": [],
+                        "last": "Wu",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Mol Biol Evol",
+                "volume": "19",
+                "issue": "",
+                "pages": "1633--1636",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wyckoff GJ, Li J, Wu C-I (2002) Molecular evolution of functional genes on the mammalian Y chromosome. Mol Biol Evol 19, 1633\u00c01636",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Sex differences in sex chromosome gene expression in mouse brain",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Xu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Burgoyne",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Arnold",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Hum Mol Genet",
+                "volume": "11",
+                "issue": "",
+                "pages": "1409--1419",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Xu J, Burgoyne PS, Arnold AP (2002) Sex differences in sex chromosome gene expression in mouse brain. Hum Mol Genet 11, 1409\u00c01419",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Evolution of DMY, a newly emergent male sex-determination gene of medaka fish",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Genetics",
+                "volume": "166",
+                "issue": "",
+                "pages": "1887--1895",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhang J (2004) Evolution of DMY, a newly emergent male sex-determination gene of medaka fish. Genetics 166, 1887\u00c01895",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Accuracies of ancestral amino acid sequences inferred by the parsimony, likelihood, and distance methods",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "J Mol Evol",
+                "volume": "44",
+                "issue": "",
+                "pages": "139--146",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhang J, Nei M (1997) Accuracies of ancestral amino acid sequences inferred by the parsimony, likelihood, and distance methods. J Mol Evol 44, S139\u00c0S146",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Small-sample tests of episodic adaptive evolution: A case study of primate lysozymes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kumar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Mol Biol Evol",
+                "volume": "14",
+                "issue": "",
+                "pages": "1335--1338",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhang J, Kumar S, Nei M (1997) Small-sample tests of episodic adaptive evolution: A case study of primate lysozymes. Mol Biol Evol 14, 1335\u00c01338",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Positive Darwinian selection after gene duplication in primate ribonuclease genes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Rosenberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "95",
+                "issue": "",
+                "pages": "3708--3713",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhang J, Rosenberg HF, Nei M (1998) Positive Darwin- ian selection after gene duplication in primate ribonu- clease genes. Proc Natl Acad Sci USA 95, 3708\u00c03713",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "JARID1C/D EVOLUTION IN MUS",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A K"
+                        ],
+                        "last": "Sandstedt And P",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Tucker",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "S.A. SANDSTEDT AND P.K. TUCKER: JARID1C/D EVOLUTION IN MUS",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "uris": null,
+                "type_str": "figure",
+                "num": null,
+                "text": "Different methods of ancestral reconstruction using the nuclear gene tree topology (Fig. 2) led to different results. ACCTRAN, DEL-TRAN, and Bayesian-based reconstructions differ in a few sites at most nodes. The results of both types of Bayesian reconstructions, Poisson and JTT, are the same, and each node has a posterior probability of \u2021 0.99 for protein reconstruction \u2022 DNA reconstruction."
+            },
+            "FIGREF1": {
+                "uris": null,
+                "type_str": "figure",
+                "num": null,
+                "text": "Single most parsimonious tree using Jarid1d, Jar-id1c, Sry, B2m, Zp-3, and Tcp-1(Tucker et al. 2005) for the genus Mus. Rooted with outgroups Hylomyscus alleni and Mastomys hildebrandtii. Numbers above the branches are bootstrap values. Numbers below the branches are Jar-id1d n /Jarid1d s : Jarid1c n /Jarid1c s reconstructed using the ACCTRAN method."
+            },
+            "TABREF0": {
+                "content": "<table><tr><td colspan=\"3\">M. spicilegus Smcy</td><td/><td/></tr><tr><td/><td/><td/><td colspan=\"3\">M. macedonicus Smcy</td></tr><tr><td colspan=\"2\">M. spretus Smcy</td><td>98</td><td/><td/></tr><tr><td>M. m. molossinus Smcy</td><td/><td>58</td><td colspan=\"3\">M. cervicolor Smcy M. cookii Smcy</td></tr><tr><td>M. m. castaneus Smcy</td><td>95</td><td>84</td><td/><td colspan=\"2\">M. pahari Smcy Mastomys Smcy</td></tr><tr><td>M. m. musculus Smcy</td><td/><td/><td>98</td><td/></tr><tr><td>M. domesticus Smcy</td><td colspan=\"2\">M. caroli Smcy</td><td colspan=\"2\">100 100</td><td>Hylomyscus Smcy</td></tr><tr><td colspan=\"2\">Mastomys Smcx</td><td colspan=\"2\">81</td><td/><td>Hylomyscus Smcx</td></tr><tr><td/><td/><td colspan=\"2\">92</td><td/></tr><tr><td colspan=\"2\">M. cervicolor Smcx</td><td/><td/><td colspan=\"2\">M. pahari Smcx</td></tr><tr><td colspan=\"2\">M. caroli Smcx</td><td>83</td><td/><td/></tr><tr><td colspan=\"2\">M. cookii Smcx</td><td>85</td><td>62</td><td>86</td><td>M. macedonicus Smcx</td></tr><tr><td>M. domesticus Smcx</td><td/><td>63</td><td/><td/><td>M. spicilegus Smcx</td><td>Fig. 1. Jarid1d/Jarid1c maximum</td></tr><tr><td colspan=\"2\">M. m. molossinus Smcx</td><td>62</td><td/><td/><td>M. spretus Smcx</td><td>parsimony majority rule consensus tree for members of the genus Mus and members of a putative sister</td></tr><tr><td/><td/><td/><td/><td/><td>group, Hylomyscus alleni and</td></tr><tr><td colspan=\"3\">M. m. musculus Smcx</td><td colspan=\"3\">M. m. castaneus Smcx</td><td>Mastomys hildebrandtii. Numbers are bootstrap values.</td></tr></table>",
+                "type_str": "table",
+                "num": null,
+                "text": "Higher-than-average dN/dS are found in the mammalian sex-determining gene Sry(Tucker and Lundrigan 1993;Whitfield et al. 1993; reviewed byO\u00d5Neill and O\u00d5Neill 1999; Jansa et al. 2003), and in Zfy(Tucker et al. 2003). The dN/dS of Sry and Zfy are also higher than the dN/dS of their X chromosomal gametologs, Sox3 and Zfx (Pamilo and Waugh O\u00d5Neill 1997;Wyckoff et al. 2002;Tucker et al. 2003) (Table 2). The results of previous research on Sry and Zfy are compatible with either a Y chromosomal effect on the efficiency of purifying selection or alternate explanations invoking locus-specific effects such as adaptive evolution or relaxed functional constraints(Tucker and Lundrigan 1993;Whitfield et al. 1993; Hurst 1994a, b; Lee et al. 1995;Tucker et al. 2003). If unique properties of the Y chromosome are responsible for the patterns of evolution in Sry and Zfy, a similar pattern should be seen in other Y chromosomal genes, including Jarid1d.However, it is possible that the relatively high dN/dS of Sry and Zfy is a result of natural selection on gene functions that have changed compared with their counterparts on the X chromosome. Generally,"
+            },
+            "TABREF1": {
+                "content": "<table><tr><td/><td/><td colspan=\"2\">Jarid1d</td><td/><td/><td/><td>Jarid1c</td><td/><td/></tr><tr><td>Ancestral reconstruction method</td><td>n a N b</td><td>s c</td><td>S d</td><td colspan=\"2\">dN/dS n</td><td>N</td><td>s</td><td>S</td><td>dN/dS</td><td>Fisher\u00d5s exact test (P) f</td></tr><tr><td>ACCTRAN</td><td colspan=\"4\">22 505.36 17 151.36 0.366</td><td>5</td><td colspan=\"2\">505.64 14</td><td colspan=\"2\">151.36 0.126</td><td>0.03</td></tr><tr><td>DELTRAN Poisson and JTT e</td><td colspan=\"4\">22 505.64 19 151.36 0.347 89 505.45 66 151.39 0.404</td><td colspan=\"5\">16.5 485.84 41.5 26.7 485.66 43.25 171.34 0.283 141.16 0.132</td><td>0.01 0.01</td></tr></table>",
+                "type_str": "table",
+                "num": null,
+                "text": "Comparison of replacement and silent substitutions found in Jarid1d and Jarid1cTest of significance of difference in number of nonsynonymous (Jarid1d n , Jarid1c n ) and synonymous (Jarid1d s , Jarid1c s ) substitutions. Comparison of dN/dS of gametologous gene pairs in the genus Mus"
+            },
+            "TABREF2": {
+                "content": "<table><tr><td/><td>remodeling, cause X-linked mental retardation. Am J</td></tr><tr><td/><td>Hum Genet 76, 227\u00c0236</td></tr><tr><td>Mamm Genome 10, 5. Bull JJ (1983) Evolution of sex determining mecha-926\u00c0929 nisms (Menlo Park, CA: Benjamin/Cummings) 6. Catzeflis FM, Denys C (1992) The African Nannomys (Muridae)-an early offshoot from the Mus line-age-evidence from scnDNA hybridization experi-</td><td>20. Nat Rev Genet</td></tr><tr><td>ments and compared morphology. Isr J Zool 38, 219\u00c0231</td><td>2, 207\u00c0216</td></tr><tr><td>7. Ceplitis H, Ellegren H (2004) Adaptive molecular</td><td>24. Lee YH, Ota T, Vacquier VD (1995) Positive selection</td></tr><tr><td>evolution of HINTW, a female-specific gene in birds.</td><td>is a general phenomenon in the evolution of abalone</td></tr><tr><td>Mol Biol Evol 21, 249\u00c0254</td><td>sperm lysin. Mol Biol Evol 12, 231\u00c0238</td></tr><tr><td>8. Charlesworth B, Charlesworth D (2000) The degener-</td><td>25. Lundrigan BL, Jansa SA, Tucker PK (2002) Phyloge-</td></tr><tr><td>ation of Y chromosomes. Philos Trans R Soc Lond B</td><td>netic relationships in the genus Mus, based on</td></tr><tr><td>Biol Sci 355, 1563\u00c01572</td><td>maternally, paternally, and biparentally inherited</td></tr><tr><td>9. Chevret P, Granjon L, Duplantier JM, Denys C, Cat-</td><td>characters. Syst Biol 51, 410\u00c0431</td></tr><tr><td>zeflis FM (1994) Molecular phylogeny of the Praomys</td><td>26. Maddison D, Maddison W (2000) MacClade 4: Analy-</td></tr><tr><td>complex (Rodentia, Murinae)-a study based on DNA/</td><td>sis of Phylogeny and Character Evolution (Sunderland,</td></tr><tr><td>DNA hybridization experiments. Zool J Linn Soc 112,</td><td>MA: Sinauer Associates)</td></tr><tr><td>425\u00c0442</td><td>27. Negrutiu I, Vyskot B, Barbacar N, Georgiev S, Moneger</td></tr><tr><td>10. Disteche CM (1999) Escapees on the X chromosome.</td><td>F (2001)</td></tr><tr><td>Proc Natl Acad Sci USA 96, 14180\u00c014182</td><td/></tr><tr><td>11. Duret L, Mouchiroud D (2000) Determinants of sub-</td><td/></tr><tr><td>stitution rates in mammalian genes: expression pat-</td><td/></tr><tr><td>tern affects selection intensity but not mutation rate.</td><td/></tr><tr><td>Mol Biol Evol 17, 68\u00c074</td><td/></tr><tr><td>12. Fridolfsson A-K, Cheng H, Copeland NG, Jenkins NA,</td><td/></tr><tr><td>Liu H-C, et al. (1998) Evolution of the avian sex</td><td/></tr><tr><td>chromosomes from an ancestral pair of autosomes.</td><td/></tr><tr><td>Proc Natl Acad Sci USA 95, 8147\u00c08152</td><td/></tr><tr><td>13. Garcia-Moreno J, Mindell DP (2000) Rooting a phy-</td><td/></tr><tr><td>logeny with homologous genes on opposite sex chro-</td><td/></tr><tr><td>mosomes (gametologs): a case study using avian CHD.</td><td/></tr><tr><td>Mol Biol Evol 17, 1826\u00c01832</td><td/></tr><tr><td>14. Hurst LD (1994a) Embryonic growth and the evolution</td><td/></tr><tr><td>of the mammalian Y chromosome I.: The Y as an</td><td/></tr><tr><td>attractor for selfish growth factors. Heredity 73,</td><td/></tr><tr><td>223\u00c0232</td><td/></tr><tr><td>15. Hurst LD (1994b) Embryonic growth and the evolution</td><td/></tr><tr><td>of the mammalian Y chromosome II: Suppression of</td><td/></tr><tr><td>the selfish Y-linked growth factors may explain escape</td><td/></tr><tr><td>from X-inactivation and rapid evolution of Sry.</td><td/></tr><tr><td>Heredity 73, 233\u00c0243</td><td/></tr><tr><td>16. Jansa SA, Lundrigan BL, Tucker PK (2003) Tests for</td><td/></tr><tr><td>positive selection on immune and reproductive genes</td><td/></tr><tr><td>in closely related species of the murine genus Mus. J</td><td/></tr><tr><td>Mol Evol 56, 294\u00c0307</td><td/></tr><tr><td>17. Jansa SA, Weksler M (2004) Phylogeny of muroid ro-</td><td/></tr><tr><td>dents: relationships within and among major lineages</td><td/></tr><tr><td>as determined by IRBP gene sequences. Mol Phyloge-</td><td/></tr><tr><td>net Evol 31, 256\u00c0276</td><td/></tr><tr><td>18. Jegalian K, Page DC (1998) A proposed path by which</td><td/></tr><tr><td>genes common to mammalian X and Y chromosomes</td><td/></tr><tr><td>evolve to become X inactivated. Nature 394, 776\u00c0780</td><td/></tr><tr><td>19. Jensen LR, Amende M, Gurok U, Moser B, Gimmel V,</td><td/></tr><tr><td>et al. (2005) Mutations in the JARID1C gene, which is</td><td/></tr><tr><td>involved in transcriptional regulation and chromatin</td><td/></tr></table>",
+                "type_str": "table",
+                "num": null,
+                "text": "S.A. SANDSTEDT AND P.K. TUCKER: JARID1C/D EVOLUTION IN MUS SMCY/SMCX genes shows that mammalian evolution is male driven. Mamm Genome 8, 134\u00c0138 4. Agulnik AI, Longepied G, Ty MT, Bishop CE, Mitchell M (1999) Mouse H-Y encoding Smcy gene and its X chromosomal homolog Smcx. Kumar S, Tamura Y, Jakobsen IB, Nei M (2001) MEGA 2: Molecular evolutionary genetics analysis software. Bioinformatics 17, 1244\u00c01245 21. Lahn BT, Page DC (1997) Functional coherence of the human Y-chromosome. Science 278, 675\u00c0680 22. Lahn BT, Page DC (1999) Four evolutionary strata on the human X chromosome. Science 286, 964\u00c0967 23. Lahn BT, Pearson NM, Jegalian K (2001) The human Y chromosome, in the light of evolution. Dioecious plants. A key to the early events of sex chromosome evolution. Plant Physiol 127, 1418\u00c01424 28. Nei M, Gojobori J (1986) Simple methods for estimating the number of synonymous and nonsynonymous nucleotide substitutions. Mol Biol Evol 3, 418\u00c0426 29. O\u00d5Neill MJ, O\u00d5Neill RJW (1999) Whatever happened to SRY? Cell Mol Life Sci 56, 883\u00c0893 30. Pamilo P, Waugh O\u00d5Neill RJ (1997) Evolution of the Sry genes. Mol Biol Evol 14, 49\u00c055 31. Patsialou A, Wilsker D, Moran E (2005) DNA-binding properties of ARID family proteins. Nucleic Acids Res 33, 66\u00c080 32. Rice WR (1996) Evolution of the Y sex chromosome in animals. BioScience 46, 331\u00c0343 33. Saiki RK, Scharf S, Faloona F, Mullis KB, Horn GT, et al. (1985) Enzymatic amplification of b-globin genomic sequences and restriction site analysis for diagnosis of sickle cell anemia. Science 230, 1350\u00c01254 34. Sandstedt SA, Tucker PK (2004) Evolutionary strata on the mouse X chromosome correspond to strata on the human X chromosome. Genome Res 14, 267\u00c0272 35. Scott DM, Ehrmann IE, Ellis PS, Agulnik AI, Bishop CE, et al. (1995) Identification of a mouse male-specific transplantation antigen, H-Y. Nature 376, 695\u00c0698 36. Sheardown S, Norris D, Fisher A, Brockdorff N (1996) The mouse Smcx gene exhibits developmental and tissue specific variation in degree of escape from X inactivation. Hum Mol Genet 5, 1355\u00c01360 37. Steinemann M, Steinemann S (1998) Enigma of Y chromosome degeneration: neo-Y and neo-X chromosomes of Drosophila miranda a model for sex chromosome evolution. Genetica 102\u00c0103, 409\u00c0420 38. Swofford DL (2002) PAUP* Phylogenetic Analysis Using Parsimony (* and Other Methods) (Sunderland,"
+            }
+        }
+    }
+}

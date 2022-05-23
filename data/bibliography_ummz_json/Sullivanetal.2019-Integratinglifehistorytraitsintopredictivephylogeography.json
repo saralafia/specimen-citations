@@ -1,0 +1,3323 @@
+{
+    "paper_id": "Sullivanetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:33:11.839594Z"
+    },
+    "title": "Integrating life history traits into predictive phylogeography",
+    "authors": [
+        {
+            "first": "Jack",
+            "middle": [],
+            "last": "Sullivan",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Idaho",
+                "location": {
+                    "settlement": "Moscow",
+                    "region": "Idaho"
+                }
+            },
+            "email": "jacks@uidaho.edu"
+        },
+        {
+            "first": "Megan",
+            "middle": [
+                "L"
+            ],
+            "last": "Smith",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "The Ohio State University",
+                "location": {
+                    "settlement": "Columbus",
+                    "region": "Ohio"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Anah\u00ed",
+            "middle": [],
+            "last": "Esp\u00edndola",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Idaho",
+                "location": {
+                    "settlement": "Moscow",
+                    "region": "Idaho"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Megan",
+            "middle": [],
+            "last": "Ruffley",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Idaho",
+                "location": {
+                    "settlement": "Moscow",
+                    "region": "Idaho"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "|",
+            "middle": [
+                "Andrew"
+            ],
+            "last": "Rankin",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Idaho",
+                "location": {
+                    "settlement": "Moscow",
+                    "region": "Idaho"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "David",
+            "middle": [],
+            "last": "Tank",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Idaho",
+                "location": {
+                    "settlement": "Moscow",
+                    "region": "Idaho"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Bryan",
+            "middle": [],
+            "last": "Carstens",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "The Ohio State University",
+                "location": {
+                    "settlement": "Columbus",
+                    "region": "Ohio"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Predictive phylogeography seeks to aggregate genetic, environmental and taxonomic data from multiple species in order to make predictions about unsampled taxa using machine-learning techniques such as Random Forests. To date, organismal trait data have infrequently been incorporated into predictive frameworks due to difficulties inherent to the scoring of trait data across a taxonomically broad set of taxa. We refine predictive frameworks from two North American systems, the inland temperate rainforests of the Pacific Northwest and the Southwestern Arid Lands (SWAL), by incorporating a number of organismal trait variables. Our results indicate that incorporating life history traits as predictor variables improves the performance of the supervised machine-learning approach to predictive phylogeography, especially for the SWAL system, in which predictions made from only taxonomic and climate variables meets only moderate success. In particular, traits related to reproduction (e.g., reproductive mode; clutch size) and trophic level appear to be particularly informative to the predictive framework. Predictive frameworks offer an important mechanism for integration of organismal trait, environmental data, and genetic data in phylogeographic studies.",
+    "pdf_parse": {
+        "paper_id": "Sullivanetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Predictive phylogeography seeks to aggregate genetic, environmental and taxonomic data from multiple species in order to make predictions about unsampled taxa using machine-learning techniques such as Random Forests. To date, organismal trait data have infrequently been incorporated into predictive frameworks due to difficulties inherent to the scoring of trait data across a taxonomically broad set of taxa. We refine predictive frameworks from two North American systems, the inland temperate rainforests of the Pacific Northwest and the Southwestern Arid Lands (SWAL), by incorporating a number of organismal trait variables. Our results indicate that incorporating life history traits as predictor variables improves the performance of the supervised machine-learning approach to predictive phylogeography, especially for the SWAL system, in which predictions made from only taxonomic and climate variables meets only moderate success. In particular, traits related to reproduction (e.g., reproductive mode; clutch size) and trophic level appear to be particularly informative to the predictive framework. Predictive frameworks offer an important mechanism for integration of organismal trait, environmental data, and genetic data in phylogeographic studies.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "The role of geography in the generation of biological diversity has been central to the development of evolutionary theory, including Darwin's focus on the Galapagos Islands and Wallace's studies of the Sahul and Sunda Shelves. Comparative phylogeography (e.g., Bermingham & Avise, 1986) developed as a modern manifestation of this interest and was the focus of a recent colloquium (Avise, Bowen, & Ayala, 2016 ) that addressed the current limitations, and future prospects of the discipline. Several papers that emerged from that colloquium issued a call for the development of trait-based approaches for phylogeography to move forward (e.g., Papadopoulou & Knowles, 2016; Riddle, 2016; Zamudio, Bell, & Mason, 2016) , echoing earlier studies that integrated traits into phylogeography (e.g., Paz, Ib\u00e1\u00f1ez, Lips, & Crawford, 2015) .",
+                "cite_spans": [
+                    {
+                        "start": 262,
+                        "end": 287,
+                        "text": "Bermingham & Avise, 1986)",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 382,
+                        "end": 410,
+                        "text": "(Avise, Bowen, & Ayala, 2016",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 644,
+                        "end": 673,
+                        "text": "Papadopoulou & Knowles, 2016;",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 674,
+                        "end": 687,
+                        "text": "Riddle, 2016;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 688,
+                        "end": 717,
+                        "text": "Zamudio, Bell, & Mason, 2016)",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 794,
+                        "end": 830,
+                        "text": "Paz, Ib\u00e1\u00f1ez, Lips, & Crawford, 2015)",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| INTRODUC TI ON",
+                "sec_num": "1"
+            },
+            {
+                "text": "Concurrent with this colloquium, Esp\u00edndola et al. (2016) introduced a supervised machine-learning approach using random forests (RF) (Breiman, 2001 ) that integrates comparative phylogeography with distributional and climate data housed in publicly available databases such as GBIF and WorldClim (Fick & Hijmans, 2017) .",
+                "cite_spans": [
+                    {
+                        "start": 33,
+                        "end": 56,
+                        "text": "Esp\u00edndola et al. (2016)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 133,
+                        "end": 147,
+                        "text": "(Breiman, 2001",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 296,
+                        "end": 318,
+                        "text": "(Fick & Hijmans, 2017)",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| INTRODUC TI ON",
+                "sec_num": "1"
+            },
+            {
+                "text": "The method of Esp\u00edndola et al. (2016) uses these geospatial data as predictor variables to develop a classifier that permits predictions to be made about the nature of genetic variation (e.g., the presence or absence of cryptic diversity, as indicated by deep genetic divergence or phylogeographic breaks) in taxa that have little to no genetic data yet available. Specifically, an existing comparative phylogeographic data set is used as the training data set to build the classifier, and, of the various supervised machine-learning options available, RF permit an assessment of the importance of predictor variables in the predictive function.",
+                "cite_spans": [
+                    {
+                        "start": 14,
+                        "end": 37,
+                        "text": "Esp\u00edndola et al. (2016)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| INTRODUC TI ON",
+                "sec_num": "1"
+            },
+            {
+                "text": "In its original version, the predictive phylogeographic approach of Esp\u00edndola et al. (2016) used a machine learning framework to predict whether or not unsampled species were likely to harbour cryptic diversity, which was defined originally as pre-Pleistocene divergence across a geographic barrier. Since the Esp\u00edndola et al. (2016) Pacific Northwest training data set included two woody plants, a mammal, three amphibians, and two terrestrial invertebrates, life history traits that could be coded across all included species were difficult to identify. To address this shortcoming, taxonomic categories served as a proxy for life history traits and were used with occurrence records for species endemic to a particular region or ecosystem as observations to be classified. Predictive accuracy was reasonably good in Esp\u00edndola et al. (2016) and the predictive phylogeographic framework remains ideally suited to incorporation of trait data as predictor variables, particularly for comparative phylogeographic investigations that are more taxonomically focused.",
+                "cite_spans": [
+                    {
+                        "start": 68,
+                        "end": 91,
+                        "text": "Esp\u00edndola et al. (2016)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 310,
+                        "end": 333,
+                        "text": "Esp\u00edndola et al. (2016)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 819,
+                        "end": 842,
+                        "text": "Esp\u00edndola et al. (2016)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| INTRODUC TI ON",
+                "sec_num": "1"
+            },
+            {
+                "text": "Although many current comparative phylogeographic data sets are taxonomically restricted, for example to a regional avifauna (e.g., Kirchman & Franklin, 2007) , or to regional anurans (e.g., Freilich et al., 2016) , cross kingdom studies (e.g., Carstens, Brunsfeld, Demboski, Good, & Sullivan, 2005; Hewitt, 1996; S\u00e9rsic et al., 2011) and syntheses (e.g., M\u00e9dail & Diadema, 2009; Soltis, Morris, McLachlan, Manos, & Soltis, 2006) are beginning to accumulate. The broad taxonomic sampling of such studies leads to inherent difficulties related to the comparison of genetic variation, but model selection and species-specific simulations represent powerful tools to test ecosystem-wide hypotheses (e.g., Carstens et al., 2005; Carstens & Richards, 2007) and make species-specific predictions (e.g., Ruffley et al., 2018; Smith, Ruffley, Tank, Sullivan, & Carstens, 2017) , enabling such cross-kingdom comparisons. Along with simulations and model comparison, the use of the predictive approach provides an invaluable strategy for the integration of trait data into comparative phylogeography because such data are often available even in taxa for which no genetic data have yet been collected.",
+                "cite_spans": [
+                    {
+                        "start": 132,
+                        "end": 158,
+                        "text": "Kirchman & Franklin, 2007)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 191,
+                        "end": 213,
+                        "text": "Freilich et al., 2016)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 245,
+                        "end": 299,
+                        "text": "Carstens, Brunsfeld, Demboski, Good, & Sullivan, 2005;",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 300,
+                        "end": 313,
+                        "text": "Hewitt, 1996;",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 314,
+                        "end": 334,
+                        "text": "S\u00e9rsic et al., 2011)",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 356,
+                        "end": 379,
+                        "text": "M\u00e9dail & Diadema, 2009;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 380,
+                        "end": 429,
+                        "text": "Soltis, Morris, McLachlan, Manos, & Soltis, 2006)",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 702,
+                        "end": 724,
+                        "text": "Carstens et al., 2005;",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 725,
+                        "end": 751,
+                        "text": "Carstens & Richards, 2007)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 797,
+                        "end": 818,
+                        "text": "Ruffley et al., 2018;",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 819,
+                        "end": 868,
+                        "text": "Smith, Ruffley, Tank, Sullivan, & Carstens, 2017)",
+                        "ref_id": "BIBREF36"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| INTRODUC TI ON",
+                "sec_num": "1"
+            },
+            {
+                "text": "In the current paper, we expand the approach of Esp\u00edndola et al. (2016) and incorporate functional traits as predictor variables in order to integrate life history explicitly into predictive phylogeography. The challenge in doing so for a taxonomically broad comparative data set is to identify traits that may influence the geographic structure of genetic variation and are available and scorable across plants and animals. Traits that we integrate here include aspects of diet, life stage at dispersal, mode of dispersal, presence or absence of selfing, reproductive output, and maximum body size. Including these variables improves the predictive ability of the RF predictor and, more importantly, allows us to make inferences regarding the association of functional traits with geographic patterns of genetic variation, thereby demonstrating the applicability of machine learning in biodiversity studies.",
+                "cite_spans": [
+                    {
+                        "start": 48,
+                        "end": 71,
+                        "text": "Esp\u00edndola et al. (2016)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| INTRODUC TI ON",
+                "sec_num": "1"
+            },
+            {
+                "text": "Of the many supervised machine-learning approaches available, we focus on the ensemble classifier inherent in RF (Breiman, 2001) , which uses collections of decision trees to classify observations based on a series of predictor variables. Details of our use of this method are provided in Table 1 . First, we use existing phylogeographic studies (see below) as a training data set (i.e., reference taxa).",
+                "cite_spans": [
+                    {
+                        "start": 113,
+                        "end": 128,
+                        "text": "(Breiman, 2001)",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 289,
+                        "end": 296,
+                        "text": "Table 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Random forest classifier",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "Here, each observation (georeferenced occurrence records for the reference taxa) was classified based on whether it is from a taxon that exhibits or does not exhibit a particular deep phylogeographic break between disjunct populations (i.e., cryptic diversity; step 1, Table 1 ). That is, the presence or absence of cryptic diversity is the response variable (i.e., the feature we seek to predict). Inferences as to whether or not taxa harboured cryptic diversity were based either on results from Approximate Bayesian Computation (ABC) and BEAST analyses, or on results from previous studies (details in Esp\u00edndola et al., 2016) .",
+                "cite_spans": [
+                    {
+                        "start": 605,
+                        "end": 628,
+                        "text": "Esp\u00edndola et al., 2016)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 269,
+                        "end": 276,
+                        "text": "Table 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Random forest classifier",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "In step two (Table 1) , we use RF in an attempt to use all the information in the data and we grow multiple classifiers (i.e., multiple decision trees) using a bootstrap aggregating (bagging) approach. Two thirds of observations are randomly assigned to be used as input data to construct decision trees; the remaining third is called the out-of-bag (OoB) sample and is used as an internal validation to assess accuracy of the emergent classifier. At each split (i.e., node) in each decision tree, a random subset of the predictor variables is chosen. From among this set of variables, the one that best partitions the observations between classes is selected. This process is repeated and nodes are added to decision trees until all observations are classified (step 2C, Table 1 ). Whereas individual decision trees may provide poor predictions (i.e., high OoB error rates), the ensemble classifier obtained from a collection (i.e., a forest) of random trees has been shown to be very accurate in many applications. Furthermore, the proportion of decision trees in the forest that classify an observation into a particular category (i.e., the proportion that classify an occurrence record as being from a taxon that harbours cryptic diversity) provides a measure of strength of inference. For more information, an excellent review of random forest classification is provided by Liaw and Wiener (2002) .",
+                "cite_spans": [
+                    {
+                        "start": 1379,
+                        "end": 1401,
+                        "text": "Liaw and Wiener (2002)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 12,
+                        "end": 21,
+                        "text": "(Table 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 772,
+                        "end": 779,
+                        "text": "Table 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Random forest classifier",
+                "sec_num": "2.1"
+            },
+            {
+                "text": "Following Esp\u00edndola et al. (2016) , we use two model systems. First is the disjunct rainforest of the Pacific Northwest of North America (PNW) (e.g., Brunsfeld, Sullivan, Soltis, & Soltis, 2001; Carstens et al., 2005) . The PNW supports the world's greatest extent of temperate coniferous rainforests (Franklin & Dyrness, 1973) , and this ecosystem occurs in two distinct bands: one along the Coast and Cascades Ranges and a disjunct inland segment in the northern Rocky Mountains of Idaho, Montana, and British Columbia (e.g., DellaSala et al., 2011 ; see figure 1a in Esp\u00edndola et al., 2016) . The presence of disjunct populations of several conspecifics or putative sister-species pairs was the focus of the predictive approach developed by Esp\u00edndola et al. (2016) . The RF classifier they developed had very high accuracy (98.78% overall accuracy) in predicting the presence or absence of cryptic diversity across this disjunction when environmental variables, along with taxonomy as a proxy for life history traits, were used as predictor variables.",
+                "cite_spans": [
+                    {
+                        "start": 10,
+                        "end": 33,
+                        "text": "Esp\u00edndola et al. (2016)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 150,
+                        "end": 194,
+                        "text": "Brunsfeld, Sullivan, Soltis, & Soltis, 2001;",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 195,
+                        "end": 217,
+                        "text": "Carstens et al., 2005)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 301,
+                        "end": 327,
+                        "text": "(Franklin & Dyrness, 1973)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 484,
+                        "end": 550,
+                        "text": "Idaho, Montana, and British Columbia (e.g., DellaSala et al., 2011",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 570,
+                        "end": 593,
+                        "text": "Esp\u00edndola et al., 2016)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 744,
+                        "end": 767,
+                        "text": "Esp\u00edndola et al. (2016)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Pacific Northwest of North America",
+                "sec_num": "2.2.1"
+            },
+            {
+                "text": "We include here the same seven taxa and add five other mesic forest disjuncts that have been recently examined: robust lancetooth snails (Haplotrema vancouverense) (Smith et al., 2017) , three species/complexes of taildropper slugs (Prophysaon andersoni, P. dubium, and P. vanattae/P. humile; Wilke & Duncan, 2004; and red alders (Alnus rubra) (Ruffley et al., 2018) . This resulted in a total of three species/species complexes classified as cryptic and nine classified as noncryptic.",
+                "cite_spans": [
+                    {
+                        "start": 164,
+                        "end": 184,
+                        "text": "(Smith et al., 2017)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 293,
+                        "end": 314,
+                        "text": "Wilke & Duncan, 2004;",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 344,
+                        "end": 366,
+                        "text": "(Ruffley et al., 2018)",
+                        "ref_id": "BIBREF33"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Pacific Northwest of North America",
+                "sec_num": "2.2.1"
+            },
+            {
+                "text": "Here, we used occurrence data from Esp\u00edndola et al. (2016) , along with occurrence data from Smith et al. (2018) , Smith et al. (2017) and Ruffley et al. (2018) . These data are composed of occurrences obtained from the literature, GBIF, and the field. Because GBIF also includes observations that correspond to living collections (e.g., botanical gardens, private gardens, parks), GBIF occurrences were excluded if they fell outside the focal range of the focal taxa (35\u00b0 to 65\u00b0 latitude, \u2212160\u00b0 to \u2212100\u00b0 longitude). This filter applied mostly to plant localities and was similar to that applied by Esp\u00edndola et al. (2016) .",
+                "cite_spans": [
+                    {
+                        "start": 35,
+                        "end": 58,
+                        "text": "Esp\u00edndola et al. (2016)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 93,
+                        "end": 112,
+                        "text": "Smith et al. (2018)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 115,
+                        "end": 134,
+                        "text": "Smith et al. (2017)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 139,
+                        "end": 160,
+                        "text": "Ruffley et al. (2018)",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 599,
+                        "end": 622,
+                        "text": "Esp\u00edndola et al. (2016)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Pacific Northwest of North America",
+                "sec_num": "2.2.1"
+            },
+            {
+                "text": "We downloaded the bioclimatic variables from worldclim version 2 on 8 June 2018 (Fick & Hijmans, 2017) and we collected trait data from different sources, such as public US Forest Service reports, NatureWeb, and the literature (Supporting Information Table S1 ).",
+                "cite_spans": [
+                    {
+                        "start": 80,
+                        "end": 102,
+                        "text": "(Fick & Hijmans, 2017)",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 239,
+                        "end": 259,
+                        "text": "Information Table S1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Pacific Northwest of North America",
+                "sec_num": "2.2.1"
+            },
+            {
+                "text": "We included the following traits: trophic level (detritivore, herbivore, predator, primary), reproductive strategy (selfing, outcrossing, or both), dispersal stage (adult, juvenile, or embryo), dispersion means (wind, wind/water, and self), and maximum size of the organism. Esp\u00edndola et al. (2016) also examined a set of taxa from comparative phylogeography of the Southwest Arid Lands (SWAL) for the presence or absence of a deep phylogeographic break across the Colorado River, which separates Baja Californian from the Sonoran Desert (see figure 1b in Esp\u00edndola et al., 2016) . This system has played a central role in the maturation of comparative phylogoegraphy (e.g., Riddle, Hafner, Alexander, & Jaeger, 2000; Zink, 2002) , and we follow Esp\u00edndola et al. (2016) in using 14 amphibian, bird, and mammal species/complexes as a reference set of taxa for predicting the presence or absence of this deep phylogeographic break. Their initial classifier achieved a moderate prediction accuracy (~69%) with environmental variables and taxonomy used as predictor variables.",
+                "cite_spans": [
+                    {
+                        "start": 275,
+                        "end": 298,
+                        "text": "Esp\u00edndola et al. (2016)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 556,
+                        "end": 579,
+                        "text": "Esp\u00edndola et al., 2016)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 675,
+                        "end": 717,
+                        "text": "Riddle, Hafner, Alexander, & Jaeger, 2000;",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 718,
+                        "end": 729,
+                        "text": "Zink, 2002)",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 746,
+                        "end": 769,
+                        "text": "Esp\u00edndola et al. (2016)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Pacific Northwest of North America",
+                "sec_num": "2.2.1"
+            },
+            {
+                "text": "As above, occurrence data were from Esp\u00edndola et al. 2016, and we downloaded the bioclimatic variables from worldclim version 2 on 8 June 2018 (Flick & Hijmans, 2017). We did not include TA B L E 1 The application of random forest to predictive phylogeography 1. Compile a reference data set where the response variable has been assessed (e.g., presence or absence of a deep phylogeographic split) (a) Investigate phylogeographic patterns for several codistributed taxa using molecular data and classify each taxon according to a response variable. In this case, whether or not reference taxa are determined to harbour cryptic diversity is the response variable, as evaluated based on the presence/absence of a pre-Pleistocene phylogeographic break. Sequence/genomic data may be generated de novo or mined from existing databases (i.e., Genbank). We use phylogeographic model selection to assess the response variable, in a comparative phylogeographic approach (b) Compile occurrence records for all taxa in reference data from public databases (e.g., GBIF, Arctos, etc.), field work, and/or publications. These represent the observations that we wish to classify with respect to the response variable (i.e., as belonging to a taxon that harbours or lacks cryptic diversity) (c) For each observation (occurrence record), we obtain and tabulate climate data (e.g., from WorldClim), taxonomic data, and trait data. These are the predictor variables 2. Apply random forest (following Breiman, 2001; Liaw & Wiener, 2002) to build a predictive model (i.e., classifier) (a) Randomly select 2/3 of the observations to train the model. This is the in-bag sample (b) The remaining random 1/3 of the observations are the OoB sample to be used for internal validation (i.e., used to calculate OoB error rates) (c) Build a random decision tree to classify the training set (i) From a random subset of predictor variables, select the best predictor variable (i.e., the predictor variable that most effectively splits observations into classes). Classify the training data based on the selected variable. This represents the first node in the decision tree (ii) Grow the decision tree by adding predictor variables at random (i.e., new nodes in decision tree) until all observations in the training set are classified correctly (d) Repeat steps 2a-2c many times to create a forest of random decision trees (e) Classify each OoB sample using the forest of decision trees. This classifies an OoB observation, whose state is known (i.e., from a taxon that has or lacks cryptic diversity) allowing an assessment of OoB error. In addition, the frequency of inference (across the forest of decision trees) for each OoB observation provides an assessment of strength of that inference that have yet to be assessed the species Melozone fuscus (formerly Pipilo fuscus) because, as currently defined, it does not include populations in Baja California. We collected trait data from pantheria (Jones et al., 2009) , eltontraits (Wilman et al., 2014) , amphibiaweb (AmphibiaWeb, 2002) , birdsna.org (Rodewald, 2015) , the Encyclopedia of Life (EOL), animaldiversity.",
+                "cite_spans": [
+                    {
+                        "start": 1481,
+                        "end": 1495,
+                        "text": "Breiman, 2001;",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 1496,
+                        "end": 1516,
+                        "text": "Liaw & Wiener, 2002)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 2968,
+                        "end": 2988,
+                        "text": "(Jones et al., 2009)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 3003,
+                        "end": 3024,
+                        "text": "(Wilman et al., 2014)",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 3039,
+                        "end": 3058,
+                        "text": "(AmphibiaWeb, 2002)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 3073,
+                        "end": 3089,
+                        "text": "(Rodewald, 2015)",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Southwest Arid Lands",
+                "sec_num": "2.2.2"
+            },
+            {
+                "text": "org (Myers et al., 2018) , and allaboutbirds.org (The Cornell Lab of Ornithology, 2018). We included the following traits: diet (five categories, from eltontraits), nocturnality, body mass, clutch/litter size, and reproductive mode (oviparous or viviparous). Specific information on sources is given in Supporting Information Table S2 . Where more than one value was available for a species or complex, the average value was used.",
+                "cite_spans": [
+                    {
+                        "start": 4,
+                        "end": 24,
+                        "text": "(Myers et al., 2018)",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 326,
+                        "end": 334,
+                        "text": "Table S2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Southwest Arid Lands",
+                "sec_num": "2.2.2"
+            },
+            {
+                "text": "We trained eight different RF classifiers, using bioclimatic and trait data as predictor variables and the presence or absence of cryptic diversity as the response variable in the r package randomforest (Liaw & Wiener, 2002) . The eight classifiers differed in three ways:",
+                "cite_spans": [
+                    {
+                        "start": 203,
+                        "end": 224,
+                        "text": "(Liaw & Wiener, 2002)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Pacific Northwest of North America training",
+                "sec_num": "2.2.3"
+            },
+            {
+                "text": "whether or not the taxon set was curated, whether or not the trait data were curated with respect to their effects on RF accuracy, and (Smith et al., 2018) , or incongruence between validation approaches using the same genetic data (Esp\u00edndola et al., 2016) , and therefore may mislead the RF classifier (Esp\u00edndola et al., 2016; Smith et al., 2018) . to compare to the Final Classifiers.",
+                "cite_spans": [
+                    {
+                        "start": 135,
+                        "end": 155,
+                        "text": "(Smith et al., 2018)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 232,
+                        "end": 256,
+                        "text": "(Esp\u00edndola et al., 2016)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 303,
+                        "end": 327,
+                        "text": "(Esp\u00edndola et al., 2016;",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 328,
+                        "end": 347,
+                        "text": "Smith et al., 2018)",
+                        "ref_id": "BIBREF35"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Pacific Northwest of North America training",
+                "sec_num": "2.2.3"
+            },
+            {
+                "text": "We assessed the accuracy of these RF classifiers using two approaches following Esp\u00edndola et al. 2016: OoB error rates and cross-validation. OoB error rates were calculated using the r package randomforest (Liaw & Wiener, 2002) . To calculate cross-validation accuracies, we followed Esp\u00edndola et al. 2016; we ran separate RF analyses by dropping a single taxon from the reference set and building the classifier without that taxon. Occurrence records for the deleted taxon were then assessed using the classifier built without it and accuracy was calculated as follows: (a) accuracy overall = 100 * (n true cryptic localities + n true noncryptic localities )/n total predicted localities ), (b) accuracy cryptic = 100 * (n true cryptic localities /n total cryptic localities ), (c) accuracynoncryptic = 100 * (n true noncryptic localities /n total noncryptic localities ).",
+                "cite_spans": [
+                    {
+                        "start": 206,
+                        "end": 227,
+                        "text": "(Liaw & Wiener, 2002)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Pacific Northwest of North America training",
+                "sec_num": "2.2.3"
+            },
+            {
+                "text": "We trained four RF classifiers for the SWAL using bioclimatic and trait data as predictor variables and, again, with the presence or absence of cryptic diversity as the response variable in the r package randomforest (Liaw & Wiener, 2002 ",
+                "cite_spans": [
+                    {
+                        "start": 217,
+                        "end": 237,
+                        "text": "(Liaw & Wiener, 2002",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Southwest Arid Lands training",
+                "sec_num": "2.2.4"
+            },
+            {
+                "text": "We used three metrics to assess variable importance. First, we calculated the Mean Decrease in Accuracy (MDA) and Mean Decrease in Gini (GINI) metrics using the r package randomforest (Liaw & Wiener, 2002 address this concern, we also calculated the decrease in prediction accuracy for each variable by repeating the cross-validation step in which individual taxa were omitted from the classifier one at a time.",
+                "cite_spans": [
+                    {
+                        "start": 184,
+                        "end": 204,
+                        "text": "(Liaw & Wiener, 2002",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Assessment of variable importance",
+                "sec_num": "2.3"
+            },
+            {
+                "text": "In addition to permuting each taxon, we also permuted each of the trait variables. We calculated the overall accuracies and the cryptic and noncryptic accuracies and then compared these to the base measure of overall accuracy. For each variable, we calculated a mean decrease in prediction accuracies (averaged across taxa) when the variable was removed. These results were used to determine which predictor variables were included in our final RF classifier for each region. For the SWAL, these results generated uncertainty in how to build the most accurate classifier, so we also used a leave-two-out permutation approach, where we removed two variables at a time and measured the effect on prediction accuracy.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Assessment of variable importance",
+                "sec_num": "2.3"
+            },
+            {
+                "text": "Our final PNW data set had 2,734 observations that passed quality filters. The OoB error rates overall and for each class were zero; all",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Pacific Northwest of North America",
+                "sec_num": "3.1.1"
+            },
+            {
+                "text": "OoB observations were correctly classified as cryptic or noncryptic, regardless of which variables and taxa were used to construct the RF classifier (Table 1) . When taxonomy and all traits were used, prediction accuracies were 100%, regardless of which taxa were included.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 149,
+                        "end": 158,
+                        "text": "(Table 1)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Pacific Northwest of North America",
+                "sec_num": "3.1.1"
+            },
+            {
+                "text": "Without taxonomy and with all traits, overall accuracy was higher for the curated taxon set than for the full taxon set (97.7% vs. 97.0%; Table 2 ). Without taxonomy, and with the curated taxon set, cryptic prediction accuracy was 96.9% and noncryptic prediction accuracy was 98.4% using the full set of trait variables (Table 2) ",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 138,
+                        "end": 145,
+                        "text": "Table 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 320,
+                        "end": 329,
+                        "text": "(Table 2)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Pacific Northwest of North America",
+                "sec_num": "3.1.1"
+            },
+            {
+                "text": "For the SWAL, 71,832 observations passed quality filters. When all variables were used, and only taxonomy was omitted, OoB error rates were zero. However, overall prediction accuracies were low (40.6%; Table 3 ). By contrast, omission of nocturnality and body mass (with taxonomy included) resulted in OoB error rates of zero.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 202,
+                        "end": 209,
+                        "text": "Table 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Southwest Arid Lands",
+                "sec_num": "3.1.2"
+            },
+            {
+                "text": "This improved overall prediction accuracy increased to 95.1%, with the cryptic prediction accuracy increasing to 97.8%, and the noncryptic prediction accuracy increasing to 86.8% (Table 3) . F I G U R E 1 Comparisons of accuracies as assessed by cross validations for PNW taxa between the classifiers built using climatic data plus taxonomy (blue), plus curated traits (yellow), and plus both curated traits and taxonomy (red). Classifiers are for the PNW taxa. The x-axis is the probability of an observation being cryptic. The y-axis is the density of occurrences with a given posterior probability. A \"C\" on the graph indicates that the taxon harbours cryptic diversity based on genetic data, and a \"NC\" on the graph indicates that the taxon lacks cryptic diversity based on genetic data ",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 179,
+                        "end": 188,
+                        "text": "(Table 3)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Southwest Arid Lands",
+                "sec_num": "3.1.2"
+            },
+            {
+                "text": "When taxonomy was included, this variable had the highest measures of MDA and Mean Decrease in Gini, followed by the trait variables ( Figure 3) . With taxonomy excluded, the trait variables had the highest measures of MDA and GINI (Supporting Information Figure   S1 ). Based on our variable permutation measures of importance, all trait variables except maximum size had nearly neutral or positive effects on the accuracy of the RF classifier (Figure 3a) . In the classifier with curated traits, curated taxa, and no taxonomy, reproductive mode (selfing vs. outcrossing) was the most important variable, followed by trophic level and life stage at dispersal as measured by MDA (Figure 3b ). However, decrease in GINI indicated that trophic level had the largest effect on node purity, followed by life stage at dispersal, dispersion mode, and reproductive mode (Figure 3c ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 135,
+                        "end": 144,
+                        "text": "Figure 3)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 256,
+                        "end": 267,
+                        "text": "Figure   S1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 445,
+                        "end": 456,
+                        "text": "(Figure 3a)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 679,
+                        "end": 689,
+                        "text": "(Figure 3b",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 863,
+                        "end": 873,
+                        "text": "(Figure 3c",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Pacific Northwest of North America",
+                "sec_num": "3.2.1"
+            },
+            {
+                "text": "Regardless of whether or not taxonomy was included in the classifier, clutch/litter size was the most important predictor variable based on MDA and GINI (Figure 4c,d ). All other trait variables, except reproductive mode, ranked higher in importance than bioclimatic variables based on MDA and GINI (Supporting Information Figure S2 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 153,
+                        "end": 165,
+                        "text": "(Figure 4c,d",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 323,
+                        "end": 332,
+                        "text": "Figure S2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Southwest arid lands",
+                "sec_num": "3.2.2"
+            },
+            {
+                "text": "Based on our variable permutation measures of importance, body mass and nocturnality in combination were strongly misleading the classifier (Figure 4a ). Our final leave-out-one permutation measure of variable importance (when body mass and nocturnality were excluded from the model) indicated that reproductive mode and clutch size were valuable predictors, and that diet may have a slightly negative effect on predictive accuracy (Figure 4b ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 140,
+                        "end": 150,
+                        "text": "(Figure 4a",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 432,
+                        "end": 442,
+                        "text": "(Figure 4b",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Southwest arid lands",
+                "sec_num": "3.2.2"
+            },
+            {
+                "text": "Incorporating life history traits as predictor variables improves the performance of the supervised machine-learning approach to predictive phylogeography introduced by Esp\u00edndola et al. (2016) . Our approach, along with the regression model approach introduced by Paz et al., (2015) , provides phylogeographers with a framework to integrate ecology and life history into the maturing discipline of comparative phylogeography (e.g., Papadopoulou & Knowles, 2016; Riddle, 2016; Zamudio et al., 2016) . Our predictive framework has the potential to expand the importance and impact of comparative phylogeography and its relevance to other disciplines because it enables researchers to use existing databases to make predictions about the structure of genetic variation that may be present in taxa before genetic data are collected. In the two systems examined here, the use of cross validation, where n \u2212 1 taxa are used to build the random forest classifier (where n is the number of taxa in the reference data set), demonstrates the power of the approach to make predictions about a taxon that was not used in building the classifier (Figures 1 and 2) . Furthermore, in using a collection of random decision trees to classify a test observation (in this case an occurrence record), the ensemble approach provides some measure of strength of the prediction in the congruence of the prediction across the forest of decision trees.",
+                "cite_spans": [
+                    {
+                        "start": 169,
+                        "end": 192,
+                        "text": "Esp\u00edndola et al. (2016)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 264,
+                        "end": 282,
+                        "text": "Paz et al., (2015)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 432,
+                        "end": 461,
+                        "text": "Papadopoulou & Knowles, 2016;",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 462,
+                        "end": 475,
+                        "text": "Riddle, 2016;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 476,
+                        "end": 497,
+                        "text": "Zamudio et al., 2016)",
+                        "ref_id": "BIBREF42"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1133,
+                        "end": 1150,
+                        "text": "(Figures 1 and 2)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Predictions",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "For the PNW system, prediction accuracy is high across classifiers and combinations of predictor variables. This is the case both for internal accuracy, as measured by low OoB error rates (Table 1) , a OoB error rate. b Predition accuracies are calculated as in Esp\u00edndola et al. (2016) , as the ratio of correctly predicted localities to total predicted localities *100.",
+                "cite_spans": [
+                    {
+                        "start": 262,
+                        "end": 285,
+                        "text": "Esp\u00edndola et al. (2016)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 188,
+                        "end": 197,
+                        "text": "(Table 1)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Predictions",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "TA B L E 3 Accuracy of Southwest Arid Lands random forest classifiers F I G U R E 2 Comparisons of accuracies as assessed by cross validations between the classifiers for SWAL taxa built using climatic data plus taxonomy (blue), plus curated traits (yellow), and plus both curated traits and taxonomy (red). Classifiers are for the SAL taxa. The x-axis is the probability of an observation being cryptic. The y-axis is the density of occurrences with a given posterior probability. A \"C\" on the graph indicates that the taxon harbours cryptic diversity based on genetic data, and a \"NC\" on the graph indicates that the taxon lacks cryptic diversity based on genetic data ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Predictions",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "C N C C NC C C C C C C NC C Prob(cryptic) Prob(cryptic) Prob(cryptic) Prob(cryptic) Prob(cryptic) Prob(cryptic) Prob(cryptic) Prob(cryptic) Prob(cryptic) Prob(cryptic) Prob(cryptic) Prob(cryptic)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Predictions",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "Both Taxonomy Traits and in most of the cross-validation analyses (Figure 1 ) in which classifiers are built with each taxon successively deleted, and then used to assess accuracy of the classifier. In all taxa, addition of trait data improved the accuracy of the classifier (or was neutral) relative to the original implementation (Esp\u00edndola et al., 2016 ) that used only taxonomy and climate data. However, while the predatory snail Haplotrema vancouverense is still correctly predicted (to lack cryptic diversity) when taxonomy and traits are used in the classifier, it is not correctly predicted when taxonomy is omitted as a predictor variable (Figure 1) . This suggests that for this taxon, there is important information captured by the taxonomy variable that is not captured by the trait data that we used.",
+                "cite_spans": [
+                    {
+                        "start": 332,
+                        "end": 355,
+                        "text": "(Esp\u00edndola et al., 2016",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 66,
+                        "end": 75,
+                        "text": "(Figure 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 649,
+                        "end": 659,
+                        "text": "(Figure 1)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Predictions",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "The situation was somewhat different for the SWAL system.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Predictions",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "The original implementation (using only taxonomy plus climate data; Esp\u00edndola et al., 2016) had moderate prediction accuracy. By incorporating informative trait data (clutch/litter size, reproductive mode, diet; Figure 4 and Supporting Information Figure S2 ), we improved overall accuracy considerably ( Table 2 , Curated Traits classifiers). In the cross-validation analyses (Figure 2 ), inclusion of all three data types (traits, taxonomy and climatic data) had a positive or neutral impact on predictions for 12 of 13 taxa. Accurate predictions were not attained in any classifier for Ammospermophilus leucurus (Figure 2 ), whereas inclusion of trait data hampered predictions for",
+                "cite_spans": [
+                    {
+                        "start": 68,
+                        "end": 91,
+                        "text": "Esp\u00edndola et al., 2016)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 212,
+                        "end": 220,
+                        "text": "Figure 4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 248,
+                        "end": 257,
+                        "text": "Figure S2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 305,
+                        "end": 312,
+                        "text": "Table 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 377,
+                        "end": 386,
+                        "text": "(Figure 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 615,
+                        "end": 624,
+                        "text": "(Figure 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Predictions",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "Polioptila melanura/P. californica that were accurate with climate data plus taxonomy (Figure 2 ). For the Polioptila complex, it could be that data for additional traits would improve the classifiers, suggesting that it may be difficult to select trait data a priori.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 86,
+                        "end": 95,
+                        "text": "(Figure 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Predictions",
+                "sec_num": "4.1"
+            },
+            {
+                "text": "The taxonomic breadth differed considerably in the two systems examined here; the PNW system includes plants, invertebrates, and vertebrates, whereas the SWAL data set includes only tetrapods. As a result, the suite of traits that we examined differed. In the PNW system, the most important traits to include were reproductive mode (selfing vs. outcrossing) and trophic level, with less importance identified for dispersal stage, maximum size, and dispersion mode (Figure 3) . The ability to self has long been thought to relate to dispersal ability (Baker's Law; Baker, 1955) and may play an important role in the recolonization of previously glaciated habitat, which is thought to have occurred in PNW rainforest endemics following the Pleistocene glacial cycles (e.g., Carstens et al., 2014) . In the taxa studied here, all taxa capable of selfing lacked cryptic diversity and were inferred to have been recent dispersers to the inland rainforests. However, in general, predictions made by Esp\u00edndola et al. (2016) By contrast, in the SWAL system, we identified a single trait, clutch size (Figure 4) , as the most important trait (as measured by MDA). Propagule size is one of the variables affecting population size, which in turns affects the probability of survival of populations and species (e.g., Reed, O'Grady, Brook, Ballou, & Frankham, 2003) ,",
+                "cite_spans": [
+                    {
+                        "start": 550,
+                        "end": 563,
+                        "text": "(Baker's Law;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 564,
+                        "end": 576,
+                        "text": "Baker, 1955)",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 772,
+                        "end": 794,
+                        "text": "Carstens et al., 2014)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 993,
+                        "end": 1016,
+                        "text": "Esp\u00edndola et al. (2016)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 1306,
+                        "end": 1353,
+                        "text": "Reed, O'Grady, Brook, Ballou, & Frankham, 2003)",
+                        "ref_id": "BIBREF28"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 464,
+                        "end": 474,
+                        "text": "(Figure 3)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1092,
+                        "end": 1102,
+                        "text": "(Figure 4)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "| Variable selection and importance",
+                "sec_num": "4.2"
+            },
+            {
+                "text": "as well as influencing nucleotide diversity (Romiguier et al., 2014) .",
+                "cite_spans": [
+                    {
+                        "start": 44,
+                        "end": 68,
+                        "text": "(Romiguier et al., 2014)",
+                        "ref_id": "BIBREF32"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Variable selection and importance",
+                "sec_num": "4.2"
+            },
+            {
+                "text": "Although body size is known to relate to dispersal ability in many groups (e.g., beetles, Dingle & Arora, 1973; mammals and birds, Sutherland, Harestad, Price, & Lertzman, 2000) , it was misleading in both systems studied here. This may be due to the broad taxonomic scale at which our study was conducted, because the relationship between body size and dispersal ability differs widely across taxonomic groups. For example, although Sutherland et al. (2000) found a positive relationship between natal dispersal and body size in mammals and carnivorous birds, the same was not true for herbivorous and omnivorous birds.",
+                "cite_spans": [
+                    {
+                        "start": 90,
+                        "end": 111,
+                        "text": "Dingle & Arora, 1973;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 112,
+                        "end": 177,
+                        "text": "mammals and birds, Sutherland, Harestad, Price, & Lertzman, 2000)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 434,
+                        "end": 458,
+                        "text": "Sutherland et al. (2000)",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Variable selection and importance",
+                "sec_num": "4.2"
+            },
+            {
+                "text": "The identification of factors that influence patterns of biodiversity has been a long-standing goal of biogeography. In addition to distribution and diversity gradients, attention has focused on traits that influence genetic diversity within species, including life history traits in plants (e.g., Loveless & Hamrick, 1984) and propagule size animals (e.g., Romiguier et al., 2014) . It has become increasingly clear that trait data, whether from existing databases or collected from natural populations, allow phylogeographers to integrate their work with other disciplines in the biological sciences (Zamudio et al., 2016) , and a recent call has been made for phylogeographers to integrate traits into phylogeography in a more meaningful way. However, some authors have been using traits as a priori predictors of pattern for several years. For example, Alvarez et al. (2009) found that the ecological spe- consisting of combinations of traits that could be compared with a linear regression. In these examples, the authors asked if traits were associated with a particular phylogeographic pattern, either a single trait (Papadopoulou & Knowles, 2015) or several (Alvarez et al., 2009; Paz et al., 2015) . However, both of these approaches are limited in the number of traits they can examine. In the approach of Papadopoulou and Knowles (2015), the number of traits that could be considered was limited due to the use of the hierarchical ABC framework to test the prediction of codivergence across a geographic barrier. In Alvarez et al. (2009) , the number of traits analyzed was so small that they could apply standard statistical approaches. Paz et al. (2015) investigated a larger set of traits by selecting a set of 28 generalized linear models to compare via multi-model inference techniques. However, these models represent only a small subset of the possible models, which may be a limitation in comparisons across broad taxonomic groups where researchers' intuitions may be misleading and cause important trait variables to be missed. By allowing for the incorporation of a potentially large number of trait variables into phylogeographic studies, machine-learning approaches such as the one used here offer a solution to this problem. They also dramatically expand the scope of comparative phylogeography because it is no longer limited to codistributed taxa.",
+                "cite_spans": [
+                    {
+                        "start": 298,
+                        "end": 323,
+                        "text": "Loveless & Hamrick, 1984)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 358,
+                        "end": 381,
+                        "text": "Romiguier et al., 2014)",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 602,
+                        "end": 624,
+                        "text": "(Zamudio et al., 2016)",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 857,
+                        "end": 878,
+                        "text": "Alvarez et al. (2009)",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 1124,
+                        "end": 1154,
+                        "text": "(Papadopoulou & Knowles, 2015)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1166,
+                        "end": 1188,
+                        "text": "(Alvarez et al., 2009;",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 1189,
+                        "end": 1206,
+                        "text": "Paz et al., 2015)",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1527,
+                        "end": 1548,
+                        "text": "Alvarez et al. (2009)",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 1649,
+                        "end": 1666,
+                        "text": "Paz et al. (2015)",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Traits and comparative phylogeography",
+                "sec_num": "4.3"
+            },
+            {
+                "text": "The use of supervised machine learning to detect variables that predict patterns of genetic variation enables comparative phylogeography to be expanded to continental or global scales. For example, examined 8,000 fungi, plants, and animals on a global scale to identify aspects of the species range (i.e., total size, latitude, elevation) as important predictors of which species contain structured genetic variation. They did this by testing for isolation by distance and environment within each species and building a set of predictor variables that include organismal trait data related to metabolism along with other variables measuring aspects of the species range, habitat, and taxonomy. More detailed organismal trait data can be incorporated by limiting the taxon sampling. For example, Carstens, Morales, Field, and Pelletier (2018) investigated >300 species of bats to identify organismal traits associated with demographic responses to end Pleistocene climate change. Notably, since each of these supervised machine-learning approaches utilize data from public databases such as gbif, worldclim, and genbank, the continued growth and refinement of these databases will expand the scope of predictive phylogeography.",
+                "cite_spans": [
+                    {
+                        "start": 795,
+                        "end": 841,
+                        "text": "Carstens, Morales, Field, and Pelletier (2018)",
+                        "ref_id": "BIBREF8"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| Traits and comparative phylogeography",
+                "sec_num": "4.3"
+            },
+            {
+                "text": "The inclusion of trait data into supervised machine-learning approaches can improve the accuracy of a classifier that can predict the presence or absence of deep phylogeographic splits (i.e., cryptic divergence) in uninvestigated taxa. We achieved good (in the SWAL system) to excellent (in the PNW) performance with respect to prediction accuracies. In particular, incorporation of trait data improved the accuracies produced by Esp\u00edndola et al., (2016) , where only taxonomy and climatic data were used, especially for the taxonomically restricted SWAL test data set. Alternatively, one could use such approaches to test the effect of traits that have hypothesized a priori to impinge on the geographic structure of genetic variation (e.g., Alvarez et al., 2009; Paz et al., 2015) .",
+                "cite_spans": [
+                    {
+                        "start": 430,
+                        "end": 454,
+                        "text": "Esp\u00edndola et al., (2016)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 743,
+                        "end": 764,
+                        "text": "Alvarez et al., 2009;",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 765,
+                        "end": 782,
+                        "text": "Paz et al., 2015)",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "| CON CLUS I ON: PRED I C TIVE APPROACHE S IN B I OD IVER S IT Y S TUD IE S",
+                "sec_num": "5"
+            },
+            {
+                "text": "Support for this work comes from National Science Foundation grant nos. DEB-1457519 and DEB-1457726, and the Institute for ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACK N OWLED G EM ENTS",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "Additional supporting information may be found online in the ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "S U PP O RTI N G I N FO R M ATI O N",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "History or ecology? Substrate type as a major driver of patial genetic structure in alpine plants",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Alvarez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Thiel-Egenter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Tribsch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Holderegger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Manel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Sch\u00f6nswetter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Consortium",
+                        "middle": [],
+                        "last": "\u2026intrabiodiv",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "AmphibiaWeb: Information on amphibian biology and conservation",
+                "volume": "12",
+                "issue": "",
+                "pages": "632--640",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1461-0248.2009.01312.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Alvarez, N., Thiel-Egenter, C., Tribsch, A., Holderegger, R., Manel, S., Sch\u00f6nswetter, P., \u2026IntraBioDiv Consortium. (2009). History or ecology? Substrate type as a major driver of patial genetic struc- ture in alpine plants. Ecology Letters, 12(7), 632-640. https://doi. org/10.1111/j.1461-0248.2009.01312.x AmphibiaWeb. (2002). AmphibiaWeb: Information on amphibian biology and conservation. AmphibiaWeb.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "In the light of evolution X: Comparative phylogeography",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Avise",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Bowen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Ayala",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Proceedings of the National Academy of Sciences",
+                "volume": "113",
+                "issue": "29",
+                "pages": "7957--7961",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Avise, J. C., Bowen, B. W., & Ayala, F. J. (2016). In the light of evolution X: Comparative phylogeography. Proceedings of the National Academy of Sciences, USA, 113(29), 7957-7961.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Self-compatibility and establishment after '\"long-distance",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Baker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1955,
+                "venue": "dispersal. Evolution",
+                "volume": "9",
+                "issue": "3",
+                "pages": "347--349",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Baker, H. G. (1955). Self-compatibility and establishment after '\"long-dis- tance\" dispersal. Evolution, 9(3), 347-349.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Molecular zoogeography of freshwater fishes in the southeastern United States",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Bermingham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Avise",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Genetics",
+                "volume": "113",
+                "issue": "",
+                "pages": "939--965",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bermingham, E., & Avise, J. C. (1986). Molecular zoogeography of freshwater fishes in the southeastern United States. Genetics, 113, 939-965.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Random forests",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Breiman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Machine Learning",
+                "volume": "45",
+                "issue": "",
+                "pages": "5--32",
+                "other_ids": {
+                    "DOI": [
+                        "10.1023/A:1010933404324"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Breiman, L. (2001). Random forests. Machine Learning, 45, 5-32. https:// doi.org/10.1023/A:1010933404324",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "A comparative phylogeography of northwestern North America: A synthesis",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Brunsfeld",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sullivan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Soltis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Soltis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "319--340",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brunsfeld, S. J., Sullivan, J., Soltis, D. E., & Soltis, P. S. (2001). A compara- tive phylogeography of northwestern North America: A synthesis. In J. Silvertown, & J. Antonovics (Eds.), Integrating ecology and evolution in a spatial context (pp. 319-340). Oxford, UK: Blackwell Science.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Model selection as a tool for phylogeographic inference: An example from the willow Salix melanopsis",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Carstens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Brennan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Chua",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Duffie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Harvey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Koch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sullivan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Molecular Ecology",
+                "volume": "22",
+                "issue": "",
+                "pages": "4014--4028",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Carstens, B. C., Brennan, R. S., Chua, V., Duffie, C. V., Harvey, M. G., Koch, R. A., \u2026 Sullivan, J. (2014). Model selection as a tool for phylo- geographic inference: An example from the willow Salix melanopsis. Molecular Ecology, 22, 4014-4028.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Investigating the evolutionary history of the Pacific Northwest mesic forest ecosystem: Hypothesis testing within a comparative phylogeographic framework",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Carstens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Brunsfeld",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Demboski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Good",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sullivan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Evolution",
+                "volume": "59",
+                "issue": "",
+                "pages": "1639--1652",
+                "other_ids": {
+                    "DOI": [
+                        "10.1554/04-661.1"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Carstens, B. C., Brunsfeld, S. J., Demboski, J. R., Good, J. M., & Sullivan, J. (2005). Investigating the evolutionary history of the Pacific Northwest mesic forest ecosystem: Hypothesis testing within a comparative phylogeographic framework. Evolution, 59, 1639-1652. https://doi.org/10.1554/04-661.1",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "A global analysis of bats using automated comparative phylogeography uncovers a surprising impact of Pleistocene glaciation",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Carstens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Morales",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Field",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Pelletier",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Journal of Biogeography",
+                "volume": "45",
+                "issue": "",
+                "pages": "1795--1805",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/jbi.13382"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Carstens, B. C., Morales, A. E., Field, K. A., & Pelletier, T. A. (2018). A global analysis of bats using automated comparative phylogeogra- phy uncovers a surprising impact of Pleistocene glaciation. Journal of Biogeography, 45, 1795-1805. https://doi.org/10.1111/jbi.13382",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Integrating coalescent and ecological niche modeling in comparative",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Carstens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Richards",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "phylogeography. Evolution",
+                "volume": "61",
+                "issue": "",
+                "pages": "1439--1454",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Carstens, B. C., & Richards, C. L. (2007). Integrating coalescent and eco- logical niche modeling in comparative, phylogeography. Evolution, 61, 1439-1454.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Temperate and boreal rainforests of inland northwestern North America",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Dellasala",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Alaback",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Craighead",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Goward",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Paquet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Spribille",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Temperate and boreal rainforests of the world",
+                "volume": "",
+                "issue": "",
+                "pages": "82--110",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "DellaSala, D. A., Alaback, P., Craighead, L., Goward, T., Paquet, P. C., & Spribille, T. (2011). Temperate and boreal rainforests of inland north- western North America. In D. A. DellaSala (Ed.), Temperate and boreal rainforests of the world (pp. 82-110). Washington, DC: Island Press.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Experimental studies of migration in bugs of the genus Dysdercus",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Dingle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Arora",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1973,
+                "venue": "Oecologia",
+                "volume": "12",
+                "issue": "2",
+                "pages": "119--140",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/BF00345512"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Dingle, H., & Arora, G. (1973). Experimental studies of migration in bugs of the genus Dysdercus. Oecologia, 12(2), 119-140. https://doi. org/10.1007/BF00345512",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Identifying cryptic diversity with predictive phylogeography",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Esp\u00edndola",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ruffley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Carstens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Tank",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sullivan",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "Proceedings of the Royal Society B: Biological Sciences",
+                "volume": "283",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1098/rspb.2016.1529"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Esp\u00edndola, A., Ruffley, M., Smith, M. L., Carstens, B. C., Tank, D. C., & Sullivan, J. (2016). Identifying cryptic diversity with predictive phy- logeography. Proceedings of the Royal Society B: Biological Sciences, 283(1841), 20161529. https://doi.org/10.1098/rspb.2016.1529",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "WorldClim 2: new 1-km spatial resolution climate surfaces for global land areas",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Fick",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hijmans",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "International Journal of Climatology",
+                "volume": "37",
+                "issue": "",
+                "pages": "4302--4315",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fick, S. E., & Hijmans, R. J. (2017). WorldClim 2: new 1-km spatial reso- lution climate surfaces for global land areas. International Journal of Climatology, 37, 4302-4315.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Natural Vegetation of Oregon and Washington",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Franklin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Dyrness",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1973,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Franklin, J. F., & Dyrness, C. T. (1973). Natural Vegetation of Oregon and Washington. General Technical Report PNW-8, USDA Forest Service, Portland, Oregon.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Comparative phylogeography of Ethopian anurans: Impact of the Great Rift Valley and Pleistocene climat change",
+                "authors": [
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Freilich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Anad\u00f3n",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Bukala",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Calderon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Charaborty",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Biossinot",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "BMC Evolutionary Biology",
+                "volume": "16",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Freilich, X., Anad\u00f3n, J., Bukala, J., Calderon, O., Charaborty, R., Biossinot, S., & Evolutionary Genetics Class of 2013. (2016). Comparative phy- logeography of Ethopian anurans: Impact of the Great Rift Valley and Pleistocene climat change. BMC Evolutionary Biology, 16, 206.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Some genetic consequences of ice ages, and their role in divergence and speciation",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Hewitt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Biological Journal of the Linnean Society",
+                "volume": "58",
+                "issue": "",
+                "pages": "247--276",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1095-8312.1996.tb01434.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hewitt, G. M. (1996). Some genetic consequences of ice ages, and their role in divergence and speciation. Biological Journal of the Linnean Society, 58, 247-276. https://doi.org/10.1111/j.1095-8312.1996.tb01434.x",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "PanTHERIA: A species-level database of life history, ecology, and geography of extant and recently extinct mammals",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Bielby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Cardillo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Fritz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "O'dell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D L"
+                        ],
+                        "last": "Orme",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Purvis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Ecology",
+                "volume": "90",
+                "issue": "9",
+                "pages": "2648--3000",
+                "other_ids": {
+                    "DOI": [
+                        "10.1890/08-1494.1"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Jones, K. E., Bielby, J., Cardillo, M., Fritz, S. A., O'Dell, J., Orme, C. D. L., \u2026 Purvis, A. (2009). PanTHERIA: A species-level database of life history, ecology, and geography of extant and recently extinct mam- mals. Ecology, 90(9), 2648-3000. https://doi.org/10.1890/08-1494.1",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Comparative phylogeography and genetic structure of Vanuatu birds: Contro region variation in rail",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Kirchman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Franklin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Molecular Phylogenetics and Evolution",
+                "volume": "43",
+                "issue": "",
+                "pages": "14--23",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kirchman, J. J., & Franklin, J. D. (2007). Comparative phylogeography and genetic structure of Vanuatu birds: Contro region variation in rail, a dove, and a passerine. Molecular Phylogenetics and Evolution, 43, 14-23.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Classification and regression by random-Forest",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Liaw",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Wiener",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "R News",
+                "volume": "2",
+                "issue": "3",
+                "pages": "18--22",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Liaw, A., & Wiener, M. (2002). Classification and regression by random- Forest. R News, 2(3), 18-22.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Ecological determinants of genetic structure in plant populations",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Loveless",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Hamrick",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "Annual Review of Ecology and Systematics",
+                "volume": "15",
+                "issue": "",
+                "pages": "65--95",
+                "other_ids": {
+                    "DOI": [
+                        "10.1146/annurev.es.15.110184.000433"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Loveless, M. D., & Hamrick, J. L. (1984). Ecological determinants of genetic structure in plant populations. Annual Review of Ecology and Systematics, 15, 65-95. https://doi.org/10.1146/annurev. es.15.110184.000433",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Glacial refugia influence plant diversity in the Mediterranean Basin",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "M\u00e9dail",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Diadema",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Journal of Biogeography",
+                "volume": "36",
+                "issue": "7",
+                "pages": "1333--1345",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "M\u00e9dail, F., & Diadema, K. (2009). Glacial refugia influence plant diver- sity in the Mediterranean Basin. Journal of Biogeography, 36(7), 1333-1345.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Accessed at https:// animaldiversity.org",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Myers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Espinosa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Parr",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Hammond",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Dewey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Accessed",
+                "volume": "10",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Myers, P., Espinosa, R., Parr, C. S., Jones, T., Hammond, G. S., & Dewey, T. A. (2018). The Animal Diversity Web (online). Accessed at https:// animaldiversity.org. Accessed 10 June 2018.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Species-specific responses to island connectivity cycles: Refined models for testing phylogeographic concordance across a Mediterranean Pleistocene aggregate island complex",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Papadopoulou",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Knowles",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Molecular Ecology",
+                "volume": "24",
+                "issue": "14",
+                "pages": "4252--4268",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/mec.13305"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Papadopoulou, A., & Knowles, L. L. (2015). Species-specific responses to island connectivity cycles: Refined models for testing phylogeo- graphic concordance across a Mediterranean Pleistocene aggregate island complex. Molecular Ecology, 24(14), 4252-4268. https://doi. org/10.1111/mec.13305",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Toward a paradigm shift in comparative phylogeography driven by trait-based hypotheses. Proceeding of the National Academy of Sciences",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Papadopoulou",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Knowles",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "",
+                "volume": "113",
+                "issue": "",
+                "pages": "8018--8024",
+                "other_ids": {
+                    "DOI": [
+                        "10.1073/pnas.1601069113"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Papadopoulou, A., & Knowles, L. L. (2016). Toward a paradigm shift in comparative phylogeography driven by trait-based hypotheses. Proceeding of the National Academy of Sciences, USA, 113(29), 8018- 8024. https://doi.org/10.1073/pnas.1601069113",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Testing the role of ecology and life history in structuring genetic variation across a landscape: A trait-based phylogeographic approach",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Paz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Ib\u00e1\u00f1ez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Lips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Crawford",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Molecular Ecology",
+                "volume": "24",
+                "issue": "14",
+                "pages": "3723--3737",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/mec.13275"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Paz, A., Ib\u00e1\u00f1ez, R., Lips, K. R., & Crawford, A. J. (2015). Testing the role of ecology and life history in structuring genetic variation across a land- scape: A trait-based phylogeographic approach. Molecular Ecology, 24(14), 3723-3737. https://doi.org/10.1111/mec.13275",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Geographical range size and latitude predict population genetic structure in a global survey",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Pelletier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Carstens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Biology Letters",
+                "volume": "14",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1098/rsbl.2017.0566"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Pelletier, T. A., & Carstens, B. C. (2018). Geographical range size and lat- itude predict population genetic structure in a global survey. Biology Letters, 14, 20170566. https://doi.org/10.1098/rsbl.2017.0566",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "redicting plant conservation priorities on a global scale",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Pelletier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Carstens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Tank",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sullivan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Esp\u00edndola",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Proceedings of the National Academy of Sciences, USA",
+                "volume": "115",
+                "issue": "",
+                "pages": "13027--13032",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pelletier, T. A., Carstens, B. C., Tank, D. C., Sullivan, J., & Esp\u00edndola, A. (2018). redicting plant conservation priorities on a global scale. Proceedings of the National Academy of Sciences, USA. 115, 13027-13032.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Estimates of minimum viable population sizes for vertebrates and factors influencing those estimates",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Reed",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "O'grady",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Brook",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Ballou",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Frankham",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Biological Conservation",
+                "volume": "113",
+                "issue": "",
+                "pages": "23--34",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/S0006-3207(02)00346-4"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Reed, D. H., O'Grady, J. J., Brook, B. W., Ballou, J. D., & Frankham, R. (2003). Estimates of minimum viable population sizes for vertebrates and factors influencing those estimates. Biological Conservation, 113, 23-34. https://doi.org/10.1016/S0006-3207(02)00346-4",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Comparative phylogeraphy clarifies the complexity and problems of continental distribution that drove A. R. Wallace to favor islands",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Riddle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Proceedings of the National Academy of Sciences",
+                "volume": "113",
+                "issue": "29",
+                "pages": "7970--7977",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Riddle, B. R. (2016). Comparative phylogeraphy clarifies the complexity and problems of continental distribution that drove A. R. Wallace to favor islands. Proceedings of the National Academy of Sciences, USA, 113(29), 7970-7977.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Cryptic vicariance in the historical assembly of a Baja California penninsular desert biota. Proceeding of the National Academy of Sciences",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Riddle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hafner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Alexander",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Jaeger",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "14438--14443",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Riddle, B. R., Hafner, D. J., Alexander, L. F., & Jaeger, J. R. (2000). Cryptic vicariance in the historical assembly of a Baja California penninsu- lar desert biota. Proceeding of the National Academy of Sciences, USA, 97(26), 14438-14443.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "The Birds of North America",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Rodewald",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rodewald, P. (2015). The Birds of North America. https://birdsna.org. Cornell Laboratory of Ornithology, Ithaca. New York.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Comparative population genomics in animals uncovers the determinants of genetic diversity",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Romiguier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Gayral",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ballenghien",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Bernard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Cahais",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Chenuil",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Galtier",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Nature",
+                "volume": "515",
+                "issue": "7526",
+                "pages": "261--263",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nature13685"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Romiguier, J., Gayral, P., Ballenghien, M., Bernard, A., Cahais, V., Chenuil, A., \u2026 Galtier, N. (2014). Comparative population genomics in animals uncovers the determinants of genetic diversity. Nature, 515(7526), 261-263. https://doi.org/10.1038/nature13685",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Combining allele frequency and tree-based approaches improves phylogeographic inference from natural history collections",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ruffley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Esp\u00edndola",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Carstens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sullivan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Tank",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Molecular Ecology",
+                "volume": "27",
+                "issue": "4",
+                "pages": "1012--1024",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/mec.14491"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ruffley, M., Smith, M. L., Esp\u00edndola, A., Carstens, B. C., Sullivan, J., & Tank, D. C. (2018). Combining allele frequency and tree-based ap- proaches improves phylogeographic inference from natural his- tory collections. Molecular Ecology, 27(4), 1012-1024. https://doi. org/10.1111/mec.14491",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Emerging phylogeographical patterns of plants and terrestrial vertebrates from Patagonia",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "S\u00e9rsic",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Cosacov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Cocucci",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Johnson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Pozner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Avila",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Morando",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Biological Journal of the Linnean Society",
+                "volume": "103",
+                "issue": "2",
+                "pages": "475--494",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1095-8312.2011.01656.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "S\u00e9rsic, A. N., Cosacov, A., Cocucci, A. A., Johnson, L. A., Pozner, R., Avila, L. J., \u2026 Morando, M. (2011). Emerging phylogeographi- cal patterns of plants and terrestrial vertebrates from Patagonia. Biological Journal of the Linnean Society, 103(2), 475-494. https://doi. org/10.1111/j.1095-8312.2011.01656.x",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Testing for the presence of cryptic diversity in tail-dropper slugs (Prophysaon) using molecular data",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ruffley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Rankin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Esp\u00edndola",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Tank",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sullivan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Carstens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Biological Journal of the Linnean Society",
+                "volume": "124",
+                "issue": "3",
+                "pages": "518--532",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/biolinnean/bly067"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Smith, M. L., Ruffley, M., Rankin, A. M., Esp\u00edndola, A., Tank, D. C., Sullivan, J., & Carstens, B. C. (2018). Testing for the presence of cryp- tic diversity in tail-dropper slugs (Prophysaon) using molecular data. Biological Journal of the Linnean Society, 124(3), 518-532. https://doi. org/10.1093/biolinnean/bly067",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Demographic model selection using random forests and the site frequency spectrum",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ruffley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Tank",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sullivan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Carstens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Molecular Ecology",
+                "volume": "26",
+                "issue": "17",
+                "pages": "4562--4573",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/mec.1422"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Smith, M. L., Ruffley, M., Tank, D. C., Sullivan, J., & Carstens, B. C. (2017). Demographic model selection using random forests and the site fre- quency spectrum. Molecular Ecology, 26(17), 4562-4573. https://doi. org/10.1111/mec.1422",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Comparative phylogeography of unglaciated eastern North America",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Soltis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Morris",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Mclachlan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Manos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Soltis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Molecular Ecology",
+                "volume": "15",
+                "issue": "14",
+                "pages": "4261--4293",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-294X.2006.03061.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Soltis, D. E., Morris, A. B., McLachlan, J. S., Manos, P. S., & Soltis, P. S. (2006). Comparative phylogeography of unglaciated eastern North America. Molecular Ecology, 15(14), 4261-4293. https://doi. org/10.1111/j.1365-294X.2006.03061.x",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Scaling of natal dispersal distances in terrestrial birds and mammals",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Sutherland",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Harestad",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Price",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Lertzman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Conservation Ecology",
+                "volume": "4",
+                "issue": "1",
+                "pages": "16--16",
+                "other_ids": {
+                    "DOI": [
+                        "10.5751/ES-00184-040116"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Sutherland, G. D., Harestad, A. S., Price, K., & Lertzman, K. P. (2000). Scaling of natal dispersal distances in terrestrial birds and mam- mals. Conservation Ecology, 4(1), 16-000. https://doi.org/10.5751/ ES-00184-040116",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "?pxml:id=1636. Accessed 10",
+                "authors": [],
+                "year": 2018,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "The Cornell Lab of Ornithology. (2018). Available from http://www.birds. cornell.edu/netcommunity/page.aspx?pxml:id=1636. Accessed 10 June 2018.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Phylogeographical patterns in the American Pacific Northwest: Lessons from the arionid slug Prophysaon coeruleum",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Wilke",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Duncan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Molecular Ecology",
+                "volume": "13",
+                "issue": "",
+                "pages": "2303--2315",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-294X.2004.02234.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Wilke, T., & Duncan, N. (2004). Phylogeographical patterns in the American Pacific Northwest: Lessons from the arionid slug Prophysaon coeruleum. Molecular Ecology, 13, 2303-2315. https://doi. org/10.1111/j.1365-294X.2004.02234.x",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "EltonTraits 1.0: Species-level foraging attributes of the world's birds and mammals: Ecological Archives E095-178",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Wilman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Belmaker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Simpson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "De La Rosa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Rivadeneira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Jetz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Ecology",
+                "volume": "95",
+                "issue": "7",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wilman, H., Belmaker, J., Simpson, J., de la Rosa, C., Rivadeneira, M. M., & Jetz, W. (2014). EltonTraits 1.0: Species-level foraging attributes of the world's birds and mammals: Ecological Archives E095-178. Ecology, 95(7), 2027.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Phenotypes in phylogeography: Species' traits, environmental variation and vertebrate diversification. Proceeding of the National Academy of Sciences",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Zamudio",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Bell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Mason",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "",
+                "volume": "113",
+                "issue": "",
+                "pages": "8041--8088",
+                "other_ids": {
+                    "DOI": [
+                        "10.1073/pnas.1602237113"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Zamudio, K. R., Bell, R. C., & Mason, N. A. (2016). Phenotypes in phy- logeography: Species' traits, environmental variation and vertebrate diversification. Proceeding of the National Academy of Sciences, USA, 113(29), 8041-8088. https://doi.org/10.1073/pnas.1602237113",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Methods in comparative phylogeography, and their application to studying evolution in the North American aridlands",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Zink",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Integrative and Comparative Biology",
+                "volume": "42",
+                "issue": "",
+                "pages": "953--959",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/icb/42.5.953"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Zink, R. M. (2002). Methods in comparative phylogeography, and their application to studying evolution in the North American arid- lands. Integrative and Comparative Biology, 42, 953-959. https://doi. org/10.1093/icb/42.5.953",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "text": "all observations from a particular taxon out of the reference data(b) Apply steps 2a-2e to build a classifier without using data for the omitted taxon (c) Classify each occurrence record for the omitted taxon to assess accuracy of the classifier (d) Repeat steps 3a-3c until each taxon has been used in cross validation 4. Make predictions about the value of the response variable in taxa",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF1": {
+                "text": ". Based on this, the remaining analyses were conducted with the curated set of taxa. For the classifier built with a curated set of traits and a curated set of taxa, but without taxonomy, the overall prediction accuracy was 98.3%, the cryptic prediction accuracy was 97.0%, and the noncryptic prediction accuracy was 99.7%. For the classifier built with a curated set of traits, a curated set of taxa, and taxonomy, prediction accuracies were nearly 100%, and for the classifier built with a curated set of taxa, no traits, and taxonomy, prediction accuracies were 100%.In the cross-validation analyses based on the curated set of taxa, curated trait data, and taxonomy, all taxa were classified correctly (Figure 1, red densities). To explore how replacing or supplementing taxonomy with trait data affected prediction accuracy, we compared the classifications from this classifier with those from the classifier that included only taxonomy and bioclimatic variables(Figure 1, blue densities) and with those from the classifier that included curated taxa, curated trait data, but no taxonomy(Figure 1, yellow densities) to explore how replacing or supplementing taxonomy with trait data affected prediction accuracy.For all species except Haplotrema vancouverense, accuracy did not change substantially. For H. vancouverense, prediction accuracy decreased when trait data were used, and decreased further when trait data were used without taxonomy. For this species, taxonomy contains information useful for predictions that is not captured by climatic variables or the traits that we used, and the trait data are misleading when analyzed in the absence of taxonomy. Likewise, for Microtus richardsoni, the inclusion of trait data decreases prediction accuracy, but not to the same extent as was observed for H. vanouverense.",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF2": {
+                "text": "Some differences were apparent in comparisons of classifications made from curated trait data with those from the classifier that included only taxonomy and bioclimatic variables. For two taxa (Melozone aberti/M. crissalis and Oreothlypis ruficapilla/O. luciae), inclusion of trait data has a nearly neutral effect on prediction accuracy (Figure 2). For five taxa (Anaxyrus punctatus, Callipepla gambelii/C. californica, Chaetodipus baileyi, Dipodomys merriami, and Peromyscus eremicus/P. fraterulus)",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF3": {
+                "text": "inclusion of trait data increases certainty in the correct classification.For four other complexes, addition of trait data salvages the classifier from being inaccurate and permits correct prediction. Campylorhynchus brunnicapilus and Toxostoma leconti are predicted as harbouring cryptic diversity in classifications with only taxonomy (plus climate data), whereas the classifiers with trait data included correctly predict a lack of cryptic diversity (Figure 2). For Toxosotma cinereum/T. bindirei, the classifier with taxonomy (plus climatic data) incorrectly predicts a lack of cryptic diversity, whereas inclusion of trait data in the classifiers results in correct prediction of cryptic diversity(Figure 2). For Auriparus flaviceps, the correct prediction of absence of cryptic diversity is only attainable with all three data types (climatic, taxonomic, and trait data)included. For Polioptila melanura/P. californica, the classifier with trait data led to an incorrect classification, but with taxonomy included, the presence of cryptic diversity is predicted accurately. Finally, for one complex (Ammospermophilus leucurus), predictions tended to be inaccurate regardless of whether or not trait data were used(Figure 2).",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF4": {
+                "text": "I G U R E 3 Variable Importance for the PNW. (a) Mean decrease in accuracy based on our permutation approach. Negative values indicate that inclusion of a variable decreases prediction accuracies. (b) Mean decrease in MDA. (c) Mean decrease in Gini coefficient",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF5": {
+                "text": "cialization of alpine plants on specific substrate types explained their phylogeographic patterns in the Alps. More recently, Papadopoulou and Knowles (2015) identified an organismal trait, edaphic specialization, and used it to predict which taxa were likely to have responded concordantly to fluctuations in sea level. Others have evaluated a set of organismal trait variables in a post-hoc manner. For example, Paz et al. (2015) collected nine traits from 31 anurans and devised models",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF6": {
+                "text": "Bioinformatics and Evolutionary Studies (IBEST) at the University of Idaho, which is supported by NIH NCRR 1P20RR016454-01, NIH NCRR 1P20RR016448-01 and NSF EPS-809935. MLS was supported by an NSF GRFP (DG1343012). The authors thank Drs. Michael Cummings (University of Maryland) and James Foster (University of Idaho) for independently suggesting use of random forest classifiers. Comments provided by Dr Brent Emerson and three anonymous reviewers are also very much appreciated and improved the manuscript a great deal. AUTH O R CO NTR I B UTI O N M.S. and A.E. conducted most of the analyses. J.S. and M.S. wrote the first draft. J.S., B.C.C. and D.C.T. secured funding and conceived of the research program. All authors contributed to the intellectual development of the paper, made multiple revisions, and approved of the final draft.DATA ACCE SS I B I LIT YInput files for all random forest analyses are available on Dryad (https://doi.org/10.5061/dryad.s6v210k). Scripts developed as a part of the work presented here are available on github (https:// github.com/meganlsmith).",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "TABREF1": {
+                "text": "The third and fourth RF classifiers were constructed with and without taxonomy, respectively (Curated Taxa, All Traits & Taxonomy;Curated Taxa, All Traits & No Taxonomy). Based on results from the comparisons between the full and curated taxon sets (see below), we only included the subset of the taxa for which we had confidence in the classifications (the curated taxon set) in the remaining classifiers. The final RF classifiers were constructed based on the results of assessments of variable importance. Based on these measures (see below), we chose to remove maximum size from the model, as it tended to mislead the classifier. We constructed these final classifiers both with and without taxonomy as a predictor variable (Curated",
+                "type_str": "table",
+                "content": "<table/>",
+                "num": null
+            },
+            "TABREF3": {
+                "text": "). MDA is calculated by permuting variable i, calculating the OoB error rate, and comparing this error rate to the error rate when variable i is included in the model unpermuted. This reveals whether a particular variable increases the accuracy of the classifier and by how much, allowing for variables to be ranked based on their importance in the accuracy of the classifier. GINI measures the gain of node purity in splits for a given variable. Variables that are informative about classification should tend to split observations",
+                "type_str": "table",
+                "content": "<table/>",
+                "num": null
+            },
+            "TABREF4": {
+                "text": "TA B L E 2 Accuracy of Pacific Northwest of North America random forest classifiers Predition accuracies are calculated as inEsp\u00edndola et al. (2016), as the ratio of correctly predicted localities to total predicted localities *100.",
+                "type_str": "table",
+                "content": "<table><tr><td/><td>Overall OoB a</td><td>Overall prediction</td><td>Cryptic prediction</td><td>Noncryptic prediction</td></tr><tr><td>Model</td><td>error rate (%)</td><td>accuracy b (%)</td><td>accuracy (%)</td><td>accuracy (%)</td></tr><tr><td>All Taxa, All Traits &amp; Taxonomy</td><td>0.000</td><td>100.00</td><td>100.00</td><td>100.00</td></tr><tr><td>All Taxa, All Traits &amp; No Taxonomy</td><td>0.000</td><td>97.0</td><td>97.0</td><td>97.0</td></tr><tr><td>Curated Taxa, All Traits &amp; Taxonomy</td><td>0.000</td><td>100.00</td><td>100.00</td><td>100.00</td></tr><tr><td>Curated Taxa, All Traits &amp; No taxonomy</td><td>0.000</td><td>97.7</td><td>96.9</td><td>98.4</td></tr><tr><td>Curated Taxa, Curated Traits &amp; Taxonomy</td><td>0.000</td><td>100.0</td><td>99.9</td><td>100.00</td></tr><tr><td>Curated Taxa, Curated Traits &amp; No Taxonomy</td><td>0.000</td><td>98.3</td><td>97.0</td><td>99.7</td></tr><tr><td>Curated Taxa, No Traits &amp; Taxonomy</td><td>0.000</td><td>100.00</td><td>100.00</td><td>100.00</td></tr></table>",
+                "num": null
+            },
+            "TABREF9": {
+                "text": "using only climate and taxonomic data were quite accurate; there is little room for increasing prediction accuracy by adding trait data. Because of the taxonomic breadth, life history features that are difficult to elucidate across all the taxa, but that may nevertheless be important in structuring genetic diversity, may correlate with taxonomy.",
+                "type_str": "table",
+                "content": "<table/>",
+                "num": null
+            }
+        }
+    }
+}

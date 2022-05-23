@@ -1,0 +1,2865 @@
+{
+    "paper_id": "Tuckeretal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:34:52.210808Z"
+    },
+    "title": "Phylogenetic relationships in the subgenus Mus ( genus Mus, family Muridae, subfamily Murinae): examining gene trees and species trees",
+    "authors": [
+        {
+            "first": "Priscilla",
+            "middle": [
+                "K"
+            ],
+            "last": "Tucker",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Sara",
+            "middle": [
+                "A"
+            ],
+            "last": "Sandstedt",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Barbara",
+            "middle": [
+                "L"
+            ],
+            "last": "Lundrigan",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Michigan State University",
+                "location": {
+                    "postCode": "48824-1045",
+                    "settlement": "East Lansing",
+                    "region": "Michigan",
+                    "country": "USA"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Over eight kilobases (kb) of sequence from eight genes including two mitochondrial loci, Cyt b and 12S, and six nuclear loci, B2m , Zp3 , Tcp1, Sry, Smcx and Smcy , were used to investigate phylogenetic relationships among 11 taxa representing eight species within the rodent genus Mus. Particular attention was given to discerning relationships among species within the subgenus Mus including members of a Palearctic clade (M. musculus , M. spicilegus , M. macedonicus and M. spretus) and members of an Asian clade (M. caroli , M. cookii and M. cervicolor), as previous studies using different datasets have produced different topologies for taxa within these two groups. While parsimony analyses of the combined eight-gene dataset yielded a single, fully resolved tree, support values were lower for nodes resolving relationships within the Palearctic and Asian clades than they were elsewhere in the tree. In addition, a maximum likelihood analysis of the same eight-gene dataset yielded different topologies for both the Palearctic and the Asian clades. Both observations are indicative of clade instability. The nature of this instability was explored through a comparison with our previous study in which we included the two mitochondrial loci and only four of the six nuclear genes, and through an analysis of partitioned data, specifically mitochondrial vs. nuclear genes. This study underscores the importance of considering among-site rate variation in phylogeny reconstruction.",
+    "pdf_parse": {
+        "paper_id": "Tuckeretal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Over eight kilobases (kb) of sequence from eight genes including two mitochondrial loci, Cyt b and 12S, and six nuclear loci, B2m , Zp3 , Tcp1, Sry, Smcx and Smcy , were used to investigate phylogenetic relationships among 11 taxa representing eight species within the rodent genus Mus. Particular attention was given to discerning relationships among species within the subgenus Mus including members of a Palearctic clade (M. musculus , M. spicilegus , M. macedonicus and M. spretus) and members of an Asian clade (M. caroli , M. cookii and M. cervicolor), as previous studies using different datasets have produced different topologies for taxa within these two groups. While parsimony analyses of the combined eight-gene dataset yielded a single, fully resolved tree, support values were lower for nodes resolving relationships within the Palearctic and Asian clades than they were elsewhere in the tree. In addition, a maximum likelihood analysis of the same eight-gene dataset yielded different topologies for both the Palearctic and the Asian clades. Both observations are indicative of clade instability. The nature of this instability was explored through a comparison with our previous study in which we included the two mitochondrial loci and only four of the six nuclear genes, and through an analysis of partitioned data, specifically mitochondrial vs. nuclear genes. This study underscores the importance of considering among-site rate variation in phylogeny reconstruction.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "The rodent genus Mus (family Muridae, subfamily Murinae), comprising approximately 30-40 species of mice (Musser & Carleton, 1993) , has been the subject of numerous phylogenetic investigations over the last two decades (see Berry & Scriven, 2005, this issue) . These studies focused primarily on taxa in the subgenus Mus and incorporated comparative data from allozymes (Sage, 1981; Bonhomme et al ., 1984; She et al ., 1990) , mitochondrial DNA (mtDNA) restriction fragment length polymorphisms (RFLPs) (Ferris et al ., 1983; She et al ., 1990) , RFLPs of nuclear rDNA spacer regions (Suzuki & Kurihara, 1994) , single-copy nuclear DNA (scnDNA) hybridization (She et al ., 1990; Catzeflis & Denys, 1992; Chevret, Jenkins & Catzeflis, 2003) , mtDNA sequences (Fort et al ., 1984; Sourrouille et al ., 1995; Prager, Tichy & Sage, 1996; Prager, Orrego & Sage, 1998; Lundrigan, Jansa & Tucker, 2002; Chevret et al. , 2003) and nuclear sequences (Jouvin-Marche et al ., 1988; Lundrigan & Tucker, 1994; Lundrigan et al ., 2002; Auffray et al ., 2003) . species are due to rate differences (Lundrigan et al ., 2002) . Unlike each one of the nuclear genes, Cyt b is evolving rapidly enough to contribute a considerable number of informative characters to resolve relationships among these closely related taxa. However, the Cyt b data were homoplasious; for example, the sistergroup relationship between M. caroli and M. cookii in the mitochondrial parsimony tree was weakly supported. We concluded that homoplasy in one data partition, specifically Cyt b , may be obscuring phylogenetic signal in the combined data.",
+                "cite_spans": [
+                    {
+                        "start": 105,
+                        "end": 130,
+                        "text": "(Musser & Carleton, 1993)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 225,
+                        "end": 259,
+                        "text": "Berry & Scriven, 2005, this issue)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 371,
+                        "end": 383,
+                        "text": "(Sage, 1981;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 384,
+                        "end": 407,
+                        "text": "Bonhomme et al ., 1984;",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 408,
+                        "end": 426,
+                        "text": "She et al ., 1990)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 505,
+                        "end": 527,
+                        "text": "(Ferris et al ., 1983;",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 528,
+                        "end": 546,
+                        "text": "She et al ., 1990)",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 586,
+                        "end": 611,
+                        "text": "(Suzuki & Kurihara, 1994)",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 661,
+                        "end": 680,
+                        "text": "(She et al ., 1990;",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 681,
+                        "end": 705,
+                        "text": "Catzeflis & Denys, 1992;",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 706,
+                        "end": 741,
+                        "text": "Chevret, Jenkins & Catzeflis, 2003)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 760,
+                        "end": 780,
+                        "text": "(Fort et al ., 1984;",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 781,
+                        "end": 807,
+                        "text": "Sourrouille et al ., 1995;",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 808,
+                        "end": 835,
+                        "text": "Prager, Tichy & Sage, 1996;",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 836,
+                        "end": 864,
+                        "text": "Prager, Orrego & Sage, 1998;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 865,
+                        "end": 897,
+                        "text": "Lundrigan, Jansa & Tucker, 2002;",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 898,
+                        "end": 920,
+                        "text": "Chevret et al. , 2003)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 943,
+                        "end": 972,
+                        "text": "(Jouvin-Marche et al ., 1988;",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 973,
+                        "end": 998,
+                        "text": "Lundrigan & Tucker, 1994;",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 999,
+                        "end": 1023,
+                        "text": "Lundrigan et al ., 2002;",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1024,
+                        "end": 1046,
+                        "text": "Auffray et al ., 2003)",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 1085,
+                        "end": 1110,
+                        "text": "(Lundrigan et al ., 2002)",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "This paper, an extension of our previous study, utilized a larger nuclear dataset to reassess phylogenetic relationships among species within the Palearctic clade, in particular the position of M. spretus, and the relationships among species in the Asian clade. Specifically, we increased the number of informative nuclear characters by sequencing over 3 kb from both introns and exons of two nuclear genes, Smcx and Smcy , producing a combined eight-gene dataset. We also re-examined, in greater detail than in our previous paper (Lundrigan et al ., 2002) , the contribution of nucleotide characters to the phylogenetic signal, including noncoding sequences and coding sequences by codon position.",
+                "cite_spans": [
+                    {
+                        "start": 531,
+                        "end": 556,
+                        "text": "(Lundrigan et al ., 2002)",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "A total of 13 taxa representing ten species from three genera, Mus , Mastomys and Hylomyscus , were used in this study. The genus Mus was represented by two of the four subgenera, Mus and Coelomys ; the latter subgenus was represented by a single taxon, M. pahari . The origins for all samples were provided in the appendix of our earlier study (Lundrigan et al., 2002) . Three of the species used in the earlier study were excluded from this study because additional sequence data from Smcx and Smcy were not available. All of the species are members of the rodent family Muridae and the subfamily Murinae, the Old-World mice and rats. Muridae is the largest mammalian family, containing 281 genera and 1326 species (Musser & Carleton, 1993) . The sister group to Mus is unknown, although there is evidence from DNA hybridization (Catzeflis & Denys, 1992; Chevret et al., 1994) and nuclear gene data (Jansa & Weksler, 2004) for a sistergroup relationship with the Praomys group. Thus, members of the Praomys group (Hylomyscus alleni and Mastomys hildebrantii) were used as outgroups to root trees in this study.",
+                "cite_spans": [
+                    {
+                        "start": 345,
+                        "end": 369,
+                        "text": "(Lundrigan et al., 2002)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 717,
+                        "end": 742,
+                        "text": "(Musser & Carleton, 1993)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 831,
+                        "end": 856,
+                        "text": "(Catzeflis & Denys, 1992;",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 857,
+                        "end": 878,
+                        "text": "Chevret et al., 1994)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 901,
+                        "end": 924,
+                        "text": "(Jansa & Weksler, 2004)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIAL AND METHODS S PECIES",
+                "sec_num": null
+            },
+            {
+                "text": "The house mice M. musculus musculus and M. m. domesticus were represented as subspecies due to their ability to hybridize along contact zones (Boursot et al., 1993) . However, these hybrids suffer from a loss of fertility and the species are genetically and morphologically distinct away from the hybrid zones. Thus, M. m. domesticus is sometimes referred to as a distinct species, M. domesticus (Marshall, 1981; Prager et al., 1998) . M. m. molossinus is the result of hybridizations of M. m. musculus, M. m. castaneus, and occasionally M. domesticus, in Japan (Yonekawa et al., 1988) .",
+                "cite_spans": [
+                    {
+                        "start": 142,
+                        "end": 164,
+                        "text": "(Boursot et al., 1993)",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 396,
+                        "end": 412,
+                        "text": "(Marshall, 1981;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 413,
+                        "end": 433,
+                        "text": "Prager et al., 1998)",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 488,
+                        "end": 585,
+                        "text": "M. m. musculus, M. m. castaneus, and occasionally M. domesticus, in Japan (Yonekawa et al., 1988)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIAL AND METHODS S PECIES",
+                "sec_num": null
+            },
+            {
+                "text": "The complete dataset included nucleotide sequences from eight genes. Six of these genes, the male sexdetermining locus (Sry), cytochrome b (Cytb), 12S ribosomal RNA (12S), B2-microglobulin (B2m), zona pellucida-3 (Zp3), and t-complex polypeptide-1 (Tcp1), were used in our earlier study and are described in Lundrigan et al. (2002) . Smcy (selected mouse cDNA Y) and Smcx are members of the jumonji family of transcription factors (Takeuchi et al., 1995) and are thought to be involved in chromatin-mediated transcriptional regulation (Aasland, Gibson & Stewart, 1995) . Smcy encodes several of the H-Y antigens that can cause the rejection of male-donor tissue transplants in female recipients (Scott et al., 1995; Wang et al., 1995) . Cytb and 12S are mitochondrial genes. Sry and Smcy are located on the Y chromosome. Smcx is located on the X chromosome. B2m, Zp3 and Tcp1 are located on autosomes.",
+                "cite_spans": [
+                    {
+                        "start": 308,
+                        "end": 331,
+                        "text": "Lundrigan et al. (2002)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 431,
+                        "end": 454,
+                        "text": "(Takeuchi et al., 1995)",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 535,
+                        "end": 568,
+                        "text": "(Aasland, Gibson & Stewart, 1995)",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 695,
+                        "end": 715,
+                        "text": "(Scott et al., 1995;",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 716,
+                        "end": 734,
+                        "text": "Wang et al., 1995)",
+                        "ref_id": "BIBREF43"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GENES SEQUENCED",
+                "sec_num": null
+            },
+            {
+                "text": "Genomic DNA was extracted from frozen tissues (Jenkins et al., 1982) . All sequences were enzymatically amplified by PCR (Saiki et al., 1985) . The primers used, sequencing methods employed for six of the genes (Sry, Cytb, 12S, B2m, Zp3, Tcp1) and GenBank accession numbers are given elsewhere (Lundrigan et al., 2002) . A fragment of Smcy including two complete exons (600 bp and 82 bp in length), a 9-bp portion of one other exon, and three introns (ranging from 176 to 204, 401 to 780, and 128 to 129 bp in length) was isolated. The beginning of the fragment corresponded to base 3443 and the end to base 4129 of an Smcy sequence from M. musculus, accession number AF127244, obtained from GenBank. The corresponding fragment of Smcx including two complete exons of 582 and 70 bp in length, a 9-bp portion of another exon, and introns ranging from 171 to 176, 266 to 282, and 145 to 146 bp in length was also isolated. The beginning of this fragment corresponded to base 3728 and the end to base 4387 of an Smcx sequence from M. musculus, accession number AF127245, obtained from GenBank. The GenBank sequences of Smcy and Smcx used as references did not contain introns. Amplifications were performed using primers under various cycling conditions determined empirically using several primer sets in different taxa (Sandstedt & Tucker, 2004) . Sequencing was done as described in Sandstedt & Tucker (2004) . The Smcx and Smcy sequences have been deposited in GenBank (accession numbers AY260478-AY260503).",
+                "cite_spans": [
+                    {
+                        "start": 46,
+                        "end": 68,
+                        "text": "(Jenkins et al., 1982)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 121,
+                        "end": 141,
+                        "text": "(Saiki et al., 1985)",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 211,
+                        "end": 216,
+                        "text": "(Sry,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 217,
+                        "end": 222,
+                        "text": "Cytb,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 223,
+                        "end": 227,
+                        "text": "12S,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 228,
+                        "end": 232,
+                        "text": "B2m,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 233,
+                        "end": 237,
+                        "text": "Zp3,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 238,
+                        "end": 243,
+                        "text": "Tcp1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 294,
+                        "end": 318,
+                        "text": "(Lundrigan et al., 2002)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1318,
+                        "end": 1344,
+                        "text": "(Sandstedt & Tucker, 2004)",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 1383,
+                        "end": 1408,
+                        "text": "Sandstedt & Tucker (2004)",
+                        "ref_id": "BIBREF33"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DNA AMPLIFICATION AND SEQUENCING",
+                "sec_num": null
+            },
+            {
+                "text": "Smcy and Smcx nucleotide sequences were aligned using Clustal X (Thompson et al., 1997) and adjusted by eye using amino acid alignments as a guide. These sequences were then combined with aligned sequences from the six genes from Lundrigan et al. (2002) to produce an eight-gene dataset.",
+                "cite_spans": [
+                    {
+                        "start": 64,
+                        "end": 87,
+                        "text": "(Thompson et al., 1997)",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 230,
+                        "end": 253,
+                        "text": "Lundrigan et al. (2002)",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ALIGNMENT",
+                "sec_num": null
+            },
+            {
+                "text": "Maximum parsimony analyses were performed on Smcx, Smcy, the combined nuclear six-gene dataset, the combined mitochondrial two-gene dataset, and the combined eight-gene dataset, using the branch and bound option as implemented in PAUP* version 4.0b10 (Swofford, 2002) . In all but one analysis, phylogenetically informative characters were equally weighted and unordered. Gaps were treated as missing characters. To assess the influence of Cytb transitional substitutions on the tree topology, transitional substitutions were down-weighted in one analysis of the combined eight-gene dataset. Trees were rooted using the outgroup taxa, H. alleni and Ma. hildebrantii. Bootstrap analyses were performed using the full heuristic option with 1000 replicates and tree-bisection-and-reconnection (TBR) branch swapping. TreeRot version 2 (Sorenson, 1999) was used to construct PAUP* command files for use in the Bremer support (Bremer, 1988 (Bremer, , 1994 calculations.",
+                "cite_spans": [
+                    {
+                        "start": 251,
+                        "end": 267,
+                        "text": "(Swofford, 2002)",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 831,
+                        "end": 847,
+                        "text": "(Sorenson, 1999)",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 920,
+                        "end": 933,
+                        "text": "(Bremer, 1988",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 934,
+                        "end": 949,
+                        "text": "(Bremer, , 1994",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "PHYLOGENETIC ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "Maximum likelihood analyses were performed on the same datasets as described above using PAUP* ver. 4.0b10 (Swofford, 2002) . The program Modeltest (Posada & Crandall, 1998) was used to identify best-fit models for Smcx (HKY + G), Smcy (HKY + G), the combined six-gene nuclear dataset (HKY + G), the combined two-gene mitochondrial dataset (TrN + G + I) and the combined eight-gene dataset (TrN + G + I). The maximum likelihood trees were determined using heuristic searches and TBR branch swapping. Starting trees were obtained via random stepwise addition with 1000 replicates. Bootstrap analyses were performed using the full heuristic option with 500 pseudoreplicates.",
+                "cite_spans": [
+                    {
+                        "start": 107,
+                        "end": 123,
+                        "text": "(Swofford, 2002)",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 148,
+                        "end": 173,
+                        "text": "(Posada & Crandall, 1998)",
+                        "ref_id": "BIBREF28"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "PHYLOGENETIC ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "Bayesian phylogenetic analyses were conducted with Mr Bayes 3.0b4 (Huelsenbeck & Ronquist, 2001) with parameters estimated separately for each of the genes. Three separate analyses using the combined eight-gene, the combined-six gene nuclear and the combined two-gene mitochondrial datasets were con-ducted. Each analysis was initiated with random starting trees and was run for 2 \u00a5 10 6 generations, sampling every 100th generation. Four continuous chains were run. To check that stationarity had been reached, the fluctuating value of the likelihood was checked graphically. The initial 1000 trees were discarded as burn-in. The effective sample size of all parameters as determined in Tracer (Rambaut & Drummond, 2003) was greater than 100. This indicated that parameters were sampled appropriately. The simulation was conducted twice.",
+                "cite_spans": [
+                    {
+                        "start": 66,
+                        "end": 96,
+                        "text": "(Huelsenbeck & Ronquist, 2001)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 695,
+                        "end": 721,
+                        "text": "(Rambaut & Drummond, 2003)",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "PHYLOGENETIC ANALYSES",
+                "sec_num": null
+            },
+            {
+                "text": "To assess character congruence among genes, the Mickevich-Farris character incongruence metric (Mickevich & Farris, 1981) was used. Statistical significance was calculated with the ILD test as described in Farris et al. (1994) and implemented in PAUP* version 4.0b10. Each test included 1000 replicates. Searches were heuristic with simple taxon addition and TBR branch swapping. Only informative characters were used.",
+                "cite_spans": [
+                    {
+                        "start": 95,
+                        "end": 121,
+                        "text": "(Mickevich & Farris, 1981)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 206,
+                        "end": 226,
+                        "text": "Farris et al. (1994)",
+                        "ref_id": "BIBREF14"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ILD tests",
+                "sec_num": null
+            },
+            {
+                "text": "To determine whether likelihood scores for alternate topologies were significantly different, Shimodaira-Hasegawa tests (Shimodaira & Hasegawa, 1999) were performed as implemented in PAUP* version 4.0b10.",
+                "cite_spans": [
+                    {
+                        "start": 120,
+                        "end": 149,
+                        "text": "(Shimodaira & Hasegawa, 1999)",
+                        "ref_id": "BIBREF36"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Shimodaira-Hasegawa test",
+                "sec_num": null
+            },
+            {
+                "text": "Basic statistics for all eight genes, including non-coding and coding sequences (partitioned by codon position), are given in Table 1 . These statistics are base composition, total number of nucleotides analysed, numbers of variable and parsimony-informative characters and consistency indices (CIs) excluding uninformative characters. CIs are given for both the eight-gene parsimony tree and the eight-gene likelihood tree to assess homoplasy for alternative topologies. Separate CIs for transition and transversion substitutions are given for each. Cytb contributed the largest number of variable characters (28% of the total number) and the largest number of parsimonyinformative characters (37% of the total number) for any single gene. Cytb third-position sites contributed 21% of the total number of variable characters and 30% of the total number of parsimony-informative characters. Smcy contributed the second largest number of variable characters (18% of the total number) and the second largest number of parsimonyinformative characters (18%). Smcy's non-coding sequence contributed 13% of the total number of variable characters and 12% of the total number of parsimony-informative characters.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 126,
+                        "end": 133,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Basic statistics",
+                "sec_num": null
+            },
+            {
+                "text": "Cytb had the lowest CIs for transition substitutions at each codon position (range, 0.3848-0.5556) of all genes (range, 0.5556-1) with the exception of B2m; the second codon position of Cytb and the first codon position of B2m had identical CIs. The CIs for transition substitutions were higher when the mitochondrial gene characters were mapped on to the combined eight-gene maximum parsimony tree vs. the combined eight-gene maximum likelihood tree. The exception was second-position sites for Cytb, where the CIs were identical. The CIs for transition substitutions on the eight-gene maximum likelihood tree were higher than or identical to the CIs for transitional substitutions on the eight-gene parsimony tree when the nuclear characters were mapped. The CIs for transversion substitutions ranged from 0.5 to 1. No general pattern for CIs was observed between mitochondrial and nuclear genes, or among codon positions, when transversions were mapped onto the combined eight-gene maximum likelihood tree or the combined eight-gene maximum parsimony tree.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Basic statistics",
+                "sec_num": null
+            },
+            {
+                "text": "Parsimony and likelihood analyses for Smcx produced identical trees (Fig. 1 ). M. spretus was sister to the M. spicilegus/M. macedonicus clade and the relationship among the Asian taxa, M. cervicolor, M. caroli and M. cookii, was unresolved. Parsimony and likelihood analyses for Smcy yielded trees that differed in the placement of M. spretus (Fig. 1 ). In the parsimony analysis two most parsimonious trees were recovered. In one tree, M. spretus was sister to the M. spicilegus/ M. macedonicus clade. In the other tree, M. spretus was basal to a clade comprising the M. spicilegus/ M. macedonicus clade and M. musculus. In the likelihood analysis M. spretus was sister to the M. spicilegus/M. macedonicus clade, although bootstrap support for this arrangement was less than 50%. In all trees, the Palearctic species of Mus and the Asian species of Mus each formed monophyletic groups and the subgenus Mus constituted a monophyletic group. Parsimony and likelihood bootstrap values for both genes were similar (Fig. 1) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 68,
+                        "end": 75,
+                        "text": "(Fig. 1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 344,
+                        "end": 351,
+                        "text": "(Fig. 1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1012,
+                        "end": 1020,
+                        "text": "(Fig. 1)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Individual-gene analyses",
+                "sec_num": null
+            },
+            {
+                "text": "Pairwise ILD tests for Smcx with each of the nuclear and mitochondrial genes and for Smcy with each of the nuclear and mitochondrial genes failed to reject the null hypothesis of dataset homogeneity (P < 0.01 as recommended by Cunningham, 1997) . P-values ranged from 0.024 to 1.0. This result is consistent with previous tests for the other genes in the dataset (Lundrigan et al., 2002) . ILD tests on mitochondrial (Cytb and 12S) and nuclear partitions (Smcx, Smcy, Sry, Base composition, length of sequence examined (total), number of variable characters (var.) and parsimony informative characters (pars. info.) for non-coding sequence and coding sequence by codon position for the eight genes used in the phylogenetic analyses. Consistency indices (CIs) excluding uninformative characters for characters mapped on the combined eight-gene maximum parsimony (MP) and maximum likelihood (ML) trees are given for transitions and transversions. B2m, Zp3, Tcp1) and on maternally inherited (Cytb and 12S) and biparentally inherited (Smcx, B2m, Zp3, Tcp1) partitions were significantly incongruent; Pvalues were 0.001 and 0.008, respectively. ILD tests on maternally inherited (Cytb and 12S) and paternally inherited (Smcy, Sry) partitions and biparentally inherited (Smcx, B2m, Zp3, Tcp1) and paternally inherited (Smcy, Sry) partitions failed to reject the null hypothesis of dataset homogeneity; P-values were 0.06 and 1, respectively.",
+                "cite_spans": [
+                    {
+                        "start": 227,
+                        "end": 244,
+                        "text": "Cunningham, 1997)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 363,
+                        "end": 387,
+                        "text": "(Lundrigan et al., 2002)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1265,
+                        "end": 1271,
+                        "text": "(Smcx,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1272,
+                        "end": 1276,
+                        "text": "B2m,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1277,
+                        "end": 1281,
+                        "text": "Zp3,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1282,
+                        "end": 1287,
+                        "text": "Tcp1)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ILD tests",
+                "sec_num": null
+            },
+            {
+                "text": "Parsimony analyses of the combined eight-gene dataset yielded a single, fully resolved tree ( Fig. 2A) . Within the Palearctic clade, M. spretus was basal to a group comprising the M. spicilegus/M. macedonicus clade and the M. musculus clade. Bootstrap and Bremer support values for this arrangement were 71% and 3, respectively. Within the Asian clade, M. caroli and M. cookii were sister taxa, and M. cervicolor was sister to that clade, although this relationship was not well supported, with bootstrap and Bremer support values of 54% and 1, respectively.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 94,
+                        "end": 102,
+                        "text": "Fig. 2A)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Combined eight-gene analysis",
+                "sec_num": null
+            },
+            {
+                "text": "In parsimony analyses of the combined eight-gene dataset where transitional substitutions were downweighted to 0.9, M. caroli switched from being sister to M. cookii to a basal position in the Asian clade. This tree topology remained stable until Cytb transitional substitutions were successively down-weighted to 0.3, at which point M. spretus switched from a basal position in the Palearctic clade to being sister to M. spicilegus/M. macedonicus.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Combined eight-gene analysis",
+                "sec_num": null
+            },
+            {
+                "text": "A maximum likelihood analysis and a Bayesian analysis of the combined eight-gene dataset produced fully resolved trees (Fig. 2B) . In contrast to the parsimony tree, M. spretus was sister to the M. spicilegus/ M. macedonicus clade within the Palearctic clade with bootstrap support of 58% and posterior probability of 0.99, and M. caroli was basal to an M. cervicolor and M. cookii clade with bootstrap support of 85% and posterior probability of 1.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 119,
+                        "end": 128,
+                        "text": "(Fig. 2B)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Combined eight-gene analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Parsimony analyses of the combined two-gene mitochondrial dataset yielded two most parsimonious trees differing only with respect to the relationship of M. m. castaneus and M. m. domesticus to an M. m musculus/M. m. molossinus clade (Fig. 3) . Relationships among species within the Palearctic clade were identical to the combined eight-gene parsimony tree. Bootstrap and Bremer support values for the placement of M. spretus as basal to the other species in the Palearctic clade were 95% and 6, respectively. Likewise, relationships among species within the Asian clade were identical to the combined eight-gene parsimony tree. Bootstrap and Bremer support values for the placement of M. cervicolor as basal to an M. caroli/M. cookii clade were 72% and 9, respectively. Maximum likelihood and Bayesian analyses of the combined two-gene mitochondrial dataset produced trees identical to the most parsimonious tree in which M. m. castaneus was sister to the M. m. musculus/ M. m. molossinus clade. Bootstrap support for this arrangement was less than 50% in the likelihood analysis and was 0.54 in the Bayesian analysis. Bootstrap values for the likelihood analysis and Bayesian posterior probabilities were generally similar to bootstrap values for the parsimony tree with the exception of the M. caroli/M. cervicolor clade where the maximum likelihood bootstrap value of 54% was considerably lower than a parsimony bootstrap value of 72% and a Bayesian posterior probability of 0.73 (Fig. 3) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 233,
+                        "end": 241,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 1484,
+                        "end": 1492,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Combined mitochondrial analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Parsimony analyses of the combined six-gene nuclear dataset yielded a single most parsimonious tree (Fig. 3) identical to the eight-gene tree. Within the Palearctic clade, M. spretus was sister to the M. spicilegus/M. macedonicus clade with bootstrap and Bremer support values of 75% and 3, respectively. Within the Asian clade, M. caroli was basal to an M. cervicolor/M. cookii clade with bootstrap and Bremer support values of 99% and 8, respectively. A maximum likelihood analysis and a Bayesian analysis of the combined six-gene nuclear dataset produced identical trees. Bayesian posterior probabilities and bootstrap values for the likelihood tree were similar to bootstrap values for the parsimony tree with one exception: support for M. spretus as sister to the M. spicilegus/M. macedonicus clade was considerably higher, with a bootstrap value of 92% and a posterior probability of 1 (Fig. 3 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 100,
+                        "end": 108,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 892,
+                        "end": 899,
+                        "text": "(Fig. 3",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Combined nuclear analysis",
+                "sec_num": null
+            },
+            {
+                "text": "A Shimodaira-Hasegawa (Shimodaira & Hasegawa, 1999) test was performed on the eight-gene dataset to determine whether the likelihood score (-lnL 22504) for a tree identical to the eight-gene parsimony tree was significantly different from the tree with the highest likelihood (-lnL 22490) . No significant difference (at the P < 0.05 level) was found (P = 0.162). Shimodaira-Hasegawa tests were also performed on the two-gene mitochondrial dataset to determine whether the likelihood score (-lnL 7990) for a tree identical to the mitochondrial tree was significantly different from the likelihood score (-lnL 8037) for a tree identical to the nuclear tree as well as on the sixgene nuclear dataset to determine whether the likelihood score (-lnL 14269) for a tree identical to the mitochondrial tree was significantly different from the likelihood score (-lnL 14220) for a tree identical to the nuclear tree. For both tests scores were significantly different.",
+                "cite_spans": [
+                    {
+                        "start": 22,
+                        "end": 51,
+                        "text": "(Shimodaira & Hasegawa, 1999)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 276,
+                        "end": 288,
+                        "text": "(-lnL 22490)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Shimodaira-Hasegawa test",
+                "sec_num": null
+            },
+            {
+                "text": "The addition of over 3 kb of sequence, from both introns and exons of two nuclear genes, to our comparative molecular dataset (Lundrigan et al., 2002) generated several interesting results. In contrast to our previous study, ILD tests indicated incongruence between the mitochondrial and nuclear datasets. Not Nuclear surprisingly, Shimodaira-Hasegawa tests comparing alternate (nuclear vs. mitochondrial) topologies for the separate mitochondrial and nuclear datasets were also significantly different. Differences between the mitochondrial and nuclear phylogenies could reflect different histories for these two genomes resulting from differential introgression of mitochondrial vs. nuclear genes or it could reflect lineage sorting or rate heterogeneity.",
+                "cite_spans": [
+                    {
+                        "start": 126,
+                        "end": 150,
+                        "text": "(Lundrigan et al., 2002)",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "The basal position of M. caroli within the Asian clade in the combined nuclear gene tree (Fig. 3) contrasted with the basal position of M. cervicolor in the combined mitochondrial tree ( Fig. 3 ; Lundrigan et al., 2002: fig. 3 ). However, there was no compelling evidence to support the hypothesis of a different history for the mitochondrial and nuclear genomes because the position of M. cervicolor as basal was weakly supported in the mitochondrial tree (bootstraps of 54% and 72% for maximum likelihood and maximum parsimony trees, respectively, Fig. 3 ). In the combined eight-gene parsimony tree ( Fig. 2A ) M. cervicolor was basal but bootstrap/Bremer support values (54%/1) were also low. In contrast, the basal position of M. caroli was more strongly supported in the eightgene likelihood tree (bootstrap of 85%, Fig. 2B ) and in the combined nuclear tree (bootstraps of 99% and 100% for maximum likelihood and maximum parsimony trees, respectively, Fig. 3 ). Because the mitochondrial gene Cytb contributed the greatest number of informative characters for any single gene, with transition substitutions, especially at first-and thirdposition sites, exhibiting considerable homoplasy (Table 1) , we explored the contribution of transition substitutions in Cytb to the phylogenetic signal through successive down-weighting in a combined eight-gene parsimony analysis. A slight decrease in weighting, from 1.0 to 0.9, resulted in the repositioning of M. caroli to a basal position in the Asian clade. This suggests instability for the topology in which M. caroli is sister to M. cookii in the eight-gene parsimony tree ( Fig. 2A ) and the two-gene mitochondrial tree (Fig. 3 ) and is consistent with the observed low bootstrap and Bremer support values for that arrangement in those two trees.",
+                "cite_spans": [
+                    {
+                        "start": 196,
+                        "end": 226,
+                        "text": "Lundrigan et al., 2002: fig. 3",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 89,
+                        "end": 97,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 187,
+                        "end": 193,
+                        "text": "Fig. 3",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 550,
+                        "end": 556,
+                        "text": "Fig. 3",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 604,
+                        "end": 611,
+                        "text": "Fig. 2A",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 822,
+                        "end": 829,
+                        "text": "Fig. 2B",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 959,
+                        "end": 965,
+                        "text": "Fig. 3",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 1194,
+                        "end": 1203,
+                        "text": "(Table 1)",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 1629,
+                        "end": 1636,
+                        "text": "Fig. 2A",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 1675,
+                        "end": 1682,
+                        "text": "(Fig. 3",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "THE ASIAN CLADE",
+                "sec_num": null
+            },
+            {
+                "text": "The addition of two nuclear genes to our comparative molecular dataset resulted in lower bootstrap and Bremer support values for the position of M. spretus as basal to the rest of the Palearctic taxa in the combined eight-gene parsimony analysis (71%/3) ( Fig. 2A) vs. the combined six-gene parsimony analysis (88%/6) (Lundrigan et al., 2002; Fig. 4 ). This result is most likely due to the influence of Smcx and possibly Smcy. The Smcx gene tree supported the alternate topology, in which M. spretus was sister to M. spicilegus/ M. macedonicus, and the Smcy tree was unresolved with respect to the position of M. spretus within the Palearctic clade. There was also increased bootstrap and Bremer support (75%/3) for M. spretus as sister to M. spicilegus/M. macedonicus in the combined sixgene nuclear analysis (Fig. 3) in comparison with the combined four-gene nuclear analysis (66%/2, Lundrigan et al., 2002, fig. 3 ).",
+                "cite_spans": [
+                    {
+                        "start": 318,
+                        "end": 342,
+                        "text": "(Lundrigan et al., 2002;",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 343,
+                        "end": 349,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 887,
+                        "end": 917,
+                        "text": "Lundrigan et al., 2002, fig. 3",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 256,
+                        "end": 264,
+                        "text": "Fig. 2A)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 811,
+                        "end": 819,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "THE POSITION OF M. SPRETUS",
+                "sec_num": null
+            },
+            {
+                "text": "We also explored the contribution of transition substitutions in Cytb to the phylogenetic signal with respect to the position of M. spretus. The repositioning of M. spretus from a basal position within the Palearctic clade to a sister relationship with M. spicilegus/ M. macedonicus when transitions were downweighted from 0.9 to 0.3 is more difficult to interpret. While Cytb transition substitutions appeared largely responsible for the basal position of M. spretus in the Palearctic clade, this signal was congruent across Cytb and 12S as support values were high for this arrangement in the combined two-gene mitochondrial trees (bootstraps of 93 and 95% for maximum likelihood and maximum parsimony trees, respectively, Fig. 3 ). Two explanations for this observation can be given. First, there are real differences in the mitochondrial and nuclear genome histories for some of the Palearctic taxa. The difference in the position of M. spretus in the mitochondrial vs. nuclear trees could possibly result from historical introgression of nuclear genes between M. spretus and M. spicilegus/M. macedonicus, provided the ranges of these taxa overlapped historically; the range of M. spretus does not currently overlap with either M. spicilegus or M. macedonicus.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 725,
+                        "end": 731,
+                        "text": "Fig. 3",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "THE POSITION OF M. SPRETUS",
+                "sec_num": null
+            },
+            {
+                "text": "Second, the basal position of M. spretus ( Fig. 2A ) in the combined eight-gene maximum parsimony tree could be due to a large number of variable and homoplasious sites in Cytb that obscure the phylogenetic signal in the other, less variable, data partitions. The maximum likelihood analysis of the eight genes resulted in a maximum likelihood tree (Fig. 2B ) that was different from the maximum parsimony combined eight-gene tree ( Fig. 2A) . While these alternate topologies were not significantly different based on the Shimodaira-Hasegawa test, different optimal topologies from methods that model (maximum likelihood) or do not model (maximum parsimony) rate heterogeneity suggest that rate heterogeneity is a factor.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 43,
+                        "end": 50,
+                        "text": "Fig. 2A",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 349,
+                        "end": 357,
+                        "text": "(Fig. 2B",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 433,
+                        "end": 441,
+                        "text": "Fig. 2A)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "THE POSITION OF M. SPRETUS",
+                "sec_num": null
+            },
+            {
+                "text": "Other phylogenetic studies of rodents (Huchon et al., 2002; Adkins, Walton & Honeycutt, 2003; DeBry, 2003) using multigene datasets have been concerned with problems of rate heterogeneity. In particular, DeBry (2003) demonstrated lack of congruence between data partitions, with apparent homoplasy in a single partition (third position sites of interphotoreceptor binding protein (IRBP)) obscuring the phylogenetic signal elsewhere in the data. All of these studies were concerned with higher-level relationships among rodent families where one might expect problems in resolving deep nodes due to homoplasy. This study has served to highlight a similar problem for closely related taxa, i.e. members of a rodent subgenus.",
+                "cite_spans": [
+                    {
+                        "start": 38,
+                        "end": 59,
+                        "text": "(Huchon et al., 2002;",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 60,
+                        "end": 93,
+                        "text": "Adkins, Walton & Honeycutt, 2003;",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 94,
+                        "end": 106,
+                        "text": "DeBry, 2003)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 192,
+                        "end": 216,
+                        "text": "particular, DeBry (2003)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "THE POSITION OF M. SPRETUS",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/biolinnean/article/84/3/653/2701470 by guest on 07 October 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "\u00a9 2005 The Linnean Society of London, Biological Journal of the Linnean Society, 2005, 84, 653-662",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "\u00a9 The Linnean Society of London, Biological Journal of theLinnean Society, 2005, 84, 653-662",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We thank M. Potter (National Cancer Institute Contract N01-CB-71085), E. Eicher (the Jackson Laboratory) and R.D. Sage for providing frozen tissue or DNA from various stocks and strains of wild mice, and R. J. Baker (The Museum, Texas Tech University) for providing frozen tissue from wild mice collected in the field. L. W. Harris and J. Rest provided analytical assistance. The research was supported in part by National Science Foundation Grant DEB-9209950 and National Institutes of Health Grant EY12994 (to P.K.T.), and grants from the Museum of Zoology, University of Michigan (to S.A.S.).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACKNOWLEDGEMENTS",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "The Phd fingerimplications for chromatin-mediated transcriptional regulation",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Aasland",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gibson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Stewart",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Trends in Biochemical Sciences",
+                "volume": "20",
+                "issue": "",
+                "pages": "56--59",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Aasland R, Gibson TJ, Stewart AF. 1995. The Phd finger- implications for chromatin-mediated transcriptional regula- tion. Trends in Biochemical Sciences 20: 56-59.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Higher-level systematics of rodents and divergence time estimates based on two congruent nuclear genes",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Adkins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Walton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Honeycutt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Molecular Phylogenetics and Evolution",
+                "volume": "26",
+                "issue": "",
+                "pages": "409--420",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Adkins RM, Walton AH, Honeycutt RL. 2003. Higher-level systematics of rodents and divergence time estimates based on two congruent nuclear genes. Molecular Phylogenetics and Evolution 26: 409-420.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Phylogenetic position and description of a new species of subgenus Mus (Rodentia, Mammalia) from Thailand",
+                "authors": [
+                    {
+                        "first": "J-C",
+                        "middle": [],
+                        "last": "Auffray",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Orth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Catalan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J-P",
+                        "middle": [],
+                        "last": "Gonzalez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Desmarais",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bonhomme",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Zoologica Scripta",
+                "volume": "32",
+                "issue": "",
+                "pages": "119--127",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Auffray J-C, Orth A, Catalan J, Gonzalez J-P, Desmarais E, Bonhomme F. 2003. Phylogenetic position and descrip- tion of a new species of subgenus Mus (Rodentia, Mammalia) from Thailand. Zoologica Scripta 32: 119-127.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "The house mouse: a model and motor for evolutionary understanding",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Berry",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Scriven",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biological Journal of the Linnean Society",
+                "volume": "84",
+                "issue": "",
+                "pages": "335--347",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Berry RJ, Scriven PN. 2005. The house mouse: a model and motor for evolutionary understanding. Biological Journal of the Linnean Society 84: 335-347.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Biochemical diversity and evolution in the genus Mus",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bonhomme",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Catalan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Britton-Davidian",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Chapman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Moriwaki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Nevo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Thaler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "Biochemical Genetics",
+                "volume": "22",
+                "issue": "",
+                "pages": "275--303",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bonhomme F, Catalan J, Britton-Davidian J, Chapman VM, Moriwaki K, Nevo E, Thaler L. 1984. Biochemical diversity and evolution in the genus Mus. Biochemical Genetics 22: 275-303.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "The evolution of house mice",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Boursot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Auffray",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Britton-Davidian",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bonhomme",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Annual Review of Ecology and Systematics",
+                "volume": "24",
+                "issue": "",
+                "pages": "119--152",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Boursot P, Auffray JC, Britton-Davidian J, Bonhomme F. 1993. The evolution of house mice. Annual Review of Ecol- ogy and Systematics 24: 119-152.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "The limits of amino acid sequence data in angiosperm phylogenetic reconstruction",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Bremer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Evolution",
+                "volume": "42",
+                "issue": "",
+                "pages": "795--803",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bremer K. 1988. The limits of amino acid sequence data in angiosperm phylogenetic reconstruction. Evolution 42: 795- 803.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Branch support and clade stability",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Bremer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Cladistics",
+                "volume": "10",
+                "issue": "",
+                "pages": "295--304",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bremer K. 1994. Branch support and clade stability. Cladis- tics 10: 295-304.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "The African Nannomys (Muridae): An early offshoot from the Mus lineage. Evidence from scDNA hybridization experiments and compared morphology",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Catzeflis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Denys",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Israel Journal of Zoology",
+                "volume": "38",
+                "issue": "",
+                "pages": "219--231",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Catzeflis FM, Denys C. 1992. The African Nannomys (Muridae): An early offshoot from the Mus lineage. Evidence from scDNA hybridization experiments and compared mor- phology. Israel Journal of Zoology 38: 219-231.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Molecular phylogeny of the Praomys complex (Rodentia: Murinae): a study based on DNA/DNA hybridization experiments",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Chevret",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Granjon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Duplantier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Denys",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Catzeflis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Zoological Journal of the Linnean Society",
+                "volume": "112",
+                "issue": "",
+                "pages": "425--442",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chevret P, Granjon J, Duplantier J, Denys C, Catzeflis F. 1994. Molecular phylogeny of the Praomys complex (Roden- tia: Murinae): a study based on DNA/DNA hybridization experiments. Zoological Journal of the Linnean Society 112: 425-442.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Evolutionary systematics of the Indian mouse Mus famulus Bonhote, 1898: molecular (DNA/DNA hybridization and 12S rRNA sequences) and morphological evidence",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Chevret",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Jenkins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Catzeflis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Zoological Journal of the Linnean Society",
+                "volume": "137",
+                "issue": "",
+                "pages": "385--401",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chevret P, Jenkins P, Catzeflis F. 2003. Evolutionary sys- tematics of the Indian mouse Mus famulus Bonhote, 1898: molecular (DNA/DNA hybridization and 12S rRNA sequences) and morphological evidence. Zoological Journal of the Linnean Society 137: 385-401.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Molecular phylogeny of the genus Mus (Rodentia: Murinae) based on mitochondrial and nuclear data",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Chevret",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Veyrunes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Britton-Davidian",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biological Journal of the Linnean Society",
+                "volume": "84",
+                "issue": "",
+                "pages": "417--427",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chevret P, Veyrunes F, Britton-Davidian J. 2005. Molec- ular phylogeny of the genus Mus (Rodentia: Murinae) based on mitochondrial and nuclear data. Biological Journal of the Linnean Society 84: 417-427.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Can three incongruence tests predict when data should be combined?",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Cunningham",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Molecular Biology and Evolution",
+                "volume": "14",
+                "issue": "",
+                "pages": "733--740",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cunningham CW. 1997. Can three incongruence tests predict when data should be combined? Molecular Biology and Evo- lution 14: 733-740.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Identifying conflicting signal in a multigene analysis reveals a highly resolved tree: the phylogeny of Rodentia (Mammalia)",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Debry",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Systematic Biology",
+                "volume": "52",
+                "issue": "",
+                "pages": "604--617",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "DeBry RW. 2003. Identifying conflicting signal in a multigene analysis reveals a highly resolved tree: the phylogeny of Rodentia (Mammalia). Systematic Biology 52: 604-617.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Testing significance of incongruence",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Farris",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kallersjo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Kluge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Bult",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Cladistics",
+                "volume": "10",
+                "issue": "",
+                "pages": "315--319",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Farris JS, Kallersjo M, Kluge AG, Bult C. 1994. Testing sig- nificance of incongruence. Cladistics 10: 315-319.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Flow of mitochondrial DNA across a species boundary",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Ferris",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Sage",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C-M",
+                        "middle": [],
+                        "last": "Huang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Nielsen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Ritte",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1983,
+                "venue": "Proceedings of the National Academy of Sciences",
+                "volume": "80",
+                "issue": "",
+                "pages": "2290--2294",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ferris SD, Sage RD, Huang C-M, Nielsen JT, Ritte U, Wil- son AC. 1983. Flow of mitochondrial DNA across a species boundary. Proceedings of the National Academy of Sciences, USA 80: 2290-2294.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Clonal divergence of mitochondrial DNA versus population evolution of nuclear genome",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Fort",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bonhomme",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Darlu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Piechaczyk",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Jeanteur",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Thaler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "Evolutionary Theory",
+                "volume": "7",
+                "issue": "",
+                "pages": "81--90",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fort P, Bonhomme F, Darlu P, Piechaczyk M, Jeanteur P, Thaler L. 1984. Clonal divergence of mitochondrial DNA versus population evolution of nuclear genome. Evolutionary Theory 7: 81-90.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Wild mice: an ever-increasing contribution to a popular mammalian model",
+                "authors": [
+                    {
+                        "first": "J-L",
+                        "middle": [],
+                        "last": "Gu\u00e9net",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bonhomme",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Trends in Genetics",
+                "volume": "19",
+                "issue": "",
+                "pages": "24--31",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gu\u00e9net J-L, Bonhomme F. 2003. Wild mice: an ever-increas- ing contribution to a popular mammalian model. Trends in Genetics 19: 24-31.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Rodent phylogeny and a timescale for the evolution of Glires: evidence from an extensive taxon sampling using three nuclear genes",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Huchon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Madsen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Mjjb",
+                        "middle": [],
+                        "last": "Sibbald",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Ament",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Stanhope",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Catzeflis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Dejong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Ejp",
+                        "middle": [],
+                        "last": "Douzery",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Molecular Biology and Evolution",
+                "volume": "19",
+                "issue": "",
+                "pages": "1053--1065",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Huchon D, Madsen O, Sibbald MJJB, Ament K, Stanhope MJ, Catzeflis F, DeJong WW, Douzery EJP. 2002. Rodent phylogeny and a timescale for the evolution of Glires: evi- dence from an extensive taxon sampling using three nuclear genes. Molecular Biology and Evolution 19: 1053-1065.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "MR BAYES: Bayesian inference of phylogenetic trees",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Huelsenbeck",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Ronquist",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Bioinformatics",
+                "volume": "17",
+                "issue": "",
+                "pages": "754--755",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Huelsenbeck JP, Ronquist F. 2001. MR BAYES: Bayesian inference of phylogenetic trees. Bioinformatics 17: 754-755.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Phylogeny of muroid rodents: relationships within and among major lineages as determined by IRBP gene sequences",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Jansa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Weksler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Molecular Phylogenetics and Evolution",
+                "volume": "31",
+                "issue": "",
+                "pages": "256--276",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jansa SA, Weksler M. 2004. Phylogeny of muroid rodents: relationships within and among major lineages as deter- mined by IRBP gene sequences. Molecular Phylogenetics and Evolution 31: 256-276.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Organization, distribution and stability of endogenous ecotropic murine leukemia virus DNA sequence in chromosomes of Mus musculus",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Jenkins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Copeland",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Taylor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Lee",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "Journal of Virology",
+                "volume": "43",
+                "issue": "",
+                "pages": "26--36",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jenkins NA, Copeland NG, Taylor BA, Lee BK. 1982. Organization, distribution and stability of endogenous eco- tropic murine leukemia virus DNA sequence in chromo- somes of Mus musculus. Journal of Virology 43: 26-36.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Modern evolution of a singlecopy gene: The immunoglobulin C k locus in wild mice",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Jouvin-Marche",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Cuddihy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Butler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Hansen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Fitch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Rudikoff",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Molecular Biology and Evolution",
+                "volume": "5",
+                "issue": "",
+                "pages": "500--511",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jouvin-Marche E, Cuddihy A, Butler S, Hansen JN, Fitch WM, Rudikoff S. 1988. Modern evolution of a single- copy gene: The immunoglobulin C k locus in wild mice. Molec- ular Biology and Evolution 5: 500-511.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Phylogenetic relationships in the genus Mus, based on paternally, maternally and biparentally inherited characters",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lundrigan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Jansa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Tucker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Systematic Biology",
+                "volume": "51",
+                "issue": "",
+                "pages": "410--431",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lundrigan BL, Jansa SA, Tucker PK. 2002. Phylogenetic relationships in the genus Mus, based on paternally, mater- nally and biparentally inherited characters. Systematic Biol- ogy 51: 410-431.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Tracing paternal ancestry in mice, using the Y-linked, sex-determining locus",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Lundrigan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Tucker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Sry. Molecular Biology and Evolution",
+                "volume": "11",
+                "issue": "",
+                "pages": "483--492",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lundrigan B, Tucker PK. 1994. Tracing paternal ancestry in mice, using the Y-linked, sex-determining locus, Sry. Molecular Biology and Evolution 11: 483-492.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "The mouse in biochemical research",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Marshall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "",
+                "volume": "1",
+                "issue": "",
+                "pages": "17--26",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Marshall JT. 1981. Taxonomy. In: Foster HL, Small JD, Fox JG, eds. The mouse in biochemical research, Vol. 1. New York: Academic Press, 17-26.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "The implications of congruence in Menidia",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Mickevich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Farris",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "Systematic Zoology",
+                "volume": "30",
+                "issue": "",
+                "pages": "351--370",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mickevich MF, Farris JS. 1981. The implications of congru- ence in Menidia. Systematic Zoology 30: 351-370.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Mammal species of the world. Washington D.C",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Musser",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Carleton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "510--755",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Musser GG, Carleton MD. 1993. Family Muridae. In: Wilson DE, Reeder DM, eds. Mammal species of the world. Wash- ington D.C.: Smithsonian Institution Press, 510-755.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Modeltest: testing the model of DNA substitution",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Posada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Crandall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Bioinformatics",
+                "volume": "14",
+                "issue": "",
+                "pages": "817--818",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Posada D, Crandall KA. 1998. Modeltest: testing the model of DNA substitution. Bioinformatics 14: 817-818.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Genetic variation and phylogeography of Central Asian and other house mice, including a major new mitochondrial lineage in Yemen",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Prager",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Orrego",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Sage",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Genetics",
+                "volume": "150",
+                "issue": "",
+                "pages": "835--861",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Prager EM, Orrego C, Sage RD. 1998. Genetic variation and phylogeography of Central Asian and other house mice, including a major new mitochondrial lineage in Yemen. Genetics 150: 835-861.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Mitochondrial DNA sequence variation in the eastern house mouse, Mus musculus: Comparison with other house mice and report of a 75-bp tandem repeat",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Prager",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Tichy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Sage",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Genetics",
+                "volume": "142",
+                "issue": "",
+                "pages": "427--446",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Prager EM, Tichy H, Sage RD. 1996. Mitochondrial DNA sequence variation in the eastern house mouse, Mus muscu- lus: Comparison with other house mice and report of a 75-bp tandem repeat. Genetics 142: 427-446.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Tracer v1.0. http:// evolve.zoo.ox.ac.uk/ Sage RD. 1981. Wild mice",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Rambaut",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Drummond",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "The mouse in biochemical research",
+                "volume": "1",
+                "issue": "",
+                "pages": "39--90",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rambaut A, Drummond AJ. 2003. Tracer v1.0. http:// evolve.zoo.ox.ac.uk/ Sage RD. 1981. Wild mice. In: Foster HL, Small JD, Fox JG, eds. The mouse in biochemical research, Vol. 1. New York: Academic Press, 39-90.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Enzymatic amplification of b-globin genomic sequences and restriction site analysis for diagnosis of sickle cell anemia",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Saiki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Scharf",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Faloona",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Mullis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Horn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Erlich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Arnheim",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "Science",
+                "volume": "230",
+                "issue": "",
+                "pages": "1350--1354",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Saiki RK, Scharf S, Faloona F, Mullis KB, Horn GT, Erlich HA, Arnheim N. 1985. Enzymatic amplification of b-globin genomic sequences and restriction site analysis for diagnosis of sickle cell anemia. Science 230: 1350-1354.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Evolutionary strata on the X chromosome in the mouse genus Mus",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Sandstedt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Tucker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Genome Research",
+                "volume": "14",
+                "issue": "",
+                "pages": "267--272",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sandstedt S, Tucker PK. 2004. Evolutionary strata on the X chromosome in the mouse genus Mus. Genome Research 14: 267-272.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Identification of a mouse male-specific transplantation antigen",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Scott",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ehrmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Ellis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Agulnik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Bishop",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Simpson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Mj ; H-Y",
+                        "middle": [],
+                        "last": "Mitchell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Nature",
+                "volume": "376",
+                "issue": "",
+                "pages": "695--698",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Scott DM, Ehrmann IE, Ellis PS, Agulnik AI, Bishop CE, Simpson E, Mitchell MJ. 1995. Identification of a mouse male-specific transplantation antigen, H-Y. Nature 376: 695-698.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Molecular phylogenies in the genus Mus: Comparative analysis of electrophoretic, scnDNA hybridization, and mtDNA RFLP data",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "X"
+                        ],
+                        "last": "She",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bonhomme",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Boursot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Thaler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Catzeflis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Biological Journal of the Linnean Society",
+                "volume": "41",
+                "issue": "",
+                "pages": "83--103",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "She JX, Bonhomme F, Boursot P, Thaler L, Catzeflis F. 1990. Molecular phylogenies in the genus Mus: Comparative analysis of electrophoretic, scnDNA hybridization, and mtDNA RFLP data. Biological Journal of the Linnean Soci- ety 41: 83-103.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Multiple comparisons of log-likelihoods with applications to phylogenetic inference",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Shimodaira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hasegawa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Molecular Biology and Evolution",
+                "volume": "16",
+                "issue": "",
+                "pages": "1114--1116",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shimodaira H, Hasegawa M. 1999. Multiple comparisons of log-likelihoods with applications to phylogenetic inference. Molecular Biology and Evolution 16: 1114-1116.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Treerot, Version 2",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Sorenson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sorenson MD. 1999. Treerot, Version 2. Boston: Boston University.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Molecular systematics of Mus crociduroides, an endemic mouse of Sumatra (Muridae: Rodentia)",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Sourrouille",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Hanni",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ruedi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Catzeflis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Mammalia",
+                "volume": "59",
+                "issue": "",
+                "pages": "91--102",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sourrouille P, Hanni C, Ruedi M, Catzeflis FM. 1995. Molecular systematics of Mus crociduroides, an endemic mouse of Sumatra (Muridae: Rodentia). Mammalia 59: 91- 102.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Genetic variation of ribosomal RNA in the house mouse, Mus musculus",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Suzuki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Kurihara",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Genetics in wild mice: its application to biomedical research",
+                "volume": "",
+                "issue": "",
+                "pages": "107--119",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Suzuki H, Kurihara Y. 1994. Genetic variation of ribosomal RNA in the house mouse, Mus musculus. In: Moriwaki K, Shiroishi T, Yonekawa H, eds. Genetics in wild mice: its application to biomedical research. Tokyo: Japan Science Society Press, 107-119.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "PAUP*: phylogenetic analysis using parsimony (*and other methods)",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Swofford",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Sinauer Associates",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Swofford DL. 2002. PAUP*: phylogenetic analysis using par- simony (*and other methods). Sunderland: Sinauer Associ- ates.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Gene trap capture of a novel mouse gene, Jumonji, required for neural-tube formation",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Takeuchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Yamazaki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Katohfukui",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Tsuchiya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kondo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Motoyama",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Higashinakagawa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Genes and Development",
+                "volume": "9",
+                "issue": "",
+                "pages": "1211--1222",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Takeuchi T, Yamazaki Y, Katohfukui Y, Tsuchiya R, Kondo S, Motoyama J, Higashinakagawa T. 1995. Gene trap capture of a novel mouse gene, Jumonji, required for neural-tube formation. Genes and Development 9: 1211- 1222.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "The CLUSTAL windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Thompson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gibson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Plewniak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Jeanmougin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Higgins",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Nucleic Acids Research",
+                "volume": "25",
+                "issue": "",
+                "pages": "4876--4888",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thompson JD, Gibson TJ, Plewniak F, Jeanmougin F, Higgins DG. 1997. The CLUSTAL windows interface: flex- ible strategies for multiple sequence alignment aided by quality analysis tools. Nucleic Acids Research 25: 4876- 4888.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Human H-Y: a male-specific histocompatibility antigen derived from the SMCY protein",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Wang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Meadows",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Jmm",
+                        "middle": [],
+                        "last": "Den Haan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Sherman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Chen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Blokland",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Shabanowitz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Agulnik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Hendrickson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Bishop",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Hunt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Goulmy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Engelhard",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Science",
+                "volume": "269",
+                "issue": "",
+                "pages": "1588--1590",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wang W, Meadows LR, den Haan JMM, Sherman NE, Chen Y, Blokland E, Shabanowitz J, Agulnik AI, Hendrickson RC, Bishop CE, Hunt DF, Goulmy E, Engelhard VH. 1995. Human H-Y: a male-specific histo- compatibility antigen derived from the SMCY protein. Sci- ence 269: 1588-1590.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Hybrid origin of Japanese mice 'Mus musculus molossinus': Evidence from restriction analysis of mitochondrial DNA",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Yonekawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Moriwaki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Gotoh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Miyashita",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Matsushima",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Shi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Cho",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Zhen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Tagashira",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Molecular Biology and Evolution",
+                "volume": "5",
+                "issue": "",
+                "pages": "63--78",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yonekawa H, Moriwaki K, Gotoh O, Miyashita N, Matsushima Y, Shi L, Cho WS, Zhen X, Tagashira Y. 1988. Hybrid origin of Japanese mice 'Mus musculus moloss- inus': Evidence from restriction analysis of mitochondrial DNA. Molecular Biology and Evolution 5: 63-78. Downloaded from https://academic.oup.com/biolinnean/article/84/3/653/2701470 by guest on 07 October 2021",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "num": null,
+                "uris": null,
+                "text": "Maximum parsimony (MP) gene trees for the subgenus Mus based on comparative DNA sequence from Smcy and Smcx with MP/maximum likelihood (ML) bootstrap and Bremer support values given above and below the branches, respectively. The Smcy tree is a strict consensus of two trees with length 282 and a consistency index (CI) excluding uninformative characters of 0.8730. The MP Smcx tree has a length of 104 and a CI excluding uninformative characters of 0.8269. Corresponding ML trees in both cases were similar and described in the text.",
+                "type_str": "figure"
+            },
+            "FIGREF2": {
+                "num": null,
+                "uris": null,
+                "text": "A, maximum parsimony (MP) and B, maximum likelihood (ML) trees for the subgenus Mus for the combined eight-gene dataset. The MP tree has a length of 2114 and a consistency index excluding uninformative characters of 0.6242. MP bootstrap and Bremer support values are given above and below the branches, respectively, in A. Bayesian posterior probabilities (PP) and ML bootstrap values (PP/ML) are given above the branches in B.",
+                "type_str": "figure"
+            },
+            "FIGREF3": {
+                "num": null,
+                "uris": null,
+                "text": "Downloaded from https://academic.oup.com/biolinnean/article/84/3/653/2701470 by guest on 07 October 2021",
+                "type_str": "figure"
+            },
+            "FIGREF4": {
+                "num": null,
+                "uris": null,
+                "text": "Two maximum parsimony (MP) trees, one based on the mitochondrial sequences only and the other on the nuclear sequences only, for the subgenus Mus. The MP mitochondrial tree has a length of 1141 and a consistency index (CI) excluding uninformative characters of 0.5431. The MP nuclear tree has a length of 957 and a CI excluding uninformative characters of 0.8124. Maximum likelihood (ML) and Bayesian trees for both analyses were identical. Posterior probabilities, ML bootstrap values, and MP bootstrap values (PP/ML/MP) and Bremer support values are given above and below the branches, respectively.",
+                "type_str": "figure"
+            },
+            "TABREF0": {
+                "num": null,
+                "content": "<table><tr><td/><td/><td colspan=\"3\">Base composition</td><td/><td/><td colspan=\"4\">Number of characters CI: transitions</td><td>CI: transversions</td></tr><tr><td>Gene</td><td/><td>A</td><td>C</td><td>G</td><td>T</td><td colspan=\"2\">total var.</td><td>pars. info.</td><td>ML</td><td>MP</td><td>ML</td><td>MP</td></tr><tr><td>12S</td><td/><td colspan=\"4\">0.38 0.20 0.16 0.27</td><td colspan=\"2\">987 175</td><td>95</td><td>0.5873</td><td>0.5902</td><td>0.6849</td><td>0.6849</td></tr><tr><td>Cytb</td><td>Position 1</td><td colspan=\"4\">0.30 0.23 0.21 0.25</td><td>382</td><td>71</td><td>45</td><td>0.4203</td><td>0.4762</td><td>0.70</td><td>0.7368</td></tr><tr><td/><td>Position 2</td><td colspan=\"4\">0.20 0.24 0.13 0.43</td><td>382</td><td>17</td><td>6</td><td>0.5556</td><td>0.5556</td><td>1</td><td>1</td></tr><tr><td/><td>Position 3</td><td colspan=\"4\">0.45 0.31 0.27 0.21</td><td colspan=\"2\">381 291</td><td>222</td><td>0.3848</td><td>0.3906</td><td>0.665</td><td>0.6585</td></tr><tr><td>B2m</td><td>Position 1</td><td colspan=\"4\">0.35 0.25 0.22 0.19</td><td>92</td><td>19</td><td>14</td><td>0.5556</td><td>0.5556</td><td>0.75</td><td>0.8182</td></tr><tr><td/><td>Position 2</td><td colspan=\"4\">0.38 0.25 0.11 0.25</td><td>93</td><td>13</td><td>6</td><td>na</td><td>na</td><td>0.6</td><td>0.5</td></tr><tr><td/><td>Position 3</td><td colspan=\"4\">0.21 0.34 0.25 0.20</td><td>93</td><td>28</td><td>6</td><td>1</td><td>1</td><td>0.5556</td><td>0.5</td></tr><tr><td>Zp3</td><td colspan=\"5\">Non-coding 0.20 0.23 0.26 0.29</td><td>230</td><td>56</td><td>24</td><td>0.6667</td><td>0.6667</td><td>0.8</td><td>0.8</td></tr><tr><td/><td>Position 1</td><td colspan=\"4\">0.20 0.26 0.29 0.25</td><td>225</td><td>20</td><td>11</td><td>0.8</td><td>0.7273</td><td>0.6</td><td>0.6</td></tr><tr><td/><td>Position 2</td><td colspan=\"4\">0.29 0.29 0.17 0.24</td><td>223</td><td>16</td><td>6</td><td>1</td><td>1</td><td>0.6667</td><td>0.6667</td></tr><tr><td/><td>Position 3</td><td colspan=\"4\">0.13 0.34 0.33 0.21</td><td>222</td><td>61</td><td>25</td><td>0.7586</td><td>0.7241</td><td>0.6667</td><td>0.6667</td></tr><tr><td>Tcp1</td><td colspan=\"7\">Non-coding 0.25 0.17 0.22 0.36 1053 140</td><td>56</td><td>0.8049</td><td>0.75</td><td>0.9167</td><td>0.9167</td></tr><tr><td/><td>Position 1</td><td colspan=\"4\">0.31 0.13 0.40 0.16</td><td>134</td><td>9</td><td>3</td><td>1</td><td>1</td><td>0.5</td><td>0.5</td></tr><tr><td/><td>Position 2</td><td colspan=\"4\">0.28 0.21 0.18 0.32</td><td>134</td><td>5</td><td>4</td><td>0.6667</td><td>0.6667</td><td>na</td><td>na</td></tr><tr><td/><td>Position 3</td><td colspan=\"4\">0.25 0.13 0.25 0.37</td><td>133</td><td>26</td><td>11</td><td>1</td><td>0.9091</td><td>1</td><td>1</td></tr><tr><td colspan=\"6\">Smcx Non-coding 0.20 0.25 0.24 0.32</td><td>612</td><td>66</td><td>27</td><td>0.7273</td><td>0.6957</td><td>0.9167</td><td>0.8462</td></tr><tr><td/><td>Position 1</td><td colspan=\"4\">0.18 0.30 0.34 0.17</td><td>220</td><td>6</td><td>4</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td/><td>Position 2</td><td colspan=\"4\">0.24 0.27 0.24 0.25</td><td>220</td><td>3</td><td>3</td><td>0.6667</td><td>0.6667</td><td>1</td><td>1</td></tr><tr><td/><td>Position 3</td><td colspan=\"4\">0.21 0.24 0.37 0.19</td><td>220</td><td>17</td><td>7</td><td>0.6000</td><td>0.6000</td><td>1</td><td>1</td></tr><tr><td colspan=\"8\">Smcy Non-coding 0.29 0.19 0.19 0.33 1144 179</td><td>88</td><td>0.7907</td><td>0.7907</td><td>0.9545</td><td>0.913</td></tr><tr><td/><td>Position 1</td><td colspan=\"4\">0.25 0.24 0.30 0.21</td><td>228</td><td>21</td><td>11</td><td>0.9</td><td>0.8</td><td>1</td><td>1</td></tr><tr><td/><td>Position 2</td><td colspan=\"4\">0.31 0.22 0.20 0.26</td><td>228</td><td>13</td><td>7</td><td>0.8571</td><td>0.75</td><td>1</td><td>1</td></tr><tr><td/><td>Position 3</td><td colspan=\"4\">0.28 0.20 0.28 0.24</td><td>228</td><td>39</td><td>26</td><td>0.8696</td><td>0.8696</td><td>1</td><td>0.8</td></tr><tr><td>Sry</td><td colspan=\"5\">Non-coding 0.32 0.20 0.25 0.23</td><td>76</td><td>14</td><td>4</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td/><td>Position 1</td><td colspan=\"4\">0.33 0.26 0.22 0.19</td><td>144</td><td>17</td><td>7</td><td>0.67</td><td>0.60</td><td>1</td><td>1</td></tr><tr><td/><td>Position 2</td><td colspan=\"4\">0.37 0.21 0.22 0.20</td><td>143</td><td>20</td><td>9</td><td>1</td><td>1</td><td>1</td><td>0.7143</td></tr><tr><td/><td>Position 3</td><td colspan=\"4\">0.26 0.25 0.29 0.20</td><td>143</td><td>33</td><td>14</td><td>0.8462</td><td>0.8462</td><td>1</td><td>1</td></tr></table>",
+                "text": "Basic statistics",
+                "type_str": "table"
+            }
+        }
+    }
+}

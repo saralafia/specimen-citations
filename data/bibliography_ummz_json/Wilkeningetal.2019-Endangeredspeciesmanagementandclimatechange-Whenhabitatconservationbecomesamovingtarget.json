@@ -1,0 +1,3521 @@
+{
+    "paper_id": "Wilkeningetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:38:15.248141Z"
+    },
+    "title": "Endangered Species Management and Climate Change: When Habitat Conservation Becomes a Moving Target",
+    "authors": [
+        {
+            "first": "Jennifer",
+            "middle": [],
+            "last": "Wilkening",
+            "suffix": "",
+            "affiliation": {},
+            "email": "jennifer.wilkening@colorado.edu"
+        },
+        {
+            "first": "Wendy",
+            "middle": [],
+            "last": "Pearson-Prestera",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Sabuj",
+            "middle": [],
+            "last": "Bhattacharyya",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "",
+    "pdf_parse": {
+        "paper_id": "Wilkeningetal",
+        "_pdf_hash": "",
+        "abstract": [],
+        "body_text": [
+            {
+                "text": "ABSTRACT As climate conditions continue to shift, species assemblages and composition within ecological communities may be reshuffled in unpredictable ways. Some habitat types may cease to exist while others may expand in size; protecting ecosystems and species in their current locations will become increasingly difficult. Threatened and endangered species are likely to be disproportionately affected by climate change because they are often habitat specialists and relatively rare. In the United States, the 1973 Endangered Species Act has prevented the extinction of many species. The identification and conservation of critical habitat is an important tool for species preservation. But how do we designate and preserve habitat for protected species when we are unsure about future habitat conditions? We address this question based upon the concept of managing for anticipated change, rather than focusing on the maintenance of existing conditions. We used an ecological niche modeling program (MaxEnt) to model current and future climatic niche for an endangered mammal endemic to southern California, USA; the Stephens' kangaroo rat (SKR, Dipodomys stephensi). Our results indicate that the climatic niche of SKR was governed primarily by precipitation during the dry season, precipitation seasonality, annual mean temperature, and mean summer temperature. Projecting current species-presence relationships to different scenarios predicted for the future revealed substantial loss in climatic niche with increased emission rates. Areas of future suitable climatic niche were evaluated in relation to land ownership and identified as potential reserves or translocation sites, which can aid in conservation planning for this species. Additionally, species vulnerability assessments and a climate-change analysis tool were utilized to demonstrate how overall understanding of climate change effects can be enhanced. Information presented here can serve as guiding principles for the inclusion of climate change considerations into management plans, and can better inform overall decision-making related to endangered species management. \u00d3 2019 The Wildlife Society.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "KEY WORDS California, climate change, conservation planning, Dipodomys stephensi, Stephens' kangaroo rat, threatened and endangered species.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Climate change is already affecting species and ecosystems on a global scale and these effects are projected to become more rapid and extensive (IPCC 2014a). Many plant and animal species are responding to altered temperature and precipitation regimes by shifting their geographical ranges (Parmesan and Yohe 2003 , Parmesan 2006 , Chen et al. 2011 . This may lead to alterations in ecological community composition where habitat for some species may increase in size; but, for others, available habitat area may decrease or cease to exist altogether (Hobbs et al. 2009) . Average global temperature is predicted to increase 2-38C by the end of this century, and as a result 20-30% of the world's species may be faced with extinction (IPCC 2014b). Furthermore, the resiliency of current ecosystems may be exceeded by a combination of disturbances associated with climate change (such as flooding, drought, insect outbreaks) and ongoing anthropogenic activities (such as pollution, habitat fragmentation, urbanization; Holling 1973) . Preserving ecosystems and species in their current locations may become increasingly difficult because climate change is emerging as the greatest conservation challenge of the future.",
+                "cite_spans": [
+                    {
+                        "start": 290,
+                        "end": 313,
+                        "text": "(Parmesan and Yohe 2003",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 314,
+                        "end": 329,
+                        "text": ", Parmesan 2006",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 330,
+                        "end": 348,
+                        "text": ", Chen et al. 2011",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 551,
+                        "end": 570,
+                        "text": "(Hobbs et al. 2009)",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 1018,
+                        "end": 1031,
+                        "text": "Holling 1973)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Many species listed as threatened or endangered are habitat specialists occupying small geographic areas and relatively rare; thus, listed species may be disproportionately affected by climate change. For example, the endangered Uncompahgre fritillary butterfly (Boloria improba acrocnema) has been found only in willow (Salix spp.) forests located on northeast-facing slopes above 3,780 m in Colorado, USA. The 11 known populations inhabit areas that provide the coolest and wettest microclimates available; climate change appears to be the largest threat to the long-term survival of the species (Britten et al. 1994) . Similarly, a small number of endangered mountain gorillas (Gorilla beringei beringei) survive in the wild, and populations currently occur only within 2 protected areas of Africa, where individuals face ongoing threats from anthropogenic deforestation, disease transmission, and poaching. These threats may be exacerbated by future climate change, raising questions about the park's long-term suitability for gorillas (Thorne et al. 2013) . These examples illustrate how threatened and endangered species may be affected both directly (e.g., altered temperature or precipitation regimes) and indirectly (e.g., altered competition or predation levels) by environmental changes resulting from climate change.",
+                "cite_spans": [
+                    {
+                        "start": 598,
+                        "end": 619,
+                        "text": "(Britten et al. 1994)",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 1040,
+                        "end": 1060,
+                        "text": "(Thorne et al. 2013)",
+                        "ref_id": "BIBREF51"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "In the United States, the 1973 Endangered Species Act (ESA 1973, as amended) provides a framework for the identification and conservation of listed species. Although there is ongoing debate related to the effectiveness of the legislation, the ESA is one of the strongest environmental laws in the United States and it has been successful at preventing the extinction of the majority of the species it protects (Scott et al. 2005 , Evans et al. 2016 . Federal landmanagement agencies frequently work to avoid, minimize, and mitigate effects on listed species and their habitats, particularly in the western half of the United States that contains a large proportion of public lands. Additionally, federal land managers have been directed to manage for change and focus on sustaining ecological function, rather than preserving historical assemblages of plants and animals within ecosystems. In response, guidelines have been developed for managers and others to incorporate climate change considerations into natural resource management actions (e.g., Stein et al. 2014) . Although much of this guidance applies to threatened and endangered species, management and recovery plans have traditionally relied upon the identification and preservation of species habitat (Table 1; Noss et al. 1997) . This ongoing paradigm shift presents challenges particularly for listed species with a narrow range and relatively small distribution, such as the Stephens' kangaroo rat (Dipodomys stephensi).",
+                "cite_spans": [
+                    {
+                        "start": 410,
+                        "end": 428,
+                        "text": "(Scott et al. 2005",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 429,
+                        "end": 448,
+                        "text": ", Evans et al. 2016",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 1051,
+                        "end": 1069,
+                        "text": "Stein et al. 2014)",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 1275,
+                        "end": 1292,
+                        "text": "Noss et al. 1997)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1265,
+                        "end": 1274,
+                        "text": "(Table 1;",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Stephens' kangaroo rat (SKR) is a nocturnal, burrowing rodent endemic to southern California, USA. It is typically found in grassland habitats with minimal shrub cover, characterized by well-drained, friable soils. Similar to other heteromyid rodents, SKR is well-adapted to arid environments and feed mainly on seeds (Bleich 1977) . Stephens' kangaroo rats select relatively open habitat that has been maintained traditionally by disturbance events such as fire or grazing (Thomas 1975, O'Farrell and Uptain 1987) . Once or twice a year, females give birth to 2-3 offspring (Lackey 1967) ; survival to adulthood is estimated to be 18% (Price and Kelley 1994) . Population size and distribution appear to fluctuate widely over time, and SKR has been classified as following a meta-population dynamic, where spatial and temporal extent of occurrence is perpetually shifting (Price and Gilpin 1996) . The species was listed as endangered in 1988, primarily as a result of their small geographic range (<5,000 km 2 ), ongoing decline in extent of occurrence, and continued habitat loss (Linzey and NatureServe 2008) .",
+                "cite_spans": [
+                    {
+                        "start": 318,
+                        "end": 331,
+                        "text": "(Bleich 1977)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 474,
+                        "end": 501,
+                        "text": "(Thomas 1975, O'Farrell and",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 502,
+                        "end": 514,
+                        "text": "Uptain 1987)",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 575,
+                        "end": 588,
+                        "text": "(Lackey 1967)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 636,
+                        "end": 659,
+                        "text": "(Price and Kelley 1994)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 873,
+                        "end": 896,
+                        "text": "(Price and Gilpin 1996)",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1083,
+                        "end": 1112,
+                        "text": "(Linzey and NatureServe 2008)",
+                        "ref_id": "BIBREF24"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "The overall objective of our study was to gain a better understanding of climate change effects on SKR, and demonstrate how this information can be used to guide management decisions under future climate scenarios. Specific guidance related to climate change effects, such as the identification of future habitats, aids in overall conservation planning efforts for managers with limited time and resources. We used an ecological-niche modeling program, MaxEnt, to examine present climatic niche of SKR and climate change effects on potential future distribution of SKR. MaxEnt relies upon presence-only records, and is one of the most widely utilized programs for climatic niche modeling because of its user-friendly software and high predictive accuracy (Elith et al. 2006 , Merow et al. 2013 . Biologically relevant information is incorporated into the decision-making process for data input and selection of settings, leading to stronger inference for the target species. We supplemented MaxEnt modeling results with information obtained from several easily accessed, free online tools, including Climate Wizard, the System for Assessing Vulnerability of Species (SAVS) program, and NatureServe's Climate Change Vulnerability Index (CCVI). By integrating Table 1 . General guidelines for managing endangered species under changing climatic conditions. Strategies are based upon traditional management actions, but application takes into account future habitat conditions, and considers impacts and species' vulnerabilities specifically related to potential climate change. Adapted from Stein et al. (2014) .",
+                "cite_spans": [
+                    {
+                        "start": 755,
+                        "end": 773,
+                        "text": "(Elith et al. 2006",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 774,
+                        "end": 793,
+                        "text": ", Merow et al. 2013",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 1589,
+                        "end": 1608,
+                        "text": "Stein et al. (2014)",
+                        "ref_id": "BIBREF46"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1258,
+                        "end": 1265,
+                        "text": "Table 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Reduce ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Management action Description",
+                "sec_num": null
+            },
+            {
+                "text": "In southern California, SKR populations were found in San Diego, San Bernardino, and Riverside counties, with the greatest abundance occurring in Riverside County (Fig. 1) . The species inhabited isolated habitat patches that occurred across a relatively small area ($2,879 km 2 ), ranging from 55 m to 1,250 m above sea level (Bleich 1977) . The southern California region was topographically complex and contained a variety of ecosystems and microclimates. This resulted in high levels of biodiversity, with the California floristic province designated as a global biodiversity hotspot (Myers et al. 2000) . Precipitation varied greatly by elevation and human settlements were largely dependent on water resources originating in mountainous areas. Southern California was one of the fastest growing regions in the United States, and habitats selected by SKR (e.g., annual grassland or coastal sage scrub) were also very appealing for agricultural and urban developers. Stephens' kangaroo rats typically occurred in rolling grasslands on loamy soils, interspersed with areas of coastal sage scrub or mixed chaparral. Common vegetation included grasses such as purple or nodding needle grass (Nassella pulchra, N. cernua) and common wild oat (Avena fatua), coastal sage scrub species such as California sagebrush (Artemisia californica) and California buckwheat (Eriogonum fasciculatum), and mixed chaparral plants such as scrub oak (Quercus berberidifolia) and manzanita (Arctostaphylos spp.).",
+                "cite_spans": [
+                    {
+                        "start": 327,
+                        "end": 340,
+                        "text": "(Bleich 1977)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 588,
+                        "end": 607,
+                        "text": "(Myers et al. 2000)",
+                        "ref_id": "BIBREF29"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 163,
+                        "end": 171,
+                        "text": "(Fig. 1)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "STUDY AREA",
+                "sec_num": null
+            },
+            {
+                "text": "We collected SKR occurrence data from multiple sources including the Global Biodiversity Information Facility (http://www.gbif.org, accessed 24 May 2017), and the Mammal Networked Information System (http://www. manisnet.org/, accessed 24 May 2017; Porfirio et al. 2014) . We spatially verified each presence point to ensure it was located in appropriate habitat and duplicate records were deleted, resulting in 64 georeferenced records. We selected predictor variables a priori based upon known biological requirements of SKR, and we obtained values for these variables from remotely sensed satellite data (Table 2) . When climatic variables were highly correlated (jrj > 0.6), we considered only one of the correlated predictors (Table 3) . We indexed vegetation cover using the Normalized Difference Vegetation Index (NDVI), which was derived by averaging the monthly NDVI data from moderate resolution imaging spectroradiometer (https://modis.gsfc. nasa.gov/, accessed 22 Jul 2017) for the southern California plant growing season (Oct-May 2010-2017).",
+                "cite_spans": [
+                    {
+                        "start": 249,
+                        "end": 270,
+                        "text": "Porfirio et al. 2014)",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 607,
+                        "end": 616,
+                        "text": "(Table 2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 731,
+                        "end": 740,
+                        "text": "(Table 3)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Ecological Niche Models",
+                "sec_num": null
+            },
+            {
+                "text": "We used predictor variables to model the future climatic niche of SKR under 4 different trajectories of greenhouse gas concentration, or Representative Concentration Pathways (RCPs). The RCPs reflected potential emission levels of greenhouse gases projected over the next few decades, and ranged from optimistic scenarios of emission reductions after 2020 (RCP 2.6) to assumptions that emissions will continue to increase until 2100 (RCP 8.5; Weyant 2009) . We used future climatic projections for the year 2050 under 4 RCPs (2.6, 4.5, 6.0, and 8.5), in conjunction with a general circulation model (GCM) known for its accurate climate projections for California (CCSM; Stralberg et al. 2009) . The NDVI was assumed to be constant across these projections because climate change was not likely to substantially alter overall vegetation cover in this area (Kelly and Goulden 2008) . We utilized a Maximum Entropy (MaxEnt) approach to model the current and future climatic niche of SKR. We modeled the present climatic niche using current locations along with climatic predictor variables and NDVI, including the linear, quadratic, hinge, and product functions of MaxEnt. We cross-validated the model by using a 20% test sample (n \u00bc 12) drawn randomly from the presence locations. To assess model precision, we conducted 100 bootstrap resampling runs, and compared and validated results using area under the receiver operating characteristic curve (AUC) statistics. We employed a jackknife simulation to assess the relative contribution of each variable, and removed variables that did not contribute to model predictions. This model established a relationship between SKR occurrence and predictor variables, and estimated the present climatic niche for SKR in southern California. We then projected this relationship to the future (2050) under the 4 RCP climate scenarios. Based upon previous studies, all pixels above the 10th percentile training presence in the output raster were considered as potential niche areas (Elith et al. 2011) . We compared the area estimated by this threshold for each future scenario with the present area to assess the maximum percentage decline. We selected a conservative projection area of 10 km to the north and south of the current distribution of SKR, which is 300 times the known distance dispersed by the species (Price and Kelly 1994) . Climatic projection beyond this area is not recommended because it may be statistically flawed (Rodda et al. 2011 , Merow et al. 2013 , while also ecologically invalid because the species could be influenced by novel biotic factors not previously encountered (Araujo and Guisan 2006) . We obtained land ownership data from the California Department of Forestry and Fire Protection (http://frap. fire.ca.gov/data/frapgisdata-sw-ownership13_2_download, accessed 27 Sep 2017) and overlaid these data on the niche model to examine the climatic niche suitability in relation to land ownership status. These data represented California public land ownership as of 1 July 2013.",
+                "cite_spans": [
+                    {
+                        "start": 443,
+                        "end": 455,
+                        "text": "Weyant 2009)",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 670,
+                        "end": 692,
+                        "text": "Stralberg et al. 2009)",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 855,
+                        "end": 879,
+                        "text": "(Kelly and Goulden 2008)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 2018,
+                        "end": 2037,
+                        "text": "(Elith et al. 2011)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 2352,
+                        "end": 2374,
+                        "text": "(Price and Kelly 1994)",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 2472,
+                        "end": 2490,
+                        "text": "(Rodda et al. 2011",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 2491,
+                        "end": 2510,
+                        "text": ", Merow et al. 2013",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 2636,
+                        "end": 2660,
+                        "text": "(Araujo and Guisan 2006)",
+                        "ref_id": "BIBREF1"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Ecological Niche Models",
+                "sec_num": null
+            },
+            {
+                "text": "We used Climate Wizard, a tool that incorporates highresolution climate data obtained from downscaling techniques, to examine climate change impacts projected to occur within SKR habitat (http://www.climatewizard.org/; accessed 19 Nov 2016; Girvetz et al. 2009) . We uploaded Geographic Information System data of current SKR distribution from the International Union for Conservation of Nature Red List website (http://maps.iucnredlist.org/ map.html?id=6682; accessed 19 Nov 2016) to delineate the geographic area. We selected the mid-century (2046-2065) future time period, emission scenario Medium A1B, an ensemble average of all GCMs, and the following climatic or environmental variables: hottest temperature (max. temp for the month and year), total rainfall (total precipitation for the month and year in mm), average high temperature (monthly mean of daily max. temp), number of warm nights (percent of time that daily minimum temperature values exceed the reference period ), erosivity (the vulnerability of a soil to erosion), aridity index (ratio between precipitation [moisture supply], and potential evapotranspiration [moisture demand]).",
+                "cite_spans": [
+                    {
+                        "start": 241,
+                        "end": 261,
+                        "text": "Girvetz et al. 2009)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Localized Climate Change Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "We used 2 online tools to supplement information gleaned from ecological niche models, and provide further insight regarding vulnerability of SKR to projected climate change. First, we conducted a vulnerability assessment using the System for Assessing Vulnerability of Species (SAVS, http:// www.fs.fed.us/rm/grassland-shrubland-desert/products/ species-vulnerability/; accessed 19 Nov 2016) program developed by the Rocky Mountain Research Station (Bagne et al. 2011) . This tool incorporated life-history traits and other ecological factors into a scoring system to predict vulnerability, resilience, or no change. Results included an overall vulnerability score (ranging from \u00c020 to 20) plus a score for several categories (ranging from \u00c05 to 5) including habitat, physiology, phenology, and biotic interactions. In all categories, a positive score indicated a species was more vulnerable to climate change, while a negative score indicated more resiliency. Table 2 . The source and rationale of climatic and environmental predictor variables selected a priori for use in ecological niche models (MaxEnt) for Stephens' kangaroo rat in southern California, USA. Climatic variables were sourced from the Worldclim bioclimatic data set, which were derived from weather station measurements of temperature and precipitation. Vegetation cover variables were obtained from moderate resolution imaging spectroradiometer (MODIS). The spatial resolution of all predictors was 1 km 2 . Daly et al. 1990; 2, Goldingay and Price 1997; 3, Moses et al. 2012; 4, Price and Kelley 1994; 5, Bleich 1977; 6, O'Farrell 1990; 7, Price et al. 1995; 8, Kelt et al. 2005 . Table 3 . Correlation matrix of climatic predictors relevant for niche modeling of Stephens' kangaroo rat in southern California, USA. Red highlighted values were correlated significantly and positively (r > 0.6), while green highlighted values were correlated significantly and negatively (r < \u00c00.6). A combination of b1, b5, b14, and NDVI was used because these were not correlated and ecologically relevant. Second, we used NatureServe's Climate Change Vulnerability Index (http://www.natureserve.org/conservationtools/climate-change-vulnerability-index; accessed 19 Nov 2016) to further investigate the susceptibility of SKR to effects of climate change (CCVI; Young et al. 2016) . This index utilized climate projections, along with data related to current distribution, natural history, and ecological associations of SKR, to predict if there would be range contraction or population extirpations. We assessed sensitivity using factors in 2 main categories: direct and indirect exposure to climate change, and species-specific adaptive capacity. Climate exposure was determined by examining projected temperature and moisture change within the assessment area. Results were grouped into 1 of 5 established categories: extremely vulnerable, highly vulnerable, moderately vulnerable, less vulnerable, and insufficient evidence (Young et al. 2016) .",
+                "cite_spans": [
+                    {
+                        "start": 450,
+                        "end": 469,
+                        "text": "(Bagne et al. 2011)",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 1480,
+                        "end": 1497,
+                        "text": "Daly et al. 1990;",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 1498,
+                        "end": 1526,
+                        "text": "2, Goldingay and Price 1997;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1527,
+                        "end": 1548,
+                        "text": "3, Moses et al. 2012;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1549,
+                        "end": 1574,
+                        "text": "4, Price and Kelley 1994;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1575,
+                        "end": 1590,
+                        "text": "5, Bleich 1977;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1591,
+                        "end": 1609,
+                        "text": "6, O'Farrell 1990;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1610,
+                        "end": 1631,
+                        "text": "7, Price et al. 1995;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1632,
+                        "end": 1651,
+                        "text": "8, Kelt et al. 2005",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2319,
+                        "end": 2337,
+                        "text": "Young et al. 2016)",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 2985,
+                        "end": 3004,
+                        "text": "(Young et al. 2016)",
+                        "ref_id": "BIBREF56"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 962,
+                        "end": 969,
+                        "text": "Table 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1654,
+                        "end": 1661,
+                        "text": "Table 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Species Vulnerability Analyses",
+                "sec_num": null
+            },
+            {
+                "text": "Out of the total considered predictors, significant predictors for the climatic niche of SKR were precipitation of the driest month (Bio14, 34% [AE8%]), annual mean temperature (Bio1, 33% [AE8%]), and maximum temperature of the warmest quarter (Bio5, 24% [AE8%]). Our results indicated comparatively less influence of NDVI (9% [AE7%]) on determining the climatic niche of SKR. Reliability of our results was verified by an AUC mean score of 0.86 AE 0.02 (SD) for the present distribution model. An area the size of 6,061 km 2 was found to be currently climatically suitable for SKR, and the majority of this occurred on privately owned land (Fig. 2) . The amount of climatic niche for SKR was projected to decline with increased greenhouse gas emissions represented by all RCPs. The climatic niche area was predicted to shrink to 3,993 km 2 under RCP 2.6, 3,274 km 2 under RCP 4.5, 5,888 km 2 under RCP 6.0, and 2,040 km 2 under RCP 8.5. The geographic location of climatically suitable areas shifted under different climate scenarios, with a larger percentage of areas occurring on publicly owned lands projected for the future (Fig. 3) . Some eastern areas in southern California were projected to convert from nonhabitat to available habitat under future scenarios (Fig. S1 , available online in Supporting Information). However, this area is novel for most of the predictors (Fig. S2 , available online in Supporting Information), meaning that it is influenced by environmental variables outside the range present in the training data and should be considered cautiously (Elith et al. 2010) . Thus, the species may be faced with a reduction in distribution and shift in the size and extent of area of available habitat in the future.",
+                "cite_spans": [
+                    {
+                        "start": 1575,
+                        "end": 1594,
+                        "text": "(Elith et al. 2010)",
+                        "ref_id": "BIBREF9"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 641,
+                        "end": 649,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1129,
+                        "end": 1137,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 1268,
+                        "end": 1276,
+                        "text": "(Fig. S1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1379,
+                        "end": 1387,
+                        "text": "(Fig. S2",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "Results from the analysis conducted in Climate Wizard corroborate larger scale state-wide projections toward a hotter and drier climate. Hottest temperature was predicted to increase 2-38C, with temperatures reaching as high as 408C, while rainfall was projected to decrease by 100 mm, resulting in precipitation levels between 300 mm and 400 mm by the year 2065 ( Fig. 4) . Average high temperature was projected to increase 2-38C by the years 2046-2065 for 100% of the area currently occupied by SKR. A moisture decrease between \u00c00.028 and \u00c00.050 was predicted for 85% of the area and a decrease >\u00c00.028 was predicted for 15% of the area, respectively (Fig. 4) . The number of warm nights was also expected to increase by almost 30%. The climate analysis also projected a slight decrease in erosivity, and estimated an aridity index ranging from 0 to \u00c00.2, indicating more arid conditions projected by the year 2065.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 365,
+                        "end": 372,
+                        "text": "Fig. 4)",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 654,
+                        "end": 662,
+                        "text": "(Fig. 4)",
+                        "ref_id": "FIGREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "Results from the SAVS assessment yielded an overall vulnerability score of 3.21 and uncertainty of 27%, indicating that SKR was vulnerable rather than resilient to climate change overall. Among categories, Habitat was the most important with a positive score of 2.86 (14% uncertainty), followed by Biotic Interactions with a positive score of 1.00 (60% uncertainty). Vulnerability scores for Physiology and Phenology were both negative (\u00c00.17 with 17% uncertainty and \u00c02.08 with 25% uncertainty, respectively), indicating some degree of resilience to climate change. Lack of information led to high uncertainty scores in some categories, with Biotic Interactions having the greatest uncertainty score (60%), because information related to biological interactions (e.g., competition, disease, etc.) was largely unknown for SKR.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "Nature Serve's CCVI generated an overall ranking of moderately vulnerable for SKR, which was defined as a likely reduction in abundance or range extent within geographical area by 2050. Key risk factors identified included anthropogenic barriers to dispersal or movements, dependence on a disturbance regime that may be altered by climate change (e.g., fire regime), and specificity for uncommon landscape features, such as a geologic substrate, which does not occur widely (e.g., loamy soils; Table 4 ). Habitat areas currently occupied by Stephens' kangaroo rat in southern California, USA, with (A) changes in average high temperature, and (B) changes in average annual precipitation, predicted for the time period 2046-2065 as compared with the 1961-1990 baseline average. Future temperature and precipitation were forecast using a Medium A1B emission scenario and an ensemble average of general circulation models (GCMs). Table 4 . Factors that influence vulnerability of Stephens' kangaroo rat in southern California, USA, to climate change, based upon indirect exposure to climate change, species sensitivity, adaptive capacity of species, and documented or modeled species response to climate change. Possible responses to scoring questions generated by Climate Change Vulnerability Index (http://www.natureserve.org/conservation-tools/climate-changevulnerability-index) included N, neutral; SI, somewhat increase; I, increase; GI, greatly increase; U, unknown. For SKR, no responses fit into the category of I (increase). ",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 494,
+                        "end": 501,
+                        "text": "Table 4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 927,
+                        "end": 934,
+                        "text": "Table 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "RESULTS",
+                "sec_num": null
+            },
+            {
+                "text": "MaxEnt models projected both a reduction and a spatial shift in climatically available SKR habitat across all RCPs in southern California, with habitat shrinking and shifting west toward the coast. This may be a result of the increased winter precipitation from more frequent coastal storms driven by greater sea-surface temperatures that are projected for southern California (Allen and Luptowitz 2017).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "Modeling results identified precipitation of the driest month (Bio14) as a significant predictor of climatic niche, which may represent a minimum threshold of moisture required by vegetation selected by Stephens' kangaroo rat (SKR). Temperature-related variables that contributed to the climatic niche of SKR, annual mean temperature (Bio1), and maximum temperature of warmest month (Bio5) may represent an upper temperature threshold for both SKR individuals and selected vegetation. Overall vegetation cover as represented by NDVI was not a strong contributor to climatic niche for SKR in MaxEnt models, which may indicate relatively less influence on amount of vegetation cover, and more emphasis on the type of cover. Climate change may not alter NDVI measures in southern California, but community composition could shift away from plant species selected by SKR (Kelly and Goulden 2008) , and specific plant species could be included as predictors in future modeling efforts. SKR will likely be affected by such climate-driven alterations because this species selects forb-dominated grasslands and is not known to occur in large densities in other vegetation communities (Bleich 1977 , O'Farrell 1990 , Price et al. 1995 , Kelt et al. 2005 . Climate change vulnerability of California grasslands has been classified as mid to high, based upon 2 emission scenarios that represented a range of warming between 1.99-4.568C and a 24.8% decrease in precipitation statewide (Thorne et al. 2016) . Other studies in southern California have predicted a 38-44% decrease in coastal sage scrub communities, and a 16-48% loss of grassland habitats by the end of the 21st century (Lenihan et al. 2008 , Thorne et al. 2016 . Furthermore, SKR is dependent on natural fire regimes for maintenance of habitat, and effects from alterations in disturbance patterns are unknown (Price et al. 1995) . Shifts in vegetation community composition and structure could be hastened by changes in fire severity and frequency. For example, studies conducted in San Diego County documented large shifts in vegetation community composition following fires, resulting in part from the prevalence of invasive annual grasses (Zedler et al. 1983) . Additionally, increased drought and aridity could act in conjunction with other factors (e.g., increased insect attacks) to cause permanent shifts in vegetation community composition (Minnich 2007) . Finally, predicted changes in soil erosivity could affect vegetation while also having negative effects on SKR populations because specific requirements related to soil have been identified as an ecological factor limiting species distribution (Bleich 1977 ).",
+                "cite_spans": [
+                    {
+                        "start": 867,
+                        "end": 891,
+                        "text": "(Kelly and Goulden 2008)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 1176,
+                        "end": 1188,
+                        "text": "(Bleich 1977",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1189,
+                        "end": 1205,
+                        "text": ", O'Farrell 1990",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 1206,
+                        "end": 1225,
+                        "text": ", Price et al. 1995",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 1226,
+                        "end": 1244,
+                        "text": ", Kelt et al. 2005",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 1473,
+                        "end": 1493,
+                        "text": "(Thorne et al. 2016)",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 1672,
+                        "end": 1692,
+                        "text": "(Lenihan et al. 2008",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1693,
+                        "end": 1713,
+                        "text": ", Thorne et al. 2016",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 1863,
+                        "end": 1882,
+                        "text": "(Price et al. 1995)",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 2196,
+                        "end": 2216,
+                        "text": "(Zedler et al. 1983)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2402,
+                        "end": 2416,
+                        "text": "(Minnich 2007)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 2663,
+                        "end": 2675,
+                        "text": "(Bleich 1977",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "In addition to altering SKR habitat, climate change could affect individuals directly by reducing individual survival, fecundity, or population recruitment. The thermal sensitivity of SKR is not well-understood, and an increased frequency of extremely high-temperature events may cause direct mortality of individuals. Research related to another kangaroo rat species, the banner-tailed kangaroo rat (D. spectabilis), found that higher daily surface temperatures during the summer negatively affected apparent survival (Moses et al. 2012) . Additionally, higher temperatures may halt or diminish activities essential to population persistence such as foraging, dispersal, and reproduction. Kangaroo rat species have been known to shift reproductive strategies in response to environmental change, and the effect of previously unprecedented temperature increases on SKR reproduction is unknown (Zeng and Brown 1987) . In addition to directly affecting SKR behavior, warmer nights may facilitate increased activity by predators or competitors. Research on other species of kangaroo rats has documented relatively high rates of predation, particularly during the breeding season (Daly et al. 1990) . Habitat loss has been the primary factor driving SKR decline, but accelerating climate change has the potential to introduce new physiological threats that could pose a greater risk.",
+                "cite_spans": [
+                    {
+                        "start": 519,
+                        "end": 538,
+                        "text": "(Moses et al. 2012)",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 893,
+                        "end": 914,
+                        "text": "(Zeng and Brown 1987)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1176,
+                        "end": 1194,
+                        "text": "(Daly et al. 1990)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "Although MaxEnt is considered a reliable tool for predicting future species distribution, it is important to remember that it predicts the fundamental niche of a species rather than the realized niche (Pearson et al. 2007) . Geographic or anthropogenic factors, such as barriers to dispersal or urban development, may restrict actual SKR distribution to smaller areas than those predicted by climatic niche models (Phillips et al. 2006) . Furthermore, the size and location of habitat patches are likely to be influenced by other factors (e.g., fire frequency, urban development), and the exact location and degree of such effects remain difficult to predict. Thus, model results presented here should be perceived as guidelines rather than prescription for future conservation planning efforts.",
+                "cite_spans": [
+                    {
+                        "start": 201,
+                        "end": 222,
+                        "text": "(Pearson et al. 2007)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 414,
+                        "end": 436,
+                        "text": "(Phillips et al. 2006)",
+                        "ref_id": "BIBREF37"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "Numerous climate models have been produced for California and there is a large volume of published studies related to climate change effects. Our Climate Wizard results mirror conclusions from larger scale, statewide climate modeling efforts and validate use of this easily accessed program to estimate localized climate change impacts. For example, research results have predicted increases in mean annual temperature and decreases in mean diurnal temperature range (Hayhoe et al. 2004) , increases in extreme temperature events and frequency of very hot days on the south coast (Bell et al. 2004) , overall decreases in annual rainfall and snow accumulation (Snyder et al. 2004 , Rapacciuolo et al. 2014 , and increased frequency and intensity of wildfires (Miller and Schlegel 2006) . For other less intensively studied regions in the United States, use of Climate Wizard offers managers a relatively quick method to obtain climate change projections for their geographic area of interest.",
+                "cite_spans": [
+                    {
+                        "start": 467,
+                        "end": 487,
+                        "text": "(Hayhoe et al. 2004)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 580,
+                        "end": 598,
+                        "text": "(Bell et al. 2004)",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 660,
+                        "end": 679,
+                        "text": "(Snyder et al. 2004",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 680,
+                        "end": 705,
+                        "text": ", Rapacciuolo et al. 2014",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 759,
+                        "end": 785,
+                        "text": "(Miller and Schlegel 2006)",
+                        "ref_id": "BIBREF26"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "The climate change vulnerability of a species is not necessarily predicted by its conservation status, and response to climate change varies according to the unique life-history traits, distribution, and habitat requirements of the species. Although results from both vulnerability assessments (SAVS and CCVI) indicate that SKR is not extremely vulnerable to climate change, it is important to remember that these analyses do not account for nonclimatic factors (e.g., habitat loss) that could contribute to species decline. Recognition of this has far-reaching implications for species conservation, especially for federal agencies with a disproportionately large number of listed species such as the Department of Defense (DoD). Although DoD manages a relatively small percentage of public land holdings, federal lands overseen by DoD contain the largest number of threatened and endangered species (Groves et al. 2000) . Out of 729 DoD installations, 224 (31%) contain threatened and endangered species (Stein et al. 2008) . Many military installations are located in undeveloped, biologically diverse areas (e.g., coastal ecosystems) resulting in the creation of habitat refuges for imperiled species. Particularly large numbers of listed species occur on installations in California, Florida, and Hawaii, USA, mimicking global patterns of biodiversity (Stein et al. 2008) . Species vulnerability assessments can be used as a management tool to help prioritize conservation needs, so that actions can be directed in an effective manner while allowing for military training. Anticipation of future effects of climate change can help to ameliorate those effects through early intervention, which is key for cost-effective natural resource conservation. Our results can aid in the identification of management targets for SKR and provide a framework for integrating new research and information about the species.",
+                "cite_spans": [
+                    {
+                        "start": 901,
+                        "end": 921,
+                        "text": "(Groves et al. 2000)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1006,
+                        "end": 1025,
+                        "text": "(Stein et al. 2008)",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 1357,
+                        "end": 1376,
+                        "text": "(Stein et al. 2008)",
+                        "ref_id": "BIBREF47"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "Natural resource managers may want to consider adjusting the frequency of disturbance events (e.g., controlled burning) because moderate disturbance events appear to have a positive effect on SKR, but altered climatic regimes may result in greater disturbance frequencies of naturally occurring events. The identification and protection of habitat refugia into which future populations could migrate, or use as corridors for dispersal, is another management strategy. Acquisition of conservation lands should focus on terrain that is spatially and topographically complex because these areas have greater potential to harbor climate refugia. Finally, managers may want to consider translocating individuals among areas of occupied habitat or into new habitat, where appropriate. Although translocation is a controversial management strategy with inherent disease and genetic risks, SKR populations have been translocated at Camp Pendleton (USFWS 2015) and locales in Riverside County (O'Farrell et al. 1994) . We do not universally recommend translocation under all circumstances; however, this may be one of the best conservation strategies for SKR because the species appears to be relatively resilient to direct effects of climate change (e.g., warmer temperatures), but may not be able to migrate into more climatically suitable habitats in the heavily urbanized landscape of southern California. Zedler, P. H., C. R. Gautier, and G. S. McMaster. 1983 . Vegetation change in response to extreme events: the effect of a short interval between fires in California chaparral and coastal scrub. Ecology 64:809-818. Zeng, Z., and J. H. Brown. 1987. Population ecology of a desert rodent:",
+                "cite_spans": [
+                    {
+                        "start": 984,
+                        "end": 1007,
+                        "text": "(O'Farrell et al. 1994)",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 1401,
+                        "end": 1455,
+                        "text": "Zedler, P. H., C. R. Gautier, and G. S. McMaster. 1983",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MANAGEMENT IMPLICATIONS",
+                "sec_num": null
+            },
+            {
+                "text": "Dipodomys merriami in the Chihuahuan Desert. Ecology 68:1328-1340.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MANAGEMENT IMPLICATIONS",
+                "sec_num": null
+            },
+            {
+                "text": "Associate Editor: Glenn.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MANAGEMENT IMPLICATIONS",
+                "sec_num": null
+            },
+            {
+                "text": "Additional supporting information may be found in the online version of this article. Figure S1 . MaxEnt modeled climatic niche of Stephens' kangaroo rat in southern California, USA, in the present scenario and in future scenarios under 4 distinct Representative Concentration Pathways (2.6, 4.5, 6.0, 8.5; RCPs). Figure S2 . Multivariate Similarity Surface (MESS) map for depicting areas for Stephens' kangaroo rat in southern California, USA, where the projections are beyond the range of covariates used in training sample.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 86,
+                        "end": 95,
+                        "text": "Figure S1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 314,
+                        "end": 323,
+                        "text": "Figure S2",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "SUPPORTING INFORMATION",
+                "sec_num": null
+            },
+            {
+                "text": "Wildlife Society Bulletin 43(1)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Wilkening et al. Endangered Species Management",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We would like to thank B. Battista, B. Haase, P. Howard, M. Lorne, and A. Zych for inspirational discussion and interpretive assistance on management issues related to endangered species. We also thank the Associate Editor E. Glenn; and 2 reviewers, E. A. Beever and D. A. Kelt, for their valuable comments on the manuscript. The publication of this paper does not indicate endorsement by the Department of Defense (DoD), nor should the contents be construed as reflecting the official policy or position of the DoD. Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not necessarily constitute or imply its endorsement, recommendation, or favoring by the DoD. The findings and conclusions in this article are those of the author(s) and do not necessarily represent the views of the U.S. Fish and Wildlife Service.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACKNOWLEDGMENTS",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "El Nino-like teleconnection increases California precipitation in response to warming",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Allen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Luptowitz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Nature Communications",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/ncomms16055"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Allen, R. J., and R. Luptowitz. 2017. El Nino-like teleconnection increases California precipitation in response to warming. Nature Communications 8:16055. doi: 10.1038/ncomms16055",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Five (or so) challenges for species distribution modelling",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Araujo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Guisan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Journal of Biogeography",
+                "volume": "33",
+                "issue": "",
+                "pages": "1677--1688",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Araujo, M. B., and A. Guisan. 2006. Five (or so) challenges for species distribution modelling. Journal of Biogeography 33:1677-1688.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "A system for assessing vulnerability of species (SAVS) to climate change",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Bagne",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Friggens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Finch",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bagne, K. E., M. M. Friggens, and D. M. Finch. 2011. A system for assessing vulnerability of species (SAVS) to climate change. U.S. Forest Service, Rocky Mountain Research Station, Fort Collins, Colorado, USA.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Regional changes in extreme climatic events: a future climate scenario",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Sloan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Snyder",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Journal of Climate",
+                "volume": "17",
+                "issue": "",
+                "pages": "81--87",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bell, J. L., L. C. Sloan, and M. A. Snyder. 2004. Regional changes in extreme climatic events: a future climate scenario. Journal of Climate 17:81-87.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "The pending extinction of the Uncompahgre fritillary butterfly",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Britten",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Brussard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Murphy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Conservation Biology",
+                "volume": "8",
+                "issue": "",
+                "pages": "86--94",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Britten, H. B., P. F. Brussard, and D. D. Murphy. 1994. The pending extinction of the Uncompahgre fritillary butterfly. Conservation Biology 8:86-94.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Rapid range shifts of species associated with high levels of climate warming",
+                "authors": [
+                    {
+                        "first": "I.-C",
+                        "middle": [],
+                        "last": "Chen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Hill",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Ohlem\u20ac Uller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Roy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Thomas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Science",
+                "volume": "333",
+                "issue": "",
+                "pages": "1024--1026",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chen, I.-C., J. K. Hill, R. Ohlem\u20ac uller, D. B. Roy, and C. D. Thomas. 2011. Rapid range shifts of species associated with high levels of climate warming. Science 333:1024-1026.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Characteristics of kangaroo rats, Dipodomys merriami, associated with differential predation risk",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Daly",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Wilson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Behrends",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Jacobs",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Animal Behaviour",
+                "volume": "40",
+                "issue": "",
+                "pages": "380--389",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Daly, M., M. Wilson, P. R. Behrends, and L. F. Jacobs. 1990. Characteristics of kangaroo rats, Dipodomys merriami, associated with differential predation risk. Animal Behaviour 40:380-389.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Novel methods improve prediction of species' distributions from occurrence data",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Elith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Graham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Dudik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Ferrier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Guisan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hijmans",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Huettmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Leathwick",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Lehmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Lohmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Loiselle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Manion",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Moritz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nakamura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Nakazawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Mcc",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Overton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Peterson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Phillips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Richardson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Scachetti-Pereira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": ";",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Schapire",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Williams",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Wisz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Zimmermann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "J. Sober on",
+                "volume": "29",
+                "issue": "",
+                "pages": "129--151",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Elith, J., C. H. Graham, R. P. Anderson, M. Dudik, S. Ferrier, A. Guisan, R. J. Hijmans, F. Huettmann, J. R. Leathwick, A. Lehmann, J. Li, L. G. Lohmann, B. A. Loiselle, G. Manion, C. Moritz, M. Nakamura, Y. Nakazawa, J. McC. M. Overton, A. T. Peterson, S. J. Phillips, K. Richardson, R. Scachetti-Pereira, R. E. Schapire, J. Sober on, S. Williams, M. S. Wisz, and N. E. Zimmermann. 2006. Novel methods improve prediction of species' distributions from occurrence data. Ecography 29:129-151.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "The art of modelling rangeshifting species",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Elith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kearney",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Phillips",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Methods in Ecology and Evolution",
+                "volume": "1",
+                "issue": "",
+                "pages": "330--342",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Elith, J., M. Kearney, and S. Phillips. 2010. The art of modelling range- shifting species. Methods in Ecology and Evolution 1:330-342.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "A statistical explanation of MaxEnt for ecologists",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Elith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Phillips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Hastie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Dudik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Chee",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Yates",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Diversity and Distributions",
+                "volume": "17",
+                "issue": "",
+                "pages": "43--57",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Elith, J., S. J. Phillips, T. Hastie, M. Dudik, Y. E. Chee, and C. J. Yates. 2011. A statistical explanation of MaxEnt for ecologists. Diversity and Distributions 17:43-57.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Species recovery in the United States: increasing the effectiveness of the Endangered Species Act",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Evans",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Che-Castaldo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Crouse",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Davis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Epanchin-Niell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Flather",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Frohlich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Goble",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y-W",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Male",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Master",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Moskwik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Neel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Noon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Parmesan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Schwartz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Scott",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Williams",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Issues in Ecology",
+                "volume": "20",
+                "issue": "",
+                "pages": "1--28",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Evans, D. M., J. P. Che-Castaldo, D. Crouse, F. W. Davis, R. Epanchin- Niell, C. H. Flather, R. K. Frohlich, D. D. Goble, Y-W. Li, T. D. Male, L. L. Master, M. P. Moskwik, M. C. Neel, B. R. Noon, C. Parmesan, M. W. Schwartz, J. M. Scott, and B. K. Williams. 2016. Species recovery in the United States: increasing the effectiveness of the Endangered Species Act. Issues in Ecology 20:1-28.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Applied climate-change analysis: the Climate Wizard tool",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Girvetz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Zganjar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Raber",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Maurer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Kareiva",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Lawler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "PLoS ONE",
+                "volume": "4",
+                "issue": "12",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Girvetz, E. H., C. Zganjar, G. T. Raber, E. P. Maurer, P. Kareiva, and J. J. Lawler. 2009. Applied climate-change analysis: the Climate Wizard tool. PLoS ONE 4(12):e8320.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Influence of season and a sympatric congener on habitat use by Stephens' kangaroo rat",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Goldingay",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Price",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Conservation Biology",
+                "volume": "11",
+                "issue": "",
+                "pages": "708--717",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Goldingay, R. L., and M. V. Price. 1997. Influence of season and a sympatric congener on habitat use by Stephens' kangaroo rat. Conservation Biology 11:708-717.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Owning up to our responsibilities: who owns lands important for biodiversity? Pages 275-300 in",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Groves",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Kutner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Stoms",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Murray",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Scott",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Schafale",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Weakley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Pressey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Precious heritage: the status of biodiversity in the United States",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Groves, C. R., L. S. Kutner, D. M. Stoms, M. P. Murray, J. M. Scott, M. Schafale, A. S. Weakley, and R. L. Pressey. 2000. Owning up to our responsibilities: who owns lands important for biodiversity? Pages 275-300 in B. A. Stein, L. S. Kutner, and J. S. Adams, editors. Precious heritage: the status of biodiversity in the United States. Oxford University Press, New York, New York, USA.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Emissions pathways, climate change, and impacts on California",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Hayhoe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Cayan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Field",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Frumhoff",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Maurer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Moser",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Schneider",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Cahill",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Cleland",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Dale",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Drapek",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Hanemann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Kalkstein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Lenihan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Lunch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Neilson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Sheridan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Verville",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Proceedings of the National Academy of Sciences",
+                "volume": "101",
+                "issue": "",
+                "pages": "12422--12427",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hayhoe, K., D. Cayan, C. B. Field, P. C. Frumhoff, E. P. Maurer, N. L. Miller, S. C. Moser, S. H. Schneider, K. N. Cahill, E. E. Cleland, L. Dale, R. Drapek, R. M. Hanemann, L. S. Kalkstein, J. Lenihan, C. K. Lunch, R. P. Neilson, S. C. Sheridan, and J. H. Verville. 2004. Emissions pathways, climate change, and impacts on California. Proceedings of the National Academy of Sciences 101:12422-12427.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Novel ecosystems: implications for conservation and restoration",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hobbs",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Higgs",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Harris",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Trends in Ecology & Evolution",
+                "volume": "24",
+                "issue": "",
+                "pages": "599--605",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hobbs, R. J., E. Higgs, and J. A. Harris. 2009. Novel ecosystems: implications for conservation and restoration. Trends in Ecology & Evolution 24:599-605.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Resilience and stability of ecological systems",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Holling",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1973,
+                "venue": "Annual Review of Ecology and Systematics",
+                "volume": "4",
+                "issue": "",
+                "pages": "1--23",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Holling, C. S. 1973. Resilience and stability of ecological systems. Annual Review of Ecology and Systematics 4:1-23.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Climate change 2014: impacts, adaptation, and vulnerability. Part A: global and sectoral aspects",
+                "authors": [],
+                "year": 2014,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Intergovernmental Panel on Climate Change [IPCC]. 2014a. Climate change 2014: impacts, adaptation, and vulnerability. Part A: global and sectoral aspects. Cambridge University Press, Cambridge, England, United Kingdom.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Climate change 2014 mitigation of climate change. Working group III contribution to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change",
+                "authors": [],
+                "year": 2007,
+                "venue": "IUCN Red List of Threatened Species. Version",
+                "volume": "1",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Intergovernmental Panel on Climate Change [IPCC]. 2014b. Climate change 2014 mitigation of climate change. Working group III contribution to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge University Press, Cambridge, England, United Kingdom. International Union for the Conservation of Nature [IUCN]. 2007. Dipodomys stephensi. In IUCN Red List of Threatened Species. Version 2012. 1. http://www.iucnredlist.org. Accessed 11 Feb 2016.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Rapid shifts in plant distribution with recent climate change",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Kelly",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Goulden",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Proceedings of the National Academy of Sciences",
+                "volume": "105",
+                "issue": "",
+                "pages": "11823--11826",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kelly, A. E., and M. L. Goulden. 2008. Rapid shifts in plant distribution with recent climate change. Proceedings of the National Academy of Sciences 105:11823-11826.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Habitat management for the endangered Stephens' kangaroo rat: the effects of mowing and grazing",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kelt",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Konno",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Journal of Wildlife Management",
+                "volume": "69",
+                "issue": "",
+                "pages": "424--429",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kelt, D. A., E. S. Konno, and J. A. Wilson. 2005. Habitat management for the endangered Stephens' kangaroo rat: the effects of mowing and grazing. Journal of Wildlife Management 69:424-429.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Growth and development of Dipodomys stephensi",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Lackey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1967,
+                "venue": "Journal of Mammalogy",
+                "volume": "48",
+                "issue": "",
+                "pages": "624--632",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lackey, J. A. 1967. Growth and development of Dipodomys stephensi. Journal of Mammalogy 48:624-632.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Response of vegetation distribution, ecosystem productivity, and fire to climate change scenarios for California",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Lenihan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Bachelet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Neilson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Drapek",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Climatic Change",
+                "volume": "87",
+                "issue": "",
+                "pages": "215--230",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lenihan, J. M., D. Bachelet, R. P. Neilson, and R. Drapek. 2008. Response of vegetation distribution, ecosystem productivity, and fire to climate change scenarios for California. Climatic Change 87:215-230.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Dipodomys stephensi. The IUCN Red List of Threatened Species",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Linzey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Natureserve",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.2305/IUCN.UK.2008.RLTS.T6682A12795176.en"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Linzey, A.V., and NatureServe. 2008. Dipodomys stephensi. The IUCN Red List of Threatened Species 2008. <https://doi.org/10.2305/IUCN. UK.2008.RLTS.T6682A12795176.en> Accessed 22 Feb 2016.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "A practical guide to MaxEnt for modeling species' distributions: what it does, and why inputs and settings matter",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Merow",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Silander",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Jr",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Ecography",
+                "volume": "36",
+                "issue": "",
+                "pages": "1058--1069",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Merow, C., M. J. Smith, and J. A. Silander, Jr. 2013. A practical guide to MaxEnt for modeling species' distributions: what it does, and why inputs and settings matter. Ecography 36:1058-1069.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Climate change projected fire weather sensitivity: California Santa Ana wind occurrence",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Miller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Schlegel",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Geophysical Research Letters",
+                "volume": "33",
+                "issue": "",
+                "pages": "15711--15712",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Miller, N. L., and N. J. Schlegel. 2006. Climate change projected fire weather sensitivity: California Santa Ana wind occurrence. Geophysical Research Letters 33:L15711, 1-5.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Climate, paleoclimate, and paleovegetation",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Minnich",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Minnich, R. A. 2007. Climate, paleoclimate, and paleovegetation. Pages 43- 70 in M. G. Barbour, T. Keeler-Wolf, and A. S. Schoenherr, editors. Terrestrial vegetation of California. University of California Press, Berkeley, USA.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Elevated surface temperature depresses survival of banner-tailed kangaroo rats: will climate change cook a desert icon",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Moses",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Frey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Roemer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Oecologia",
+                "volume": "168",
+                "issue": "",
+                "pages": "257--268",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moses, M. R., J. K. Frey, and G. W. Roemer. 2012. Elevated surface temperature depresses survival of banner-tailed kangaroo rats: will climate change cook a desert icon? Oecologia 168:257-268.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Biodiversity hotspots for conservation priorities",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Myers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Mittermeier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Mittermeier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "A B"
+                        ],
+                        "last": "Da Fonseca",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Kent",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Nature",
+                "volume": "403",
+                "issue": "",
+                "pages": "853--858",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Myers, N., R. A. Mittermeier, C. G. Mittermeier, G. A. B. da Fonseca, and J. Kent. 2000. Biodiversity hotspots for conservation priorities. Nature 403:853-858.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "The science of conservation planning: habitat conservation under the Endangered Species Act",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Noss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "O'connell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Murphy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Noss, R. F., M. O'Connell, and D. D. Murphy. 1997. The science of conservation planning: habitat conservation under the Endangered Species Act. Island Press, Washington, D.C., USA.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Stephens kangaroo rat: natural history, distribution, and current status",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "O'farrell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Natural History Foundation",
+                "volume": "3",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "O'Farrell, M. J. 1990. Stephens kangaroo rat: natural history, distribution, and current status. Pages 78-84 in P. J. Bryant and J. Remington, editors. Memoirs of the Natural History Foundation of Orange Country; Volume 3: Endangered Wildlife and Habitats in Southern California. Natural History Foundation of Orange County, California, USA.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Use of a mesh live trap for small mammals: are results from Sherman live traps deceptive",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "O'farrell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Clark",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Emmerson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Juarez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Kay",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "O'farrell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Goodlett",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Journal of Mammalogy",
+                "volume": "75",
+                "issue": "",
+                "pages": "692--699",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "O'Farrell, M. J., W. A. Clark, F. H. Emmerson, S. M. Juarez, F. R. Kay, T. M. O'Farrell, and T. Y. Goodlett. 1994. Use of a mesh live trap for small mammals: are results from Sherman live traps deceptive? Journal of Mammalogy 75:692-699.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Distribution and aspects of the natural history of Stephens' kangaroo rat (Dipodomys stephensi) on the Warner Ranch",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "O'farrell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Uptain",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Wassman Journal of Biology",
+                "volume": "45",
+                "issue": "",
+                "pages": "34--48",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "O'Farrell, M. J., and C. E. Uptain. 1987. Distribution and aspects of the natural history of Stephens' kangaroo rat (Dipodomys stephensi) on the Warner Ranch, San Diego County, California. Wassman Journal of Biology 45:34-48.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Ecological and evolutionary responses to recent climate change",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Parmesan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Annual Review of Ecology, Evolution, and Systematics",
+                "volume": "37",
+                "issue": "",
+                "pages": "637--669",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Parmesan, C. 2006. Ecological and evolutionary responses to recent climate change. Annual Review of Ecology, Evolution, and Systematics 37:637-669.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "A globally coherent fingerprint of climate change impacts across natural systems",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Parmesan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Yohe",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Nature",
+                "volume": "421",
+                "issue": "",
+                "pages": "37--42",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Parmesan, C., and G. Yohe. 2003. A globally coherent fingerprint of climate change impacts across natural systems. Nature 421:37-42.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Predicting species distributions from small numbers of occurrence records: a test case using cryptic geckos in Madagascar",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Pearson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Raxworthy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nakamura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "Townsend"
+                        ],
+                        "last": "Peterson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Journal of Biogeography",
+                "volume": "34",
+                "issue": "",
+                "pages": "102--117",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pearson, R. G., C. J. Raxworthy, M. Nakamura, and A. Townsend Peterson. 2007. Predicting species distributions from small numbers of occurrence records: a test case using cryptic geckos in Madagascar. Journal of Biogeography 34:102-117.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Maximum entropy modeling of species geographic distributions",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Phillips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Schapire",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Ecological Modeling",
+                "volume": "190",
+                "issue": "",
+                "pages": "231--259",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Phillips, S. J., R. P. Anderson, and R. E. Schapire. 2006. Maximum entropy modeling of species geographic distributions. Ecological Modeling 190:231-259.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Improving the use of species distribution models in conservation planning and management under climate change",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Porfirio",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Harris",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Lefroy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Hugh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Gould",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Lee",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bindoff",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Mackey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "PLoS ONE",
+                "volume": "9",
+                "issue": "11",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Porfirio, L. L., R. M. Harris, E. C. Lefroy, S. Hugh, S. F. Gould, G. Lee, N. L. Bindoff, and N. Mackey. 2014. Improving the use of species distribution models in conservation planning and management under climate change. PLoS ONE 9(11):e113749.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Modelers, mammalogists, and metapopulations: designing Stephens' kangaroo rat reserves",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Price",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Gilpin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Metapopulations and wildlife conservation and management",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Price, M. V., and M. Gilpin. 1996. Modelers, mammalogists, and metapopulations: designing Stephens' kangaroo rat reserves. Pages 217-240 in D. R. McCullough, editor. Metapopulations and wildlife conservation and management. Island Press, Washington, D.C., USA.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "An age-structured demographic model for the endangered Stephens' kangaroo rat",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Price",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kelly",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Conservation Biology",
+                "volume": "8",
+                "issue": "",
+                "pages": "810--821",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Price, M. V., and P. A. Kelly. 1994. An age-structured demographic model for the endangered Stephens' kangaroo rat. Conservation Biology 8:810-821.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Fire as a management tool for Stephens' kangaroo rat and other small mammal species. Pages 51-61 in",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Price",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Waser",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Taylor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Puff",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Brushfires in California wildlands: ecology and resource management. International Association of Wildland Fire",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Price, M. V., N. M. Waser, K. E. Taylor, and K. L. Puff. 1995. Fire as a management tool for Stephens' kangaroo rat and other small mammal species. Pages 51-61 in J. E. Keely, and T. Scott, editors. Brushfires in California wildlands: ecology and resource management. International Association of Wildland Fire, Fairfield, Connecticut, USA.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Beyond a warming fingerprint: individualistic biogeographic responses to heterogeneous climate change in California",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Rapacciuolo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Maher",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Schneider",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Hammond",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Jabis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Walsh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Iknayan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Walden",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Oldfather",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Ackerly",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Beissinger",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Global Change Biology",
+                "volume": "20",
+                "issue": "",
+                "pages": "2841--2855",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rapacciuolo, G., S. P. Maher, A. C. Schneider, T. T. Hammond, M. D. Jabis, R. E. Walsh, K. J. Iknayan, G. K. Walden, M. F. Oldfather, D. D. Ackerly, and S. R. Beissinger. 2014. Beyond a warming fingerprint: individualistic biogeographic responses to heterogeneous climate change in California. Global Change Biology 20:2841-2855.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Challenges in identifying sites climatically matched to the native ranges of animal invaders",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Rodda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Jarnevich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Reed",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "PloS ONE",
+                "volume": "6",
+                "issue": "2",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rodda, G. H., C. S. Jarnevich, and R. N. Reed. 2011. Challenges in identifying sites climatically matched to the native ranges of animal invaders. PloS ONE 6(2):e14670.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "By the numbers. Pages 16-35 in",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Scott",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Goble",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Svancara",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Pidgorna",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "The Endangered Species Act at thirty",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Scott, J. M., D. D. Goble, L. K. Svancara, and A. Pidgorna. 2005. By the numbers. Pages 16-35 in D. D. Goble, J. M. Scott, and F. W. Davis, editors. The Endangered Species Act at thirty. Island Press, Washington, D.C., USA.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Modeled regional climate change in the hydrologic regions of California: a CO2 sensitivity study",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Snyder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Sloan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Journal of the American Water Resources Association",
+                "volume": "40",
+                "issue": "",
+                "pages": "591--601",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Snyder, M. A., L. C. Sloan, and J. L. Bell. 2004. Modeled regional climate change in the hydrologic regions of California: a CO2 sensitivity study. Journal of the American Water Resources Association 40:591-601.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Climate-smart conservation: putting adaptation principles into practice",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Stein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Glick",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Edelson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Staudt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "National Wildlife Federation",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stein, B. A., P. Glick, N. Edelson, and A. Staudt. 2014. Climate-smart conservation: putting adaptation principles into practice. National Wildlife Federation, Washington, D.C., USA.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Federal lands and endangered species: the role of military and other federal lands in sustaining biodiversity",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Stein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Scott",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Benton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "BioScience",
+                "volume": "58",
+                "issue": "",
+                "pages": "339--347",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stein, B. A., C. Scott, and N. Benton. 2008. Federal lands and endangered species: the role of military and other federal lands in sustaining biodiversity. BioScience 58:339-347.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Re-shuffling of species with climate disruption: a no-analog future for California birds?",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Stralberg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Jongsomjit",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Howell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Snyder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Alexander",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Wiens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Root",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "PLoS ONE",
+                "volume": "4",
+                "issue": "9",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stralberg, D., D. Jongsomjit, C. A. Howell, M. A. Snyder, J. D. Alexander, J. A. Wiens, and T. L. Root. 2009. Re-shuffling of species with climate disruption: a no-analog future for California birds? PLoS ONE 4(9):e6825.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Distribution, population densities, and home range requirements of the Stephens' kangaroo rat (Dipodomys stephensi)",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Thomas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1975,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thomas, J. R. 1975. Distribution, population densities, and home range requirements of the Stephens' kangaroo rat (Dipodomys stephensi). Thesis, California State Polytechnic University, Pomona, USA.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "A climate change vulnerability assessment of California's terrestrial vegetation",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Thorne",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Boynton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Holguin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A E"
+                        ],
+                        "last": "Stewart",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Bjorkman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thorne, J. H., R. M. Boynton, A. J. Holguin, J. A. E. Stewart, and J. Bjorkman. 2016. A climate change vulnerability assessment of California's terrestrial vegetation. California Department of Fish and Wildlife, Sacramento, USA.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Alternative biological assumptions strongly influence models of climate change effects on mountain gorillas",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Thorne",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Seo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Basabose",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Gray",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Belfiore",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hijmans",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Ecosphere",
+                "volume": "4",
+                "issue": "",
+                "pages": "1--17",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thorne, J. H., C. Seo, A. Basabose, M. Gray, N. M. Belfiore, and R. J. Hijmans. 2013. Alternative biological assumptions strongly influence models of climate change effects on mountain gorillas. Ecosphere 4:1-17.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Endangered Species Act of 1973, as amended",
+                "authors": [
+                    {
+                        "first": "U",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "Pub. L",
+                "volume": "205",
+                "issue": "93",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "U.S. Endangered Species Act of 1973, as amended, Pub. L. No. 93-205, 87",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Endangered species news episodes",
+                "authors": [
+                    {
+                        "first": "U",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Fish",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Wildlife",
+                        "middle": [],
+                        "last": "Service",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "U.S. Fish and Wildlife Service [USFWS]. 2015. Endangered species news episodes. Fall 2015. <https://www.fws.gov/endangered/news/episodes/ bu-Fall2015/story6/index.html> Accessed 17 Dec 2016.",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "A perspective on integrated assessment",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Weyant",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Climatic Change",
+                "volume": "95",
+                "issue": "",
+                "pages": "317--323",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Weyant, J. P. 2009. A perspective on integrated assessment. Climatic Change 95:317-323.",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "Guidelines for using the NatureServe climate change vulnerability index",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Young",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Byers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Hammerson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Frances",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Oliver",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Treher",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "NatureServe",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Young, B. E., E. Byers, G. Hammerson, A. Frances, L. Oliver, and A. Treher. 2016. Guidelines for using the NatureServe climate change vulnerability index. NatureServe, Arlington, Virginia, USA.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "text": "Current range of Stephens' kangaroo rat in southern California, USA. Green areas represent the entire region of Stephens' kangaroo rat distribution, with populations occurring in small, isolated patches within these areas. Distribution data source: NatureServe and International Union for Conservation ofNature (2007).",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF1": {
+                "text": "Modeled niche suitability of Stephens' kangaroo rat under current climate conditions in southern California, USA.",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF2": {
+                "text": "Modeled future (2050) niche suitability of Stephens' kangaroo rat in southern California, USA, under various Representative Concentration Pathways (RCPs) with land ownership status. (A) depicts RCP 2.6, (B) depicts RCP 4.5, (C) depicts RCP 6.0, and (D) depicts RCP 8.5.",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF3": {
+                "text": "Figure 4. Habitat areas currently occupied by Stephens' kangaroo rat in southern California, USA, with (A) changes in average high temperature, and (B) changes in average annual precipitation, predicted for the time period 2046-2065 as compared with the 1961-1990 baseline average. Future temperature and precipitation were forecast using a Medium A1B emission scenario and an ensemble average of general circulation models (GCMs).",
+                "type_str": "figure",
+                "num": null,
+                "uris": null
+            },
+            "TABREF0": {
+                "text": "information obtained from analytical tools developed primarily for decision-makers, we identified pertinent guidelines for incorporating climate change considerations into conservation planning and management efforts for this endangered species.",
+                "content": "<table><tr><td>nonclimate stressors</td><td>Minimize impacts from other stressors (invasive species, pollution, etc.) that may restrict the ability of species to</td></tr><tr><td/><td>withstand impacts of climatic change</td></tr><tr><td colspan=\"2\">Preserve key habitat features Identify and protect key features of essential habitat types (breeding, sheltering, feeding, etc.) necessary for persistence</td></tr><tr><td>Ensure habitat connectivity</td><td>Maintain or create landscape features that allow for gene flow and movement of individuals between habitat areas</td></tr><tr><td>Support species' evolutionary</td><td>Protect a variety of populations in numerous locations to preserve genetic diversity and provide insurance against</td></tr><tr><td>potential</td><td>stochastic extirpation events</td></tr><tr><td>Protect habitat refugia</td><td/></tr></table>",
+                "type_str": "table",
+                "num": null
+            }
+        }
+    }
+}

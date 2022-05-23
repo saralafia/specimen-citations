@@ -1,0 +1,4251 @@
+{
+    "paper_id": "Chattopadhyayetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:23:24.311896Z"
+    },
+    "title": "Fluctuating fortunes: genomes and habitat reconstructions reveal global climate-mediated changes in bats' genetic diversity",
+    "authors": [
+        {
+            "first": "Balaji",
+            "middle": [],
+            "last": "Chattopadhyay",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "National University of Singapore",
+                "location": {
+                    "country": "Singapore"
+                }
+            },
+            "email": "balaji@nus.edu.sg"
+        },
+        {
+            "first": "Frank",
+            "middle": [
+                "E"
+            ],
+            "last": "Rheindt",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "National University of Singapore",
+                "location": {
+                    "country": "Singapore"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Kritika",
+            "middle": [
+                "M"
+            ],
+            "last": "Garg",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "National University of Singapore",
+                "location": {
+                    "country": "Singapore"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Rajasri",
+            "middle": [],
+            "last": "Ray",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Indian Institute of Science",
+                "location": {
+                    "postCode": "560012",
+                    "settlement": "Bangalore, Karnataka",
+                    "country": "India"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Over the last approximately 2.6 Myr, Earth's climate has been dominated by cyclical ice ages that have profoundly affected species' population sizes, but the impact of impending anthropogenic climate change on species' extinction potential remains a worrying problem. We investigated 11 bat species from different taxonomic, ecological and geographical backgrounds using combined information from palaeoclimatic habitat reconstructions and genomes to analyse biotic impacts of historic climate change. We discover tightly correlated fluctuations between species' historic distribution and effective population size, identify frugivores as particularly susceptible to global warming, pinpoint large insectivores as having overall low effective population size and flag the onset of the Holocene (approx. 10-12 000 years ago) as the period with the generally lowest effective population sizes across the last approximately 1 Myr. Our study shows that combining genomic and palaeoclimatological approaches reveals effects of climatic shifts on genetic diversity and may help predict impacts of future climate change.",
+    "pdf_parse": {
+        "paper_id": "Chattopadhyayetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Over the last approximately 2.6 Myr, Earth's climate has been dominated by cyclical ice ages that have profoundly affected species' population sizes, but the impact of impending anthropogenic climate change on species' extinction potential remains a worrying problem. We investigated 11 bat species from different taxonomic, ecological and geographical backgrounds using combined information from palaeoclimatic habitat reconstructions and genomes to analyse biotic impacts of historic climate change. We discover tightly correlated fluctuations between species' historic distribution and effective population size, identify frugivores as particularly susceptible to global warming, pinpoint large insectivores as having overall low effective population size and flag the onset of the Holocene (approx. 10-12 000 years ago) as the period with the generally lowest effective population sizes across the last approximately 1 Myr. Our study shows that combining genomic and palaeoclimatological approaches reveals effects of climatic shifts on genetic diversity and may help predict impacts of future climate change.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Quaternary climatic fluctuations (i.e. those over the last approx. 2.6 Myr) have produced recurrent glacial periods resulting in global habitat shifts that affect a multitude of organisms [1] [2] [3] . Colder climatic episodes have generally led to significant drops in global temperatures and increased glaciation, shrinking habitat space for many taxa (especially at higher latitudes) and forcing them into isolated pockets of local refugia. However, these periods have also produced reductions in global sea levels, thereby connecting isolated landmasses in shelf areas and expanding habitat space for many other organisms [1, 4] . Such cyclical periods of isolation and connectivity have alternately triggered fluctuations in population size, with significant implications for speciation and survival potential in animals and plants [1] [2] [3] [5] [6] [7] [8] [9] ]. If we could characterize these Quaternary fluctuations across a wide panel of species with different ecological backgrounds, it would allow us to pinpoint species groups with specific ecological requirements that will be particularly extinction-prone with impending anthropogenic climate change [10] .",
+                "cite_spans": [
+                    {
+                        "start": 188,
+                        "end": 191,
+                        "text": "[1]",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 192,
+                        "end": 195,
+                        "text": "[2]",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 196,
+                        "end": 199,
+                        "text": "[3]",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 626,
+                        "end": 629,
+                        "text": "[1,",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 630,
+                        "end": 632,
+                        "text": "4]",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 837,
+                        "end": 840,
+                        "text": "[1]",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 841,
+                        "end": 844,
+                        "text": "[2]",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 845,
+                        "end": 848,
+                        "text": "[3]",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 849,
+                        "end": 852,
+                        "text": "[5]",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 853,
+                        "end": 856,
+                        "text": "[6]",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 857,
+                        "end": 860,
+                        "text": "[7]",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 861,
+                        "end": 864,
+                        "text": "[8]",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 865,
+                        "end": 868,
+                        "text": "[9]",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 1167,
+                        "end": 1171,
+                        "text": "[10]",
+                        "ref_id": "BIBREF10"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Bats (order Chiroptera) are excellent bioindicators as they are highly sensitive to climate change, habitat change, food availability and other environmental aspects [11, 12] . For many chiropteran species, climate change has been an agent of isolation, population fluctuations and gradual divergence [13] [14] [15] [16] . However, while it is well established that these volant mammals are susceptible to short-term habitat shifts [17, 18] , the impact of long-term climatic and environmental fluctuations on their population sizes remains relatively unexplored (for exceptions, see [18, 19] ).",
+                "cite_spans": [
+                    {
+                        "start": 166,
+                        "end": 170,
+                        "text": "[11,",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 171,
+                        "end": 174,
+                        "text": "12]",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 301,
+                        "end": 305,
+                        "text": "[13]",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 306,
+                        "end": 310,
+                        "text": "[14]",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 311,
+                        "end": 315,
+                        "text": "[15]",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 316,
+                        "end": 320,
+                        "text": "[16]",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 432,
+                        "end": 436,
+                        "text": "[17,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 437,
+                        "end": 440,
+                        "text": "18]",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 584,
+                        "end": 588,
+                        "text": "[18,",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 589,
+                        "end": 592,
+                        "text": "19]",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "The genetic diversity of a species is positively correlated with its effective population size (N e ) and is an important underlying parameter defining the evolutionary and longterm survival potential of a species [20, 21] . A recently developed method, pairwise sequentially Markovian coalescent (PSMC) [22] , makes use of heterozygosity and recombination information from a single genome to provide deep insights into a species's fluctuations in population genetic diversity by estimating fluctuations in effective population size over time [2, [23] [24] [25] [26] [27] . While the N e of a single representative genome does not always perfectly reflect the genetic diversity of the whole species, especially in cases of populations that have undergone an atypical population development, PSMC has proven to be a powerful tool to infer temporal trends in genetic diversity [2, 27] . In conjunction with ecological niche models that reconstruct changes in distribution on the basis of palaeoclimatic data, such methods can provide much needed information on the effects of episodic climatic fluctuations on the population genetic history of a species and help us understand its vulnerability to future climate change. On a comparative scale, such methods have the power to reveal differences in evolutionary trajectories across species and may help us understand how species biology shapes fluctuations in genomic diversity [24, 26, 27] .",
+                "cite_spans": [
+                    {
+                        "start": 214,
+                        "end": 218,
+                        "text": "[20,",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 219,
+                        "end": 222,
+                        "text": "21]",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 304,
+                        "end": 308,
+                        "text": "[22]",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 543,
+                        "end": 546,
+                        "text": "[2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 547,
+                        "end": 551,
+                        "text": "[23]",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 552,
+                        "end": 556,
+                        "text": "[24]",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 557,
+                        "end": 561,
+                        "text": "[25]",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 562,
+                        "end": 566,
+                        "text": "[26]",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 567,
+                        "end": 571,
+                        "text": "[27]",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 875,
+                        "end": 878,
+                        "text": "[2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 879,
+                        "end": 882,
+                        "text": "27]",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 1425,
+                        "end": 1429,
+                        "text": "[24,",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1430,
+                        "end": 1433,
+                        "text": "26,",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 1434,
+                        "end": 1437,
+                        "text": "27]",
+                        "ref_id": "BIBREF29"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Comparative research to link differences in long-term fluctuations in genetic diversity to species biology remains in its infancy, with few systematic studies reported for major mammalian groups (for exceptions, see [27] ). In the present study, we analysed 11 genomes of both megabats and microbats, representing species across most major continents, size classes and ecological requirements, and evaluated fluctuations in N e across their evolutionary history. We also reconstructed fluctuations in species distribution during the most recent glacial cycles. This new approach of directly comparing palaeo-distributions with fluctuations in N e allowed us to make inferences about the long-term survival potential of species across different niches and ecological requirements. We predicted that fluctuations in species distribution would correlate with fluctuations in population N e , and that species biology would affect long-term fluctuations in N e depending on diet, body size and other ecological factors.",
+                "cite_spans": [
+                    {
+                        "start": 216,
+                        "end": 220,
+                        "text": "[27]",
+                        "ref_id": "BIBREF29"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": "1."
+            },
+            {
+                "text": "Out of 13 bat genomes on GenBank available at the time of analysis, we used publicly available raw reads from 11 species comprising both megabats and microbats from five out of 18 extant bat families covering a diverse range of size classes, ecological preferences, habitats and geographical regions (electronic supplementary material, table S1). Where possible, we obtained the collection locality for the sampled individual of each species (electronic supplementary material, table S1). Based on our distribution models (see below) as well as the available literature (electronic supplementary material, table S1), we termed each genome as belonging to a refugial or non-refugial population by placing sampling locations (whenever available) or region of occurrence into the context of our reconstructions of species distribution across the late Quaternary.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods (a) Experimental design",
+                "sec_num": "2."
+            },
+            {
+                "text": "We obtained raw reads of the 11 bat genomes either from the Sequence Read Archive (SRA) or the European Bioinformatics Institute (electronic supplementary material, table S1). We first checked the quality of the raw reads of each species in FastQC [28] , and then used the repair.sh script from BBMap 35.51 [29] to repair disordered paired end reads and remove orphan reads. For each species, we performed multiple steps of filtering to remove reads aligning to the mitogenome as well as sex chromosomes and then proceeded to map the remaining reads to the respective genome. Whenever available, we used the mitogenome of the species of interest to map against genomic reads for filtering, or otherwise used the mitogenome of a closely related species within the same genus (except Megaderma lyra and Eidolon helvum; electronic supplementary material, table S1). As the sex chromosomes of bats are not yet characterized, we used the sequences of mouse sex chromosomes (CM001013 and CM001014) for filter mapping. We used the 'view' command within SAMtools 0.1.19 [30, 31] to obtain unmapped reads (in bam format) and then converted the bam files to paired-end Fastq reads using the bamToFastq tool in the HYDRA 0.5.3 package [32] . These filtered reads (after removing reads mapping to the mitogenome and sex chromosomes) were then mapped onto the genome using the BWA-MEM 0.7.7-r441 [33] algorithm. We only kept reads with a mapping score greater than 20, and used PICARDTOOLS 1.95 (http://broadinstitute.github.io/picard) to sort bam files. We implemented SAMtools mpileup in conjunction with bcftools to identify variable sites, adjusting the mapping quality score (\u2212C50) to reduce the effect of excessive mismatch and setting the minimum depth to ten and maximum depth to 100 for SNP calling. Based on previous studies, a minimum depth coverage of 10 is recommended for SNP calling for PSMC analysis (PSMC instructions; https://github.com/lh3/psmc).",
+                "cite_spans": [
+                    {
+                        "start": 248,
+                        "end": 252,
+                        "text": "[28]",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 307,
+                        "end": 311,
+                        "text": "[29]",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 1062,
+                        "end": 1066,
+                        "text": "[30,",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 1067,
+                        "end": 1070,
+                        "text": "31]",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 1224,
+                        "end": 1228,
+                        "text": "[32]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1383,
+                        "end": 1387,
+                        "text": "[33]",
+                        "ref_id": "BIBREF36"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(b) PSMC analyses",
+                "sec_num": null
+            },
+            {
+                "text": "We used the following parameters for PSMC analysis: \u2212t 15 \u2212r 5 \u2212p 4 + 25 * 2 + 4 + 6 (where p is the number of free atomic time intervals, t is the upper limit of time to most recent common ancestor and r is the ratio of the scaled mutation rate and the recombination rate). We performed 30 iterations for optimization of parameters, and ran 100 bootstrap replicates for each genome to determine the uncertainty in our estimates. For bootstrap replicates, long chromosome segments were split into smaller segments and then randomly sampled with replacement.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(b) PSMC analyses",
+                "sec_num": null
+            },
+            {
+                "text": "To obtain estimates of effective population size, we used a previously proposed mammalian mutation rate of 2.2 \u00d7 10 \u22129 per base pair per year [34] and three different estimates of generation time (1 year, 2 years and 8 years) as all three estimates are quite commonly used in studies on bats [14, [35] [36] [37] [38] [39] [40] [41] [42] .",
+                "cite_spans": [
+                    {
+                        "start": 142,
+                        "end": 146,
+                        "text": "[34]",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 292,
+                        "end": 296,
+                        "text": "[14,",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 297,
+                        "end": 301,
+                        "text": "[35]",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 302,
+                        "end": 306,
+                        "text": "[36]",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 307,
+                        "end": 311,
+                        "text": "[37]",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 312,
+                        "end": 316,
+                        "text": "[38]",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 317,
+                        "end": 321,
+                        "text": "[39]",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 322,
+                        "end": 326,
+                        "text": "[40]",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 327,
+                        "end": 331,
+                        "text": "[41]",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 332,
+                        "end": 336,
+                        "text": "[42]",
+                        "ref_id": "BIBREF45"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(b) PSMC analyses",
+                "sec_num": null
+            },
+            {
+                "text": "Species occurrence records were collected from GBIF (accessed August 2017) using the rgbif package [43] as well as from the scientific literature whenever possible (electronic supplementary material, table S2).",
+                "cite_spans": [
+                    {
+                        "start": 99,
+                        "end": 103,
+                        "text": "[43]",
+                        "ref_id": "BIBREF46"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(c) Species and climatic data",
+                "sec_num": null
+            },
+            {
+                "text": "We employed ecological niche modelling (ENM) to predict the distribution of each species during four periods: at the present time, Mid-Holocene (approx. 6000 years ago), Last Glacial Maximum (LGM, approx. 20 000 years ago) and Last Interglacial period (LIG, approx. 110 000-130 000 years ago). Environmental variables were extracted from the WORLDCLIM database (version 1.4) [44] at a resolution of 30 arc seconds (for current, Holocene and LIG) and 2.5 min (for LGM). Layers were resized in DIVA GIS (version 7.5) [45] according to the individual species' study area. From the 19 available bioclimatic variables, we removed non-independent ones and further chose a subset of variables which maximized variability within our dataset (electronic supplementary material) through correlation analyses and principal component analyses to select a total of five variables for ENM: annual mean temperature (Bio1), mean diurnal range (Bio2), isothermality (Bio3), precipitation of driest quarter royalsocietypublishing.org/journal/rspb Proc. R. Soc. B 286: 20190304 (Bio17) and precipitation of warmest quarter (Bio18) (electronic supplementary material, table S3). Most of these variables have been previously used for ENM of bats [18] . We additionally followed two alternative approaches in which climatic variables were extracted from distribution points of species subgroups, rather than the global set of distribution points of all 11 species (see electronic supplementary material).",
+                "cite_spans": [
+                    {
+                        "start": 375,
+                        "end": 379,
+                        "text": "[44]",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 515,
+                        "end": 519,
+                        "text": "[45]",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 1225,
+                        "end": 1229,
+                        "text": "[18]",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(c) Species and climatic data",
+                "sec_num": null
+            },
+            {
+                "text": "We applied the MaxEnt algorithm (version 3.3.3 k) [46] for the modeling of species distributions. MaxEnt is based on a probabilistic framework and generates predictions about distributions from an incomplete set of information. The main assumption is based on the probability distribution of maximum entropy, which is subject to certain environmental constraints that along with species occurrence information ultimately generate a species' potential distribution pattern [46] . MaxEnt consistently outperforms other programs and provides simple predictions for habitat suitability, which are useful for qualitative analyses [47, 48] . We mostly applied default parameters, used 25% of data for testing purposes and selected feature classes based on species occurrence records. We set up the following parameters for niche modelling analyses in MaxEnt: 10 000 background points (selected by MaxEnt), 10 runs of cross validations (reduced to one run in analyses under subgroup partitioning schemes, see the electronic supplementary material), 500 iterations and setting the regularization multiplier at 1. Feature selection was in accordance with occurrence records and we generated output in logistic format with probability of presence (electronic supplementary material). We selected the mean representation of all 10 runs for further analysis of each species across each time period.",
+                "cite_spans": [
+                    {
+                        "start": 50,
+                        "end": 54,
+                        "text": "[46]",
+                        "ref_id": "BIBREF49"
+                    },
+                    {
+                        "start": 472,
+                        "end": 476,
+                        "text": "[46]",
+                        "ref_id": "BIBREF49"
+                    },
+                    {
+                        "start": 625,
+                        "end": 629,
+                        "text": "[47,",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 630,
+                        "end": 633,
+                        "text": "48]",
+                        "ref_id": "BIBREF52"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(d) Ecological niche modelling",
+                "sec_num": null
+            },
+            {
+                "text": "(e) Model evaluation and area analysis Prediction accuracy of the modelling exercise was tested using a receiver operating characteristics (ROC) plot analysis, a widely applied measure for model performance evaluation [49, 50] . Taking into account the sensitivity and commission error (1-specificity) of the ROC curve plots, we observed that all possible thresholds fell between 0 and 1. A model was considered better than random if the curve was above the diagonal, as indicated by the area under the curve (AUC) being greater than 0.5. Furthermore, a Jackknife test of variable importance was conducted for each species to identify the variable with maximum contributions.",
+                "cite_spans": [
+                    {
+                        "start": 218,
+                        "end": 222,
+                        "text": "[49,",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 223,
+                        "end": 226,
+                        "text": "50]",
+                        "ref_id": "BIBREF54"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(d) Ecological niche modelling",
+                "sec_num": null
+            },
+            {
+                "text": "The model maps were transferred to DIVA GIS for further analysis. We opted for a continuous distribution map rather than a binary one as the former map depicts all probable areas (low to high probabilities) and is free of threshold-related uncertainties [51] . Changes across different time periods were assessed only for medium-to high-probability regions (i.e. approx. 0.36-1; blue regions in figure 1) and grid areas were calculated after accounting for latitudinal effects (see the electronic supplementary material).",
+                "cite_spans": [
+                    {
+                        "start": 254,
+                        "end": 258,
+                        "text": "[51]",
+                        "ref_id": "BIBREF55"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(d) Ecological niche modelling",
+                "sec_num": null
+            },
+            {
+                "text": "To assess the correlation between habitat fluctuations and N e fluctuations across study species, we specifically concentrated on two periods (LIG to LGM, and LGM to Holocene), approximating two key Earth historic events in the last 150 000 years for which we were able to obtain comparative estimates of change in N e and change in suitable habitat. For each period (LIG to LGM, and LGM to Holocene), we coded changes in N e and habitat as increasing or decreasing, except for three species [2, 26] ). Large-bodied insectivores (including carnivores) experienced comparatively lesser fluctuations in their N e during the LIG to the LGM compared to small insectivores and large frugivores (figure 1; electronic supplementary material, figures S1-S3). Furthermore, we observed that the overall N e for most bats was low as they entered the Holocene, especially when assuming a generation time of 8 years (table 1).",
+                "cite_spans": [
+                    {
+                        "start": 492,
+                        "end": 495,
+                        "text": "[2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 496,
+                        "end": 499,
+                        "text": "26]",
+                        "ref_id": "BIBREF28"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(f ) Correlation between historical fluctuations in N e and habitat",
+                "sec_num": null
+            },
+            {
+                "text": "When bioclimatic variables were extracted from the global set of all 11 species' distribution points, MaxEnt generated statistically validated models with AUC > 0.9 (both training and testing AUCs; electronic supplementary material, (figure 1 and  table 2 ). We used these habitat reconstructions from regions of sample collection as additional information to categorize each genome as part of refugial or non-refugial populations (electronic supplementary material, table S1).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 233,
+                        "end": 255,
+                        "text": "(figure 1 and  table 2",
+                        "ref_id": "TABREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "(b) Ecological niche modelling reveals fluctuations in geographical distribution",
+                "sec_num": null
+            },
+            {
+                "text": "royalsocietypublishing.org/journal/rspb Proc. R. Soc. B 286: 20190304",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(b) Ecological niche modelling reveals fluctuations in geographical distribution",
+                "sec_num": null
+            },
+            {
+                "text": "Extracting bioclimatic variables from subgroups of the total set of 11 species (either divided into individual species or into continental groups) led to the selection of sets of variables that exhibited an approximately 17-50% overlap with those from the global species dataset. In the same vein, temporal population trends from the LIG to the LGM and from the LGM to the Holocene (not shown) agreed with those of the global set only 50% (individual species) and 62.5% (continental groups) of the time, confirming previous results that such reconstructions should optimally be based on a large set of species to avoid idiosyncratic biases [53] .",
+                "cite_spans": [
+                    {
+                        "start": 640,
+                        "end": 644,
+                        "text": "[53]",
+                        "ref_id": "BIBREF57"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(b) Ecological niche modelling reveals fluctuations in geographical distribution",
+                "sec_num": null
+            },
+            {
+                "text": "We performed a phi-test to assess potential associations between palaeo-habitat fluctuations and N e fluctuations within our study species during the time intervals between (see table 2 for more details). We assumed a generation time of 2 years and a mutation rate of 2.2 \u00d7 10 \u22129 per base pair per year for all PSMC plots. (a-d) Species with a relatively high N e leading to the LGM along with concomitant increase in habitat. (e-j) Species with a relatively low N e and decrease in habitat leading to the LGM. Megaderma lyra (k) shows a slight increase in N e and decrease in habitat leading to the LGM. Collection localities for bat genomes are mapped using a white circle with black margin whenever available (see the electronic supplementary material, table S1 for more information). (Online version in colour.)",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 173,
+                        "end": 185,
+                        "text": "(see table 2",
+                        "ref_id": "TABREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "(c) Correlation between historical fluctuations in N e and distribution",
+                "sec_num": null
+            },
+            {
+                "text": "royalsocietypublishing.org/journal/rspb Proc. R. Soc. B 286: 20190304",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(c) Correlation between historical fluctuations in N e and distribution",
+                "sec_num": null
+            },
+            {
+                "text": "the LIG and the LGM, and between the LGM and the Holocene. During the period of overall climatic cooling from the LIG to the LGM, we observed a significant and strong positive correlation ( p-value 0.006; phi-value 0.828) between change in habitat and change in N e . However, for the period from the LGM to the Holocene, when the most recent climate warming commenced, no significant correlation ( p-value 0.632; phi-value 0.289) was observed. These climatic cycles have caused episodes of population isolation and demographic fluctuations, and remain an important driver of biotic diversification and speciation [1] . Critically, each individual genome carries with it the record of a species's response to Quaternary warming and cooling episodes [2, 22, 26, 56] , teaching us important insights on the impact of climate change on genetic diversity and extinction potential of a species.",
+                "cite_spans": [
+                    {
+                        "start": 614,
+                        "end": 617,
+                        "text": "[1]",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 749,
+                        "end": 752,
+                        "text": "[2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 753,
+                        "end": 756,
+                        "text": "22,",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 757,
+                        "end": 760,
+                        "text": "26,",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 761,
+                        "end": 764,
+                        "text": "56]",
+                        "ref_id": "BIBREF60"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(c) Correlation between historical fluctuations in N e and distribution",
+                "sec_num": null
+            },
+            {
+                "text": "In the present era of the sixth mass extinction, knowledge of the standing genetic variation of extant natural populations and their vulnerability to future climate change is imperative for conservation management [57, 58] . An effective way to predict vulnerability of species to such future threats is to understand their response to historic climatic change and concomitant habitat fluctuations. In the present study, worldclim.org/paleo-climate1) and (2) PSMC inferences based on single genomes are known to be less reliable at very recent timescales, in our case the Holocene [22] . Overall, during the period of global cooling between the LIG and the LGM, most species (10 out of 11) showed a strongly positive correlation between extent of suitable habitat and genetic diversity ( figure 1 and table 2) . Specifically, five species ( figure 1a-d and k) exhibited a relative increase in N e from the LIG to the LGM, whereas six species (figure 1e-j) displayed a relative decrease in N e (= drop in diversity).",
+                "cite_spans": [
+                    {
+                        "start": 214,
+                        "end": 218,
+                        "text": "[57,",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 219,
+                        "end": 222,
+                        "text": "58]",
+                        "ref_id": "BIBREF62"
+                    },
+                    {
+                        "start": 581,
+                        "end": 585,
+                        "text": "[22]",
+                        "ref_id": "BIBREF24"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 788,
+                        "end": 809,
+                        "text": "figure 1 and table 2)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 841,
+                        "end": 859,
+                        "text": "figure 1a-d and k)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "The only species in which habitat availability did not track N e fluctuations was Megaderma lyra, the sole carnivorous bat in the panel, whose geographical distribution decreased (figure 1k and table 2) towards the LGM despite a slight increase in net-population genetic diversity (figure 1k). However, the genome-sequenced individual of Megaderma lyra is derived from a population in southern India, well inside the stable, refugial range of this species, royalsocietypublishing.org/journal/rspb Proc. R. Soc. B 286: 20190304",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "suggesting that this population may not reflect the demographic changes that non-refugial populations (i.e. those impacted by climate change) have undergone (figure 1; electronic supplementary material, table S1). This result is consequential in that our increasing knowledge of palaeo-habitats allows us to make direct inferences on genetic diversity fluctuations, provided we understand the habitat preferences of a species. More importantly, we are able to predict whether future warming trends and concomitant changes in habitat availability will be likely to impact the genetic diversity and survival potential of specific target species.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": "4."
+            },
+            {
+                "text": "Signatures of N e across eleven bat genomes suggest an important role for species biology and life history in determining the course of genetic diversity fluctuations during the Late Quaternary. Large-bodied frugivores (Pteropus alecto, Pteropus vampyrus and Eidolon helvum), characterized by massive colonies and a great dispersal capability [59, 60] , showed an overall increase in N e and distribution range during the most recent major period of climatic cooling (LIG to LGM) (figure 1a-c), perhaps reflecting reduced aridity favouring expansions of fruit-dependent species. Pteropus alecto and Pteropus vampyrus have an archipelagic distribution and have benefitted from Quaternary land expansion for gene flow when sea levels recede [61] . Eidolon helvum, a generalist African open-country dweller, would also have taken advantage of decreased aridity from the LIG to the LGM [62] to increase in N e (figure 1c).",
+                "cite_spans": [
+                    {
+                        "start": 343,
+                        "end": 347,
+                        "text": "[59,",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 348,
+                        "end": 351,
+                        "text": "60]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 739,
+                        "end": 743,
+                        "text": "[61]",
+                        "ref_id": "BIBREF66"
+                    },
+                    {
+                        "start": 882,
+                        "end": 886,
+                        "text": "[62]",
+                        "ref_id": "BIBREF67"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(b) Species biology predicts response to climate change",
+                "sec_num": null
+            },
+            {
+                "text": "Across insectivores (including carnivores), larger bats (Megaderma lyra, Hipposideros armiger, Pteronotus parnellii) Table 1 . Effective population sizes estimated for approximately 10 000 years ago, the LGM and the LIG. Effective population sizes are approximate values extracted from the PSMC graphs ( figure 1; electronic supplementary material, figures S2 and S3) . LGM, Last Glacial Maximum; LIG, Last Interglacial. Pteropus alecto 70 000 35 000 8000 1 260 000 620 000 156 000 600 000 300 000 70 000",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 117,
+                        "end": 124,
+                        "text": "Table 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 304,
+                        "end": 367,
+                        "text": "figure 1; electronic supplementary material, figures S2 and S3)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "(b) Species biology predicts response to climate change",
+                "sec_num": null
+            },
+            {
+                "text": "Pteropus vampyrus 1 300 000 640 000 160 000 2 250 000 1 100 000 280 000 400 000 200 000 50 000",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(b) Species biology predicts response to climate change",
+                "sec_num": null
+            },
+            {
+                "text": "Eidolon helvum 1 000 000 500 000 125 000 1 000 000 500 000 125 000 460 000 220 000 58 000",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(b) Species biology predicts response to climate change",
+                "sec_num": null
+            },
+            {
+                "text": "Pteronotus [2, 27] ): interestingly, the N e of many bat species in this study roughly equals that of many birds [2] but generally exceeds that of Carnivora [27] . One species, Rhinolophus ferrumequinum, a fairly largesized insectivore, exhibited an exceptionally low N e (table 1). Its genetic diversity rivalled that of endangered birds and mega-mammals [2, 27, 56] . However, its genome was derived from a non-refugial population in Britain, so its exceptionally low current N e might reflect the great bottlenecks that this peripheral and periodically isolated island population has gone through.",
+                "cite_spans": [
+                    {
+                        "start": 11,
+                        "end": 14,
+                        "text": "[2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 15,
+                        "end": 18,
+                        "text": "27]",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 113,
+                        "end": 116,
+                        "text": "[2]",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 157,
+                        "end": 161,
+                        "text": "[27]",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 356,
+                        "end": 359,
+                        "text": "[2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 360,
+                        "end": 363,
+                        "text": "27,",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 364,
+                        "end": 367,
+                        "text": "56]",
+                        "ref_id": "BIBREF60"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(b) Species biology predicts response to climate change",
+                "sec_num": null
+            },
+            {
+                "text": "Our comparisons of N e are based on three plausible generation times according to estimates of first and median age of reproduction (table 1) [35, 38, 41, 63] . If a generation time of 8 years is accepted, many bats in our panel would have entered the Holocene with an alarmingly low population genetic diversity (table 1; electronic supplementary material, figure S2 ). Regardless of generation time, 7 out of 11 (approx. 64%) species in our panel displayed the absolute lowest levels of genetic diversity during their entry into the Holocene as measured across the entire Late Quaternary (figure 1), attesting that the Early Holocene has not been a time of great population genetic stability in many bat species. Depending on the magnitude of imminent anthropogenic climate change [10] , bats may be particularly extinction-prone, given that extreme aridification and warming episodes have been implicated in calamitous bat mortality events [17, 41] (d) Limitations and future challenges Ancient range reconstruction is a promising method to infer the impact of climate change on natural populations but can be fraught with limitations and imprecision [64, 65] . One of the technical challenges of ENM relates to the choice of bioclimatic variables, and whether-in multi-species datasetsthese variables should be extracted from the set of distribution points of all species, or subgroups, or individual species. J\u00fanior & N\u00f3brega [53] showed that inferences on the basis of smaller datasets are subject to strong biases of idiosyncrasy, and that larger datasets combining multiple species should be used as the basis of ENM analyses if present. Our analyses confirm that idiosyncratic biases may operate in our bat dataset, leading us to adopt a global dataset approach for the extraction of bioclimatic variables. Fortunately, our dataset of 11 worldwide species covering approximately 1700 distribution points should render our analysis robust to idiosyncratic biases, but future research into the lower thresholds of distribution data is a worthwhile avenue of inquiry.",
+                "cite_spans": [
+                    {
+                        "start": 142,
+                        "end": 146,
+                        "text": "[35,",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 147,
+                        "end": 150,
+                        "text": "38,",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 151,
+                        "end": 154,
+                        "text": "41,",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 155,
+                        "end": 158,
+                        "text": "63]",
+                        "ref_id": "BIBREF68"
+                    },
+                    {
+                        "start": 783,
+                        "end": 787,
+                        "text": "[10]",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 943,
+                        "end": 947,
+                        "text": "[17,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 948,
+                        "end": 951,
+                        "text": "41]",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 1154,
+                        "end": 1158,
+                        "text": "[64,",
+                        "ref_id": "BIBREF69"
+                    },
+                    {
+                        "start": 1159,
+                        "end": 1162,
+                        "text": "65]",
+                        "ref_id": "BIBREF70"
+                    },
+                    {
+                        "start": 1431,
+                        "end": 1435,
+                        "text": "[53]",
+                        "ref_id": "BIBREF57"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 132,
+                        "end": 141,
+                        "text": "(table 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 358,
+                        "end": 367,
+                        "text": "figure S2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "(b) Species biology predicts response to climate change",
+                "sec_num": null
+            },
+            {
+                "text": "A well-established limitation of PSMC analysis is that population subdivision and migration may contribute to genealogies that mimic signals of expansion and contraction [66] [67] [68] [69] [70] . Changes in PSMC plots may therefore not always reflect changes in N e . Yet these changes are still important in terms of a species's extinction potential and susceptibility to environmental change [71] . Similarly, single genome comparisons may often track local population history rather than global species history (this study and [26] ). Hence inferences made from PSMC analysis need to be interpreted while keeping in mind the complex demographic history of species in question. Additionally, the choice of mutation rates is known to affect PSMC calculations considerably [22] . For our present study, we used a generic mammalian mutation rate [34] as is commonly employed in the literature [15, 72, 73] due to the lack of bat specific mutation rates. Regardless, PSMC remains ideal to track changes in population genetic diversity across a species's evolutionary history.",
+                "cite_spans": [
+                    {
+                        "start": 170,
+                        "end": 174,
+                        "text": "[66]",
+                        "ref_id": "BIBREF71"
+                    },
+                    {
+                        "start": 175,
+                        "end": 179,
+                        "text": "[67]",
+                        "ref_id": "BIBREF72"
+                    },
+                    {
+                        "start": 180,
+                        "end": 184,
+                        "text": "[68]",
+                        "ref_id": "BIBREF73"
+                    },
+                    {
+                        "start": 185,
+                        "end": 189,
+                        "text": "[69]",
+                        "ref_id": "BIBREF74"
+                    },
+                    {
+                        "start": 190,
+                        "end": 194,
+                        "text": "[70]",
+                        "ref_id": "BIBREF75"
+                    },
+                    {
+                        "start": 395,
+                        "end": 399,
+                        "text": "[71]",
+                        "ref_id": "BIBREF76"
+                    },
+                    {
+                        "start": 531,
+                        "end": 535,
+                        "text": "[26]",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 774,
+                        "end": 778,
+                        "text": "[22]",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 846,
+                        "end": 850,
+                        "text": "[34]",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 893,
+                        "end": 897,
+                        "text": "[15,",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 898,
+                        "end": 901,
+                        "text": "72,",
+                        "ref_id": "BIBREF77"
+                    },
+                    {
+                        "start": 902,
+                        "end": 905,
+                        "text": "73]",
+                        "ref_id": "BIBREF78"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(b) Species biology predicts response to climate change",
+                "sec_num": null
+            },
+            {
+                "text": "Future applications should focus on the incorporation of genomic information of multiple individuals to improve N e estimates across a wider time scale, including into more recent millennia [74] . Given the sharp rise in the availability of genomes over the last few years, we expect that future analyses will be able to incorporate more species, expanding on the vast ecological breadth of bats and other vertebrates, to allow for more detailed insights and conclusions.",
+                "cite_spans": [
+                    {
+                        "start": 190,
+                        "end": 194,
+                        "text": "[74]",
+                        "ref_id": "BIBREF79"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(b) Species biology predicts response to climate change",
+                "sec_num": null
+            },
+            {
+                "text": "Data accessibility. All data generated or analysed during this study are included in this published article and electronic supplementary material. All data points for ENM in this study are provided in electronic supplementary material, table S2.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "(b) Species biology predicts response to climate change",
+                "sec_num": null
+            },
+            {
+                "text": "\u00a9 2019 The Author(s) Published by the Royal Society. All rights reserved.Downloaded from https://royalsocietypublishing.org/ on 07 October 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://royalsocietypublishing.org/ on 07 October 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "The genetic legacy of the Quaternary ice ages",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Hewitt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Nature",
+                "volume": "405",
+                "issue": "",
+                "pages": "907--913",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/35016000"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hewitt G. 2000 The genetic legacy of the Quaternary ice ages. Nature 405, 907-913. (doi:10.1038/35016000)",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Temporal dynamics of avian populations during Pleistocene revealed by wholegenome sequences",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Nadachowska-Brzyska",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Smeds",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Ellegren",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Curr. Biol",
+                "volume": "25",
+                "issue": "",
+                "pages": "1375--1380",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.cub.2015.03.047"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Nadachowska-Brzyska K, Li C, Smeds L, Zhang G, Ellegren H. 2015 Temporal dynamics of avian populations during Pleistocene revealed by whole- genome sequences. Curr. Biol. 25, 1375-1380. (doi:10.1016/j.cub.2015.03.047)",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Evolution: a genomic guide to bird population history",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Toews",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Curr. Biol",
+                "volume": "25",
+                "issue": "",
+                "pages": "465--467",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.cub.2015.04.008"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Toews DP. 2015 Evolution: a genomic guide to bird population history. Curr. Biol. 25, R465-R467. (doi:10.1016/j.cub.2015.04.008)",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Modelled atmospheric temperatures and global sea levels over the past million years",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Bintanja",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Rsw",
+                        "middle": [],
+                        "last": "Van De Wal",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Oerlemans",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Nature",
+                "volume": "437",
+                "issue": "",
+                "pages": "125--128",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nature03975"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Bintanja R, van de Wal RSW, Oerlemans J. 2005 Modelled atmospheric temperatures and global sea levels over the past million years. Nature 437, 125-128. (doi:10.1038/nature03975)",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Biogeography of mammals in SE Asia: estimates of rates of colonization, extinction and speciation",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Biol. J. Linnean Soc",
+                "volume": "28",
+                "issue": "",
+                "pages": "127--165",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1095-8312.1986.tb01752.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Heaney LR. 1986 Biogeography of mammals in SE Asia: estimates of rates of colonization, extinction and speciation. Biol. J. Linnean Soc. 28, 127-165. (doi:10.1111/j.1095-8312.1986.tb01752.x)",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "The effects of Pleistocene climate change on biotic royalsocietypublishing.org/journal/rspb",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Ng",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Wilton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Prawiradilaga",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Tay",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Indrawan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Garg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Rheindt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Mol. Phylogenet. Evol",
+                "volume": "286",
+                "issue": "",
+                "pages": "353--366",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.ympev.2017.05.007"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ng NS, Wilton PR, Prawiradilaga DM, Tay YC, Indrawan M, Garg KM, Rheindt FE. 2017 The effects of Pleistocene climate change on biotic royalsocietypublishing.org/journal/rspb Proc. R. Soc. B 286: 20190304 differentiation in a montane songbird clade from Wallacea. Mol. Phylogenet. Evol. 114, 353-366. (doi:10.1016/j.ympev.2017.05.007)",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Pleistocene land bridges act as semipermeable agents of avian gene flow in Wallacea",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Garg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Chattopadhyay",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Wilton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Prawiradilaga",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Rheindt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Mol. Phylogenet. Evol",
+                "volume": "125",
+                "issue": "",
+                "pages": "196--203",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.ympev.2018.03.032"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Garg KM, Chattopadhyay B, Wilton PR, Prawiradilaga DM, Rheindt FE. 2018 Pleistocene land bridges act as semipermeable agents of avian gene flow in Wallacea. Mol. Phylogenet. Evol. 125, 196-203. (doi:10.1016/j.ympev.2018.03.032)",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Gene flow during glacial habitat shifts facilitates character displacement in a Neotropical flycatcher radiation",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Chattopadhyay",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Garg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Gwee",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Edwards",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Rheindt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "BMC Evol. Biol",
+                "volume": "17",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1186/s12862-017-1047-3"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Chattopadhyay B, Garg KM, Gwee CY, Edwards SV, Rheindt FE. 2017 Gene flow during glacial habitat shifts facilitates character displacement in a Neotropical flycatcher radiation. BMC Evol. Biol. 17, 210. (doi:10.1186/s12862-017-1047-3)",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Multiple Pleistocene refugia and Holocene range expansion of an abundant southwestern American desert plant species (Melampodium leucanthum",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Rebernig",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schneeweiss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Bardy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Schoenswetter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Villasenor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Obermayer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Stuessy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Weiss-Schneeweiss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Asteraceae)",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rebernig CA, Schneeweiss GM, Bardy KE, Schoenswetter P, Villasenor JL, Obermayer R, Stuessy TF, Weiss-Schneeweiss H. 2010 Multiple Pleistocene refugia and Holocene range expansion of an abundant southwestern American desert plant species (Melampodium leucanthum, Asteraceae).",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Global warming of 1.5\u00b0C. An IPCC Special Report on the impacts of global warming of 1.5\u00b0C above preindustrial levels and related global greenhouse gas emission pathways, in the context of strengthening the global response to the threat of climate change, sustainable development, and efforts to eradicate poverty See",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Masson-Delmotte",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Masson-Delmotte V et al. 2018 2018: Global warming of 1.5\u00b0C. An IPCC Special Report on the impacts of global warming of 1.5\u00b0C above pre- industrial levels and related global greenhouse gas emission pathways, in the context of strengthening the global response to the threat of climate change, sustainable development, and efforts to eradicate poverty See https://www.ipcc.ch/sr15/.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Carpe noctem: the importance of bats as bioindicators",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Jacobs",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Kunz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Willig",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Racey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Endanger. Species Res",
+                "volume": "8",
+                "issue": "",
+                "pages": "93--115",
+                "other_ids": {
+                    "DOI": [
+                        "10.3354/esr00182"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Jones G, Jacobs DS, Kunz TH, Willig MR, Racey PA. 2009 Carpe noctem: the importance of bats as bioindicators. Endanger. Species Res. 8, 93-115. (doi:10.3354/esr00182)",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Responses of bats to climate change: learning from the past and predicting the future",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Rebelo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Bat evolution, ecology, and conservation",
+                "volume": "",
+                "issue": "",
+                "pages": "457--478",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jones G, Rebelo H. 2013 Responses of bats to climate change: learning from the past and predicting the future. In Bat evolution, ecology, and conservation (eds RA Adams, SC Pedersen), pp. 457-478. Berlin, Germany: Springer.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "The roles of geological history and colonization abilities in genetic differentiation between mammalian populations in the Philippine archipelago",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Heaney",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Walsh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Townsend",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Heaney LR, Walsh JS, Townsend PA. 2005 The roles of geological history and colonization abilities in genetic differentiation between mammalian populations in the Philippine archipelago.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Phylogeography of the greater horseshoe bat, Rhinolophus ferrumequinum: contrasting results from mitochondrial and microsatellite data",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Flanders",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Benda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Dietz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Sharifi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Rossiter",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Mol. Ecol",
+                "volume": "18",
+                "issue": "",
+                "pages": "306--318",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1365-294x.2008.04021.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Flanders J, Jones G, Benda P, Dietz C, Zhang S, Li G, Sharifi M, Rossiter SJ. 2009 Phylogeography of the greater horseshoe bat, Rhinolophus ferrumequinum: contrasting results from mitochondrial and microsatellite data. Mol. Ecol. 18, 306-318. (doi:10. 1111/j.1365-294x.2008.04021.x)",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Myotis rufoniger genome sequence and analyses: M. rufoniger's genomic feature and the decreasing effective population size of Myotis bats",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Bhak",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "PLoS ONE",
+                "volume": "12",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pone.0180418"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Bhak Y et al. 2017 Myotis rufoniger genome sequence and analyses: M. rufoniger's genomic feature and the decreasing effective population size of Myotis bats. PLoS ONE 12, e0180418. (doi:10. 1371/journal.pone.0180418)",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Phylogeography of Hipposideros armiger (Chiroptera: Hipposideridae) in the Oriental Region: the contribution of multiple Pleistocene glacial refugia and intrinsic factors to contemporary population genetic structure",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "Q"
+                        ],
+                        "last": "Lin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Csorba",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Jiang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Lu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Thong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Soisook",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Sun",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Feng",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Welbergen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Klose",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Markus",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Eby",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "J. Biogeogr",
+                "volume": "41",
+                "issue": "",
+                "pages": "317--327",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/jbi.12163"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Lin AQ, Csorba G, Li LF, Jiang TL, Lu GJ, Thong VD, Soisook P, Sun KP, Feng J. 2014 Phylogeography of Hipposideros armiger (Chiroptera: Hipposideridae) in the Oriental Region: the contribution of multiple Pleistocene glacial refugia and intrinsic factors to contemporary population genetic structure. J. Biogeogr. 41, 317-327. (doi:10.1111/ jbi.12163) 17. Welbergen JA, Klose SM, Markus N, Eby P. 2008",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Climate change and the effects of temperature extremes on Australian flying-foxes",
+                "authors": [],
+                "year": null,
+                "venue": "Proc. R. Soc. B",
+                "volume": "275",
+                "issue": "",
+                "pages": "419--425",
+                "other_ids": {
+                    "DOI": [
+                        "10.1098/rspb.2007.1385"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Climate change and the effects of temperature extremes on Australian flying-foxes. Proc. R. Soc. B 275, 419-425. (doi:10.1098/rspb.2007.1385)",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Fossils reject climate change as the cause of extinction of Caribbean bats",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Soto-Centeno",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Steadman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Sci. Rep",
+                "volume": "5",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/srep07971"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Soto-Centeno JA, Steadman DW. 2015 Fossils reject climate change as the cause of extinction of Caribbean bats. Sci. Rep. 5, 7971. (doi:10.1038/ srep07971)",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "The shaping of genetic variation in edge-of-range populations under past and future climate change",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Razgour",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Ecol. Lett",
+                "volume": "16",
+                "issue": "",
+                "pages": "1258--1266",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/ele.12158"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Razgour O et al. 2013 The shaping of genetic variation in edge-of-range populations under past and future climate change. Ecol. Lett. 16, 1258-1266. (doi:10.1111/ele.12158)",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Correlation between fitness and genetic diversity",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Reed",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Frankham",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Reed DH, Frankham R. 2003 Correlation between fitness and genetic diversity.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "How large must populations be to retain evolutionary potential?",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Franklin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Frankham",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Anim. Conserv",
+                "volume": "1",
+                "issue": "",
+                "pages": "69--70",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1469-1795.1998.tb00228.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Franklin I, Frankham R. 1998 How large must populations be to retain evolutionary potential? Anim. Conserv. 1, 69-70. (doi:10.1111/j.1469-1795. 1998.tb00228.x)",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Inference of human population history from individual whole-genome sequences",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Durbin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Nature",
+                "volume": "475",
+                "issue": "",
+                "pages": "493--496",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/nature10231"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Li H, Durbin R. 2011 Inference of human population history from individual whole-genome sequences. Nature 475, 493-496. (doi:10.1038/nature10231)",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Demographic divergence history of pied flycatcher and collared flycatcher inferred from whole-genome re-sequencing data",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Nadachowska-Brzyska",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Burri",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Olason",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Kawakami",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Smeds",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Ellegren",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "PLoS Genet",
+                "volume": "9",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pgen.1003942"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Nadachowska-Brzyska K, Burri R, Olason PI, Kawakami T, Smeds L, Ellegren H. 2013 Demographic divergence history of pied flycatcher and collared flycatcher inferred from whole-genome re-sequencing data. PLoS Genet. 9, e1003942. (doi:10.1371/journal.pgen.1003942)",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Looking into the past-the reaction of three grouse species to climate change over the last million years using whole genome sequences",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Kozma",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Melsted",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Magn\u00fasson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "H\u00f6glund",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Mol. Ecol",
+                "volume": "25",
+                "issue": "",
+                "pages": "570--580",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/mec.13496"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Kozma R, Melsted P, Magn\u00fasson KP, H\u00f6glund J. 2016 Looking into the past-the reaction of three grouse species to climate change over the last million years using whole genome sequences. Mol. Ecol. 25, 570-580. (doi:10.1111/mec.13496)",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Natural selection shaped the rise and fall of passenger pigeon genomic diversity",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Murray",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Science",
+                "volume": "358",
+                "issue": "",
+                "pages": "951--954",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/science.aao0960"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Murray GG et al. 2017 Natural selection shaped the rise and fall of passenger pigeon genomic diversity. Science 358, 951-954. (doi:10.1126/science. aao0960)",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "PSMC analysis of effective population sizes in molecular ecology and its application to blackand-white Ficedula flycatchers",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Nadachowska-Brzyska",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Burri",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Smeds",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Ellegren",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Mol. Ecol",
+                "volume": "25",
+                "issue": "",
+                "pages": "1058--1072",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/mec.13540)27"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Nadachowska-Brzyska K, Burri R, Smeds L, Ellegren H. 2016 PSMC analysis of effective population sizes in molecular ecology and its application to black- and-white Ficedula flycatchers. Mol. Ecol. 25, 1058-1072. (doi:10.1111/mec.13540)27.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Comparison of carnivore, omnivore, and herbivore mammalian genomes with a new leopard assembly",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kim",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Genome Biol",
+                "volume": "17",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1186/s13059-016-1071-4"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Kim S et al. 2016 Comparison of carnivore, omnivore, and herbivore mammalian genomes with a new leopard assembly. Genome Biol. 17, 211. (doi:10.1186/s13059-016-1071-4)",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "FastQC: a quality control analysis tool for high throughput sequence data",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Andrews",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Andrews S. 2010 FastQC: a quality control analysis tool for high throughput sequence data. See https://github.com/s-andrews/FastQC.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "BBMap short read aligner",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Bushnell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bushnell B. 2016 BBMap short read aligner. Berkeley, CA: University of California. See http:// sourceforge.net/projects/bbmap.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "A statistical framework for SNP calling, mutation discovery, association mapping and population genetical parameter estimation from sequencing data",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Bioinformatics",
+                "volume": "27",
+                "issue": "",
+                "pages": "2987--2993",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/bioinformatics/btr509"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Li H. 2011 A statistical framework for SNP calling, mutation discovery, association mapping and population genetical parameter estimation from sequencing data. Bioinformatics 27, 2987-2993. (doi:10.1093/bioinformatics/btr509)",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "The sequence alignment/map format and SAMtools",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Handsaker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Wysoker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Fennell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Ruan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Homer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Marth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Abecasis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Durbin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Bioinformatics",
+                "volume": "25",
+                "issue": "",
+                "pages": "2078--2079",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/bioinformatics/btp352"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Li H, Handsaker B, Wysoker A, Fennell T, Ruan J, Homer N, Marth G, Abecasis G, Durbin R. 2009 The sequence alignment/map format and SAMtools. Bioinformatics 25, 2078-2079. (doi:10.1093/ bioinformatics/btp352)",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Genome-wide mapping and assembly of structural variant breakpoints in the mouse genome",
+                "authors": [],
+                "year": null,
+                "venue": "Genome Res",
+                "volume": "20",
+                "issue": "",
+                "pages": "623--635",
+                "other_ids": {
+                    "DOI": [
+                        "10.1101/gr.102970.109"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Genome-wide mapping and assembly of structural variant breakpoints in the mouse genome. Genome Res. 20, 623-635. (doi:10.1101/gr.102970.109)",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Fast and accurate long-read alignment with Burrows-Wheeler transform",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Durbin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Bioinformatics",
+                "volume": "26",
+                "issue": "",
+                "pages": "589--595",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/bioinformatics/btp698"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Li H, Durbin R. 2010 Fast and accurate long-read alignment with Burrows-Wheeler transform. Bioinformatics 26, 589-595. (doi:10.1093/ bioinformatics/btp698)",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Mutation rates in mammalian genomes",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kumar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Subramanian",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Proc. Natl Acad. Sci. USA",
+                "volume": "99",
+                "issue": "",
+                "pages": "803--808",
+                "other_ids": {
+                    "DOI": [
+                        "10.1073/pnas.022629899"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Kumar S, Subramanian S. 2002 Mutation rates in mammalian genomes. Proc. Natl Acad. Sci. USA 99, 803-808. (doi:10.1073/pnas.022629899)",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Life histories of bats: life in the slow lane",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Barclay",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Harder",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "209--253",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barclay RM, Harder LD. 2003 Life histories of bats: life in the slow lane. In Bat ecology (eds TH Kunz, M Fenton), pp. 209-253. Chicago, IL: University of Chicago Press.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Rare catastrophic events drive population dynamics in a bat species with negligible senescence",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Fleischer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Gampe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Scheuerlein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Kerth",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Sci. Rep",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/s41598-017-06392-9"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Fleischer T, Gampe J, Scheuerlein A, Kerth G. 2017 Rare catastrophic events drive population dynamics in a bat species with negligible senescence. Sci. Rep. 7, 7370. (doi:10.1038/s41598-017-06392-9)",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Generation time: a reliable metric to measure lifehistory variation among mammalian populations",
+                "authors": [
+                    {
+                        "first": "J-M",
+                        "middle": [],
+                        "last": "Gaillard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Yoccoz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J-D",
+                        "middle": [],
+                        "last": "Lebreton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Bonenfant",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Devillard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Loison",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Pontier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Allaine",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Am. Nat",
+                "volume": "166",
+                "issue": "",
+                "pages": "119--123",
+                "other_ids": {
+                    "DOI": [
+                        "10.1086/430330"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Gaillard J-M, Yoccoz NG, Lebreton J-D, Bonenfant C, Devillard S, Loison A, Pontier D, Allaine D. 2005 Generation time: a reliable metric to measure life- history variation among mammalian populations. Am. Nat. 166, 119-123. (doi:10.1086/430330)",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Variance in female reproductive success differentially impacts effective population size in the short-nosed fruit bat, Cynopterus sphinx",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Garg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Ramakrishnan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Evol. Biol",
+                "volume": "44",
+                "issue": "",
+                "pages": "366--373",
+                "other_ids": {
+                    "DOI": [
+                        "10.1007/s11692-017-9414-y"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Garg KM, Ramakrishnan U. 2017 Variance in female reproductive success differentially impacts effective population size in the short-nosed fruit bat, Cynopterus sphinx. Evol. Biol. 44, 366-373. (doi:10. 1007/s11692-017-9414-y)",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Strong geographic and temporal patterns in conservation status of North American bats",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Hammerson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kling",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Harkness",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ormes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Young",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Biol. Conserv",
+                "volume": "212",
+                "issue": "",
+                "pages": "144--152",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.biocon.2017.05.025"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hammerson G, Kling M, Harkness M, Ormes M, Young B. 2017 Strong geographic and temporal patterns in conservation status of North American bats. Biol. Conserv. 212, 144-152. (doi:10.1016/j. biocon.2017.05.025)",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Genetic diversity, historic population size, and population structure in 2 North American tree bats",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Korstian",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Hale",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Williams",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "J. Mammal",
+                "volume": "96",
+                "issue": "",
+                "pages": "972--980",
+                "other_ids": {
+                    "DOI": [
+                        "10.1093/jmammal/gyv101"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Korstian JM, Hale AM, Williams DA. 2015 Genetic diversity, historic population size, and population structure in 2 North American tree bats. J. Mammal. 96, 972-980. (doi:10.1093/jmammal/gyv101)",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Testing for genetic evidence of population expansion and contraction: an empirical analysis of microsatellite DNA variation using a hierarchical Bayesian model",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Storz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Beaumont",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Evolution",
+                "volume": "56",
+                "issue": "",
+                "pages": "154--166",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.0014-3820.2002.tb00857.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Storz JF, Beaumont MA. 2002 Testing for genetic evidence of population expansion and contraction: an empirical analysis of microsatellite DNA variation using a hierarchical Bayesian model. Evolution 56, 154-166. (doi:10.1111/j.0014-3820.2002.tb00857.x)",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "The complex evolutionary history of big-eared horseshoe bats (Rhinolophus macrotis complex): insights from genetic, morphological and acoustic data",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Sun",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Kimball",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Liu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Wei",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Jin",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Jiang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Lin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Feng",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Sci. Rep",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/srep35417"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Sun K, Kimball RT, Liu T, Wei X, Jin L, Jiang T, Lin A, Feng J. 2016 The complex evolutionary history of big-eared horseshoe bats (Rhinolophus macrotis complex): insights from genetic, morphological and acoustic data. Sci. Rep. 6, 35417. (doi:10.1038/ srep35417)",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "rgbif: Interface to the global 'biodiversity'information facility API",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Chamberlain",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Boettiger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Ram",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Barve",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Mcglinn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chamberlain S, Boettiger C, Ram K, Barve V, Mcglinn D. 2016 rgbif: Interface to the global 'biodiversity'information facility API. R package version 0.9. 5.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Very high resolution interpolated climate surfaces for global land areas",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hijmans",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Cameron",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Parra",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Jarvis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1965,
+                "venue": "Int. J. Climatol",
+                "volume": "25",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1002/joc.1276"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Hijmans RJ, Cameron SE, Parra JL, Jones PG, Jarvis A. 2005 Very high resolution interpolated climate surfaces for global land areas. Int. J. Climatol. 25, 1965-1978. (doi:10.1002/joc.1276)",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "DIVA-GIS, a geographic information system for the analysis of biodiversity data",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Hijmans",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hijmans R. 2013 DIVA-GIS, a geographic information system for the analysis of biodiversity data. Version 7.5. See https://diva-gis.org.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Maximum entropy modeling of species geographic royalsocietypublishing.org/journal/rspb",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Phillips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Schapire",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "distributions. Ecol. Model",
+                "volume": "286",
+                "issue": "",
+                "pages": "231--259",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.ecolmodel.2005.03.026"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Phillips SJ, Anderson RP, Schapire RE. 2006 Maximum entropy modeling of species geographic royalsocietypublishing.org/journal/rspb Proc. R. Soc. B 286: 20190304 distributions. Ecol. Model. 190, 231-259. (doi:10.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "A statistical explanation of MaxEnt for ecologists",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Elith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Phillips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Hastie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Dud\u00edk",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Chee",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Yates",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Divers. Distrib",
+                "volume": "17",
+                "issue": "",
+                "pages": "43--57",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1472-4642.2010.00725.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Elith J, Phillips SJ, Hastie T, Dud\u00edk M, Chee YE, Yates CJ. 2011 A statistical explanation of MaxEnt for ecologists. Divers. Distrib. 17, 43-57. (doi:10.1111/j. 1472-4642.2010.00725.x)",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "A practical guide to MaxEnt for modeling species' distributions: what it does, and why inputs and settings matter",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Merow",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Silander",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Ecography",
+                "volume": "36",
+                "issue": "",
+                "pages": "1058--1069",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1600-0587.2013.07872.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Merow C, Smith MJ, Silander JA. 2013 A practical guide to MaxEnt for modeling species' distributions: what it does, and why inputs and settings matter. Ecography 36, 1058-1069. (doi:10.1111/j.1600- 0587.2013.07872.x)",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Novel methods improve prediction of species' distributions from occurrence data",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Elith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Ecography",
+                "volume": "29",
+                "issue": "",
+                "pages": "129--151",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.2006.0906-7590.04596.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Elith JH et al. 2006 Novel methods improve prediction of species' distributions from occurrence data. Ecography 29, 129-151. (doi:10.1111/j.2006. 0906-7590.04596.x)",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Rethinking receiver operating characteristic analysis applications in ecological niche modeling",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Peterson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Pape\u015f",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sober\u00f3n",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Ecol. Modell",
+                "volume": "213",
+                "issue": "",
+                "pages": "63--72",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.ecolmodel.2007.11.008"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Peterson AT, Pape\u015f M, Sober\u00f3n J. 2008 Rethinking receiver operating characteristic analysis applications in ecological niche modeling. Ecol. Modell. 213, 63-72. (doi:10.1016/j.ecolmodel.2007.11.008)",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "AUC: a misleading measure of the performance of predictive distribution models",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Lobo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Jim\u00e9nez-Valverde",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Real",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Glob. Ecol. Biogeogr",
+                "volume": "17",
+                "issue": "",
+                "pages": "145--151",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1466-8238.2007.00358.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Lobo JM, Jim\u00e9nez-Valverde A, Real R. 2008 AUC: a misleading measure of the performance of predictive distribution models. Glob. Ecol. Biogeogr. 17, 145-151. (doi:10.1111/j.1466-8238.2007. 00358.x)",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "Matrix population models",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Caswell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Caswell H. 2001 Matrix population models. Sunderland, MA: Sinauer Associates.",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "Evaluating collinearity effects on species distribution models: an approach based on virtual species simulation",
+                "authors": [
+                    {
+                        "first": "Pdm",
+                        "middle": [],
+                        "last": "J\u00fanior",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "N\u00f3brega",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "PLoS ONE",
+                "volume": "13",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pone.0202403"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "J\u00fanior PDM, N\u00f3brega CC. 2018 Evaluating collinearity effects on species distribution models: an approach based on virtual species simulation. PLoS ONE 13, e0202403. (doi:10.1371/journal.pone. 0202403)",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Comparative phylogeography and postglacial colonization routes in Europe",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Taberlet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Fumagalli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A-G",
+                        "middle": [],
+                        "last": "Wust-Saucy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Cosson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Mol. Ecol",
+                "volume": "7",
+                "issue": "",
+                "pages": "453--464",
+                "other_ids": {
+                    "DOI": [
+                        "10.1046/j.1365-294x.1998.00289.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Taberlet P, Fumagalli L, Wust-Saucy A-G, Cosson JF. 1998 Comparative phylogeography and postglacial colonization routes in Europe. Mol. Ecol. 7, 453-464. (doi:10.1046/j.1365-294x.1998.00289.x)",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "DNA footprints of European hedgehogs, Erinaceus europaeus and E. concolor: Pleistocene refugia, postglacial expansion and colonization routes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Seddon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Santucci",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Reeve",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Hewitt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Mol. Ecol",
+                "volume": "10",
+                "issue": "",
+                "pages": "2187--2198",
+                "other_ids": {
+                    "DOI": [
+                        "10.1046/j.0962-1083.2001.01357.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Seddon J, Santucci F, Reeve N, Hewitt G. 2001 DNA footprints of European hedgehogs, Erinaceus europaeus and E. concolor: Pleistocene refugia, postglacial expansion and colonization routes. Mol. Ecol. 10, 2187-2198. (doi:10.1046/j.0962-1083. 2001.01357.x)",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "Genomic analysis of demographic history and ecological niche modeling in the endangered Sumatran rhinoceros Dicerorhinus sumatrensis",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Mays",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Curr. Biol",
+                "volume": "28",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.cub.2017.11.021"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Mays Jr HL et al. 2018 Genomic analysis of demographic history and ecological niche modeling in the endangered Sumatran rhinoceros Dicerorhinus sumatrensis. Curr. Biol. 28, 70-76.e74. (doi:10. 1016/j.cub.2017.11.021)",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "Accelerated modern human-induced species losses: entering the sixth mass extinction",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Ceballos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Ehrlich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Barnosky",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Garc\u00eda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Pringle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Palmer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Sci. Adv. 1, e1400253",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/sciadv.1400253"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ceballos G, Ehrlich PR, Barnosky AD, Garc\u00eda A, Pringle RM, Palmer TM. 2015 Accelerated modern human-induced species losses: entering the sixth mass extinction. Sci. Adv. 1, e1400253. (doi:10. 1126/sciadv.1400253)",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "Defaunation in the Anthropocene",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Dirzo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Young",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Galetti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Ceballos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Isaac",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Collen",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Science",
+                "volume": "345",
+                "issue": "",
+                "pages": "401--406",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/science.1251817"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Dirzo R, Young HS, Galetti M, Ceballos G, Isaac NJ, Collen B. 2014 Defaunation in the Anthropocene. Science 345, 401-406. (doi:10.1126/science. 1251817)",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "Ecology of cavity and foliage roosting bats",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Kunz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Lumsden",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Fenton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "3--89",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kunz TH, Lumsden LF, Fenton M. 2003 Ecology of cavity and foliage roosting bats. In Bat ecology (eds TH Kunz, M Fenton), pp. 3-89. Chicago, IL: University of Chicago Press.",
+                "links": null
+            },
+            "BIBREF65": {
+                "ref_id": "b65",
+                "title": "Long-distance and frequent movements of the flying-fox Pteropus poliocephalus: implications for management",
+                "authors": [],
+                "year": null,
+                "venue": "PLoS ONE",
+                "volume": "7",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pone.0042532"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Long-distance and frequent movements of the flying-fox Pteropus poliocephalus: implications for management. PLoS ONE 7, e42532. (doi:10.1371/ journal.pone.0042532)",
+                "links": null
+            },
+            "BIBREF66": {
+                "ref_id": "b66",
+                "title": "Island bats: evolution, ecology, and conservation",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Fleming",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Racey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fleming TH, Racey PA. 2010 Island bats: evolution, ecology, and conservation. Chicago, IL: University of Chicago Press.",
+                "links": null
+            },
+            "BIBREF67": {
+                "ref_id": "b67",
+                "title": "Long-distance seed dispersal by straw-coloured fruit bats varies by season and landscape",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Abedi-Lartey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Dechmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Wikelski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Scharf",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Fahr",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Glob. Ecol. Conserv",
+                "volume": "7",
+                "issue": "",
+                "pages": "12--24",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.gecco.2016.03.005"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Abedi-Lartey M, Dechmann DK, Wikelski M, Scharf AK, Fahr J. 2016 Long-distance seed dispersal by straw-coloured fruit bats varies by season and landscape. Glob. Ecol. Conserv. 7, 12-24. (doi:10. 1016/j.gecco.2016.03.005)",
+                "links": null
+            },
+            "BIBREF68": {
+                "ref_id": "b68",
+                "title": "Economic importance of bats in agriculture",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Boyles",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Cryan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Mccracken",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Kunz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Science",
+                "volume": "332",
+                "issue": "",
+                "pages": "41--42",
+                "other_ids": {
+                    "DOI": [
+                        "10.1126/science.1201366"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Boyles JG, Cryan PM, McCracken GF, Kunz TH. 2011 Economic importance of bats in agriculture. Science 332, 41-42. (doi:10.1126/science.1201366)",
+                "links": null
+            },
+            "BIBREF69": {
+                "ref_id": "b69",
+                "title": "Predicting the past distribution of species climatic niches",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Nogu\u00e9s-Bravo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Glob. Ecol. Biogeogr",
+                "volume": "18",
+                "issue": "",
+                "pages": "521--531",
+                "other_ids": {
+                    "DOI": [
+                        "10.1111/j.1466-8238.2009.00476.x"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Nogu\u00e9s-Bravo D. 2009 Predicting the past distribution of species climatic niches. Glob. Ecol. Biogeogr. 18, 521-531. (doi:10.1111/j.1466-8238. 2009.00476.x)",
+                "links": null
+            },
+            "BIBREF70": {
+                "ref_id": "b70",
+                "title": "In defense of 'niche modeling",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Warren",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Trends Ecol. Evol",
+                "volume": "27",
+                "issue": "",
+                "pages": "497--500",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.tree.2012.03.010"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Warren DL. 2012 In defense of 'niche modeling'. Trends Ecol. Evol. 27, 497-500. (doi:10.1016/j.tree. 2012.03.010)",
+                "links": null
+            },
+            "BIBREF71": {
+                "ref_id": "b71",
+                "title": "Evidence for population growth in humans is confounded by fine-scale population structure",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Ptak",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Przeworski",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Trends Genet",
+                "volume": "18",
+                "issue": "",
+                "pages": "559--563",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/s0168-9525(02)02781-6"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Ptak SE, Przeworski M. 2002 Evidence for population growth in humans is confounded by fine-scale population structure. Trends Genet. 18, 559-563. (doi:10.1016/s0168-9525(02)02781-6)",
+                "links": null
+            },
+            "BIBREF72": {
+                "ref_id": "b72",
+                "title": "The confounding effects of population structure, genetic diversity and the sampling scheme on the detection and quantification of population size changes",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Chikhi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Sousa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Luisi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Goossens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Beaumont",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Genetics",
+                "volume": "186",
+                "issue": "",
+                "pages": "983--995",
+                "other_ids": {
+                    "DOI": [
+                        "10.1534/genetics.110.118661"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Chikhi L, Sousa VC, Luisi P, Goossens B, Beaumont MA. 2010 The confounding effects of population structure, genetic diversity and the sampling scheme on the detection and quantification of population size changes. Genetics 186, 983-995. (doi:10.1534/genetics.110.118661)",
+                "links": null
+            },
+            "BIBREF73": {
+                "ref_id": "b73",
+                "title": "Inferring population size changes with sequence and SNP data: lessons from human bottlenecks",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Gattepaille",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Jakobsson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Blum",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Heredity",
+                "volume": "110",
+                "issue": "",
+                "pages": "409--419",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/hdy.2012.120"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Gattepaille LM, Jakobsson M, Blum MG. 2013 Inferring population size changes with sequence and SNP data: lessons from human bottlenecks. Heredity 110, 409-419. (doi:10.1038/hdy.2012.120)",
+                "links": null
+            },
+            "BIBREF74": {
+                "ref_id": "b74",
+                "title": "The confounding effect of population structure on Bayesian skyline plot inferences of demographic history",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Heller",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Chikhi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Siegismund",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "PLoS ONE",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pone.0062992"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Heller R, Chikhi L, Siegismund HR. 2013 The confounding effect of population structure on Bayesian skyline plot inferences of demographic history. PLoS ONE 8, e62992. (doi:10.1371/journal.pone.0062992)",
+                "links": null
+            },
+            "BIBREF75": {
+                "ref_id": "b75",
+                "title": "On the importance of being structured: instantaneous coalescence rates and human evolution-lessons for ancestral population size inference?",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Mazet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Rodr\u00edguez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Grusea",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Boitard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Chikhi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Heredity",
+                "volume": "116",
+                "issue": "",
+                "pages": "362--371",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/hdy.2015.104"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Mazet O, Rodr\u00edguez W, Grusea S, Boitard S, Chikhi L. 2016 On the importance of being structured: instantaneous coalescence rates and human evolution-lessons for ancestral population size inference? Heredity 116, 362-371. (doi:10.1038/ hdy.2015.104)",
+                "links": null
+            },
+            "BIBREF76": {
+                "ref_id": "b76",
+                "title": "Demographic inference using genetic data from a single individual: separating population size variation from population structure. Theor",
+                "authors": [
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Mazet",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Rodr\u00edguez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Chikhi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Popul. Biol",
+                "volume": "104",
+                "issue": "",
+                "pages": "46--58",
+                "other_ids": {
+                    "DOI": [
+                        "10.1016/j.tpb.2015.06.003"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Mazet O, Rodr\u00edguez W, Chikhi L. 2015 Demographic inference using genetic data from a single individual: separating population size variation from population structure. Theor. Popul. Biol. 104, 46-58. (doi:10.1016/j.tpb.2015.06.003)",
+                "links": null
+            },
+            "BIBREF77": {
+                "ref_id": "b77",
+                "title": "Genome sequencing highlights the dynamic early history of dogs",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Freedman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "PLoS Genet",
+                "volume": "10",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1371/journal.pgen.1004016"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Freedman AH et al. 2014 Genome sequencing highlights the dynamic early history of dogs. PLoS Genet. 10, e1004016. (doi:10.1371/journal.pgen.1004016)",
+                "links": null
+            },
+            "BIBREF78": {
+                "ref_id": "b78",
+                "title": "Whole-genome analysis of Mustela erminea finds that pulsed hybridization impacts evolution at high latitudes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Colella",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Lan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Schuster",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Talbot",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Cook",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Lindqvist",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Commun. Biol",
+                "volume": "1",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/s42003-018-0058-y"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Colella JP, Lan T, Schuster SC, Talbot SL, Cook JA, Lindqvist C. 2018 Whole-genome analysis of Mustela erminea finds that pulsed hybridization impacts evolution at high latitudes. Commun. Biol. 1, 51. (doi:10.1038/s42003-018-0058-y)",
+                "links": null
+            },
+            "BIBREF79": {
+                "ref_id": "b79",
+                "title": "Inferring human population size and separation history from multiple genome sequences",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Schiffels",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Durbin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Nat. Genet",
+                "volume": "46",
+                "issue": "",
+                "pages": "919--925",
+                "other_ids": {
+                    "DOI": [
+                        "10.1038/ng.3015"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Schiffels S, Durbin R. 2014 Inferring human population size and separation history from multiple genome sequences. Nat. Genet. 46, 919 -925. (doi:10.1038/ng.3015)",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "num": null,
+                "type_str": "figure",
+                "uris": null,
+                "text": "Temporal fluctuations in effective population size (N e ) between approximately 400 000 and 10 000 years before present, with extent of suitable habitat mapped for the Last Interglacial (LIG) and the Last Glacial Maximum (LGM), respectively. Black arrows indicate estimated net change in suitable habitat availability based on the ecological niche models from the LIG to the LGM"
+            },
+            "FIGREF1": {
+                "num": null,
+                "type_str": "figure",
+                "uris": null,
+                "text": "Quaternary climatic fluctuations have played a major role in shaping evolutionary trajectories of populations and species across all major biomes and taxonomic groups [1,7,8,54,55]."
+            },
+            "FIGREF2": {
+                "num": null,
+                "type_str": "figure",
+                "uris": null,
+                "text": "(Continued.)"
+            },
+            "FIGREF3": {
+                "num": null,
+                "type_str": "figure",
+                "uris": null,
+                "text": "Climate change leaves a genomic imprint of genetic diversity fluctuationsWe show that bats have undergone periods of pronounced fluctuations in N e and geographical distribution throughout the late Quaternary (figure 1 and table 2). Our comparative analysis focuses on the period between approximately 200 kyr and 10 kyr for two reasons: (1) palaeoclimatic habitat layers are only available until the LIG (http://www."
+            },
+            "FIGREF4": {
+                "num": null,
+                "type_str": "figure",
+                "uris": null,
+                "text": "(Continued.)"
+            },
+            "TABREF0": {
+                "type_str": "table",
+                "num": null,
+                "content": "<table><tr><td>3. Results</td></tr><tr><td>(a) Strong Quaternary fluctuations in genetic diversity</td></tr><tr><td>Our results revealed genomic signatures of drastic fluctu-</td></tr><tr><td>ations in N e correlated with Quaternary climatic oscillations</td></tr><tr><td>in virtually all 11 bat species under study (figure 1; electronic</td></tr><tr><td>supplementary material, figure S1 and table S1). We recon-</td></tr><tr><td>structed the demographic history dating back to at least</td></tr><tr><td>1 Myr, and in some cases significantly beyond (electronic</td></tr></table>",
+                "text": "Eidolon helvum, Eptesicus fuscus and Rhinolophus sinicus) in which N e remained identical between the LGM and Holocene and was hence classified as 'stable' (figure 1 and table 1). From a contingency table thus created for each period, we checked for significance of association between habitat and N e fluctuation using a \u03c7 2 -test. We further performed a phi-test to determine the extent of significance of the correlation. Values of phi vary between \u22121 and +1, with 0 meaning no association, values approaching +1 suggesting a strong positive association and values approaching \u22121 suggesting a strong negative association."
+            },
+            "TABREF1": {
+                "type_str": "table",
+                "num": null,
+                "content": "<table/>",
+                "text": ". Environmental parameters varied in their impact on reconstructed distributions depending on species and time scales (electronic supplementary material, table S5). Isothermality was the most important climatic variable for all three frugivorous bats (electronic supplementary material, table S5). Among insectivores, the importance of climatic variables differed according to time scales (electronic supplementary material, table S5)."
+            },
+            "TABREF2": {
+                "type_str": "table",
+                "num": null,
+                "content": "<table><tr><td>we have used whole genomes to estimate late Quaternary</td></tr><tr><td>fluctuations in N e as a proxy for genetic diversity across a</td></tr><tr><td>representative panel of bats spanning all major taxonomic</td></tr><tr><td>groups, size classes and ecological lifestyles (electronic sup-</td></tr><tr><td>plementary material, table S1). We also reconstructed</td></tr><tr><td>historical fluctuations in their distribution and compared</td></tr><tr><td>these to understand their evolutionary trajectories in</td></tr><tr><td>response to late Quaternary climatic change.</td></tr></table>",
+                "text": "royalsocietypublishing.org/journal/rspb Proc. R. Soc. B 286: 20190304"
+            },
+            "TABREF4": {
+                "type_str": "table",
+                "num": null,
+                "content": "<table><tr><td/><td/><td/><td/><td>royalsocietypublishing.org/journal/rspb</td></tr><tr><td>species</td><td>current</td><td>Mid-Holocene</td><td>LGM</td><td>LIG</td></tr><tr><td>Pteropus alecto</td><td>35.08</td><td>18.9</td><td>100</td><td>4.69</td></tr><tr><td>Pteropus vampyrus</td><td>100</td><td>84.46</td><td>60.05</td><td>53.82</td></tr><tr><td>Eidolon helvum</td><td>44.31</td><td>36.67</td><td>100</td><td>27.34</td></tr><tr><td>Pteronotus parnellii</td><td>74.56</td><td>100</td><td>19.06</td><td>12</td></tr><tr><td>Megaderma lyra</td><td>100</td><td>69.29</td><td>7.27</td><td>83.02</td></tr><tr><td>Hipposideros armiger</td><td>100</td><td>84.34</td><td>21.76</td><td>57.24</td></tr><tr><td>Eptesicus fuscus</td><td>95.72</td><td>100</td><td>49.09</td><td>88.42</td></tr><tr><td>Rhinolophus ferrumequinum</td><td>100</td><td>68.72</td><td>28.05</td><td>41.36</td></tr><tr><td>Rhinolophus sinicus</td><td>100</td><td>87.33</td><td>0.36</td><td>64.51</td></tr><tr><td>Myotis davidii</td><td>99.88</td><td>94.12</td><td>14.2</td><td>100</td></tr><tr><td>Myotis brandtii</td><td>100</td><td>91.64</td><td>19.38</td><td>27.53</td></tr></table>",
+                "text": "Fluctuations in suitable habitat reconstructed across major climatic periods expressed as percentage of maximum value. LGM, Last Glacial Maximum; LIG, Last Interglacial. Proc. R. Soc. B 286: 20190304 were characterized by overall low effective population sizes, with often limited fluctuations in population genetic diversity from the LIG to the LGM (figure 1; electronic supplementary material, table S1), whereas smaller bats (Rhinolophus ferrumequinum, Rhinolophus sinicus, Eptesicus fuscus, Myotis davidii and Myotis brandtii) generally tended to exhibit higher values of N e that often fluctuated more substantially (figure 1), invariably declining from the warmer LIG towards the cooler LGM. (c) Most bats have entered the Holocene with a low N e Most bat species analysed in this study have been characterized by an average vertebrate N e across the Late Quaternary (table 1). Comparative PSMC analyses across vertebrates remain scant (e.g. six felids and 38 bird species"
+            }
+        }
+    }
+}

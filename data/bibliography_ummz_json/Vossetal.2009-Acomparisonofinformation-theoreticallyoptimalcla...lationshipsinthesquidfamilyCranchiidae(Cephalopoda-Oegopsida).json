@@ -1,0 +1,1161 @@
+{
+    "paper_id": "Vossetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:37:24.160992Z"
+    },
+    "title": "A comparison of information-theoretically optimal classifications with estimates of phylogenetic relationships in the squid family Cranchiidae (Cephalopoda : Oegopsida)",
+    "authors": [
+        {
+            "first": "R",
+            "middle": [
+                "S"
+            ],
+            "last": "Voss",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "State University",
+                "location": {
+                    "settlement": "Purchase",
+                    "region": "New York"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "G",
+            "middle": [
+                "F"
+            ],
+            "last": "Estabrook",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "State University",
+                "location": {
+                    "settlement": "Purchase",
+                    "region": "New York"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Nancy",
+            "middle": [
+                "A"
+            ],
+            "last": "Voss",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "State University",
+                "location": {
+                    "settlement": "Purchase",
+                    "region": "New York"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "",
+    "pdf_parse": {
+        "paper_id": "Vossetal",
+        "_pdf_hash": "",
+        "abstract": [],
+        "body_text": [
+            {
+                "text": "Criteria by which some biological classifications may be judged better or worse than others have been debated for centuries, but since 1859 most systematists have striven to create taxonomies that reflect genealogical relationships, and the familiarity of such terms as \"monophyletic\", \"paraphyletic\" and \"polyphyletic\" reflects a widespread concern about the nature of correspondences between classifications and phylogenies. Some systematists, however, have expressed pessimism about the ability of modern researchers to discover true phylogenies, and question the utility of phylogenetic classifications even were it possible to ascertain their historical accuracy. J. S. L. GILMOUR, an early and articulate critic of evolutionary taxonomy, proposed that biological classifications be comprised exclusively of \". . . natural groups [that] class together individuals which have a large number of attributes in common\" (GILMOUR 1940: 466). The utility of natural groups, so defined, is usually equated with the information about characters conveyed by knowledge of group memberships (SOKAL and SNEATH 1963; FARRIS 1979) .",
+                "cite_spans": [
+                    {
+                        "start": 835,
+                        "end": 841,
+                        "text": "[that]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1084,
+                        "end": 1107,
+                        "text": "(SOKAL and SNEATH 1963;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 1108,
+                        "end": 1120,
+                        "text": "FARRIS 1979)",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "That classifications should (1) correspond to known or inferred phylogenies and (2) be maximally informative about characters are both intuitively appealing ideal properties, and it is therefore of interest to inquire whether or not they need be viewed irreconciliable as optimality criteria. In this paper we define ways in which classifications can correspond to tree diagrams of evolutionary history, propose quantitative measures of taxonomic information content and examine the relationships between phylogenetic reconstructions and informative classifications of pelagic squids in the family Cranchiidae.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "The (finite) collection of biological entities to be classified is called the Study, S. A level classification of S is any partition, Pk, of S into subsets such that the union of the subsets exhausts the membership of S and the intersection of any two subsets is the empty set. Thus, every member of S belongs to one and onIy one of the subsets comprising Pk, and these subsets are called the classes of Pk. By a phylogeny of S is meant a conventional tree diagram on which the members of S occupy the terminal nodes; internal nodes represent shared ancestors, and the lines connecting nodes represent phyletic lineages. A phylogeny and three level classifications for a study with five member taxa are illustrated in Figure 1 . A level classification of S corresponds to a phylogeny of S by monophyly (is said to be monophyletic) if and only if each of its classes contains all and only the descendants of a single common ancestor. Classification PI of Figure 1 corresponds can be simultaneously construed as the result of uninterrupted descent from a single common ancestor each. Thus, classification P2 (Figure l) , while not monophyletic, is convex, for it is possible to enlarge its classes such that both can be construed, simultaneously, as descended each from a single ancestor along uninterrupted phyleticlines. By contrast, classification P, does not correspond to the accompanying phylogeny (is neither monophyletic nor convex) because it is impossible to construe both of its classes at once as continuous entities on the adjacent tree diagramat least one class must have arisen twice in the evolutionary history of the study colleition. ' Obviously, correspondence by monophyly is only a special case of correspondence by convexity (all monophyletic partitions are convex, but not all convex partitions are monophyletic). Systematists have sometimes used \"paraphyletic\" and \"polyphyletic\" to mean \"convex but not monophyletic\" and \"not convex\", respectively, but these older terms are usually employed as descriptors of individual groups (classes) of taxa. We emphasize that convex correspondence, or the lack thereof, is here considered a property of level classifications, not of groups (classes) considered individually. The distinction is important: either Pjl or P32 could be drawn as convex on the phylogeny in Figure 1 by inclusion of just those phyletic line segments necessary to connect all member taxa; however, both could not be so drawn simultaneously. When, in traditional taxonomic dialogue, an individual group (e. g., Reptilia) is said to be paraphyletic or polyphyletic, such a group is implicitly understood to be embedded in a level classification (e.g., the set of all amniote classes) the simultaneous extension of whose disjoint subsets on the phylogeny in question gives meaning to the statement.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 718,
+                        "end": 726,
+                        "text": "Figure 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 954,
+                        "end": 974,
+                        "text": "Figure 1 corresponds",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1106,
+                        "end": 1116,
+                        "text": "(Figure l)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2330,
+                        "end": 2338,
+                        "text": "Figure 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Classifications and phylogenies",
+                "sec_num": null
+            },
+            {
+                "text": "Effective application of a taxonomic optimality criterion is facilitated when numbers can be calculated to quantify the property that the classification is desired to maximize. Below, we briefly describe mathematical measures of classificatory information content developed by ESTABROOK (1967, 1971) , to which papers the interested reader is referred for more extended discussions.",
+                "cite_spans": [
+                    {
+                        "start": 287,
+                        "end": 293,
+                        "text": "(1967,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 294,
+                        "end": 299,
+                        "text": "1971)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Measures of information",
+                "sec_num": null
+            },
+            {
+                "text": "A qualitative character, K;, defined for S, is also apartition of the study into a collection of exhaustive and mutually exclusive subsets with the same properties as those attributed earlier to the classes of a level classification. The subsets of Ki are called character states.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Information-theoretically optimal classifications and estimates of pbylogenetic relutionships 83",
+                "sec_num": null
+            },
+            {
+                "text": "The information associated with any partition of S, be that a level classification or a qualitative character, can be intuited as the average number of yes-no questions in a maximally efficient questioning scheme required to determine the subset membership of any element, x, equiprobably drawn from S. For a qualitative character, K;, of S, the expression where I K;j I is the number of elements in state Kij, and I S I is the number of elements in S, measures the information associated with character K;. This, SHANNON'S familiar entropy statistic, assumes high values when the states of K; are many with the members of S evenly distributed among them, and low values when the states of Ki are few or the members of S unevenly distributed. In effect, if one knew only what fraction of the membership of S belonged to each state of K;, then H(K;) is a measure of the uncertainty one would experience in attempting to determine, by shrewd guessing, the state of K; to which x is properly assignable.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Information-theoretically optimal classifications and estimates of pbylogenetic relutionships 83",
+                "sec_num": null
+            },
+            {
+                "text": "A level classification (Pk) of S \"contains\" information about a qualitative character (K;) of S when knowing the class of Pk to which x belongs reduces uncertainty about the state membership of x in Ki. We define which is simply that information associated with K, restricted to class Pkj of classification Pk, or, equivalently, the amount of uncertainty remaining about state membership of x in K; when xis known to be a member of class Pkj of Pk. The expected value of this statistic is just the sum of the vaIues it assumes over the classes of Pk, weighted by the frequencies of those Intuitively, this defines the amount of information associated with character K; that is not \"in\" classification Pkthe uncertainty remaining, on average, about the state membership of x in K; given knowledge of the class membership of x in Pk. Since knowing the class of Pk to which x belongs cannot, on average, convey less information than the (prior) knowledge that x is a member of S, the value of H(K;/Pk) varies between H (K;) when knowledge about Pk conveys no information about K;, and 0 when the classes of Pk coincide in membership with the states of K;.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Information-theoretically optimal classifications and estimates of pbylogenetic relutionships 83",
+                "sec_num": null
+            },
+            {
+                "text": "The amount of information shared by a level classification and a qualitative character",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Information-theoretically optimal classifications and estimates of pbylogenetic relutionships 83",
+                "sec_num": null
+            },
+            {
+                "text": "R(K;,Pk) = H ( K ) -H(K;/Pk)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Information-theoretically optimal classifications and estimates of pbylogenetic relutionships 83",
+                "sec_num": null
+            },
+            {
+                "text": "is simply the amount of information associated with the character, K;, less the information that remains in K; when classification Pk is known. This function equals 0 when Pk is uninformative about K;, and assumes its maximum value, H(K;), when character state and class memberships coincide. Of interest as a taxonomic optimality criterion, however, is the amount of information conveyed by a level classification about all of the characters that describe the elements of S. If there are m such characters, then the total information effectively contained by Pk about them can be written",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Information-theoretically optimal classifications and estimates of pbylogenetic relutionships 83",
+                "sec_num": null
+            },
+            {
+                "text": "The information associated with the classification itself, H(Pk), in addition to being an index of uncertainty in the sense previously defined, is also a measure of the capacity of Pk to distinguish differences among the elements of S and therefore establishes an upper bound for the total character information that can be contained by the classification. In effect, C&) is a function both (1) of the number and degree of correspondences between classes and character states and (2) of the raw discriminatory ability of Pk in S. Thus, for two alternative dichotomous classifications that both correspond with a like number of character state distributions in S , CO(Pk) will usually be greater for that classification whose classes are more nearly equal in membership, that is, for which H(Pk) is highest.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Information-theoretically optimal classifications and estimates of pbylogenetic relutionships 83",
+                "sec_num": null
+            },
+            {
+                "text": "An alternative optimality measure, therefore, is the quotient",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Information-theoretically optimal classifications and estimates of pbylogenetic relutionships 83",
+                "sec_num": null
+            },
+            {
+                "text": "m CO(Pk) =.x R(&,Pk) 1=1",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Information-theoretically optimal classifications and estimates of pbylogenetic relutionships 83",
+                "sec_num": null
+            },
+            {
+                "text": "which can be construed as that fraction of the information associated with Pk that is useful for preserving information about the i* character, summed over all m characters of the study. Uniike Co(Pk), CI(Pk) does not increase with enhancement merely of the discriminatory capacity of Pk in S , and is therefore a more faithful index of correspondences between classes and character states than the former statistic. A relationship between the information theoretic measures derived above and the taxonomist's ability to retrieve character information from knowledge of a classification remains to be established. As HULL (1970) correctly remarks, biological classifications provide only names for specified subsets of a study and \"contain\" information about the attributes of organisms only indirectly, through some extraneous vehicle for character summarization (e.g., taxon diagnoses) that is indexed by the names of the classes. Nevertheless, while a classification per se does not directly communicate character information, the efficacy with which the indexed diagnoses are able to do so is a direct consequence of the subset memberships in which the substance of the classification consists. Efficacy of diagnosis is obviously maximized when class and character state memberships coincide, and \". . . a classification is [therefore] most informative concerning a particular character when the groups of the classification describe the distribution of states of that character as simply as possible: the distribution of each state is described by (the membership of) one of the groups [classes] of the classification\" (FARRIS 1979: 499). It is, of course, precisely when the states of character K; correspond in membership with the classes of P k that R(Ki,Pk), the information common to both, is greatest; the functions Co(Pk) and CI(Pk) that sum this shared quantity (or functions thereof) over all characters would thus seem to be reasonable measures of classificatory information content.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Information-theoretically optimal classifications and estimates of pbylogenetic relutionships 83",
+                "sec_num": null
+            },
+            {
+                "text": "Squids of the family Cranchiidae are among the most numerous pelagic cephalopods in the world oceans and exhibit a broad array of adult and larval morphologies. The family was recently revised at the generic level by Voss (1980) who recognized the two subfamilies and 13 genera listed inTable 1 (Tables 1-7 see Apendip. 91). Voss andVoss (1983) subsequently analyzed phylogenetic relationships among the cranchiid genera; their methods, data and results are summarized briefly below.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Cranchiid phylogeny",
+                "sec_num": null
+            },
+            {
+                "text": "Voss and VOSS (1983) based their phylogenetic reconstruction on analysis of 14 qualitative morphological characters that reflect variation in anatomical features associated with reproduction, locomotion, feeding, digestion, excretion, structural support and concealment from predators. Characters were selected based on their intrageneric constancy and because the variants of the morphological expressions they represent could be coded as discrete states with minimal ambiguity. Identifications of primitive and derived states of Information-theoretically optimal classifications and estimates of phylogenetic relationships 85 cranchiid characters were based on (outgroup) comparisons with seven other oegopsid squid families, or on analyses of ontogenetic transformations within the Cranchiidae. Table 2 presents the distribution of states of the original 14 characters among the 13 genera of the cranchiid study, Figure 2 pro- to the left and the topology of the diagram requires a minimum of 45 character state transitions in order to derive the observed phenotypes of extant cranchiid genera from the hypothesized morphology of their most recent common ancestor. Voss and Voss (1983) tested several other trees in the near neighborhood of that illustrated in Figure 3 , but found none that were more parsimonious. The consistency index for the WAGNER estimate of cranchiid relationships is .69, indicating an unusually good fit of tree to data. Character Compatibility Analysis revealed two maximal cliques of 22 pairwisecompatible binary factors, and fully 71 % (22/31) of the derived cranchiid attributes represented in Table 2 could therefore have resulted from unique and unreversed character transformations. The tree illustrated in Figure 4 is supported by the 21 binary factors comprising the intersection of the two largest cliques.",
+                "cite_spans": [
+                    {
+                        "start": 1168,
+                        "end": 1188,
+                        "text": "Voss and Voss (1983)",
+                        "ref_id": "BIBREF14"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 798,
+                        "end": 805,
+                        "text": "Table 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 916,
+                        "end": 924,
+                        "text": "Figure 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1264,
+                        "end": 1272,
+                        "text": "Figure 3",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 1627,
+                        "end": 1634,
+                        "text": "Table 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1743,
+                        "end": 1751,
+                        "text": "Figure 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Cranchiid phylogeny",
+                "sec_num": null
+            },
+            {
+                "text": "The results of both WAGNER and Character Compatibility analyses support hypotheses of monophyletic origin for the traditional subfamilies Cranchiinae and Taoniinae, and for at least two of the three generic groups that Voss (1980) discerned within the Taoniinae (Table 1 ). The two estimates differ only with respect to their ability to resolve the relationships of Liguriella and Sandalops; these taoniin genera exhibit no synapomorphies, apart from those supporting their subfamilial membership, that are compatible with all of the other binary factors in the two maximal cliques. That the pair forms a monophyletic group with Bathothauma and Helicocranchia, as shown on the WAGNER Tree, is in fact supported Table 2 . Phyletic lines are drawn pro ortional to the estimated amounts of morphological evolution (number of character state transitions) $at separate extant cranchiids from their hypothetical ancestors or hypothetical ancestors from one another. External nodes drawn as open circles represent extant cranchiids that appear indistinguishable from reconstructed ancestral phenotypes; such nodes have been removed an arbitrary one branch length unit from the appropriate ancestors M e g",
+                "cite_spans": [
+                    {
+                        "start": 219,
+                        "end": 230,
+                        "text": "Voss (1980)",
+                        "ref_id": "BIBREF12"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 262,
+                        "end": 270,
+                        "text": "(Table 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 711,
+                        "end": 718,
+                        "text": "Table 2",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Cranchiid phylogeny",
+                "sec_num": null
+            },
+            {
+                "text": "Phylogeny determined by the 21 -, factors that com rise the intersection of the two largest ciques. Abbreviations of cranchiid generic names and graphical conventions are the same as for Fig. 3 ; rotations of branches on their internal nodes do not constitute substantive differences between this tree and the preceeding figure by no character state transition that is unique and unreversed in that reconstruction, and their relationships within the subfamily appear to be genuinely equivocal. Voss and Voss (1983) considered both adaptive correlations and biomechanical linkages among cranchiid characters, but neither phenomenon seems to provide an adequate explanation for the robust cladistic structure evident in the analyses summarized above. Whether the tree diagrams of Figures 2 and 3 are true representations of cranchiid evolutionary history cannot be known with certainty, but as contemporary inferences of genealogy they are surely well supported by the available morphological data.",
+                "cite_spans": [
+                    {
+                        "start": 494,
+                        "end": 514,
+                        "text": "Voss and Voss (1983)",
+                        "ref_id": "BIBREF14"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 187,
+                        "end": 193,
+                        "text": "Fig. 3",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 778,
+                        "end": 793,
+                        "text": "Figures 2 and 3",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Ege",
+                "sec_num": null
+            },
+            {
+                "text": "Information-theoretically optimal classifications and estimates of phylogenetic relationships 87",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Ege",
+                "sec_num": null
+            },
+            {
+                "text": "Fully resolved hierarchic classifications consist of nested, dichotomous partitions of successively smaller subsets of the study. Hierarchies comprised of dichotomous partitions that are each maximally informative about character expressions at successive levels can be derived by a divisive procedure with the aid of the information-theoretic measures introduced earlier. The desired optimality statistic, CO(Pk) or CI(Pk), is first calculated for all possible dichotomous partitions of the entire study, and that partition selected for which the chosen measure assumes its highest value. All dichotomous partitions of each of the newly-formed subsets are subsequently tested in the same way, and so forth until a completely resolved hierarchy for the study is completed. The result of applying such an algorithm to the cranchiid data set for whole characters ( Table 2) , and maximizing CO(Pk) at each level is shown in Figure 5 . The number associated with each stem is the value of the information-preserving statistic for the partition effected below it. We note that the values assumed by Co(Pk) decrease monotonically from higher to lower levels in the classification as class memberships become increasingly homogeneous with respect to character state expressions.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 863,
+                        "end": 871,
+                        "text": "Table 2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 922,
+                        "end": 930,
+                        "text": "Figure 5",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Informative hierarchies",
+                "sec_num": null
+            },
+            {
+                "text": "Partitions of the cranchiid study diagrammed in Figure 5 are all convex on the estimates of evolutionary history illustrated in Figures 3 and 4 . The first partition in the information tree corresponds to the monophyletic subfamilial classification ( Table 1 ) and effects correspondence between class memberships and the distribution of eight character states (1 d, 4 a, 4 b,  6 b, 7a, 7b, 12 a, 12 b) . The most informative partition of the subfamily Cranchiinae reflects the distribution of states of characters 5, 11, 13 and 14 and is also monophyletic. The most informative dichotomy within the Taoniinae distinguishes members of the Sandulops group (Hel, Bat, San, Lig) from the six higher taoniin genera; the partition is monophyletic on the WAGNER estimate of cranchiid relationships (Figure 3 ) and is at least convex on the Character Compatibility Analysis results (Figure 4) . Subsequent partitioning of the Sandalops group is convex but not demonstrably monophyletic. Separation of the six higher taoniins into the monophyletic Taonius (Tao, Gal, Mes) and Megalocranchia (Ege, Meg, Teu) groups is also effected in this information-maximizing hierarchy, and corresponds to the distribution of five character states (3 b, 3 c, 8 a, 8 b, 9 a) among members of this taoniin subset. Within the Megalocranchia group, all of the information in characters 1, 5, 6 and 14 is contained in the monophyletic partition (Teu) (Ege, Meg), but no uniquely best partition of the Tuonius group is possible because Galiteuthis is with equal information-preserving efficacy classed either with Taonius or Mesonychoteuthis, each arrangement corresponding to the state distribution of one character (9 or 11).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 48,
+                        "end": 56,
+                        "text": "Figure 5",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 128,
+                        "end": 143,
+                        "text": "Figures 3 and 4",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 251,
+                        "end": 258,
+                        "text": "Table 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 354,
+                        "end": 402,
+                        "text": "states (1 d, 4 a, 4 b,  6 b, 7a, 7b, 12 a, 12 b)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 792,
+                        "end": 801,
+                        "text": "(Figure 3",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 875,
+                        "end": 885,
+                        "text": "(Figure 4)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Informative hierarchies",
+                "sec_num": null
+            },
+            {
+                "text": "Use of CI(Pk) as the classificatory optimality measure results ( Figure 6 ) in a hierarchy of squids that differs from the preceeding only with respect to partitioning the six higher taoniin genera: Egea and Megalocranchia are separated as a group apart from Teuthowenia, Taonius, Galiteuthis and Mesonychoteuthis. The partition is convex (but not monophyletic) on the tree diagrams of Figures 3 and 4 , and results in classificatory correspondence with six character states (1 a, 1 b, 5 a, 5 b, 14 c, 14 e) . A subsequent partition separates Teuthowenia from members of the (monophyletic) Taonius group. Table 4 presents values of C@k) for the first, second and third most informative dichotomous partitions of successively smaller subsets of the cranchiid study where subset memberships at each level is determined by the preceeding most informative choice. As can be seen, the most informative partition at each level is not always so by a large margin. Particularly striking is the fact that partitioning the entire family into monophyletic subfamilies is hardly more character-informative than is a non-convex alternative that places Egea and Megalocranchia, two higher taoniins, together with the three cranchiin genera. TAO rh GAL MES Fig. 6 . The hierarchy resulting from application of a divisive algorithm that maximizes C,(Pk) at each level to the whole (unfactored) character data of Table 2 . The number associated with each stem is the value of C1 (Pk) for the partition effected below it little less informative than the monophyletic choice. Partitions that result in highest and next-highest values of Cl(Pk) at each level are all at least convex ( Table 5 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 65,
+                        "end": 73,
+                        "text": "Figure 6",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 386,
+                        "end": 401,
+                        "text": "Figures 3 and 4",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 468,
+                        "end": 507,
+                        "text": "states (1 a, 1 b, 5 a, 5 b, 14 c, 14 e)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 605,
+                        "end": 612,
+                        "text": "Table 4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1242,
+                        "end": 1248,
+                        "text": "Fig. 6",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1396,
+                        "end": 1403,
+                        "text": "Table 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1665,
+                        "end": 1672,
+                        "text": "Table 5",
+                        "ref_id": "TABREF5"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Informative hierarchies",
+                "sec_num": null
+            },
+            {
+                "text": "The non-convex level classifications of the whole family and of the subfamily Taoniinae mentioned above reflect memberships in states 8 b and 11 c, respectively, that Voss and VOSS (1983) believed to represent instances of homoplastic evolution, but why alternative, convex classifications are not more informative to a greater degree might also be attributable to the fact that most of the characters of the study are multistate (Figure 2) , and no provision has been made, thus far, for taking the ordering of states into account. Additive binary recoding is one way of introducing this information, and the results of applying our divisive Information-theoretically optimal classifications and estimates of phylogenetic relationships 89 algorithms to the factored data of Table 3 are presented in Tables 6 and 7 . As can be seen in Table 6 where CO(Pk) is the optimized measure, one of the effects of binary recoding is to eliminate the non-convex alternative as second choice to the monophyletic subfamilial partition; a non-convex alternative persists as the next-most-informative taoniin dichotomy, but binary recoding has rendered the monophyletic partition relatively more informative than before. Another change in classification has been effected by recoding the characters, however, and that is to make the (convex) separation of Egea and Megalocranchia as a group apart from the other four higher taoniins more informative than the monophyletic partition; the same result is obtained when Cl(Pk) is the maximized statistic ( Table 7) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 430,
+                        "end": 440,
+                        "text": "(Figure 2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 775,
+                        "end": 814,
+                        "text": "Table 3 are presented in Tables 6 and 7",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 835,
+                        "end": 842,
+                        "text": "Table 6",
+                        "ref_id": "TABREF8"
+                    },
+                    {
+                        "start": 1537,
+                        "end": 1545,
+                        "text": "Table 7)",
+                        "ref_id": "TABREF10"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Informative hierarchies",
+                "sec_num": null
+            },
+            {
+                "text": "We have shown that nested, dichotomous level classifications that are each maximally informative about qualitative character expressions within successively smaller subsets of the squid family Cranchiidae are all convex on phylogenetic reconstructions based on the same data. To the best of our knowledge, this relationship between independently derived phylogenetic reconstructions and information-preserving hierarchies has not hitherto been investigated, and it is therefore of interest to inquire whether our results may be expected to obtain generally, for other study collections.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "A qualitative character supports an estimate of evolutionary relationships for a study collection if and only if the character (as a partition of the study) is convex on the tree diagram in question. If most of the characters of a study form a pairwise compatible collection (can simultaneously support a common phylogenetic reconstruction) then there may, accordingly, be a strong tendency for maximally informative level classifications of the study to be convex on the best-supported estimate of relationships insofar as correspondences between classes and character states are thereby likely to be maximized. States of characters that are not convex on otherwise well supported phylogenies are usually hypothesized to describe non-homologous morphological expressions, but since examples of apparently convergent or reversed evolution are usually identified as such because they are uncommon and incompatible with many other characters, putative homoplasy (to the extent that it can be recognized) is unlikely to render maximally informative a level classification that is not convex on a credible phylogenetic reconstruction. In the cranchiid example, the distribution of character state 11 c within the Taoniinae is at least partly responsible for the high information content of the non-convex partition (Hel, Bat, San, Lig, Mes) (Tao, Gal, Ege, Meg, Teu), but it is the very scarcity of character states with similar distributions that both supports an hypothesis of convergent derivation for 11 c (Voss and Voss 1983) and prevents the classificatory dichotomy that reflects its distribution from being maximally informative about other characters of the study. In short, while it cannot be known with certainty whether most-informative level classifications will necessarily be convex on tree diagrams of true evolutionary history, it does seem plausible that they will often be so on estimates of relationships that are well supported by characters.",
+                "cite_spans": [
+                    {
+                        "start": 1506,
+                        "end": 1526,
+                        "text": "(Voss and Voss 1983)",
+                        "ref_id": "BIBREF14"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Maximally informative dichotomous classifications may conceivably fail to be convex on phylogenetic reconstructions, even in the absence of evident homoplasy, if many unfactored multistate characters are present in the data. This results from the fact that no level classification can contain all of the information about a multistate character unless there are as many classes in the classification as states in the character. Thus, if a character (K;) has n states, and a classification (9) n-1 classes, then at least one of the classes of Pk must contain members of two or more states of Ki and Pk will only be convex on phylogenetic estimates supported by K; if Pk is convex on the state tree of K;. If K;, for example, has the state tree b t a -+ c, and more than half of the members of S belong to then for dichotomous classification Pk,R(K,, Pk) will be greatest when Pk = (members of Ki,) (members of K;b U Kit) and Pk will fail to be convex on any tree that K; supports. If there are several characters distributed like Ki in S, then even in the absence of (real or inferred) homoplasy CO(Pk) and (perhaps) CI(Pk) may be maximal for some partition that is not convex on the best-supported phylogeny for S. Additive binary recoding eliminates this source of difficulty by reducing multistate characters to two-state factors in which each state is the complement of exactly one other state; in the cranchiid study, two non-convex partitions that were nearly as character-informative as convex alternatives before (Table 4) but not after (Table 6 ) binary recoding illustrate this phenomenon.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 1520,
+                        "end": 1529,
+                        "text": "(Table 4)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1544,
+                        "end": 1552,
+                        "text": "(Table 6",
+                        "ref_id": "TABREF8"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "That alternative level classifications of the cranchiid study are ranked differently when evaluated by Co(Pk) and Cl(Pk) (compareTables 4 and 6 with 5 and 7) relates toproperties of these statistics discussed earlier: both measures assume high values when class and character state correspondences are maximized, but co(Pk) is also a function of the raw discriminatory ability of the partition (H(Pk)). Thus, the relatively high values assumed by G(Pk) for the non-convex partitions in Table 4 , though partially ameliorated by character recoding for reasons discussed above, also reflect the near-eveness (and associated high discriminatory capacity) of those dichotomies. CI(Pk), by contrast, does not assume high values for nonconvex cranchiid classifications under either method of character coding treated here.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 486,
+                        "end": 493,
+                        "text": "Table 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The close correspondence between the hierarchies of Figures 3 and 4 and those of Figures  5 and 6 suggests that classificatory monophyly may often serve effectively to communicate character information as well as to convey explicit hypotheses of relationships, but maximally character-informative partitions of cranchiids are not always demonstrably monophyletic. This may be due to a real absence of well-corroborated cladistic structure, as was detailed above for the genera of the Sandalops group, or no uniquely most informative partition may exist for a given collection (the Taonius group example). Some informative departures from monophyly, however, are attributable to inequalities in reconstructed evolutionary rates. As can be seen in both the Wagner and Character Compatibility hypotheses of cranchiid phylogeny (Figures 3 and 4) , from the shared internal node A the ancestral lineage of Egea and Megalocranchia is estimated to have diverged morphologically to a greater extent than did the ancestral lineage of Teuthowenia, and the effect of this disproportionately rapid divergence was to increase the number of character states that distinguish Teuthowenia and members of the Taonius group on the one hand from Egea and Megalocranchk on the other. The convex (but not monophyletic) partition of these six genera in Figure 6 therefore correspond to the distribution of states of four binary factors (1 b, 5b, 14c, 14e) while the monophyletic partition is coincident with only three (3c, Sb, 9b).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 52,
+                        "end": 67,
+                        "text": "Figures 3 and 4",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 81,
+                        "end": 97,
+                        "text": "Figures  5 and 6",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 824,
+                        "end": 841,
+                        "text": "(Figures 3 and 4)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 1331,
+                        "end": 1339,
+                        "text": "Figure 6",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "That evolutionary rate inequalities can render monophyletic level classifications less than maximally character-informative is not an original observation (see BOTTJER 1980, for a recent exposition). FARRIS (1979) , however, has recently advanced the thesis that character information is always best communicated by classifications that are monophyletic with respect to most-parsimonious phylogenetic reconstructions. In thus arguing, FARRIS quantifies information as a function of the entire hierarchy, and would, therefore, permit an included level classification to be less informative about characters than an alternative partition if that choice facilitated information retrieval elsewhere in the hierarchy. We prefer to ground measures of classificatory information content on the relationships between level classifications and characters not only because the problem of discovering hierarchies that maximize measures of such relationships is solveable, but also because the choice situation confronting working taxonomists usually concerns alternative level classifications (different subgeneric arrangements, for example) not completely-resolved hierarchies that would, for many studies, be unwieldy as formal classifications. Expressions of character 11 vary among species of Galiteuthis (see Voss and Voss 1982) ; state 'b' was arbitrarily chosen to represent the genus in the present study. (Cra, Lio, Lea) (Hel, Bat, Sun, Lig, Tao, Gal, Mes, Ege, Meg, Teu) (Cra, Lio, Lea, Ege, Meg) (Hel, Bat, Sun, Lig, Tao, Gal, Mes, Teu) (Hel, Bat, San, Lig) (Tao, Gal, Mes, Ege, Meg, Teu) (Hel, Bat, Sun, Lig, Mes) (Tao, Gal, Ege, Meg, Teu) First, second and third highest values of C,(P,) for alternative partitions of successively smaller subsets of the cranchiid study using whole (unfactored) characters Other conventions as in Table 4 Cdpk) (Cra, Lio, Lea) (Hel, Bat, Sun, Lig, Tao, Gal, Mes, Ege, Meg, Teu) (Cra, Lio) (Lea, Hel, Bat, Sun, Lig, Tao, Gal, Mes, Ege, Meg, Teu) (Hel, Bat, Sun, Lig) (Tao, Gal, Mes, Ege, Meg, Teu) (Hel, Bat, Sun, Lig, Tao, Gal, Mes, Teu) (Cra, Lio, Lea) (Hel, Bat, San, Lig, Tao, Gal, Mes, Ege, Meg, Teu) (Cra, Lio, Lea, Hel, Bat, San, Lig) (Tao, Gal, Mes, Ege, Meg, Teu) (Hel, Bat, Sun, Lig) (Tao, Gal, Mes, Ege, Meg, Teu) (Hel, Bat, San, Lig, Mes) (Tao, Gal, Ege, Meg, Teu) (Tao, Gal, Mes, Teu) (Hel, Bat, San, Lig) (Tao, Gal, Mes, Ege, Meg, Teu) (Hel, Bat, San, Lig, Tao, Gal, Mes, Teu) ",
+                "cite_spans": [
+                    {
+                        "start": 200,
+                        "end": 213,
+                        "text": "FARRIS (1979)",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 1303,
+                        "end": 1322,
+                        "text": "Voss and Voss 1982)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1403,
+                        "end": 1640,
+                        "text": "(Cra, Lio, Lea) (Hel, Bat, Sun, Lig, Tao, Gal, Mes, Ege, Meg, Teu) (Cra, Lio, Lea, Ege, Meg) (Hel, Bat, Sun, Lig, Tao, Gal, Mes, Teu) (Hel, Bat, San, Lig) (Tao, Gal, Mes, Ege, Meg, Teu) (Hel, Bat, Sun, Lig, Mes) (Tao, Gal, Ege, Meg, Teu)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1846,
+                        "end": 2072,
+                        "text": "(Cra, Lio, Lea) (Hel, Bat, Sun, Lig, Tao, Gal, Mes, Ege, Meg, Teu) (Cra, Lio) (Lea, Hel, Bat, Sun, Lig, Tao, Gal, Mes, Ege, Meg, Teu) (Hel, Bat, Sun, Lig) (Tao, Gal, Mes, Ege, Meg, Teu) (Hel, Bat, Sun, Lig, Tao, Gal, Mes, Teu)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2073,
+                        "end": 2331,
+                        "text": "(Cra, Lio, Lea) (Hel, Bat, San, Lig, Tao, Gal, Mes, Ege, Meg, Teu) (Cra, Lio, Lea, Hel, Bat, San, Lig) (Tao, Gal, Mes, Ege, Meg, Teu) (Hel, Bat, Sun, Lig) (Tao, Gal, Mes, Ege, Meg, Teu) (Hel, Bat, San, Lig, Mes) (Tao, Gal, Ege, Meg, Teu) (Tao, Gal, Mes, Teu)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2332,
+                        "end": 2424,
+                        "text": "(Hel, Bat, San, Lig) (Tao, Gal, Mes, Ege, Meg, Teu) (Hel, Bat, San, Lig, Tao, Gal, Mes, Teu)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1832,
+                        "end": 1839,
+                        "text": "Table 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 1 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 . 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 0 ' 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 0 0 1 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 G(Pk)",
+                        "eq_num": "Partition 6"
+                    }
+                ],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The distribution of states of 14 qualitative morphological characters among 13 genera of cranchiid squids is analyzed in order to compare information-theoretically optimal classifications with phylogenetic reconstructions based on the same data. The information shared between a level classification and a qualitative character is first defined mathematically and then expanded to derive measures for the information contained by a level classification about all of the characters describing a study collection. Hierarchies of nested, dichotomous partitions that are each maximally informative about character state distributions within successively smaller subsets of the cranchiid study are obtained by application of a simple divisive algorithm. Level classifications of squids contained in such hierarchies were all found to be convex on the results of WAGNER Tree and Character Compatibility analyses. Potentially confounding effects of putative homoplasy and of character coding are discussed, and the possibility that character-informative level classifications may generally be expected to be convex on well-supported phylogenetic reconstructions is suggested.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Summary",
+                "sec_num": null
+            },
+            {
+                "text": "Vergleich einer informationstheoretisch optimalen Klassifkation rnit einerphylogenetischen Verwandtschaftsanalyse a m Beispiel der Kalmar-Familie Cranchiidae (Cephalopoda : Oegopsidae) Basierend auf der Verteilung von 14 quditativ-morphologischen Merkmalen von 13 Gattungen der Cranchiidae wird untersucht, inwieweit daraus abgeleitete ,,optimale Klassifikationen\" im Sinne der informationstheorie mit auf phylogenetischen Rekonstmktionen basierenden ,,Stammbaumdarstellungen\" ubereinstimmen.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Zusammenfassung",
+                "sec_num": null
+            },
+            {
+                "text": "Der Informationsgehalt verschiedener Klassifikationen wird in bezug auf einzelne Merkmale mathematisch definiert und zu einem Ma& fur die in einer Klassifikation enthaltene Information uber alle dazu verwendeten Merkmale erweitert. Hierarchische Klassifikationen, deren dichotom aufgebaute Teilgruppen jeweils eine maximale Information uber die Verteilung der betrachteten Merkmale aufweisen, sind ,,konvex\" mit phylogenetischen Stammbaumdarstellungen.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Zusammenfassung",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "The data analyzed in this paper derive from research supported by National Science Foundation grants DEB-7713945 and DEB-8105193 to N. A. Voss. Thanks are also due to the Division of Biological Sciences, University of Michigan, for support of computing services.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgements",
+                "sec_num": null
+            },
+            {
+                "text": "Information-theoretically optimal classifications and estimates ofpbylogenetic relationships 9 1 Character Number",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "annex",
+                "sec_num": null
+            },
+            {
+                "text": "Bat",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Lio Lea He1",
+                "sec_num": null
+            },
+            {
+                "text": ". ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Teu",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Information-theoretically optimal classifirations and estimates of phylogenetic relationships 95",
+                "authors": [],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Information-theoretically optimal classifirations and estimates of phylogenetic relationships 95",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "FARRIS' \"information content\" and phylogenetic versus evolutionary classifica",
+                "authors": [
+                    {
+                        "first": "Bowjer",
+                        "middle": [],
+                        "last": "Literature",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Literature BOWJER, P. D., 1980: FARRIS' \"information content\" and phylogenetic versus evolutionary classifica-",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "1976: An operational method for evaluating classifications",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Duncan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Estabrook",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "DUNCAN, T.; ESTABROOK, G. F., 1976: An operational method for evaluating classifications. Syst.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "An application of compatibility analysis to the Blackliths' data on orthopteroid insects",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Estabrook",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Estabrook",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Strauch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Fiala",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1967,
+                "venue": "Syst. Zoology",
+                "volume": "16",
+                "issue": "",
+                "pages": "269--276",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "ESTABROOK, G. F., 1967: An information theory model for character analysis. Taxon 16, 86-97. -1971 : Some information theoretic optimality criteria for general classification. Math. Geol. 3, ESTABROOK, G. F.; STRAUCH, J. G.; FIALA, K. L., 1977: An application of compatibility analysis to the Blackliths' data on orthopteroid insects. Syst. Zoology 26,269-276.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "The information content of the phylogenetic system. Syst. Zoology",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Farris",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1970,
+                "venue": "",
+                "volume": "19",
+                "issue": "",
+                "pages": "483--519",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "FARRIS, J. S., 1970: Methods for computing Wagner Trees. Syst. Zoology 19, 83-92. -1979: The information content of the phylogenetic system. Syst. Zoology 28,483-519.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "1970: A numerical approach to phylogenetic systematics",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Farris",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Kluge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Eckhardt",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "Syst. Zoology",
+                "volume": "19",
+                "issue": "",
+                "pages": "172--189",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "FARRIS, J. S.; KLUGE, A. G.; ECKHARDT, M. J., 1970: A numerical approach to phylogenetic syste- matics. Syst. Zoology 19, 172-189.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Taxonomy and philosophy",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S L"
+                        ],
+                        "last": "Gilmour",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1940,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "461--474",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "GILMOUR, J. S. L., 1940: Taxonomy and philosophy. In: The New Systematics. Ed. by J. HUXLEY. Oxford: Clarendon. 461-474.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Contemporary systematic philosophies",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Hull",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1970,
+                "venue": "Ann. Rev. Ecol. Syst",
+                "volume": "1",
+                "issue": "",
+                "pages": "19--54",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "HULL, D. L., 1970: Contemporary systematic philosophies. Ann. Rev. Ecol. Syst. 1, 19-54.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Quantitative phyletics and the evolution of anurans",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Kluge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Farris",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1969,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "KLUGE, A. G.; FARRIS, J. S., 1969: Quantitative phyletics and the evolution of anurans. Syst. Zoology",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Phylogeny of the Berberidaceae with an evaluation of classifications",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Meacham",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "Syst. Botany",
+                "volume": "5",
+                "issue": "",
+                "pages": "591--600",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MEACHAM, C. A., 1980: Phylogeny of the Berberidaceae with an evaluation of classifications. Syst. Botany 5 , 149-172. -1981 : A manual method for character compatibility analysis. Taxon 30,591-600.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Principles of Numerical Taxonomy",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Sokal",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Sneath",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1963,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "SOKAL, R. R.; SNEATH, P. H . A,, 1963: Principles of Numerical Taxonomy. San Francisco: W. H. Freeman.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "A generic revision of the Cranchiidae (Cephalopoda: Oegopsida)",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Voss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "Bull. Mar. Sci",
+                "volume": "30",
+                "issue": "",
+                "pages": "361--112",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Voss, N . A., 1980: A generic revision of the Cranchiidae (Cephalopoda: Oegopsida). Bull. Mar. Sci. 30,361-112.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Phylogenetic relationships in the cephalopod family Cranchiidae (Oegopsida)",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Voss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1983,
+                "venue": "Malacologia",
+                "volume": "23",
+                "issue": "",
+                "pages": "397--426",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Voss, R. S., 1983: Phylogenetic relationships in the cephalopod family Cranchiidae (Oegopsida). Malacologia 23, 397-426.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF2": {
+                "text": "All relationships are Fig. 2. Tree diagrams illustrating the estimates of polarities of completely resolved in this states of 14 cranchiid characters. Hypotheses of polarity are prephylogenetic reconstruction, sented in the right-hand column, and the characters whose states are believed to have evolved in the sequences illustrated are listed",
+                "type_str": "figure",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF3": {
+                "text": "WAGNER reconstruction of cranchiid phylogeny; names of cranchiid genera are abbreviated as in",
+                "type_str": "figure",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF4": {
+                "text": "For the first dichotomous partition of the Taoniinae, a non-convex alternative is likewise only a 88 R. S. Voss, G. F. Estabrook and Nancy A. Voss",
+                "type_str": "figure",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF7": {
+                "text": "taxa for this and subsequent tables and figures: Cra: Cranchia; Lio: Liocranchia; Lea: Leacbia; Hel: Helicocranchia; Bat: Bathothauma; Sun: Sandalops; Lig: Liguriella; Tao: Taonius; Gal: Galiteutbis; Mes: Mesonycboteuthis; Ege: Egea; Meg: Megalocranchia; Teu: Teuthowenia",
+                "type_str": "figure",
+                "uris": null,
+                "num": null
+            },
+            "TABREF0": {
+                "text": "to the accompanying U. S. Copyright Clearance Center Code Statement: 0044-3808 /83 /2102-0081/ $2.50/0 2. 2001. Syst. Evo1ut.-forsch. 21 (1983) 81-95 0 1983 Verlag Paul Parey, Hamburg und Berlin Voss phylogeny by monophyly, but classification Pz does not because the class P2l = (A, B, C) does not contain all and only the descendants of any common ancestor.A level classification of S corresponds to a phylogeny of S by convexity (is said to be convex) if and only if by inclusion of appropriate ancestors and phyletic lines all of its classes",
+                "type_str": "table",
+                "content": "<table><tr><td>'31</td><td>' 3 1</td></tr></table>",
+                "num": null
+            },
+            "TABREF1": {
+                "text": "",
+                "type_str": "table",
+                "content": "<table><tr><td colspan=\"2\">vides character state trees, and Character</td><td>Tree</td></tr><tr><td>presents the matrix that</td><td/></tr><tr><td>results from additive binary</td><td/><td>C</td></tr><tr><td>recoding of the raw characters of Table 2 given the state trees</td><td>1</td></tr><tr><td>of Figure 2, VOSS and VOSS</td><td/></tr><tr><td>(1983) employed the WAGNER</td><td/></tr><tr><td>Tree method of FARRIS (1970;</td><td/></tr><tr><td>see also KLUGE and FARRIS</td><td/></tr><tr><td>1969 and FARRIS et al. 1970)</td><td/></tr><tr><td>and the method of Character</td><td/></tr><tr><td>Compatibility Analysis (ESTA-</td><td/></tr><tr><td>BROOK et al. 1977; see also</td><td/></tr><tr><td>MEACHAM 1980, 1981) to de-</td><td/></tr><tr><td>rive maximally-corroborated</td><td/></tr><tr><td>hypotheses of cranchiid evolu-</td><td/></tr><tr><td>are phylogenetic sensuHENNIG</td><td/></tr><tr><td>(1966) in that recency of com-</td><td/></tr><tr><td>basis of shared, derived re-</td><td/></tr><tr><td>semblances (synapomorphies)</td><td/></tr><tr><td>only.</td><td/></tr><tr><td>The WAGNER Tree for the</td><td/></tr><tr><td>cranchiid study is illustrated in</td><td/></tr></table>",
+                "num": null
+            },
+            "TABREF2": {
+                "text": "Factored data matrix Columns are labelled as inTable 1. Binary factors are labelled with the character state that is the apomorph for the transformation represented by each factor",
+                "type_str": "table",
+                "content": "<table><tr><td/><td>Factor</td><td>Taxa</td></tr><tr><td/><td>Ib</td></tr><tr><td/><td>lc</td></tr><tr><td/><td>Id</td></tr><tr><td/><td>2b</td></tr><tr><td/><td>2c</td></tr><tr><td/><td>2d</td></tr><tr><td/><td>3b</td></tr><tr><td/><td>3c</td></tr><tr><td/><td>3d</td></tr><tr><td/><td>4b</td></tr><tr><td/><td>5b</td></tr><tr><td/><td>6b</td></tr><tr><td/><td>6c</td></tr><tr><td/><td>6d</td></tr><tr><td/><td>6e</td></tr><tr><td/><td>6f</td></tr><tr><td/><td>7b</td></tr><tr><td/><td>8b</td></tr><tr><td/><td>9b</td></tr><tr><td/><td>9c</td></tr><tr><td/><td>10b</td></tr><tr><td/><td>1 oc</td></tr><tr><td/><td>I l b</td></tr><tr><td/><td>1 lc</td></tr><tr><td/><td>12b</td></tr><tr><td/><td>13b</td></tr><tr><td/><td>14b</td></tr><tr><td colspan=\"2\">14c 1 14d 14e</td></tr><tr><td>1</td><td>14f</td></tr></table>",
+                "num": null
+            },
+            "TABREF5": {
+                "text": "",
+                "type_str": "table",
+                "content": "<table/>",
+                "num": null
+            },
+            "TABREF8": {
+                "text": "",
+                "type_str": "table",
+                "content": "<table><tr><td>8.4982</td></tr><tr><td>8.4824</td></tr><tr><td>7.9272</td></tr><tr><td>7.8964</td></tr><tr><td>6.6012</td></tr><tr><td>6.5122</td></tr><tr><td>6.1540</td></tr><tr><td>6.0592</td></tr><tr><td>3.9465</td></tr></table>",
+                "num": null
+            },
+            "TABREF10": {
+                "text": "First, second and third highest values of C,(P,S for alternative partitions of successively smaller subsets of the cranchiid study using factored characters Other conventions as inTable 4",
+                "type_str": "table",
+                "content": "<table><tr><td>Factored characters</td></tr><tr><td>Partition</td></tr><tr><td>8.1327</td></tr><tr><td>7.7356</td></tr><tr><td>7.3894</td></tr><tr><td>6.7015</td></tr><tr><td>6.0592</td></tr><tr><td>5.1467</td></tr><tr><td>4.5348</td></tr><tr><td>2.5565</td></tr><tr><td>1.9881</td></tr><tr><td>1.2741</td></tr><tr><td>1.2741</td></tr><tr><td>0.5482</td></tr><tr><td>3.8678</td></tr><tr><td>3.3717</td></tr><tr><td>3.3717</td></tr><tr><td>6.2741</td></tr><tr><td>2.6442</td></tr><tr><td>1.9183</td></tr></table>",
+                "num": null
+            }
+        }
+    }
+}

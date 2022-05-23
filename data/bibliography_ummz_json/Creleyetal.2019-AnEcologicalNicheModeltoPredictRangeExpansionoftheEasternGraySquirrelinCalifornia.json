@@ -1,0 +1,2538 @@
+{
+    "paper_id": "Creleyetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:23:51.106213Z"
+    },
+    "title": "An Ecological Niche Model to Predict Range Expansion of the Eastern Gray Squirrel in California",
+    "authors": [
+        {
+            "first": "Carly",
+            "middle": [
+                "M"
+            ],
+            "last": "Creley",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "California State University",
+                "location": {
+                    "postCode": "90032",
+                    "settlement": "Los Angeles, Los Angeles",
+                    "region": "CA"
+                }
+            },
+            "email": "carlycreley@gmail.com"
+        },
+        {
+            "first": "Fraser",
+            "middle": [
+                "M"
+            ],
+            "last": "Shilling",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of California",
+                "location": {
+                    "postCode": "95616",
+                    "settlement": "Davis, Davis",
+                    "region": "CA"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Alan",
+            "middle": [
+                "E"
+            ],
+            "last": "Muchlinski",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "California State University",
+                "location": {
+                    "postCode": "90032",
+                    "settlement": "Los Angeles, Los Angeles",
+                    "region": "CA"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "The eastern gray squirrel, Sciurus carolinensis (EGS) has been introduced to California and has expanded its geographic range since initial introductions. In this study we projected the potential future geographic range of the EGS in California using Maxent to create an ecological niche model. Location data were obtained over the time period of 2004-2015 from museum specimens, wildlife rehabilitation centers, the California Department of Public Health, the California Roadkill Observation System, and non-iNaturalist citizen science observations. Research grade data from iNaturalist was obtained over the time period of 2004-2018. Range and habitat suitability maps were developed by mapping in ArcGIS. Three threshold selection methods were used to create different estimates of the potential future range of the EGS in California. The first method used the 10th percentile logistic threshold, the second used the minimum training presence logistic threshold, and the third used Jenks Natural Breaks. We propose that Jenks Natural Breaks has distinct advantages over the other two methods for estimating the potential future range of the introduced EGS in California, because it provides information on the habitat suitability ranking throughout California, whereas the other methods only provide a binary suitable/unsuitable map.",
+    "pdf_parse": {
+        "paper_id": "Creleyetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "The eastern gray squirrel, Sciurus carolinensis (EGS) has been introduced to California and has expanded its geographic range since initial introductions. In this study we projected the potential future geographic range of the EGS in California using Maxent to create an ecological niche model. Location data were obtained over the time period of 2004-2015 from museum specimens, wildlife rehabilitation centers, the California Department of Public Health, the California Roadkill Observation System, and non-iNaturalist citizen science observations. Research grade data from iNaturalist was obtained over the time period of 2004-2018. Range and habitat suitability maps were developed by mapping in ArcGIS. Three threshold selection methods were used to create different estimates of the potential future range of the EGS in California. The first method used the 10th percentile logistic threshold, the second used the minimum training presence logistic threshold, and the third used Jenks Natural Breaks. We propose that Jenks Natural Breaks has distinct advantages over the other two methods for estimating the potential future range of the introduced EGS in California, because it provides information on the habitat suitability ranking throughout California, whereas the other methods only provide a binary suitable/unsuitable map.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "The objective of this study was to develop an ecological niche model (ENM) with an appropriate threshold value that could best identify potential range expansion of the invasive eastern gray squirrel, Sciurus carolinensis (EGS) within California and in the future, project potential areas of overlap with congeners. The EGS is native to the deciduous forests of the eastern United States (Koprowski 1994) . The species was introduced to California in 1939 at Stanford University and in 1943 at Golden Gate Park in San Francisco, but it may have been introduced earlier by settlers who frequently introduced species from their homes in the eastern United States (Byrne 1979) . Populations of the EGS currently exist in developed and forested areas of California. They are currently widespread throughout central California, with concentrations around Sacramento, both peninsulas of San Francisco Bay, and San Jose, and smaller populations in the Central Valley. Additionally, populations are spreading from Santa Cruz into the Santa Cruz Mountains and Monterey Peninsula (Creley and Muchlinski 2017) .",
+                "cite_spans": [
+                    {
+                        "start": 388,
+                        "end": 404,
+                        "text": "(Koprowski 1994)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 661,
+                        "end": 673,
+                        "text": "(Byrne 1979)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 1070,
+                        "end": 1098,
+                        "text": "(Creley and Muchlinski 2017)",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Sciurus carolinensis carolinensis is most likely the major subspecies present in California, as determined by the coat color and physical characteristics of observed squirrels.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "S. c. carolinensis has a gray dorsum with a cinnamon wash sometimes present on the dorsum and hips. The tail is the same shade of gray, with a light white frosting on the tips of the hairs. A white eye ring is usually visible (Thorington et al. 2012) . Some EGSs in California are melanistic, a common trait in the northern portion of the native range (Thorington et al. 2012) . The EGS has a broad diet (Bertolino 2008) , can establish a population from a small number of founders (Wood et al. 2007) , can survive and reproduce in urban, suburban, or natural habitats, and has a favorable public perception (Bertolino and Genovesi 2003) , which all contribute to its invasive success. The species has been introduced to the western United States, Europe, Africa, and Australia (Bertolino 2008; Benson 2013; Bertolino and Lurz 2013; Bertolino et al. 2014) . Populations have been associated with negative ecosystem effects, the decline of native species, and damage to forests in the United Kingdom, Ireland, Italy, and parts of western North America (Gurnell et al. 2004; Bertolino 2008; Benson 2013; Bertolino and Lurz 2013) .",
+                "cite_spans": [
+                    {
+                        "start": 226,
+                        "end": 250,
+                        "text": "(Thorington et al. 2012)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 352,
+                        "end": 376,
+                        "text": "(Thorington et al. 2012)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 404,
+                        "end": 420,
+                        "text": "(Bertolino 2008)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 482,
+                        "end": 500,
+                        "text": "(Wood et al. 2007)",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 608,
+                        "end": 637,
+                        "text": "(Bertolino and Genovesi 2003)",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 778,
+                        "end": 794,
+                        "text": "(Bertolino 2008;",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 795,
+                        "end": 807,
+                        "text": "Benson 2013;",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 808,
+                        "end": 832,
+                        "text": "Bertolino and Lurz 2013;",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 833,
+                        "end": 855,
+                        "text": "Bertolino et al. 2014)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 1051,
+                        "end": 1072,
+                        "text": "(Gurnell et al. 2004;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 1073,
+                        "end": 1088,
+                        "text": "Bertolino 2008;",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 1089,
+                        "end": 1101,
+                        "text": "Benson 2013;",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 1102,
+                        "end": 1126,
+                        "text": "Bertolino and Lurz 2013)",
+                        "ref_id": "BIBREF5"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "The original native range of the EGS consists of mature, continuous woodlands over 40 ha in size, with diverse woody understories and tree species such as oak (Quercus), hickory (Carya), and walnut (Juglans) (Koprowski 1994) . However, EGSs can also live in urban and suburban environments, even with relatively few mature trees (Thorington et al. 2012) . EGSs move primarily along river corridors, secondarily on roads/right-ofways, and thirdly on tracks/paths (Stevenson et al., 2013) . Their ability to live in developed environments may significantly increase their dispersal capability.",
+                "cite_spans": [
+                    {
+                        "start": 208,
+                        "end": 224,
+                        "text": "(Koprowski 1994)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 329,
+                        "end": 353,
+                        "text": "(Thorington et al. 2012)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 462,
+                        "end": 486,
+                        "text": "(Stevenson et al., 2013)",
+                        "ref_id": "BIBREF34"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "In order to understand the future potential distribution of the EGS, it is critical to model their potential landscape and ecological niche occupancy. Creley and Muchlinski (2017) mapped the species distribution within California as of 2015, but ENMs had not been made. The methodologies for creating ENMs for invasive species are not well established (Aguierre-Gutierrez et al. 2013; Uden et al. 2015) . It was important to map a range of suitable habitat estimates in order to prevent drawing conclusions from one arbitrary threshold, as cautioned against by Merow et al. (2013) . Standard thresholds that have been used in previous studies to produce ENMs include the 10 th percentile logistic threshold (Belarmain Fandohan et al. 2015; Chalghaf et al. 2016; Sage et al. 2017) , which could produce a very conservative estimate of potential future range for an invasive species, and the minimum training presence logistic threshold (Beane et al. 2013; Coudrat and Nekaris 2013; Botero-Delgadillo et al. 2015) , which could produce an overestimate of potential future range. We used these two standard thresholds in the present study, as well as a third method -selecting a threshold value based on Jenks Natural Breaks (Jenks 1967) . Previously, Colnar and Landis (2007) developed a regional risk assessment for the European green crab, Carcinus maenas, at Cherry Point, Washington, USA using Jenks Natural Breaks, and Schleier III and Sing (2008) used it to partition an overall risk score for the introduction of Gabusia affinis (western mosquitofish) into Montana watersheds. Beyond invasive species modeling, Jenks Natural Breaks have been used to classify groundwater into zones of vulnerability for nitrogen contamination in Florida's aquifers (Cui et al. 2016) , to rank the susceptibility of locations to terrorist actions (Patterson and Apostolakis 2007) , and to assess the risk of flooding in the Bengawan Solo River basin in Indonesia (Rahadianto et al. 2015) .",
+                "cite_spans": [
+                    {
+                        "start": 151,
+                        "end": 179,
+                        "text": "Creley and Muchlinski (2017)",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 352,
+                        "end": 384,
+                        "text": "(Aguierre-Gutierrez et al. 2013;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 385,
+                        "end": 402,
+                        "text": "Uden et al. 2015)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 561,
+                        "end": 580,
+                        "text": "Merow et al. (2013)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 707,
+                        "end": 739,
+                        "text": "(Belarmain Fandohan et al. 2015;",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 740,
+                        "end": 761,
+                        "text": "Chalghaf et al. 2016;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 762,
+                        "end": 779,
+                        "text": "Sage et al. 2017)",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 935,
+                        "end": 954,
+                        "text": "(Beane et al. 2013;",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 955,
+                        "end": 980,
+                        "text": "Coudrat and Nekaris 2013;",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 981,
+                        "end": 1011,
+                        "text": "Botero-Delgadillo et al. 2015)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1222,
+                        "end": 1234,
+                        "text": "(Jenks 1967)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1422,
+                        "end": 1450,
+                        "text": "Schleier III and Sing (2008)",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 1753,
+                        "end": 1770,
+                        "text": "(Cui et al. 2016)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1834,
+                        "end": 1866,
+                        "text": "(Patterson and Apostolakis 2007)",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 1950,
+                        "end": 1974,
+                        "text": "(Rahadianto et al. 2015)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "The model used location and environmental data from the invaded range in California and the native range for S. carolinensis in the eastern United States, which encompasses a wider range of environmental conditions than those found within the current range in California, to estimate habitat suitability. Our methods may be applicable to further studies on invasive species modeling, for which methods of estimating the potential range, as opposed to the current range, are limited and have not been consistently evaluated (Aguierre-Gutierrez et al. 2013; Uden et al. 2015 ).",
+                "cite_spans": [
+                    {
+                        "start": 523,
+                        "end": 555,
+                        "text": "(Aguierre-Gutierrez et al. 2013;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 556,
+                        "end": 572,
+                        "text": "Uden et al. 2015",
+                        "ref_id": "BIBREF36"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "We obtained presence only location data for 2004 to 2018. The model included 3,725 spatial location points of the EGS in California, as well as 8,988 points from across the native range in the eastern United States. We obtained presence points in California from iDigBio, the Global Biodiversity Information Facility (GBIF), Vertnet, wildlife rehabilitation centers, the California Department of Public Health's West Nile Virus Surveillance Program, the California Roadkill Observation System operated by the University of California, Davis (Waetjen and Shilling 2017) , iNaturalist, and the authors. Location data from the native range of the EGS across the United States are from iNaturalist. We filtered the data to include only the native range of S. carolinensis, according to Koprowski (1994) . We excluded regions from which the EGS is nonnative, and areas outside of the United States.",
+                "cite_spans": [
+                    {
+                        "start": 541,
+                        "end": 568,
+                        "text": "(Waetjen and Shilling 2017)",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 782,
+                        "end": 798,
+                        "text": "Koprowski (1994)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "VertNet, a National Science Foundation funded project, makes museum-curated biodiversity-data free and available on the web, while the Global Biodiversity Information Facility provides open international data. The iNaturalist sightings were filtered to include only those that were open access and research grade, which include an observation date, photo, coordinates, and in which the species identification has been verified by at least one other user. Records in biodiversity databases are constantly changed and updated, so all data from iDigBio, GBIF, and Vertnet were obtained on 31 August 2015. Records from iNaturalist were obtained on 12 October 2018. Some redundancy may exist between the databases, but Maxent automatically removes replicates, so these duplicate observations did not change the projections.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Since all sources are likely to include some misidentifications of related species identified as EGS, reports from outside of the previously published range were scrutinized for accuracy. Field surveys were conducted in regions that had not been included in prior range maps but that had numerous reports, including the Santa Cruz Mountains, the Central Valley, and southern California. Records that could not be corroborated were expunged. In the case of the California Roadkill Observation System data, 82% of EGS with images were correctly identified. The remainders were misidentified as California ground squirrel, Douglas squirrel, or western gray squirrel (WGS).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Data used in this manuscript are available for use by others under a Creative Commons By Attribution Non-Commercial 4.0 International License. Observations obtained through iNaturalist are utilized under a Creative Commons By Attribution Non-Commercial License or from observations that are in the Public Domain. The names of GBIF and iNaturalist contributors can be obtained through a search of the California location data using the data posted at doi: 10.13140/RG.2.2.24275.84004 and the native range of the United States data at doi: 10.13140/RG.2.2.17564.95360.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "We converted location data into geographic coordinates with Google Maps. We spatially rarefied the data to one point per 51.8 ha (0.25 mi 2 ) using the Spatially Rarefy tool in the SDM toolbox (Brown 2014) in order to eliminate spatial clusters that could cause the model to be overfit to the environmental biases of those points (Boria et al. 2014) . The rarefied presence data were reduced from 12,713 to 5,627 points. Since the predictive accuracy of the maps and the ability of the models to project presence data was more important than identifying the tolerance ranges of the species, we did not remove highly correlated variables (Merow et al. 2013) .",
+                "cite_spans": [
+                    {
+                        "start": 330,
+                        "end": 349,
+                        "text": "(Boria et al. 2014)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 637,
+                        "end": 656,
+                        "text": "(Merow et al. 2013)",
+                        "ref_id": "BIBREF27"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "For the environmental background we used the bio 1 through bio 19 variables from BIO-CLIM1 remote sensing data (Hijmans et al. 2005) , which include quarterly and annual temperature and precipitation trends, with other annual environmental trends. Additionally, we used monthly precipitation, monthly maximum temperature, monthly minimum temperature, altitude, impervious surface, land cover, and tree canopy from the United States Geological Survey (USGS 2016) . The full list of biotic and abiotic factors used in our model is available at doi: 10.13140/RG.2.2.15802.70085. We paired the location presence data with environmental background data throughout the contiguous United States. The model can predict habitat suitability for areas that the species is equally likely to reach (Merow et al. 2013) . The environmental background data covers all reasonable possible distributions (Saupe et al. 2012) .",
+                "cite_spans": [
+                    {
+                        "start": 111,
+                        "end": 132,
+                        "text": "(Hijmans et al. 2005)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 450,
+                        "end": 461,
+                        "text": "(USGS 2016)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 785,
+                        "end": 804,
+                        "text": "(Merow et al. 2013)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 886,
+                        "end": 905,
+                        "text": "(Saupe et al. 2012)",
+                        "ref_id": "BIBREF32"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "We selected Maxent to create the ENM because of its high performance at estimating local occurrences with small to medium sample sizes (Elith et al. 2006; Aguierre-Guti\u00e9rrez et al. 2013; Ng and Jorda, 2001) . In order to allow the model to reach the default 0.00001 convergence level, we allowed a maximum of 5,000 iterations (Young et al. 2011) , set the regularization parameter to the default value of one in order to reduce overfitting (Merow et al. 2013) , and created 15 replicates for the model using subsampling (Young et al. 2011) . We set aside 25% of the data for testing, and used 75% for training the model. We used the random seed option in order to increase the randomness of the runs (Jobe and Zank 2006; Young et al. 2011) . We adjusted the sample radius to -100, and did not extrapolate. The logistic output using the default \u03c4 value of 0.5 was selected because the actual probability of the EGS being present in suitable habitat is unknown.",
+                "cite_spans": [
+                    {
+                        "start": 135,
+                        "end": 154,
+                        "text": "(Elith et al. 2006;",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 155,
+                        "end": 186,
+                        "text": "Aguierre-Guti\u00e9rrez et al. 2013;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 187,
+                        "end": 206,
+                        "text": "Ng and Jorda, 2001)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 326,
+                        "end": 345,
+                        "text": "(Young et al. 2011)",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 440,
+                        "end": 459,
+                        "text": "(Merow et al. 2013)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 520,
+                        "end": 539,
+                        "text": "(Young et al. 2011)",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 700,
+                        "end": 720,
+                        "text": "(Jobe and Zank 2006;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 721,
+                        "end": 739,
+                        "text": "Young et al. 2011)",
+                        "ref_id": "BIBREF42"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "We produced habitat suitability maps by importing the rasters for the average of the fifteen replicates for each model into ESRI's ArcMap 10.3.1 (ArcGIS\u00ae 10.3.1; Esri software) using the NAD 1983 California (Teale) Albers (Meters) projected coordinate system and the GCS North American 1983 (NAD1983) datum. When coordinates were provided without a datum, they were assumed to be in NAD83. Each pixel encompasses approximately 720 square meters. We clipped the output rasters to the shape of California, using the United States Census Bureau's Tiger/Line 2010 (United States Census Bureau 2010). We used topographic and political basemap layers from ESRI.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "We used three thresholds to create potential range estimates. The first estimate of the potential range was established by using the 10th percentile training presence logistic threshold, which set the threshold at the level where 90 percent of the presence points were in raster squares with at least the threshold score. We created a second estimate of the potential range using the minimum training presence logistic threshold, which is set at the level of the lowest scoring occupied square. We manually classified the resulting raster of California for the first two thresholds by setting the upper bound of the unsuitable habitat class at the threshold level for each map, as indicated in the Results table created by Maxent.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Third, we used Jenks Natural Breaks to group the resulting raster into five classes based on natural breaks in the data. The approach grouped the relative habitat suitability ranking of each raster square (Rahadianto et al. 2015) by similar values and maximized the difference between the classes (ESRI 2016) . We created 5 habitat categories (HC) from the groupings of data. HC1 represents where the species is now found and adjacent highly suitable habitat, HC2, HC3, and HC4 represent decreasingly suitable, but still suitable habitat, while HC5 represents unsuitable habitat. Therefore, the threshold for suitable habitat was set at the lowest relative habitat suitability ranking score of HC4.",
+                "cite_spans": [
+                    {
+                        "start": 205,
+                        "end": 229,
+                        "text": "(Rahadianto et al. 2015)",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 297,
+                        "end": 308,
+                        "text": "(ESRI 2016)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "The high value of the Test Area Under the Curve (AUC) of the Receiver Operating Characteristic (ROC) Plot (0.8272 on a scale of 0.5 = random association of data to model, to 1.0 = perfect association of data to the model) and Training AUC (0.828) indicate an excellent fit of the data to the model produced by Maxent. The plot is available at doi: 10.13140/RG.2.2.12531.78883. However, since the ROC Plot is constructed from all possible threshold values and the plot does not yield information about any specific threshold value, the selection of a biologically meaningful threshold value for graphing results of the model is critical for obtaining the most accurate map of potential future range.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Three different threshold values were used for the range of suitable to unsuitable habitat found using the ENM for the EGS in California. Use of the 10 th percentile logistic threshold ( Fig. 1) produced the most limited estimate of potential future range. In the binary map, suitable habitat scored above the threshold value of 0.3051 ( Table 1 ). The potential range produced using this threshold value is very similar to the current range of the species in northern and central California as of 2018. Therefore, the time frame of projected range expansion is very limited. EGSs currently exist outside of habitat that is predicted suitable through use of this threshold, as the method excludes the 10 percent of observation locations with the lowest relative scores in order to produce the threshold value. EGSs are currently found outside of projected suitable habitat near Salinas, Tracy, Modesto, and east and south of Sacramento along the Sierra Nevada foothills from north of the American River to Columbia.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 187,
+                        "end": 194,
+                        "text": "Fig. 1)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 338,
+                        "end": 345,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Use of the minimum training presence logistic threshold (Fig. 2) also produced a binary output map, but in this case the logistic threshold value was reduced to 0.0299 (Table 1) . A very large increase in projected suitable habitat for the EGS in California results from the reduction in threshold value. The potential range using this threshold value includes most of the state, with the exception of the Mojave Desert, the very north-central and northeast portion of the state, the higher elevations of the Sierra Nevada Mountain Range, and a southern portion of the San Joaquin Valley.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 56,
+                        "end": 64,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 168,
+                        "end": 177,
+                        "text": "(Table 1)",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "The Jenks Natural Breaks method produced a binary map with suitable habitat above the threshold of 0.0530, but the specificity of information within the suitable habitat category was much greater than in either of the previous two methods (Tables 1, 2 ). In the map classified using Jenks Natural Breaks (Fig. 3) , the two highest relative habitat category rankings (HC1 and HC2) are centered on the San Francisco Bay area, south through the Santa Cruz Mountains to habitats on the Monterey Bay Peninsula, east through Sacramento into the foothills of the Sierra Nevada Mountains, and along the southern California coasts. Concentric areas of decreasingly suitable habitat (HC3 and HC4) surround the most suitable areas and continue south along most of coastal California and the coastal/inland mountain ranges to the border with Mexico. HC3 and HC4 are also found along river corridors exiting the Sierra Nevada Mountains. Unsuitable habitats (HC5) are in and east of the Sierra Nevada Mountains, the northern Cascade Range, a major portion of the San Joaquin Valley south of Sacramento, and the deserts of southern California.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 239,
+                        "end": 251,
+                        "text": "(Tables 1, 2",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 304,
+                        "end": 312,
+                        "text": "(Fig. 3)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Our results indicate that the method for selecting a threshold value to establish a break between suitable and unsuitable habitat with Maxent is an especially critical issue for an introduced species which is expanding its geographic range. We have shown that a high AUC value by itself is not sufficient to support the predictive accuracy of a single map based upon a single arbitrarily selected threshold value. AUC is not a perfect, objective measure of the predictive power of the model, but few alternatives are available for presence only data (Merow et al. 2013) . The commonly used 10th percentile training presence logistic threshold as well as the minimum training presence logistic threshold are clearly arbitrary values with little biological basis for selection. And, as shown by the maps presented in this paper, these thresholds produce vastly different projections of suitable habitat. The use of Jenks Breaks to establish a threshold value is based upon the natural clustering of values in the logistic output of the model and hence should be less arbitrary, and more meaningful, in terms of the biology of the species being studied. This method also provides graded \"likelihoods\" of predicted occupancy, which may be more easily tested in the future with new occupancy records. The 10th percentile training presence logistic threshold provided the most conservative estimate of the potential range by assuming that some of the presence data may be misidentified, improperly reported, or outside of the area in which the EGS can persist, and then removing those points (Young et al. 2011; Uden et al. 2015) . The map is inherently skewed toward the realized niche of the EGS in California, as the species has only been introduced to a few locations within the state. It is closely aligned with the original data set and may be biased toward human accessible areas. The threshold may be too conservative, as the EGS is still spreading, and is likely to tolerate habitat with conditions at least as extreme as those in the current range in California. The EGS already inhabits areas outside of the region projected as suitable in this map.",
+                "cite_spans": [
+                    {
+                        "start": 550,
+                        "end": 569,
+                        "text": "(Merow et al. 2013)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 1586,
+                        "end": 1605,
+                        "text": "(Young et al. 2011;",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 1606,
+                        "end": 1623,
+                        "text": "Uden et al. 2015)",
+                        "ref_id": "BIBREF36"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The map created with the minimum training presence logistic threshold reflects a much broader range of conditions throughout California and is our least conservative estimate of the future range. However, use of this threshold value most likely over-predicts the potential range because the inclusion of a single erroneous location point within the data could greatly affect the map. The map using this lower threshold provides an accurate estimate of potential range only if it is absolutely certain that all location data have been correctly identified as EGSs, and all individuals and populations currently exist in suitable habitat. While it is highly likely that the EGS will expand its range to include some of the areas mapped by this method, it is highly unlikely that the species will inhabit all of the area. If the EGS is introduced to or expands it range to new areas and survives, the distribution is likely to more closely resemble the maximum estimate map than the minimum estimate using the 10th percentile logistic threshold.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The map created with Jenks Natural Breaks provides the most useful, detailed classification of the relative habitat suitability rankings, and therefore the risk of invasion to various parts of California. We assume that the lowest ranking habitat, HC5, is unsuitable based upon the lowest grouping of values (0.000 to 0.0530), whereas each higher rank represents increasingly suitable habitat. As the EGS continues to spread, the habitat suitability ranking may increase in areas with habitat similar to newly invaded areas and therefore we cannot say that this map is a permanent ranking of habitat suitability. For example, areas now ranked as HC3 could in the future be ranked as HC2 if many populations of EGSs become established within HC3. We believe that setting the threshold for suitable habitat above HC5 created the most reasonable estimate of the potential future range by including a broader range of habitat than the minimum estimate, but excluding the most extreme desert, mountain, and Central Valley habitats of the maximum estimate. The Jenks Natural Breaks map is, at this time, our most reasonable estimate of the future range of the EGS in California.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "We selected Maxent to create the ENM because of its high performance at estimating local occurrences. Absence data were not available or informative, so a presence-absence experiment could not be done (Yackulic et al. 2012) . Additionally, presence only data may be better than presence-absence data for estimating fundamental niches because invasive species have not yet inhabited their full potential range (Jim\u00e9nez-Valverde et al. 2008) . For presence only data, machine learning methods such as Maxent consistently outperformed earlier methods, such as Bioclim or regression models in predictive success (Elith et al. 2006) . It is especially good for small and medium data sets because the generative learning method uses an algorithm to build a model, as opposed to a discriminative model that estimates the value of one categorical variable based on the other (Ng and Jordan 2001; Aguierre-Guti\u00e9rrez et al. 2013) .",
+                "cite_spans": [
+                    {
+                        "start": 201,
+                        "end": 223,
+                        "text": "(Yackulic et al. 2012)",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 409,
+                        "end": 439,
+                        "text": "(Jim\u00e9nez-Valverde et al. 2008)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 608,
+                        "end": 627,
+                        "text": "(Elith et al. 2006)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 867,
+                        "end": 887,
+                        "text": "(Ng and Jordan 2001;",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 888,
+                        "end": 919,
+                        "text": "Aguierre-Guti\u00e9rrez et al. 2013)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Location data were limited to 2004-2018 because habitat loss has been extensive in California over the past century, to ensure the use of current species distributions, and because satellite collection for BIOCLIM only started in 1972 (United States Geologic Survey [USGS] 2015). Overall, 2,825 of the 3,725 EGS records in California, 75.84%, were obtained from wildlife rehabilitation records. Records indicated the location that the person submitting the squirrel reported finding it. Rehabilitation facilities are very likely to accurately identify the species, but may cause geographic bias toward the residential areas surrounding each center. Citizen science data offers the benefit of having broad sources, but may be skewed toward urbanized areas, roads, or other easily studied sites (Baldwin 2009) . The data are not random, but rarefaction has been used to equalize the sampling effort among areas, which allowed us to make a reasonable inference of the species distribution (Yackulic et al. 2012) . The assumption that detection probability is constant across sites need not be met because citizen science and historic records simulate repeat-visits to each site (Yackulic et al. 2012) .",
+                "cite_spans": [
+                    {
+                        "start": 266,
+                        "end": 272,
+                        "text": "[USGS]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 793,
+                        "end": 807,
+                        "text": "(Baldwin 2009)",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 986,
+                        "end": 1008,
+                        "text": "(Yackulic et al. 2012)",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 1175,
+                        "end": 1197,
+                        "text": "(Yackulic et al. 2012)",
+                        "ref_id": "BIBREF41"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The higher elevations of the Sierra Nevada were classified as unsuitable using all thresholds, but elevation may have been the only factor causing the unsuitable classification, as the highest point in the native range of S. carolinensis is at 6,643 feet, at Clingman's Dome in Tennessee, which is the highest point in the state and the Smoky Mountains. Elevation alone may not actually exclude the EGS. The species' invasive ability worldwide, especially into areas with Mediterranean climates, such as South Africa and Italy (Gurnell et al. 2004; Bertolino 2008; Benson 2013; Bertolino and Lurz 2013) suggests that it could acclimate to conditions in much of California.",
+                "cite_spans": [
+                    {
+                        "start": 527,
+                        "end": 548,
+                        "text": "(Gurnell et al. 2004;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 549,
+                        "end": 564,
+                        "text": "Bertolino 2008;",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 565,
+                        "end": 577,
+                        "text": "Benson 2013;",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 578,
+                        "end": 602,
+                        "text": "Bertolino and Lurz 2013)",
+                        "ref_id": "BIBREF5"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Finally, with future studies the potential invasion by the EGS into occupied and unoccupied eastern fox squirrel (EFS) or WGS habitat is an excellent test case for several hypotheses regarding invasion ecology. These hypotheses include, 1) \"biotic resistance\", which suggests that high-biodiversity ecosystems are more resistant to invasion than lowdiversity ecosystems; 2) \"enemy release\", which posits that the absence of enemies (i.e., competitors and predators) increases the likelihood of invasion; and 3) \"propagule pressure/introduction effort\", which proposes that the introduced population size and the frequency of introduction can contribute to successful invasion (Jeschke 2014) . The first hypothesis could be tested with the EFS by comparing the rate and success of invasion from neighboring areas of low and high-biodiversity systems (e.g., oak woodlands in the Sierra Nevada mountain foothills). The second hypothesis could be tested by comparing EGS invasion and persistence success with the presence of competitors (e.g., EFS or WGS) and predators, such as hawks and owls. Because the EGS tolerates urban and suburban areas, predators may be less prevalent in areas where they have succeeded. The third hypothesis could be tested using a combination of estimates (e.g., from historical accounts) or measurements (e.g., for newly-discovered populations) of founder population size and continued introduction (e.g., from connected populations) and reproductive rate to predict expansion and persistence. There is already some evidence that the EGS may be replacing the EFS on the western side of the San Francisco Bay (Creley and Muchlinski 2017) so assessing potential causal factors for replacement is important. Finally, the model uses current environmental conditions, and could be adapted to include estimates for changes in climate, which may reduce the amount of suitable habit, shift it to higher elevations, or render hotter and more extreme areas of currently suitable habitat unsuitable in the future.",
+                "cite_spans": [
+                    {
+                        "start": 676,
+                        "end": 690,
+                        "text": "(Jeschke 2014)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 1040,
+                        "end": 1051,
+                        "text": "EFS or WGS)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1634,
+                        "end": 1662,
+                        "text": "(Creley and Muchlinski 2017)",
+                        "ref_id": "BIBREF16"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Literature Cited",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded From: https://bioone.org/journals/Bulletin,-Southern-California-Academy-of-Sciences on 07 Oct 2021 Terms of Use: https://bioone.org/terms-of-use Access provided by University of Michigan",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Fit-for-purpose: Species distribution model performance depends on evaluation criteria -Dutch hoverflies as a case study",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Aguirre-Guti\u00e9rrez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Carvalherio",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Polce",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Van Loon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Raes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Reemer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Biesmeijer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "PLOS One",
+                "volume": "8",
+                "issue": "5",
+                "pages": "1--11",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Aguirre-Guti\u00e9rrez, J., L.G. Carvalherio, C. Polce, E.E. van Loon, N. Raes, M. Reemer and J.C. Biesmei- jer. 2013. Fit-for-purpose: Species distribution model performance depends on evaluation criteria - Dutch hoverflies as a case study. PLOS One, 8(5):1-11.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Use of maximum entropy modeling in wildlife research",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Baldwin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Entropy",
+                "volume": "11",
+                "issue": "",
+                "pages": "854--866",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Baldwin, R.A. 2009. Use of maximum entropy modeling in wildlife research. Entropy, 11:854-866.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Using maximum entropy modeling to identify and prioritize red spruce forest habitat in West",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Beane",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Rentch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Schuler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Beane, N.R., J.S. Rentch and T.M. Schuler. 2013. Using maximum entropy modeling to identify and prior- itize red spruce forest habitat in West Virginia. U.S.F.S., Newtown Square, PA.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Modeling vulnerability of protected areas to invasion by Chromolaena odorata under current and future climates",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Belarmain Fandohan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M O"
+                        ],
+                        "last": "Oduor",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Sode",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Wu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Sanchez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Assede",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Gouwakinnou",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Ecosystem Health and Sustainability",
+                "volume": "1",
+                "issue": "6",
+                "pages": "1--12",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Belarmain Fandohan, A., A.M.O. Oduor, A. Idelphonse Sode, L. Wu, A. Cuni Sanchez, E. Assede and G.N. Gouwakinnou. 2015. Modeling vulnerability of protected areas to invasion by Chromolaena odorata under current and future climates. Ecosystem Health and Sustainability, 1(6):1-12.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "The urbanization of the eastern gray squirrel in the United States",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Benson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "J. Am. Hist",
+                "volume": "100",
+                "issue": "3",
+                "pages": "691--710",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Benson, E. 2013. The urbanization of the eastern gray squirrel in the United States. J. Am. Hist., 100(3):691-710.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Callosciurus squirrels: Worldwide introductions, ecological impacts and recommendations to prevent the establishment of new invasive populations",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Bertolino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "W W"
+                        ],
+                        "last": "Lurz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Mammal Rev",
+                "volume": "43",
+                "issue": "1",
+                "pages": "22--23",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bertolino, S. and P.W.W. Lurz. 2013. Callosciurus squirrels: Worldwide introductions, ecological impacts and recommendations to prevent the establishment of new invasive populations. Mammal Rev., 43(1):22-23.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "A grey future for Europe: Sciurus carolinensis is replacing native red squirrels in Italy",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Bertolino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Di Montezemolo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Preatoni",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Wauters",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Marinoli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Biol. Invasions",
+                "volume": "16",
+                "issue": "1",
+                "pages": "53--62",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bertolino, S., N.C. di Montezemolo, D.G. Preatoni, L.A. Wauters and A. Marinoli. 2014. A grey future for Europe: Sciurus carolinensis is replacing native red squirrels in Italy. Biol. Invasions, 16(1):53-62.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Introduction of the American grey squirrel (Sciurus carolinensis) in Europe: A case study in biological invasion",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Bertolino",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Curr. Sci",
+                "volume": "95",
+                "issue": "7",
+                "pages": "903--906",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bertolino, S. 2008. Introduction of the American grey squirrel (Sciurus carolinensis) in Europe: A case study in biological invasion. Curr. Sci., 95(7):903-906.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Spread and attempted eradication of the grey squirrel (Sciurus carolinensis) in Italy, and consequences for the red squirrel (Sciurus vulgaris) in Eurasia",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Bertolino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Genovesi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Biol. Cons",
+                "volume": "109",
+                "issue": "3",
+                "pages": "351--358",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bertolino, S. and P. Genovesi. 2003. Spread and attempted eradication of the grey squirrel (Sciurus car- olinensis) in Italy, and consequences for the red squirrel (Sciurus vulgaris) in Eurasia. Biol. Cons., 109(3):351-358.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Spatial filtering to reduce sampling bias can improve the performance of ecological niche models",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Boria",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Olson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Goodman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Anderson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Ecol. Model",
+                "volume": "275",
+                "issue": "",
+                "pages": "73--77",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Boria, R., L. Olson, S. Goodman and R. Anderson. 2014. Spatial filtering to reduce sampling bias can improve the performance of ecological niche models. Ecol. Model., 275:73-77.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Understanding the distribution of a threatened bird at multiple levels: A hierarchical analysis of the ecological niche of the Santa Marta Bush-tyrant (Myiotheretes pernix)",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Bortero-Delgadillo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Bayly",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Escudero-Paez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Moreno",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Condor",
+                "volume": "117",
+                "issue": "4",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "629-643DOI10.1650/CONDOR-15-26.1"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Bortero-Delgadillo, E., N.J. Bayly, S. Escudero-Paez and M.I. Moreno. 2015. Understanding the distribution of a threatened bird at multiple levels: A hierarchical analysis of the eco- logical niche of the Santa Marta Bush-tyrant (Myiotheretes pernix). Condor, 117(4):629-643 DOI 10.1650/CONDOR-15-26.1.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "SDMtoolbox: A python-based GIS toolkit for landscape genetic, biogeographic and species distribution model analyses",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Brown",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Methods Ecol. Evol",
+                "volume": "5",
+                "issue": "",
+                "pages": "694--700",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brown, J.L. 2014. SDMtoolbox: A python-based GIS toolkit for landscape genetic, biogeographic and species distribution model analyses. Methods Ecol. Evol., 5:694-700.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "The distribution and ecology of the non-native tree squirrels Sciurus carolinensis and Sciurus niger in Northern California",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Byrne",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1979,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Byrne, S. 1979. The distribution and ecology of the non-native tree squirrels Sciurus carolinensis and Sciurus niger in Northern California. Ph.D. Dissertation, University of California, Berkeley.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Ecological niche modeling for the prediction of the geographic distribution of Cutaneous leishmaniasis in Tunisia",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Chalghaf",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Chlif",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Mayala",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Ghawar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Bettaieb",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Harrabi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Bertin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Michael",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Salah",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Am. J. Trop. Med. Hyg",
+                "volume": "94",
+                "issue": "4",
+                "pages": "844--851",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chalghaf, B., S. Chlif, B. Mayala, W. Ghawar, J. Bettaieb, M. Harrabi, G.B. Bertin, E. Michael and A.B. Salah. 2016. Ecological niche modeling for the prediction of the geographic distribution of Cuta- neous leishmaniasis in Tunisia. Am. J. Trop. Med. Hyg., 94(4):844-851.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Conceptual model development for invasive species and a regional risk assessment case study: The European green crab, Carcinus maenas, at Cherry Point, Washington, USA",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Colnar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Landis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Hum. Ecol. Risk Assess",
+                "volume": "13",
+                "issue": "1",
+                "pages": "120--155",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Colnar, A.M. and W.G. Landis. 2007. Conceptual model development for invasive species and a regional risk assessment case study: The European green crab, Carcinus maenas, at Cherry Point, Washing- ton, USA. Hum. Ecol. Risk Assess., 13(1):120-155.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Modeling niche differentiation of coexisting, elusive and morphologically similar species: A case study of four macaque species in Nakai-Nam Theun national protected area",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "N Z"
+                        ],
+                        "last": "Coudrat",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Nekaris",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Laos. Animals",
+                "volume": "3",
+                "issue": "1",
+                "pages": "45--62",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Coudrat, C.N.Z. and A.I. Nekaris. 2013. Modeling niche differentiation of coexisting, elusive and mor- phologically similar species: A case study of four macaque species in Nakai-Nam Theun national protected area, Laos. Animals, 3(1):45-62.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Distribution of the eastern gray squirrel (Sciurus carolinensis) within California as of 2015",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Creley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Muchlinski",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Bull. South. Calif. Acad. Sci",
+                "volume": "116",
+                "issue": "3",
+                "pages": "204--213",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Creley, C.M. and A.E. Muchlinski. 2017. Distribution of the eastern gray squirrel (Sciurus carolinensis) within California as of 2015. Bull. South. Calif. Acad. Sci., 116(3):204-213.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "GIS-based nitrogen removal model for Assessing Florida's surficial aquifer vulnerability",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Cui",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Zhou",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Geza",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Environ. Earth Sci",
+                "volume": "75",
+                "issue": "",
+                "pages": "1--15",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cui C, W. Zhou and M. Geza. 2016. GIS-based nitrogen removal model for Assessing Florida's surficial aquifer vulnerability. Environ. Earth Sci., 75:1-15.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Novel methods improve prediction of species' distributions from occurrence data",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Elith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Graham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Anderson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Dudik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Ferrier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Guisan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Hijmans",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Huettmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Leathwick",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Lehmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Li",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Lohmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Loiselle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Manion",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Moritz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nakamura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Nakazawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Overton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Peterson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Phillips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Richardson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Scachetti-Pereira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Schapire",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Soberon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Williams",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Wisz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Zimmermann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Ecography",
+                "volume": "29",
+                "issue": "2",
+                "pages": "129--151",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Elith, J., C. Graham, R. Anderson, M. Dudik, S. Ferrier, A. Guisan, R. Hijmans, F. Huettmann, J. Leath- wick, A. Lehmann, J. Li, L. Lohmann, B. Loiselle, G. Manion, C. Moritz, M. Nakamura, Y. Nakazawa, J. Overton, A.T. Peterson, S. Phillips, K. Richardson, R. Scachetti-Pereira, R. Schapire, J. Soberon, S. Williams, M. Wisz and N. Zimmermann. 2006. Novel methods improve prediction of species' distributions from occurrence data. Ecography, 29(2):129-151.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Classifying numerical fields for graduated symbology",
+                "authors": [],
+                "year": 2016,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Environmental Systems Research Institute. 2016. Classifying numerical fields for graduated symbol- ogy. ESRI, Redlands, California.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Alien species and interspecific competition: Effects of introduced eastern grey squirrels on red squirrel population dynamics",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Gurnell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Wauters",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "W W"
+                        ],
+                        "last": "Lurz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Tosi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "J. Anim. Ecol",
+                "volume": "73",
+                "issue": "1",
+                "pages": "26--35",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gurnell, J., L.A. Wauters, P.W.W. Lurz and G. Tosi. 2004. Alien species and interspecific competition: Effects of introduced eastern grey squirrels on red squirrel population dynamics. J. Anim. Ecol., 73(1):26-35.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Very high resolution interpolated climate surfaces for global land areas",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hijmans",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Cameron",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Parra",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Jarvis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "J. Climatol",
+                "volume": "25",
+                "issue": "15",
+                "pages": "1965--1978",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hijmans, R.J., S.E. Cameron, J.L. Parra, P.G. Jones and A. Jarvis. 2005. Very high resolution interpolated climate surfaces for global land areas. In. J. Climatol., 25(15):1965-1978.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "General hypotheses in invasion ecology",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Jeschke",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Divers. Distrib",
+                "volume": "20",
+                "issue": "",
+                "pages": "1229--1364",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jeschke, J. 2014. General hypotheses in invasion ecology. Divers. Distrib. 20:1229-1364.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "The data model concept in statistical mapping",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Jenks",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1967,
+                "venue": "International Yearbook of Cartography",
+                "volume": "7",
+                "issue": "",
+                "pages": "186--190",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jenks, G.F. 1967. The data model concept in statistical mapping. International Yearbook of Cartography, 7:186-190.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Not as good as they seem: The importance of concepts in species distribution modeling",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Jim\u00e9nez-Valverde",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Lobo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Hortal",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Divers. Distrib",
+                "volume": "14",
+                "issue": "6",
+                "pages": "885--890",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jim\u00e9nez-Valverde, A., J.M. Lobo and J. Hortal. 2008. Not as good as they seem: The importance of con- cepts in species distribution modeling. Divers. Distrib., 14(6):885-890.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Modeling species distributions for the Great Smoky Mountains National Park using maxent. Department of the Interior, Draft Document",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Jobe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Zank",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jobe, R.T. and B. Zank. Modeling species distributions for the Great Smoky Mountains National Park using maxent. Department of the Interior, Draft Document -August 27, 2008. https://s3-us-west- 2.amazonaws.com/oww-files-public/7/74/Jobe_2008_MaxEnt.pdf.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "A practical guide to MaxEnt for modeling species' distributions: What it does, and why inputs and settings matter",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Merow",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A J"
+                        ],
+                        "last": "Silander",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Ecography",
+                "volume": "36",
+                "issue": "",
+                "pages": "1058--1069",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Merow, C., M.J. Smith and J.A.J. Silander. 2013. A practical guide to MaxEnt for modeling species' distri- butions: What it does, and why inputs and settings matter. Ecography, 36:1058-1069.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "On discriminative vs. generative classifiers: A comparison of logistic regression and naive bayes",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Ng",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Jordan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "NeurIPS",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ng, A.Y. and M.I. Jordan. 2001. On discriminative vs. generative classifiers: A comparison of logistic re- gression and naive bayes. NeurIPS, 14.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Identification of critical locations across multiple infrastructures for terrorist actions",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Patterson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Apostolakis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Reliab. Eng. Syst. Safe",
+                "volume": "92",
+                "issue": "2",
+                "pages": "1183--1203",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Patterson S.A. and G.E. Apostolakis. 2007. Identification of critical locations across multiple infrastructures for terrorist actions. Reliab. Eng. Syst. Safe., 92(2):1183-1203.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Risk-level assessment system on Bengawan Solo river basin flood prone areas using analytic hierarchy process and natural breaks: Study case",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Rahadianto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Fariza",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J. Akhmad Nur",
+                        "middle": [],
+                        "last": "Hasim",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rahadianto H., A. Fariza and J. Akhmad Nur Hasim. 2015. Risk-level assessment system on Bengawan Solo river basin flood prone areas using analytic hierarchy process and natural breaks: Study case: East Java, Yogyakarta, Indonesia. ICoDSE, 2015, Red Hood, New York.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Ecological niche modeling and distribution of Ornithodoros hermsi associated with tick-borne relapsing fever in western North America",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Sage",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Johnson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Teglas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Nieto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Schwan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "PLOS Negl. Trop. Dis",
+                "volume": "11",
+                "issue": "10",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sage K.M., T.L. Johnson, M.B. Teglas, N.C. Nieto and T.G. Schwan. 2017. Ecological niche modeling and distribution of Ornithodoros hermsi associated with tick-borne relapsing fever in western North America. PLOS Negl. Trop. Dis., 11(10):e0006047.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Variation in niche and distribution model performance: The need for a priori assessment of key causal factors",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Saupe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Barve",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Myers",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Sober\u00f3n",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Barve",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Hensz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Peterson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Owens",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Lira-Noriega",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Ecol. Model",
+                "volume": "",
+                "issue": "",
+                "pages": "11--22",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Saupe, E.E., V. Barve, C.E. Myers, L. Sober\u00f3n, N. Barve, C.M. Hensz, A.T. Peterson, H.L. Owens and A. Lira-Noriega. 2012. Variation in niche and distribution model performance: The need for a priori assessment of key causal factors. Ecol. Model., 237-238:11-22.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Regional ecological risk assessment for the introduction of Gambusia affinis (western mosquitofish) into Montana watersheds",
+                "authors": [
+                    {
+                        "first": "Iii",
+                        "middle": [],
+                        "last": "Schleier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Sing",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Biol. Invasions",
+                "volume": "10",
+                "issue": "8",
+                "pages": "1277--1287",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Schleier III, J.J. and S.E. Sing. 2008. Regional ecological risk assessment for the introduc- tion of Gambusia affinis (western mosquitofish) into Montana watersheds. Biol. Invasions, 10(8):1277-1287.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Using GPS telemetry to validate least-cost modeling of gray squirrel (Sciurus carolinensis) movement within a fragmented landscape",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Stevenson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ferryman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [],
+                        "last": "Nevin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Ramsey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Bailey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Watts",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Ecol. Evol",
+                "volume": "3",
+                "issue": "7",
+                "pages": "2350--2361",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stevenson, C., M. Ferryman, O. Nevin, A. Ramsey, S. Bailey and K. Watts. 2013. Using GPS telemetry to validate least-cost modeling of gray squirrel (Sciurus carolinensis) movement within a fragmented landscape. Ecol. Evol., 3(7):2350-2361.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Adaptive invasive species distribution models: A framework for modeling incipient invasions",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Uden",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Allen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Angeler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Corral",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Fricke",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Biol. Invasions",
+                "volume": "17",
+                "issue": "10",
+                "pages": "2831--2850",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Uden, D.R., C.R. Allen, D.G. Angeler, L. Corral and K.A. Fricke. 2015. Adaptive invasive species distribution models: A framework for modeling incipient invasions. Biol. Invasions, 17(10):2831-2850.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Tiger/Line 2010 shapefile: State of California counties [USGS] United States Geological Survey",
+                "authors": [],
+                "year": 2010,
+                "venue": "USGS products Landsat data",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "United States Census Bureau. 2010. Tiger/Line 2010 shapefile: State of California counties [USGS] United States Geological Survey. 2016. USGS products Landsat data, http://glovis.usgs.gov/.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Landsat-Earth observation satellites: U.S. geological survey fact sheet",
+                "authors": [],
+                "year": 2015,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "2015--3081",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "United States Geological Survey. 2015. Landsat-Earth observation satellites: U.S. geological sur- vey fact sheet 2015-3081.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Large extent roadkill and wildlife observation systems as sources of reliable data",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Waetjen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Shilling",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Front. Ecol. Evol",
+                "volume": "5",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.3389/fevo.2017.00089"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Waetjen, D.P. and F.M. Shilling. 2017. Large extent roadkill and wildlife observation systems as sources of reliable data. Front. Ecol. Evol., 5:89. doi: 10.3389/fevo.2017.00089.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Tree squirrel introduction: A theoretical approach with population viability analysis",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Wood",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Koprowski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "W W"
+                        ],
+                        "last": "Lurz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "J. Mammal",
+                "volume": "88",
+                "issue": "5",
+                "pages": "1271--1279",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wood, D.J., J.L. Koprowski and P.W.W. Lurz. 2007. Tree squirrel introduction: A theoretical approach with population viability analysis. J. Mammal, 88(5):1271-1279.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Presence-only modeling using MAXENT: When can we trust the inferences?",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Yackulic",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Chandler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Zipkin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Royle",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Nichols",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Grant",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Veran",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Methods in Ecol. Evol",
+                "volume": "4",
+                "issue": "3",
+                "pages": "236--243",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yackulic, C., R. Chandler, E. Zipkin, J.A. Royle, J. Nichols, E. Campbell Grant and S. Veran. 2012. Presence-only modeling using MAXENT: When can we trust the inferences?. Methods in Ecol. Evol., 4(3):236-243.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "A MaxEnt model v3.3.3e tutorial (ArcGIS v10)",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Young",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Carter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Evangelista",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Young, N. and L. Carter, P. Evangelista. 2011. A MaxEnt model v3.3.3e tutorial (ArcGIS v10).",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "num": null,
+                "type_str": "figure",
+                "uris": null,
+                "text": "Estimate of suitable habitat predicted by the model using the 10th percentile training presence logistic threshold based upon eastern gray squirrel locations from 2004 to 2018."
+            },
+            "FIGREF1": {
+                "num": null,
+                "type_str": "figure",
+                "uris": null,
+                "text": "Estimate of suitable habitat predicted by the model using the minimum training presence logistic threshold based upon eastern gray squirrel locations from 2004 to 2018."
+            },
+            "TABREF0": {
+                "num": null,
+                "type_str": "table",
+                "content": "<table><tr><td/><td>10th percentile training</td><td>Minimum training presence</td><td>Jenks</td></tr><tr><td>Class</td><td>presence logistic threshold</td><td>logistic threshold</td><td>Natural Breaks</td></tr><tr><td>Suitable</td><td>0.3051 -1</td><td>.0299-1</td><td>0.0530 -1</td></tr><tr><td>Unsuitable</td><td>0 -0.3051</td><td>0-0.0299</td><td>0 -0.0530</td></tr></table>",
+                "text": "Threshold breakpoints."
+            },
+            "TABREF1": {
+                "num": null,
+                "type_str": "table",
+                "content": "<table><tr><td>Habitat class</td><td>Relative habitat suitability ranking</td></tr><tr><td>1</td><td>0.4627 -0.7515</td></tr><tr><td>2</td><td>0.2917 -0.4627</td></tr><tr><td>3</td><td>0.1562 -0.2917</td></tr><tr><td>4</td><td>0.0530 -0.1562</td></tr><tr><td>5</td><td>0 -0.0530</td></tr></table>",
+                "text": "Habitat classes created with Jenks Natural Breaks. Estimate of suitable habitat predited by the model using Jenks Natural Breaks, with five habitat classes (HC), based upon eastern gray squirrel locations from 2004 to 2018. HC1 represents the most suitable habitat. HC2-HC4 represent decreasingly suitable habitat, and HC5 is considered unsuitable habitat."
+            }
+        }
+    }
+}

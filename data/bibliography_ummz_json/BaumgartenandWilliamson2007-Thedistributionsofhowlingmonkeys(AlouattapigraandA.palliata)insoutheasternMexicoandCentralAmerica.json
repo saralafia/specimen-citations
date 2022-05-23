@@ -1,0 +1,1928 @@
+{
+    "paper_id": "BaumgartenandWilliamson2007-Thedistributionsofhowlingmonkeys(AlouattapigraandA",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:21:18.623429Z"
+    },
+    "title": "The distributions of howling monkeys (Alouatta pigra and A. palliata) in southeastern Mexico and Central America",
+    "authors": [
+        {
+            "first": "Amrei",
+            "middle": [],
+            "last": "Baumgarten",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Ae",
+            "middle": [
+                "G Bruce"
+            ],
+            "last": "Williamson",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "G",
+            "middle": [
+                "B"
+            ],
+            "last": "Williamson",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "We compared the distributions of Alouatta palliata and A. pigra in southeastern Mexico and Central America with geographic and ecological features to infer current barriers and ecological preferences. Distribution data were obtained from museum specimen localities, study sites, historic records and field surveys and integrated into digital elevation and ecosystem maps using GIS. A. pigra evidently occurs at a number of sites above 2,000 m, where temperatures can even drop below zero on some days of the year, thus indicating a broader ecological tolerance than previously reported. Both species occupy a number of vegetation types and can be found in seasonal and nonseasonal forests. We identified the highland massif of northern Central America and its associated coniferous and subalpine vegetation as a geographic barrier that separates the species. In the past, distribution maps for these species have indicated adjacent contiguous ranges, but we propose that they are largely separated by these mountains. There are two contact zones: a broad area of sympatry north of the highland massif in Mexico and a narrow zone in eastern Guatemala where parapatry is maintained by a river barrier and where only A. pigra occurs in the high elevations and cooler habitats inland. We explore an alternative biogeographic scenario for the split of the two species that accounts for the current distribution and differences in elevation and cold tolerances.",
+    "pdf_parse": {
+        "paper_id": "BaumgartenandWilliamson2007-Thedistributionsofhowlingmonkeys(AlouattapigraandA",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "We compared the distributions of Alouatta palliata and A. pigra in southeastern Mexico and Central America with geographic and ecological features to infer current barriers and ecological preferences. Distribution data were obtained from museum specimen localities, study sites, historic records and field surveys and integrated into digital elevation and ecosystem maps using GIS. A. pigra evidently occurs at a number of sites above 2,000 m, where temperatures can even drop below zero on some days of the year, thus indicating a broader ecological tolerance than previously reported. Both species occupy a number of vegetation types and can be found in seasonal and nonseasonal forests. We identified the highland massif of northern Central America and its associated coniferous and subalpine vegetation as a geographic barrier that separates the species. In the past, distribution maps for these species have indicated adjacent contiguous ranges, but we propose that they are largely separated by these mountains. There are two contact zones: a broad area of sympatry north of the highland massif in Mexico and a narrow zone in eastern Guatemala where parapatry is maintained by a river barrier and where only A. pigra occurs in the high elevations and cooler habitats inland. We explore an alternative biogeographic scenario for the split of the two species that accounts for the current distribution and differences in elevation and cold tolerances.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "There are two howling monkeys in Central America and Mexico: the mantled howling monkey (Alouatta palliata) and the black howling monkey (A. pigra). Rylands et al. (1997) also listed A. coibensis coibensis from Coiba Island and A. coibensis trabeata from Azuero Peninsula of Panama, following Froehlich and Froehlich (1986) . A molecular genetic study by Cort\u00e9s-Ortiz et al. (2003) , however, failed to justify this classification. A. pigra occurs in Belize, northern Guatemala and southeastern Mexico. A. palliata is widespread, occurring in Mexico, west and south of the Yucat\u00e1n peninsula and extending south throughout Central America into the Pacific plain of Colombia and Ecuador.",
+                "cite_spans": [
+                    {
+                        "start": 149,
+                        "end": 170,
+                        "text": "Rylands et al. (1997)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 293,
+                        "end": 323,
+                        "text": "Froehlich and Froehlich (1986)",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 355,
+                        "end": 381,
+                        "text": "Cort\u00e9s-Ortiz et al. (2003)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "A palliata and A. pigra are sister species that split 3 mya. They belong to the trans-Andean clade that separated from the South American cis-Andean clade about 6.8 mya with the formation of the Northern Andes (Cort\u00e9s-Ortiz et al. 2003) . A number of explanations for their speciation and colonization of Central America have been proposed (Smith 1970; Cort\u00e9s-Ortiz et al. 2003; Ford 2006 ).",
+                "cite_spans": [
+                    {
+                        "start": 210,
+                        "end": 236,
+                        "text": "(Cort\u00e9s-Ortiz et al. 2003)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 340,
+                        "end": 352,
+                        "text": "(Smith 1970;",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 353,
+                        "end": 378,
+                        "text": "Cort\u00e9s-Ortiz et al. 2003;",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 379,
+                        "end": 388,
+                        "text": "Ford 2006",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Here we compare the distributions of the Central American howling monkeys (including particularly contact zones), with geographic and ecological features to identify possible barriers and ecological preferences. We evaluate our findings with the existing models for the origin and biogeography of both species and develop a modified hypothesis.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "To determine the distribution of A. palliata and A. pigra we used museum specimen records from collection databases and catalogs of the major National History Museums in North America and Europe, study sites and historic records described in the scientific literature (list available in the ''Electronic Supplementary Material''), as well as distributional field surveys (Horwich and Johnson 1986; Watts et al. 1986; Serio-Silva et al. 2006; Baumgarten 2006) .",
+                "cite_spans": [
+                    {
+                        "start": 371,
+                        "end": 397,
+                        "text": "(Horwich and Johnson 1986;",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 398,
+                        "end": 416,
+                        "text": "Watts et al. 1986;",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 417,
+                        "end": 441,
+                        "text": "Serio-Silva et al. 2006;",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 442,
+                        "end": 458,
+                        "text": "Baumgarten 2006)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Museum collection databases and catalogs originally provided 756 specimen records for A. palliata and 142 for A. pigra in Mexico and Central America. For discrepant museum records, we or the curators verified the identity of specimens by measuring the skulls and examining the skins. We selected only the museum records with complete locality descriptions and assigned geographic coordinates using gazetteers from the GEOnet Names Server of the National Geospatial-Intelligence Agency and the US Board on Geographic Names for foreign places. We verified each locality with country maps provided by the Louisiana State University Cartographic Information Center. A table with the selected museum specimen records and assigned coordinates is available in the ''Electronic Supplementary Material.''",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "We used a Geographic Information System (ArcView Version 3.3) to overlay the distribution data with digital maps of ecosystems and elevations of Mesoamerica (Puebla, Mexico to Panama) (CCAD-BM 2003a , 2003b and obtain joined attribute tables. The digital ecosystem map (CCAD-BM 2003a) provides vegetation categories from the UNE-SCO classification system and is based on satellite imagery, aerial surveys and field verification (Vreugdenhil et al. 2002) . Additionally, we confirmed the vegetation categories during field surveys in eastern Guatemala, without error. For the rest of the locations in Central America we relied only on the correlation between the distribution data and the CCAD-BM (2003a) ecosystem map.",
+                "cite_spans": [
+                    {
+                        "start": 184,
+                        "end": 198,
+                        "text": "(CCAD-BM 2003a",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 199,
+                        "end": 206,
+                        "text": ", 2003b",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 428,
+                        "end": 453,
+                        "text": "(Vreugdenhil et al. 2002)",
+                        "ref_id": "BIBREF33"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "The analysis with GIS of the distribution data allowed us to see whether the ranges were coincident with ecological or geographic barriers and to detect patterns that could be related to biogeographic events responsible for speciation. We also explored the literature for ecological preferences in the species' contact zones, as these may reveal factors that are maintaining the species and that were possibly involved in the initial speciation (Jiggins et al. 1996) . We created a range map based on broad regions of correspondence between distributional data and permissive ecosystems and elevations.",
+                "cite_spans": [
+                    {
+                        "start": 445,
+                        "end": 466,
+                        "text": "(Jiggins et al. 1996)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Our analysis of the distribution of A. palliata and A. pigra at the elevation and ecosystem scale revealed new features of the ecological tolerance of these species. Both historic collections and field data show a broad elevational range by A. pigra, with sites varying from sea level up to 3,350 m. Localities at the elevations from 1,800 to 3,350 m were found in western Guatemala (Curdts 1993 ; LACM specimen # 53664) and in eastern Guatemala (Alston 1879; Curdts 1993; Baumgarten 2006 ; FMNH specimen #64590). The localities above 2,500 m freeze some days of the year (MAGA 2001) . In contrast, A. palliata did not occur above 2,000 m and most of its montane localities are at lower latitudes in Central America, where minimum temperatures do not reach freezing; for example, at 1,500 m in Monteverde, Costa Rica, the absolute minimum temperature is 9\u00b0C (Clark et al. 2000) .",
+                "cite_spans": [
+                    {
+                        "start": 383,
+                        "end": 395,
+                        "text": "(Curdts 1993",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 446,
+                        "end": 459,
+                        "text": "(Alston 1879;",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 460,
+                        "end": 472,
+                        "text": "Curdts 1993;",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 473,
+                        "end": 488,
+                        "text": "Baumgarten 2006",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 572,
+                        "end": 583,
+                        "text": "(MAGA 2001)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 858,
+                        "end": 877,
+                        "text": "(Clark et al. 2000)",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Both Alouatta palliata and A. pigra occur in evergreen and semi-evergreen broad-leaved forests, evergreen and semi-evergreen mixed (needle-leaved and broad-leaved) forests, deciduous and semideciduous broad-leaved forests, mangroves and swamps. Based on our records, both species occupied the same forest types in their respective parapatric ranges.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Our study identified an important geographic barrier separating the two species: the highland massif of northern Central America, including Sierra Madre de Chiapas, Mexico, and central highlands of Guatemala (Fig. 1) . The region is characterized by montane coniferous forests, subalpine forests and semiarid inland valleys, all unsuitable habitats for Alouatta. Therefore, the continuous highland belt in Mexico and Guatemala seems to be a barrier between the species and it defines the southern limit of the range of Alouatta pigra. A. palliata borders these mountains in Mexico at lower elevations in Tabasco, Veracruz and the Isthmus of Tehuantepec (Fig. 1) . It probably bordered the same massif along its Pacific side as indicated by historical records in Mexico (Estrada and Coates-Estrada 1984) , Guatemala (Handley 1950) and El Salvador (Daugherty 1972 ; USNM specimens # 282795, # 282850). The range of A. palliata in El Salvador continues south to Nicaragua and most probably north into Honduras along a narrow strip at the Guatemala/Honduras border (Fig. 1) . A second region without howling monkey records is the lowland of northeastern Nicaragua. The absence of monkeys there may be a collection artifact, since the region is not well studied. Suitable habitat for howling monkeys is present throughout much of the region, with the exception of some areas of pine savanna.",
+                "cite_spans": [
+                    {
+                        "start": 769,
+                        "end": 802,
+                        "text": "(Estrada and Coates-Estrada 1984)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 815,
+                        "end": 829,
+                        "text": "(Handley 1950)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 846,
+                        "end": 861,
+                        "text": "(Daugherty 1972",
+                        "ref_id": "BIBREF11"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 208,
+                        "end": 216,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 653,
+                        "end": 661,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1061,
+                        "end": 1069,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Our distribution map shows two contact zones between the species distributions: (1) a very broad area of range overlap, north of the highland massif in Mexico, and (2) a narrow area of contiguous, but not overlapping, ranges in eastern Guatemala where the highlands almost reach the Caribbean Sea (Fig. 1) . No evidence was found for adjacent ranges in Chiapas, Mexico or central Guatemala. In Mexico, range overlap extends over the lowlands of the states of Tabasco and Campeche. Sympatric localities are around Macuspana, Tabasco (Smith 1970 based on KU specimens; Horwich and Johnson 1986), around Zapata, Tabasco (based on A. pigra reports from Horwich and Johnson 1986, AMNH A. pigra specimen #14521 and USNM A. palliata specimen #100518) and in the northern end of Laguna de T\u00e9rminos in Campeche (Serio-Silva et al. 2006) . No current geographic or ecological barrier between the species was evident, as both occurred in the same ecosystems and on both sides of the Usumacinta river. Cort\u00e9s-Ortiz et al. (2003) even reported that individuals in this region form mixed troops and sometimes interbreed.",
+                "cite_spans": [
+                    {
+                        "start": 802,
+                        "end": 827,
+                        "text": "(Serio-Silva et al. 2006)",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 990,
+                        "end": 1016,
+                        "text": "Cort\u00e9s-Ortiz et al. (2003)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 297,
+                        "end": 305,
+                        "text": "(Fig. 1)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "In the second contact zone in eastern Guatemala, the ranges of the two species are narrowly parapatric, separated by a river, as well as by habitat preferences (Baumgarten 2006) . Alouatta palliata is found south of the Rio Dulce-Lake Izabal and A. pigra to the north and west. Interestingly, southwest of Lake Izabal A. pigra does occur in the highlands of the Sierra de las Minas but not in the lowlands occupied by A. palliata. Based on historical records of A. pigra (Alston 1879; USNM #238704), there may have been some range overlap in the small intervening area, but it is now intensively farmed and no howling monkeys remain there. Recent extensive surveys by Baumgarten (2006) in eastern Guatemala provided no evidence to support suspected sympatric occurrences by Horwich and Johnson (1986) , Curdts (1993) and Silva-Lopez et al. (1998) in the region.",
+                "cite_spans": [
+                    {
+                        "start": 160,
+                        "end": 177,
+                        "text": "(Baumgarten 2006)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 774,
+                        "end": 800,
+                        "text": "Horwich and Johnson (1986)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 803,
+                        "end": 816,
+                        "text": "Curdts (1993)",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 821,
+                        "end": 846,
+                        "text": "Silva-Lopez et al. (1998)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Our study confirmed much of the previously published data on the distributions of A. palliata and A. pigra in southeastern Mexico and Central America, but it has also shown that A. pigra occupies a greater range of vegetation types and elevations than previously reported, and has also shed light on the geographical barriers that separate the two species.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Our results on the high-elevation localities of A. pigra, at up to 3,350 m in the southern parts of their geographic range, are contrary to the findings of Horwich and Johnson (1986) and Reid (1997) who stated that the distribution of A. pigra was limited to areas below 500 m with mean annual temperatures of >25\u00b0C. For A. palliata, we did not find evidence to support the reports of occurrences up to 2,500 m (Reid 1997 ), and we suggest that it is limited to below 2,000 m. Both species have broad vegetational Fig. 1 The distribution of Alouatta palliata (lines) and A. pigra (points) in Central America. Elevation ranges are: light gray (525-1,100 m), gray (1,100-1,700 m), dark gray (1,700-2,400 m), black (>2,400 m). Squares: A. pigra localities; circles: A. palliata localities. Open symbols represent collection localities of museum specimens; filled symbols represent study sites and selected field survey sites from Horwich and Johnson (1986) , Watts et al. (1986 ), Serio-Silva et al. (2006 , Baumgarten (2006) (see the tables in the ''Electronic Supplementary Material'' for list of localities). Range limits were created considering these localities, historic accounts and permissive primate habitats tolerances, a finding in conflict with some earlier publications (for example, Smith, 1970) , which presumed A. pigra to be limited to nonseasonal forests, with A. palliata alone occupying dry seasonal forests. The presence of A. pigra in swamps, mangroves and dry deciduous forests has since been reported by other authors (Watts et al. 1986; Serio-Silva et al. 2006) .",
+                "cite_spans": [
+                    {
+                        "start": 156,
+                        "end": 182,
+                        "text": "Horwich and Johnson (1986)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 187,
+                        "end": 198,
+                        "text": "Reid (1997)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 411,
+                        "end": 421,
+                        "text": "(Reid 1997",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 927,
+                        "end": 953,
+                        "text": "Horwich and Johnson (1986)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 956,
+                        "end": 974,
+                        "text": "Watts et al. (1986",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 975,
+                        "end": 1002,
+                        "text": "), Serio-Silva et al. (2006",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 1294,
+                        "end": 1306,
+                        "text": "Smith, 1970)",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 1539,
+                        "end": 1558,
+                        "text": "(Watts et al. 1986;",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 1559,
+                        "end": 1583,
+                        "text": "Serio-Silva et al. 2006)",
+                        "ref_id": "BIBREF28"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 514,
+                        "end": 520,
+                        "text": "Fig. 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "In the contact zone in eastern Guatemala, Alouatta palliata does not enter the mountains of Sierra de las Minas, whereas A. pigra was found up to 2,705 m (Baumgarten 2006), and it is evident that differences in elevation and cold tolerance are an ecological barrier that separates them.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "In mammals, an increase in body size reduces the surface area relative to the volume and therefore also relative heat loss (see Clutton-Brock and Harvey 1983; Schmidt-Nielsen 1984; Ford and Corrucini 1985) . Evidently able to withstand colder temperatures than A. palliata, A. pigra is 30% larger (mean weights of 6,250 and 8,893 g, respectively; Ford and Davis 1992) . A. pigra also has longer, thicker and denser fur than A. palliata (Lawrence 1933; Hill 1962) , thereby providing better surface insulation for heat retention and protection in cold temperatures (Schmidt-Nielsen 1984) . It has been suggested that dense fur may function in conserving heat in Lagothrix, which ranges into high altitudes and may suffer periodic cold stress (Ford and Davis 1992) .",
+                "cite_spans": [
+                    {
+                        "start": 128,
+                        "end": 158,
+                        "text": "Clutton-Brock and Harvey 1983;",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 159,
+                        "end": 180,
+                        "text": "Schmidt-Nielsen 1984;",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 181,
+                        "end": 205,
+                        "text": "Ford and Corrucini 1985)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 347,
+                        "end": 367,
+                        "text": "Ford and Davis 1992)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 436,
+                        "end": 451,
+                        "text": "(Lawrence 1933;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 452,
+                        "end": 462,
+                        "text": "Hill 1962)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 564,
+                        "end": 586,
+                        "text": "(Schmidt-Nielsen 1984)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 741,
+                        "end": 762,
+                        "text": "(Ford and Davis 1992)",
+                        "ref_id": "BIBREF15"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Lastly, it would seem that two physical barriers separate the species: the highland massif of northern Central America with its associated coniferous and subalpine vegetation, and the Rio Dulce-Lake Izabal drainage barrier, which is a geologically old river gorge.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Our distribution map differs from that of other authors (Smith 1970; Hall 1981; Ford 2006) in that the ranges of A. palliata and A. pigra are not adjacent throughout, but mainly separated by the highland massif in Chiapas and Guatemala where neither species is present. Silva-L\u00f3pez et al. (1998) present an unconfirmed report of A. palliata in northwestern Guatemala, north of the highland massif and close to several A. pigra localities. This indirect evidence should be interpreted cautiously until verified in the field. Besides this unconfirmed report we did not find other indications of the presence of A. palliata in eastern Chiapas, Mexico or northwestern Guatemala. Our map suggests that in the recent past A. palliata populations from Mexico may have been connected to populations from Honduras and El Salvador through the lowland tropical forests of the Pacific Coast of Mexico and Guatemala before they were cleared (Daugherty 1972; Rzedowski 1981; Wallace 1997) . Our study indicates that the connection would not have been through the mountains of Chiapas and Guatemala, as was suggested, for example, by Hall (1981) .",
+                "cite_spans": [
+                    {
+                        "start": 56,
+                        "end": 68,
+                        "text": "(Smith 1970;",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 69,
+                        "end": 79,
+                        "text": "Hall 1981;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 80,
+                        "end": 90,
+                        "text": "Ford 2006)",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 270,
+                        "end": 295,
+                        "text": "Silva-L\u00f3pez et al. (1998)",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 928,
+                        "end": 944,
+                        "text": "(Daugherty 1972;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 945,
+                        "end": 960,
+                        "text": "Rzedowski 1981;",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 961,
+                        "end": 974,
+                        "text": "Wallace 1997)",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1119,
+                        "end": 1130,
+                        "text": "Hall (1981)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Historical biogeography Smith (1970) was unable to identify a suitable barrier to gene flow in his discussion of speciation in Central American howling monkeys. It would seem from our results that the barriers were both ecological (elevation and cold tolerance) and geographical (mountains and the Rio Dulce-Lake Izabal drainage). The ancestral Alouatta was probably split by the north Central American highland massif, especially during colder periods, leaving an isolated subpopulation in the Yucat\u00e1n peninsula and another subpopulation in the lowlands to the south. The onset of cooling at 2.7 mya (Hooghiemstra and Ran 1994) roughly coincides with the estimated time of split between A. palliata and A. pigra of 3 mya (Cort\u00e9s-Ortiz et al. 2003) . Sea level rises at around 2 mya (Cort\u00e9s-Ortiz et al. 2003) could have resulted in additional separation of the subpopulations, as coastal regions became inaccessible (Ford 2006) .",
+                "cite_spans": [
+                    {
+                        "start": 24,
+                        "end": 36,
+                        "text": "Smith (1970)",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 722,
+                        "end": 748,
+                        "text": "(Cort\u00e9s-Ortiz et al. 2003)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 783,
+                        "end": 809,
+                        "text": "(Cort\u00e9s-Ortiz et al. 2003)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 917,
+                        "end": 928,
+                        "text": "(Ford 2006)",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "We can hypothesize that the isolated subpopulation in the Yucatan evolved cold tolerance, allowing it to survive the climatic conditions during glacial periods, which were significant as suggested by a tree line depression of up to 1,000 m (Leyden 1987) , glaciations in the bordering Sierra de Cuchumatanes (Weyl 1980) , and expansion of temperate oak forests into the Pet\u00e9n lowlands (Leyden et al. 1994; Leyden 2002) . Persistence was perhaps aided by the proposed late Tertiary and Quaternary glacial refuges of current warm-moist forest species in northern foothills in south Mexico, Belize and Guatemala (Toledo 1982; Wendt 1989) . Meanwhile, subpopulations to the south could have retracted to warmer lowlands in regions of Costa Rica and Panama where lowland rainforest persisted during glaciations (Bush and Colinvaux 1990; Colinvaux 1997) .",
+                "cite_spans": [
+                    {
+                        "start": 240,
+                        "end": 253,
+                        "text": "(Leyden 1987)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 308,
+                        "end": 319,
+                        "text": "(Weyl 1980)",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 385,
+                        "end": 405,
+                        "text": "(Leyden et al. 1994;",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 406,
+                        "end": 418,
+                        "text": "Leyden 2002)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 609,
+                        "end": 622,
+                        "text": "(Toledo 1982;",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 623,
+                        "end": 634,
+                        "text": "Wendt 1989)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 812,
+                        "end": 831,
+                        "text": "and Colinvaux 1990;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 832,
+                        "end": 847,
+                        "text": "Colinvaux 1997)",
+                        "ref_id": "BIBREF6"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "During warmer interglacial periods, the diverging A. palliata lineage probably expanded northward, where it may have had contact with the divergent A. pigra lineage in the lowland edges of the latter's range. In the present interglacial, both species are in secondary contact in two different situations: in the lowlands of the western Yucat\u00e1n both species are sympatric with occasional hybridization (Cort\u00e9s-Ortiz et al. 2003) , and in eastern Guatemala parapatry is maintained by a river barrier and by ecological adaptation. Perhaps behavioral premating isolation mechanisms such as call recognition or troop impermeability further impeded genetic introgression.",
+                "cite_spans": [
+                    {
+                        "start": 401,
+                        "end": 427,
+                        "text": "(Cort\u00e9s-Ortiz et al. 2003)",
+                        "ref_id": "BIBREF7"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The alternative explanation for the presence of two species of Alouatta in Central America requires invasions by two different species. Smith (1970) originally suggested an initial dispersion of the A. pigra ancestor from South America along emergent islands before closure of the Panama isthmus, with a subsequent arrival from the A. palliata lineage at the time of the closure. Armed with molecular clock data, Cort\u00e9s-Ortiz et al. (2003) and Ford (2006) argued for a first invasion after isthmus closure around 3 mya, followed by gene flow interruption due to an increase in sea level, resulting in the arrival of A. palliata in a second wave after 2 mya.",
+                "cite_spans": [
+                    {
+                        "start": 136,
+                        "end": 148,
+                        "text": "Smith (1970)",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 413,
+                        "end": 439,
+                        "text": "Cort\u00e9s-Ortiz et al. (2003)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 444,
+                        "end": 455,
+                        "text": "Ford (2006)",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "An important requirement for any double invasion hypothesis is the posterior expansion of A. palliata, concurrent with a range reduction of A. pigra. Such competitive superiority has been postulated based on the greater ecological tolerances of A. palliata in forest types (Smith 1970) or in elevation (Ford 2006 , citing Reid 1997 , but our data negate both those differences. Also arguing against differential dispersal or competitive abilities are the species similarities in diet and resource exploitation (Silver et al. 1997) , similar home range sizes (Crockett and Eisenberg 1987) , and ability to thrive in small forest fragments (Crockett 1998) . In contrast, a speciation event around the present ranges of both species in the northern Central American highlands does not need to explain major changes in ranges for either species or to postulate the competitive superiority of A. palliata.",
+                "cite_spans": [
+                    {
+                        "start": 273,
+                        "end": 285,
+                        "text": "(Smith 1970)",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 302,
+                        "end": 312,
+                        "text": "(Ford 2006",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 313,
+                        "end": 331,
+                        "text": ", citing Reid 1997",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 510,
+                        "end": 530,
+                        "text": "(Silver et al. 1997)",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 558,
+                        "end": 587,
+                        "text": "(Crockett and Eisenberg 1987)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 638,
+                        "end": 653,
+                        "text": "(Crockett 1998)",
+                        "ref_id": "BIBREF8"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Primates (2007) 48:310-315",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We are most grateful for the following museums for providing specimen collection data: ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgments",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "The distribution and biogeography of Central American howling monkeys",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Alston",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "Biologia Centrali Americana",
+                "volume": "1",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Alston ER (1879) Mammalia. In: Salvin D, Godman FDC (eds) Biologia Centrali Americana, vol 1. Porter, London Baumgarten A (2006) The distribution and biogeography of Central American howling monkeys (Alouatta pigra and A. palliata).",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "A pollen record of a complete glacial cycle from lowland Panama",
+                "authors": [],
+                "year": 1990,
+                "venue": "J Veg Sci",
+                "volume": "1",
+                "issue": "",
+                "pages": "105--118",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MS Thesis, Louisiana State University, Baton Rouge, LA Bush MB, Colinvaux PA (1990) A pollen record of a complete glacial cycle from lowland Panama. J Veg Sci 1:105-118",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Vector de ecosistemas de Mesoamerica. CCAD, Sistema Regional de Visualizaci\u00f3n y Monitoreo",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Ccad-Bm",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "",
+                "volume": "1",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "CCAD-BM (Comisi\u00f3n Centromaericana de Ambiente y Desarrollo- Banco Mundial) (2003a) Vector de ecosistemas de Mesoamer- ica. CCAD, Sistema Regional de Visualizaci\u00f3n y Monitoreo, Panama. http://servir.nsstc.nasa.gov/. Cited 1 May 2007",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Vector de curvas de nivel de Mesoamerica. CCAD, Sistema Regional de Visualizaci\u00f3n y Monitoreo",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Ccad-Bm",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "CCAD-BM (Comisi\u00f3n Centromaericana de Ambiente y Desarrollo- Banco Mundial) (2003b) Vector de curvas de nivel de Mesoamer- ica. CCAD, Sistema Regional de Visualizaci\u00f3n y Monitoreo, Panama. http://servir.nsstc.nasa.gov/. Cited 1 May 2007",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Monteverde, ecology and conservation of a tropical cloud forest",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Clark",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Lawton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Butler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "15--38",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Clark KL, Lawton RO, Butler PR (2000) The physical environment. In: Nadkarni NM, Wheelwright NT (eds) Monteverde, ecology and conservation of a tropical cloud forest. Oxford University Press, New York, pp 15-38",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "The functional significance of variation in body size among mammals",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Clutton-Brock",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Harvey",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1983,
+                "venue": "Advances in the study of mammalian behavior",
+                "volume": "",
+                "issue": "",
+                "pages": "632--663",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Clutton-Brock TH, Harvey PH (1983) The functional significance of variation in body size among mammals. In: Eisenberg JF, Kleiman DG (eds) Advances in the study of mammalian behavior. American Society of Mammalogists, Shippensburg, PA, pp 632-663",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "The history of forests on the isthmus from the ice age to the present",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Colinvaux",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Coates AG (ed) Central America: a natural and cultural history",
+                "volume": "",
+                "issue": "",
+                "pages": "123--136",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Colinvaux PA (1997) The history of forests on the isthmus from the ice age to the present. In: Coates AG (ed) Central America: a natural and cultural history. Yale University Press, New Haven, CT, pp 123-136",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Molecular systematics and biogeography of the Neotropical monkey genus Alouatta",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Cort\u00e9s-Ortiz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Berminghan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Rico",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Rodr\u00edguez-Luna",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Sampaio",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ruiz-Garc\u00eda",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Mol Phylogenet Evol",
+                "volume": "26",
+                "issue": "",
+                "pages": "64--81",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cort\u00e9s-Ortiz L, Berminghan E, Rico C, Rodr\u00edguez-Luna E, Sampaio I, Ruiz-Garc\u00eda M (2003) Molecular systematics and biogeogra- phy of the Neotropical monkey genus Alouatta. Mol Phylogenet Evol 26:64-81",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Conservation biology of the genus Alouatta",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Crockett",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Int J Primatol",
+                "volume": "19",
+                "issue": "3",
+                "pages": "549--578",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Crockett CM (1998) Conservation biology of the genus Alouatta. Int J Primatol 19(3):549-578",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Howlers: variation in group size and demography",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Crockett",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Eisenberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Primate societies. University of",
+                "volume": "",
+                "issue": "",
+                "pages": "54--68",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Crockett CM, Eisenberg JF (1987) Howlers: variation in group size and demography. In: Smuts BB, Cheney DL, Seyfarth RM, Wrangham RW, Struhsaker TT (eds) Primate societies. Univer- sity of Chicago Press, Chicago, IL, pp 54-68",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Distribuci\u00f3n geogr\u00e1fica de las dos especies de mono zaraguate que habitan en Guatemala: Alouatta palliata y Alouatta pigra",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Curdts",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Estudios Primatol\u00f3gicos en Mexico",
+                "volume": "1",
+                "issue": "",
+                "pages": "317--329",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Curdts T (1993) Distribuci\u00f3n geogr\u00e1fica de las dos especies de mono zaraguate que habitan en Guatemala: Alouatta palliata y Alouatta pigra. In: Estrada A, Rodr\u00edguez-Luna E, Lopez-Wilchis R, Coates-Estrada R (eds) Estudios Primatol\u00f3gicos en Mexico vol 1. Universidad Veracruzana, Xalapa, Mexico, pp 317-329",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "The impact of man on the zoogeography of El Salvador",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Daugherty",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1972,
+                "venue": "Biol Conserv",
+                "volume": "4",
+                "issue": "4",
+                "pages": "273--278",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Daugherty HE (1972) The impact of man on the zoogeography of El Salvador. Biol Conserv 4(4):273-278",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Some observations on the present distribution and conservation of Alouatta and Ateles in southern Mexico",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Estrada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Coates-Estrada",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "Am J Primatol",
+                "volume": "7",
+                "issue": "",
+                "pages": "133--137",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Estrada A, Coates-Estrada R (1984) Some observations on the present distribution and conservation of Alouatta and Ateles in southern Mexico. Am J Primatol 7:133-137",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "The biogeographic history of Mesoamerican primates",
+                "authors": [
+                    {
+                        "first": "Sm ;",
+                        "middle": [],
+                        "last": "Ford",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Estrada",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Garber",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Msm",
+                        "middle": [],
+                        "last": "Pavelka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Luecke",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "New perspectives in the study of Mesoamerican primates: distribution, ecology, behavior and conservation",
+                "volume": "",
+                "issue": "",
+                "pages": "81--114",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ford SM (2006) The biogeographic history of Mesoamerican primates. In: Estrada A, Garber PA, Pavelka MSM, Luecke LA (eds) New perspectives in the study of Mesoamerican primates: distribution, ecology, behavior and conservation. Springer, New York, pp 81-114",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Intraspecific, interspecific, metabolic and phylogenetic scaling in platyrrhine primates",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Ford",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Corrucini",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "Jungers WL (ed) Size and scaling in primate biology. Plenum",
+                "volume": "",
+                "issue": "",
+                "pages": "401--436",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ford SM, Corrucini RS (1985) Intraspecific, interspecific, metabolic and phylogenetic scaling in platyrrhine primates. In: Jungers WL (ed) Size and scaling in primate biology. Plenum, New York, pp 401-436",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Systematics and body size: implications for feeding adaptations in New World monkeys",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Ford",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Davis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Am J Phys Anthropol",
+                "volume": "88",
+                "issue": "",
+                "pages": "415--168",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ford SM, Davis LC (1992) Systematics and body size: implications for feeding adaptations in New World monkeys. Am J Phys Anthropol 88:415-168",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Dermaglyphics and subspecific systematics of mantled howler monkeys (Alouatta palliata)",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Froehlich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Froehlich",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Current perspectives in primate biology",
+                "volume": "",
+                "issue": "",
+                "pages": "107--121",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Froehlich JW, Froehlich PH (1986) Dermaglyphics and subspecific systematics of mantled howler monkeys (Alouatta palliata). In: Taub DM, King FA (eds) Current perspectives in primate biology. Van Nostrand Reinhold, New York, pp 107-121",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "A fish and wildlife survey of Guatemala",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Hall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1950,
+                "venue": "The mammals of North America",
+                "volume": "",
+                "issue": "",
+                "pages": "141--162",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hall ER (1981) The mammals of North America, vol I. Wiley, New York Handley CO (1950) Game mammals of Guatemala. In: Saunders GB, Holloway AD, Handley CO (eds) A fish and wildlife survey of Guatemala. US Department of Interior, Fish and Wildlife Service, Washington, DC, pp 141-162",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Late Pliocene-Pleistocene high resolution pollen sequence of Columbia; an overview of climatic change",
+                "authors": [
+                    {
+                        "first": "Wco",
+                        "middle": [],
+                        "last": "Hill",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1962,
+                "venue": "Primates, comparative anatomy and taxonomy",
+                "volume": "21",
+                "issue": "",
+                "pages": "63--80",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hill WCO (1962) Primates, comparative anatomy and taxonomy, V: Cebidae Part B. Interscience, New York Hooghiemstra H, Ran ETH (1994) Late Pliocene-Pleistocene high resolution pollen sequence of Columbia; an overview of climatic change. Quat Int 21:63-80",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Geographical distribution of the black howler (Alouatta pigra) in Central America",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Horwich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Johnson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Primates",
+                "volume": "27",
+                "issue": "1",
+                "pages": "53--62",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Horwich RH, Johnson ED (1986) Geographical distribution of the black howler (Alouatta pigra) in Central America. Primates 27(1):53-62",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "What can hybrid zones tell us about speciation? The case of Heliconius erato and H. himera (Lepidoptera: Nymphalidae)",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Jiggins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Mcmillan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Neukirchen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Mallet",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Biol J Linn Soc",
+                "volume": "59",
+                "issue": "",
+                "pages": "221--242",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jiggins CD, McMillan WO, Neukirchen W, Mallet J (1996) What can hybrid zones tell us about speciation? The case of Heliconius erato and H. himera (Lepidoptera: Nymphalidae). Biol J Linn Soc 59:221-242",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Howler monkeys of the palliata group",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Lawrence",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1933,
+                "venue": "Bull Mus Comp Zool Harvard Coll LXXV",
+                "volume": "8",
+                "issue": "",
+                "pages": "315--354",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lawrence B (1933) Howler monkeys of the palliata group. Bull Mus Comp Zool Harvard Coll LXXV 8:315-354",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Man and climate in the Maya Lowlands",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Leyden",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Quat Res",
+                "volume": "28",
+                "issue": "",
+                "pages": "407--414",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Leyden BW (1987) Man and climate in the Maya Lowlands. Quat Res 28:407-414",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Pollen evidence for climatic variability and cultural disturbance in the Maya lowlands",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Leyden",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Ancient Mesoamerica",
+                "volume": "13",
+                "issue": "",
+                "pages": "85--101",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Leyden BW (2002) Pollen evidence for climatic variability and cultural disturbance in the Maya lowlands. Ancient Mesoamerica 13:85-101",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Orbital and internal forcing of climate on the Yucat\u00e1n Peninsula for the past ca",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Leyden",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Brenner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hodell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Curtis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Palaeogeogr Palaeoclimatol Palaeoecol",
+                "volume": "36",
+                "issue": "",
+                "pages": "193--210",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Leyden BW, Brenner M, Hodell DA, Curtis JH (1994) Orbital and internal forcing of climate on the Yucat\u00e1n Peninsula for the past ca. 36 ka. Palaeogeogr Palaeoclimatol Palaeoecol 109:193-210",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Ganader\u00eda y Alimentaci\u00f3n) (2001) Mapa de temperatura m\u00ednima absoluta",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Maga (ministerio De Agriculutra",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MAGA (Ministerio de Agriculutra, Ganader\u00eda y Alimentaci\u00f3n) (2001) Mapa de temperatura m\u00ednima absoluta, Rep\u00fablica de Guatemala.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Conservation of neotropical primates: threatened species and an analysis of primate diversity by country and region",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Reid",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Folia Primatol",
+                "volume": "68",
+                "issue": "",
+                "pages": "134--160",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Reid FA (1997) A field guide to the mammals of Central America and Southeastern Mexico. Oxford University Press, New York Rylands AB, Mittermeier RA, Rodr\u00edguez-Luna E (1997) Conserva- tion of neotropical primates: threatened species and an analysis of primate diversity by country and region. Folia Primatol 68:134-160",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Scaling: why is animal size so important?",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Rzedowski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Vegetaci\u00f3n De Mexico",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Mexico",
+                        "middle": [],
+                        "last": "Limusa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Schmidt-Nielsen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rzedowski J (1981) Vegetaci\u00f3n de Mexico. Limusa, Mexico Schmidt-Nielsen K (1984) Scaling: why is animal size so important? Cambridge University Press, Cambridge",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Mapping primate populations in the Yucat\u00e1n Peninsula, Mexico: a first assessment",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Serio-Silva",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Rico-Gray",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Ramos-Fern\u00e1ndez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "New perspectives in the study of Mesoamerican primates: distribution, ecology, behavior and conservation",
+                "volume": "",
+                "issue": "",
+                "pages": "489--511",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Serio-Silva JC, Rico-Gray V, Ramos-Fern\u00e1ndez G (2006) Mapping primate populations in the Yucat\u00e1n Peninsula, Mexico: a first assessment. In: Estrada A, Garber PA, Pavelka MSM, Luecke LA (eds) New perspectives in the study of Mesoamerican primates: distribution, ecology, behavior and conservation. Springer, New York, pp 489-511",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Distribution and status of the primates of Guatemala",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Silva-L\u00f3pez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Motta-Gill",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "S\u00e1nchez-Hern\u00e1ndez",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Primate Conserv",
+                "volume": "18",
+                "issue": "",
+                "pages": "30--41",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Silva-L\u00f3pez G, Motta-Gill J, S\u00e1nchez-Hern\u00e1ndez AI (1998) Distri- bution and status of the primates of Guatemala. Primate Conserv 18:30-41",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Feeding ecology of the black howler monkey (Alouatta pigra) in Northern Belize",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Silver",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Let",
+                        "middle": [],
+                        "last": "Ostro",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Yeager",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Horwich",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Am J Primatol",
+                "volume": "45",
+                "issue": "",
+                "pages": "263--279",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Silver SC, Ostro LET, Yeager CP, Horwich R (1997) Feeding ecology of the black howler monkey (Alouatta pigra) in Northern Belize. Am J Primatol 45:263-279",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "The systematic status of the black howler monkey, Alouatta pigra Lawrence",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1970,
+                "venue": "J Mammal",
+                "volume": "51",
+                "issue": "2",
+                "pages": "359--369",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Smith JD (1970) The systematic status of the black howler monkey, Alouatta pigra Lawrence. J Mammal 51(2):359-369",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Pleistocene changes of vegetation in tropical Mexico",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Toledo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "Prance GT (ed) Biological diversification in the tropics",
+                "volume": "",
+                "issue": "",
+                "pages": "93--111",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Toledo VM (1982) Pleistocene changes of vegetation in tropical Mexico. In: Prance GT (ed) Biological diversification in the tropics. Columbia University Press, New York, pp 93-111",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Map of the ecosystems of Central America: final report",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Vreugdenhil",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Meerman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Meyrat",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "G\u00f3mez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Graham",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Vreugdenhil D, Meerman J, Meyrat A, G\u00f3mez LD, Graham DJ (2002) Map of the ecosystems of Central America: final report. World Bank, Washington, DC",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Central American landscapes",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Wallace",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "72--96",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wallace DR (1997) Central American landscapes. In: Coates AG (ed) Central America, a natural and cultural history. Yale University Press, New Haven, CT, pp 72-96",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Monkeys of the Yucat\u00e1n Peninsula, Mexico: preliminary survey of their distribution and status",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Watts",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Rico-Gray",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Chan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Primate Conser",
+                "volume": "7",
+                "issue": "",
+                "pages": "17--22",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Watts ES, Rico-Gray V, Chan C (1986) Monkeys of the Yucat\u00e1n Peninsula, Mexico: preliminary survey of their distribution and status. Primate Conser 7:17-22",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Las selvas de Uxpanapa, Veracruz-Oaxaca, Mexico: evidencia de refugios flor\u00edsticos cenozoicos",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Wendt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Anales Inst Biol UNAM Ser Bot",
+                "volume": "58",
+                "issue": "",
+                "pages": "29--54",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wendt T (1989) Las selvas de Uxpanapa, Veracruz-Oaxaca, Mexico: evidencia de refugios flor\u00edsticos cenozoicos. Anales Inst Biol UNAM Ser Bot 58:29-54",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Geology of Central America",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Weyl",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Weyl R (1980) Geology of Central America. Gebrueder Borntraeger, Berlin",
+                "links": null
+            }
+        },
+        "ref_entries": {}
+    }
+}

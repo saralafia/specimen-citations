@@ -1,0 +1,1927 @@
+{
+    "paper_id": "Vossetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:36:05.244442Z"
+    },
+    "title": "MORPHOLOGICAL EVOLUTION IN MUROID RODENTS I. CONSERVATIVE PATTERNS OF CRANIOMETRIC COVARIANCE AND THEIR ONTOGENETIC BASIS IN THE NEOTROPICAL GENUS ZYGODONTOMYS",
+    "authors": [
+        {
+            "first": "Robert",
+            "middle": [
+                "S"
+            ],
+            "last": "Voss,'",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "The American Museum of Natural History",
+                "location": {
+                    "addrLine": "2/ nvertebrates, and 30 rnithology, Central Park West at 79th Street",
+                    "postCode": "0024",
+                    "settlement": "Mammalogy, New York",
+                    "region": "NY",
+                    "country": "USA"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Leslie",
+            "middle": [
+                "F"
+            ],
+            "last": "Marcus",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "The American Museum of Natural History",
+                "location": {
+                    "addrLine": "2/ nvertebrates, and 30 rnithology, Central Park West at 79th Street",
+                    "postCode": "0024",
+                    "settlement": "Mammalogy, New York",
+                    "region": "NY",
+                    "country": "USA"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Patricia",
+            "middle": [
+                "Esca1"
+            ],
+            "last": "Ante",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "The American Museum of Natural History",
+                "location": {
+                    "addrLine": "2/ nvertebrates, and 30 rnithology, Central Park West at 79th Street",
+                    "postCode": "0024",
+                    "settlement": "Mammalogy, New York",
+                    "region": "NY",
+                    "country": "USA"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Analyses ofcraniodental measurement data from 15 wild-collected population samples of the Neotropical muroid rodent genus Zygodontomys reveal consistent patterns of relative variability and correlation that suggest a common latent structure. Eigenanalysis of each sample covariance matrix of logarithms yields a first principal component that accounts for a large fraction of the total variance. Variances of subsequent sample principal components are much smaller, and the results of bootstrap resampling together with asymptotic statistics suggest that characteristic roots of the covariance matrix after the first are seldom distinct. The coefficients of normalized first principal components are strikingly similar from sample to sample: inner products of these vectors reveal an average between-sample correlation of 0.989, and the mean angle of divergence is only about eight degrees. Since first principal component coefficients identify the same contrasts among variables as comparisons of relative variability and correlation, we conclude that a single factor accounts for most ofthe common latent determination ofthese sample dispersions. Analyses of variance based on toothwear (a coarse index of age) and sex in the wild-collected samples, and on known age and sex in a captive-bred population, reveal that specimen scores on sample first principal components are age-and sex-dependent; residual sample dispersion, however, is essentially unaffected by age, sex, or age x sex interaction. The sample first principal component therefore reflects the covariance among measured dimensions induced by general growth, and its coefficients are interpretable as exponents ofpostnatal growth allometry. Path-analytic models that incorporate prior knowledge of the equivalent allometric effects of general growth within these samples can be used to decompose the between-sample variance by factors corresponding to other ontogenetic mechanisms of form change. The genetic or environmental determinants of differences in sample mean phenotypes induced by such mechanisms, however, can be demonstrated only by experiment.",
+    "pdf_parse": {
+        "paper_id": "Vossetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Analyses ofcraniodental measurement data from 15 wild-collected population samples of the Neotropical muroid rodent genus Zygodontomys reveal consistent patterns of relative variability and correlation that suggest a common latent structure. Eigenanalysis of each sample covariance matrix of logarithms yields a first principal component that accounts for a large fraction of the total variance. Variances of subsequent sample principal components are much smaller, and the results of bootstrap resampling together with asymptotic statistics suggest that characteristic roots of the covariance matrix after the first are seldom distinct. The coefficients of normalized first principal components are strikingly similar from sample to sample: inner products of these vectors reveal an average between-sample correlation of 0.989, and the mean angle of divergence is only about eight degrees. Since first principal component coefficients identify the same contrasts among variables as comparisons of relative variability and correlation, we conclude that a single factor accounts for most ofthe common latent determination ofthese sample dispersions. Analyses of variance based on toothwear (a coarse index of age) and sex in the wild-collected samples, and on known age and sex in a captive-bred population, reveal that specimen scores on sample first principal components are age-and sex-dependent; residual sample dispersion, however, is essentially unaffected by age, sex, or age x sex interaction. The sample first principal component therefore reflects the covariance among measured dimensions induced by general growth, and its coefficients are interpretable as exponents ofpostnatal growth allometry. Path-analytic models that incorporate prior knowledge of the equivalent allometric effects of general growth within these samples can be used to decompose the between-sample variance by factors corresponding to other ontogenetic mechanisms of form change. The genetic or environmental determinants of differences in sample mean phenotypes induced by such mechanisms, however, can be demonstrated only by experiment.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Research on the domestic rat and mouse logical differences among undomesticated has provided substantial information about populations of mammals. the inheritance ofskeletal abnormalities (re-Many aspects of muroid morphology viewed by Johnson, 1986) and of continu-could be useful objects of evolutionary geous variation in anatomical dimensions (e.g., netic analysis but dimensions of the head Leamy, 1974 Leamy, , 1977 ; Atchley and Rutledge, skeleton offer unique advantages. The skull 1980; Atchley et al., 1981) , but genetic anal-supports an elaborate trophic apparatus (the yses of muroid morphology have seldom dentition and masticatory musculature), the been extended to interpret evolved differ-brain, and all of the special sense organs; ences among species or among conspecific differences between closely related muroid natural populations. Although studies of taxa are therefore usually evident in some domesticated muroids could be designed to aspect of cranial osteology. Because even provide some relevant insights, many wild subtle cranial differences can be demonspecies can also be bred under controlled strated by measurements, quantitative laboratory conditions and provide uniquely comparisons of teeth and skulls are stantractable subjects for experimental studies dard in muroid systematics and large series ofmammalian morphological evolution. To are often available in museum collections date, research on North American deer mice to document variation within and among (Peromyscus) by F. B. Sumner (summarized species. These materials would provide an in Sumner, 1932 ; reanalyzed by Wright, extensive basis for evolutionary inference, 1978) remains the only extensive attempt in conjunction with genetic data from capto determine the genetic basis of morpho-tive breeding programs, if statistical con-1568 ventions could be adopted to represent cranial morphometric variability in a form suitable for biologically meaningful analysis. Neotropical savanna mice (Zygodontomys) are morphologically distinctive muroid rodents that occur from Costa Rica through Panama, Colombia, Venezuela, the Guianas, and northern Brazil (Voss, 1991) . Many populations from localities scattered throughout this geographic range are represented by large samples in museum collections, and Zygodontomys are easily raised in the laboratory (Aguilera, 1985; Voss et al., 1990 ). Here we report analyses ofcranial morphometric variation within wild-coilected population samples and in a captivebred colony of Zygodontomys. From these we identify covariance patterns that provide evidence for latent form-determining factors with consistent effects from population to population. A model for path analysis incorporating knowledge of this withinsample factor structure is used to partition the between-sample variation into components for which different ontogenetic explanations are available. We suggest that phylogenetic comparisons and hybridization experiments based in the logic of such analyses can facilitate the identification of evolutionary regularities in the genetic systems responsible for morphological differences among natural populations, species, and higher taxa.",
+                "cite_spans": [
+                    {
+                        "start": 236,
+                        "end": 250,
+                        "text": "Johnson, 1986)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 396,
+                        "end": 407,
+                        "text": "Leamy, 1974",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 408,
+                        "end": 421,
+                        "text": "Leamy, , 1977",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 496,
+                        "end": 517,
+                        "text": "Atchley et al., 1981)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 1584,
+                        "end": 1596,
+                        "text": "Sumner, 1932",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 1654,
+                        "end": 1670,
+                        "text": "inference, 1978)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2149,
+                        "end": 2161,
+                        "text": "(Voss, 1991)",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 2349,
+                        "end": 2365,
+                        "text": "(Aguilera, 1985;",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 2366,
+                        "end": 2383,
+                        "text": "Voss et al., 1990",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Taxonomy. -The genus Zygodontomys constitutes a group of populations that can be diagnosed from other Neotropical genera in the muroid subfamily Sigmodontinae by many characters of the integument, skull, dentition, and viscera (Voss, 1991) . Most of the taxa currently referred to Zygodontomys (by Honacki et aI., 1982) were regarded by Hershkovitz (1962) as members ofone biological species, Z. brevicauda, but it is not an assumption ofthese analyses that all of the populations included are conspecific.",
+                "cite_spans": [
+                    {
+                        "start": 227,
+                        "end": 239,
+                        "text": "(Voss, 1991)",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 294,
+                        "end": 319,
+                        "text": "(by Honacki et aI., 1982)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 337,
+                        "end": 355,
+                        "text": "Hershkovitz (1962)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "Population Samples.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "-We analyze measurement data obtained from 15 samples that represent localities scattered throughout the geographic range of the genus. Each sample consists ofanimals trapped from an area no more than 10 km in diameter over a period no longer than 6 months. Wee conjecture that specimens grouped by these spatiotemporal criteria represent normal patterns of phenotypic variability maintained among contemporaneous individuals within panmictic populations. The abbreviation and name by which each sample is identified in our analyses are provided below followed by the sample size and sex composition (in parentheses), geographic origin, collection dates, and the abbreviation of the museum or museums (see Acknowledgments) in which the sample is located. Age Criteria. -Molar toothwear provides the only criterion by which the age of wildcollected specimens of Zygodontomys can be judged. Erosion of the molar crowns is a monotonic process that reduces the enameled cusps and crests of youthful teeth to shallow basins of dentine worn to the gums in senescent animals. The progress ofmolar toothwear is marked by the sequential obliteration of various details of occlusal morphology, and specimens can be ranked by such details into classes of greater or lesser wear. Since toothwear is correlated with time during individual lifespans, toothwear classes are commonly regarded as age classes in muroid systematic studies, but this plausible equivalence is subject to important qualifications. First, the variation in rates of dental attrition among contemporaneous individuals within populations is not known, so that the most that can safely be inferred is that for classes ranked in order of increasing wear, the average age of specimens in a class of higher rank exceeds the average age of specimens in a class oflower rank. Second, the variability of average attrition schedules over years or seasons at one locality, or among localities, is also unknown, so that specimens ofthe same tooth-wear class from different years or localities are not necessarily of comparable average age. Molar toothwear therefore provides only an approximate index of relative age within spatiotemporally homogeneous samples.",
+                "cite_spans": [
+                    {
+                        "start": 706,
+                        "end": 722,
+                        "text": "Acknowledgments)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "The occlusal details that define Zygodontomys toothwear classes are explained by Voss (1991) ; five classes are recognized but only three are analyzed here. Toothwear class I consists of young animals in which the third molar (the last to appear in the developing toothrow) is unworn and incompletely erupted. Such animals cannot be completely measured because molar toothrow length (see below) is not yet anatomically determined. Animals in toothwear classes II, III, and IV have complete molar dentitions and comprise all of the specimens whose measurements are analyzed in this report. Animals in toothwear class V have senescent, unmeasurable molars that are worn below the widest part ofthe crown.",
+                "cite_spans": [
+                    {
+                        "start": 81,
+                        "end": 92,
+                        "text": "Voss (1991)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 383,
+                        "end": 394,
+                        "text": "(see below)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "Captive-Bred Specimens. -Our captive colony was established with 11 males and 12 females collected between 3 and 7 September 1987 at Hato EI Frio, Venezuela (see above). Matings among these 23 animals plus two wild-conceived offspring of a female that gave birth shortly after arrival in the laboratory produced the first captivebred generation (G 1). The effective population size (N e ) of the founding stock is therefore about 4N mNI(Nm + Ni) = 23 if the wild-conceived litter was sired by one of the males brought back to the laboratory or about 24 if not; assuming that the genotypes of animals collected for breeding approximate a random sample of the alleles segregating at Hato EI Frio, this stock should represent nearly 100 x [1 -(2N e )-I] = 98% of the additive genetic variation present in the wild population (formulas from Lande, 1980) . Measurement data were obtained from 120 G 1 animals in 20 full-sib families; each family contributed one male and one female offspring to each of three classes aged 42, 84, and 168 days from birth. Siblings in the same age class are littermates but siblings in different age classes are not necessarily from the same litters. Diet, weaning schedules, and other details of laboratory husbandry are described by Voss et al. (1990) .",
+                "cite_spans": [
+                    {
+                        "start": 837,
+                        "end": 849,
+                        "text": "Lande, 1980)",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 1262,
+                        "end": 1280,
+                        "text": "Voss et al. (1990)",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "Measurements and Measurement Error. -Criteria for measurement choice in multivariate morphometric analyses are discussed by Wright (1968: 327) , Humphries et al. (1981) , and Strauss and Bookstein (1982) ; practical limitations in the application of such criteria to comparative studies of muroid cranial morphology are discussed by Voss (1988) . For the purposes of the present report, subsequent phylogenetic comparisons, and future genetic analyses, measurements were selected (1) to sample variation in diverse aspects of eraniodental morphology (e.g., the dentition, facial skeleton, and neurocranium), (2) to be anatomically homologous from specimen to specimen within and among populations or species, and (3) to be determinable with minimal error (high repeatability). Since for each additional dimension measured the number of specimens with complete data is diminished (skulls are often broken, chipped, or otherwise damaged), some compromise between detailed measurement protocols on the one hand and robust estimation of multivariate statistics on the other is unavoidable.",
+                "cite_spans": [
+                    {
+                        "start": 124,
+                        "end": 142,
+                        "text": "Wright (1968: 327)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 145,
+                        "end": 168,
+                        "text": "Humphries et al. (1981)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 175,
+                        "end": 203,
+                        "text": "Strauss and Bookstein (1982)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 333,
+                        "end": 344,
+                        "text": "Voss (1988)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "The 12 cranial dimensions analyzed here are defined by Voss (1991) and illustrated in Figure 1 : Clf., condylo-incisive length of the skull; LD, length of the diastema; LM, length of the maxillary molar row; BMl, breadth of the first maxillary molar; LIF, length of one incisive foramen; BR, breadth of the rostrum; BPB, breadth of the palatal bridge; BZP, breadth ofthe zygomatic plate; LIB, least interorbital breadth; BB, breadth of the braincase; DI, depth of one upper incisor; LOF, length of the orbital fossa. Although few of these dimensions are bounded by point-like anatomical landmarks, measurement extrema are small, geometrically well-defined osteological surfaces that can reasonably be construed as homologous from specimen to specimen. All measurement values were determined to the nearest 0.05 mm with dial calipers, the jaws of which were positioned as each skull was viewed at 12 diameters magnification through a binocular dissecting microscope.",
+                "cite_spans": [
+                    {
+                        "start": 55,
+                        "end": 66,
+                        "text": "Voss (1991)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 86,
+                        "end": 94,
+                        "text": "Figure 1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "Forty specimens from the Isla Cebaco sample were measured twice and a one-way ANOVA was used to estimate the among-specimens (S2~and error (S2, within-specimen) variance components. The error standard deviation is of the same order of magnitude for all cranial dimensions measured (range = 0.011-0.034 mm; mean = 0.018 mm) but measurement error contributes a larger fraction to the total variance of some dimensions than to others. Repeatability [calculated as S2 A/(S2 + S2~; see Lessells and Boag, 1987] is estimated to be about 0.99 in these data for all measurements except those of the molar dentition: repeatability estimates are 0.97 for LM and only 0.86 for BMI.",
+                "cite_spans": [
+                    {
+                        "start": 481,
+                        "end": 505,
+                        "text": "Lessells and Boag, 1987]",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "Principal Component Analysis. -Following the recommendations of Jolicoeur (1963) , Morrison (1976) , and Bookstein et al. (1985) we extracted the principal components of sample covariance matrices calculated from measurement values transformed to natural logarithms. Principal components are unique only to scalar multiplication of their coefficients and are here reported normalized to unit length. The elements ofsuch eigenvectors have a dual significance: as regression coefficients that reflect the magnitude of covariance of each measurement variable with component scores, and as direction cosines that determine the geometric orientation of the component axis. The appropriate metric for pairwise comparisons of normalized principal components is their inner product; this statistic is a correlation coefficient that equals unity when two vectors are parallel and zero when they are orthogonal (Morrison, 1976) .",
+                "cite_spans": [
+                    {
+                        "start": 64,
+                        "end": 80,
+                        "text": "Jolicoeur (1963)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 83,
+                        "end": 98,
+                        "text": "Morrison (1976)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 105,
+                        "end": 128,
+                        "text": "Bookstein et al. (1985)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 901,
+                        "end": 917,
+                        "text": "(Morrison, 1976)",
+                        "ref_id": "BIBREF24"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "Asymptotic theory yields large-sample estimates of standard errors for eigenvalues and eigenvector coefficients under the assumption of multivariate normality (Anderson, 1963; formulas in Morrison, 1976) . We calculated asymptotic estimates ofstandard errors as well as analogous statistics from jackknife and bootstrap resampling procedures (which require no distributional assumptions). All three methods yield closely comparable results for our data; conclusions based on the bootstrap in this report would not differ substantially by substitution of asymptotic or jackknifeestimated values.",
+                "cite_spans": [
+                    {
+                        "start": 188,
+                        "end": 203,
+                        "text": "Morrison, 1976)",
+                        "ref_id": "BIBREF24"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "Bootstrap estimation is based on sampling the data with replacement to generate k replicate samples each of the same size, N, as the original (Efron, 1982; Diaconis and Efron, 1983) . Standard errors are then calculated directly from the k replicatedsample values. Our applications ofthe boot-strap are based on k = 1000 replicates of each sample. We divide bootstrap-estimated mean eigenvector coefficients by their standard errors to obtain t values (which should not be assumed to be distributed like Student's t). When large, these heuristic quantities indicate substantial dependence between the measurement variables and component axes in question.",
+                "cite_spans": [
+                    {
+                        "start": 142,
+                        "end": 155,
+                        "text": "(Efron, 1982;",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 156,
+                        "end": 181,
+                        "text": "Diaconis and Efron, 1983)",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "The eigenvectors of sample covariance matrices are well-determined only if their corresponding eigenvalues are distinct. Therefore, for the estimated coefficients of the ith principal component to sustain meaningful interpretation, the ith eigenvalue, L; must differ significantly from L, -1 and L, + 1. If not, then variation is isotropic in one or both of the planes determined by the ith component with vectors of adjacent rank, and the coefficients may just reflect accidents of sampling. We provide tests of the null hypothesis that consecutive eigenvalues are equal by calculating Anderson's statistic,",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "x 2 = -n~In L, + nr In r-1~L ,",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "where n = N -1 and the summation is over the r consecutive characteristic roots of interest; for multivariate normal samples when the null hypothesis is true this statistic is distributed as a x' variate with (rl2)(r + 1) -1 degrees of freedom for large n (Morrison, 1976) . For sample sizes in the present applications, the tests are only approximate.",
+                "cite_spans": [
+                    {
+                        "start": 256,
+                        "end": 272,
+                        "text": "(Morrison, 1976)",
+                        "ref_id": "BIBREF24"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "Effects of Age and Sex. -Sexual size dimorphism is not conspicuous in most members ofthe muroid subfamily Sigmodontinae (Voss, 1988) and accounts for a negligible fraction of univariate measures of dispersion in wild-collected samples of Zygodontomys (Voss, 1991) . Nevertheless, we examine the influence of sex together with age and sex x age interaction on principal component scores and residuals for both wildcollected and captive-bred samples. We also examine sex, age, and interaction effects on individual measurment variates in the captive-bred sample to supplement interpretation of the principal component results.",
+                "cite_spans": [
+                    {
+                        "start": 120,
+                        "end": 132,
+                        "text": "(Voss, 1988)",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 251,
+                        "end": 263,
+                        "text": "(Voss, 1991)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "Following the recommendations of Leamy (1983) we report variance components (from Model II ANOVAs) for sex, age, and sex x age interaction in wild-collected samples, thereby avoiding the ambiguities of Model I hypothesis testing with unbalanced designs. For the captive-bred sample where a balanced design obtains, however, we tested for the fixed effects of sex, age, and their interaction using mixed-model ANO-VAs wherein families are treated as blocks that contribute a random variance component; all interaction variance components involving family are assumed to be zero and family interactions were therefore pooled as error in constructing F tests.",
+                "cite_spans": [
+                    {
+                        "start": 39,
+                        "end": 45,
+                        "text": "(1983)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "Computations. -Statistics and statistical tests were computed using release 5.18 of the mainframe version of the Statistical Analysis System (SAS) and release 6.03 of the PC version. The computation of asymptotic standard errors for eigenvalues and principal component coefficients, the estimation of principal component residuals, and the bootstrap and jackknife resampling procedures were all programmed in PROC MATRIX on the mainframe version and in PROC IML of the PC version. Listings of the PROC IML programs are available from L. F. Marcus.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MATERIALS AND METHODS",
+                "sec_num": null
+            },
+            {
+                "text": "Within Natural Population Samples Univariate measures of central tendency and dispersion (Appendix, Table A) display similar patterns within all population samples. There is a roughly 20-fold range among mean values, from small dental dimensions averaging less than 2 mm (BM 1, DI) to measures that average between 10 and 30 mm (BB, LOF, CIL). The within-sample range of standard deviations is also large, from values less than 0.1 mm (for BM1) to those that exceed 1.0 mm (for CIL). Although means and standard deviations are highly correlated within samples, coefficients of variation reveal consistent contrasts among measurements from different anatomical regions (Table 1) . Relative variability is greatest in measures of the facial skeleton (LD, LIF, BR, BPB, BZP) and ofthe incisors (DI) with standard deviations that often approach 10% of mean values. By contrast, measurements of the molar dentition (LM, BM 1) and of the neurocranium (LIB, BB) always have substantially lower coefficients of variation; standard deviations of these dimensions seldom exceed 5% ofmean values. Measurements ofthe orbits (LOP) and total cranial length (CIL) usually exhibit intermediate coefficients of variation.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 668,
+                        "end": 677,
+                        "text": "(Table 1)",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Analyses of Variation and Covariation",
+                "sec_num": null
+            },
+            {
+                "text": "The correlation matrix for our largest sample, Dividive (Table 2) , illustrates patterns of pairwise dependence common to all of the populations we analyzed: (1) there is no large negative correlation between any variables. A few coefficients are less than zero in most sample correlation matrices, but these are never significant. (2) Two rows and columns, both representing measurements of the molar dentition (LM and BM I), contain coefficients that are substantially smaller than values encountered elsewhere in the matrix. Ofthe 240 nonsignificant coefficients encountered in the 15 sample cor-. relation matrices we computed, 228 (95%) involve these two dental dimensions. (3) Neurocranial measurements (LIB, BB) exhibit correlations that average smaller than those among other nonmolar dimensions, but neurocranial correlations with nonmolar variates are nevertheless usually signif-icant. (4) Correlation coefficients among the eight remaining measurement variables are always large, positive, and significant.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 56,
+                        "end": 65,
+                        "text": "(Table 2)",
+                        "ref_id": "TABREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Analyses of Variation and Covariation",
+                "sec_num": null
+            },
+            {
+                "text": "Similarities among sample correlation matrices provide evidence for a common latent structure. The existence ofone or more causes of joint increase in craniodental dimensions is clearly indicated in these results although the molar dentition and the neurocranium appear to exhibit some degree of independence. Little else can be concluded from such term-by-term comparisons, however, and we pass to eigenanalysis for more concise descriptors of multivariate dependence that permit additional inferences about latent causes.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Analyses of Variation and Covariation",
+                "sec_num": null
+            },
+            {
+                "text": "The total sample variance of log-transformed measurements (the trace of the covariance matrix) and the eigenvalues of the first six principal components for each population are provided in Table 3 . The variance associated with the first principal component (the first eigenvalue, L 1 ) ranges from 65 to 88% of the total, averaging 77% over all samples. The second eigenvalue is consistently about an order ofmagnitude smaller than the first, but subsequent components dwindle by much smaller increments. The first six components sum to average just over 95% of the total sample variance, and we restrict our attention to these .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 189,
+                        "end": 196,
+                        "text": "Table 3",
+                        "ref_id": "TABREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Analyses of Variation and Covariation",
+                "sec_num": null
+            },
+            {
+                "text": "The normalized coefficients of the first principal component (Table 4) are strikingly similar from sample to sample. All coefficients are positive with the exception ofvery small values for molar breadth (BM1)in the Bush Bush Forest (BBF) and Villanueva No such uniformity obtains for components 2 to 6. The second principal component, for example, exhibits little resemblance in its coefficients from population to population (Table 5) ; the average (positive) correlation of this vector among samples is 0.426, and the average (first-quadrant) angle of divergence is 63.7\u00b0. The third through sixth components have average amongsample correlations similar to the second.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 61,
+                        "end": 70,
+                        "text": "(Table 4)",
+                        "ref_id": "TABREF4"
+                    },
+                    {
+                        "start": 427,
+                        "end": 436,
+                        "text": "(Table 5)",
+                        "ref_id": "TABREF5"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Analyses of Variation and Covariation",
+                "sec_num": null
+            },
+            {
+                "text": "The similarity of first principal component coefficients from population to population together with consistently large first eigenvalues suggest that the principal axes of these sample dispersions are well-determined and nearly parallel. By contrast, the inconsistent orientation ofsubsequent components (compared among populations) coupled with the observation that adjacent eigenvalues after the first are seldom very different invites the suspicion that variation is often nearly isotropic in directions orthogonal to the principal axis and that the direction ofmost calculated minor axes may largely reflect sampling error. This inference is supported by the results ofbootstrap analyses and by asymptotic statistics. Bootstrapestimated means divided by their standard errors yield very large t values in all populations for most variable coefficients on the first but not on subsequent principal components. Anderson's x 2 statistic attains improbably large values (P < 0.001) for every sample under the null hypothesis that the first and second eigenvalues are equal, but tests ofequality for the second through sixth eigenvalues are seldom significant. We conclude that only the first characteristic root of the sample covariance matrix is consistently distinct.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Analyses of Variation and Covariation",
+                "sec_num": null
+            },
+            {
+                "text": "The coefficients ofeach sample first principal component reflect the same contrasts among measurements as were earlier identified by within-sample comparisons of relative variability and correlation. Measurements with the highest average coefficients ofvariation and of pairwise correlation (LD, LIF, BR, BPB, BZP, nn also exhibit the largest first principal component loadings while others, with low coefficients of variation and small intercorrelations (LM, BM1, LIB, BB), display small first principal component loadings. Since sample similarities in patterns of relative variability and cor- relation are mirrored by resemblances in first principal components, but not in subsequent eigenvectors (which have much smaller and usually indistinct eigenvalues), we infer that a single factor effectively accounts for most of the common latent determination ofthese sample dispersions. Of biological causes that might be responsible only two, age-correlated growth, and sex, are accessible for scrutiny. Unfortunately, the estimation ofvariance components is compromised in most samples by the grossly unbalanced distribution of specimens among \"age\" (toothwear) and sex classes; the analytic effects of such imbalance are evident when estimated variance components differ greatly between models in which sex or \u00abage\" is first specified. Only for three almost-balanced samples, Cerro Azul, Dividive, and Hato \u00a31Frio, do estimates differ negligibly (by about 1-5%) between models that differ in priority assigned to sex and \u00abage.\" Since results are similar for all three samples analyzed both ways, only one analysis, of Dividive with sex entered first, is presented here (Table 6 ). In accordance with prior caveats regarding inferences based on molar toothwear (see Materials and Methods), the heuristic aspect of this exercise should be emphasized: no biological significance can be attached to the absolute values ofvariance components estimated from these undesigned observations. Nevertheless, the striking consistency among analyses of the three samples identified above clearly suggests the relative predominance ofvariation associated with one external criterion ofspecimen classification.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 1670,
+                        "end": 1678,
+                        "text": "(Table 6",
+                        "ref_id": "TABREF10"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Analyses of Variation and Covariation",
+                "sec_num": null
+            },
+            {
+                "text": "Analyses of first principal component scores in the Dividive sample (Table 6 ) reveal the substantial contribution of \u00abage\" by contrast with very small sex and interaction terms; in analyses of the Cerro Azul and Hato \u00a31 Frio samples the sex, \"age,\" and sex x \"age\" interaction estimates are 1.8,68.7, and 0.0, and 0.0,67.0, and 0.2%, respectively. The residual variance in all measurements is almost wholly unexplained by the model; in other words, specimen classification by sex, \"age,\" and sex x \"age\" does not account for any very large fraction ofmeasurement variance that is independent of PC 1. Interaction components of residual variance are not consistently greater than zero for any measurement in the three populations analyzed. Sex or \"age\" components of residual variance are consistently greater than zero for only four measurements. Averaging over samples and models we observe 5.7% for the \"age\" component of residual BPB, 9.5% for the sex component of residual LIB, 7.8% for the \"age\" component of residual BB, and 7.9% for the sex component of residual LOF. A conservative interpretation ofthese results is that only age (as loosely indexed by analyses offirst principal component scores and residuals. While metrical differences between males and females appear to account for a negligible fraction of the morphometric variation in natural population samples (above, and see VOSS, 1991) , tests for sex effects in captives (Table 7 ) reveal significant dimorphism in most measurements. These data are controlled in sex comparisons, however, not only for the usual conditions of nurture (food, temperature, etc.) and age, but also for family (dam and sire), and (within age Table B ). Since interaction terms are never very large (only one is marginally significant), sex differences remain approximately constant with age. F values associated with age effects are smaller for molar (LM, BM1) and neurocranial (LIB, BB) measurements than for other craniometric variables, but a statistically significant age effect for molar breadth (BM 1) is biologically uninterpretable. The molar dentition is completely erupted in age class 1 specimens and there is no mechanism in these animals for subsequent molar growth; the very small mean differences in molar breadth among age classes (less than 0.1 mm; Appendix, Table B ) must therefore result from some nonbiological agency such as inadvertent bias in assignment ofanimals to age cohorts or nonrandomly distributed measurement errors.",
+                "cite_spans": [
+                    {
+                        "start": 1394,
+                        "end": 1405,
+                        "text": "VOSS, 1991)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 68,
+                        "end": 76,
+                        "text": "(Table 6",
+                        "ref_id": "TABREF10"
+                    },
+                    {
+                        "start": 1442,
+                        "end": 1450,
+                        "text": "(Table 7",
+                        "ref_id": "TABREF10"
+                    },
+                    {
+                        "start": 1692,
+                        "end": 1699,
+                        "text": "Table B",
+                        "ref_id": "TABREF10"
+                    },
+                    {
+                        "start": 2326,
+                        "end": 2333,
+                        "text": "Table B",
+                        "ref_id": "TABREF10"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Analyses of Variation and Covariation",
+                "sec_num": null
+            },
+            {
+                "text": "The first principal component calculated from measurements of captive-bred specimens (N = 120, sexes and age classes combined) represents a pattern of covariance nearly identical to that observed among measurements of wild-collected specimens from the parent population (Table 8): most  TABLE 9 . Results of mixed-model ANOV As testing for the fixed effects of sex, age, and sex x age interaction on the first principal component (pC 1) scores and residual log-measurement values of 120 captive-bred specimens of Zygodontomys. The degrees of freedom for all tests are the same as explained in the title to Table 7 . coefficients of the captive-bred sample vector are within one or two standard errors of the bootstrap-mean coefficients estimated from the wild-collected sample; the correlation between the two vectors is 0.994. First eigenvalues are also equivalent for captivebred and wild-collected sample covariance matrices and represent about the same fraction of the total variance (71 and 75%, respectively) in each. Mixed-model analyses ofvariance (Table  9 ) yield very large F values for the fixed effects ofage and sex, but not ofinteraction, on the first principal component scores of captive-bred specimens. A few tests for sex, age, and interaction are significant in analyses of measurement residuals, but the associated effects are small. The largest such F ratio, for an age effect on residual incisor breadth (DI), represents a 52-fold reduction from the corresponding value in Table 7 and reflects a mean difference ofonly about 0.05 mm in that dimension between age classes 1 and 3.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 270,
+                        "end": 294,
+                        "text": "(Table 8): most  TABLE 9",
+                        "ref_id": "TABREF7"
+                    },
+                    {
+                        "start": 606,
+                        "end": 613,
+                        "text": "Table 7",
+                        "ref_id": "TABREF10"
+                    },
+                    {
+                        "start": 1056,
+                        "end": 1065,
+                        "text": "(Table  9",
+                        "ref_id": "TABREF10"
+                    },
+                    {
+                        "start": 1496,
+                        "end": 1503,
+                        "text": "Table 7",
+                        "ref_id": "TABREF10"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Analyses of Variation and Covariation",
+                "sec_num": null
+            },
+            {
+                "text": "These experimental results provide compelling evidence that the sample first principal component represents the effects of general growth, which induces size differences among cohorts as a function of age and maintains sexual dimorphism (established at some initial, unmeasured stage) constant within cohorts. Hereafter we shall refer to the effects of general growth, indexed by sample first principal component scores, as general size (after Wright, 1932) . Invoking the logic ofmultivariate allometry (Jolicoeur, 1963; Bookstein et al., 1985; Strauss, 1987) , we interpret the normalized coefficients of the first sample eigenvector as exponents of relative growth that describe the allometric response of each cranial dimension to increasing general size. Since isometric growth requires normalized values uniformly equal to 0.289 for these data (the inverse square root of the number of measured dimensions; see Jolicoeur, 1963) , variable coefficients consistently much smaller (LM, BM1, LIB, BB) or larger (LD, BPB, BZP, nn reflect the conspicuous changes ofosseous proportions that accompany postnatal craniodental ontogeny in Zygodontomys (Fig. 2) .",
+                "cite_spans": [
+                    {
+                        "start": 444,
+                        "end": 457,
+                        "text": "Wright, 1932)",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 504,
+                        "end": 521,
+                        "text": "(Jolicoeur, 1963;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 522,
+                        "end": 545,
+                        "text": "Bookstein et al., 1985;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 546,
+                        "end": 560,
+                        "text": "Strauss, 1987)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 917,
+                        "end": 933,
+                        "text": "Jolicoeur, 1963)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1148,
+                        "end": 1156,
+                        "text": "(Fig. 2)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Analyses of Variation and Covariation",
+                "sec_num": null
+            },
+            {
+                "text": "Population samples ofZygodontomys differ significantly in measurement means despite the similarities in covariance structure emphasized above. (IV, 257323) . Dimensions of the facial skeleton (rostrum, orbits, and palate) and incisors increase dramatically with age and exhibit positive allometry while dimensions of the molar dentition and braincase do not change, or increase only slightly with age, and therefore exhibit negative allometry with respect to general size. ofboth samples combined (e.g., Fig. 3 ). Several aspects of these ordinations merit attention.",
+                "cite_spans": [
+                    {
+                        "start": 143,
+                        "end": 155,
+                        "text": "(IV, 257323)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 504,
+                        "end": 510,
+                        "text": "Fig. 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "The Interpretation ofSample Differences",
+                "sec_num": null
+            },
+            {
+                "text": "1. The within-sample first principal components calculated earlier (Table 4) lie very nearly in the plane of the first and second combined-sample principal components. For the example illustrated (Fig.  3) , the first principal components of the Montijo Bay and San Miguel Island sam-ples are only 3.8 and 4.6\u00b0, respectively, outside the plane of ordination (defined by the coefficients ofPCl c and PC2 c ; Table 10). General growth therefore corresponds in direction with the long axis of each sample dispersion in that plane; because sample first principal components are highly correlated, such axes are very nearly parallel. 2. Nonoverlapping sample dispersions projected into the plane of the first and be biologically meaningful since each often confounds covariance attributable to growth within samples and covariance that reflects growth-invariant differences between samples. Of alternative methods suggested by Burnaby (1966) , Thorpe (1983), and Bookstein et al. (1985) to address such difficulties, we provide the sheared-principal-component solution (Fig. 4) , which effects a decomposition of the between-sample variance consistent with a path-analytic model ( second combined-sample principal components are always separated along an axis that is orthogonal to the parallel axes of within-sample growth. Both the former direction, of growth-invariant sample difference, and the direction of growth within samples are usually oblique to the calculated axes of ordination. This is obvious from visual inspection ( Fig. 3 ) and may be confirmed by calculating the arc-cosines of inner products: the first principal component of the Montijo Bay sample makes acute angles of 18.3 and 72.6\u00b0with the first and second combined-sample principal components, respectively; the corresponding angles for the San Miguel Island sample are 17.6 and 73.0\u00b0. 3. All ofthe discrimination afforded by the data for such pairs of discrete samples is represented in the plane of the first and second combined-sample principal components; specimen projections on subsequent components exhibit essentially complete sample overlap.",
+                "cite_spans": [
+                    {
+                        "start": 922,
+                        "end": 936,
+                        "text": "Burnaby (1966)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 939,
+                        "end": 957,
+                        "text": "Thorpe (1983), and",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 958,
+                        "end": 981,
+                        "text": "Bookstein et al. (1985)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 67,
+                        "end": 76,
+                        "text": "(Table 4)",
+                        "ref_id": "TABREF4"
+                    },
+                    {
+                        "start": 196,
+                        "end": 205,
+                        "text": "(Fig.  3)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1064,
+                        "end": 1072,
+                        "text": "(Fig. 4)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1528,
+                        "end": 1534,
+                        "text": "Fig. 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "The Interpretation ofSample Differences",
+                "sec_num": null
+            },
+            {
+                "text": "From these observations it follows that although adequate multivariate descriptors ofdifferences between pairs ofsamples may be situated in the plane of the first and second combined-sample principal components, the latter are themselves unlikely to G-.....;;;;;,;;;\",..-FIG. 5 . A path diagram for multivariate analysis of group (population sample) differences (after Bookstein et al., 1985) . General size (8) is the latent cause of maximum within-sample covariation among the observed measurement variables X\" ... , X n \u2022 General size coefficients (s., ... , sn) are estimated as the elements of the first eigenvector of the pooled within-group covariance matrix. Group difference (G) induces population sample divergence in general size (AS) as well as size-invariant differences (d\" ... , dn) estimated by the coefficients of the sheared second principal component of the combined-data covariance matrix. unusually explicit biological interpretation for these data.",
+                "cite_spans": [
+                    {
+                        "start": 362,
+                        "end": 392,
+                        "text": "(after Bookstein et al., 1985)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 408,
+                        "end": 411,
+                        "text": "(8)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 741,
+                        "end": 745,
+                        "text": "(AS)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 784,
+                        "end": 797,
+                        "text": "(d\" ... , dn)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 250,
+                        "end": 277,
+                        "text": "G-.....;;;;;,;;;\",..-FIG. 5",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "The Interpretation ofSample Differences",
+                "sec_num": null
+            },
+            {
+                "text": "Loadings on general size (Table 10, S) are estimated by the coefficients of the first eigenvector of the pooled within-sample covariance matrix. As for the elements of first eigenvectors of individual samples discussed previously, these coefficients describe general-growth-dependent allometric form-change within populations. Specimen scores on general size compared between samples, however, may also reflect population divergence in genes or environments with general effects on growth (Fig. 5, LlS) .",
+                "cite_spans": [
+                    {
+                        "start": 36,
+                        "end": 38,
+                        "text": "S)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 25,
+                        "end": 35,
+                        "text": "(Table 10,",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 489,
+                        "end": 502,
+                        "text": "(Fig. 5, LlS)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "The Interpretation ofSample Differences",
+                "sec_num": null
+            },
+            {
+                "text": "Coefficients of the sheared second principal component (Table 10 , last column), unlike the uniformly positive and mostly large elements of the general size factor (S), differ dramatically in sign and magnitude from variable to variable and reflect sample mean differences at constant size: specimens from San Miguel Island have substantially larger molar dimensions (LM, BM 1)and narrower palates (BPB) than have specimens of the same size from Montijo Bay. Because these cranial differences are growth-invariant, they are perforce established in development prior to the ontogenetic intervals sampled by our data.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 55,
+                        "end": 64,
+                        "text": "(Table 10",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "The Interpretation ofSample Differences",
+                "sec_num": null
+            },
+            {
+                "text": "Differences among organisms, as reflected in measurements of homologous anatomical dimensions, may result from genes or environments affecting several developmental mechanisms singly or in combination. Allelic substitutions or environmental differences may induce alterations (1) in the relative growth rates ofparts, as represented by the slopes of linear ontogenetic vectors in a morphological space whose axes are log-transformed measurements; (2) in the extent of general growth, as represented by the length ofontogenetic vectors in the same morphological space; and (3) by preformation of parts before the measurable interval of growth, as represented by positional shifts (transpositions) of ontogenetic vectors. Although usually discussed in the vocabulary of comparative bivariate allometric analysis (e.g., by White and Gould, 1965; Cock, 1966; Cheverud, 1982) , such mechanisms can also be modeled in path diagrams for multivariate analysis of group differences. Essential for meaningful inference from data in either context is the identification ofcovariance patterns attributable to general growth and its accompanying allometries.",
+                "cite_spans": [
+                    {
+                        "start": 820,
+                        "end": 842,
+                        "text": "White and Gould, 1965;",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 843,
+                        "end": 854,
+                        "text": "Cock, 1966;",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 855,
+                        "end": 870,
+                        "text": "Cheverud, 1982)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "The first eigenvector of the sample covariance matrix of logarithms is interpretable as the multivariate generalization of Huxley's allometric equation and also serves as an expression for general size in some factor models (Jolicoeur, 1963; Bookstein et al., 1985) . In application, however, the estimated quantities (coefficients and scores) cannot be attributed any tangible significance without reference to external information, concerning sampling or experimental design, that guarantees biological consequences. A predominance of positive elements in the correlation or covariance matrix may establish \"size\" as a plausible label for the leading eigenvector, but this is little more than a descriptive convention for static data where evidence of developmental cause is wanting (Cock, 1966) . An ontogenetic interpretation of first principal component coefficients and scores requires data that are at least mixed cross-sectional and not grossly heterogeneous in other regards. Analyses based on toothwear classes (for wild-collected samples) and known-age cohorts (for a captive-bred population) in the present study reveal the age dependence of specimen scores on the sample first principal component and the consequent significance of the coefficients as exponents of postnatal allometric growth.",
+                "cite_spans": [
+                    {
+                        "start": 224,
+                        "end": 241,
+                        "text": "(Jolicoeur, 1963;",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 242,
+                        "end": 265,
+                        "text": "Bookstein et al., 1985)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 785,
+                        "end": 797,
+                        "text": "(Cock, 1966)",
+                        "ref_id": "BIBREF11"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "The close similarity offirst principal component coefficients from sample to sample in this study suggests that measurable allometries of postnatal craniodental growth of Zygodontomys are conserved under processes of population divergence; observed sample differences of cranial form must therefore be attributed to genes or environments acting through other ontogenetic mechanisms. Under this assumption, of equal within-group growth allometries, population divergence in the extent of growth and population differences that are growth-invariant can both be estimated by path analysis according to the causal diagram of Figure 5 . In the example (Fig. 4) , the San Miguel population is estimated to differ from Montijo Bay by about 3 sample standard deviations in mean size (LlS), a quantity attributable to genetically or environmentally extended general growth, or to sample differences in chronological age, or both. Since toothwear cannot be assumed a constant function of age in population comparisons, it must remain uncertain, in the absence of evidence from specimens captive-bred to known age, whether LlS in such analyses reflects real divergence or just an age bias in sampling.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 621,
+                        "end": 629,
+                        "text": "Figure 5",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 647,
+                        "end": 655,
+                        "text": "(Fig. 4)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "Each factor coefficient, d j , of growth-invariant sample divergence (Fig. 5) , is equivalent to the difference in sample mean X j adjusted for general size in an analysis of covariance (Rohlf and Bookstein, 1987; Crespi and Bookstein, 1989) ; collectively, these coefficients describe the orthogonal displacement of parallel vectors of multivariate allometry and sustain the same empirical interpretation as differences in y-intercept (or in y at constant x) in bivariate sample comparisons using the logarithmic form of Huxley's equation, log y = log b + k log x when k does not differ between samples (see White and Gould, 1965; Cock, 1966) . Mean specimen scores on G (the sum of products diX i; distributed along the vertical axis of Fig. 4 ) differ by about 5 sample standard deviations between San Miguel Island and Montijo Bay. Whether genes or environments are responsible for such divergence is resolvable only by experiment.",
+                "cite_spans": [
+                    {
+                        "start": 186,
+                        "end": 213,
+                        "text": "(Rohlf and Bookstein, 1987;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 214,
+                        "end": 241,
+                        "text": "Crespi and Bookstein, 1989)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 609,
+                        "end": 631,
+                        "text": "White and Gould, 1965;",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 632,
+                        "end": 643,
+                        "text": "Cock, 1966)",
+                        "ref_id": "BIBREF11"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 69,
+                        "end": 77,
+                        "text": "(Fig. 5)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 739,
+                        "end": 745,
+                        "text": "Fig. 4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "These results suggest avenues for future research concerning the evolution of muroid craniodental morphology. First, it is of interest to determine whether the pattern of population differences observed in Zygodontomys also obtains within other muroid genera. If the allometries of postnatal multivariate growth are generally found to be conserved among closely related populations, for example, then it would seem reasonable to hypothesize that incipient stages of morphological evolution often proceed by divergence in other aspects of development. Orthogonal displacements of parallel ontogenetic vectors in bivariate ordinations of log-transformed measurement data are commonly observed for comparisons ofconspecific breeds or congeneric species (Gould, 1971) , but the importance of preformation versus other mechanisms of differentiation for comparisons at higher levels ofrelationship requires investigation. Path analysis of multivariate differences within and among pairs of sister taxa (the latter to be identified by cladistic analyses of nonmetrical characters) might reveal phylogenetic regularities in the ontogenetic consequences of morphological evolution.",
+                "cite_spans": [
+                    {
+                        "start": 750,
+                        "end": 763,
+                        "text": "(Gould, 1971)",
+                        "ref_id": "BIBREF15"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "Second, the genetic basis, if any, of the quantities estimated by the path-analytic model employed here (or by any other decomposition of the between-sample variance) remains to be demonstrated. If mean differences observed between wild-collected population samples in general size (LlS) and in size-invariant contrasts (d j ) are reproduced as well between samples from the same populations captive-bred under identical conditions of nurture, then the prima facie evidence for genetic determination would be strong. More information could be gained from the captive-bred hybrid progeny ofpopulation crosses. An increased variance ofspecimen scores on S or G (with coefficients determined by prior path analysis of parental population differences) in the captive-bred F 2 generation over the corresponding values in the F 1 would provide evidence for Mendelian inheritance. Subject to testable assumptions concerning the additivity of gene effects, random mating, and the equiprobable survival ofgenotypes during the breeding experiment, estimates could then be obtained of the minimum effective number of responsible loci (Lande, 1981) .",
+                "cite_spans": [
+                    {
+                        "start": 1123,
+                        "end": 1136,
+                        "text": "(Lande, 1981)",
+                        "ref_id": "BIBREF21"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "These are conceptually modest goals, but in the absence ofany information at present concerning the general patterns and genetics of morphological factor divergence among natural populations of mammals they are at least a beginning. ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We thank the curators and technical staffs ofthe following museum collections for their stewardship of the valuable biological materials in their care and for generous contributions of time and effort to make those materials accessible to us: the American Museum ofNatural History, New York City ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACKNOWLEDGMENTS",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Torrealba were valued companions and collaborators in the course of the fieldwork. B. Bain and D. Wijesinghe were indispensible caretakers ofthe laboratory colonies",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Gauveca",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Kafka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Lasso",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Medina",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "We thank the Academic Computing Cen",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gauveca, H. Kafka, C. Lasso, J. Medina, and I. Torrealba were valued companions and collaborators in the course of the field- work. B. Bain and D. Wijesinghe were in- dispensible caretakers ofthe laboratory col- onies. We thank the Academic Computing Cen-",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Growth and reproduction in Zygodontomys microtinus (Rodentia, Cricetidae) from Venezuela in a laboratory colony",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Aguilera",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "Mammalia",
+                "volume": "49",
+                "issue": "",
+                "pages": "75--83",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "AGUILERA, M. 1985. Growth and reproduction in Zygodontomys microtinus (Rodentia, Cricetidae) from Venezuela in a laboratory colony. Mammalia 49:75-83.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Asymptotic theory for principal component analysis",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1963,
+                "venue": "Ann. Math. Stat",
+                "volume": "34",
+                "issue": "",
+                "pages": "122--148",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "ANDERSON, T. W. 1963. Asymptotic theory for prin- cipal component analysis. Ann. Math. Stat. 34: 122- 148.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Genetic components ofsize and shape. I. Dynamics ofcomponents ofphenotypic variability and covariability during ontogeny in the laboratory rat",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Atchley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Rutledge",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "Evolution",
+                "volume": "34",
+                "issue": "",
+                "pages": "1161--1173",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "ATCHLEY, W. R., AND J. J. RUTLEDGE. 1980. Genetic components ofsize and shape. I. Dynamics ofcom- ponents ofphenotypic variability and covariability during ontogeny in the laboratory rat. Evolution 34:1161-1173.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Genetic components of size and shape. II. Multivariate covariance patterns in the rat and mouse skull",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Atchley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Rutledge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Cowley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "Evolution",
+                "volume": "35",
+                "issue": "",
+                "pages": "1037--1055",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "ATCHLEY, W. R., J. J. RUTLEDGE, AND D. E. CoWLEY. 1981. Genetic components of size and shape. II. Multivariate covariance patterns in the rat and mouse skull. Evolution 35: 1037-1055.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Growth-invariant discriminant functions and generalized distance",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Burnaby",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1966,
+                "venue": "Biometrics",
+                "volume": "22",
+                "issue": "",
+                "pages": "96--110",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "BURNABY, T. P. 1966. Growth-invariant discrimi- nant functions and generalized distance. Biometrics 22:96-110.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Relationships among ontogenetic, static and evolutionary allometry",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Cheverun",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "Am. J. Phys. Anthr",
+                "volume": "59",
+                "issue": "",
+                "pages": "139--149",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "CHEVERun, J. M. 1982. Relationships among onto- genetic, static and evolutionary allometry. Am. J. Phys. Anthr. 59:139-149.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Genetical aspects of growth and form in animals",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Cock",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1966,
+                "venue": "Quart. Rev. BioI",
+                "volume": "41",
+                "issue": "",
+                "pages": "131--190",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "CocK, A. G. 1966. Genetical aspects of growth and form in animals. Quart. Rev. BioI. 41:131-190.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "A pathanalytic model for the measurement ofselection on morphology",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Crespi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Evolution",
+                "volume": "43",
+                "issue": "",
+                "pages": "18--28",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "CREsPI, B. J., AND F. L. BooKSTEIN. 1989. A path- analytic model for the measurement ofselection on morphology. Evolution 43:18-28.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Computer-intensive methods in statistics",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Diaconis",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "Efron"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1983,
+                "venue": "Sci. Am",
+                "volume": "248",
+                "issue": "",
+                "pages": "98--108",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "DIACONIS, P., AND B. EFRON. 1983. Computer-inten- sive methods in statistics. Sci. Am. 248:98-108.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "The jackknife, the bootstrap and other resampling plans",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Efron",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "Soc. Indust. Appl. Math",
+                "volume": "38",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "EFRON, B. 1982. The jackknife, the bootstrap and other resampling plans. SIAM Monograph 38, Soc. Indust. Appl. Math., Philadelphia, PA.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Geometric similarity in allometric growth: A contribution to the problem of scaling in the evolution of size",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gould",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1971,
+                "venue": "Am. Natur",
+                "volume": "105",
+                "issue": "",
+                "pages": "113--136",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "GOUlD,S. J. 1971. Geometric similarity in allometric growth: A contribution to the problem of scaling in the evolution of size. Am. Natur. 105: 113-136.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Evolution of Neotropical cricetine rodents (Muridae) with special reference to the phyllotine group",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Hershkovnz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1962,
+                "venue": "Fieldiana Zool",
+                "volume": "46",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "HERSHKOvnz, P. 1962. Evolution of Neotropical cricetine rodents (Muridae) with special reference to the phyllotine group. Fieldiana Zool. 46:524 pp.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Multivariate discrimination by shape in relation to size",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Humphries",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Chernoff",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Elder",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Poss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1981,
+                "venue": "Syst, Zool",
+                "volume": "30",
+                "issue": "",
+                "pages": "291--308",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "HUMPHRIES, J. M., F. L. BooKSTEIN, B. CHERNOFF, G. R. SMITH, R. L. ElDER, AND S. G. Poss. 1981. Multivariate discrimination by shape in relation to size. Syst, Zool. 30:291-308.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "The Genetics of the Skeleton",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Johnson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "JOHNSON, D. R. 1986. The Genetics of the Skeleton. Clarendon, Oxford, D.K.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "The multivariate generalization ofthe allometry equation",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Jolicoeur",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1963,
+                "venue": "Biometrics",
+                "volume": "19",
+                "issue": "",
+                "pages": "497--499",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "JOLICOEUR, P. 1963. The multivariate generalization ofthe allometry equation. Biometrics 19:497-499.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "The minimum number of genes contributing to quantitative variation between and within populations",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Lande",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "Am. Natur",
+                "volume": "116",
+                "issue": "",
+                "pages": "541--553",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "LANDE, R. 1980. Genetic variation and phenotypic evolution during aIIopatric speciation. Am. Natur. 116:463-479. --. 1981. The minimum number of genes con- tributing to quantitative variation between and within populations. Genetics 99:541-553.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Variance partitioning and effectsofsex and age on morphometric traits in randombred house mice",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Leamy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1974,
+                "venue": "J. Mamma!",
+                "volume": "65",
+                "issue": "",
+                "pages": "55--61",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "LEAMY, L. J. 1974. Heritability of osteometric traits in a randombred population of house mice. J. Hered. 65:109-120. --. 1977. Genetic and environmental correla- tions of morphometric traits in randombred house mice. Evolution 31:357-369. --. 1983. Variance partitioning and effectsofsex and age on morphometric traits in randombred house mice. J. Mamma!. 64:55-61.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Unrepeatable repeatabilities: A common mistake",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Lessells",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Andp",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Boag",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Auk",
+                "volume": "104",
+                "issue": "",
+                "pages": "116--121",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "LESSELlS,C.M.,ANDP. T.BoAG. 1987. Unrepeatable repeatabilities: A common mistake. Auk 104:116- 121.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Multivariate Statistical Methods",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Morrison",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1976,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MORRISON, D. F. 1976. Multivariate Statistical Methods, 2nd ed. McGraw-Hill, N.Y.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Acomment on shearing as a method for \"size correction",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Rohlf",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Andf",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Syst. Zoo!",
+                "volume": "36",
+                "issue": "",
+                "pages": "356--367",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "ROHLF, F.J.,ANDF. L. BooKSTEIN. 1987. Acomment on shearing as a method for \"size correction.\" Syst. Zoo!. 36:356-367.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "On allometry and relative growth in evolutionary studies. Syst, Zoo!",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Strauss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "",
+                "volume": "36",
+                "issue": "",
+                "pages": "72--75",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "STRAUSS, R. E. 1987. On allometry and relative growth in evolutionary studies. Syst, Zoo!. 36:72-75.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "The truss: Body form reconstructions in morphometries",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Strauss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "Syst. Zoo!",
+                "volume": "31",
+                "issue": "",
+                "pages": "113--135",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "STRAUSS, R. E., AND F. L. BOOKSTEIN. 1982. The truss: Body form reconstructions in morphomet- ries. Syst. Zoo!. 31:113-135.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Genetic, distributional, and evolutionary studies of the subspecies of deer mice (Peromyscus). Bibliograph",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Sumner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1932,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "SUMNER, F. B. 1932. Genetic, distributional, and evo- lutionary studies of the subspecies of deer mice (Peromyscus). Bibliograph. Genet. IX: 106 pp.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "A biometric study of the effects of growth on the analysis of geographic variation: Tooth number in green geckos (Reptilia: Phelsuma)",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Thorpe",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1983,
+                "venue": "J. Zoo!. London",
+                "volume": "201",
+                "issue": "",
+                "pages": "13--26",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "THORPE, R. S. 1983. A biometric study of the effects of growth on the analysis of geographic variation: Tooth number in green geckos (Reptilia: Phelsu- ma). J. Zoo!. London 201:13-26.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Systematics and ecologyof'ichthyomyine rodents (Muroidea): Patterns of morphological evolution in a small adaptive radiation",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Voss",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Bull. Am. Mus. Natur. Hist",
+                "volume": "188",
+                "issue": "",
+                "pages": "259--493",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "VOSS, R. S. 1988. Systematics and ecologyof'ichthyo- myine rodents (Muroidea): Patterns of morpholog- ical evolution in a small adaptive radiation. Bull. Am. Mus. Natur. Hist. 188:259-493. --. 1991. An introduction to Neotropical mu- roid rodents ofthe genus Zygodontomys. Bull. Am. Mus. Nat. Hist. In press.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Laboratory husbandry of the Neotropical muroid rodent Zygodontomys brevicauda",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Voss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Heideman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Mayer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Lab. Anim",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Voss, R. S., P. D. HEIDEMAN, AND V. L. MAYER. 1990. Laboratory husbandry of the Neotropical muroid rodent Zygodontomys brevicauda. Lab. Anim. In press.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Interpretation of the coefficient in the allometric equation",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "White",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Gould",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1965,
+                "venue": "Am. Natur",
+                "volume": "99",
+                "issue": "",
+                "pages": "5--18",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "WHITE, J. F., AND S. J. GoULD. 1965. Interpretation of the coefficient in the allometric equation. Am. Natur. 99:5-18.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Evolution and the Genetics of Populations, Vo!. 4. Variability within and among Natural Populations",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Wright",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1932,
+                "venue": "Genetics",
+                "volume": "17",
+                "issue": "",
+                "pages": "603--619",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "WRIGHT, S. 1932. General, group, and special size factors. Genetics 17:603-619. --. 1968. Evolution and the Genetics of Popu- lations, Vo!. 1. Genetic and Biometric Foundations. Univ. Chicago Press, Chicago, IL. --. 1978. Evolution and the Genetics of Popu- lations, Vo!. 4. Variability within and among Nat- ural Populations. Univ. Chicago Press, Chicago, IL. Corresponding Editor: M. E. Douglas",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Means and standard deviations (in mm) for age and sex classes of captive-bred Zygodontomys (N = 20 for each age-sex combination)",
+                "authors": [],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "TABLEB. Means and standard deviations (in mm) for age and sex classes of captive-bred Zygodontomys (N = 20 for each age-sex combination).",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "type_str": "figure",
+                "text": "Twelve craniodental measurements of Zygodontomys as described in the text.",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF1": {
+                "type_str": "figure",
+                "text": "Mahalanobis distances (D) between samples range as high as 8.0, and pairs of samples with D > 5 exhibit nonoverlapping multivariate dispersions. Such distributions are usefully visualized as projected into the plane ofthe first two principal components calculated from the data FIG. 2. Dorsal (top) and ventral (bottom) views of Zygodontomys crania from Finca Vuelta Larga illustrating ontogenetic changes in size and size-correlated (allometric) proportions. Left to right: juvenile (toothwear class I, AMNH 257333), young adult (II, 257330), adult (III, 257331), old adult",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF2": {
+                "type_str": "figure",
+                "text": "Scores ofspecimens from Montijo Bay (circles) and San Miguel Island (triangles) on factors representing general size and size-invariant group differences in the path model of Figure 5. TABLE 10. Coefficients of the first and second combined-sample principal components (PCl c and PC2 c ), estimated loadings on general size (S), and the coefficients of sheared PC2 c (estimating the djs of G in Fig. 5) for the Montijo Bay and San Miguel Island samples. Specimen scores on these vectors are plotted in Figures 3 and 4.",
+                "uris": null,
+                "num": null
+            },
+            "FIGREF3": {
+                "type_str": "figure",
+                "text": "Fig. 5) whose latent elements can sustainFIG. 3. Scores ofspecimens from Montijo Bay (circles) and San Miguel Island (triangles) on the first and second principal components calculated from their combined data. This ordination illustrates a typical pattern of dispersion for pairs of Zygodontomys samples whose vectors of measurement means are substantially different.",
+                "uris": null,
+                "num": null
+            },
+            "TABREF1": {
+                "type_str": "table",
+                "text": "Average coefficients of variation and their range over 15 population samples of Zygodontomys.",
+                "num": null,
+                "content": "<table><tr><td/><td>Average coefficient</td><td/><td/></tr><tr><td>Measure</td><td>of variation</td><td>Minimum</td><td>Maximum</td></tr><tr><td>CIL</td><td>6.3</td><td>4.9</td><td>8.0</td></tr><tr><td>LD</td><td>8.6</td><td>5.9</td><td>10.3</td></tr><tr><td>LM</td><td>3.6</td><td>2.4</td><td>4.9</td></tr><tr><td>BM1</td><td>3.9</td><td>2.9</td><td>5.0</td></tr><tr><td>LIF</td><td>7.7</td><td>6.1</td><td>9.2</td></tr><tr><td>BR</td><td>7.5</td><td>5.9</td><td>8.8</td></tr><tr><td>BPB</td><td>10.2</td><td>8.7</td><td>12.3</td></tr><tr><td>BZP</td><td>10.4</td><td>9.0</td><td>13.1</td></tr><tr><td>LIB</td><td>4.8</td><td>3.5</td><td>6.0</td></tr><tr><td>BB</td><td>3.2</td><td>2.6</td><td>4.1</td></tr><tr><td>DI</td><td>9.1</td><td>6.4</td><td>11.3</td></tr><tr><td>LOF</td><td>5.8</td><td>4.5</td><td>7.5</td></tr></table>"
+            },
+            "TABREF2": {
+                "type_str": "table",
+                "text": "Matrix ofpairwise correlations among 12 craniodental measurements of68 Zygodontomys specimens from Dividive, Venezuela.",
+                "num": null,
+                "content": "<table><tr><td>LD</td><td>0.96*</td><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>LM</td><td>0.23</td><td>0.09</td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>BMI</td><td>0.09</td><td>0.06</td><td>0.50*</td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>LIF</td><td>0.80*</td><td>0.83*</td><td>0.05</td><td>0.06</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>BR</td><td>0.79*</td><td>0.76*</td><td>0.27*</td><td>0.27*</td><td>0.62*</td><td/><td/><td/><td/><td/><td/></tr><tr><td>BPB</td><td>0.82*</td><td>0.82*</td><td>D.lO</td><td>0.06</td><td>0.68*</td><td>0.78*</td><td/><td/><td/><td/><td/></tr><tr><td>BZP</td><td>0.77*</td><td>0.74*</td><td>0.25*</td><td>0.10</td><td>0.66*</td><td>0.67*</td><td>0.73*</td><td/><td/><td/><td/></tr><tr><td>LIB</td><td>0.66*</td><td>0.63*</td><td>0.36*</td><td>0.20</td><td>0.53*</td><td>0.69*</td><td>0.60*</td><td>0.51*</td><td/><td/><td/></tr><tr><td>BB</td><td>0.60*</td><td colspan=\"2\">0.61* -0.04</td><td>-0.02</td><td>0.60*</td><td>0.48*</td><td>0.58*</td><td>0.40*</td><td>0.44*</td><td/><td/></tr><tr><td>DI</td><td>0.84*</td><td>0.76*</td><td>0.28*</td><td>0.15</td><td>0.63*</td><td>0.74*</td><td>0.77*</td><td>0.66*</td><td>0.53*</td><td>0.51*</td><td/></tr><tr><td>LOF</td><td>0.93*</td><td>0.89*</td><td>0.18</td><td>0.06</td><td>0.76*</td><td>0.75*</td><td>0.74*</td><td>0.71*</td><td>0.57*</td><td>0.62*</td><td>0.80*</td></tr><tr><td/><td>CIL</td><td>LD</td><td>LM</td><td>BMI</td><td>LIF</td><td>BR</td><td>BPB</td><td>BZP</td><td>LIB</td><td>BB</td><td/></tr></table>"
+            },
+            "TABREF3": {
+                "type_str": "table",
+                "text": "Total variance oflog-transformed measurements (the trace ofthe covariance matrix) and eigenvalues for the first six principal components of 15 Zygodontomys population samples. (All tabulated values x 10.)",
+                "num": null,
+                "content": "<table><tr><td>Eigenvalues</td></tr></table>"
+            },
+            "TABREF4": {
+                "type_str": "table",
+                "text": "Variable coefficients of the first principal components of 15 Zygodontomys population samples.",
+                "num": null,
+                "content": "<table><tr><td/><td/><td/><td/><td/><td colspan=\"2\">Populations</td><td/><td/><td/><td/></tr><tr><td>Variables</td><td>BBF</td><td>CER</td><td>DIY</td><td>FVL</td><td>HAT</td><td>ISL</td><td>KAY</td><td>LIM</td><td>MIS</td><td>MON</td></tr><tr><td>CIL</td><td>0.290</td><td>0.284</td><td>0.274</td><td>0.275</td><td>0.268</td><td>0.269</td><td>0.293</td><td>0.257</td><td>0.286</td><td>0.272</td></tr><tr><td>LD</td><td>0.422</td><td>0.369</td><td>0.351</td><td>0.368</td><td>0.399</td><td>0.344</td><td>0.403</td><td>0.316</td><td>0.382</td><td>0.382</td></tr><tr><td>LM</td><td>0.074</td><td>0.040</td><td>0.044</td><td>0.068</td><td>0.024</td><td>0.008</td><td>0.033</td><td>0.057</td><td>0.016</td><td>0.040</td></tr><tr><td>BMI</td><td>-0.006</td><td>0.01l</td><td>0.029</td><td>0.071</td><td>0.081</td><td>0.037</td><td>0.026</td><td>0.069</td><td>0.048</td><td>0.037</td></tr><tr><td>LIF</td><td>0.287</td><td>0.307</td><td>0.284</td><td>0.290</td><td>0.251</td><td>0.284</td><td>0.294</td><td>0.282</td><td>0.283</td><td>0.340</td></tr><tr><td>BR</td><td>0.327</td><td>0.287</td><td>0.356</td><td>0.306</td><td>0.287</td><td>0.335</td><td>0.242</td><td>0.295</td><td>0.301</td><td>0.336</td></tr><tr><td>BPB</td><td>0.406</td><td>0.442</td><td>0.413</td><td>0.430</td><td>0.455</td><td>0.368</td><td>0.435</td><td>0.505</td><td>0.444</td><td>0.422</td></tr><tr><td>BZP</td><td>0.411</td><td>0.420</td><td>0.391</td><td>0.490</td><td>0.446</td><td>0.390</td><td>0.428</td><td>0.491</td><td>0.362</td><td>0.418</td></tr><tr><td>LIB</td><td>0.164</td><td>0.130</td><td>0.179</td><td>0.146</td><td>0.1l0</td><td>0.129</td><td>0.117</td><td>0.140</td><td>0.169</td><td>0.134</td></tr><tr><td>BB</td><td>0.1l0</td><td>0.101</td><td>0.093</td><td>0.094</td><td>0.124</td><td>0.108</td><td>0.128</td><td>0.1l8</td><td>0.1l4</td><td>0.129</td></tr><tr><td>DI</td><td>0.325</td><td>0.395</td><td>0.399</td><td>0.316</td><td>0.358</td><td>0.481</td><td>0.358</td><td>0.283</td><td>0.414</td><td>0.306</td></tr><tr><td>LOF</td><td>0.253</td><td>0.225</td><td>0.261</td><td>0.214</td><td>0.235</td><td>0.259</td><td>0.271</td><td>0.224</td><td>0.240</td><td>0.260</td></tr></table>"
+            },
+            "TABREF5": {
+                "type_str": "table",
+                "text": "Variable coefficients of the second principal components of 15 Zygodontomys population samples.",
+                "num": null,
+                "content": "<table><tr><td/><td/><td/><td/><td>Populations</td><td/><td/><td/></tr><tr><td>Variables</td><td>BBF</td><td>CER</td><td>DIY</td><td>FVL</td><td>HAT</td><td>ISL</td><td>KAY</td></tr><tr><td>CIL</td><td>0.058</td><td>0.107</td><td>-0.072</td><td>0.122</td><td>0.069</td><td>0.143</td><td>-0.013</td></tr><tr><td>LD</td><td>0.104</td><td>0.186</td><td>-0.268</td><td>0.214</td><td>-0.201</td><td>0.211</td><td>0.029</td></tr><tr><td>LM</td><td>0.140</td><td>-0.109</td><td>0.450</td><td>-0.162</td><td>0.412</td><td>0.046</td><td>0.157</td></tr><tr><td>BMI</td><td>0.023</td><td>0.066</td><td>0.457</td><td>0.125</td><td>0.431</td><td>0.221</td><td>0.146</td></tr><tr><td>LIF BR</td><td>-0.102 0.046</td><td>0.431 -0.062</td><td>-0.417 0.440</td><td>0.339 0.381</td><td>-0.098 -0.001</td><td>0.440 -0.020</td><td>0.000 0.026</td></tr><tr><td>BPB BZP</td><td>0.346 -0.817</td><td>-0.219 -0.708</td><td>-0.064 -0.038</td><td>0.179 -0.763</td><td>-0.571 0.337</td><td>-0.785 -0.161</td><td>0.695 -0.652</td></tr><tr><td>LIB</td><td>0.359</td><td>-0.107</td><td>0.276</td><td>-0.147</td><td>0.046</td><td>0.036</td><td>0.101</td></tr><tr><td>BB</td><td>0.083</td><td>0.026</td><td>-0.121</td><td>0.016</td><td>-0.064</td><td>-0.033</td><td>0.049</td></tr><tr><td>DI LOF</td><td>0.148 0.090</td><td>0.391 0.182</td><td>0.188 -0.112</td><td>0.002 -0.043</td><td>0.365 0.101</td><td>0.153 0.149</td><td>-0.178 -0.003</td></tr></table>"
+            },
+            "TABREF6": {
+                "type_str": "table",
+                "text": "Percent of total variance (calculated from variance components) partitioned among sex, \"age\" (= toothwear class), and sex x \"age\" interaction for first principal component (PCl) scores and residual log-measurement values in the Dividive population sample. Results of mixed-model ANOV As testing for the fixed effects of sex, age, and sex x age interaction on the log-transformed measurements of 120 captive-bred specimens of Zygodontomys. Degrees of freedom for sex(1), age (2), interaction (2), family (19), and error (95) are the same for all measurement variables analyzed.",
+                "num": null,
+                "content": "<table><tr><td/><td/><td/><td/><td/><td>Sex</td><td>\"Age\"</td><td>Inter-action</td><td>Error</td></tr><tr><td/><td/><td/><td/><td>PCl scores</td><td>1.5</td><td>52.5</td><td>3.5</td><td>42.4</td></tr><tr><td/><td/><td/><td/><td>Residuals</td><td/><td/><td/></tr><tr><td/><td/><td/><td/><td>CIL</td><td>17.1</td><td>0.0</td><td>0.8</td><td>82.0</td></tr><tr><td/><td/><td/><td/><td>LD</td><td>9.3</td><td>0.0</td><td>1.9</td><td>88.8</td></tr><tr><td/><td/><td/><td/><td>LM</td><td>0.0</td><td>14.8</td><td>0.0</td><td>85.2</td></tr><tr><td/><td/><td/><td/><td>BMI</td><td>0.7</td><td>0.0</td><td>0.0</td><td>99.3</td></tr><tr><td/><td/><td/><td/><td>LIF</td><td>0.0</td><td>2.2</td><td>3.0</td><td>94.8</td></tr><tr><td/><td/><td/><td/><td>BR</td><td>0.0</td><td>2.0</td><td>1.7</td><td>96.3</td></tr><tr><td/><td/><td/><td/><td>BPB</td><td>15.9</td><td>3.8</td><td>0.0</td><td>80.3</td></tr><tr><td/><td/><td/><td/><td>BZP</td><td>4.6</td><td>2.6</td><td>0.0</td><td>92.8</td></tr><tr><td/><td/><td/><td/><td>LIB</td><td>3.3</td><td>11.7</td><td>0.0</td><td>84.9</td></tr><tr><td/><td/><td/><td/><td>BB</td><td>5.6</td><td>3.2</td><td>0.0</td><td>91.2</td></tr><tr><td/><td/><td/><td/><td>DI</td><td>0.0</td><td>0.0</td><td>0.4</td><td>99.6</td></tr><tr><td/><td/><td/><td/><td>LOF</td><td>4.6</td><td>7.6</td><td>0.0</td><td>87.9</td></tr><tr><td/><td/><td/><td/><td colspan=\"5\">molar toothwear) accounts for a substantial</td></tr><tr><td/><td/><td/><td/><td colspan=\"5\">amount of dispersion along each sample</td></tr><tr><td/><td/><td/><td/><td colspan=\"5\">principal axis, and that residual sample dis-</td></tr><tr><td/><td/><td/><td/><td colspan=\"5\">persion is apparently not attributable to</td></tr><tr><td/><td/><td/><td/><td colspan=\"5\">either tangible cause for which we have ev-</td></tr><tr><td/><td/><td/><td/><td colspan=\"5\">idence. Since these data represent obser-</td></tr><tr><td/><td/><td/><td/><td colspan=\"5\">vations of unmanipulated systems, how-</td></tr><tr><td/><td/><td/><td/><td colspan=\"5\">ever, it is prudent to attempt corroboration</td></tr><tr><td/><td/><td/><td/><td colspan=\"2\">by experiment.</td><td/><td/></tr><tr><td/><td/><td/><td/><td colspan=\"5\">Age and Sex Effects in Captive-Bred</td></tr><tr><td/><td/><td/><td/><td/><td colspan=\"2\">Specimens</td><td/></tr><tr><td/><td/><td/><td/><td colspan=\"5\">Tests for sex, age, and sex x age inter-</td></tr><tr><td/><td/><td/><td/><td colspan=\"5\">action effects in each measurement variable</td></tr><tr><td/><td/><td/><td/><td colspan=\"5\">among captive-bred specimens yield results</td></tr><tr><td/><td/><td/><td/><td colspan=\"5\">that merit attention before proceeding to</td></tr><tr><td/><td/><td/><td colspan=\"2\">TABLE 5. Extended.</td><td/><td/><td/></tr><tr><td/><td/><td/><td colspan=\"2\">Population</td><td/><td/><td/></tr><tr><td>LIM</td><td>MIS</td><td>MON</td><td>PAR</td><td>RIO</td><td>SAN</td><td>URA</td><td/><td>VIL</td></tr><tr><td>0.082</td><td>-0.089</td><td>-0.065</td><td>-0.089</td><td>-0.010</td><td>0.101</td><td>0.044</td><td/><td>0.087</td></tr><tr><td>0.073</td><td>-0.082</td><td>-0.256</td><td>-0.260</td><td>-0.081</td><td>-0.055</td><td>-0.139</td><td/><td>-0.055</td></tr><tr><td>0.340</td><td>0.208</td><td>0.054</td><td>-0.007</td><td>0.032</td><td>0.399</td><td>0.222</td><td/><td>0.264</td></tr><tr><td>0.068</td><td>0.241</td><td>0.262</td><td>0.166</td><td>0.257</td><td>0.246</td><td>0.466</td><td/><td>0.180</td></tr><tr><td>0.223</td><td>0.026</td><td>-0.578</td><td>-0.682</td><td>-0.042</td><td>-0.111</td><td>-0.284</td><td/><td>-0.172</td></tr><tr><td>-0.008</td><td>0.401</td><td>0.168</td><td>0.109</td><td>-0.053</td><td>0.146</td><td>0.056</td><td/><td>0.230</td></tr><tr><td>-0.638</td><td>0.322</td><td>-0.157</td><td>0.196</td><td>-0.357</td><td>-0.721</td><td>-0.463</td><td/><td>-0.419</td></tr><tr><td>0.592</td><td>-0.776</td><td>0.303</td><td>-0.141</td><td>0.759</td><td>0.200</td><td>0.417</td><td/><td>-0.273</td></tr><tr><td>-0.110</td><td>0.077</td><td>-0.055</td><td>0.002</td><td>0.044</td><td>0.232</td><td>-0.244</td><td/><td>-0.020</td></tr><tr><td>-0.046</td><td>0.082</td><td>-0.120</td><td>0.160</td><td>0.107</td><td>0.116</td><td>0.005</td><td/><td>-0.034</td></tr><tr><td>-0.188</td><td>0.054</td><td>0.594</td><td>0.545</td><td>-0.453</td><td>0.275</td><td>0.416</td><td/><td>0.710</td></tr><tr><td>-0.103</td><td>0.031</td><td>0.094</td><td>0.197</td><td>-0.006</td><td>0.177</td><td>0.079</td><td/><td>0.221</td></tr></table>"
+            },
+            "TABREF7": {
+                "type_str": "table",
+                "text": "Comparisons of first principal component coefficients and eigenvalues for wild-collected and captive-bred samples ofZygodontomysfrom Hato El Frio. Statistics for the wild-collected sample are summarized by bootstrap-estimated means and standard errors.",
+                "num": null,
+                "content": "<table><tr><td/><td colspan=\"2\">Wild-coUected sample (N=48) Mean SE</td><td>Captive-bred sample (N= 120)</td></tr><tr><td>Coefficients</td><td/><td/><td/></tr><tr><td>elL</td><td>0.269</td><td>0.010</td><td>0.279</td></tr><tr><td>LD</td><td>0.400</td><td>0.013</td><td>0.346</td></tr><tr><td>LM</td><td>0.025</td><td>0.026</td><td>0.054</td></tr><tr><td>BMI</td><td>0.082</td><td>0.025</td><td>0.083</td></tr><tr><td>LIF</td><td>0.251</td><td>0.027</td><td>0.265</td></tr><tr><td>BR</td><td>0.287</td><td>0.022</td><td>0.278</td></tr><tr><td>BPB</td><td>0.454</td><td>0.027</td><td>0.408</td></tr><tr><td>BZP</td><td>0.447</td><td>0.026</td><td>0.467</td></tr><tr><td>LIB</td><td>0.110</td><td>0.022</td><td>0.106</td></tr><tr><td>BB</td><td>0.124</td><td>0.013</td><td>0.104</td></tr><tr><td>DI</td><td>0.358</td><td>0.038</td><td>0.426</td></tr><tr><td>LOF</td><td>0.230</td><td>0.015</td><td>0.239</td></tr><tr><td>Eigenvalue</td><td>0.049</td><td>0.008</td><td>0.046</td></tr></table>"
+            },
+            "TABREF10": {
+                "type_str": "table",
+                "text": "Extended.",
+                "num": null,
+                "content": "<table><tr><td/><td/><td/><td>Populations</td><td/><td/><td/><td/></tr><tr><td>LIM</td><td>MIS</td><td>MON</td><td>PAR</td><td>RIO</td><td>SAN</td><td>URA</td><td>VIL</td></tr></table>"
+            }
+        }
+    }
+}

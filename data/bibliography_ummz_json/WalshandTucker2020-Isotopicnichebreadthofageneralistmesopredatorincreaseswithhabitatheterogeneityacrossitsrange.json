@@ -1,0 +1,2357 @@
+{
+    "paper_id": "WalshandTucker2020-Isotopicnichebreadthofageneralistmesopredatorincreaseswithhabitatheterogeneityacrossitsrange",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:37:47.686647Z"
+    },
+    "title": "Isotopic niche breadth of a generalist mesopredator increases with habitat heterogeneity across its range",
+    "authors": [
+        {
+            "first": "Lisa",
+            "middle": [
+                "L"
+            ],
+            "last": "Walsh",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "North University",
+                "location": {
+                    "postCode": "1105, 48109",
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan",
+                    "country": "USA"
+                }
+            },
+            "email": "llwalsh@umich.edu"
+        },
+        {
+            "first": "Priscilla",
+            "middle": [
+                "K"
+            ],
+            "last": "Tucker",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "North University",
+                "location": {
+                    "postCode": "1105, 48109",
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan",
+                    "country": "USA"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Robert",
+            "middle": [
+                "R"
+            ],
+            "last": "Parmenter",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "North University",
+                "location": {
+                    "postCode": "1105, 48109",
+                    "settlement": "Ann Arbor",
+                    "region": "Michigan",
+                    "country": "USA"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Although generalists are becoming increasingly abundant and widespread, little is known about their response to ecological variation they encounter across their range. For example, the generalist's flexible diet is cited to help explain recent range expansions, but no study has directly examined this claim. Here, we use stable isotope values of the Virginia opossum (Didelphis virginiana), a true generalist, to examine an extension of MacArthur's habitat heterogeneity hypothesis for a single generalist species. If a generalist's diet reflects local food abundance, then more heterogeneous landscapes should result in broader niches. We used stable isotope analysis, landcover indices, and WorldClim data to further evaluate how the opossum's use of its environment varies across ancestral regions, expansion fronts, and regions of human-facilitated introductions. Niche breadth varied across its range, especially between expansion fronts. We found a positive relationship between landcover diversity and isotopic niche breadth. World-Clim variables linked to aridity and C 4 plant abundance were most strongly associated with nitrogen (d 15 N) and carbon (d 13 C) values, respectively. Our results reveal that a generalist's stable isotope signature reflects its local environment, demonstrating their flexible diet is captured with stable isotopes and supporting the generalist habitat heterogeneity hypothesis.",
+    "pdf_parse": {
+        "paper_id": "WalshandTucker2020-Isotopicnichebreadthofageneralistmesopredatorincreaseswithhabitatheterogeneityacrossitsrange",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Although generalists are becoming increasingly abundant and widespread, little is known about their response to ecological variation they encounter across their range. For example, the generalist's flexible diet is cited to help explain recent range expansions, but no study has directly examined this claim. Here, we use stable isotope values of the Virginia opossum (Didelphis virginiana), a true generalist, to examine an extension of MacArthur's habitat heterogeneity hypothesis for a single generalist species. If a generalist's diet reflects local food abundance, then more heterogeneous landscapes should result in broader niches. We used stable isotope analysis, landcover indices, and WorldClim data to further evaluate how the opossum's use of its environment varies across ancestral regions, expansion fronts, and regions of human-facilitated introductions. Niche breadth varied across its range, especially between expansion fronts. We found a positive relationship between landcover diversity and isotopic niche breadth. World-Clim variables linked to aridity and C 4 plant abundance were most strongly associated with nitrogen (d 15 N) and carbon (d 13 C) values, respectively. Our results reveal that a generalist's stable isotope signature reflects its local environment, demonstrating their flexible diet is captured with stable isotopes and supporting the generalist habitat heterogeneity hypothesis.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Scientists have long sought to understand how species are distributed and the underlying forces controlling species ranges. In 1917, the boundaries of an individual species' range were credited to physiological limitations to the environment (Grinnell 1917) , and a few years later, Elton defined a species' niche as its biotic position with predator and prey (Elton 1927 ). To better quantify a species' niche, Hutchinson proposed an n-dimensional hypervolume where the dimensions are the environmental conditions and resources that define a niche (Hutchinson 1957 ). This method of drawing niches informed the development of analyzing the isotopic niche (Bearhop et al. 2004) , typically depicted as an area drawn from two stable isotope ratios that inform a population's environment and diet. Isotopic niches have been leveraged to examine ecological concepts including the niche variation hypothesis and resource breadth hypothesis (Maldonado et al. 2017 , Rader et al. 2017 .",
+                "cite_spans": [
+                    {
+                        "start": 242,
+                        "end": 257,
+                        "text": "(Grinnell 1917)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 360,
+                        "end": 371,
+                        "text": "(Elton 1927",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 549,
+                        "end": 565,
+                        "text": "(Hutchinson 1957",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 656,
+                        "end": 677,
+                        "text": "(Bearhop et al. 2004)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 936,
+                        "end": 958,
+                        "text": "(Maldonado et al. 2017",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 959,
+                        "end": 978,
+                        "text": ", Rader et al. 2017",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "With climate change, human land-use modification, and the extirpation of apex predators, generalists including an array of mammals and birds are becoming more predominant in communities, in some cases expanding their range and entering new communities (Prugh et al. 2009 , Davey et al. 2011 ). Because of their broad diet, generalists can occupy numerous trophic levels within a food web, often making it difficult to predict their impacts on a community or how climate change will impact their populations (Prugh et al. 2009) . The literature examining how diet varies across a generalist's geographic range is limited. One study evaluating a generalist species across its range found that variation in diet was often linked to local food abundance (Terraube and Arroyo 2011), while a second study found dietary variation was constricted in highlatitude winters (Soe et al. 2017) .",
+                "cite_spans": [
+                    {
+                        "start": 252,
+                        "end": 270,
+                        "text": "(Prugh et al. 2009",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 271,
+                        "end": 290,
+                        "text": ", Davey et al. 2011",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 507,
+                        "end": 526,
+                        "text": "(Prugh et al. 2009)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 863,
+                        "end": 880,
+                        "text": "(Soe et al. 2017)",
+                        "ref_id": "BIBREF24"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "Despite the growing abundance of generalists in communities (Prugh et al. 2009) , nothing is known about isotopic niche patterns across a generalist's range. Ongoing range expansions of widespread mesopredators offer natural experiments to investigate isotopic niche variation across a variety of habitats and range locations. The broad geographic range (Fig. 1; Gardner and Sunquist 2003) and northward expansion of the Virginia opossum, Didelphis virginiana (Walsh and Tucker 2018) , provide an opportunity to evaluate how a generalist's isotopic niche changes with its environment and at the margins of its range.",
+                "cite_spans": [
+                    {
+                        "start": 60,
+                        "end": 79,
+                        "text": "(Prugh et al. 2009)",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 354,
+                        "end": 362,
+                        "text": "(Fig. 1;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 363,
+                        "end": 389,
+                        "text": "Gardner and Sunquist 2003)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 460,
+                        "end": 483,
+                        "text": "(Walsh and Tucker 2018)",
+                        "ref_id": "BIBREF32"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "The Virginia opossum (henceforth opossum) is a marsupial found from Central America to the Midwestern United States and southeastern Canada. The northward expansion of opossums is well documented in museum records (Walsh and Tucker 2018) , and their current northern margins are found west of the Great Lakes in North Dakota (Walsh et al. 2017) and east of the Great Lakes in Maine (Mosby, personal communication). Individual opossums are reported to consume a wide array of foods, that is, the opossum is a type A generalist (Gardner and Sunquist 2003, Bearhop et al. 2004) .",
+                "cite_spans": [
+                    {
+                        "start": 214,
+                        "end": 237,
+                        "text": "(Walsh and Tucker 2018)",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 325,
+                        "end": 344,
+                        "text": "(Walsh et al. 2017)",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 526,
+                        "end": 538,
+                        "text": "(Gardner and",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 539,
+                        "end": 574,
+                        "text": "Sunquist 2003, Bearhop et al. 2004)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "The habitat heterogeneity hypothesis states that heterogeneous and complex landscapes increase the number of niches and therefore are expected to accommodate more species (MacArthur 1972). Our primary objective was to evaluate a potential extension of the habitat heterogeneity hypothesis for a single generalist species-more heterogeneous landscapes result in the broadening of a generalist species' niche. Our secondary objective was to understand how local climate influences a generalist's isotopic signature.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "To examine how the opossum's isotopic niche varies across its range, six regions of interest were defined based on the timing of the opossum's expansion into temperate North America. Mesoamerica and the Gulf Coast were established as ancestral regions based on Pleistocene fossil records (Graham and Lundelius 2010) . The Midwest and Northeast were established as recent northward expansion regions, and the California Central Valley and California Coast were established as two regions occupied due to human-facilitated introductions ( Fig. 1 ). Because opossums are relatively nomadic, we conducted our analyses over broad regional spatial scales comparable with the scale required to detect genetic structure (Walsh and Tucker 2018) .",
+                "cite_spans": [
+                    {
+                        "start": 288,
+                        "end": 315,
+                        "text": "(Graham and Lundelius 2010)",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 712,
+                        "end": 735,
+                        "text": "(Walsh and Tucker 2018)",
+                        "ref_id": "BIBREF32"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 537,
+                        "end": 543,
+                        "text": "Fig. 1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Sample collection",
+                "sec_num": null
+            },
+            {
+                "text": "Between 20 and 42 individuals were sampled from adult museum skin specimens for each region for a total of 153 specimens sampled (Appendix S1), exceeding the minimum sample size of 5 required per region for stable isotope analyses (Clementz and Koch 2001) .",
+                "cite_spans": [
+                    {
+                        "start": 231,
+                        "end": 255,
+                        "text": "(Clementz and Koch 2001)",
+                        "ref_id": "BIBREF1"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Sample collection",
+                "sec_num": null
+            },
+            {
+                "text": "For each sample, approximately three whole guard hairs were treated with a 2:1 ratio of chloroform-methanol to remove lipids, dried under a fume hood at ambient temperature, diced, and weighed with a Mettler AE 240 balance (Toledo, Ohio, USA) to place 0.5-1.0 mg in a tin capsule. Duplicate capsules for each sample were sent to the University of New Mexico Center for Stable Isotopes (UNM-CSI) for stable isotope analysis of",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Stable isotope analysis",
+                "sec_num": null
+            },
+            {
+                "text": "d 13 C and d 15 N.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Stable isotope analysis",
+                "sec_num": null
+            },
+            {
+                "text": "To analyze organic substrates, UNM-CSI uses a Delta V mass spectrometer with a Conflo IV interface (Thermo Scientific, Waltham, Massachusetts, USA), 4010 elemental analyzer (Costech, Valencia, California, USA), and a high-temperature conversion elemental analyzer. Analytical error across 56 runs of the UNM-CSI protein standard (casein) was 0.1099 standard deviations (SD) for d 15 N and 0.0543 SD for d 13 C.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Stable isotope analysis",
+                "sec_num": null
+            },
+            {
+                "text": "The museum specimens evaluated for this research were collected across 100 yr. Because atmospheric carbon isotope ratios have decreased over the past century due to the influx of greenhouse gases derived from the burning of fossil fuels, we adjusted for time with a linear correction of \u00c00.005& per year between 1917 and 1961 and \u00c00.022& per year after 1961 (i.e., Chamberlain et al. 2005) .",
+                "cite_spans": [
+                    {
+                        "start": 365,
+                        "end": 389,
+                        "text": "Chamberlain et al. 2005)",
+                        "ref_id": "BIBREF0"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Stable isotope analysis",
+                "sec_num": null
+            },
+            {
+                "text": "The opossums' isotopic niche breadth was calculated for each of the six regions using the Bayesian ellipse method. By implementing Bayesian inference techniques in the R package SIBER v.2.1.3 (Jackson et al. 2011) when calculating the standard ellipse area (SEA B ), sampling error can be accounted for in the isotopic niche.",
+                "cite_spans": [
+                    {
+                        "start": 192,
+                        "end": 213,
+                        "text": "(Jackson et al. 2011)",
+                        "ref_id": "BIBREF11"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Isotopic niche evaluation",
+                "sec_num": null
+            },
+            {
+                "text": "Because analyses can be partially confounded by sampling regions of unequal geographic area (Stein et al. 2014) , two methods were implemented to evaluate the impact that geographic area might have on our calculated SEA B . First, the area of each of the six regions was estimated in ImageJ (https://imagej.nih.gov/ij/) by tracing the polygon created by collection points in a given region ( Fig. 1) and was evaluated for correlation with SEA B . For a less coarse approach, SEA B was calculated in SIBER v.2.1.3 (Jackson et al. 2011) for eight subsamples consisting of single or adjoining counties in which at least four opossums were sampled and assessed for correlation with the total land area of the subsamples available from county census records (n = 43; Appendix S1).",
+                "cite_spans": [
+                    {
+                        "start": 92,
+                        "end": 111,
+                        "text": "(Stein et al. 2014)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 513,
+                        "end": 534,
+                        "text": "(Jackson et al. 2011)",
+                        "ref_id": "BIBREF11"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 392,
+                        "end": 399,
+                        "text": "Fig. 1)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isotopic niche evaluation",
+                "sec_num": null
+            },
+            {
+                "text": "To evaluate whether habitat heterogeneity impacts isotopic niche breadth, landcover data from sampled countries were downloaded from https://data.terrapop.org/terraclip#. These landcover data from assign each geolocated grid cell of 1km resolution one of 22 landcover types (e.g., mixed leaf tree cover, herbaceous cover, broad-leaved evergreen tree cover, mosaic cropland, and tree cover; Fritz et al. 2003) . The R script to plot landcover can be found in Data S1. Landcover type for each opossum sample was extracted using its field collection coordinates. The 153 samples were collected from a total of 11 different landcover types (Appendix S1; Appendix S2: Fig. S1 ). The heterogeneity of the six regions was evaluated using four habitat diversity measurements: Simpson's diversity and evenness indexes and Shannon's diversity and evenness indexes. In our application of Simpson's and Shannon's equations, landcover types were treated as analogous to different species (Lausch and Herzog 2002 ; Appendix S2: Fig. S1 ). These diversity measurements (Table 1) were used to evaluate whether habitat heterogeneity of a region is positively correlated with its isotopic niche breadth.",
+                "cite_spans": [
+                    {
+                        "start": 390,
+                        "end": 408,
+                        "text": "Fritz et al. 2003)",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 975,
+                        "end": 998,
+                        "text": "(Lausch and Herzog 2002",
+                        "ref_id": "BIBREF14"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 663,
+                        "end": 670,
+                        "text": "Fig. S1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1014,
+                        "end": 1021,
+                        "text": "Fig. S1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1054,
+                        "end": 1063,
+                        "text": "(Table 1)",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isotopic niche evaluation",
+                "sec_num": null
+            },
+            {
+                "text": "To investigate differences in opossum isotope composition across habitat types, six landcover types were compared (each with n \u2265 7 opossum samples; total n = 133). To investigate the influence that abiotic variables have on opossum isotope composition, 10 climate variables were extracted from the WorldClim dataset (Hijmans et al. 2005) at 10 min resolution using the raster package in R (Hijmans 2015) . We used a generalized linear model (GLM) approach to evaluate which climate variables best explained d 13 C and d 15 N patterns. GLMs were designed in IBM SPSS version 26.0 with a normal response for the d 15 N dataset and a gamma response for a positively adjusted d 13 C dataset. Single covariate models were run for each WorldClim variable, and WorldClim variables that were not correlated were also used to build two-covariate and threecovariate models (all variance inflation factors \u2264 1.020). To avoid overfitting and favoring more complex models, model performances were measured with Bayesian information criterion (BIC) and compared by calculating DBIC (BIC i \u00c0 BIC MINIMUM ; Rafferty 1995, Barker and Link 2015) .",
+                "cite_spans": [
+                    {
+                        "start": 316,
+                        "end": 337,
+                        "text": "(Hijmans et al. 2005)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 389,
+                        "end": 403,
+                        "text": "(Hijmans 2015)",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 1091,
+                        "end": 1116,
+                        "text": "Rafferty 1995, Barker and",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1117,
+                        "end": 1127,
+                        "text": "Link 2015)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Isotopes and environmental variables",
+                "sec_num": null
+            },
+            {
+                "text": "In order to compare the opossum, a generalist, to previous stable isotope research on specialist mammals (e.g., Cotton et al. 2016 , Smiley et al. 2016 , we also evaluated the importance of the ten WorldClim variables for each isotope using conditional forest (CF) analysis with the party package in R (Strobl et al. 2008) . CF analysis is a classification and regression tree machine learning method that allows for assessment of non-parametric data and accounts for complex interactions including correlation between independent variables (Strobl et al. 2008) . For each isotope, 1000 trees were built using randomly selected WorldClim variables and aggregated. The number of variables to include in each tree was determined based on the forest that yielded the smallest root mean square error measured with the caret R package (Kuhn 2008 , Strobl et al. 2008 ). Because CF analysis does not output ",
+                "cite_spans": [
+                    {
+                        "start": 112,
+                        "end": 130,
+                        "text": "Cotton et al. 2016",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 131,
+                        "end": 151,
+                        "text": ", Smiley et al. 2016",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 302,
+                        "end": 322,
+                        "text": "(Strobl et al. 2008)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 541,
+                        "end": 561,
+                        "text": "(Strobl et al. 2008)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 830,
+                        "end": 840,
+                        "text": "(Kuhn 2008",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 841,
+                        "end": 861,
+                        "text": ", Strobl et al. 2008",
+                        "ref_id": "BIBREF27"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Isotopes and environmental variables",
+                "sec_num": null
+            },
+            {
+                "text": "From a sample of 153 opossums collected between 1917 and 2017 (Appendix S1), d 15 N values ranged from 4.35& to 13.98& (AE0.16 SD), and Suess-corrected d 13 C values ranged from \u00c024.99 to \u00c016.23& (AE0.20 SD; Appendix S2: Fig. S2 ). No region's isotope values were significantly correlated with the year in which they were collected (Spearman's P value \u2265 0.06). The isotopic niche breadth (SEA B ) varied across the opossum's geographic range, with the largest SEA B observed in Mesoamerica and the Midwest, followed by the Gulf Coast (Fig. 2) . The smallest SEA B included California's agricultural Central Valley, California's coast, and the Northeast (Fig. 2) . There was no correlation between SEA B and county geographic area (Pearson's r = \u00c00.490, P = 0.218; Appendix S2: Table S1 ). The correlation coefficient increased but remained non-significant when the six regions' SEA B were evaluated for correlation with geographic area (Pearson's r = 0.778, P = 0.069; Table 1 ). SEA B was positively correlated with Simpson's and Shannon's diversity indexes and Shannon's evenness index (Pearson's r \u2265 0.869, P \u2264 0.025; Table 1 ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 221,
+                        "end": 228,
+                        "text": "Fig. S2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 534,
+                        "end": 542,
+                        "text": "(Fig. 2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 653,
+                        "end": 661,
+                        "text": "(Fig. 2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 777,
+                        "end": 785,
+                        "text": "Table S1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 969,
+                        "end": 976,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 1121,
+                        "end": 1128,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isotopic niche evaluation",
+                "sec_num": null
+            },
+            {
+                "text": "There were significant differences in d 13 C values between landcover types (Kruskal-Wallis P = 0.021; Appendix S2: Fig. S3 ). Herbaceous cover had significantly higher d 13 C values compared to broad-leaved evergreen and broadleaved deciduous cover (Dunn's P \u2264 0.029). Similarly, cultivated areas had significantly enriched d 13 C values compared to broad-leaved evergreen and broad-leaved deciduous cover, along with needle-leaved evergreen cover (Dunn's P \u2264 0.046).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 116,
+                        "end": 123,
+                        "text": "Fig. S3",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isotopes and environmental variables",
+                "sec_num": null
+            },
+            {
+                "text": "For d 15 N, the best performing GLM was mean temperature in the wettest quarter + annual precipitation (BIC = 640.064; parameter estimates = 0.051 AE 0.0186 SE, \u00c00.002 AE 0.0004 SE; P values = 0.006, <0.001 respectively; Table 2 ). When compared to the best performing model, only one GLM had a DBIC less than two, a value that demonstrates there is only weak support for one model over the other (Rafferty 1995 ). This competitive model included mean temperature in wettest quarter + precipitation in the driest quarter (DBIC = 0.621; parameter estimates = 0.049 AE 0.0186 SE, \u00c00.006 AE 0.0015 SE; P values = 0.009 and < 0.001 respectively; Table 2 ). There was strong evidence both of these models Fig. 2 . Isotopic niche breadth of Virginia opossums (Didelphis virginiana) in six regions calculated as the Bayesian standard ellipse area (SEA B ). Regions are arranged, left to right, from smallest to largest isotopic niche breadth (CA, California). Black dots indicate the mode of the region's niche breadth and shaded boxes represent 50%, 75%, and 95% credible ellipse intervals, respectively. performed better than the null model (DBIC = 9.819; Table 2 ; Rafferty 1995).",
+                "cite_spans": [
+                    {
+                        "start": 397,
+                        "end": 411,
+                        "text": "(Rafferty 1995",
+                        "ref_id": "BIBREF21"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 221,
+                        "end": 228,
+                        "text": "Table 2",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 642,
+                        "end": 649,
+                        "text": "Table 2",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 700,
+                        "end": 706,
+                        "text": "Fig. 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1151,
+                        "end": 1158,
+                        "text": "Table 2",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isotopes and environmental variables",
+                "sec_num": null
+            },
+            {
+                "text": "For d 13 C, the best performing GLM was maximum temperature (BIC = 593.22; parameter estimate = 0.048 AE 0.0117 SE; P value < 0.001; Table 3 ). There were one additional GLM with substantial support, which included mean temperature in the wettest quarter (DBIC = 0.684; parameter estimate = 0.021 AE 0.0051 SE; p value < 0.001; Table 3 ). There was very strong evidence both of these models performed better than the null model (DBIC = 10.917; Table 3 ; Rafferty 1995).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 133,
+                        "end": 140,
+                        "text": "Table 3",
+                        "ref_id": "TABREF2"
+                    },
+                    {
+                        "start": 328,
+                        "end": 335,
+                        "text": "Table 3",
+                        "ref_id": "TABREF2"
+                    },
+                    {
+                        "start": 444,
+                        "end": 451,
+                        "text": "Table 3",
+                        "ref_id": "TABREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isotopes and environmental variables",
+                "sec_num": null
+            },
+            {
+                "text": "The conditional forest analysis found that the 10 WorldClim variables selected explained 19.63% of the variance in d 15 N data and 13.53% of the variance in d 13 C data. The WorldClim variable with the highest importance for nitrogen isotopic composition of opossum guard hairs was annual precipitation, followed by precipitation in the driest quarter (Fig. 3A) . The WorldClim variable with the highest importance for carbon isotopic composition of opossum guard hairs was precipitation in the coldest quarter, followed by mean temperature in the wettest quarter (Fig. 3B) . Precipitation variables were negatively correlated with d 15 N values (Spearman's P \u2264 0.027; Table 4 ), and temperature variables Notes: P, precipitation; Q, quarter; T, temperature; and BIC, Bayesian information criterion. These models performed significantly better than the null, intercept only, model (Rafferty 1995). Notes: Q, quarter; T, temperature; and BIC, Bayesian information criterion. These models performed significantly better than the null, intercept only, model (Rafferty 1995) . were positively correlated with d 13 C values (Table 4) .",
+                "cite_spans": [
+                    {
+                        "start": 1055,
+                        "end": 1070,
+                        "text": "(Rafferty 1995)",
+                        "ref_id": "BIBREF21"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 352,
+                        "end": 361,
+                        "text": "(Fig. 3A)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 564,
+                        "end": 573,
+                        "text": "(Fig. 3B)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 669,
+                        "end": 676,
+                        "text": "Table 4",
+                        "ref_id": "TABREF3"
+                    },
+                    {
+                        "start": 1119,
+                        "end": 1128,
+                        "text": "(Table 4)",
+                        "ref_id": "TABREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isotopes and environmental variables",
+                "sec_num": null
+            },
+            {
+                "text": "We used the opossum, a type A generalist experiencing a range expansion, as a system to study variation in stable isotope values and niche breadth across a broad spatial scale. Temporal expansions and contractions of isotopic niches have been observed from the Holocene through the modern-day samples of small rodents in the Great Basin (Terry 2017). Our results demonstrate that variation in niche size can also occur spatially, as populations span different environmental and climatic conditions. Our analysis supports the hypothesis that the isotopic niche breadth will vary across a generalist's range in correlation with habitat ( Fig. 2; Table 1) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 636,
+                        "end": 652,
+                        "text": "Fig. 2; Table 1)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "In a study that manipulated barley fields to vary habitat heterogeneity, biologists found that individual diets of generalist arthropods were more variable in the heterogeneous fields. Our range-wide results of a mammalian mesopredator, along with the site-specific study on arthropod generalists (Staudacher et al. 2017) , support the generalist habitat heterogeneity hypothesis. To further understand isotopic niche trends in generalists, we suggest sampling type A and type B generalists, as well as specialists, across various degrees of habitat heterogeneity to bolster statistical power and compare results across species.",
+                "cite_spans": [
+                    {
+                        "start": 297,
+                        "end": 321,
+                        "text": "(Staudacher et al. 2017)",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "DISCUSSION",
+                "sec_num": null
+            },
+            {
+                "text": "d 15 N values were primarily driven by precipitation patterns: Areas with lower precipitation and higher temperatures during precipitation extremes had higher d 15 N values (Fig. 3A) . Based on our GLM results, for every Celsius degree increase in mean temperature during the wettest quarter, opossum d 15 N increased by 0.051&, and for every millimeter increase of rain, d 15 N decreased by 0.002&. Aridity is known to enrich the nitrogen isotopic composition of soils and vegetation, but this signal can be lost in localized assessment due to other processes that drive d 15 N patterns in microhabitats (Pardo and Nadelhoffer 2010) . Our ability to detect a relationship between nitrogen composition and precipitation across a large geographic scale is consistent with a study on two heteromyid rodent species in western North America (Smiley et al. 2016) .",
+                "cite_spans": [
+                    {
+                        "start": 605,
+                        "end": 633,
+                        "text": "(Pardo and Nadelhoffer 2010)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 837,
+                        "end": 857,
+                        "text": "(Smiley et al. 2016)",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 173,
+                        "end": 182,
+                        "text": "(Fig. 3A)",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isotope patterns",
+                "sec_num": null
+            },
+            {
+                "text": "Herbaceous and cultivated landcover types, which are often dominated by C 4 plants, were associated with opossums with higher d 13 C values than opossums found in predominantly C 3 forest landcover types (Appendix S2: Fig. S3 ). Based on our GLM results, for every Celsius degree increase in maximum temperature experienced, opossum d 13 C increased by 0.048&, and for every degree increase in mean temperature during the wettest quarter, d 13 C increased by 0.021&. In general, the WorldClim variables that had the highest importance for d 13 C values ( Fig. 3B ) and strongest performing models (Table 3 ) also predict the relative abundance of C 3 and C 4 plant growth-areas with less rain and warmer temperature, climate conditions that are more conducive for C 4 grasses than for C 3 vegetation (Terri and Stowe 1976) , had higher d 13 C values. Interestingly, even though opossums are omnivorous generalists, the climate patterns that best predict d 13 C values across their range are consistent with similarly broad spatial studies that evaluated large obligate grazers and small herbivores (Cotton et al. 2016 , Smiley et al. 2016 .",
+                "cite_spans": [
+                    {
+                        "start": 800,
+                        "end": 822,
+                        "text": "(Terri and Stowe 1976)",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 1098,
+                        "end": 1117,
+                        "text": "(Cotton et al. 2016",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 1118,
+                        "end": 1138,
+                        "text": ", Smiley et al. 2016",
+                        "ref_id": "BIBREF23"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 218,
+                        "end": 225,
+                        "text": "Fig. S3",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 555,
+                        "end": 562,
+                        "text": "Fig. 3B",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 597,
+                        "end": 605,
+                        "text": "(Table 3",
+                        "ref_id": "TABREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Isotope patterns",
+                "sec_num": null
+            },
+            {
+                "text": "WorldClim variables are averaged measurements from 1970 to 2000, and these data are approximate climate variables, especially for opossums collected outside of the 30-yr World-Clim window. The explanatory power of climate variation was low (<20%) for both isotopes in CF analysis, and parameter estimates from the topperforming GLMs were significant but subtle. This may in part be due to sampling from across multiple climatic regimes in North America which could amplify the noise of isotopic signals caused by local ecosystem processes and ecophysiological differences between plant species (Lajtha and Marshall 1994, Pardo and Nadelhoffer 2010) . This may also be due to the strong influence that human land-use (e.g., urbanization and agriculture) has on mammal communities, especially generalists (Rowe and Terry 2014) . The isotopic composition of a consumer is a combination of an animal's foraging behavior and the isoscape in which they are foraging (Yeakel et al. 2016) , so it is reasonable for climate not to explain all the variance detected in a relatively nomadic generalist species (Gardner and Sunquist 2003) . As a type A generalist (Gardner and Sunquist 2003, Bearhop et al. 2004) , the opossum's isotopic signature may offer a method to assess the isoscape of broad geographic areas. Our results demonstrate that their d 13 C and d 15 N values are impacted by both the local climate and landcover type. However, because the isotopic values of basal resources vary across space and time (Lajtha and Marshall 1994 , Pardo and Nadelhoffer 2010 , Yeakel et al. 2016 , our dataset cannot be used to directly compare the opossums' diets. To resolve this, primary consumers collected from the same site and year should be analyzed to serve as isotopic baselines to correct each opossum's d 13 C and d 15 N values (e.g., Olsson et al. 2009) .",
+                "cite_spans": [
+                    {
+                        "start": 594,
+                        "end": 605,
+                        "text": "(Lajtha and",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 606,
+                        "end": 630,
+                        "text": "Marshall 1994, Pardo and",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 631,
+                        "end": 648,
+                        "text": "Nadelhoffer 2010)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 803,
+                        "end": 824,
+                        "text": "(Rowe and Terry 2014)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 960,
+                        "end": 980,
+                        "text": "(Yeakel et al. 2016)",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 1099,
+                        "end": 1126,
+                        "text": "(Gardner and Sunquist 2003)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 1152,
+                        "end": 1164,
+                        "text": "(Gardner and",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 1165,
+                        "end": 1200,
+                        "text": "Sunquist 2003, Bearhop et al. 2004)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1507,
+                        "end": 1532,
+                        "text": "(Lajtha and Marshall 1994",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 1533,
+                        "end": 1561,
+                        "text": ", Pardo and Nadelhoffer 2010",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 1562,
+                        "end": 1582,
+                        "text": ", Yeakel et al. 2016",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 1834,
+                        "end": 1853,
+                        "text": "Olsson et al. 2009)",
+                        "ref_id": "BIBREF17"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Isotope patterns",
+                "sec_num": null
+            },
+            {
+                "text": "The two regions with expansion fronts, the Midwest and Northeast, did not have similar isotopic niche breadths-the Midwest represented one of the largest niches while the Northeast had the smallest niche (Fig. 2) . This difference may be due to the comparative homogeneity of the habitat and climate in the Northeast (Table 1) . In addition to encompassing all habitats found in the Northeast, the Midwest included both herbaceous and shrub covers (Appendix S2: Fig. S1 ). The more heterogeneous habitats in the Midwest (Table 1) that include herbaceous and shrub cover may include a greater variety of C 3 :C 4 plant ratios, resulting in a broader distribution of d 13 C values measured in Midwestern opossums. Similarly, the range of annual precipitation in the Midwest is greater (592 mm range) than in the Northeast (362 mm range). This larger range of precipitation may drive greater variation in d 15 N values in the Midwest. The contrasting isotopic results from the opossum range expansions in the Midwest and Northeast highlight the importance of understanding how local habitat and climate influence the ecology of generalist and mesopredator range expansions.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 204,
+                        "end": 212,
+                        "text": "(Fig. 2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 317,
+                        "end": 326,
+                        "text": "(Table 1)",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 462,
+                        "end": 469,
+                        "text": "Fig. S1",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 520,
+                        "end": 529,
+                        "text": "(Table 1)",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Range expansion",
+                "sec_num": null
+            },
+            {
+                "text": "Because opossums do not have a restricted or preferential diet (Gardner and Sunquist 2003) , their stable isotope values should mirror the prey abundance and isotopic variation of the dietary resources in the habitat in which they are foraging. This is congruent with our results-their stable isotopes reflect their local habitat. Further comparative studies could tease apart whether this flexibility is common in both type A and type B generalists and whether this signal is restricted to generalists.",
+                "cite_spans": [
+                    {
+                        "start": 63,
+                        "end": 90,
+                        "text": "(Gardner and Sunquist 2003)",
+                        "ref_id": "BIBREF6"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Range expansion",
+                "sec_num": null
+            },
+            {
+                "text": "The UNM Center for Stable Isotopes staff analyzed stable isotope ratios. Catherine Badgley, Ben Dantzer, Alison Davis Rabosky, and Tara Smiley provided guidance in design and assessment. This research was supported by a Grant-in-aid of Research from the American Society of Mammalogists, Phi Kappa Phi Society Michigan Chapter, and funds from the University of Michigan's Ecology and Evolutionary Biology Department. We thank the following institutions for providing destructive sample loans of hair (full institution titles in Appendix S1): ASNHC, CCBER, CRCM, CSUC, CSULB, CUMV, FMNH, HSU, LACM, LSU, MCZ, MSB, MSU, MVZ, NYSM, OMNH, OWC, ROM, TTU, UAM, UMMZ, USNM, and UWBM.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACKNOWLEDGMENTS",
+                "sec_num": null
+            },
+            {
+                "text": "Barker, R. J., and W. A. Link. 2015. Truth, models, model sets, AIC, and multimodel inference: a Bayesian perspective. Journal of Wildlife Management 79:730-738. Bearhop, S., C. E. Adams, S. Waldron, R. A. Fuller, and H. Macleod. 2004 . Determining trophic niche width: a novel approach using stable isotope analysis. Journal of Animal Ecology 73:1007-1012.",
+                "cite_spans": [
+                    {
+                        "start": 22,
+                        "end": 51,
+                        "text": "A. Link. 2015. Truth, models,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 203,
+                        "end": 234,
+                        "text": "A. Fuller, and H. Macleod. 2004",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "LITERATURE CITED",
+                "sec_num": null
+            },
+            {
+                "text": "December 2020 v Volume 11(12) v Article e03314",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "v www.esajournals.org 2 December 2020 v Volume 11(12) v Article e03314",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "v www.esajournals.org",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "December 2020 v Volume 11(12) v Article e03314 WALSH AND TUCKER",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "v www.esajournals.org 4 December 2020 v Volume 11(12) v Article e03314",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "v www.esajournals.org 6 December 2020 v Volume 11(12) v Article e03314 WALSH AND TUCKER",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "v www.esajournals.org 8 December 2020 v Volume 11(12) v Article e03314 WALSH AND TUCKER",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "December 2020 v Volume 11(12) v Article e03314",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "Additional Supporting Information may be found online at: http://onlinelibrary.wiley.com/doi/10.1002/ecs2. 3314/full v www.esajournals.org",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "SUPPORTING INFORMATION",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Pleistocene to recent dietary shifts in California condors",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Chamberlain",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Waldbauer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Fox-Dobbs",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Newsome",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Koch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Church",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Chamberlain",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Sorenson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Risebrough",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+                "volume": "102",
+                "issue": "",
+                "pages": "16707--16711",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chamberlain, C. P., J. R. Waldbauer, K. Fox-Dobbs, S. D. Newsome, P. L. Koch, D. R. Smith, M. E. Church, S. D. Chamberlain, K. J. Sorenson, and R. Risebrough. 2005. Pleistocene to recent dietary shifts in California condors. Proceedings of the National Academy of Sciences of the United States of America 102:16707-16711.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Differentiating aquatic mammal habitat and foraging ecology with stable isotopes in tooth enamel",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Clementz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Koch",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Oecologia",
+                "volume": "129",
+                "issue": "",
+                "pages": "461--472",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Clementz, M. T., and P. L. Koch. 2001. Differentiating aquatic mammal habitat and foraging ecology with stable isotopes in tooth enamel. Oecologia 129:461- 472.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Climate, CO 2 , and the history of North American grasses since the Last Glacial Maximum",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Cotton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Cerling",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Hoppe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Mosier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Still",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Science Advances",
+                "volume": "2",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cotton, J. M., T. E. Cerling, K. A. Hoppe, T. M. Mosier, and C. J. Still. 2016. Climate, CO 2 , and the history of North American grasses since the Last Glacial Maximum. Science Advances 2:e1501346.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Rise of the generalists: evidence for climate driven homogenization in avian communities",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Davey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Chamberlain",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Newson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Noble",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Johnston",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Global Ecology and Biogeography",
+                "volume": "21",
+                "issue": "",
+                "pages": "568--578",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Davey, C. M., D. E. Chamberlain, S. E. Newson, D. G. Noble, and A. Johnston. 2011. Rise of the general- ists: evidence for climate driven homogenization in avian communities. Global Ecology and Biogeogra- phy 21:568-578.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Animal ecology. Sidgwick and Jackson",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Elton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1927,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Elton, C. S. 1927. Animal ecology. Sidgwick and Jack- son, London, UK.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Harmonisation, mosaicing and production of the Global Land Cover 2000 database (Beta Version)",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Fritz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "EUR 20849 EN, Luxembourg Office for Official Publications of the European Communities",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fritz, S., et al. 2003. Harmonisation, mosaicing and production of the Global Land Cover 2000 data- base (Beta Version). Luxembourg, Luxembourg: European Commission: EUR 20849 EN, Luxem- bourg Office for Official Publications of the Euro- pean Communities.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Opossum. Pages 3-29 in",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Gardner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Sunquist",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Wild mammals of North America: biology, management, and conservation",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gardner, A. L., and M. E. Sunquist. 2003. Opossum. Pages 3-29 in G. A. Feldhamer, B. C. Thompson and J. A. Chapman, editors. Wild mammals of North America: biology, management, and conser- vation. Johns Hopkins University Press, Baltimore, Maryland, USA.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "FAUN-MAP II: new data for North America with a temporal extension for the Blancan, Irvingtonian and early Rancholabrean. FAUNMAP II Database version 1",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Graham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lundelius",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1917,
+                "venue": "The Auk",
+                "volume": "34",
+                "issue": "",
+                "pages": "427--433",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Graham, R. W., and E. L. Jr Lundelius. 2010. FAUN- MAP II: new data for North America with a tem- poral extension for the Blancan, Irvingtonian and early Rancholabrean. FAUNMAP II Database ver- sion 1.0: http://www.ucmp.berkeley.edu/faunmap/ Grinnell, J. 1917. The niche-relationships of the Califor- nia Thrasher. The Auk 34:427-433.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "raster: geographic data analysis and modeling",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hijmans",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hijmans, R. J. 2015. raster: geographic data analysis and modeling. R package ver. 2.3-24. https://cran. r-project.org/web/packages/raster/index.html",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Very high resolution interpolated climate surfaces for global land areas",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hijmans",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Cameron",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Parra",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Jarvis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "International Journal of Climatology",
+                "volume": "25",
+                "issue": "",
+                "pages": "1965--1978",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hijmans, R. J., S. E. Cameron, J. L. Parra, P. G. Jones, and A. Jarvis. 2005. Very high resolution interpo- lated climate surfaces for global land areas. Inter- national Journal of Climatology 25:1965-1978.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Concluding remarks",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hutchinson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1957,
+                "venue": "Cold Spring Harbor Symposia on Quantitative Biology",
+                "volume": "22",
+                "issue": "",
+                "pages": "415--427",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hutchinson, G. E. 1957. Concluding remarks. Cold Spring Harbor Symposia on Quantitative Biology 22:415-427.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Comparing isotopic niche widths among and within communities: SIBER -Stable Isotope Bayesian Ellipses in R",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Jackson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Inger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Parnell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Bearhop",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Journal of Animal Ecology",
+                "volume": "80",
+                "issue": "",
+                "pages": "595--602",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jackson, A. L., R. Inger, A. C. Parnell, and S. Bearhop. 2011. Comparing isotopic niche widths among and within communities: SIBER -Stable Isotope Bayesian Ellipses in R. Journal of Animal Ecology 80:595-602.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Building predictive models in R using the caret package",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kuhn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Journal of Statistical Software",
+                "volume": "28",
+                "issue": "",
+                "pages": "1--26",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kuhn, M. 2008. Building predictive models in R using the caret package. Journal of Statistical Software 28:1-26.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Sources of variation in the stable isotopic composition of plants",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Lajtha",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Marshall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Stable isotopes in ecology and environmental science",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lajtha, K., and J. D. Marshall. 1994. Sources of varia- tion in the stable isotopic composition of plants. Pages l-21 in K. Lajtha and R. H. Michener, editors. Stable isotopes in ecology and environmental science. Blackwell Scientific, London, UK.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Applicability of landscape metrics for the monitoring of landscape change: issues of scale, resolution and interpretability",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Lausch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Herzog",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Ecological Indicators",
+                "volume": "2",
+                "issue": "",
+                "pages": "3--15",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lausch, A., and F. Herzog. 2002. Applicability of land- scape metrics for the monitoring of landscape change: issues of scale, resolution and interpre- tability. Ecological Indicators 2:3-15.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Geographical ecology: patterns in the distribution of species",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Macarthur",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1972,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MacArthur, R. H. 1972. Geographical ecology: patterns in the distribution of species. Harper & Row, New York City, New York, USA.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Testing the niche variation hypothesis in a community of passerine birds",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Maldonado",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Bozinovic",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Newsome",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Sabat",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Ecology",
+                "volume": "98",
+                "issue": "",
+                "pages": "903--908",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Maldonado, K., F. Bozinovic, S. D. Newsome, and P. Sabat. 2017. Testing the niche variation hypothe- sis in a community of passerine birds. Ecology 98:903-908.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Invasions and niche width: Does niche width of an introduced crayfish differ from a native crayfish",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Olsson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Stenroth",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Nystr\u20ac",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Gran Eli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Freshwater Biology",
+                "volume": "54",
+                "issue": "",
+                "pages": "1731--1740",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Olsson, K., P. Stenroth, P. Nystr\u20ac om, and W. Gran eli. 2009. Invasions and niche width: Does niche width of an introduced crayfish differ from a native crayfish? Freshwater Biology 54:1731- 1740.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Using nitrogen isotope ratios to assess terrestrial ecosystems at regional and global Scales",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Pardo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Nadelhoffer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pardo, L. H., and K. J. Nadelhoffer. 2010. Using nitro- gen isotope ratios to assess terrestrial ecosystems at regional and global Scales. Pages 221-249 in J. B. West, G. J. Bowen, T. E. Dawson and K. P. Tu, edi- tors. Isoscapes: understanding movement, pattern and process on earth through isotope mapping. Springer, Dordrecht, The Netherlands.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "The Rise of the mesopredator",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Prugh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Stoner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Epps",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Bean",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Ripple",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Laliberte",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Brashares",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "BioScience",
+                "volume": "59",
+                "issue": "",
+                "pages": "779--791",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Prugh, L. R., C. J. Stoner, C. W. Epps, W. T. Bean, W. J. Ripple, A. S. Laliberte, and J. S. Brashares. 2009. The Rise of the mesopredator. BioScience 59:779- 791.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Isotopic niches support the resource breadth hypothesis",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Rader",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Newsome",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Sabat",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Cheeser",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Dillon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Del Rio",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Journal of Animal Ecology",
+                "volume": "86",
+                "issue": "",
+                "pages": "405--413",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rader, J. A., S. D. Newsome, P. Sabat, R. T. Cheeser, M. E. Dillon, and C. M. del Rio. 2017. Isotopic niches support the resource breadth hypothesis. Journal of Animal Ecology 86:405-413.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Bayesian model selection in social research",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Rafferty",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Sociological Methodology",
+                "volume": "25",
+                "issue": "",
+                "pages": "111--163",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rafferty, A. E. 1995. Bayesian model selection in social research. Sociological Methodology 25:111-163.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Small mammal responses to environmental change: integrating past and present dynamics",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Rowe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Terry",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Journal of Mammalogy",
+                "volume": "95",
+                "issue": "",
+                "pages": "1157--1174",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rowe, R. J., and R. C. Terry. 2014. Small mammal responses to environmental change: integrating past and present dynamics. Journal of Mammalogy 95:1157-1174.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Small-mammal isotope ecology tracks climate and vegetation gradients across western North America",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Smiley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Cotton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Badgley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Cerling",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Oikos",
+                "volume": "125",
+                "issue": "",
+                "pages": "1100--1109",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Smiley, T. M., J. M. Cotton, C. Badgley, and T. E. Cer- ling. 2016. Small-mammal isotope ecology tracks climate and vegetation gradients across western North America. Oikos 125:1100-1109.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Europe-wide biogeographical patterns in the diet of an ecologically and epidemiologically important mesopredator, the red fox Vulpes vulpes: a quantitative review",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Soe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Davison",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "S\u20ac Uld",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Valdmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Laurimaa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [],
+                        "last": "Saarma",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Mammal Review",
+                "volume": "47",
+                "issue": "",
+                "pages": "198--211",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Soe, E., J. Davison, K. S\u20ac uld, H. Valdmann, L. Laurimaa, and U. Saarma. 2017. Europe-wide biogeographi- cal patterns in the diet of an ecologically and epi- demiologically important mesopredator, the red fox Vulpes vulpes: a quantitative review. Mammal Review 47:198-211.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Habitat heterogeneity induces rapid changes in the feeding behavior of generalist arthropod predators",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Staudacher",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Rubbmark",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Birkhofer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Malsher",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Sint",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Jonsson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Traugott",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Functional Ecology",
+                "volume": "32",
+                "issue": "",
+                "pages": "809--819",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Staudacher, K., O. R. Rubbmark, K. Birkhofer, G. Mal- sher, D. Sint, M. Jonsson, and M. Traugott. 2017. Habitat heterogeneity induces rapid changes in the feeding behavior of generalist arthropod predators. Functional Ecology 32:809-819.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Environmental heterogeneity as a universal driver of species richness across taxa, biomes and spatial scales",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Stein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Gerstner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Kreft",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Ecology Letters",
+                "volume": "17",
+                "issue": "",
+                "pages": "866--880",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stein, A., K. Gerstner, and H. Kreft. 2014. Environmen- tal heterogeneity as a universal driver of species richness across taxa, biomes and spatial scales. Ecology Letters 17:866-880.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Conditional variable importance for random forests",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Strobl",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Boulesteix",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Kneib",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Augustin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Zeileis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "BMC Bioinformatics",
+                "volume": "9",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Strobl, C., A. Boulesteix, T. Kneib, T. Augustin, and A. Zeileis. 2008. Conditional variable importance for random forests. BMC Bioinformatics 9:307.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Factors influencing diet variation in a generalist predator across its range distribution",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Terraube",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Arroyo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Biodiversity and Conservation",
+                "volume": "20",
+                "issue": "",
+                "pages": "2111--2131",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Terraube, J., and B. Arroyo. 2011. Factors influencing diet variation in a generalist predator across its range distribution. Biodiversity and Conservation 20:2111-2131.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Climatic patterns and the distribution of C 4 grasses in North America",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Terri",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Stowe",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1976,
+                "venue": "Oecologia",
+                "volume": "23",
+                "issue": "",
+                "pages": "1--12",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Terri, J. A., and L. G. Stowe. 1976. Climatic patterns and the distribution of C 4 grasses in North Amer- ica. Oecologia 23:1-12.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Isotopic niche variation from the Holocene to today reveals minimal partitioning and individualistic dynamics among four sympatric desert mice",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Terry",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Journal of Animal Ecology",
+                "volume": "87",
+                "issue": "",
+                "pages": "173--186",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Terry, R. C. 2017. Isotopic niche variation from the Holocene to today reveals minimal partitioning and individualistic dynamics among four sym- patric desert mice. Journal of Animal Ecology 87:173-186.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Range extension of the Virginia opossum (Didelphis virginiana) in North Dakota",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Walsh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Seabloom",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Thompson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Prairie Naturalist",
+                "volume": "49",
+                "issue": "",
+                "pages": "72--75",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Walsh, L. L., R. Seabloom, and C. W. Thompson. 2017. Range extension of the Virginia opossum (Didelphis virginiana) in North Dakota. Prairie Naturalist 49:72-75.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Contemporary range expansion of the Virginia opossum (Didelphis virginiana) impacted by humans and snow cover",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Walsh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Tucker",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2018,
+                "venue": "Canadian Journal of Zoology",
+                "volume": "96",
+                "issue": "",
+                "pages": "107--115",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Walsh, L. L., and P. K. Tucker. 2018. Contemporary range expansion of the Virginia opossum (Didelphis virginiana) impacted by humans and snow cover. Canadian Journal of Zoology 96:107-115.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Exploring the isotopic niche: isotopic variance, physiological incorporation, and the temporal dynamics of foraging",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Yeakel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Uttam",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "A E"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Frontiers in Ecology and Evolution",
+                "volume": "4",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yeakel, J. D., B. Uttam, E. A. E. Smith, and S. D. New- some. 2016. Exploring the isotopic niche: isotopic variance, physiological incorporation, and the tem- poral dynamics of foraging. Frontiers in Ecology and Evolution 4:1.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "text": "Virginia opossum (Didelphis virginiana) samples analyzed for stable isotope values from six regions (CA, California). Individual samples are plotted onto the 2000 global landcover map(Fritz et al. 2003; BL, broadleaved; NL, needle-leaved).",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF1": {
+                "text": "Conditional forest analysis variable importance for (A) nitrogen isotope values and (B) carbon isotope values of the Virginia opossum (Didelphis virginiana). WorldClim variables include annual precipitation (AP), precipitation in the driest quarter (PDQ), mean temperature in the wettest quarter (MTWQ), temperature annual range (TAR), minimum temperature in the coldest month (MNT), precipitation in the coldest quarter (PCQ), mean annual temperature (MAT), precipitation in the wettest quarter (PWQ), mean temperature in the driest quarter (MTDQ), and maximum temperature in the warmest month (MXT).",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "TABREF0": {
+                "text": "Virginia opossum (Didelphis virginiana) regional values for Bayesian standard ellipse area (SEA B ) and habitat diversity measurements calculated using 2000 global landcover types(Fritz et al. 2003; D, diversity index; E, evenness index). Regional geographic area was measured using ImageJ (units = pixels). Pearson's correlation coefficients for SEA B are in the last row. Significant correlations are in bold. parameters, the relationship between WorldClim variables and both d 13 C and d 15 N values was evaluated using Spearman's rank correlation analysis.",
+                "num": null,
+                "content": "<table><tr><td>Region</td><td>SEA B</td><td>Simpson's D</td><td>Simpson's E</td><td>Shannon's D</td><td>Shannon's E</td><td>Geographic area</td></tr><tr><td>California Coast</td><td>4.89</td><td>0.60</td><td>0.58</td><td>1.00</td><td>0.72</td><td>2428</td></tr><tr><td>California Valley</td><td>6.79</td><td>0.63</td><td>0.49</td><td>1.20</td><td>0.75</td><td>2767</td></tr><tr><td>Mesoamerica</td><td>11.12</td><td>0.82</td><td>0.65</td><td>1.68</td><td>0.86</td><td>43,458</td></tr><tr><td>Gulf Coast</td><td>9.74</td><td>0.78</td><td>0.53</td><td>1.67</td><td>0.81</td><td>32,226</td></tr><tr><td>Midwest</td><td>11.89</td><td>0.84</td><td>0.62</td><td>1.79</td><td>0.86</td><td>23,225</td></tr><tr><td>Northeast</td><td>3.05</td><td>0.61</td><td>0.41</td><td>1.25</td><td>0.70</td><td>9618</td></tr><tr><td>Pearson's correlation</td><td/><td>0.951*</td><td>0.768</td><td>0.890</td><td>0.984**</td><td>0.778</td></tr><tr><td>coefficient with SEA B</td><td/><td/><td/><td/><td/><td/></tr><tr><td>Notes:</td><td/><td/><td/><td/><td/><td/></tr></table>",
+                "type_str": "table"
+            },
+            "TABREF1": {
+                "text": "Highest performing generalized linear models used to examine d 15 N values from Virginia opossum (Didelphis virginiana) guard hair, ranked by DBIC (difference in a model's Bayesian information criterion).",
+                "num": null,
+                "content": "<table><tr><td>Model</td><td>DBIC</td><td>BIC</td><td>Log-likelihood</td></tr><tr><td>Mean T Wettest Q (MTWQ)</td><td colspan=\"2\">0.00 640.064</td><td>\u00c0309.971</td></tr><tr><td>+ Annual P (AP)</td><td/><td/><td/></tr><tr><td>Mean T Wettest Q (MTWQ)</td><td colspan=\"2\">0.621 640.685</td><td>\u00c0310.282</td></tr><tr><td>+ P Driest Q (PDQ)</td><td/><td/><td/></tr><tr><td>Intercept only</td><td colspan=\"2\">9.819 649.883</td><td>\u00c0319.911</td></tr></table>",
+                "type_str": "table"
+            },
+            "TABREF2": {
+                "text": "Highest performing generalized linear models used to examine d 13 C values from Virginia opossum (Didelphis virginiana) guard hair, ranked by DBIC (difference in a model's Bayesian information criterion).",
+                "num": null,
+                "content": "<table><tr><td>Model</td><td>DBIC</td><td>BIC</td><td>Log-likelihood</td></tr><tr><td>Maximum T (MXT)</td><td>0.00</td><td>593.22</td><td>\u00c0289.064</td></tr><tr><td>Mean T Wettest</td><td colspan=\"2\">0.684 593.904</td><td>\u00c0289.407</td></tr><tr><td>Q (MTWQ)</td><td/><td/><td/></tr><tr><td>Intercept only</td><td colspan=\"2\">10.917 604.137</td><td>\u00c0297.038</td></tr></table>",
+                "type_str": "table"
+            },
+            "TABREF3": {
+                "text": "Spearman's correlation coefficients (r) for d 15 N and d 13 C values from Virginia opossum (Didelphis virginiana) guard hair with 10 WorldClim variables.",
+                "num": null,
+                "content": "<table><tr><td>Variable</td><td>d 15 N r</td><td>d 13 C r</td></tr><tr><td>Annual P (AP)</td><td>\u00c00.308***</td><td>\u00c00.025</td></tr><tr><td>Mean Annual T (MAT)</td><td>0.132</td><td>0.2928***</td></tr><tr><td>Minimum T (MNT)</td><td>0.24**</td><td>0.122</td></tr><tr><td>Mean T Driest Q (MTDQ)</td><td>0.118</td><td>0.036</td></tr><tr><td>Mean T Wettest Q (MTWQ)</td><td>0.146</td><td>0.308***</td></tr><tr><td>Maximum T (MXT)</td><td>0.044</td><td>0.305***</td></tr><tr><td>P Coldest Q (PCQ)</td><td>\u00c00.179</td><td>\u00c00.249**</td></tr><tr><td>P Driest Q (PDQ)</td><td>\u00c00.331***</td><td>0.096</td></tr><tr><td>P Wettest Q (PWQ)</td><td>\u00c00.156</td><td>\u00c00.097</td></tr><tr><td>T Annual Range (TAR)</td><td>\u00c00.167</td><td>\u00c00.03</td></tr><tr><td colspan=\"3\">Notes: P, precipitation; Q, quarter; and T, temperature. Sig-</td></tr><tr><td>nificant correlations are in bold.</td><td/><td/></tr><tr><td>** P &lt; 0.01.</td><td/><td/></tr><tr><td>*** P &lt; 0.001.</td><td/><td/></tr></table>",
+                "type_str": "table"
+            }
+        }
+    }
+}

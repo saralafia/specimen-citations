@@ -1,0 +1,3913 @@
+{
+    "paper_id": "JansaandVoss2011-Adaptiveevolutionofthevenom-targetedvWFproteininopossumsthateatpitvipers",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:28:40.317833Z"
+    },
+    "title": "Adaptive Evolution of the Venom-Targeted vWF Protein in Opossums that Eat Pitvipers",
+    "authors": [
+        {
+            "first": "Sharon",
+            "middle": [
+                "A"
+            ],
+            "last": "Jansa",
+            "suffix": "",
+            "affiliation": {},
+            "email": "jansa003@umn.edu"
+        },
+        {
+            "first": "Robert",
+            "middle": [
+                "S"
+            ],
+            "last": "Voss",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "University of Minnesota",
+                "location": {
+                    "settlement": "St. Paul",
+                    "region": "Minnesota",
+                    "country": "United States of America"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "The rapid evolution of venom toxin genes is often explained as the result of a biochemical arms race between venomous animals and their prey. However, it is not clear that an arms race analogy is appropriate in this context because there is no published evidence for rapid evolution in genes that might confer toxin resistance among routinely envenomed species. Here we report such evidence from an unusual predator-prey relationship between opossums (Marsupialia: Didelphidae) and pitvipers (Serpentes: Crotalinae). In particular, we found high ratios of replacement to silent substitutions in the gene encoding von Willebrand Factor (vWF), a venom-targeted hemostatic blood protein, in a clade of opossums known to eat pitvipers and to be resistant to their hemorrhagic venom. Observed amino-acid substitutions in venom-resistant opossums include changes in net charge and hydrophobicity that are hypothesized to weaken the bond between vWF and one of its toxic snake-venom ligands, the C-type lectin-like protein botrocetin. Our results provide the first example of rapid adaptive evolution in any venom-targeted molecule, and they support the notion that an evolutionary arms race might be driving the rapid evolution of snake venoms. However, in the arms race implied by our results, venomous snakes are prey, and their venom has a correspondingly defensive function in addition to its usual trophic role.",
+    "pdf_parse": {
+        "paper_id": "JansaandVoss2011-Adaptiveevolutionofthevenom-targetedvWFproteininopossumsthateatpitvipers",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "The rapid evolution of venom toxin genes is often explained as the result of a biochemical arms race between venomous animals and their prey. However, it is not clear that an arms race analogy is appropriate in this context because there is no published evidence for rapid evolution in genes that might confer toxin resistance among routinely envenomed species. Here we report such evidence from an unusual predator-prey relationship between opossums (Marsupialia: Didelphidae) and pitvipers (Serpentes: Crotalinae). In particular, we found high ratios of replacement to silent substitutions in the gene encoding von Willebrand Factor (vWF), a venom-targeted hemostatic blood protein, in a clade of opossums known to eat pitvipers and to be resistant to their hemorrhagic venom. Observed amino-acid substitutions in venom-resistant opossums include changes in net charge and hydrophobicity that are hypothesized to weaken the bond between vWF and one of its toxic snake-venom ligands, the C-type lectin-like protein botrocetin. Our results provide the first example of rapid adaptive evolution in any venom-targeted molecule, and they support the notion that an evolutionary arms race might be driving the rapid evolution of snake venoms. However, in the arms race implied by our results, venomous snakes are prey, and their venom has a correspondingly defensive function in addition to its usual trophic role.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Animal venoms are complex mixtures of toxic proteins and peptides that induce a wide variety of destructive physiological effects. Recent studies of snake, scorpion, and gastropod venoms provide compelling evidence for the rapid evolution of genes encoding many toxic proteins [1] . For example, venom toxin genes often belong to large multi-gene families with rapidly evolving protein-coding regions that exhibit high ratios of replacement to silent substitutions [2] [3] [4] [5] [6] [7] [8] [9] [10] . Although evolutionary explanations for these and other unusual properties of animalvenom genes commonly invoke the metaphor of an ''arms race'' between venomous animals and their prey [5, 7, 8, 11] , the appropriateness of this metaphor remains to be demonstrated. Whereas an arms race implies reciprocal adaptations and counteradaptations in a coevolutionary contest for which no stable equilibrium exists [12] , there appears to be no published evidence for rapid adaptive evolution of molecular traits that might confer toxin resistance in routinely envenomed taxa. Here we report such evidence from an unusual predator-prey relationship between pitvipers (members of the viperid snake subfamily Crotalinae) and opossums (members of the marsupial family Didelphidae).",
+                "cite_spans": [
+                    {
+                        "start": 277,
+                        "end": 280,
+                        "text": "[1]",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 465,
+                        "end": 468,
+                        "text": "[2]",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 469,
+                        "end": 472,
+                        "text": "[3]",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 473,
+                        "end": 476,
+                        "text": "[4]",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 477,
+                        "end": 480,
+                        "text": "[5]",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 481,
+                        "end": 484,
+                        "text": "[6]",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 485,
+                        "end": 488,
+                        "text": "[7]",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 489,
+                        "end": 492,
+                        "text": "[8]",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 493,
+                        "end": 496,
+                        "text": "[9]",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 497,
+                        "end": 501,
+                        "text": "[10]",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 688,
+                        "end": 691,
+                        "text": "[5,",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 692,
+                        "end": 694,
+                        "text": "7,",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 695,
+                        "end": 697,
+                        "text": "8,",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 698,
+                        "end": 701,
+                        "text": "11]",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 911,
+                        "end": 915,
+                        "text": "[12]",
+                        "ref_id": "BIBREF11"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Pitvipers are ambush predators that detect the elevated body temperatures of endothermic prey-birds and mammals-with an infrared-sensitive pit organ located between the eye and nostril [13] . Like other venomous snakes, pitvipers subdue their prey with a potent blend of toxic molecules secreted by specialized cephalic glands [14] [15] [16] . Pitviper venom, powerfully hemorrhagic in most species, is delivered to the bloodstream of the victim through hollow, needlelike fangs that are embedded hypodermically in a lightning-fast stabbing bite [17] . Small mammals bitten by pitvipers usually die quickly of cardiovascular shock induced by the synergistic action of many different venom components [18] . The latter commonly include A 2 phospholipases, zinc-dependent metalloproteinases, C-type lectin-like proteins, serine proteases, and disintegrins [11, 19, 20] .",
+                "cite_spans": [
+                    {
+                        "start": 185,
+                        "end": 189,
+                        "text": "[13]",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 327,
+                        "end": 331,
+                        "text": "[14]",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 332,
+                        "end": 336,
+                        "text": "[15]",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 337,
+                        "end": 341,
+                        "text": "[16]",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 546,
+                        "end": 550,
+                        "text": "[17]",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 700,
+                        "end": 704,
+                        "text": "[18]",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 854,
+                        "end": 858,
+                        "text": "[11,",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 859,
+                        "end": 862,
+                        "text": "19,",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 863,
+                        "end": 866,
+                        "text": "20]",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Despite such formidable biochemical weaponry, some opossums eat pitvipers with impunity. This extraordinary behavior was first reported by the Spanish naturalist F\u00e9lix de Azara [21] for the lutrine opossum (Lutreolina), and it has subsequently been documented for several species of common opossums (Didelphis). Opossums that prey on pitvipers appear to exhibit no behavioral precautions while subduing these dangerous snakes, and they are often bitten in the process [22, 23] . Rather, their impunity derives from endogenous venom resistance, a phenomenon that has been convincingly demonstrated by numerous in vivo and in vitro assays using Didelphis, Lutreolina, and the gray four-eyed opossum Philander [24] [25] [26] [27] . As far as known, all didelphids that are known to eat pitvipers and/or to be venom resistant belong to the tribe Didelphini [28] (Fig. 1 ). It is also known that the brown four-eyed opossum (Metachirus), the sister taxon to Didelphini, is not venom resistant [29] .",
+                "cite_spans": [
+                    {
+                        "start": 177,
+                        "end": 181,
+                        "text": "[21]",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 468,
+                        "end": 472,
+                        "text": "[22,",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 473,
+                        "end": 476,
+                        "text": "23]",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 707,
+                        "end": 711,
+                        "text": "[24]",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 712,
+                        "end": 716,
+                        "text": "[25]",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 717,
+                        "end": 721,
+                        "text": "[26]",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 722,
+                        "end": 726,
+                        "text": "[27]",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 853,
+                        "end": 857,
+                        "text": "[28]",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 988,
+                        "end": 992,
+                        "text": "[29]",
+                        "ref_id": "BIBREF28"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 858,
+                        "end": 865,
+                        "text": "(Fig. 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "In an early publication on venom resistance in didelphids, Kilmon [24] proposed two explanations for this phenomenon: either (1) the molecular targets for venom toxins are absent, or (2) something in the tissue inactivates venom toxins before they reach their targets. The first alternative is implausible because snake venoms disrupt basic biological processes by targeting physiologically indispensible molecules (e.g., those involved in hemostasis [19, 20] ). Research on venom resistance in mammals has therefore focused almost exclusively on the discovery of toxin-neutralizing serum factors, most of which are enzyme inhibitors [30] [31] [32] [33] [34] . However, many snake venom toxins are not enzymes [11] , so additional mechanisms of venom resistance may be necessary to explain the complete immunity to pitviper envenomation of some opossums. Among other nonenzymatic components of pitviper venom are C-type lectin-like proteins (CLPs), a functionally diverse family of ligand-binding toxins that disrupt hemostasis by targeting a wide range of plasma proteins and blood cell types [6, [35] [36] [37] . Because CLPs are not inhibited by any known endogenous serum factor, adaptive evolution of their hemostatic protein targets might be expected to have occurred in venom-resistant opossums.",
+                "cite_spans": [
+                    {
+                        "start": 66,
+                        "end": 70,
+                        "text": "[24]",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 451,
+                        "end": 455,
+                        "text": "[19,",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 456,
+                        "end": 459,
+                        "text": "20]",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 634,
+                        "end": 638,
+                        "text": "[30]",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 639,
+                        "end": 643,
+                        "text": "[31]",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 644,
+                        "end": 648,
+                        "text": "[32]",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 649,
+                        "end": 653,
+                        "text": "[33]",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 654,
+                        "end": 658,
+                        "text": "[34]",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 710,
+                        "end": 714,
+                        "text": "[11]",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 1094,
+                        "end": 1097,
+                        "text": "[6,",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 1098,
+                        "end": 1102,
+                        "text": "[35]",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 1103,
+                        "end": 1107,
+                        "text": "[36]",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 1108,
+                        "end": 1112,
+                        "text": "[37]",
+                        "ref_id": "BIBREF36"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Hemostasis is a complex process that involves formation of a platelet plug at the site of vascular injury (primary hemostasis) followed by clot formation and stabilization via the coagulatory cascade [38] . One of the key proteins in this sequence is von Figure 1 . Phylogenetic trees of opossums. A. The phylogeny of didelphids resulting from a mixed-model Bayesian analysis of a combined-data matrix comprising DNA sequences from five nuclear protein-coding genes and morphological data [28] . Nodes that received Bayesian posterior probability values $0.95 in this analysis are indicated with black circles. B. The topology from A excluding Lestodelphys and Caluromysiops, (for which no vWF sequences are available). Branch lengths are shown as the estimated number of amino acid substitutions in vWF, assuming the JTT model of amino acid substitution as implemented in PAML [74] . Taxa that are known to eat pitvipers are indicated in bold; those that are known to exhibit resistance to pitviper venom are indicated with an asterisk. Metachirus (indicated with a dagger) has been challenged with pitviper venom but does not exhibit resistance. Branches that were included in the foreground for branch-site tests are shown with solid heavy lines. Venom resistance of Chironectes is unknown; therefore, this taxon was included in one set of branch-site tests and excluded from the other (indicated with a dashed heavy line). For the purpose of this analysis, Didelphis marsupialis includes its dubiously distinct sister taxon D. aurita. doi:10.1371/journal.pone.0020997.g001",
+                "cite_spans": [
+                    {
+                        "start": 200,
+                        "end": 204,
+                        "text": "[38]",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 489,
+                        "end": 493,
+                        "text": "[28]",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 878,
+                        "end": 882,
+                        "text": "[74]",
+                        "ref_id": "BIBREF73"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 255,
+                        "end": 263,
+                        "text": "Figure 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "Willebrand Factor (vWF), a large multidomain glycoprotein that initiates platelet-plug formation by anchoring to exposed subendothelial collagen and then binding with the Iba subunit of platelet glycoprotein Ib-IX-V [39] . Not surprisingly, several toxins isolated from hemorrhagic snake venoms target vWF, including both metalloproteinases and CLPs [37, 40, 41] . To date, the best-studied vWF-binding CLPs isolated from pitviper venom are botrocetin and aspercetin, both of which induce thrombocytopenia and contribute to systemic bleeding by binding with the A1 domain of vWF and enhancing its affinity for platelet glycoprotein Iba [42] [43] [44] [45] [46] . Recently, three-dimensional models of the vWF-botrocetin complex have been developed, and specific residues in the A1 domain of mouse vWF that are crucial for botrocetin binding have been identified [47] (Fig. 2) .",
+                "cite_spans": [
+                    {
+                        "start": 216,
+                        "end": 220,
+                        "text": "[39]",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 350,
+                        "end": 354,
+                        "text": "[37,",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 355,
+                        "end": 358,
+                        "text": "40,",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 359,
+                        "end": 362,
+                        "text": "41]",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 636,
+                        "end": 640,
+                        "text": "[42]",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 641,
+                        "end": 645,
+                        "text": "[43]",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 646,
+                        "end": 650,
+                        "text": "[44]",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 651,
+                        "end": 655,
+                        "text": "[45]",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 656,
+                        "end": 660,
+                        "text": "[46]",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 862,
+                        "end": 866,
+                        "text": "[47]",
+                        "ref_id": "BIBREF46"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 867,
+                        "end": 875,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "We used vWF sequences from a phylogenetic study of opossums [28] (Fig. 1a) to test for accelerated rates of adaptive evolution among opossums known to eat pitvipers and/or to be resistant to pitviper venom. To do so, we analyzed patterns of selection in a portion of the vWF gene comprising the A1 domain, including all of the sites that code for residues known to be necessary for botrocetin binding in humans and laboratory rodents. Our results support the notion that snake-venom components exert strong directional selection on the amino-acid sequences of targeted proteins in routinely envenomed species and lend credence to the commonly invoked but previously untested metaphor of a coevolutionary arms race. However, our results also suggest a more prominent defensive role for snake venom than is commonly acknowledged by most toxinologists.",
+                "cite_spans": [
+                    {
+                        "start": 60,
+                        "end": 64,
+                        "text": "[28]",
+                        "ref_id": "BIBREF27"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 65,
+                        "end": 74,
+                        "text": "(Fig. 1a)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Introduction",
+                "sec_num": null
+            },
+            {
+                "text": "To test for adaptive evolution in opossum vWF sequences, we used codon-model-based branch-site tests of positive selection [48] . Given the phylogenetic distribution of venom resistance discussed above and shown in Fig. 1b , resistance presumably evolved somewhere along the branch separating Metachirus from the Lutreolina + Didelphis + Philander clade. However, the water opossum Chironectes has yet to be tested for venom resistance, so we have no prior knowledge that would allow us to unequivocally reconstruct the evolution of venom resistance along the branch leading to Didelphini (including Chironectes) or along the branch subtending the less-inclusive clade Lutreolina + Didelphis + Philander. For this reason, we performed two separate branch-site tests of selection: one that assigned all lineages of Didelphini to a class with the possibility of having positively selected sites (''foreground'' branches [48] ), and one that assigned all Didelphini except Chironectes to that class (see Methods). For both tests, all other branches in the didelphid phylogeny were treated as ''background'' branches that did not include a class of positively selected sites.",
+                "cite_spans": [
+                    {
+                        "start": 123,
+                        "end": 127,
+                        "text": "[48]",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 918,
+                        "end": 922,
+                        "text": "[48]",
+                        "ref_id": "BIBREF47"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 215,
+                        "end": 222,
+                        "text": "Fig. 1b",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Positive Selection on vWF in venom-resistant opossums",
+                "sec_num": null
+            },
+            {
+                "text": "Based on these tests, we found strong evidence for positive selection on vWF in venom-resistant opossums. Specifically, a model that allows a proportion of sites to be under positive selection for Didelphini was a significantly better fit than the null model (no sites allowed to be under positive selection in any lineage), regardless of whether Chironectes was included among the [39] ). Amino-acid residues are numbered 1-2050 corresponding to the human vWF sequence, with the A1 domain spanning residues 478-728. The region sequenced from opossums for this study includes part of the A1 and A2 domains and spans residues 524-843 (indicated with a grey box). The botrocetin-binding region (indicated with a black box) is located in the A1 domain and spans residues 623-671. Aligned amino-acid sequences of this region are shown for five placental taxa (Homo, Mus, Canis, Talpa, and Dugong) as well as members of the opossum tribe Didelphini (including species of Didelphis, Philander, Lutreolina, and Chironectes) and its sister taxon Metachirini (Metachirus nudicaudatus). Amino acids that are identical to vWF sequence from Homo are shaded in grey. The 12 amino-acid residues (positions 628, 629, 632, 635, 636, 639, 643, 660, 661, 664, 667, and 668) identified as critical for botrocetin binding in Mus [47] are indicated with red dots below the sequences. doi:10.1371/journal.pone.0020997.g002 venom-resistant lineages or not (test including Chironectes: {2 ln\u00bdL = 26.44, d.f. = 1, p%0.01; test excluding Chironectes: {2 ln\u00bdL = 17.54, d.f. = 1, p%0.01). Approximately 10% of sites in the analyzed fragment of vWF were estimated to be under positive selection in both scenarios (10.3% of sites havev v = 6.79 if Chironectes is included among the foreground lineages, whereas 9.6% havev v = 8.31 if Chironectes is excluded; Table 1 ). If Chironectes is included among the venom-resistant lineages, we identified nine sites that showed strong evidence (P$0.95) of belonging to the class of positively selected sites, and an additional 16 sites wit\u0125 v v.1 using the less stringent criterion of 0.5,P,0.95 (Table 2 ). If Chironectes is excluded, five sites havev v.1 with P$0.95 (four of these were also identified when Chironectes was included among the foreground lineages).",
+                "cite_spans": [
+                    {
+                        "start": 382,
+                        "end": 386,
+                        "text": "[39]",
+                        "ref_id": "BIBREF38"
+                    },
+                    {
+                        "start": 1309,
+                        "end": 1313,
+                        "text": "[47]",
+                        "ref_id": "BIBREF46"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1829,
+                        "end": 1836,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 2108,
+                        "end": 2116,
+                        "text": "(Table 2",
+                        "ref_id": "TABREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Positive Selection on vWF in venom-resistant opossums",
+                "sec_num": null
+            },
+            {
+                "text": "If CLPs are driving the rapid evolution of opossum vWF, then we might expect the particular sites that interact with botrocetin (or with homologous vWF-binding CLPs such as aspercetin [46, 49] ) to show an elevated rate of evolution. Botrocetin engages vWF through two alpha helices (a5 and a6) on the exposed surface of the folded A1 domain [44] ; in human and mouse models, sitedirected mutagenesis studies have identified 12 sites distributed across these helices that are directly involved in botrocetin binding [47] (Fig. 3a) . Sites that we identified as positively selected in venom-resistant opossums are disproportionately represented among these botrocetin-binding sites: of the 12 binding sites, three have high posterior probability (P$0.95) ofv v.1; of the remaining 193 sites in the A1 domain that do not bind botrocetin, four have high probability of being under positive selection. Thus, the proportion of botrocetin-binding sites showing evidence of positive selection in venom-resistant opossums is greater than would be expected by chance (G = 8.61, d.f. = 1; p = 0.01). However, if Chironectes is excluded from the lineage of venomresistant species, then only one botrocetin-binding site is inferred as having a high probability of being under positive selection (G = 1.59; d.f. = 1; p = 0.29). Clearly, if Chironectes is venom resistant, the evidence from branch-site analyses for botrocetin (or other snake-venom CLPs with similar vWF-binding properties) as the causal selective agent is much stronger. Given the large number of amino-acid substitutions on the branch immediately ancestral to Chironectes in our phylogeny (Fig. 1b) , and the fact that young pitvipers are often abundant along the rainforested stream margins frequented by water opossums (Voss, unpublished) , it is plausible that this taxon has some degree of venom resistance, but external evidence (from in vitro or in vivo experimental challenges) will be necessary to resolve this issue.",
+                "cite_spans": [
+                    {
+                        "start": 184,
+                        "end": 188,
+                        "text": "[46,",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 189,
+                        "end": 192,
+                        "text": "49]",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 342,
+                        "end": 346,
+                        "text": "[44]",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 516,
+                        "end": 520,
+                        "text": "[47]",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 1776,
+                        "end": 1795,
+                        "text": "(Voss, unpublished)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 521,
+                        "end": 530,
+                        "text": "(Fig. 3a)",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 1644,
+                        "end": 1653,
+                        "text": "(Fig. 1b)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Positive Selection on vWF in venom-resistant opossums",
+                "sec_num": null
+            },
+            {
+                "text": "Inferred physiochemical properties of amino-acid replacements in the A1 domain among venom-resistant opossums are also consistent with the hypothesis that selection has acted to inhibit binding with botrocetin or similar vWF-targeted CLPs. Existing models of the vWF-botrocetin complex implicate salt bridges, as well as water-mediated and ionic bonds in the interaction between the two molecules [44, 47] . Therefore, changes in residue charge should directly affect bond strength, and changes in amino-acid hydrophobicity could affect molecular conformation and steric interactions. To examine the possible functional significance of the observed changes in vWF, we quantified charge and hydrophobicity for each residue in the A1 domain for venom-resistant didelphines and non-resistant taxa (including other marsupials as well as placentals) and calculated the average change in these two properties between the two groups. For both charge and hydrophobicity, the magnitude of change between resistant and non-resistant taxa is significantly greater for the 12 sites that interact with botrocetin, as assessed by a Wilcoxon rank-sum test ( Fig. 3b ; charge: W = 216.5, p = 7.353e-08; hydrophobicity: W = 251.5, p,0.0001).",
+                "cite_spans": [
+                    {
+                        "start": 397,
+                        "end": 401,
+                        "text": "[44,",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 402,
+                        "end": 405,
+                        "text": "47]",
+                        "ref_id": "BIBREF46"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1143,
+                        "end": 1150,
+                        "text": "Fig. 3b",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Positive Selection on vWF in venom-resistant opossums",
+                "sec_num": null
+            },
+            {
+                "text": "Several changes in the botrocetin-binding region of the A1 domain are unique to venom-resistant taxa and might play an important role in preventing botrocetin binding. For example, in both human and mouse models [44, 47] , three tyrosine residues of botrocetin pack tightly against the A1 domain of vWF and appear to be critical for maintaining the binary complex: two of these tyrosines form ionic interactions with vWF residues Gln661 and Gln668; the third apposes site 628 (Pro in mouse; Arg in human) and Arg629. Of these sites, Gln661 shows little change in charge or hydrophobicity ( Fig. 3c ) and remains Gln in all resistant and most non-resistant taxa (Fig. 2) . By contrast, site 668 (Gln in mouse and human) shows strong evidence of positive selection, and undergoes a dramatic change in average hydrophobicity between resistant and non-resistant taxa (Fig. 3c ). This change is particularly notable for species of the venom-resistant genera Didelphis and Philander, where this site assumes strongly hydrophobic residues (Val or Ala; Fig. 2) . Although neither site 628 nor 629 shows strong evidence of positive selection, both sites are, on average, more hydrophobic in venom-resistant didelphines than in non-resistant mammals. The remaining botrocetin-binding sites are predominantly positively charged in the human and mouse Philander where, with one exception (a neutral Gln in D. virginiana), this position takes a negatively charged Glu residue (Fig. 2) . Depending on residue-specific substitution rates, adaptive evolution may or may not yield statistically compelling evidence for positive selection in branch-site tests. For example, certain changes in vWF occur only at the base of the clade comprising Didelphini, and others are single amino-acid changes within the clade; neither will necessarily be identified by phylogenetic tests of positive selection. Similarly, functionally important changes may not alter binding directly but through steric interactions caused by change at neighboring sites. A sliding-window analysis (Fig. 3c) suggests that changes in charge and hydrophobicity are clustered in the two regions corresponding to the botrocetin-interacting helices a5 and a6, even though many substitutions are at sites that do not directly bind botrocetin. In fact, the magnitude of change between resistant and non-resistant taxa is significantly negatively correlated with linear distance to known binding sites for both charge and hydrophobicity (Fig. 4) . Even when binding sites are removed from the analysis, change in hydrophobicity is still significantly negatively correlated with distance to a known binding site (Fig. 4c, f) . These results suggest that neighboring sites that may not interact directly with botrocetin through ionic interactions still experience changes in hydrophobicity that might affect the binding properties of the A1 domain, whereas sites that interact directly with botrocetin experience change in both charge and hydrophobicity. Interestingly, vWF sites that are involved in binding platelet glycoprotein Iba are highly conserved between resistant and non-resistant taxa and experience little or no change in either of these amino-acid properties (Fig. 3c) .",
+                "cite_spans": [
+                    {
+                        "start": 212,
+                        "end": 216,
+                        "text": "[44,",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 217,
+                        "end": 220,
+                        "text": "47]",
+                        "ref_id": "BIBREF46"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 590,
+                        "end": 597,
+                        "text": "Fig. 3c",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 661,
+                        "end": 669,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 863,
+                        "end": 871,
+                        "text": "(Fig. 3c",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 1045,
+                        "end": 1052,
+                        "text": "Fig. 2)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1463,
+                        "end": 1471,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 2051,
+                        "end": 2060,
+                        "text": "(Fig. 3c)",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 2482,
+                        "end": 2490,
+                        "text": "(Fig. 4)",
+                        "ref_id": "FIGREF5"
+                    },
+                    {
+                        "start": 2656,
+                        "end": 2668,
+                        "text": "(Fig. 4c, f)",
+                        "ref_id": "FIGREF5"
+                    },
+                    {
+                        "start": 3216,
+                        "end": 3225,
+                        "text": "(Fig. 3c)",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Positive Selection on vWF in venom-resistant opossums",
+                "sec_num": null
+            },
+            {
+                "text": "v (background) v (foreground) v 2 = 1 0 0.624 (0.610)v v 0 = 0.055 (0.060)v v 0 = 0.055 (0.060) 1 0.176 (0.176) v 1 = 1 v 1 = 1 2a 0.156 (0.166)v v 0 = 0.055 (0.060) v 2 = 1 2b 0.044 (0.048) v 1 = 1 v 2 = 1 v 2 .1 0 0.692 (0.700)v v 0 = 0.054 (0.060)v v 0 = 0.054 (0.060) 1 0.205 (0.204) v 1 = 1 v 1 = 1 2a 0.080 (0.074)v v 0 = 0.054 (0.060)v v 2 =",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Positive Selection on vWF in venom-resistant opossums",
+                "sec_num": null
+            },
+            {
+                "text": "Most previous explanations of snake-venom resistance in mammals have implicated endogenous venom-neutralizing factors isolated from blood serum or plasma; without known exceptions, these factors inactivate either snake-venom metalloproteinases or A 2 phospholipases [31, 32, 34] . By contrast, no endogenous serum factors have yet been identified that inactivate snake-venom CLPs, the harmful physiological effects of which might be counteracted by other mechanisms in resistant species. Our results provide the first evidence for rapid adaptive evolution in any molecular target of snake-venom toxins, and they suggest that venom resistance is a more complex trait than is commonly recognized.",
+                "cite_spans": [
+                    {
+                        "start": 266,
+                        "end": 270,
+                        "text": "[31,",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 271,
+                        "end": 274,
+                        "text": "32,",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 275,
+                        "end": 278,
+                        "text": "34]",
+                        "ref_id": "BIBREF33"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Venom resistance as a genetically complex trait",
+                "sec_num": null
+            },
+            {
+                "text": "The only previous report of adaptive evolution in a venomtargeted molecule derives from sequence analyses of the nicotinic acetylcholine receptor (AChR) in snakes and in two snake-eating Old World mammals-mongooses (Herpestes ichneumon) and hedgehogs (Erinaceus europaeus)-that are resistant to a-bungarotoxin, a nonenzymatic neurotoxin found in cobra venom. These distantly related taxa all have nonaromatic amino-acid residues at two positions in the AChR protein that are crucial for abungarotoxin binding, whereas nonresistant species have aromatic residues at the same sites [50] . Although the experimental evidence for this adaptive interpretation is compelling [51] , the published comparative data lack an appropriate phylogenetic context for statistical analysis, so it is not known whether the AChR locus has experienced sustained directional selection in venom-resistant clades. Interestingly, endogenous serum inhibitors of snake-venom metalloproteinases have also been discovered in mongooses and hedgehogs [34] , suggesting that similarly complex mechanisms of venom resistance may have evolved convergently in opossums and in other mammals that eat snakes.",
+                "cite_spans": [
+                    {
+                        "start": 580,
+                        "end": 584,
+                        "text": "[50]",
+                        "ref_id": "BIBREF49"
+                    },
+                    {
+                        "start": 669,
+                        "end": 673,
+                        "text": "[51]",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 1021,
+                        "end": 1025,
+                        "text": "[34]",
+                        "ref_id": "BIBREF33"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Venom resistance as a genetically complex trait",
+                "sec_num": null
+            },
+            {
+                "text": "Because snake venoms typically contain dozens of toxic compounds [11] , the evolution of venom resistance almost certainly requires adaptive changes at multiple loci. Both the genetic complexity of venom resistance and the need to maintain normal physiological functionality of venom-targeted molecules could constrain the evolution of immunity, although such evolution is perhaps to be expected in prey species routinely consumed by a locally abundant species of venomous snake (e.g., the California ground squirrel Spermophilus beecheyi [52] )-or in predators for which venomous snakes are an important food source. The latter are of particular interest as a hitherto unrecognized factor in snake-venom evolution.",
+                "cite_spans": [
+                    {
+                        "start": 65,
+                        "end": 69,
+                        "text": "[11]",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 539,
+                        "end": 543,
+                        "text": "[52]",
+                        "ref_id": "BIBREF51"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Venom resistance as a genetically complex trait",
+                "sec_num": null
+            },
+            {
+                "text": "A molecular arms race perhaps, but with whom?",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Venom resistance as a genetically complex trait",
+                "sec_num": null
+            },
+            {
+                "text": "Statistical evidence for adaptive evolution at the molecular level is rare [53] , at least in part because successful detection of adaptation using comparative methods requires sites to be under [47] ; image realized using Geneious v.5.0.3 [78] ). The two chains of botrocetin are shown as a dark grey trace model. The vWF A1 domain is shown as a light grey spacefill model, with residues that are involved in botrocetin binding shown in color (yellow, red, or blue). Amino acid residues identified as being under positive selection in the lineage of venom-resistant opossums (Didelphini) are shown in red (P$0.95) or yellow (0.5,P,0.95). Residues that are colored blue are involved in botrocetin binding but are not inferred to be under positive selection in opossums. B. Box plots of the absolute value of change in amino acid charge (top) and hydrophobicity (bottom) between venom-resistant and non-resistant taxa for sites of the vWF-A1 domain that bind botrocetin and those that do not. C. A site-by-site sliding window analysis along the vWF-A1 domain showing the average change in charge (solid line) and hydrophobicity (dashed line) between resistant and non-resistant taxa. Botrocetinbinding sites are indicated with pale grey bars, sites that bind platelet glycoprotein Iba are dark grey, and sites that are under positive selection in venom-resistant opossums are indicated with red asterisks. doi:10.1371/journal.pone.0020997.g003 strong and sustained positive selection in order to elevate d N /d S ratios above one [54] . To date, only a few classes of loci have been identified that appear to conform to this model of selection [55] ; the best-known examples are genes involved in nonequilibrial coevolutionary contests, such as those between host and pathogen [56, 57] or between sperm and egg [58, 59] . In such cases, the analogy of an arms race is often invoked, perhaps appropriately where reciprocal adaptation and counter-adaptation have been convincingly demonstrated.",
+                "cite_spans": [
+                    {
+                        "start": 75,
+                        "end": 79,
+                        "text": "[53]",
+                        "ref_id": "BIBREF52"
+                    },
+                    {
+                        "start": 195,
+                        "end": 199,
+                        "text": "[47]",
+                        "ref_id": "BIBREF46"
+                    },
+                    {
+                        "start": 240,
+                        "end": 244,
+                        "text": "[78]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1529,
+                        "end": 1533,
+                        "text": "[54]",
+                        "ref_id": "BIBREF53"
+                    },
+                    {
+                        "start": 1643,
+                        "end": 1647,
+                        "text": "[55]",
+                        "ref_id": "BIBREF54"
+                    },
+                    {
+                        "start": 1776,
+                        "end": 1780,
+                        "text": "[56,",
+                        "ref_id": "BIBREF55"
+                    },
+                    {
+                        "start": 1781,
+                        "end": 1784,
+                        "text": "57]",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 1810,
+                        "end": 1814,
+                        "text": "[58,",
+                        "ref_id": "BIBREF57"
+                    },
+                    {
+                        "start": 1815,
+                        "end": 1818,
+                        "text": "59]",
+                        "ref_id": "BIBREF58"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Venom resistance as a genetically complex trait",
+                "sec_num": null
+            },
+            {
+                "text": "The arms-race metaphor might also be appropriate for explaining the rapid evolution of venom toxin genes if there were compelling evidence for rapidly evolving counter-adaptations (venom resistance) in routinely envenomed taxa. In fact, resistance to snake venom has been reported from a few prey species, mostly rodents [26, 52, 60, 61] , but also from a wide array of animals that eat snakes [29, [62] [63] [64] [65] . However, rapid adaptive evolution of genes conferring venom resistance has not previously been demonstrated, nor have the molecular substitutions responsible for venom resistance been examined in any substantive detail (except at the AChR locus described above).",
+                "cite_spans": [
+                    {
+                        "start": 321,
+                        "end": 325,
+                        "text": "[26,",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 326,
+                        "end": 329,
+                        "text": "52,",
+                        "ref_id": "BIBREF51"
+                    },
+                    {
+                        "start": 330,
+                        "end": 333,
+                        "text": "60,",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 334,
+                        "end": 337,
+                        "text": "61]",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 394,
+                        "end": 398,
+                        "text": "[29,",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 399,
+                        "end": 403,
+                        "text": "[62]",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 404,
+                        "end": 408,
+                        "text": "[63]",
+                        "ref_id": "BIBREF62"
+                    },
+                    {
+                        "start": 409,
+                        "end": 413,
+                        "text": "[64]",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 414,
+                        "end": 418,
+                        "text": "[65]",
+                        "ref_id": "BIBREF64"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Venom resistance as a genetically complex trait",
+                "sec_num": null
+            },
+            {
+                "text": "Although our results are clearly consistent with an arms-race analogy for snake-venom evolution, the coevolutionary context in which this metaphor has previously been suggested explicitly assumes that venomous snakes are predators and that venom is a trophic adaptation [6] [7] [8] 11, 66] . However, this scenario is difficult to reconcile with theoretical work on the evolution of predatorprey interactions, which suggest that asymmetrical selection should result in more rapid evolution of attributes that contribute to prey survival than of attributes that increase predation success [12, 67, 68] . By contrast, other theoretical and empirical studies [69, 70] suggest that coevolutionary arms races are more likely to occur in predator-prey systems when prey are dangerous to predators. In such systems, selection may act to improve a predator's abilities to exploit dangerous prey, thereby establishing the basis for an arms race.",
+                "cite_spans": [
+                    {
+                        "start": 270,
+                        "end": 273,
+                        "text": "[6]",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 274,
+                        "end": 277,
+                        "text": "[7]",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 278,
+                        "end": 281,
+                        "text": "[8]",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 282,
+                        "end": 285,
+                        "text": "11,",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 286,
+                        "end": 289,
+                        "text": "66]",
+                        "ref_id": "BIBREF65"
+                    },
+                    {
+                        "start": 588,
+                        "end": 592,
+                        "text": "[12,",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 593,
+                        "end": 596,
+                        "text": "67,",
+                        "ref_id": "BIBREF66"
+                    },
+                    {
+                        "start": 597,
+                        "end": 600,
+                        "text": "68]",
+                        "ref_id": "BIBREF67"
+                    },
+                    {
+                        "start": 656,
+                        "end": 660,
+                        "text": "[69,",
+                        "ref_id": "BIBREF68"
+                    },
+                    {
+                        "start": 661,
+                        "end": 664,
+                        "text": "70]",
+                        "ref_id": "BIBREF69"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Venom resistance as a genetically complex trait",
+                "sec_num": null
+            },
+            {
+                "text": "Several groups of snake-venom-resistant vertebrates-notably including various colubrid snakes (e.g., musaranas [Clelia] and kingsnakes [Lampropeltis]), opossums, mongooses, and hedgehogs-routinely prey on venomous snakes, and other species that have never been tested for venom resistance may frequently do so as well [71] [72] ). Therefore, it is plausible that snake venom has a significant defensive as well as a trophic role. If so, then the rapid evolution of snake-venom toxin genes should perhaps be reconsidered as the product of an arms race in which snakes are (at least sometimes) victims rather than exploiters [69] . ",
+                "cite_spans": [
+                    {
+                        "start": 111,
+                        "end": 119,
+                        "text": "[Clelia]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 318,
+                        "end": 322,
+                        "text": "[71]",
+                        "ref_id": "BIBREF70"
+                    },
+                    {
+                        "start": 323,
+                        "end": 327,
+                        "text": "[72]",
+                        "ref_id": "BIBREF71"
+                    },
+                    {
+                        "start": 623,
+                        "end": 627,
+                        "text": "[69]",
+                        "ref_id": "BIBREF68"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Venom resistance as a genetically complex trait",
+                "sec_num": null
+            },
+            {
+                "text": "As part of a previous phylogenetic study [28] , we sequenced a 963 bp region from exon 28 of the von Willebrand Factor gene from 41 species of didelphids (Genbank accession numbers FJ159328-FJ159370). For most of these taxa, the sequenced region begins with codon Met524 (numbered according to the Mus mature peptide sequence), which is 48 amino acids into the A1 domain of vWF (Fig. 2) . For a few taxa (Didelphis albiventris, D. marsupialis, and seven other taxa that are not members of the tribe Didelphini), the sequenced region begins with codon Arg548. All of our didelphid sequences include complete sequences from the botrocetin-binding region (Fig. 2) and extend beyond the terminus of the A1 domain to Met843 in the neighboring A2 domain. The laboratory procedures we used for DNA amplification and sequencing this gene region are described elsewhere [28] . For phylogenetic analysis, vWF sequences were combined with DNA sequences from four additional protein-coding nuclear genes and with non-molecular characters, resulting in a combined-data matrix comprising 7320 bp plus 129 morphological characters. Mixed-model Bayesian analysis of this matrix [28] resulted in a well-resolved tree with high support values at most nodes (Fig. 1a) . We used this topology as the basis for tests of positive selection described below.",
+                "cite_spans": [
+                    {
+                        "start": 41,
+                        "end": 45,
+                        "text": "[28]",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 861,
+                        "end": 865,
+                        "text": "[28]",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 1162,
+                        "end": 1166,
+                        "text": "[28]",
+                        "ref_id": "BIBREF27"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 378,
+                        "end": 386,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 652,
+                        "end": 660,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1239,
+                        "end": 1248,
+                        "text": "(Fig. 1a)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "vWF sequences and didelphid phylogeny",
+                "sec_num": null
+            },
+            {
+                "text": "We used likelihood-based analyses of replacement and silent substitution rates [48] to test whether didelphid taxa known to eat pitvipers and/or to be venom resistant exhibited evidence of positive selection on vWF. Because we were interested in assessing whether or not vWF is under positive selection in a specific evolutionary lineage (members of the tribe Didelphini), we used a branch-site test specifically designed to test for episodic adaptive evolution [48, 73] . For this test, branches of the phylogeny are assigned a priori to either a ''foreground'' or a ''background'' class. For background lineages, codon sites are assigned to one of two classes: conserved (v 0 , in which v can assume values between 0 and 1) or neutral (v 1 , in which v = 1). In the positive-selection model (model A [73] , a proportion of sites for the foreground lineages can be assigned to an additional class of positively selected sites (v 2 , in which v.1). This model is compared with a null model that disallows positively selected sites in the foreground lineages by fixing v 2 = 1 in those lineages.",
+                "cite_spans": [
+                    {
+                        "start": 79,
+                        "end": 83,
+                        "text": "[48]",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 462,
+                        "end": 466,
+                        "text": "[48,",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 467,
+                        "end": 470,
+                        "text": "73]",
+                        "ref_id": "BIBREF72"
+                    },
+                    {
+                        "start": 802,
+                        "end": 806,
+                        "text": "[73]",
+                        "ref_id": "BIBREF72"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Selection tests",
+                "sec_num": null
+            },
+            {
+                "text": "We calculated the log-likelihood and parameter estimates for the null and alternative branch-site models using the codeml program of PAML ver. 4.4 [74] . The alternative model has four free parameters and the null model has three; because v 2 = 1 is fixed at the boundary of the parameter space of the alternative model, the relative fit of the two models ({2 ln\u00bdL) is assessed against a mixture of x 2 distributions with 0 and 1 degrees of freedom (the x x 2 1 distribution [75] ). However, as suggested [76] , we used an unmodified x 2 distribution with one degree of freedom, which yields slightly more conservative critical values. Finally, we used a Bayes-Empirical-Bayes (BEB) method [73] to identify particular amino acid sites in the vWF protein that showed a high posterior probability of positively selected sites (those withv v.1) in the foreground lineages.",
+                "cite_spans": [
+                    {
+                        "start": 147,
+                        "end": 151,
+                        "text": "[74]",
+                        "ref_id": "BIBREF73"
+                    },
+                    {
+                        "start": 458,
+                        "end": 459,
+                        "text": "2",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 475,
+                        "end": 479,
+                        "text": "[75]",
+                        "ref_id": "BIBREF74"
+                    },
+                    {
+                        "start": 505,
+                        "end": 509,
+                        "text": "[76]",
+                        "ref_id": "BIBREF75"
+                    },
+                    {
+                        "start": 690,
+                        "end": 694,
+                        "text": "[73]",
+                        "ref_id": "BIBREF72"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Selection tests",
+                "sec_num": null
+            },
+            {
+                "text": "To examine the possible functional consequences of observed changes in vWF, we added sequences of the A1 domain from representative placental taxa available from Genbank (Dugong AAB51548; Talpa AAM82179; Canis NP0001002932; Mus CAB86200; Marmota CAB37847; Lemur CAC86209; Hylobates CAC86217; Homo NG009072) as well as other non-didelphid marsupials (Sminthopsis crassicaudata AY243412; Murexia longicaudata FJ159361; Caenolestes fuliginosus AY243403; Rhyncholestes raphanurus FJ159365; Dromiciops gliroides AY243407; Echymipera kalubu AY243405; Perameles gunni AY243411) to our existing matrix of didelphid sequences. For each sequence, we quantified per-site charge (1, 0 or 21) and hydrophobicity values [77] . For comparative purposes, we assigned each taxon to either a venom-resistant (Chironectes, Lutreolina, Didephis, and Philander) or non-resistant (all other taxa) class, and calculated the average change in each physicochemical property between the two.",
+                "cite_spans": [
+                    {
+                        "start": 706,
+                        "end": 710,
+                        "text": "[77]",
+                        "ref_id": "BIBREF76"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Comparative functional analyses",
+                "sec_num": null
+            },
+            {
+                "text": "PLoS ONE | www.plosone.org",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "June 2011 | Volume 6 | Issue 6 | e20997",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We gratefully acknowledge loans of genetic material from several institutions, including the Field Museum, the Museum of Vertebrate Zoology, the Royal Ontario Museum, the University of Michigan Museum of Zoology, the Museum of Southwestern Biology, the Museum of Texas Tech University, the Universit\u00e9 de Montpellier, and the Smithsonian Institution. We particularly wish to thank F. Keith Barker for advice on statistical analyses and James Wisker for laboratory assistance.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgments",
+                "sec_num": null
+            },
+            {
+                "text": "Conceived and designed the experiments: SAJ RSV. Performed the experiments: SAJ. Analyzed the data: SAJ. Contributed reagents/ materials/analysis tools: SAJ RSV. Wrote the paper: SAJ RSV.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Author Contributions",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Adaptive evolution of animal toxin multigene families",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Kordi\u0161",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Guben\u0161ek",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Gene",
+                "volume": "261",
+                "issue": "",
+                "pages": "43--52",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kordi\u0161 D, Guben\u0161ek F (2000) Adaptive evolution of animal toxin multigene families. Gene 261: 43-52.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "From genome to ''venome'': Molecular origin and evolution of the snake venom proteome inferred from phylogenetic analysis of toxin sequences and related body proteins",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Fry",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Genome Res",
+                "volume": "15",
+                "issue": "",
+                "pages": "403--420",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fry BG (2005) From genome to ''venome'': Molecular origin and evolution of the snake venom proteome inferred from phylogenetic analysis of toxin sequences and related body proteins. Genome Res 15: 403-420.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Evolution of an arsenal: Structural and functional diversification of the venom system in the advanced snakes (Caenophidia)",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Fry",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Scheib",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Van Der Weerd",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Young",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Mcnaughtan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Mol Cell Proteomics",
+                "volume": "7",
+                "issue": "",
+                "pages": "215--246",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fry BG, Scheib H, van der Weerd L, Young B, McNaughtan J, et al. (2008) Evolution of an arsenal: Structural and functional diversification of the venom system in the advanced snakes (Caenophidia). Mol Cell Proteomics 7: 215-246.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Assembling an arsenal: Origin and evolution of the snake venom proteome inferred from phylogenetic analysis of toxin sequences",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Fry",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "W\u00fcster",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Mol Biol Evol",
+                "volume": "21",
+                "issue": "",
+                "pages": "870--883",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fry BG, W\u00fcster W (2004) Assembling an arsenal: Origin and evolution of the snake venom proteome inferred from phylogenetic analysis of toxin sequences. Mol Biol Evol 21: 870-883.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Molecular genetics of ecological diversification: Duplication and rapid evolution of toxin genes of the venomous gastropod Conus",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Duda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Palumbi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "96",
+                "issue": "",
+                "pages": "6820--6823",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Duda TF, Palumbi SR (1999) Molecular genetics of ecological diversification: Duplication and rapid evolution of toxin genes of the venomous gastropod Conus. Proc Natl Acad Sci USA 96: 6820-6823.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Molecular diversity and accelerated evolution of C-type lectin-like proteins from snake venom",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Ogawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Chijiwa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Oda-Ueda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ohno",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Toxicon",
+                "volume": "45",
+                "issue": "",
+                "pages": "1--14",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ogawa T, Chijiwa T, Oda-Ueda N, Ohno M (2005) Molecular diversity and accelerated evolution of C-type lectin-like proteins from snake venom. Toxicon 45: 1-14.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Rapid evolution by positive selection and gene gain and loss: PLA 2 venom genes in closely related Sistrurus rattlesnakes with divergent diets",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Gibbs",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Rossiter",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "J Mol Evol",
+                "volume": "66",
+                "issue": "",
+                "pages": "151--166",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gibbs HL, Rossiter W (2008) Rapid evolution by positive selection and gene gain and loss: PLA 2 venom genes in closely related Sistrurus rattlesnakes with divergent diets. J Mol Evol 66: 151-166.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Evolution of snake venom disintegrins by positive Darwinian selection",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Ju\u00e1rez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Comas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Gonz\u00e1lez-Candelas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Calvete",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Mol Biol Evol",
+                "volume": "25",
+                "issue": "",
+                "pages": "2391--2407",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ju\u00e1rez P, Comas I, Gonz\u00e1lez-Candelas F, Calvete JJ (2008) Evolution of snake venom disintegrins by positive Darwinian selection. Mol Biol Evol 25: 2391-2407.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "Positions under positive selection: key for selectivity and potency of scorpion alpha-toxins",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Weinberger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Moran",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Gordon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Turkov",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Kahn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mol Biol Evol",
+                "volume": "27",
+                "issue": "",
+                "pages": "1025--1034",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Weinberger H, Moran Y, Gordon D, Turkov M, Kahn R, et al. (2010) Positions under positive selection: key for selectivity and potency of scorpion alpha-toxins. Mol Biol Evol 27: 1025-1034.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Assembling an arsenal, the scorpion way",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Kozminsky-Atias",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Bar-Shalom",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Mishmar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Zilberberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "BMC Evol Biol",
+                "volume": "8",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kozminsky-Atias A, Bar-Shalom A, Mishmar D, Zilberberg N (2008) Assembling an arsenal, the scorpion way. BMC Evol Biol 8: 333.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "The field of reptile toxinology: Snakes, lizards, and their venoms",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Mackessy",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "3--23",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mackessy SP (2010) The field of reptile toxinology: Snakes, lizards, and their venoms. In: Makessy SP, ed. Handbook of Venoms and Toxins of Reptiles. Boca Raton: CRC Press. pp 3-23.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Arms races between and within species",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Dawkins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Krebs",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1979,
+                "venue": "Proc Roy Soc Lond B Bio",
+                "volume": "205",
+                "issue": "",
+                "pages": "489--511",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dawkins R, Krebs JR (1979) Arms races between and within species. Proc Roy Soc Lond B Bio 205: 489-511.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "The ecological and behavioral context for pitviper evolution",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Greene",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Biology of the Pitvipers",
+                "volume": "",
+                "issue": "",
+                "pages": "107--117",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Greene HW (1992) The ecological and behavioral context for pitviper evolution. In: Campbell JA, Brodie E, Jr., eds. Biology of the Pitvipers. Tyler TX: Selva. pp 107-117.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "The origin of snakes and evolution of the venom apparatus",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Kochva",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Toxicon",
+                "volume": "25",
+                "issue": "",
+                "pages": "65--106",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kochva E (1987) The origin of snakes and evolution of the venom apparatus. Toxicon 25: 65-106.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "The evolution of venom-delivery systems in snakes",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Jackson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Zool J Linn Soc-Lond",
+                "volume": "137",
+                "issue": "",
+                "pages": "337--354",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jackson K (2003) The evolution of venom-delivery systems in snakes. Zool J Linn Soc-Lond 137: 337-354.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Bioweapons synthesis and storage: the venom gland of front-fanged snakes",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Mackessy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Baxter",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Zoologischer Anzeiger",
+                "volume": "245",
+                "issue": "",
+                "pages": "147--159",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mackessy SP, Baxter LM (2006) Bioweapons synthesis and storage: the venom gland of front-fanged snakes. Zoologischer Anzeiger 245: 147-159.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Envenomation strategies, head form, and feeding ecology in vipers",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Cundall",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Biology of the Vipers",
+                "volume": "",
+                "issue": "",
+                "pages": "149--162",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cundall D (2002) Envenomation strategies, head form, and feeding ecology in vipers. In: Schuett G, H\u00f6ggren M, Douglas M, Greene HW, eds. Biology of the Vipers. Eagle Mountain UT: Eagle Mountain Publishing. pp 149-162.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Experimental pathophysiology of systemic alterations induced by Bothrops asper snake venom",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Guti\u00e9rrez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Escalante",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Rucavado",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Toxicon",
+                "volume": "54",
+                "issue": "",
+                "pages": "976--987",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Guti\u00e9rrez JM, Escalante T, Rucavado A (2009) Experimental pathophysiology of systemic alterations induced by Bothrops asper snake venom. Toxicon 54: 976-987.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Snake venoms and the hemostatic system",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Markland",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Toxicon",
+                "volume": "36",
+                "issue": "",
+                "pages": "1749--1800",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Markland FS (1998) Snake venoms and the hemostatic system. Toxicon 36: 1749-1800.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Snake venom proteins acting on hemostasis",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Braud",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Bon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Wisner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Biochimie",
+                "volume": "82",
+                "issue": "",
+                "pages": "851--859",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Braud S, Bon C, Wisner A (2000) Snake venom proteins acting on hemostasis. Biochimie 82: 851-859.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Apuntamientos para la historia natural de los quadr\u00fapedos del Parag\u00fcay y R\u00edo de la Plata",
+                "authors": [
+                    {
+                        "first": "Azara",
+                        "middle": [],
+                        "last": "Fde",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Azara Fde (1802) Apuntamientos para la historia natural de los quadr\u00fapedos del Parag\u00fcay y R\u00edo de la Plata. Madrid: Imprenta de la Viuda de Ibarra.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Predatory behavior of the opossum Didelphis albiventris on the pitviper Bothrops jararaca",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Oliveira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Santori",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Stud Neotrop Fauna Environm",
+                "volume": "34",
+                "issue": "",
+                "pages": "72--75",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Oliveira ME, Santori RT (1999) Predatory behavior of the opossum Didelphis albiventris on the pitviper Bothrops jararaca. Stud Neotrop Fauna Environm 34: 72-75.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Predation by the opossum Didelphis marsupialis on the rattlesnake Crotalus durissus",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Almeida-Santos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Antoniazzi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Sant'anna",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Jared",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Current Herpetology",
+                "volume": "19",
+                "issue": "",
+                "pages": "1--9",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Almeida-Santos SM, Antoniazzi MM, Sant'Anna OA, Jared C (2000) Predation by the opossum Didelphis marsupialis on the rattlesnake Crotalus durissus. Current Herpetology 19: 1-9.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "High tolerance to snake venom by the Virginia opossum, Didelphis virginiana",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kilmon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1976,
+                "venue": "Toxicon",
+                "volume": "14",
+                "issue": "",
+                "pages": "337--340",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kilmon JA (1976) High tolerance to snake venom by the Virginia opossum, Didelphis virginiana. Toxicon 14: 337-340.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Resistance of the opossum (Didelphis virginiana) to envenomation by snakes of the family Crotalidae",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Werner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Vick",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1977,
+                "venue": "Toxicon",
+                "volume": "15",
+                "issue": "",
+                "pages": "29--33",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Werner RM, Vick JA (1977) Resistance of the opossum (Didelphis virginiana) to envenomation by snakes of the family Crotalidae. Toxicon 15: 29-33.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "The resistance of three species of warm-blooded animals to western diamondback rattlesnake (Crotalus atrox) venom",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Perez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Pichyangkul",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Garcia",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1979,
+                "venue": "Toxicon",
+                "volume": "17",
+                "issue": "",
+                "pages": "601--607",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Perez JC, Pichyangkul S, Garcia VE (1979) The resistance of three species of warm-blooded animals to western diamondback rattlesnake (Crotalus atrox) venom. Toxicon 17: 601-607.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Factors underlying the natural resistance of animals against snake venoms",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Moussatch\u00e9",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Perales",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Mem Inst Oswaldo Cruz",
+                "volume": "84",
+                "issue": "",
+                "pages": "391--394",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moussatch\u00e9 H, Perales J (1989) Factors underlying the natural resistance of animals against snake venoms. Mem Inst Oswaldo Cruz 84 (suppl IV): 391-394.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Phylogenetic relationships and classification of didelphid marsupials, an extant radiation of New World metatherian mammals",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Voss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Jansa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Bull Am Mus Nat Hist",
+                "volume": "322",
+                "issue": "",
+                "pages": "1--177",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Voss RS, Jansa SA (2009) Phylogenetic relationships and classification of didelphid marsupials, an extant radiation of New World metatherian mammals. Bull Am Mus Nat Hist 322: 1-177.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Isolation and partial characterization of an anti-bothropic complex from the serum of South American Didelphidae",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Perales",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Moussatch\u00e9",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Marangoni",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Oliveira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Domont",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Toxicon",
+                "volume": "32",
+                "issue": "",
+                "pages": "1237--1249",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Perales J, Moussatch\u00e9 H, Marangoni S, Oliveira B, Domont GB (1994) Isolation and partial characterization of an anti-bothropic complex from the serum of South American Didelphidae. Toxicon 32: 1237-1249.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Natural anti-snake venom proteins",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Domont",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Perales",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Moussatch\u00e9",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Toxicon",
+                "volume": "29",
+                "issue": "",
+                "pages": "1183--1194",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Domont GB, Perales J, Moussatch\u00e9 H (1991) Natural anti-snake venom proteins. Toxicon 29: 1183-1194.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Snake envenomation and protective natural endogenous proteins: A mini review of recent developments",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Thwin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Gopalakrishnakone",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Toxicon",
+                "volume": "36",
+                "issue": "",
+                "pages": "1471--1482",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thwin MM, Gopalakrishnakone P (1998) Snake envenomation and protective natural endogenous proteins: A mini review of recent developments (1991- 1997). Toxicon 36: 1471-1482.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Natural protease inhibitors to hemorrhagins in snake venoms and their potential use in medicine",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "P\u00e9rez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "S\u00e1nchez",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Toxicon",
+                "volume": "37",
+                "issue": "",
+                "pages": "703--728",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "P\u00e9rez JC, S\u00e1nchez EE (1999) Natural protease inhibitors to hemorrhagins in snake venoms and their potential use in medicine. Toxicon 37: 703-728.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Natural inhibitors of snake venom hemorrhagic metalloproteinases",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Perales",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Agc",
+                        "middle": [],
+                        "last": "Neves-Ferreira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Valente",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Domont",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Toxicon",
+                "volume": "45",
+                "issue": "",
+                "pages": "1013--1020",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Perales J, Neves-Ferreira AGC, Valente RH, Domont GB (2005) Natural inhibitors of snake venom hemorrhagic metalloproteinases. Toxicon 45: 1013-1020.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Natural inhibitors: Innate immunity to snake venoms",
+                "authors": [
+                    {
+                        "first": "Agc",
+                        "middle": [],
+                        "last": "Neves-Ferreira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Valente",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Perales",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Domont",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mackessy SP",
+                "volume": "",
+                "issue": "",
+                "pages": "259--284",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Neves-Ferreira AGC, Valente RH, Perales J, Domont GB (2010) Natural inhibitors: Innate immunity to snake venoms. In: Mackessy SP, ed. Handbook of Venoms and Toxins of Reptiles. Boca Raton: CRC Press. pp 259-284.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Snake venom C-type lectins interacting with platelet receptors. Structure-function relationships and effects on haemostasis",
+                "authors": [
+                    {
+                        "first": "Q",
+                        "middle": [],
+                        "last": "Lu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Navdaev",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Clemetson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Clemetson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Toxicon",
+                "volume": "45",
+                "issue": "",
+                "pages": "1089--1098",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lu Q, Navdaev A, Clemetson JM, Clemetson KJ (2005) Snake venom C-type lectins interacting with platelet receptors. Structure-function relationships and effects on haemostasis. Toxicon 45: 1089-1098.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Structures and functions of snake venom CLPs (C-type lectinlike proteins) with anticoagulant-, procoagulant-, and platelet-modulating activities",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Morita",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Toxicon",
+                "volume": "45",
+                "issue": "",
+                "pages": "1099--1114",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Morita T (2005) Structures and functions of snake venom CLPs (C-type lectin- like proteins) with anticoagulant-, procoagulant-, and platelet-modulating activities. Toxicon 45: 1099-1114.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Handbook of Venoms and Toxins of Reptiles",
+                "authors": [
+                    {
+                        "first": "X-Y",
+                        "middle": [],
+                        "last": "Du",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Clemetson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "359--375",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Du X-Y, Clemetson KJ (2010) Reptile C-type lectins. In: Mackessy SP, ed. Handbook of Venoms and Toxins of Reptiles. Boca Raton: CRC Press. pp 359-375.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "The coagulation cascade: initiation, maintenance, and regulation",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Davie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Fujikawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Kisiel",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Biochemistry",
+                "volume": "30",
+                "issue": "",
+                "pages": "10363--10370",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Davie EW, Fujikawa K, Kisiel W (1991) The coagulation cascade: initiation, maintenance, and regulation. Biochemistry 30: 10363-10370.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Biochemistry and genetics of von Willebrand factor",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Sadler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Annu Rev Biochem",
+                "volume": "67",
+                "issue": "",
+                "pages": "395--424",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sadler JE (1998) Biochemistry and genetics of von Willebrand factor. Annu Rev Biochem 67: 395-424.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Structure and function of snake venom toxins interacting with human von Willebrand factor",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Matsui",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Hamako",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Toxicon",
+                "volume": "45",
+                "issue": "",
+                "pages": "1075--1087",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Matsui T, Hamako J (2005) Structure and function of snake venom toxins interacting with human von Willebrand factor. Toxicon 45: 1075-1087.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Snake venom metalloproteinases: Biological roles and participation in the pathophysiology of envenomation",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Guti\u00e9rrez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Rucavado",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Escalante",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mackessy SP",
+                "volume": "",
+                "issue": "",
+                "pages": "115--138",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Guti\u00e9rrez JM, Rucavado A, Escalante T (2010) Snake venom metalloprotei- nases: Biological roles and participation in the pathophysiology of envenom- ation. In: Mackessy SP, ed. Handbook of Venoms and Toxins of Reptiles. Boca Raton: CRC Press. pp 115-138.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Role of botrocetin in platelet agglutination: formation of an activated complex of botrocetin and von Willebrand factor",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Read",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Lamb",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Brinkhous",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Blood",
+                "volume": "74",
+                "issue": "",
+                "pages": "1031--1035",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Read MS, Smith SV, Lamb MA, Brinkhous KM (1989) Role of botrocetin in platelet agglutination: formation of an activated complex of botrocetin and von Willebrand factor. Blood 74: 1031-1035.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Primary structure of two-chain botrocetin, a von Willebrand factor modulator purified from the venom of Bothrops jararaca",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Usami",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Fujimura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Suzuki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Ozeki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Nishio",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "90",
+                "issue": "",
+                "pages": "928--932",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Usami Y, Fujimura Y, Suzuki M, Ozeki Y, Nishio K, et al. (1993) Primary structure of two-chain botrocetin, a von Willebrand factor modulator purified from the venom of Bothrops jararaca. Proc Natl Acad Sci USA 90: 928-932.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Structural basis of von Willebrand factor activation by the snake toxin botrocetin",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Fukuda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Doggett",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Bankston",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Cruz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Diacovo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Structure",
+                "volume": "10",
+                "issue": "",
+                "pages": "943--950",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fukuda K, Doggett TA, Bankston LA, Cruz MA, Diacovo TG, et al. (2002) Structural basis of von Willebrand factor activation by the snake toxin botrocetin. Structure 10: 943-950.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Thrombotic thrombocytopenia with von Willebrand factor deficiency induced by botrocetin. An animal model",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Sanders",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Read",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Reddick",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Garris",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Brinkhous",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Lab Invest",
+                "volume": "59",
+                "issue": "",
+                "pages": "443--452",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sanders WE, Read MS, Reddick RL, Garris JB, Brinkhous KM (1988) Thrombotic thrombocytopenia with von Willebrand factor deficiency induced by botrocetin. An animal model. Lab Invest 59: 443-452.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Characterization of aspercetin, a platelet agglutinating component from the venom of the snake Bothrops asper, which induces thrombocytopenia and potentiates metalloproteinase-induced hemorrhage",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Rucavado",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Soto",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Kamiguti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Rdg",
+                        "middle": [],
+                        "last": "Theakston",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Fox",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Thromb Haemostasis",
+                "volume": "85",
+                "issue": "",
+                "pages": "710--715",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rucavado A, Soto M, Kamiguti AS, Theakston RDG, Fox JW, et al. (2001) Characterization of aspercetin, a platelet agglutinating component from the venom of the snake Bothrops asper, which induces thrombocytopenia and potentiates metalloproteinase-induced hemorrhage. Thromb Haemostasis 85: 710-715.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "The snake venom protein botrocetin acts as a biological brace to promote dysfunctional platelet aggregation",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Fukuda",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Doggett",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Laurenzi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Liddington",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Diacovo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Nat Struc Mol Biol",
+                "volume": "12",
+                "issue": "",
+                "pages": "152--159",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fukuda K, Doggett T, Laurenzi IJ, Liddington RC, Diacovo TG (2005) The snake venom protein botrocetin acts as a biological brace to promote dysfunctional platelet aggregation. Nat Struc Mol Biol 12: 152-159.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Evaluation of an improved branch-site likelihood method for detecting positive selection at the molecular level",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Zhang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Nielsen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Mol Biol Evol",
+                "volume": "22",
+                "issue": "",
+                "pages": "2472--2479",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zhang J, Nielsen R, Yang Z (2005) Evaluation of an improved branch-site likelihood method for detecting positive selection at the molecular level. Mol Biol Evol 22: 2472-2479.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Biochemistry and toxicology of toxins purified from the venom of the snake Bothrops asper",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Angulo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Lomonte",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Toxicon",
+                "volume": "54",
+                "issue": "",
+                "pages": "949--957",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Angulo Y, Lomonte B (2009) Biochemistry and toxicology of toxins purified from the venom of the snake Bothrops asper. Toxicon 54: 949-957.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "The binding site of the nicotinic acetylcholine receptor in animal species resistant to a-bungarotoxin",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Barchan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ovadia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Kochva",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Fuchs",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Biochemistry",
+                "volume": "34",
+                "issue": "",
+                "pages": "9172--9176",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barchan D, Ovadia M, Kochva E, Fuchs S (1995) The binding site of the nicotinic acetylcholine receptor in animal species resistant to a-bungarotoxin. Biochemistry 34: 9172-9176.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Two subsites in the binding domain of the acetylcholine receptor: an aromatic subsite and a proline subsite",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kachalsky",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Jensen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Barchan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Fuchs",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "92",
+                "issue": "",
+                "pages": "10801--10805",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kachalsky S, Jensen B, Barchan D, Fuchs S (1995) Two subsites in the binding domain of the acetylcholine receptor: an aromatic subsite and a proline subsite. Proc Natl Acad Sci USA 92: 10801-10805.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "California ground squirrel (Spermophilus beecheyi) blood sera inhibits crotalid venom proteolytic activity",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Biardi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Coss",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Toxicon",
+                "volume": "38",
+                "issue": "",
+                "pages": "713--721",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Biardi JE, Coss RG, Smith DG (2000) California ground squirrel (Spermophilus beecheyi) blood sera inhibits crotalid venom proteolytic activity. Toxicon 38: 713-721.",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Looking for Darwin in all the wrong places: the misguided quest for positive selection at the nucleotide sequence level",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Hughes",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Heredity",
+                "volume": "99",
+                "issue": "",
+                "pages": "364--373",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hughes AL (2007) Looking for Darwin in all the wrong places: the misguided quest for positive selection at the nucleotide sequence level. Heredity 99: 364-373.",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Estimating synonymous and nonsynonymous substitution rates under realistic evolutionary models",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Nielsen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Mol Biol Evol",
+                "volume": "17",
+                "issue": "",
+                "pages": "32--43",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang Z, Nielsen R (2000) Estimating synonymous and nonsynonymous substitution rates under realistic evolutionary models. Mol Biol Evol 17: 32-43.",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Molecular signatures of natural selection",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Nielsen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Annu Rev Genet",
+                "volume": "39",
+                "issue": "",
+                "pages": "197--218",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Nielsen R (2005) Molecular signatures of natural selection. Annu Rev Genet 39: 197-218.",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "Natural selection at the class II major histocompatibility complex loci of mammals",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Hughes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Hughes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "Y"
+                        ],
+                        "last": "Howell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Philos T Roy Soc B",
+                "volume": "345",
+                "issue": "",
+                "pages": "359--367",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hughes AL, Hughes MK, Howell CY, Nei M (1994) Natural selection at the class II major histocompatibility complex loci of mammals. Philos T Roy Soc B 345: 359-367.",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "From evolutionary genetics to human immunology: how selection shapes host defence genes",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Barreiro",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Quintana-Murci",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Nat Rev Genet",
+                "volume": "11",
+                "issue": "",
+                "pages": "17--30",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barreiro LB, Quintana-Murci L (2009) From evolutionary genetics to human immunology: how selection shapes host defence genes. Nat Rev Genet 11: 17-30.",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "The rapid evolution of reproductive proteins",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Swanson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Vacquier",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Nat Rev Genet",
+                "volume": "3",
+                "issue": "",
+                "pages": "137--144",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Swanson WJ, Vacquier VD (2002) The rapid evolution of reproductive proteins. Nat Rev Genet 3: 137-144.",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Causes and consequences of the evolution of reproductive proteins",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Turner",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hoekstra",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Int J Dev Biol",
+                "volume": "52",
+                "issue": "",
+                "pages": "769--780",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Turner LM, Hoekstra HE (2008) Causes and consequences of the evolution of reproductive proteins. Int J Dev Biol 52: 769-780.",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Resistance of warmblooded animals to snake venoms",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Perez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Haws",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "V",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Garcia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Jennings",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1978,
+                "venue": "Toxicon",
+                "volume": "16",
+                "issue": "",
+                "pages": "375--383",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Perez JC, Haws WC, Garcia VE, Jennings BM (1978) Resistance of warm- blooded animals to snake venoms. Toxicon 16: 375-383.",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "The ecological and evolutionary context of mammalian resistance to rattlesnake venoms",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Biardi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "The Biology of Rattlesnakes",
+                "volume": "",
+                "issue": "",
+                "pages": "557--568",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Biardi JE (2008) The ecological and evolutionary context of mammalian resistance to rattlesnake venoms. In: Hayes WK, Beaman KR, Cardwell MD, Bush SP, eds. The Biology of Rattlesnakes. Loma Linda CA: Loma Linda University Press. pp 557-568.",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "How the mongoose can fight the snake: the binding site of the mongoose acetylcholine receptor",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Barchan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kachalshy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Neumann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Vogel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ovadia",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Proc Natl Acad Sci",
+                "volume": "89",
+                "issue": "",
+                "pages": "7717--7721",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barchan D, Kachalshy S, Neumann D, Vogel Z, Ovadia M, et al. (1992) How the mongoose can fight the snake: the binding site of the mongoose acetylcholine receptor. Proc Natl Acad Sci USA 89: 7717-7721.",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "Resistance of the Egyptian mongoose to sarafotoxins",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Bdolah",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Kochva",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Ovadia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kinamon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Wollberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "Toxicon",
+                "volume": "35",
+                "issue": "",
+                "pages": "1251--1261",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bdolah A, Kochva E, Ovadia M, Kinamon S, Wollberg Z (1997) Resistance of the Egyptian mongoose to sarafotoxins. Toxicon 35: 1251-1261.",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "Erinacin, an antihemorrhagic factor from the European hedgehog, Erinaceus europaeus",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Mebs",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Omori-Satoh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Yamakawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Nagaoka",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Toxicon",
+                "volume": "34",
+                "issue": "",
+                "pages": "1313--1316",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mebs D, Omori-Satoh T, Yamakawa Y, Nagaoka Y (1996) Erinacin, an antihemorrhagic factor from the European hedgehog, Erinaceus europaeus. Toxicon 34: 1313-1316.",
+                "links": null
+            },
+            "BIBREF64": {
+                "ref_id": "b64",
+                "title": "Investigaciones sobre imunidad natural contra los venenos de serpientes",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Vellard",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1949,
+                "venue": "Javier Prado'' Serie A (Zoolog\u00eda)",
+                "volume": "1",
+                "issue": "2",
+                "pages": "1--61",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Vellard J (1949) Investigaciones sobre imunidad natural contra los venenos de serpientes. Publicaciones del Museo de Historia Natural ''Javier Prado'' Serie A (Zoolog\u00eda) 1(2): 1-61.",
+                "links": null
+            },
+            "BIBREF65": {
+                "ref_id": "b65",
+                "title": "Coevolution of diet and prey-specific venom activity supports the role of selection in snake venom evolution",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Barlow",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Pook",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Harrison",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Wuester",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Proc R Soc B",
+                "volume": "276",
+                "issue": "",
+                "pages": "2443--2449",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barlow A, Pook CE, Harrison RA, Wuester W (2009) Coevolution of diet and prey-specific venom activity supports the role of selection in snake venom evolution. Proc R Soc B 276: 2443-2449.",
+                "links": null
+            },
+            "BIBREF66": {
+                "ref_id": "b66",
+                "title": "Is predator-prey coevolution an arms race?",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Abrams",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Trends Ecol Evol",
+                "volume": "1",
+                "issue": "",
+                "pages": "108--110",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Abrams PA (1986) Is predator-prey coevolution an arms race? Trends Ecol Evol 1: 108-110.",
+                "links": null
+            },
+            "BIBREF67": {
+                "ref_id": "b67",
+                "title": "The evolutionary interaction among species: selection, escalation, and coevolution",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Vermeij",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Annu Rev Ecol Syst",
+                "volume": "25",
+                "issue": "",
+                "pages": "219--236",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Vermeij GJ (1994) The evolutionary interaction among species: selection, escalation, and coevolution. Annu Rev Ecol Syst 25: 219-236.",
+                "links": null
+            },
+            "BIBREF68": {
+                "ref_id": "b68",
+                "title": "Predator-prey arms races",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Brodie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Iii",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Brodie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Jr",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Bioscience",
+                "volume": "49",
+                "issue": "",
+                "pages": "557--568",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Brodie ED, III, Brodie ED, Jr. (1999) Predator-prey arms races. Bioscience 49: 557-568.",
+                "links": null
+            },
+            "BIBREF69": {
+                "ref_id": "b69",
+                "title": "Phenotypic mismatches reveal escape from arms-race coevolution",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Hanifin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Brodie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Jr",
+                        "middle": [],
+                        "last": "Brodie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Iii",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "PLoS Biol",
+                "volume": "6",
+                "issue": "",
+                "pages": "471--482",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hanifin CT, Brodie ED, Jr., Brodie ED, III (2008) Phenotypic mismatches reveal escape from arms-race coevolution. PLoS Biol 6: 471-482.",
+                "links": null
+            },
+            "BIBREF70": {
+                "ref_id": "b70",
+                "title": "Rattlesnakes: Their Habits, Life Histories, and Influence on Mankind",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Klauber",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1972,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Klauber L (1972) Rattlesnakes: Their Habits, Life Histories, and Influence on Mankind. Berkeley: University of California Press. 2nd ed, 2 vols.",
+                "links": null
+            },
+            "BIBREF71": {
+                "ref_id": "b71",
+                "title": "Antipredator mechanisms in reptiles",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Greene",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Ecology B: Defense and life history",
+                "volume": "16",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Greene HW (1988) Antipredator mechanisms in reptiles. In: Gans C, Huey RB, eds. Biology of the Reptilia. New York: Alan R. Liss. Vol 16: Ecology B: Defense and life history.",
+                "links": null
+            },
+            "BIBREF72": {
+                "ref_id": "b72",
+                "title": "Bayes empirical Bayes inference of amino acid sites under positive selection",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Wong",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Nielsen",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Mol Biol Evol",
+                "volume": "22",
+                "issue": "",
+                "pages": "1107--1118",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang Z, Wong W, Nielsen R (2005) Bayes empirical Bayes inference of amino acid sites under positive selection. Mol Biol Evol 22: 1107-1118.",
+                "links": null
+            },
+            "BIBREF73": {
+                "ref_id": "b73",
+                "title": "Phylogenetic analysis by maximum likelihood",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Mol Biol Evol",
+                "volume": "4",
+                "issue": "",
+                "pages": "1586--1591",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang Z (2007) PAML 4: Phylogenetic analysis by maximum likelihood. Mol Biol Evol 24: 1586-1591.",
+                "links": null
+            },
+            "BIBREF74": {
+                "ref_id": "b74",
+                "title": "Appropriate likelihood ratio tests and marginal distributions for evolutionary tree models with constraints on parameters",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Ota",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Waddell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hasegawa",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Shimodaira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Kishino",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Mol Biol Evol",
+                "volume": "17",
+                "issue": "",
+                "pages": "798--803",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ota R, Waddell P, Hasegawa M, Shimodaira H, Kishino H (2000) Appropriate likelihood ratio tests and marginal distributions for evolutionary tree models with constraints on parameters. Mol Biol Evol 17: 798-803.",
+                "links": null
+            },
+            "BIBREF75": {
+                "ref_id": "b75",
+                "title": "Computational Molecular Evolution",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang Z (2006) Computational Molecular Evolution. Oxford: Oxford University Press.",
+                "links": null
+            },
+            "BIBREF76": {
+                "ref_id": "b76",
+                "title": "A simple method for displaying the hydropathic character of a protein",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Kyte",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Doolittle",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "J Mol Biol",
+                "volume": "157",
+                "issue": "",
+                "pages": "105--132",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kyte J, Doolittle RF (1982) A simple method for displaying the hydropathic character of a protein. J Mol Biol 157: 105-132.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "text": "Structure of vWF showing botrocetin-binding sites. Schematic showing the structure of the mature vWF protein and its constituent domains (A, B, C, D, and CK; modified from",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF1": {
+                "text": "Site classes 0 and 1 comprise sites under purifying selection (0,v 0 ,1) and neutral sites (v 1 = 1), respectively in both foreground and background lineages. Site class 2 allows a proportion of positively selected sites in the foreground lineages, where 2a includes sites under purifying selection (0,v 0 ,1) in the background lineages, 2b includes neutral sites in the background lineages. Both 2a and 2b allow a proportion of sites in the foreground lineages to be under positive selection (v 2 .1). doi:10.1371/journal.pone.0020997.t001 models and interact with negatively charged sites on botrocetin. Of these, site Lys643 undergoes the most dramatic change in average charge between resistant and non-resistant taxa, even though it is not identified as positively selected in the venom-resistant clade. Again, this change is most notable for species of Didelphis and",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF2": {
+                "text": "Sites inferred to be under positive selection with P$0.95 are shown in bold.",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF3": {
+                "text": "Positively selected sites corresponding to those involved in botrocetin binding in Mus are indicated. An additional five sites (Arg629, Arg632, Lys660, Gln661, Lys667) bind botrocetin in Mus but are not inferred to be positively selected in any of our analyses of opossum vWF sequences. doi:10.1371/journal.pone.0020997.t002",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF4": {
+                "text": "Structure and functional analyses of the vWF-A1 domain. A. The structure of the mouse vWF A1 domain complexed with botrocetin (Protein Data Bank file 1U0O",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF5": {
+                "text": "Change in amino-acid properties as a function of distance from botrocetin-binding sites. Plots of the absolute value of the average change in amino-acid charge (a) and hydrophobicity (d) between resistant and non-resistant taxa as a function of distance from a known botrocetin-binding site. Solid dots correspond to values at known botrocetin-binding sites; open circles indicate other sites in the A1 domain. For both physicochemical properties (charge, hydrophobicity), the magnitude of change is negatively correlated with distance from a known botrocetinbinding site. To test the significance of this correlation, we analyzed 1000 replicate datasets in which magnitude of change in each physicochemical property was randomized across the sequence. Histograms show the distribution of slope values for the best-fit regression lines through scatterplots of change in charge (b, c) or change in hydrophobicity (e, f) as a function of these randomly permuted distances. Permutations were performed with (b, e) and without (c, f) botrocetin-binding sites included. Dashed lines indicate the limits of the 95% confidence interval; solid lines correspond to the slope of the best-fit regression line based on the unpermuted data. doi:10.1371/journal.pone.0020997.g004",
+                "num": null,
+                "uris": null,
+                "type_str": "figure"
+            },
+            "TABREF0": {
+                "content": "<table><tr><td>Model constraint</td><td>site class 1</td><td>Proportion of sites</td></tr></table>",
+                "text": "Results of branch-site tests for selection on vWF.",
+                "num": null,
+                "type_str": "table"
+            },
+            "TABREF2": {
+                "content": "<table><tr><td/><td>Foreground branches</td><td>Foreground branches</td><td/></tr><tr><td>Site 1</td><td>exclude Chironectes 2</td><td>include Chironectes 2</td><td>Function 3</td></tr><tr><td>Leu533</td><td>0.80</td><td>0.71</td><td/></tr><tr><td>Asp560</td><td>0.62</td><td>-</td><td/></tr><tr><td>Glu567</td><td>,0.50</td><td>0.75</td><td/></tr><tr><td>Gln590</td><td>0.99</td><td>1.00</td><td/></tr><tr><td>Thr601</td><td>,0.50</td><td>0.85</td><td/></tr><tr><td>Asp610</td><td>1.00</td><td>0.99</td><td/></tr><tr><td>Thr622</td><td>0.54</td><td>,0.50</td><td/></tr><tr><td>Gln625</td><td>0.65</td><td>,0.50</td><td/></tr><tr><td>Pro628</td><td>0.88</td><td>0.82</td><td>Botrocetin</td></tr><tr><td/><td/><td/><td>binding</td></tr><tr><td>Ala631</td><td>0.95</td><td>0.89</td><td/></tr><tr><td>Asn633</td><td>,0.50</td><td>0.98</td><td/></tr><tr><td>Val635</td><td>0.60</td><td>0.98</td><td>Botrocetin</td></tr><tr><td/><td/><td/><td>binding</td></tr><tr><td>Arg636</td><td>0.74</td><td>0.91</td><td>Botrocetin</td></tr><tr><td/><td/><td/><td>binding</td></tr><tr><td>Gln639</td><td>,0.50</td><td>0.73</td><td>Botrocetin</td></tr><tr><td/><td/><td/><td>binding</td></tr><tr><td>Lys642</td><td>0.71</td><td>0.50</td><td/></tr><tr><td>Lys643</td><td>1.00</td><td>0.99</td><td>Botrocetin</td></tr><tr><td/><td/><td/><td>binding</td></tr><tr><td>Ile647</td><td>0.84</td><td>0.69</td><td/></tr><tr><td>Ala657</td><td>0.57</td><td>,0.50</td><td/></tr><tr><td>Ser658</td><td>0.55</td><td>,0.50</td><td/></tr><tr><td>Leu664</td><td>0.69</td><td>0.57</td><td>Botrocetin</td></tr><tr><td/><td/><td/><td>binding</td></tr><tr><td>Gln668</td><td>0.89</td><td>0.98</td><td>Botrocetin</td></tr><tr><td/><td/><td/><td>binding</td></tr><tr><td>Ala669</td><td>0.84</td><td>0.77</td><td/></tr><tr><td>Pro670</td><td>0.79</td><td>0.70</td><td/></tr><tr><td>Ala674</td><td>1.00</td><td>0.99</td><td/></tr><tr><td>Ser692</td><td>0.93</td><td>1.00</td><td/></tr><tr><td>Leu694</td><td>,0.50</td><td>0.69</td><td/></tr><tr><td>Thr705</td><td>0.83</td><td>0.69</td><td/></tr><tr><td>Lys728</td><td>0.60</td><td>,0.50</td><td/></tr><tr><td>Lys753</td><td>,0.50</td><td>0.95</td><td/></tr><tr><td>Lys795</td><td>0.76</td><td>0.66</td><td/></tr><tr><td>Pro838</td><td>,0.50</td><td>0.69</td><td/></tr><tr><td colspan=\"4\">Sites in vWF that were identified as being under positive selection (v.1) with</td></tr><tr><td colspan=\"4\">posterior probability .0.50 in Bayes-Emipircal-Bayes analyses with Didelphini</td></tr><tr><td colspan=\"4\">(either excluding or including Chironectes) assigned as foreground lineages.</td></tr></table>",
+                "text": "Results of Bayes-Empirical-Bayes analyses identifying positively selected sites.",
+                "num": null,
+                "type_str": "table"
+            }
+        }
+    }
+}

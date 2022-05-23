@@ -1,0 +1,2819 @@
+{
+    "paper_id": "Troudetetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:34:25.557108Z"
+    },
+    "title": "Taxonomic bias in biodiversity data and societal preferences",
+    "authors": [
+        {
+            "first": "Julien",
+            "middle": [],
+            "last": "Troudet",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "UMR 7205 MNHN CNRS UPMC EPHE",
+                "institution": "ISYEB",
+                "location": {
+                    "settlement": "Evolution",
+                    "region": "Biodiversit\u00e9"
+                }
+            },
+            "email": "julien.troudet@mnhn.fr"
+        },
+        {
+            "first": "Philippe",
+            "middle": [],
+            "last": "Grandcolas",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "UMR 7205 MNHN CNRS UPMC EPHE",
+                "institution": "ISYEB",
+                "location": {
+                    "settlement": "Evolution",
+                    "region": "Biodiversit\u00e9"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Amandine",
+            "middle": [],
+            "last": "Blin",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "Outils et M\u00e9thodes de la Syst\u00e9matique Int\u00e9grative, OMSI -UMS 2700 CNRS MNHN",
+                "institution": "Mus\u00e9um national d'Histoire naturelle",
+                "location": {
+                    "addrLine": "57 rue Cuvier, Paris Cedex 05",
+                    "postCode": "CP26, 75231",
+                    "country": "France"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "R\u00e9gine",
+            "middle": [],
+            "last": "Vignes-Lebbe",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "UMR 7205 MNHN CNRS UPMC EPHE",
+                "institution": "ISYEB",
+                "location": {
+                    "settlement": "Evolution",
+                    "region": "Biodiversit\u00e9"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Fr\u00e9d\u00e9ric",
+            "middle": [],
+            "last": "Legendre",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "UMR 7205 MNHN CNRS UPMC EPHE",
+                "institution": "ISYEB",
+                "location": {
+                    "settlement": "Evolution",
+                    "region": "Biodiversit\u00e9"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "Studying and protecting each and every living species on Earth is a major challenge of the 21 st century. Yet, most species remain unknown or unstudied, while others attract most of the public, scientific and government attention. Although known to be detrimental, this taxonomic bias continues to be pervasive in the scientific literature, but is still poorly studied and understood. Here, we used 626 million occurrences from the Global Biodiversity Information Facility (GBIF), the biggest biodiversity data portal, to characterize the taxonomic bias in biodiversity data. We also investigated how societal preferences and taxonomic research relate to biodiversity data gathering. For each species belonging to 24 taxonomic classes, we used the number of publications from Web of Science and the number of web pages from Bing searches to approximate research activity and societal preferences. Our results show that societal preferences, rather than research activity, strongly correlate with taxonomic bias, which lead us to assert that scientists should advertise less charismatic species and develop societal initiatives (e.g. citizen science) that specifically target neglected organisms. Ensuring that biodiversity is representatively sampled while this is still possible is an urgent prerequisite for achieving efficient conservation plans and a global understanding of our surrounding environment.",
+    "pdf_parse": {
+        "paper_id": "Troudetetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Studying and protecting each and every living species on Earth is a major challenge of the 21 st century. Yet, most species remain unknown or unstudied, while others attract most of the public, scientific and government attention. Although known to be detrimental, this taxonomic bias continues to be pervasive in the scientific literature, but is still poorly studied and understood. Here, we used 626 million occurrences from the Global Biodiversity Information Facility (GBIF), the biggest biodiversity data portal, to characterize the taxonomic bias in biodiversity data. We also investigated how societal preferences and taxonomic research relate to biodiversity data gathering. For each species belonging to 24 taxonomic classes, we used the number of publications from Web of Science and the number of web pages from Bing searches to approximate research activity and societal preferences. Our results show that societal preferences, rather than research activity, strongly correlate with taxonomic bias, which lead us to assert that scientists should advertise less charismatic species and develop societal initiatives (e.g. citizen science) that specifically target neglected organisms. Ensuring that biodiversity is representatively sampled while this is still possible is an urgent prerequisite for achieving efficient conservation plans and a global understanding of our surrounding environment.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Since the first Convention on Biological Diversity in 1992, biodiversity and the consequences of its destruction have become a central concern for biologists [1] [2] [3] . From scientists to the lay public or policy makers and practitioners, the need to study and protect biodiversity is growing, and scientists have shown that it must be tackled at the gene, species and ecosystem level 4 . Within a context of global change and accelerated biodiversity loss, this necessity has become a major concern and challenge for the 21 st century 5, 6 . However, discussions on biodiversity often only focus on a small subset of species, while most of the eukaryotic biodiversity remains unknown or ignored 7, 8 .",
+                "cite_spans": [
+                    {
+                        "start": 158,
+                        "end": 161,
+                        "text": "[1]",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 162,
+                        "end": 165,
+                        "text": "[2]",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 166,
+                        "end": 169,
+                        "text": "[3]",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 539,
+                        "end": 541,
+                        "text": "5,",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 699,
+                        "end": 701,
+                        "text": "7,",
+                        "ref_id": "BIBREF6"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Taxonomic bias, also referred to as taxonomic chauvinism 9 , is pervasive in biodiversity research. This bias stems from disparities in our knowledge of different organisms, and in the extent to which they are the focus of scientific research, across a wide range of biological disciplines. Some organisms -mostly plants and vertebrates -are over-represented in various scientific fields 7, 9, 10 , are more likely to raise funds 11 , or are considered ecologically more important than others 12 . It has been shown, however, that focusing on a few, often charismatic, species, prevents reaching global conclusions and developing efficient conservation plans 7, 13, 14 . Rare, small or uncharismatic creatures do play pivotal functions in ecosystems 15, 16 . In addition, biomimicry, i.e. the application of the properties of living organisms to technology, and bioprospecting activities, i.e. the search for new natural products in wild species, cannot be performed efficiently when less than 1% of known species have been carefully studied 17 . Thus, given its scientific and societal significance, describing taxonomic bias in the study of biodiversity and understanding its underlying causes are undeniable priorities.",
+                "cite_spans": [
+                    {
+                        "start": 57,
+                        "end": 58,
+                        "text": "9",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 388,
+                        "end": 390,
+                        "text": "7,",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 391,
+                        "end": 393,
+                        "text": "9,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 659,
+                        "end": 661,
+                        "text": "7,",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 662,
+                        "end": 665,
+                        "text": "13,",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 750,
+                        "end": 753,
+                        "text": "15,",
+                        "ref_id": "BIBREF14"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Taxonomic bias in science has long been recognized 10, 18, 19 but its origin is less clear. Obviously, some organisms are more difficult to study than others because they live in remote habitats, are local endemics or are microscopic and difficult to identify 20 . But these intrinsic features alone cannot fully explain the pervasive taxonomic bias observed in science. Two hypotheses on the role of two extrinsic factors can then be put forward: the 'taxonomic research' hypothesis and the 'societal preferences' hypothesis. The 'societal preferences' hypothesis suggests that societal interests influence and bias the choice of study organisms 21, 22 . The 'taxonomic research' hypothesis implies that scientific reasons and limitations will lead and orientate biodiversity data gathering 20 . Because of the intricate interactions between scientists, citizens and funding agencies, and their mixed influence 23 , the underlying mechanisms are unclear. Nevertheless, these hypotheses deserve to be explored and confronted at a global taxonomic scale. Moreover, the recent development of citizen science 24 may have increased the impact of societal preferences. Here, to investigate the relative impact of 'societal preferences' and 'taxonomic research' on biodiversity data, we used the number of webpages from Bing searches and the number of publications retrieved from Web of Science, as proxies, respectively (see Methods).",
+                "cite_spans": [
+                    {
+                        "start": 51,
+                        "end": 54,
+                        "text": "10,",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 55,
+                        "end": 58,
+                        "text": "18,",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 59,
+                        "end": 61,
+                        "text": "19",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 647,
+                        "end": 650,
+                        "text": "21,",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "The study of biodiversity is a daunting task -ca. 10 million species are estimated to inhabit the planet -that requires deploying a considerable workforce to gather and analyse biodiversity data 25 . Fortunately, for ethical and scientific reasons [26] [27] [28] , data sharing practices and tools like the Global Biodiversity Information Facility (GBIF) were developed, facilitating access to species occurrence records. The GBIF portal was chosen because it hosts the biggest open access primary biodiversity database and, even though the big data paradigm does not mean that big datasets are devoid of flaws, they offer a significant potential for new and broad insights 29 . Moreover, although open access primary biodiversity data are heterogeneous, resulting from the good will of contributors and not from a well-planned sampling protocol 30 , they reflect our knowledge and practices in the study of biodiversity. Thus, they can be used to investigate taxonomic bias on a large geographical and taxonomic scale.",
+                "cite_spans": [
+                    {
+                        "start": 248,
+                        "end": 252,
+                        "text": "[26]",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 253,
+                        "end": 257,
+                        "text": "[27]",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 258,
+                        "end": 262,
+                        "text": "[28]",
+                        "ref_id": "BIBREF27"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Here, we aim to quantify taxonomic bias in biodiversity data using 626 million of GBIF-mediated occurrences covering 24 classes of organisms. After careful data validation procedures, we characterized biodiversity gaps, a necessary first step before trying to bridge these gaps 31 . We did not assess the validity of GBIF mediated data, which is an issue that has already been raised and discussed repeatedly [32] [33] [34] [35] [36] . Instead, we quantified taxonomic bias and imprecision (i.e. when an occurrence has been identified not at the species level but only at a higher taxonomic level) and related them to information provided in the occurrence records information (data origin, record date and locality). We tested the relative impact of societal preferences and taxonomic research on taxonomic bias, using public interest (i.e. the number of webpages) and taxonomic research quantity (i.e. the number of publications) as explaining variables, respectively. Opposing these hypotheses enabled us to suggest future directions for developing strategies for representative sampling of biodiversity while this is still possible.",
+                "cite_spans": [
+                    {
+                        "start": 409,
+                        "end": 413,
+                        "text": "[32]",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 414,
+                        "end": 418,
+                        "text": "[33]",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 419,
+                        "end": 423,
+                        "text": "[34]",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 424,
+                        "end": 428,
+                        "text": "[35]",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 429,
+                        "end": 433,
+                        "text": "[36]",
+                        "ref_id": "BIBREF35"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Global taxonomic coverage and taxonomic precision. 24 classes of organisms recorded in the GBIF database had more than 1 million occurrences, with widely variable numbers of occurrence recordings (Table 1) . More than half of the records were bird (Aves) occurrences (345 million occurrences; 53% of the GBIF mediated Table 1 . Biodiversity occurrence data statistics for 24 taxonomic classes. The number of occurrences (nb occ ) was obtained before the use of any filter. The number of species (p >1 ) corresponds to the number of unique scientific names having at least one occurrence. In bold are the eight classes selected to study the taxonomic bias at the ordinal level. med /sp is the median number of occurrences per species and mad is the associated median deviation. Taxonomic precision is the proportion of taxa identified at least at the species level. data), even though birds represent only 1% of the total number of species catalogued in GBIF. Aves was also the class with the highest median number of occurrences per species (med /sp = 371). By contrast, and despite being three times more speciose, Arachnida had only 2.17 million occurrences and one of the lowest median numbers of occurrences per species (med /sp = 3). The lowest values of the median number of occurrences per species (i.e. below 7) were found for several classes of Arthropods (Insecta, Maxillopoda, Arachnida, Malacostraca), some fungi (Agaricomycetes) and diatoms (Bacillariophyceae). Magnoliopsida and Insecta, two highly speciose classes, were the ones with the highest number of species recorded. Only six of the 24 classes had a median number of occurrences per species higher than 20. With regard to taxonomic precision, 94% of GBIF occurrences were identified (at least) at the species level (88% not counting Aves). The lowest levels of taxonomic precision were found in Maxillopoda and Anthozoa (58% and 59% of occurrences, respectively), whereas the highest levels were found in the different classes of Plantae (91 to 95% of occurrences in Magnoliopsida, Liliopsida and Pinopsida), Fungi (93% in Agaricomycetes and Lecanoromycetes) and Aves (99%).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 196,
+                        "end": 205,
+                        "text": "(Table 1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 318,
+                        "end": 325,
+                        "text": "Table 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Taxonomic bias. Of the 2.2 million of species referenced in the GBIF taxonomic backbone, 1.2 million species can be found in the GBIF published datasets and 1.01 million belong to the 24 classes selected here. The number of recorded species per class was not proportional to their known species richness, highlighting a strong taxonomic bias. Aves and Insecta were, by far, the most over-and under-represented classes, respectively. Mammalia, Liliopsida, Actinopterygii, Amphibia and Magnoliopsida were also over-represented, whereas Arachnida, Gastropoda, Agaricomycetes, Malacostraca and Bacillariophyceae were under-represented ( Fig. 1 and Supplementary Fig. 1 ). This taxonomic bias was already apparent more than 50 years ago, meaning that classes that were over-or under-represented in the 1950\u2032s are still over-or under-represented today (Fig. 2) . Nonetheless, we found an increase in taxonomic bias over time, mostly due to the faster accumulation of data for birds compared to other classes (Fig. 3 top; 283 million bird occurrences recorded between 2000 and 2016). Recently, data has accumulated faster than ever before for most classes (Fig. 3 top, middle and Supplementary Fig. 2 ) however, Figure 1 . Taxonomic bias in biodiversity occurrence data. The vertical line at x = 0 depicts the 'ideal' number of occurrences per class, where each class is sampled proportionally to its number of known species. Green and red bars show the classes that are over-and under-represented in the GBIF mediated database compared to this 'ideal' sampling, respectively. Insects lack >200 millions occurrences and birds have an excess of >200 millions occurrences compared to an unbiased taxonomic sampling. Because birds and insects are greatly over-and under-represented, respectively, an inverse hyperbolic sine transformation was used for the x-axis.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 633,
+                        "end": 639,
+                        "text": "Fig. 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 644,
+                        "end": 664,
+                        "text": "Supplementary Fig. 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 846,
+                        "end": 854,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1002,
+                        "end": 1014,
+                        "text": "(Fig. 3 top;",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1149,
+                        "end": 1156,
+                        "text": "(Fig. 3",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1173,
+                        "end": 1193,
+                        "text": "Supplementary Fig. 2",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 1205,
+                        "end": 1213,
+                        "text": "Figure 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "for Amphibia, Reptilia and Florideophyceae, the number of occurrences recorded per year has stagnated or even declined over the past 40 years (Fig. 3 bottom) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 142,
+                        "end": 157,
+                        "text": "(Fig. 3 bottom)",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Twenty out of 24 classes had more than 50% of their described species referenced at least once in GBIF, and, for 14 of these classes, these statistics rose to 70% or more. By contrast, only 35% of Insecta and 36% of Arachnida species were referenced at least once in GBIF (Fig. 4 top) . Furthermore, species were more or less intensely recorded in GBIF: 21% had only one occurrence (i.e. 212,911 species), 44% had between 2 and 19 occurrences (i.e. 446,643 species), and 35% had 20 or more occurrences (i.e. 353,843 species). This density of recordings per species was unevenly distributed between classes ( Fig. 4 top) . Only three classes (Aves, Amphibia and Actinopterygii) had more than half of their species with at least 20 occurrences, and only Aves had more than half of its species \"decently\" sampled (i.e. with 20 spatially distinct occurrences). This contrasted strikingly with the Arthropod classes, where, at best, 9% of species were \"decently\" sampled, even though Malacostraca had 68% of its species recorded in the GBIF.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 272,
+                        "end": 284,
+                        "text": "(Fig. 4 top)",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 608,
+                        "end": 619,
+                        "text": "Fig. 4 top)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "This taxonomic bias recurs at a lower taxonomic scales. We selected eight classes and showed that, for all of them, some orders were better represented in the GBIF-mediated database than others (Table 2 and  Supplementary Table S1 ). For instance, the median number of occurrences varied largely within each class, some orders having medians that were more than 50 times higher than those of other orders of the same class (e.g. m Phaethontiformes = 5504 vs m Sphenisciformes = 2; m Chiroptera = 107 vs m Cetacea = 2). The smallest difference in medians was found within poorly represented classes, in which all orders have medians less than 20. Taxonomic precision was also estimated and found to be highly heterogeneous between orders of the same class. The largest differences were observed within Insecta. More than 90% of occurrences were identified at the species level for four orders (Siphonaptera, Odonata, Orthoptera and Psocodea), whereas taxonomic precision ranged from 35 to 0.5% for Grylloblattodea, Mantophasmatodea and Strepsiptera. Taxonomic precision within Mammalia was also very heterogeneous ranging from 22% (Perissodactyla) to 99% (Monotrema and Notoryctemorphia). Conversely, taxonomic precision was less variable between orders of Lecanoromycetes (over 89% taxonomic precision for all orders), Magnolopsida (82% and above) and Aves (77% and above).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 194,
+                        "end": 230,
+                        "text": "(Table 2 and  Supplementary Table S1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Explanatory variables. In GBIF, recorded occurrences can refer to a collected specimen (or object) or an observation. The proportion of specimen-vs observation-based occurrences differed greatly between classes (Fig. 4 middle) . Some classes had 90% or more of their occurrences based on observation (e.g. Globothalamea, Aves), whereas others had between 70 and 80% of occurrences based on specimens (e.g. Amphibia, Gastropoda, Top: Proportion of species per class recorded in GBIF with at least one occurrence (light green: p >1 ), with more than 20 occurrences (green: p >20 ), and with more than 20 spatially distinct occurrences (i.e. \"decently\" sampleddark green: p >20d ). For all classes, except Aves, less than 1/3 of all species are \"decently\" sampled. Classes are ranked according to their proportion of \"decently\" sampled species. Middle: Occurrence origin (basisOfRecord) for each class. Some classes like Amphibia have a high proportion of occurrences based on specimens (blue: living or preserved specimen, material samples or fossils), whereas others like Aves have a majority of occurrences based on observation (orange: machine or human observation, literature). Grey bars show occurrences where the record basis is unknown. Classes are ranked according to their proportion of specimenbased occurrences. Bottom: Data incompleteness. Proportion of occurrences with spatial (purple) or temporal (yellow) inaccuracies for each class. Spatial inaccuracy corresponds to an occurrence lacking coordinates or tagged has having geospatial issues by GBIF. Temporal inaccuracy corresponds to a sampling event with no specified month or year. Classes are ranked according to their proportion of occurrences with spatial issues.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 211,
+                        "end": 226,
+                        "text": "(Fig. 4 middle)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Reptilia and Bivalvia). Between these extremes, the relative proportion of specimen-vs observation-based occurrences in the 24 classes formed a continuum, with a few classes having an almost equivalent number of occurrences of both origins (e.g. Insecta). Three of the four groups of Tetrapods (Amphibia, Reptilia and Mammalia) had occurrences based mainly on specimens, whereas birds had the highest proportion of observation-based occurrences (94%).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Although temporal and geographical information can also be added to a record, these fields are informed with more or less precision. The proportion of spatial and temporal inaccuracies (p -time and p -space ) differed greatly between classes (Fig. 4 bottom) . Only 4% of Aves occurrences had temporal and/or spatial inaccuracies, whereas 48% and 55% of Gastropoda occurrences had spatial and temporal inaccuracies, respectively. Along with Gastropoda, the classes with the highest inaccuracy rates were Amphibia, Bivalvia and Reptilia, and these four classes were the ones with the highest proportion of specimen-based occurrences.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 242,
+                        "end": 257,
+                        "text": "(Fig. 4 bottom)",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "All Multiple Correspondence Analyses (MCA) showed that occurrences recorded before 1975 were grouped with specimen-based occurrences and with occurrences with spatial issues (Fig. 5 ). Conversely, more recent occurrences were grouped with complete and observation-based occurrences. Most of the classes, and in particular Amphibia, Reptilia and Florideophyceae, were in the upper right section of the graph (old, incomplete specimen-based occurrences), whereas Aves was in the lower left section, characterized by recent and complete observations.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 174,
+                        "end": 181,
+                        "text": "(Fig. 5",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Public interest (inferred from the number of web pages referenced by a search engine) and taxonomic research effort (inferred from the number of publications in Web of Science) were assessed and used in Generalized Linear Models (GLM). The number of web pages (with the keyword \"species\" added to the species' scientific name) Table 2 . Biodiversity occurrence data statistics for the orders (maximum 10) with the most occurrences within eight selected classes. Statistics and abbreviations as in Table 1 .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 327,
+                        "end": 334,
+                        "text": "Table 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 497,
+                        "end": 504,
+                        "text": "Table 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "ranged from 0 to 1.8 million with a median number of 1,480 pages for the 24,000 best-represented species (1,000 species for each class) and 22 pages for the randomly chosen species. The number of publications, tallied for 453 orders, ranged from 0 (for eight orders) to 72 426 for Coleoptera, with a median number of 229 publications. For most classes, GLMs suggested a positive and significant correlation between public interest and the number of occurrences in GBIF (Table 3) . A few negative correlations were found but were never significant. The quantity of research was not significantly correlated with the number of occurrences for most classes, and, when the correlation was significant, it was either positive (e.g. Mammalia) or negative (e.g. Agaricomycetes). A significant correlation between public interest and research quantity was found in 10 out of 47 cases.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 469,
+                        "end": 478,
+                        "text": "(Table 3)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Taxonomic bias, i.e. the fact that some taxa are more investigated than others, is a well-known problem for the study of biodiversity. How can we infer general principles and put in place effective strategies for biodiversity conservation when some taxa are over-studied while others are ignored? Although known for a long time, taxonomic bias is currently receiving an increasing attention. However most studies on taxonomic bias have been restricted to a few taxa or areas 9, 19, 30, [37] [38] [39] . By analysing data from the biggest biodiversity data repository available, we emphasize here the prevalence of taxonomic bias in biodiversity data.",
+                "cite_spans": [
+                    {
+                        "start": 475,
+                        "end": 477,
+                        "text": "9,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 478,
+                        "end": 481,
+                        "text": "19,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 482,
+                        "end": 485,
+                        "text": "30,",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 486,
+                        "end": 490,
+                        "text": "[37]",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 491,
+                        "end": 495,
+                        "text": "[38]",
+                        "ref_id": "BIBREF37"
+                    },
+                    {
+                        "start": 496,
+                        "end": 500,
+                        "text": "[39]",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Unsurprisingly, and as previously reported regarding GBIF mediated data 33 , we show that birds are over-represented in biodiversity data. Some studies highlighted the over-representation of birds in diverse disciplines ranging from behavioural ecology to evolution and conservation 9, 40 . The ever-growing number of observations that bird enthusiasts report undoubtedly amplify bias. Other vertebrate classes (Actinopterygii and Mammalia, and to a lesser extent Reptilia and Amphibia) are relatively well represented in the GBIF-mediated database, as are most Plantae classes, especially Liliopsida and Magnoliopsida. On the other hand, Arthropods (Insecta, Arachnida, Malacostraca and Maxillopoda) and Mollusca (Gastropoda and Bivalvia) are under-represented, with insects being particularly mis-represented. Birds and insects are obvious outliers but, beyond these two classes, the taxonomic bias in biodiversity data remains blatant.",
+                "cite_spans": [
+                    {
+                        "start": 283,
+                        "end": 285,
+                        "text": "9,",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Taxonomic bias is even more apparent when considering \"decently\" sampled species, namely species sampled in at least 20 different points on the globe. For any study requiring a number of different sampling points, like those relying on niche modelling, the field of investigation is restricted to vertebrates and plants on land and Actinopterygii in aquatic habitats. Invertebrates and fungi, on the other hand, have to be virtually ignored because of insufficient data at the scale of the planet. Given that these neglected organisms have a high diversity and play crucial roles in diverse ecosystems 2, 3, 15 , this situation will inevitably result in an unbalanced fundamental knowledge of biodiversity, risky guesses and uninformed conservation decisions 7, 14, 19, 41, 42 . A similar taxonomic bias, with equivalent outcomes, is found between orders within each class. More disturbingly, we show that the taxonomic bias in biodiversity data, although known for a few decades 18 , has remained broadly the same since the 1950's. The evolution of taxonomic bias over time has rarely been investigated, and never at a large taxonomic scale. Bonnet et al. 9 , focusing on vertebrates, showed there had been no changes in taxonomic chauvinism in ecology and behavioural research. Similarly, Stahlschmidt 21 reported a static taxonomic bias from 2001 to 2010 in parental care research. He noted, however, that the absolute number of publications on parental care in birds increased significantly over this period. Along the same lines, Di Marco et al. 8 emphasized that, in conservation science, some historically under-studied taxa were receiving more attention today, but underlined that a taxonomic bias toward taxa that are threatened or less rich in biodiversity still exists. Our results confirm this status quo situation at a larger taxonomic scale: most classes that were under-or over-represented in the GBIF mediated database in 1950 are still under-or over-represented today. Even though most classes are better recorded today than before, the gap between birds and the rest of biodiversity (i.e. \u223c99% of known biodiversity) increases with time because bird occurrences accumulate much faster than other class occurrences. Thus, while most of biodiversity remains to be described 25 , the same taxa are preferentially studied and recorded over and over again.",
+                "cite_spans": [
+                    {
+                        "start": 602,
+                        "end": 604,
+                        "text": "2,",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 605,
+                        "end": 607,
+                        "text": "3,",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 759,
+                        "end": 761,
+                        "text": "7,",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 762,
+                        "end": 765,
+                        "text": "14,",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 766,
+                        "end": 769,
+                        "text": "19,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 770,
+                        "end": 773,
+                        "text": "41,",
+                        "ref_id": "BIBREF40"
+                    },
+                    {
+                        "start": 1157,
+                        "end": 1158,
+                        "text": "9",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The large taxonomic scale approach we used here comes with a few limitations. First, it must be emphasized that big datasets, like all sampling, are biased so that conclusions must be drawn accordingly 29 . Second, this large-scale approach implies that each species is equivalent and directly comparable, which is obviously arguable. Third, it neglects scale effects: species richness in insects is so large that whatever the means used, this class is always at risk of being understudied. Still, this approach enabled us to highlight the pervasiveness of taxonomic bias and bring new insights into the nature of this bias.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The underlying causes of taxonomic bias must be identified if one wants to reverse it. We suggest here that societal preferences, and not taxonomic research, orientate which biodiversity data are gathered. The most popular species on the web are also the species with the most records in GBIF. Moreover, the best-supported model, where the interaction between taxonomic research effort and the number of web pages was taken into account, indicated a significant effect of public interest on biodiversity data gathering. The role played by the general public in the study and conservation of biodiversity has already been established: positive links exist between public opinion, scientific productions and conservation policies, however the directionality of these interactions remains unclear 23, 43 . Our analyses confirm these interactions but do not allow us to clarify the causality issue. Although inevitable biases occur when using internet searches, such as the inability to distinguish scientific web pages from other web pages, particularly at such a broad taxonomic scale, \"many (30-80%) web pages containing the scientific names of species have little or nothing to do with scientific research\" 22 indicating that our results are presumably related to societal preferences. Surveys to determine public preferences could help counteract this issue but should be carried out at large taxonomic scales.",
+                "cite_spans": [
+                    {
+                        "start": 794,
+                        "end": 797,
+                        "text": "23,",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Studying invasive alien species, Wilson et al. 22 concluded that \"the choice of research subject in biology reflects the interests of society\". Because of public interest, and not specifically for their scientific interest, studies of 'public-aware' taxa are more likely to be funded and receive more funding 11, 23, 44 . Our results provide further evidence of this trend, highlighting the active role of the general public in biodiversity data collecting, given that, for instance, the biggest dataset was provided by eBird (211 million occurrences), a collective enterprise devoted to birds and partly relying on citizen science 45 . For multiple reasons (e.g. the difficulty of obtaining permits, more and more endangered species, citizen science programmes, population decline, etc.), less specimen-based occurrences are now reported. Amphibia, Gastropoda and Reptilia, the three classes with the highest proportion of specimen-based occurrences, are also the classes with a decreasing or stabilizing trend in data accumulation. We thus anticipate an increasing bias between taxa mostly known from observation-based occurrences and taxa mostly known from specimen-based occurrences. In addition, a lot of records are old and incomplete, and could soon, or already, be obsolete 46 , which risks reinforcing the taxonomic bias against classes with relatively few recent occurrences.",
+                "cite_spans": [
+                    {
+                        "start": 309,
+                        "end": 312,
+                        "text": "11,",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 313,
+                        "end": 316,
+                        "text": "23,",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The good news is that the observed taxonomic bias can be corrected. Shine & Bonnet 47 showed how snakes, which were under-represented in ecology among terrestrial vertebrates until 1990, have grown in popularity in this scientific field, illustrating that acting on taxonomic bias is possible. Similarly, for most classes, occurrences accumulate at a much faster rate now that 50 or 30 years ago, which is an encouraging trend. Obviously, this trend can also result from changes in data-sharing practices, and not simply from overall data collection. Still, as we are accumulating more and more biodiversity data, the question of how to efficiently sample the whole of biodiversity remains open. The biodiversity knowledge chain is complex and its links influence one another. Scientists play a key role in this chain. However, our results show that they alone cannot ensure that biodiversity is sampled adequately and that societal preferences are too important to be ignored. Scientists must reach out to the lay audience 22, 23, 48 and advertise under-represented organisms to the general public. For instance, the crucial role of protists in ecosystem functioning probably seems too obscure to generate any interest from the general public 49 . New practices or methods, from citizen science to metagenomics, should also help increase public awareness and would have even more impact if programmes were developed jointly between science and society 20, 50 . The expected gain would be colossal and would achieve more than a well-balanced sampling of biodiversity: new vocations in science, more efficient citizen sciences programmes, influence on funding and political decisions, etc.",
+                "cite_spans": [
+                    {
+                        "start": 1024,
+                        "end": 1027,
+                        "text": "22,",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 1028,
+                        "end": 1031,
+                        "text": "23,",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 1453,
+                        "end": 1456,
+                        "text": "20,",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Citizen science and data gathering by non-professionals might be decisive in the near future. The contribution of citizen science to the most over-represented class of GBIF-mediated data, birds, dates back more than a hundred years 51 . Different fields of research from molecular engineering 52 to quantum science 53 and neurosciences 54 have greatly benefited from the involvement of non-professionals, and it has been shown that a well-made citizen science programme can could produce in two years the same amount of data that scientists can produce in a decade 55 . Yet, the use of citizen science for studying taxa that are not as charismatic as birds or mammals is still in its infancy 55, 56 . Efforts must be made to develop such initiatives, probably by relying on new technologies such as smartphones and dedicated applications 55, 57 . Citizen science cannot, and must not, replace standard scientific practices 58 ; they are complementary approaches with different strengths and limitations. However, citizen science could substantially contribute to our knowledge of biodiversity, especially if adapted programmes devoted to neglected taxa are highlighted 24 .",
+                "cite_spans": [
+                    {
+                        "start": 692,
+                        "end": 695,
+                        "text": "55,",
+                        "ref_id": "BIBREF54"
+                    },
+                    {
+                        "start": 838,
+                        "end": 841,
+                        "text": "55,",
+                        "ref_id": "BIBREF54"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Considering the whole of biodiversity, and not only charismatic organisms, is a prerequisite for the development of efficient conservation plans, of prolific bioprospecting activities, and for enhancing our understanding of biodiversity on a global scale 8, 17, 59 . Many international projects have been developed since the Convention on Biological Diversity, illustrating an increased awareness of the astonishing diversity of functions and services that biodiversity supports 2, 3 . Nevertheless, while biodiversity declines at an unprecedented rate 60 , taxonomic bias is still a burden on biodiversity studies. It is urgent that we get rid of this burden and that we start embracing the whole of biodiversity.",
+                "cite_spans": [
+                    {
+                        "start": 255,
+                        "end": 257,
+                        "text": "8,",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 258,
+                        "end": 261,
+                        "text": "17,",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 479,
+                        "end": 481,
+                        "text": "2,",
+                        "ref_id": "BIBREF1"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "We downloaded all available occurrence records from the GBIF data portal in June 2016 (http://doi. org/10.15468/dl.hqesx6). 649 million occurrences were saved as a Darwin Core archive. Occurrences from this archive were extracted and imported into a SQL database, where data were indexed to reduce the computation time of subsequent queries. We focused on 24 taxonomic classes out of the 297 referenced in GBIF, excluding classes with less than 1 million occurrences (9.4 million occurrences from 19,000 species, had no class affiliation). We ended up with 626 million occurrences (NB occ ) and 1.01 million species, representing more than 96% of the total number of occurrences and 84% of the total number of species in GBIF. All statistics were computed from this dataset.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Dataset.",
+                "sec_num": null
+            },
+            {
+                "text": "Taxonomic errors: imprecision and bias. For each class, we quantified the level of taxonomic precision as the proportion of occurrences with information at the species level or lower. We assessed taxonomic bias by computing and comparing the following statistics for each class: the total number of occurrences (nb occ ), the median number of occurrences per species (med /sp ) and the median absolute deviation, the proportion of species with at least one occurrence (p >1 = n >1 /N), and the proportion of species with at least 20 occurrences (p >20 = n >20 /N), where n >i is the number of species with at least i occurrences and N is the number of known species for a given class. N was obtained using the GBIF taxonomic backbone (accessible at: http://doi.org/10.15468/39omei), by counting the number of distinct species with either the 'accepted' or 'doubtful' taxonomic status. This method excluded synonyms. Furthermore, we computed p >20d , the proportion of species with at least 20 spatially distinct occurrences. Two occurrences were considered spatially distinct when, using a global grid of 10*10 km cells based on the pseudocylindrical equal-area map projection Eckert IV, they fell in two different cells. We chose a threshold of 20 spatially distinct occurrences because it is a common threshold in niche modelling analyses 61 . Occurrences without spatial coordinates were excluded when computing the number of spatially distinct occurrences. We calculated how each class deviates from an 'ideal' sampling I, where each class is sampled proportionally to its number of known species (N). I = NB occ *(N/N tot ) where N tot is the total number of known species. To investigate the evolution of taxonomic bias over time, we excluded i) occurrences without a collection year and ii) occurrences recorded during the last 10 years because of the lag between recording and integration in the GBIF database (S. Gaiji, pers. comm.). The 'ideal' sampling I was calculated every ten years between 1956-2006 and deviations from these 'ideal' samplings were plotted for each class.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Dataset.",
+                "sec_num": null
+            },
+            {
+                "text": "Statistics were computed at the ordinal level for Agaricomycetes, Amphibia, Aves, Insecta, Lecanoromycetes, Magnoliopsida, Mammalia and Reptilia using the same methods. These classes were chosen due to their relatively high number of occurrences and/or species, and because of the diversity of patterns they exhibited in our preliminary results. We also tried to cover a large taxonomic range (Tetrapods, Arthropoda, Plantae, Fungi) to include as much biodiversity as possible.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Dataset.",
+                "sec_num": null
+            },
+            {
+                "text": "Explanatory variables computed from the GBIF dataset. Data origin. In GBIF, the origin of an occurrence can be specified using a controlled vocabulary in the 'basisOfRecord' field. We delimited three categories, depending on whether recorded occurrences refer to a specimen (or object), an observation, or was of unknown origin. The \"specimen\" category (O spec ) contained: fossil specimens, living specimens, material samples and preserved specimens. The \"observation\" category (O obs ) consisted of: human observations, machine observations, unclassified observation and literature. The third category corresponded to the \"unknown\" option (O unk ).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Dataset.",
+                "sec_num": null
+            },
+            {
+                "text": ". For each class, the proportion of temporal (p -time ) and spatial inaccuracies (p -space ) was computed as follows: p -time = O -time /nb occ and p -space = O -space /nb occ , where O -time is the number of occurrences lacking information regarding either the month, year or both, and O -space is the number of occurrences missing coordinates or flagged as having geospatial issues in GBIF.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Date and Locality precision (Data completeness)",
+                "sec_num": null
+            },
+            {
+                "text": "quantified through the number of publications. We searched the Web of Science portal (apps.webofknowledge. com) with the following query for each order: \"taxonomy\" AND (\"[order name]\" OR \"[family names]\"), over the 1900-2016 period. The number of systematists, who are the producers of primary biodiversity data, would have been a better indicator but this could not be obtained due to the current architecture of Web of Science. We therefore used the publication metrics for taxonomic research from Web of Science as done previously 37 .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "External explanatory variables. Taxonomic research and societal preferences. Taxonomic research was",
+                "sec_num": null
+            },
+            {
+                "text": "Public interest for a given species was estimated through the number of web page results, a proxy that has been proven to be reliable 22 . These numbers were obtained from Bing searches using the exact Latin name (e.g. \"Corvus corax\") or a combination of the Latin name and the keyword \"species\" (e.g. \"Corvus corax\" + species). Bing and Google searches yielded similar results for the 4,000 species tested with both search engines ( Supplementary  Fig. 3 ), but only Bing allowed us to carry out a high number of searches. For each class, these searches were performed on the 1,000 species with the most occurrences (except for Pinopsida, which only had 902 species recorded in the GBIF) and then on a further 1,000 randomly chosen species. Each search was run twice to check for consistency.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 434,
+                        "end": 455,
+                        "text": "Supplementary  Fig. 3",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "External explanatory variables. Taxonomic research and societal preferences. Taxonomic research was",
+                "sec_num": null
+            },
+            {
+                "text": "We favored medians (m) over means because of their robustness to outliers. For the same reason, we used the median absolute deviation (mad), which represents the median of the absolute deviation from the median, as a measure of statistical dispersion. In all analyses needing spatial or temporal information, O -space and O -time occurrences were ignored, respectively.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Statistical analyses.",
+                "sec_num": null
+            },
+            {
+                "text": "The relationship between data origin, completeness and year of record was investigated using multiple correspondence analyses (MCA). Analyses were done on three samples of five million random occurrences from our dataset. The variables were: class (24 categories), year of the record (categories: '<1900' , '1900-1949' , '1950-1974' , '1975-1999' , '2000-2004' , '2005-2009' , '2010-2014' , '> = 2015'), data origin (categories: specimen, observation, unknown), data completeness (categories: no problem, missing temporal information, missing spatial information, missing both). Because results can be hard to interpret when categories with very few observations are used 59 , each analysis was performed a second time ventilating the categories represented in less than 0.5% of the dataset.",
+                "cite_spans": [
+                    {
+                        "start": 307,
+                        "end": 374,
+                        "text": "'1900-1949' , '1950-1974' , '1975-1999' , '2000-2004' , '2005-2009'",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Statistical analyses.",
+                "sec_num": null
+            },
+            {
+                "text": "To explore the relative impact of public interest and taxonomic research quantity on taxonomic bias, we used generalized linear models 62, 63 (GLM) . For each of the 24 classes, we looked at the effect of these two variables and their interaction on the number of occurrences per species in GBIF. We used an identical model for all classes, which was fitted using a negative binomial distribution to take into account overdispersion. Half of the GLMs were computed using the 1,000 best-represented species in GBIF (Best), while the other half used 1,000 random species referenced in GBIF (Random). Only one GLM was computed for Pinopsida because they had less than 1,000 species. Initial models were strongly influenced by extreme values and had poor resolution. Therefore we excluded outliers, which were identified when the number of occurrences or web search results was >Q 3 + 4 * IQR, where Q 3 is the third quartile value and IQR is the interquartile range. For each GLM, we checked the validity of the model by plotting the values of residuals against predicted values to test the homogeneity of residuals.",
+                "cite_spans": [
+                    {
+                        "start": 135,
+                        "end": 138,
+                        "text": "62,",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 139,
+                        "end": 147,
+                        "text": "63 (GLM)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Statistical analyses.",
+                "sec_num": null
+            },
+            {
+                "text": "We performed all analyses using the R statistical software version 3.3.2 (https://www.R-project.org) with associated packages: FactoMineR 64 , ggplot2 65 , gridExtra 66 , MASS 67 , plyr 68 and scales 69 .",
+                "cite_spans": [
+                    {
+                        "start": 176,
+                        "end": 178,
+                        "text": "67",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Statistical analyses.",
+                "sec_num": null
+            },
+            {
+                "text": "ScIentIfIc REPORTS | 7: 9132 | DOI:10.1038/s41598-017-09084-6",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "This study was developed as part of a Ph.D. project and was funded as a grant by the Minist\u00e8re de la Recherche to JT. It was in part presented at the IBS Special Meeting in Beijing, China. We thank the organizers for giving us the opportunity to present these results and the attendees for their useful questions and suggestions. We thank Anne-Sophie Archambeau, Michel Baylac, Samy Gaiji, Marie-Elise Lecoq, Sophie Pamerlon, Roseli Pellens, Tim Robertson, Dmitri Schigel, J\u00e9r\u00f4me Sueur and Wilfried Thuillier for fruitful discussions. We thank H\u00e9l\u00e8ne Citerne for revising the English. We thank two anonymous reviewers who helped improving the manuscript.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgements",
+                "sec_num": null
+            },
+            {
+                "text": "J.T., F.L., R.V.L. and P.G. designed this study, J.T. performed the analyses, A.B. contributed to the statistical analyses, J.T. and F.L. wrote the first draft, and all authors discussed the results and provided input on the manuscript.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Author Contributions",
+                "sec_num": null
+            },
+            {
+                "text": "Supplementary information accompanies this paper at doi:10.1038/s41598-017-09084-6Competing Interests: The authors declare that they have no competing interests.Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Additional Information",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Biodiversity loss threatens human well-being",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "D\u00edaz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Fargione",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Chapin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Tilman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "PLoS Biol",
+                "volume": "4",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "D\u00edaz, S., Fargione, J., Chapin, F. & Tilman, D. Biodiversity loss threatens human well-being. PLoS Biol. 4, e277 (2006).",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Biodiversity loss and its impact on humanity",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Cardinale",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Nature",
+                "volume": "486",
+                "issue": "",
+                "pages": "59--67",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cardinale, B. et al. Biodiversity loss and its impact on humanity. Nature 486, 59-67 (2012).",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "The importance and benefits of species",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Gascon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Curr. Biol",
+                "volume": "25",
+                "issue": "",
+                "pages": "431--438",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gascon, C. et al. The importance and benefits of species. Curr. Biol. 25, R431-R438 (2015).",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Biodiversity and ecosystem services: a multilayered relationship",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Mace",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Norris",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Fitter",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Trends Ecol. Evol",
+                "volume": "27",
+                "issue": "",
+                "pages": "19--26",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mace, G. M., Norris, K. & Fitter, A. H. Biodiversity and ecosystem services: a multilayered relationship. Trends Ecol. Evol. 27, 19-26 (2012).",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Global state of biodiversity and loss",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Dirzo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Raven",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Annu. Rev. Env. Resour",
+                "volume": "28",
+                "issue": "",
+                "pages": "137--167",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dirzo, R. & Raven, P. Global state of biodiversity and loss. Annu. Rev. Env. Resour. 28, 137-167 (2003).",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Accelerated modern human-induced species losses: entering the sixth mass extinction",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Ceballos",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Sci. Adv",
+                "volume": "1",
+                "issue": "",
+                "pages": "1400253--1400253",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ceballos, G. et al. Accelerated modern human-induced species losses: entering the sixth mass extinction. Sci. Adv. 1, e1400253-e1400253 (2015).",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Most 'global' reviews of species' responses to climate change are not truly global",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Feeley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Stroud",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Perez",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Divers. Distrib",
+                "volume": "23",
+                "issue": "",
+                "pages": "231--234",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Feeley, K., Stroud, J. & Perez, T. Most 'global' reviews of species' responses to climate change are not truly global. Divers. Distrib. 23, 231-234 (2016).",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Changing trends and persisting biases in three decades of conservation science",
+                "authors": [
+                    {
+                        "first": "Di",
+                        "middle": [],
+                        "last": "Marco",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "Glob. Ecol. Conserv",
+                "volume": "10",
+                "issue": "",
+                "pages": "32--42",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Di Marco, M. et al. Changing trends and persisting biases in three decades of conservation science. Glob. Ecol. Conserv. 10, 32-42 (2017).",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "How biased are we?: Even now, conservation research is still lopsided",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Clark",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "May",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Conserv. Practice",
+                "volume": "3",
+                "issue": "3",
+                "pages": "28--29",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Clark, J. A. & May, R. M. How biased are we?: Even now, conservation research is still lopsided. Conserv. Practice 3(3), 28-29 (2002).",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Taxonomic chauvinism threatens the future of entomology",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Leather",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Biologist",
+                "volume": "56",
+                "issue": "",
+                "pages": "10--13",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Leather, S. R. Taxonomic chauvinism threatens the future of entomology. Biologist 56, 10-13 (2009).",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Conserving megafauna or sacrificing biodiversity?",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Ford",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Cooke",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Goheen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Young",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "BioScience",
+                "volume": "163",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ford, A., Cooke, S., Goheen, J. & Young, T. Conserving megafauna or sacrificing biodiversity? BioScience biw163 (2017).",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "High rates of extinction and threat in poorly studied taxa",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Mckinney",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Conserv. Biol",
+                "volume": "13",
+                "issue": "",
+                "pages": "1273--1281",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "McKinney, M. High rates of extinction and threat in poorly studied taxa. Conserv. Biol. 13, 1273-1281 (1999).",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Taxonomic bias in reintroduction projects",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Seddon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Soorae",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Launay",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Anim. Conserv",
+                "volume": "8",
+                "issue": "",
+                "pages": "51--58",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Seddon, P., Soorae, P. & Launay, F. Taxonomic bias in reintroduction projects. Anim. Conserv. 8, 51-58 (2005).",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Rare species and the use of indicator groups for conservation planning",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Lawler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "White",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sifneos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Master",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Conserv. Biol",
+                "volume": "17",
+                "issue": "",
+                "pages": "875--882",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lawler, J., White, D., Sifneos, J. & Master, L. Rare species and the use of indicator groups for conservation planning. Conserv. Biol. 17, 875-882 (2003).",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Rare Species Support Vulnerable Functions in High-Diversity Ecosystems",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Mouillot",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "PLoS Biol",
+                "volume": "11",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mouillot, D. et al. Rare Species Support Vulnerable Functions in High-Diversity Ecosystems. PLoS Biol 11, e1001569 (2013).",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "A global biodiversity map",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Wilson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Science",
+                "volume": "289",
+                "issue": "",
+                "pages": "2279--2279",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wilson, E. O. A global biodiversity map. Science 289, 2279-2279 (2000).",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "How many species are there on Earth?",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "May",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Science",
+                "volume": "241",
+                "issue": "",
+                "pages": "1441--1449",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "May, R. How many species are there on Earth? Science 241, 1441-1449 (1988).",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Taxonomic chauvinism and the methodologically challenged",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Pawar",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "BioScience",
+                "volume": "53",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pawar, S. Taxonomic chauvinism and the methodologically challenged. BioScience 53, 861 (2003).",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Taxonomic chauvinism revisited: insight from parental care research",
+                "authors": [
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Stahlschmidt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "PLoS ONE",
+                "volume": "6",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stahlschmidt, Z. Taxonomic chauvinism revisited: insight from parental care research. PLoS ONE 6, e24192 (2011).",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "The (bio)diversity of science reflects the interests of society",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Wilson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "\u015e",
+                        "middle": [],
+                        "last": "Proche\u015f",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Braschler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Dixon",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Richardson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Front. Ecol. Environ",
+                "volume": "5",
+                "issue": "",
+                "pages": "409--414",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wilson, J., Proche\u015f, \u015e., Braschler, B., Dixon, E. & Richardson, D. The (bio)diversity of science reflects the interests of society. Front. Ecol. Environ. 5, 409-414 (2007).",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "What drives policy decision-making related to species conservation?",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Mart\u00edn-L\u00f3pez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Montes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Ram\u00edrez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Benayas",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Biol. Conserv",
+                "volume": "142",
+                "issue": "",
+                "pages": "1370--1380",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mart\u00edn-L\u00f3pez, B., Montes, C., Ram\u00edrez, L. & Benayas, J. What drives policy decision-making related to species conservation? Biol. Conserv. 142, 1370-1380 (2009).",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Contribution of citizen science towards international biodiversity monitoring",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Chandler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Biol. Conserv. in Press",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chandler, M. et al. Contribution of citizen science towards international biodiversity monitoring. Biol. Conserv. in Press (2016).",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Can we name Earth's species before they go extinct?",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Costello",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "May",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Stork",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Science",
+                "volume": "339",
+                "issue": "",
+                "pages": "413--416",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Costello, M., May, R. & Stork, N. Can we name Earth's species before they go extinct? Science 339, 413-416 (2013).",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Ecoinformatics: supporting ecology as a data-intensive science",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Michener",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Jones",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Trends Ecol. Evol",
+                "volume": "27",
+                "issue": "",
+                "pages": "85--93",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Michener, W. & Jones, M. Ecoinformatics: supporting ecology as a data-intensive science. Trends Ecol. Evol. 27, 85-93 (2012).",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "The ethics of data sharing and reuse in biology",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Duke",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Porter",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "BioScience",
+                "volume": "63",
+                "issue": "",
+                "pages": "483--489",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Duke, C. S. & Porter, J. H. The ethics of data sharing and reuse in biology. BioScience 63, 483-489 (2013).",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "A global perspective on decadal challenges and priorities in biodiversity informatics",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Peterson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sober\u00f3n",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Krishtalka",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "BMC Ecol",
+                "volume": "15",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Peterson, A., Sober\u00f3n, J. & Krishtalka, L. A global perspective on decadal challenges and priorities in biodiversity informatics. BMC Ecol. 15, 15 (2015).",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Critical questions for big data",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Boyd",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Crawford",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Inform. Commun. Soc",
+                "volume": "15",
+                "issue": "",
+                "pages": "662--679",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Boyd, D. & Crawford, K. Critical questions for big data. Inform. Commun. Soc. 15, 662-679 (2012).",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Filling in the GAPS: evaluating completeness and coverage of open-access biodiversity databases in the United States",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Troia",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Mcmanamay",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Ecol. Evol",
+                "volume": "6",
+                "issue": "",
+                "pages": "4654--4669",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Troia, M. & McManamay, R. Filling in the GAPS: evaluating completeness and coverage of open-access biodiversity databases in the United States. Ecol. Evol. 6, 4654-4669 (2016).",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "Bridging the biodiversity data gaps: Recommendations to meet users' data needs",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Faith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Biodivers. Inform",
+                "volume": "8",
+                "issue": "",
+                "pages": "41--58",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Faith, D. et al. Bridging the biodiversity data gaps: Recommendations to meet users' data needs. Biodivers. Inform. 8, 41-58 (2013).",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "How global is the global biodiversity information facility",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Yesson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "PLoS ONE",
+                "volume": "2",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yesson, C. et al. How global is the global biodiversity information facility? PLoS ONE 2, e1124 (2007).",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Content assessment of the primary biodiversity data published through GBIF network: Status, challenges and potentials",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Gaiji",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Biodivers. Inform",
+                "volume": "8",
+                "issue": "",
+                "pages": "94--172",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gaiji, S. et al. Content assessment of the primary biodiversity data published through GBIF network: Status, challenges and potentials. Biodivers. Inform. 8, 94-172 (2013).",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Can we derive macroecological patterns from primary Global Biodiversity Information Facility data?",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Garc\u00eda-Rosell\u00f3",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Global Ecol. Biogeogr",
+                "volume": "24",
+                "issue": "",
+                "pages": "335--347",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Garc\u00eda-Rosell\u00f3, E. et al. Can we derive macroecological patterns from primary Global Biodiversity Information Facility data? Global Ecol. Biogeogr. 24, 335-347 (2014).",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Estimating species diversity and distribution in the era of big data: to what extent can we trust public databases?",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Maldonado",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Global Ecol. Biogeogr",
+                "volume": "24",
+                "issue": "",
+                "pages": "973--984",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Maldonado, C. et al. Estimating species diversity and distribution in the era of big data: to what extent can we trust public databases? Global Ecol. Biogeogr. 24, 973-984 (2015).",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "On natural history collections, digitized and not: a response to Ferro and Flick",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Sikes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Copas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Hirsch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Longino",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Schigel",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "ZooKeys",
+                "volume": "618",
+                "issue": "",
+                "pages": "145--158",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sikes, D., Copas, K., Hirsch, T., Longino, J. & Schigel, D. On natural history collections, digitized and not: a response to Ferro and Flick. ZooKeys 618, 145-158 (2016).",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "Which species are we researching and why? A case study of the ecology of british breeding birds",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Mckenzie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Robertson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "PLoS ONE",
+                "volume": "10",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "McKenzie, A. & Robertson, P. Which species are we researching and why? A case study of the ecology of british breeding birds. PLoS ONE 10, e0131004 (2015).",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Taxonomic bias and international biodiversity conservation research",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Donaldson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "105--113",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Donaldson, M. R. et al. Taxonomic bias and international biodiversity conservation research. Facets 1, 105-113 (2016).",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Taxonomic distribution of cryptic diversity among metazoans: not so homogeneous after all",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "P\u00e9rez-Ponce De Le\u00f3n",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Poulin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Biol. Letters",
+                "volume": "12",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "P\u00e9rez-Ponce de Le\u00f3n, G. & Poulin, R. Taxonomic distribution of cryptic diversity among metazoans: not so homogeneous after all. Biol. Letters 12, 20160371 (2016).",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "The trajectory of dispersal research in conservation biology",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Driscoll",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Systematic Review. PLoS ONE",
+                "volume": "9",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Driscoll, D. et al. The trajectory of dispersal research in conservation biology. Systematic Review. PLoS ONE 9, e95053 (2014).",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Limitations of biodiversity databases: case study on seed-plant diversity in Tenerife, Canary Islands",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Hortal",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Lobo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Jim\u00e9nez-Valverde",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Conserv. Biol",
+                "volume": "21",
+                "issue": "",
+                "pages": "853--863",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hortal, J., Lobo, J. & Jim\u00e9nez-Valverde, A. Limitations of biodiversity databases: case study on seed-plant diversity in Tenerife, Canary Islands. Conserv. Biol. 21, 853-863 (2007).",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Geographical sampling bias in a large distributional database and its effects on species richnessenvironment models",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Yang",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Ma",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Kreft",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "J. Biogeogr",
+                "volume": "40",
+                "issue": "",
+                "pages": "1415--1426",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Yang, W., Ma, K. & Kreft, H. Geographical sampling bias in a large distributional database and its effects on species richness- environment models. J. Biogeogr. 40, 1415-1426 (2013).",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Different cultures, different values: the role of cultural variation in public's WTP for marine species conservation",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Ressurrei\u00e7\u00e3o",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Biol. Conserv",
+                "volume": "145",
+                "issue": "",
+                "pages": "148--159",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ressurrei\u00e7\u00e3o, A. et al. Different cultures, different values: the role of cultural variation in public's WTP for marine species conservation. Biol. Conserv. 145, 148-159 (2012).",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Taxonomic bias and vulnerable species",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Stein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Master",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Morse",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Science",
+                "volume": "297",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Stein, B. A., Master, L. L. & Morse, L. E. Taxonomic bias and vulnerable species. Science 297, 1807 (2002).",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "eBird: A citizen-based bird observation network in the biological sciences",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Sullivan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Biol. Conserv",
+                "volume": "142",
+                "issue": "",
+                "pages": "2282--2292",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sullivan, B. et al. eBird: A citizen-based bird observation network in the biological sciences. Biol. Conserv. 142, 2282-2292 (2009).",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Biodiversity data obsolescence and land uses changes",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Escribano",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Ari\u00f1o",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Galicia",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "PeerJ",
+                "volume": "4",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Escribano, N., Ari\u00f1o, A. & Galicia, D. Biodiversity data obsolescence and land uses changes. PeerJ 4, e2743 (2016).",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Snakes: a new 'model organism'in ecological research?",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Shine",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Bonnet",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Trends Ecol. Evol",
+                "volume": "15",
+                "issue": "6",
+                "pages": "221--222",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Shine, R. & Bonnet, X. Snakes: a new 'model organism'in ecological research? Trends Ecol. Evol. 15(6), 221-222 (2000).",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "The existence value of biodiversity in South Africa: how interest, experience, knowledge, income and perceived level of threat influence local willingness to pay",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Turpie",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Ecol. Econ",
+                "volume": "46",
+                "issue": "",
+                "pages": "199--216",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Turpie, J. The existence value of biodiversity in South Africa: how interest, experience, knowledge, income and perceived level of threat influence local willingness to pay. Ecol. Econ. 46, 199-216 (2003).",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Conservation of protists: is it needed at all?",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Cotterill",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Al-Rasheid",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Foissner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Biodivers. Conserv",
+                "volume": "17",
+                "issue": "",
+                "pages": "427--443",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cotterill, F., Al-Rasheid, K. & Foissner, W. Conservation of protists: is it needed at all? Biodivers. Conserv. 17, 427-443 (2007).",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Data-intensive science applied to broad-scale citizen science",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Hochachka",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Trends Ecol. Evol",
+                "volume": "27",
+                "issue": "",
+                "pages": "130--137",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hochachka, W. et al. Data-intensive science applied to broad-scale citizen science. Trends Ecol. Evol. 27, 130-137 (2012).",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "The history of public participation in ecological research",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Miller-Rushing",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Primack",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Bonney",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Front. Ecol. Environ",
+                "volume": "10",
+                "issue": "",
+                "pages": "285--290",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Miller-Rushing, A., Primack, R. & Bonney, R. The history of public participation in ecological research. Front. Ecol. Environ. 10, 285-290 (2012).",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Increased Diels-Alderase activity through backbone remodeling guided by Foldit players",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Eiben",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Nat. Biotechnol",
+                "volume": "30",
+                "issue": "",
+                "pages": "190--192",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Eiben, C. et al. Increased Diels-Alderase activity through backbone remodeling guided by Foldit players. Nat. Biotechnol. 30, 190-192 (2012).",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "Getting humans to do quantum optimization -user acquisition, engagement and early results from the citizen cyberscience game Quantum Moves",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Lieberoth",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "Human Comput",
+                "volume": "1",
+                "issue": "2",
+                "pages": "219--244",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lieberoth, A. Getting humans to do quantum optimization -user acquisition, engagement and early results from the citizen cyberscience game Quantum Moves. Human Comput. 1(2), 219-244 (2014).",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "Neuroscience waves to the crowd",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [],
+                        "last": "Marx",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Nat. Methods",
+                "volume": "10",
+                "issue": "",
+                "pages": "1069--1074",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Marx, V. Neuroscience waves to the crowd. Nat. Methods 10, 1069-1074 (2013).",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Citizen science data as an efficient tool for mapping protected saproxylic beetles",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Zapponi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Biol. Conserv. in Press",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zapponi, L. et al. Citizen science data as an efficient tool for mapping protected saproxylic beetles. Biol. Conserv. in Press (2016).",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "Lessons from lady beetles: accuracy of monitoring data from US and UK citizen-science programs",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Gardiner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Front. Ecol. Environ",
+                "volume": "10",
+                "issue": "",
+                "pages": "471--476",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Gardiner, M. et al. Lessons from lady beetles: accuracy of monitoring data from US and UK citizen-science programs. Front. Ecol. Environ. 10, 471-476 (2012).",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "The future of citizen science: emerging technologies and shifting paradigms",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Newman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Front. Ecol. Environ",
+                "volume": "10",
+                "issue": "",
+                "pages": "298--304",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Newman, G. et al. The future of citizen science: emerging technologies and shifting paradigms. Front. Ecol. Environ. 10, 298-304 (2012).",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "Unstructured citizen science data fail to detect long-term population declines of common birds in Denmark",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Kamp",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Oppel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Heldbjerg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Nyegaard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Donald",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Divers. Distrib",
+                "volume": "22",
+                "issue": "",
+                "pages": "1024--1035",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kamp, J., Oppel, S., Heldbjerg, H., Nyegaard, T. & Donald, P. Unstructured citizen science data fail to detect long-term population declines of common birds in Denmark. Divers. Distrib. 22, 1024-1035 (2016).",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "The seven impediments in invertebrate conservation and how to overcome them",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Cardoso",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Erwin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Borges",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "New",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Biol. Conserv",
+                "volume": "144",
+                "issue": "",
+                "pages": "2647--2655",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cardoso, P., Erwin, T., Borges, P. & New, T. The seven impediments in invertebrate conservation and how to overcome them. Biol. Conserv. 144, 2647-2655 (2011).",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Has the Earth's sixth mass extinction already arrived?",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Barnosky",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Nature",
+                "volume": "471",
+                "issue": "",
+                "pages": "51--57",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barnosky, A. et al. Has the Earth's sixth mass extinction already arrived? Nature 471, 51-57 (2011).",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "The data void in modeling current and future distributions of tropical species",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Feeley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Silman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Global Change Biol",
+                "volume": "17",
+                "issue": "",
+                "pages": "626--630",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Feeley, K. & Silman, M. The data void in modeling current and future distributions of tropical species. Global Change Biol. 17, 626-630 (2010).",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "Generalized Linear Models, Second edn",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Mccullagh",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Nelder",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "McCullagh, P. & Nelder, J. A. Generalized Linear Models, Second edn. Chapman and Hall, London (1989).",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "Mixed Effects Models and Extensions in Ecology with R",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Zuur",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Leno",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Walker",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Saveliev",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zuur, A.F., Leno, E.N., Walker, N., Saveliev, A.A., Smith, G.M. Mixed Effects Models and Extensions in Ecology with R. Springer (2009).",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "Analyse de Donn\u00e9es avec R",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Husson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "L\u00ea",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Pag\u00e8s",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Husson, F., L\u00ea, S., Pag\u00e8s, J. Analyse de Donn\u00e9es avec R. Rennes: Presses Universitaires de Rennes (2009).",
+                "links": null
+            },
+            "BIBREF64": {
+                "ref_id": "b64",
+                "title": "Elegant Graphics for Data Analysis (Use R)",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Wickham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Ggplot2",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wickham, H. Ggplot2: Elegant Graphics for Data Analysis (Use R). Springer, 2009.",
+                "links": null
+            },
+            "BIBREF65": {
+                "ref_id": "b65",
+                "title": "Miscellaneous functions for \"grid\" graphics. Cran.r-project.org",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Auguie",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Gridextra",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Auguie, B. gridExtra: Miscellaneous functions for \"grid\" graphics. Cran.r-project.org. at http://CRAN.R-project.org/ package=gridExtra, package version 2.2.1 (2017).",
+                "links": null
+            },
+            "BIBREF67": {
+                "ref_id": "b67",
+                "title": "The split-apply-combine strategy for data analysis",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Wickham",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "J. Stat. Soft",
+                "volume": "40",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wickham, H. The split-apply-combine strategy for data analysis. J. Stat. Soft. 40 (2011).",
+                "links": null
+            },
+            "BIBREF68": {
+                "ref_id": "b68",
+                "title": "Scale functions for visualization",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Wickham",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wickham, H. S: Scale functions for visualization. Cran.r-project.org. at http://CRAN.R-project.org/package=scales, package version 0.4.1 (2015).",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "type_str": "figure",
+                "text": "Evolution over time of the taxonomic bias for each class. The larger the circle, the higher the deviation from I, the 'ideal' number of occurrences per class if no taxonomic bias is observed. Red dots indicate negative deviations (i.e. shortfall in occurrences = under-represented classes); green dots indicate positive deviations (i.e. excess of occurrences = over-represented classes).",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF1": {
+                "type_str": "figure",
+                "text": "Biodiversity occurrences recorded in GBIF between 1900 and 2006. For each curve, the number of occurrences was plotted yearly. Top: black = all 24 classes considered together, yellow = Aves; Middle: yellow = Magnoliopsida, blue = Insecta, green = Liliopsida; Bottom: green = Actinopterygii, yellow = Mammalia, light blue = Reptilia, dark blue = Amphibia, orange = Florideophyceae, purple = Globothalamea.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF2": {
+                "type_str": "figure",
+                "text": "Taxonomic heterogeneity in sampling, occurrence data origin and quality for 24 taxonomic classes.",
+                "num": null,
+                "uris": null
+            },
+            "FIGREF3": {
+                "type_str": "figure",
+                "text": "Relation between age, origin and quality of the occurrence data for 24 taxonomic classes. Graph showing the first two axes of a Multiple Correspondence Analysis (MCA) performed on 5 million random occurrences. Labels in black represent the categories considered for all occurrences. Classes' names (in green) are placed at the average position of the class occurrences. Occurrence age contains eight time intervals and an Unknown Year category; data origin contains three categories: Specimen for specimen-based occurrences, Observation for observation-based occurrences, and Unknown for unknown origins; data quality contains four categories: Temporal issue for the lack of year or month, Spatial issues for the lack of coordinates, Both issues and No issue.ScIentIfIc REPORTS | 7: 9132 | DOI:10.1038/s41598-017-09084-6 GLM results assessing the link between research quantity, public interest and their combined interaction on the amount of biodiversity data per class. A positive correlation between public interest and the number of occurrences was found in most classes. Values followed by * have a significant p-value at a 5% threshold. (+) indicates a positive influence while (-) indicates a negative influence of the variable on the number of occurrences. Nb species = number of species used in the GLM after removing outliers; pval = p-values; NA = not available (because no order information and therefore no research quantity was available for Pinopsida).",
+                "num": null,
+                "uris": null
+            },
+            "TABREF0": {
+                "type_str": "table",
+                "text": "",
+                "num": null,
+                "content": "<table><tr><td>Aves</td><td>345.11</td><td>12.82</td><td>371 (541)</td><td>0.99</td></tr><tr><td>Magnoliopsida</td><td>118.21</td><td>261.01</td><td>19 (25)</td><td>0.92</td></tr><tr><td>Insecta</td><td>46.78</td><td>352.78</td><td>3 (3)</td><td>0.77</td></tr><tr><td>Liliopsida</td><td>36.75</td><td>68.99</td><td>15 (19)</td><td>0.95</td></tr><tr><td>Actinopterygii</td><td>14.18</td><td>30.73</td><td>27 (37)</td><td>0.92</td></tr><tr><td>Mammalia</td><td>10.78</td><td>11.53</td><td>15 (21)</td><td>0.88</td></tr><tr><td>Bryopsida</td><td>6.06</td><td>18.85</td><td>7 (9)</td><td>0.95</td></tr><tr><td>Gastropoda</td><td>5.85</td><td>46.99</td><td>7 (9)</td><td>0.69</td></tr><tr><td>Reptilia</td><td>4.98</td><td>11.30</td><td>24 (34)</td><td>0.88</td></tr><tr><td>Lecanoromycetes</td><td>4.97</td><td>17.79</td><td>8 (10)</td><td>0.93</td></tr><tr><td>Polypodiopsida</td><td>4.91</td><td>12.65</td><td>23 (31)</td><td>0.95</td></tr><tr><td>Amphibia</td><td>3.94</td><td>5.89</td><td>54 (76)</td><td>0.91</td></tr><tr><td>Agaricomycetes</td><td>3.80</td><td>23.53</td><td>4 (4)</td><td>0.93</td></tr><tr><td>Malacostraca</td><td>2.73</td><td>30.16</td><td>6 (7)</td><td>0.73</td></tr><tr><td>Globothalamea</td><td>2.68</td><td>4.07</td><td>10 (13)</td><td>0.74</td></tr><tr><td>Arachnida</td><td>2.17</td><td>38.11</td><td>3 (3)</td><td>0.77</td></tr><tr><td>Bivalvia</td><td>2.02</td><td>14.02</td><td>9 (12)</td><td>0.70</td></tr><tr><td>Bacillariophyceae</td><td>1.96</td><td>11.19</td><td>2 (1)</td><td>0.70</td></tr><tr><td>Maxillopoda</td><td>1.87</td><td>9.98</td><td>4 (4)</td><td>0.58</td></tr><tr><td>Pinopsida</td><td>1.57</td><td>0.91</td><td>110 (160)</td><td>0.95</td></tr><tr><td>Jungermanniopsida</td><td>1.41</td><td>6.93</td><td>7 (9)</td><td>0.91</td></tr><tr><td>Polychaeta</td><td>1.29</td><td>8.77</td><td>6 (7)</td><td>0.73</td></tr><tr><td>Florideophyceae</td><td>1.07</td><td>5.78</td><td>17 (24)</td><td>0.88</td></tr><tr><td>Anthozoa</td><td>1.03</td><td>8.64</td><td>7 (9)</td><td>0.59</td></tr><tr><td>Total for 24 classes</td><td>626.13</td><td>1013.39</td><td>7 (9)</td><td>0.94</td></tr><tr><td>Total in the GBIF</td><td>649.79</td><td>1200.38</td><td>6 (7)</td><td>0.93</td></tr></table>"
+            }
+        }
+    }
+}

@@ -1,0 +1,3480 @@
+{
+    "paper_id": "Espinosaetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:26:07.548742Z"
+    },
+    "title": "Geographic distribution modeling of the margay (Leopardus wiedii) and jaguarundi (Puma yagouaroundi): a comparative assessment",
+    "authors": [
+        {
+            "first": "Caroline",
+            "middle": [
+                "C"
+            ],
+            "last": "Espinosa",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Tatiane",
+            "middle": [
+                "C"
+            ],
+            "last": "Trigo",
+            "suffix": "",
+            "affiliation": {},
+            "email": "tatiane.trigo@gmail.com"
+        },
+        {
+            "first": "Fl\u00e1via",
+            "middle": [
+                "P"
+            ],
+            "last": "Tirelli",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Lucas",
+            "middle": [],
+            "last": "Gon\u00e7alves Da Silva",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Diego",
+            "middle": [],
+            "last": "Queirolo",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "F\u00e1bio",
+            "middle": [
+                "D"
+            ],
+            "last": "Mazim",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Felipe",
+            "middle": [
+                "B"
+            ],
+            "last": "Peters",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Marina",
+            "middle": [
+                "O"
+            ],
+            "last": "Favarini",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Thales",
+            "middle": [
+                "R O"
+            ],
+            "last": "De Freitas",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "The Neotropical region currently harbors 8 recognized species of small cats, including the margay (Leopardus wiedii) and jaguarundi (Puma yagouaroundi). These similar-sized species have broad geographic distributions and commonly occur in sympatry. We constructed species occurrence databases and used the maximum entropy (Maxent) modeling approach to develop models of habitat suitability for each of these species. We identified the environmental predictors with the highest importance for species occurrence and evaluated how they influence habitat suitability for both wild cats. Variables related to temperature and precipitation were good predictors of species occurrence, with both cats responding similarly to them. However, margay showed higher variation in habitat suitability depending on local climatic predictors. The estimated models indicated high niche similarity (> 76%) between these cats, but despite this we identified different areas with the most favorable conditions for each species' occurrence. Approximately 50% and 72% of the entire suitable area were estimated as being moderately to highly suitable for margay and jaguarundi, respectively, with the margay model comprising a higher proportion of forest environments in comparison to that of the jaguarundi. These findings will be relevant in the context of conservation planning when indicating the priority areas for their long-term preservation. A regi\u00e3o Neotropical possui atualmente oito esp\u00e9cies de pequenos fel\u00eddeos, incluindo o gato-maracaj\u00e1 (Leopardus wiedii) e o jaguarundi (Puma yagouaroundi). Estas duas esp\u00e9cies apresentam ampla distribui\u00e7\u00e3o geogr\u00e1fica nos neotr\u00f3picos, ocorrendo geralmente em simpatria e compartilhando v\u00e1rios aspectos biogeogr\u00e1ficos. Neste trabalho, constru\u00edmos um banco com dados de ocorr\u00eancia destas esp\u00e9cies e usamos o m\u00e9todo de m\u00e1xima entropia (Maxent) para obter modelos de adequabilidade de habitat para cada uma delas. Os preditores ambientais com maior percentual de contribui\u00e7\u00e3o aos modelos gerados foram identificados, sendo ainda avaliado como cada um deles influencia na adequabilidade de habitat estimada para as esp\u00e9cies. Vari\u00e1veis associadas com temperatura e precipita\u00e7\u00e3o foram identificadas como importantes para a ocorr\u00eancia das esp\u00e9cies, com os dois fel\u00eddeos respondendo similarmente a elas. No entanto, para o gato-maracaj\u00e1 foi identificada uma maior varia\u00e7\u00e3o",
+    "pdf_parse": {
+        "paper_id": "Espinosaetal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "The Neotropical region currently harbors 8 recognized species of small cats, including the margay (Leopardus wiedii) and jaguarundi (Puma yagouaroundi). These similar-sized species have broad geographic distributions and commonly occur in sympatry. We constructed species occurrence databases and used the maximum entropy (Maxent) modeling approach to develop models of habitat suitability for each of these species. We identified the environmental predictors with the highest importance for species occurrence and evaluated how they influence habitat suitability for both wild cats. Variables related to temperature and precipitation were good predictors of species occurrence, with both cats responding similarly to them. However, margay showed higher variation in habitat suitability depending on local climatic predictors. The estimated models indicated high niche similarity (> 76%) between these cats, but despite this we identified different areas with the most favorable conditions for each species' occurrence. Approximately 50% and 72% of the entire suitable area were estimated as being moderately to highly suitable for margay and jaguarundi, respectively, with the margay model comprising a higher proportion of forest environments in comparison to that of the jaguarundi. These findings will be relevant in the context of conservation planning when indicating the priority areas for their long-term preservation. A regi\u00e3o Neotropical possui atualmente oito esp\u00e9cies de pequenos fel\u00eddeos, incluindo o gato-maracaj\u00e1 (Leopardus wiedii) e o jaguarundi (Puma yagouaroundi). Estas duas esp\u00e9cies apresentam ampla distribui\u00e7\u00e3o geogr\u00e1fica nos neotr\u00f3picos, ocorrendo geralmente em simpatria e compartilhando v\u00e1rios aspectos biogeogr\u00e1ficos. Neste trabalho, constru\u00edmos um banco com dados de ocorr\u00eancia destas esp\u00e9cies e usamos o m\u00e9todo de m\u00e1xima entropia (Maxent) para obter modelos de adequabilidade de habitat para cada uma delas. Os preditores ambientais com maior percentual de contribui\u00e7\u00e3o aos modelos gerados foram identificados, sendo ainda avaliado como cada um deles influencia na adequabilidade de habitat estimada para as esp\u00e9cies. Vari\u00e1veis associadas com temperatura e precipita\u00e7\u00e3o foram identificadas como importantes para a ocorr\u00eancia das esp\u00e9cies, com os dois fel\u00eddeos respondendo similarmente a elas. No entanto, para o gato-maracaj\u00e1 foi identificada uma maior varia\u00e7\u00e3o",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "The ecological niche of a species is defined as the set of biotic and abiotic conditions that allows its existence in a particular region (Hutchinson 1957) , and thus profoundly affects its geographical distribution. Ecological niche concepts include the Grinnellian or fundamental niche, which considers the set of necessary environmental conditions for species occurrence without considering the influence of biotic factors (Grinnell 1917) , and the Eltonian niche, which also considers biotic factors such as predation, competition, and other interspecific interactions (Elton 1927) . While both concepts are essential for a full understanding of species distribution patterns, the Eltonian niche concept requires more specific and complex evaluation and experimentation.",
+                "cite_spans": [
+                    {
+                        "start": 138,
+                        "end": 155,
+                        "text": "(Hutchinson 1957)",
+                        "ref_id": "BIBREF22"
+                    },
+                    {
+                        "start": 426,
+                        "end": 441,
+                        "text": "(Grinnell 1917)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 573,
+                        "end": 585,
+                        "text": "(Elton 1927)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Grinnellian niche studies have sharply increased in number in recent years due to the development of mathematical modeling techniques that can estimate the geographic extent of a species with respect to environmental characteristics (Porter et al. 2002; Pearson and Dawson 2003; Sober\u00f3n and Peterson 2005) . These models are typically used to identify areas with high probability of species occurrence based on environmental attributes (Guisan and Thuiller 2005) . They can also be used to assess biogeographical relationships between species, including identification of spatial niche overlap and specific environmental requirements for interacting species (Anderson et al. 2002; Qi et al. 2009; Acevedo et al. 2010; Brito et al. 2011; Friedlaender et al. 2011; Hu and Jiang 2012; Lis\u00f3n and Calvo 2013; Hosseinian Yousefkhan et al. 2016) .",
+                "cite_spans": [
+                    {
+                        "start": 233,
+                        "end": 253,
+                        "text": "(Porter et al. 2002;",
+                        "ref_id": "BIBREF48"
+                    },
+                    {
+                        "start": 254,
+                        "end": 278,
+                        "text": "Pearson and Dawson 2003;",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 279,
+                        "end": 305,
+                        "text": "Sober\u00f3n and Peterson 2005)",
+                        "ref_id": "BIBREF59"
+                    },
+                    {
+                        "start": 436,
+                        "end": 462,
+                        "text": "(Guisan and Thuiller 2005)",
+                        "ref_id": "BIBREF18"
+                    },
+                    {
+                        "start": 658,
+                        "end": 680,
+                        "text": "(Anderson et al. 2002;",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 681,
+                        "end": 696,
+                        "text": "Qi et al. 2009;",
+                        "ref_id": "BIBREF49"
+                    },
+                    {
+                        "start": 697,
+                        "end": 717,
+                        "text": "Acevedo et al. 2010;",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 718,
+                        "end": 736,
+                        "text": "Brito et al. 2011;",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 737,
+                        "end": 762,
+                        "text": "Friedlaender et al. 2011;",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 763,
+                        "end": 781,
+                        "text": "Hu and Jiang 2012;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 782,
+                        "end": 803,
+                        "text": "Lis\u00f3n and Calvo 2013;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 804,
+                        "end": 838,
+                        "text": "Hosseinian Yousefkhan et al. 2016)",
+                        "ref_id": "BIBREF21"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "There are currently 8 recognized species of small (< 8 kg) Neotropical felids (Wozencraft 2005; Trigo et al. 2013) , several with mostly sympatric geographical distributions (Sunquist and Sunquist 2002) . Two species have broad distributions and occur mostly sympatrically: the margay (Leopardus wiedii) and the jaguarundi (Puma yagouaroundi). The geographical distribution of the margay extends from the coastal plains of Mexico to southern Paraguay, northern Argentina, and Uruguay. It occurs throughout Brazil, with the possible exception of the Caatinga region in the northeast (Oliveira 1998a; Sunquist and Sunquist 2002) . The jaguarundi occurs from Mexico to central Argentina, Paraguay, southern Brazil, and Uruguay (Sunquist and Sunquist 2002; Caso et al. 2015; Grattarola et al. 2016) . These species are phylogenetically distant, belonging to different evolutionary lineages in the Felidae (Johnson et al. 2006) . They are also quite different morphologically, with jaguarundis tending to be larger; the average weight and head and body length of jaguarundis is 5 kg and 62.7 cm, respectively, whereas the margay averages 3.2 kg and 59.9 cm (Sunquist and Sunquist 2002) . Despite these differences, these species have been considered functionally equivalent based on shared morphological characters assumed to correlate with prey capture (Kiltie 1984 (Kiltie , 1988 .",
+                "cite_spans": [
+                    {
+                        "start": 78,
+                        "end": 95,
+                        "text": "(Wozencraft 2005;",
+                        "ref_id": "BIBREF67"
+                    },
+                    {
+                        "start": 96,
+                        "end": 114,
+                        "text": "Trigo et al. 2013)",
+                        "ref_id": "BIBREF62"
+                    },
+                    {
+                        "start": 174,
+                        "end": 202,
+                        "text": "(Sunquist and Sunquist 2002)",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 582,
+                        "end": 598,
+                        "text": "(Oliveira 1998a;",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 599,
+                        "end": 626,
+                        "text": "Sunquist and Sunquist 2002)",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 724,
+                        "end": 752,
+                        "text": "(Sunquist and Sunquist 2002;",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 753,
+                        "end": 770,
+                        "text": "Caso et al. 2015;",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 771,
+                        "end": 794,
+                        "text": "Grattarola et al. 2016)",
+                        "ref_id": "BIBREF16"
+                    },
+                    {
+                        "start": 901,
+                        "end": 922,
+                        "text": "(Johnson et al. 2006)",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 1152,
+                        "end": 1180,
+                        "text": "(Sunquist and Sunquist 2002)",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 1349,
+                        "end": 1361,
+                        "text": "(Kiltie 1984",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1362,
+                        "end": 1376,
+                        "text": "(Kiltie , 1988",
+                        "ref_id": "BIBREF25"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "According to the current literature, the margay tends to be more associated with forest environments, whereas the jaguarundi seems to occur in a variety of habitats ranging from tropical rainforest to grasslands and savannas (Oliveira 1998a (Oliveira , 1998b Oliveira et al. 2010) . This suggests the existence of different limitations on the distribution and environmental preferences of these species. However, the influence of environmental variables and to what extent they limit these species' occurrence and distribution is still poorly understood.",
+                "cite_spans": [
+                    {
+                        "start": 225,
+                        "end": 240,
+                        "text": "(Oliveira 1998a",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 241,
+                        "end": 258,
+                        "text": "(Oliveira , 1998b",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 259,
+                        "end": 280,
+                        "text": "Oliveira et al. 2010)",
+                        "ref_id": "BIBREF41"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "In this context, the main objective of this study was to describe, explore, and compare the environmental component of the ecological niche of these 2 ecologically similar Neotropical cats. We specifically aimed to obtain models of relative habitat suitability (RHS) for each of these species and to identify the main environmental predictors associated with each model, so as to explore the differences between their niches. Species comparisons included estimates of their level of niche overlap and the extent and location of areas with the most favorable conditions for each species' long-term persistence, along with the evaluation of patterns of association between each species and different Neotropical biomes.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Study area.-The study area included the complete native distribution of margay and jaguarundi, extending from southern Mexico through central America and into South America east of the Andes to northern Argentina and Uruguay. These areas comprise a wide variety of biomes, from very humid tropical evergreen forest to savannas and semiarid thorny scrubs, with an elevation gradient ranging from sea level to approximately 3,000 m.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Database construction.-The location database constructed for this study included records of margay and jaguarundi occurrence obtained from captures, photographs, roadkills, published literature and from 2 available online databases comprising compilations of records from scientific collections (Global Biodiversity Information Facility-GBIF.org and Species Link). The geographical coordinates were standardized with ArcGIS 10.3 and converted to degrees using the WGS84 global reference system.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "The preliminary database comprised 411 records for margay and 897 for jaguarundi (Supplementary Data SD1 and SD2), representing most of the known geographic distribution of these species. The records spanned a broad temporal window, representing 115 years of sampling. Although old records can cause sample biases in modeling studies (Engler et al. 2004; Graham et al. 2008) , we decided to retain even the oldest data due to the results obtained in preliminary tests, which discovered that the exclusion of the oldest records resulted in models that excluded large portions of the known geographic distribution of these species.",
+                "cite_spans": [
+                    {
+                        "start": 334,
+                        "end": 354,
+                        "text": "(Engler et al. 2004;",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 355,
+                        "end": 374,
+                        "text": "Graham et al. 2008)",
+                        "ref_id": "BIBREF15"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "The databases were filtered to reduce the effect of spatial bias in collection effort, which can generate erroneous models (Phillips et al. 2009; Kramer-Schadt et al. 2013; Fourcade et al. 2014) . Our filtering was conducted by using the radius of the mean home range for each species to construct a bias sample file (Kramer-Schadt et al. 2013) . In these files, only 1 record within the radius defined for each species was maintained in the final database. We first identified the radius of the mean home range plus the positive value of its SD (MHR + SD) for each species (Oliveira et al. 2010) . For margay, we obtained a radius of 2.52 km from a MHR + SD of 19.95 km 2 , and for jaguarundi the radius was 3.77 km, based on a MHR + SD of 44.65 km 2 . The sampling bias file was created using the \"dismo\" package (Hijmans et al. 2017) in R 3.2.3 (R Core Team 2015). This relatively short distance resulted in very few exclusions so we varied the size of the radius, each time testing for spatial autocorrelation (Moran 1950) . Using a distance equivalent to the mean home range radius times 50 resulted in a set of points with no evidence of significant spatial autocorrelation (margay I = \u22120.016, z-score = \u22120.359, P = 0.719; jaguarundi I = \u22120.004, z-score = 0.018, P = 0.985) and resulted in 170 and 218 final data points for margay and jaguarundi, respectively.",
+                "cite_spans": [
+                    {
+                        "start": 123,
+                        "end": 145,
+                        "text": "(Phillips et al. 2009;",
+                        "ref_id": "BIBREF47"
+                    },
+                    {
+                        "start": 146,
+                        "end": 172,
+                        "text": "Kramer-Schadt et al. 2013;",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 173,
+                        "end": 194,
+                        "text": "Fourcade et al. 2014)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 317,
+                        "end": 344,
+                        "text": "(Kramer-Schadt et al. 2013)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 574,
+                        "end": 596,
+                        "text": "(Oliveira et al. 2010)",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 815,
+                        "end": 836,
+                        "text": "(Hijmans et al. 2017)",
+                        "ref_id": "BIBREF20"
+                    },
+                    {
+                        "start": 1014,
+                        "end": 1026,
+                        "text": "(Moran 1950)",
+                        "ref_id": "BIBREF37"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Selection of environmental predictors.-We first selected the 35 bioclimatic variables available from the Worldclim (http:// www.worldclim.org) and Climond (http://www.climond.org) databases as candidate variables to run the models, since climate variables are among the most important factors driving species' distributions (Grinnell 1917; Guisan and Zimmermann 2000) . We also used the altitude predictor obtained from SRTM (http://www2.jpl.nasa.gov/srtm). All variables were standardized to an approximately 4 km 2 spatial resolution with ArcGIS 10.3.",
+                "cite_spans": [
+                    {
+                        "start": 324,
+                        "end": 339,
+                        "text": "(Grinnell 1917;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 340,
+                        "end": 367,
+                        "text": "Guisan and Zimmermann 2000)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Because correlation between explanatory variables can lead to overestimation in the models, we ran Pearson's correlation test for each pair of predictor variables (Kumar and Stohlgren 2009; Raes et al. 2009; Mukherjee et al. 2010) in SPSS 17.0. Correlations were assessed by extracting predictors from 10,000 randomly generated points within the known species distribution polygon (IUCN data) using ArcGIS 10.3. The analysis was performed independently for each species, using 0.7 as the cutoff value. As a result, 11 environmental predictors with low correlation were identified for margay, and 13 for jaguarundi, with 7 predictors shared between the 2 species (see Supplementary Data SD3). These predictor variables were used along with the filtered databases to construct the species niche models.",
+                "cite_spans": [
+                    {
+                        "start": 163,
+                        "end": 189,
+                        "text": "(Kumar and Stohlgren 2009;",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 190,
+                        "end": 207,
+                        "text": "Raes et al. 2009;",
+                        "ref_id": "BIBREF54"
+                    },
+                    {
+                        "start": 208,
+                        "end": 230,
+                        "text": "Mukherjee et al. 2010)",
+                        "ref_id": "BIBREF38"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Niche modeling procedures.-We used the maximum entropy algorithm implemented in Maxent 3.3.4k (Philips et al. 2006) to estimate the 2 species' ecological niche models (ENMs). We used the sets of records obtained after the data filtering with 50\u00d7 radius for each species to construct the ENMs, using 70% of the records to run the models and 30% to test them. Data were resampled via random partitioning with replacement using the bootstrap method. All rounds were randomly configured with a convergence threshold of 1E-5, with 500 iterations and 10,000 pseudo-absence points (Ferraz et al. 2012; Silva et al. 2017) . Model logistic outputs were selected as having a probabilistic interpretation representing degrees of habitat suitability (Pearson et al. 2007) .",
+                "cite_spans": [
+                    {
+                        "start": 94,
+                        "end": 115,
+                        "text": "(Philips et al. 2006)",
+                        "ref_id": "BIBREF45"
+                    },
+                    {
+                        "start": 574,
+                        "end": 594,
+                        "text": "(Ferraz et al. 2012;",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 595,
+                        "end": 613,
+                        "text": "Silva et al. 2017)",
+                        "ref_id": "BIBREF58"
+                    },
+                    {
+                        "start": 738,
+                        "end": 759,
+                        "text": "(Pearson et al. 2007)",
+                        "ref_id": "BIBREF44"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Model performance was assessed by the area under the curve (AUC) of a receiver operating characteristic (ROC) plot (Pearson et al. 2007; Warren and Seifert 2011) . We evaluated the maximum AUC values for the training and test data. We also assessed model predictive accuracy by comparing predictions with the observed number of locations, following the method suggested by Boyce et al. (2002) . This method relates model prediction to the probability of habitat use from presence-only data and is referred to as 'area-adjusted frequency' (AAF). For this analysis, we extracted the lowest and the highest value of suitability found for each species and ranked the RHS scores from Maxent outputs into classes (bins) of nearly equal breadth of 0.10. We then calculated the proportion of the total area covered by each class, dividing the area of each bin by the total area predicted as suitable by the model outputs. Thereafter, we counted how many presence points fell into each defined bin, and calculated the proportion of presence locations within. Finally, the proportion of locations was divided by the proportion of available area in each bin, resulting in the AAF values.",
+                "cite_spans": [
+                    {
+                        "start": 115,
+                        "end": 136,
+                        "text": "(Pearson et al. 2007;",
+                        "ref_id": "BIBREF44"
+                    },
+                    {
+                        "start": 137,
+                        "end": 161,
+                        "text": "Warren and Seifert 2011)",
+                        "ref_id": "BIBREF66"
+                    },
+                    {
+                        "start": 373,
+                        "end": 392,
+                        "text": "Boyce et al. (2002)",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Correlation between AAF values and the RHS was tested using the Spearman rank correlation. A model with good predictive performance would be expected to show strong positive correlation as more use locations would consistently tend to fall within higher RHS bins (Boyce et al. 2002) . The AAF values provide a predicted-to-expected frequency of presence for each of the RHS bins, with low values (< 1) indicating that presence locations occurred at rates lower than expected by chance, while high values (> 1) indicate that presence was more frequent than expected by chance. The former values could indicate marginal (random or uncertain) habitats, while the latter suggest highly suitable or optimal habitats. We used this analysis to reclassify the model outputs for the 2 cat species into 4 categories defined as: 1) unsuitable habitat-areas without predictive habitat suitability, or with predictive suitability but no presence points; 2) low habitat suitability-bins of RHS with AAF values < 1; 3) moderate; and 4) high habitat suitability-bins of RHS with AAF values > 1, where we arbitrarily classified high suitability as those bins with presence locations 5 times higher than expected by chance (AAF values higher than 5).",
+                "cite_spans": [
+                    {
+                        "start": 263,
+                        "end": 282,
+                        "text": "(Boyce et al. 2002)",
+                        "ref_id": "BIBREF4"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Variable contribution and influence on predictive species models.-We considered Maxent's heuristic estimates of the relative contribution of environmental variables to the models and the results of jackknife analyses for each environmental layer (Phillips and Dudik 2008) . For the variables with the highest predictive value, we examined how each one varies or changes according to the RHS predictive values from the ENMs generated for each of the cat species. For this, we used the extract-to-point tool in ArcGIS 10.3 to obtain climate and RHS values for each presence point in our final database from both species.",
+                "cite_spans": [
+                    {
+                        "start": 246,
+                        "end": 271,
+                        "text": "(Phillips and Dudik 2008)",
+                        "ref_id": "BIBREF46"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Comparing environmental niche models.-We used the models and their associated predicted RHS scores to quantify environmental niche overlap between the 2 cats, and to assess the niche breadth of both species. These measurements were performed with ENMTools (Warren et al. 2010) . Niche overlap measures similarity between predictions of habitat suitability between 1 or more pairs of populations or species using methods described by Warren et al. (2008) . ENMTools implements 3 different statistics to measure niche overlap: Shoener's index (D), Hellinger distance (I), and relative rank (RR -Schoener 1968; Warren et al. 2008; Warren and Seifert 2011) . These 3 metrics use calculations based on differences between species in the standardized suitability scores at each grid cell, and range from 0 (species have completely discordant ENMs) to 1 (species have identical ENMs). Niche breath also was estimated for each cat species with Levins's index (Levins 1968) , as implemented in ENMTools. This metric uses the continuous estimates of habitat suitability produced by Maxent directly, with scores standardized so that the minimum possible niche breadth is 0 (indicating that 1 grid cell in the geographic space has a nonzero suitability) and maximum niche breath is 1 (where all grid cells are equally suitable).",
+                "cite_spans": [
+                    {
+                        "start": 256,
+                        "end": 276,
+                        "text": "(Warren et al. 2010)",
+                        "ref_id": "BIBREF65"
+                    },
+                    {
+                        "start": 433,
+                        "end": 453,
+                        "text": "Warren et al. (2008)",
+                        "ref_id": "BIBREF64"
+                    },
+                    {
+                        "start": 592,
+                        "end": 607,
+                        "text": "-Schoener 1968;",
+                        "ref_id": "BIBREF56"
+                    },
+                    {
+                        "start": 608,
+                        "end": 627,
+                        "text": "Warren et al. 2008;",
+                        "ref_id": "BIBREF64"
+                    },
+                    {
+                        "start": 628,
+                        "end": 652,
+                        "text": "Warren and Seifert 2011)",
+                        "ref_id": "BIBREF66"
+                    },
+                    {
+                        "start": 951,
+                        "end": 964,
+                        "text": "(Levins 1968)",
+                        "ref_id": "BIBREF28"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Habitat composition in the predictive models.-Habitat composition in the areas estimated with the most favorable conditions for the 2 cats' occurrence (with moderate to high suitability) was evaluated using the categories of biomes defined by Olson et al. (2001) . For each of these areas, we identified the types of biomes present and the percentage of the area covered by each biome. Using only the presence locations and the biome categories, we tested for different patterns of habitat selection between the 2 cat species through the chi-square test, followed by a residual analysis.",
+                "cite_spans": [
+                    {
+                        "start": 243,
+                        "end": 262,
+                        "text": "Olson et al. (2001)",
+                        "ref_id": "BIBREF42"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "Niche models for margay and jaguarundi.-The models predicted similar potential distributions for the 2 cats according to the suitable climatic conditions associated with each species' occurrence ( Fig. 1) . Environmental predictors with the greatest relative importance for the margay models were temperature seasonality, minimum temperature of the coldest month, and annual precipitation. Environmental predictors with the highest contribution to jaguarundi models were mean temperature of coldest quarter, isothermality, and annual mean temperature ( Table 1) . Considering that the AUC values were all > 0.80, the models provided good fit to the data and were successfully validated by the test data set (Table 1 ). In addition, the correlation between area-adjusted frequencies and the binned RHS scores was high and significant for both species (Fig. 2a ), indicating good model performances and high predictive accuracies. Presence locations were available for all bin classes of RHS defined for each species according to the minimum and maximum value of suitability found (bins 2-9 for margays and 1-8 for jaguarundis; Fig. 2b ). Bins were more evenly used by margay, whereas jaguarundi showed a higher number of presence locations in categories 5 and 6, corresponding to 0.40 to 0.60 RHS scores (Fig. 2b) . However, when we evaluated the results taking into account the adjusted area for each bin, we perceived a different pattern of association of each species to each area. The binned scores comprised in the first 3 categories (RHS < 0.3) showed AAF values < 1 for both species, indicating that presence locations occurred at lower rates than expected by chance, and that these areas could be classified as poorly suitable for species occurrence (low suitability). AAF values > 1, indicating that presence was more frequent than expected by chance, were only obtained from the 4th category, with RHS scores higher than 0.3, and considered as moderate suitability (Fig. 2) . The AAF values indicating frequencies of presence locations 5 times higher than expected by chance, and thus suggesting high suitability for species according to our criterion, were only achieved in the 6th category, with RHS scores higher than 0.5 (Fig. 2) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 197,
+                        "end": 204,
+                        "text": "Fig. 1)",
+                        "ref_id": "FIGREF0"
+                    },
+                    {
+                        "start": 553,
+                        "end": 561,
+                        "text": "Table 1)",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 707,
+                        "end": 715,
+                        "text": "(Table 1",
+                        "ref_id": "TABREF0"
+                    },
+                    {
+                        "start": 850,
+                        "end": 858,
+                        "text": "(Fig. 2a",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1126,
+                        "end": 1133,
+                        "text": "Fig. 2b",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1303,
+                        "end": 1312,
+                        "text": "(Fig. 2b)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1974,
+                        "end": 1982,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 2234,
+                        "end": 2242,
+                        "text": "(Fig. 2)",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "results",
+                "sec_num": null
+            },
+            {
+                "text": "Considering the results of the area-adjusted frequencies, the models predicted a more extensive area as suitable for jaguarundi (including low, moderate, and high suitability categories; Table 2 ; Fig. 3 ). Areas considered of moderate to high suitability (RHS > 0.3) also were proportionally smaller in size for margay, spanning 7,392,257 km 2 or 51.1% of its total estimated suitable area. For jaguarundi, the model estimated an area of 14,688,692 km 2 of moderate to high suitability, comprising 72.29% of its total area estimated as suitable. Areas of high suitability (RHS > 0.50) were limited in size for both species, representing only 10% and 14% of the suitable area estimated for margay and jaguarundi, respectively.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 187,
+                        "end": 194,
+                        "text": "Table 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 197,
+                        "end": 203,
+                        "text": "Fig. 3",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "results",
+                "sec_num": null
+            },
+            {
+                "text": "Influence of bioclimatic variables on predictive species models.-Evaluating the relation between the RHS predictive values from the ENMs and the variables with the highest contribution to the models, we perceived different species responses to variation in the environment predictors. In general, jaguarundi plots showed a more stable response, with modest variation of the average RHS according to climate changes (Fig. 4) . Habitat suitability for both cats were negatively affected by extreme temperatures. Jaguarundis were found where annual mean temperature ranged from 13\u00b0C to 28\u00b0C. Only above 16\u00b0C did RHS medians exceed 0.5 for this species. However, at this temperature and higher, the average scores of suitability remained similar until 28\u00b0C. For margay, medians of RHS above 0.5 were found in a smaller range of temperature variation and in areas of lower temperatures (13-22\u00b0C; Fig. 4a ). Similar patterns were seen in 2 other variables related to temperature (minimum temperature of the coldest month [ Fig. 4d ] and mean temperature of the coldest quarter [ Fig. 4e] ). Margay showed a pronounced drop in suitability in the areas with the highest temperature, whereas jaguarundi showed a more stable response, maintaining similar median values of RHS for almost the entire temperature range recorded in its area of occurrence.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 415,
+                        "end": 423,
+                        "text": "(Fig. 4)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 891,
+                        "end": 898,
+                        "text": "Fig. 4a",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1017,
+                        "end": 1024,
+                        "text": "Fig. 4d",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1073,
+                        "end": 1081,
+                        "text": "Fig. 4e]",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "results",
+                "sec_num": null
+            },
+            {
+                "text": "Relative habitat suitability for margay was higher in environments of lower isothermalities, whereas jaguarundi showed similar suitability over a broader range of isothermalities (Fig. 4b) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 179,
+                        "end": 188,
+                        "text": "(Fig. 4b)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "results",
+                "sec_num": null
+            },
+            {
+                "text": "Isothermality is a measure of the temperature fluctuations within a month relative to the fluctuations of the year. Likewise, temperature seasonality (a measure of the amount of temperature variation over a year) seemed to have a lower influence on habitat suitability for jaguarundi, with similar RHS medians being observed along the whole gradient except only for the most extreme maximum values. For margays, higher RHS medians were again observed in a lower range of temperature variation (Fig. 4c ). Both species showed higher RHS scores for levels of annual precipitation above 1,000 mm. Niche model comparison.-Estimates of niche breadth were similar for both species, with a slightly higher value obtained for jaguarundi (standardized inverse concentration = 0.289 for jaguarundi and 0.225 for margay). Estimates of niche similarity showed high niche equivalency between margays and jaguarundis, as suggested by Shoener's index (D = 0.762), Hellinger distance (I = 0.937), and relative rank (RR = 0.881).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 493,
+                        "end": 501,
+                        "text": "(Fig. 4c",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "results",
+                "sec_num": null
+            },
+            {
+                "text": "Habitat composition in the predictive models.-Predicted areas of moderate to high suitability encompassed different portions of 11 biomes recognized by Olson et al. (2001; Table 3 ). All biomes were represented in the most suitable areas (including moderate and high suitability) estimated for both cats, except for areas of temperate broadleaf and mixed forests in the southern United States, which were included only in the margay model, and the temperate grasslands and savannas from northern Argentina, included only in the jaguarundi model. Areas of moderate to high suitability for margay consisted of more than 70% forest environments, especially tropical and subtropical biomes (Table 3) . Regions with estimated high suitability for margay were mostly restricted to the southern portion of the tropical and subtropical moist broadleaf forest, in the east coast of Brazil (see Fig. 3 ). The habitat associations of the species were significantly different (\u03c7 2 = 41.524; gl = 8; P = 0.0001). Based on the results of the residual analysis, this difference was mainly due to a positive association of margay with tropical and subtropical forests (moist broadleaf and coniferous), and a negative association of this species with deserts and xeric areas (Table 3) . after reclassification of Maxent model outputs, based on the area-adjusted frequency calculations: 1) unsuitable habitatareas without predictive habitat suitability, or with predictive suitability but no presence points; 2) low habitat suitability-RHS < 0.3; 3) moderate habitat suitability-0.3 < RHS < 0.5; and 4) high habitat suitability-RHS > 0.5. Table 2. -Description of the areas suitable for margay (Leopardus wiedii) and jaguarundi (Puma yagouaroundi) after reclassification of the estimated models based on area-adjusted frequency calculations. For each of the 3 categories estimated as suitable for species occurrence, the area predicted (km 2 ) and the number of presence locations are indicated. ",
+                "cite_spans": [
+                    {
+                        "start": 152,
+                        "end": 171,
+                        "text": "Olson et al. (2001;",
+                        "ref_id": "BIBREF42"
+                    },
+                    {
+                        "start": 172,
+                        "end": 179,
+                        "text": "Table 3",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 686,
+                        "end": 695,
+                        "text": "(Table 3)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 885,
+                        "end": 891,
+                        "text": "Fig. 3",
+                        "ref_id": "FIGREF2"
+                    },
+                    {
+                        "start": 1258,
+                        "end": 1267,
+                        "text": "(Table 3)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1621,
+                        "end": 1629,
+                        "text": "Table 2.",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "results",
+                "sec_num": null
+            },
+            {
+                "text": "Ecological or species niche modeling has become an important tool for conservation-oriented research targeting Neotropical felids. Niche modeling has been used to predict geographic distribution and suitability on a continental (Marino et al. 2011; Cuyckens et al. 2016) or local scale (Ferraz et al. 2012; Mart\u00ednez-Calderas et al. 2015 , evaluate possible effects of climate change on potential distributions due to variation in suitable areas of occurrence (Vale et al. 2015) , and investigate the distribution of intraspecific morphotypes (Silva et al. 2016) . We used niche modeling to investigate the ecological differentiation of 2 sympatric and ecologically related species. For the 2 cats studied here, our results indicated a similar predicted range based on the assessed environmental Fig. 4. -Box plots illustrating how the values of each of the 6 variables (a-f) with the greatest contribution to relative habitat suitability vary with respect to predicted suitability for margay (Leopardus wiedii; black) and jaguarundi (Puma yagouaroundi; gray). The horizontal line inside the boxes represents the median value, the upper and lower extremes of the box represent the 25th and 75th percentiles, and the vertical error bars represent the scores outside the middle 50%. Data beyond the end of these vertical lines are outliers, which are plotted as points. Climate and relative habitat suitability values were obtained using the extract-to-point tool in ArcGIS 10.3 for each presence location.",
+                "cite_spans": [
+                    {
+                        "start": 228,
+                        "end": 248,
+                        "text": "(Marino et al. 2011;",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 249,
+                        "end": 270,
+                        "text": "Cuyckens et al. 2016)",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 286,
+                        "end": 306,
+                        "text": "(Ferraz et al. 2012;",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 307,
+                        "end": 336,
+                        "text": "Mart\u00ednez-Calderas et al. 2015",
+                        "ref_id": "BIBREF34"
+                    },
+                    {
+                        "start": 459,
+                        "end": 477,
+                        "text": "(Vale et al. 2015)",
+                        "ref_id": "BIBREF63"
+                    },
+                    {
+                        "start": 542,
+                        "end": 561,
+                        "text": "(Silva et al. 2016)",
+                        "ref_id": "BIBREF57"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 795,
+                        "end": 802,
+                        "text": "Fig. 4.",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "discussion",
+                "sec_num": null
+            },
+            {
+                "text": "variables, but different responses to some climatic conditions that were related to areas of different habitat suitability. The niche models presented here indicate high niche overlap between these 2 cat species, with the potential distribution of both taxa appearing to be dependent on similar bioclimatic conditions, including a very similar range of temperature and precipitation. However, while jaguarundis tended to maintain similar mean values of habitat suitability across the entire range of these bioclimatic predictors, suitability for margay was more varied, with higher values observed in a narrower range of temperature and precipitation. Especially at higher temperatures, habitat suitability for margay seems to decay more rapidly. These results could indicate a narrower bioclimatic niche for margays, which was in agreement with the niche breadths estimated for each cat, with a slightly higher value for the jaguarundi. These different patterns of response to climatic variation may reflect the differences found in the habitat composition of the areas estimated as moderately to highly suitable for each of the 2 cat species, with jaguarundis found in association with a higher diversity of environments. Since different climatic conditions, including different combinations of local temperature and precipitation, play an important role in the establishment of biomes (Holdridge 1947; Bond et al. 2005) , a species with a greater climatic flexibility, such as jaguarundi, is expected to find a greater diversity of environments to be highly suitable.",
+                "cite_spans": [
+                    {
+                        "start": 1388,
+                        "end": 1404,
+                        "text": "(Holdridge 1947;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 1405,
+                        "end": 1422,
+                        "text": "Bond et al. 2005)",
+                        "ref_id": "BIBREF3"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "discussion",
+                "sec_num": null
+            },
+            {
+                "text": "The region considered suitable for jaguarundi occurrence (including low, moderate, and high suitability) was substantially greater in extent (encompassing more than 20,000,000 km 2 ) than the 14,000,000 km 2 estimated as suitable for margay. Approximately one-half of this area was classified as moderately to highly suitable for margay occurrence, whereas more than 70% of the suitable area estimated for jaguarundi was identified as having moderate to high suitability. For margay, forested environments predominate (more than 70%) in these suitable areas, especially tropical and subtropical moist broadleaf forest. The area identified as highly suitable for margay occurrence was found almost exclusively in the Brazilian portion of this biome (i.e., the Atlantic Forest), as well as forested environments in southern Mexico, Belize, and Guatemala. In addition, analysis of habitat association performed with presence-only data showed a significant association of margay with forested environments, and a negative association with deserts and xeric formations, typical of the semiarid Caatinga in Brazil. These results are consistent with earlier data that suggest a strong preference of this species for forested environments (Oliveira 1994 (Oliveira , 1998a Sunquist and Sunquist 2002) . Similarly, the absence of records of margay in the Caatinga is also consistent with our niche models. If the species is present in this biome, it probably is restricted to transitional vegetation zones, gallery forests, and dense forest canyons occurring there (Oliveira 1998a; Oliveira et al. 2010 Oliveira et al. , 2015 .",
+                "cite_spans": [
+                    {
+                        "start": 1231,
+                        "end": 1245,
+                        "text": "(Oliveira 1994",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1246,
+                        "end": 1263,
+                        "text": "(Oliveira , 1998a",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1264,
+                        "end": 1291,
+                        "text": "Sunquist and Sunquist 2002)",
+                        "ref_id": "BIBREF60"
+                    },
+                    {
+                        "start": 1555,
+                        "end": 1571,
+                        "text": "(Oliveira 1998a;",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1572,
+                        "end": 1592,
+                        "text": "Oliveira et al. 2010",
+                        "ref_id": "BIBREF41"
+                    },
+                    {
+                        "start": 1593,
+                        "end": 1615,
+                        "text": "Oliveira et al. , 2015",
+                        "ref_id": "BIBREF41"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "discussion",
+                "sec_num": null
+            },
+            {
+                "text": "In contrast, areas predicted to have moderate to high suitability for jaguarundi included a more even distribution of forested and open vegetation biomes, including broader areas characterized by grasslands, savannas, and semidesert vegetation. The highest suitability estimated for jaguarundi occurred in forested environments as well as in areas of tropical and subtropical grasslands and savannas and in xeric vegetation such as the semiarid Caatinga in northeastern Brazil. The current literature describes jaguarundis as using a wide range of habitats from tropical forests to desert environments (Oliveira 1998b; Lucherini et al. 2004; Garcia-Alaniz et al. 2010; Quibrera 2011) , including a recent study also predicting high habitat suitability for jaguarundis in various biomes of the Neotropical region (Silva et al. 2016 ). Our niche model supports a similar diversity of habitats and a higher environmental flexibility for this species relative to margays.",
+                "cite_spans": [
+                    {
+                        "start": 602,
+                        "end": 618,
+                        "text": "(Oliveira 1998b;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 619,
+                        "end": 641,
+                        "text": "Lucherini et al. 2004;",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 642,
+                        "end": 668,
+                        "text": "Garcia-Alaniz et al. 2010;",
+                        "ref_id": "BIBREF13"
+                    },
+                    {
+                        "start": 669,
+                        "end": 683,
+                        "text": "Quibrera 2011)",
+                        "ref_id": "BIBREF50"
+                    },
+                    {
+                        "start": 812,
+                        "end": 830,
+                        "text": "(Silva et al. 2016",
+                        "ref_id": "BIBREF57"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Although abiotic variables are key factors in determining geographical distributions and ecological niches, several other factors are involved (Mackey and Lindenmayer 2001; Gaston 2003; Pearson and Dawson 2003) . We described the spatial element of the niche in our research, but biotic factors such as competition, distribution and use of resources, and interspecific interactions-which we did not account for-are often key to a complete understanding of a species' niche. For small Neotropical cats living sympatrically, size differences among Table 3 .-Association of biomes and species in the areas estimated by the niche models as presenting moderate to high habitat suitability for margay (Leopardus wiedii) and jaguarundi (Puma yagouaroundi). % area = percentage of the area with moderate to high habitat suitability covered by each biome; n = number of presence locations in each biome; R aj = adjusted residuals from the chi-squared test; values > 2 or <\u22122 indicate significant departure from the null hypothesis of no association for alpha = 0.05. species may be an important factor limiting the similarity of their niches (Kiltie 1984) . Although the margay and jaguarundi are considered functionally similar (Kiltie 1984) , and we found the spatial elements of their niches to overlap considerably, differences in activity patterns and diet (Mondolfi 1986; Konecny 1989; Oliveira 1994 Oliveira , 1998a Oliveira , 1998b T\u00f3foli et al. 2009; Di Bitetti et al. 2010; Oliveira et al. 2010) suggest axes on which niche differentiation may occur.",
+                "cite_spans": [
+                    {
+                        "start": 143,
+                        "end": 172,
+                        "text": "(Mackey and Lindenmayer 2001;",
+                        "ref_id": "BIBREF31"
+                    },
+                    {
+                        "start": 173,
+                        "end": 185,
+                        "text": "Gaston 2003;",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 186,
+                        "end": 210,
+                        "text": "Pearson and Dawson 2003)",
+                        "ref_id": "BIBREF43"
+                    },
+                    {
+                        "start": 1133,
+                        "end": 1146,
+                        "text": "(Kiltie 1984)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1220,
+                        "end": 1233,
+                        "text": "(Kiltie 1984)",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1353,
+                        "end": 1368,
+                        "text": "(Mondolfi 1986;",
+                        "ref_id": "BIBREF35"
+                    },
+                    {
+                        "start": 1369,
+                        "end": 1382,
+                        "text": "Konecny 1989;",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1383,
+                        "end": 1396,
+                        "text": "Oliveira 1994",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1397,
+                        "end": 1413,
+                        "text": "Oliveira , 1998a",
+                        "ref_id": "BIBREF39"
+                    },
+                    {
+                        "start": 1414,
+                        "end": 1430,
+                        "text": "Oliveira , 1998b",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1431,
+                        "end": 1450,
+                        "text": "T\u00f3foli et al. 2009;",
+                        "ref_id": "BIBREF61"
+                    },
+                    {
+                        "start": 1451,
+                        "end": 1474,
+                        "text": "Di Bitetti et al. 2010;",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 1475,
+                        "end": 1496,
+                        "text": "Oliveira et al. 2010)",
+                        "ref_id": "BIBREF41"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 546,
+                        "end": 553,
+                        "text": "Table 3",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Our results indicate that margays present a narrower niche than jaguarundis in the Neotropics, despite being broadly sympatric, with the former showing moderate to high habitat suitability in a much-reduced area compared to jaguarundis and a stronger association with forests, a specialization that may make them more vulnerable to the growing loss and fragmentation of forests. The higher predominance of the margay's high suitability in forested environments such as the Atlantic Forest is extremely important for this species' conservation due to the dire situation of this biome. Current data indicate that only 11.4% to 16% of the original extent of the Atlantic Forest remains, and much of this remaining forest is now represented by small and isolated fragments, with only 9% protected in nature reserves (Ribeiro et al. 2009) . The identification of this biome as being very important for margays, likely encompassing the areas where the species is able to achieve its highest adaptive performance, is crucial to establish adequate guidelines for its long-term conservation.",
+                "cite_spans": [
+                    {
+                        "start": 812,
+                        "end": 833,
+                        "text": "(Ribeiro et al. 2009)",
+                        "ref_id": "BIBREF55"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "discussion",
+                "sec_num": null
+            },
+            {
+                "text": "We thank B. Busnello Kubiak for reviews of earlier versions of this manuscript, and all the persons and institutions listed in the supplementary material that contributed to the data used in this work. We thank CAPES (Coordena\u00e7\u00e3o de Aperfei\u00e7oamento de Pessoal de N\u00edvel Superior) for the scholarship granted to CCE, Conselho Nacional de Desenvolvimento Cient\u00edfico e Tecnol\u00f3gico (CNPq) and Funda\u00e7\u00e3o O Botic\u00e1rio de Prote\u00e7\u00e3o \u00e0 Natureza for funding this research. We also thank 2 anonymous reviewers whose comments greatly improved a previous version of this manuscript.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "acknowledgMents",
+                "sec_num": null
+            },
+            {
+                "text": "Downloaded from https://academic.oup.com/jmammal/article/99/1/252/4736275 by guest on 07 October 2021",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "Supplementary data are available at Journal of Mammalogy online. Supplementary Data SD1.-Location records for margay (Leopardus wiedii), including all records prior to the application of distance filters. Supplementary Data SD2.-Location records for jaguarundi (Puma yagouaroundi), including all records prior to the application of distance filters. Supplementary Data SD3.-Environmental predictors used in the initial analyses, highlighting those that were selected after Pearson's correlation test: in red for both species, in green for Leopardus wiedii only, and in blue for Puma yagouaroundi only. ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "suppleMentary data",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Assessing biogeographical relationships of ecologically related species using favourability functions: a case study on British deer",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Acevedo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Ward",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Smith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Diversity and Distributions",
+                "volume": "16",
+                "issue": "",
+                "pages": "515--528",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "aCevedo, P., A. I. Ward, R. real, and G. C. sMiTh. 2010. Assessing biogeographical relationships of ecologically related species using favourability functions: a case study on British deer. Diversity and Distributions 16:515-528.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Using niche based GIS modeling to test geographic predictions of competitive exclusion and competitive release in South American pocket mice",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Anderson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Peterson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Gomez-Laverde",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Oikos",
+                "volume": "98",
+                "issue": "",
+                "pages": "3--16",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "anderson, R. P., A. T. peTerson, and M. goMez-laverde. 2002. Using niche based GIS modeling to test geographic predictions of competitive exclusion and competitive release in South American pocket mice. Oikos 98:3-16.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Biogeography and conservation of viperids from north-west Africa: an application of ecological niche-based models and GIS",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Brito",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Fahd",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Geniez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Martinez-Freiria",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Jean-Fran\u00e7ois",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Journal of Arid Environment",
+                "volume": "75",
+                "issue": "",
+                "pages": "1029--1037",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "briTo, J. C., S. Fahd, P. geniez, F. MarTinez-Freiria, J. M. pleguezuelos, and T. Jean-Fran\u00e7ois. 2011. Biogeography and conservation of viperids from north-west Africa: an applica- tion of ecological niche-based models and GIS. Journal of Arid Environment 75:1029-1037.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "The global distribution of ecosystems in a world without fire",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Bond",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "I"
+                        ],
+                        "last": "Woodward",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Midgley",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "The New Phytologist",
+                "volume": "165",
+                "issue": "",
+                "pages": "525--537",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "bond, W. J., F. I. WoodWard, and G. F. Midgley. 2005. The global distribution of ecosystems in a world without fire. The New Phytologist 165:525-537.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Evaluating resource selection functions",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Boyce",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Vernier",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Nielsen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "K A"
+                        ],
+                        "last": "Schmiegelow",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Ecological Modelling",
+                "volume": "157",
+                "issue": "",
+                "pages": "281--300",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "boyCe, M. S., P. R. vernier, S. E. nielsen, and F. K. A. sChMiegeloW. 2002. Evaluating resource selection functions. Ecological Modelling 157:281-300.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Herpailurus yagouaroundi",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Caso",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Oliveira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "The IUCN Red List of Threatened Species 2015: e.T9948A50653167",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.2305/IUCN.UK.2015-2.RLTS.T9948A50653167.en"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "Caso, A., T. oliveira, and S. V. CarvaJal. 2015. Herpailurus yag- ouaroundi. The IUCN Red List of Threatened Species 2015: e.T9948A50653167. http://dx.doi.org/10.2305/IUCN.UK.2015-2. RLTS.T9948A50653167.en. Accessed 10 May 2016.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Refined assessment of the geographic distribution of Geoffroy's cat (Leopardus geoffroyi) (Mammalia: Felidae) in the Neotropics",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "A E"
+                        ],
+                        "last": "Cuyckens",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Journal of Zoology",
+                "volume": "115",
+                "issue": "",
+                "pages": "14--18",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "CuyCkens, G. A. E., eT al. 2016. Refined assessment of the geographic distribution of Geoffroy's cat (Leopardus geoffroyi) (Mammalia: Felidae) in the Neotropics. Journal of Zoology 115:14-18.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Niche partitioning and species coexistence in a Neotropical felid assemblage",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Di Bitetti",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "De Angelo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Di",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "Paviolo"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Acta Oecologica",
+                "volume": "36",
+                "issue": "",
+                "pages": "403--412",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "di biTeTTi, M. S., C. D. de angelo, Y. E. di blanCoM, and A. paviolo. 2010. Niche partitioning and species coexistence in a Neotropical felid assemblage. Acta Oecologica 36:403-412.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "An improved approach for predicting the distribution of rare and endangered species from occurrence and pseudo-absence data",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Engler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Rechsteiner",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Journal of Applied Ecology",
+                "volume": "41",
+                "issue": "",
+                "pages": "263--274",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "engler, R., A. guisan, and L. reChsTeiner. 2004. An improved approach for predicting the distribution of rare and endangered species from occurrence and pseudo-absence data. Journal of Applied Ecology 41:263-274.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Species distribution modeling for conservation purposes",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M P M B"
+                        ],
+                        "last": "Ferraz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "F B"
+                        ],
+                        "last": "Ferraz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Paula",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "Breitenmoser"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Natureza & Conserva\u00e7\u00e3o",
+                "volume": "10",
+                "issue": "",
+                "pages": "214--220",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ferraz, K. M. P. M. B., S. F. B. Ferraz, R. C. paula, B. beisiegel, and C. breiTenMoser. 2012. Species distribution modeling for con- servation purposes. Natureza & Conserva\u00e7\u00e3o 10:214-220.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Mapping species distributions with MAXENT using a geographically biased sample of presence data: a performance assessment of methods for correcting sampling bias",
+                "authors": [
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Fourcade",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Engler",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Secondi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2014,
+                "venue": "PLoS One",
+                "volume": "9",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "FourCade, Y., J. O. engler, D. r\u00f6dder, and J. seCondi. 2014. Mapping species distributions with MAXENT using a geographi- cally biased sample of presence data: a performance assessment of methods for correcting sampling bias. PLoS One 9:e97122.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Ecological niche modeling of sympatric krill predators around Marguerite Bay",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Friedlaender",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Johnston",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Fraser",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Burns",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Halpin",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Costa",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Western Antarctic Peninsula. Deep-Sea Research II: Tropical Studies in Oceanography",
+                "volume": "58",
+                "issue": "",
+                "pages": "1729--1740",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Friedlaender, A. S., D. W. JohnsTon, W. R. Fraser, J. JenniFer burns, P. N. halpin, P. daniel, and D. P. CosTa. 2011. Ecological niche modeling of sympatric krill predators around Marguerite Bay, Western Antarctic Peninsula. Deep-Sea Research II: Tropical Studies in Oceanography 58:1729-1740.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Hairsnares: a non-invasive method for monitoring felid populations in the Selva Lacandona",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Garcia-Alaniz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Naranjo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Mallory",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Mexico. Tropical Conservation Science",
+                "volume": "3",
+                "issue": "",
+                "pages": "403--411",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "garCia-alaniz, N., E. J. naranJo, and F. F. Mallory. 2010. Hair- snares: a non-invasive method for monitoring felid populations in the Selva Lacandona, Mexico. Tropical Conservation Science 3:403-411.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "The structure and dynamics of geographic ranges",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Gaston",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "gasTon, K. 2003. The structure and dynamics of geographic ranges. Oxford University Press, Oxford, New York.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "The influence of spatial errors in species occurrence data used in distribution models",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Graham",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Elith",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hijmans",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Guisan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Townsend Peterson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Journal of Applied Ecology",
+                "volume": "45",
+                "issue": "",
+                "pages": "239--247",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "grahaM, C. H., J. eliTh, R. J. hiJMans, A. guisan, A. ToWnsend peTerson, and B. A. loiselle. 2008. The influence of spatial errors in species occurrence data used in distribution models. Journal of Applied Ecology 45:239-247.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Primer registro de yaguarund\u00ed (Puma yagouaroundi) (Mammalia: Carnivora: Felidae) en Uruguay, con comentarios sobre monitoreo participativo",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Grattarola",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Bolet\u00edn de la Sociedad Zool\u00f3gica del Uruguay",
+                "volume": "25",
+                "issue": "",
+                "pages": "85--91",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "graTTarola, F., eT al. 2016. Primer registro de yaguarund\u00ed (Puma yagouaroundi) (Mammalia: Carnivora: Felidae) en Uruguay, con comentarios sobre monitoreo participativo. Bolet\u00edn de la Sociedad Zool\u00f3gica del Uruguay 25:85-91.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Field tests of theories concerning distributional control",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Grinnell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1917,
+                "venue": "The American Naturalist",
+                "volume": "51",
+                "issue": "",
+                "pages": "115--128",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "grinnell, J. 1917. Field tests of theories concerning distributional control. The American Naturalist 51:115-128.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Predicting species distribution: offering more than simple habitat models",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Guisan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Thuiller",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Ecology Letters",
+                "volume": "8",
+                "issue": "",
+                "pages": "993--1009",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "guisan, A., and W. Thuiller. 2005. Predicting species distribu- tion: offering more than simple habitat models. Ecology Letters 8:993-1009.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Predictive habitat distribution models in ecology",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Guisan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Zimmermann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Ecological Modelling",
+                "volume": "135",
+                "issue": "",
+                "pages": "147--186",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "guisan, A., and N. E. ziMMerMann. 2000. Predictive habitat distribu- tion models in ecology. Ecological Modelling 135:147-186.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Package 'dismo' -species distribution modeling",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Hijmans",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Phillips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Elith",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "hiJMans, R. J., S. phillips, J. leaThWiCk, and J. eliTh. 2017. Package 'dismo' -species distribution modeling. https://cran.r-project.org/ web/packages/dismo. Accessed 2 June 2017.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Ecological niche differentiation and taxonomic distinction between Eremias strauchi strauchi and Eremias strauchi kopetdaghica (Squamata: Lacertidae) on the Iranian Plateau based on ecological niche modeling",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Holdridge",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Hosseinian Yousefkhan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Hu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Z",
+                        "middle": [],
+                        "last": "Jiang",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1947,
+                "venue": "Italian Journal of Zoology",
+                "volume": "105",
+                "issue": "",
+                "pages": "553--565",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "holdridge, L. R. 1947. Determination of world plant formations from simple climatic data. Science 105:367-368. hosseinian youseFkhan, S. S., E. rasTegar-pouyani, and M. aliabadian. 2016. Ecological niche differentiation and taxonomic distinction between Eremias strauchi strauchi and Eremias strauchi kopetdaghica (Squamata: Lacertidae) on the Iranian Plateau based on ecological niche modeling. Italian Journal of Zoology 83:408-416. hu, J., and Z. Jiang. 2012. Detecting the potential sympatric range and niche divergence between Asian endemic ungulates of Procapra. Die Naturwissenschaften 99:553-565.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "Concluding remarks",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hutchinson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1957,
+                "venue": "Cold Spring Harbour Symposium on Quantitative Biology",
+                "volume": "22",
+                "issue": "",
+                "pages": "415--427",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "huTChinson, G. E. 1957. Concluding remarks. Cold Spring Harbour Symposium on Quantitative Biology 22:415-427.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "The late miocene radiation of modern felidae: a genetic assessment",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Johnson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Science",
+                "volume": "311",
+                "issue": "",
+                "pages": "73--77",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Johnson, W. E., eT al. 2006. The late miocene radiation of modern felidae: a genetic assessment. Science 311:73-77.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Size ratios among sympatric Neotropical cats",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kiltie",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "Oecologia",
+                "volume": "61",
+                "issue": "",
+                "pages": "411--416",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "kilTie, R. A. 1984. Size ratios among sympatric Neotropical cats. Oecologia 61:411-416.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Interspecific size regularities in tropical felid assemblages",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kiltie",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Oecologia",
+                "volume": "76",
+                "issue": "",
+                "pages": "97--105",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "kilTie, R. A. 1988. Interspecific size regularities in tropical felid assemblages. Oecologia 76:97-105.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Movement Patterns and food habits of four sympatric carnivore species in Belize, Central America",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Konecny",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kramer-Schadt",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Advances in Neotropical mammalogy",
+                "volume": "19",
+                "issue": "",
+                "pages": "1366--1379",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "koneCny, M. J. 1989. Movement Patterns and food habits of four sym- patric carnivore species in Belize, Central America. Pp. 243-264 in Advances in Neotropical mammalogy (K. Redford and J. Eisenberg, eds.). Sandhill Crane Press, Gainesville, Florida. kraMer-sChadT S., eT al. 2013. The importance of correcting for sampling bias in MaxEnt species distribution models. Diversity and Distributions 19:1366-1379.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "Maxent modeling for predicting suitable habitat for 577 threatened and endangered tree Canacomyrica monticola in New Caledonia",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Kumar",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Stohlgren",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Journal of Ecology and Natural Environment",
+                "volume": "1",
+                "issue": "",
+                "pages": "94--98",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "kuMar, S., and T. J. sTohlgren. 2009. Maxent modeling for pre- dicting suitable habitat for 577 threatened and endangered tree Canacomyrica monticola in New Caledonia. Journal of Ecology and Natural Environment 1:94-98.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "Evolution in changing environments: some theoretical explorations",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Levins",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1968,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "levins, R. 1968. Evolution in changing environments: some theo- retical explorations (no. 2). Princeton University Press, Princeton, New Jersey.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Ecological niche modelling of three pipistrelle bat species in semiarid Mediterranean landscapes",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Lis\u00f3n",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Calvo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Acta Oecologica",
+                "volume": "27",
+                "issue": "",
+                "pages": "68--73",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "lis\u00f3n, F., and J. F. Calvo. 2013. Ecological niche modelling of three pipistrelle bat species in semiarid Mediterranean landscapes. Acta Oecologica 27:68-73.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "A preliminary revision of knowledge status of felids in Argentina",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Lucherini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2004,
+                "venue": "Mastozoologia Neotropical",
+                "volume": "11",
+                "issue": "",
+                "pages": "7--17",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "luCherini, M., L. soler, and E. L. vidal. 2004. A preliminary revision of knowledge status of felids in Argentina. Mastozoologia Neotropical 11:7-17.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "Towards a hierarchical framework for modelling the spatial distribution of animals",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Mackey",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "B"
+                        ],
+                        "last": "Lindenmayer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Journal of Biogeography",
+                "volume": "28",
+                "issue": "",
+                "pages": "1147--1166",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MaCkey, B., and D. B. lindenMayer. 2001. Towards a hierarchi- cal framework for modelling the spatial distribution of animals. Journal of Biogeography 28:1147-1166.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "Bioclimatic constraints to Andean cat distribution: a modelling application for rare species",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Marino",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Diversity and Distributions",
+                "volume": "17",
+                "issue": "",
+                "pages": "311--322",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Marino, J., eT al. 2011. Bioclimatic constraints to Andean cat dis- tribution: a modelling application for rare species. Diversity and Distributions 17:311-322.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Potential distribution of margay (Leopardus wiedii, Schinz 1821) in Northeastern Mexico",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Mart\u00ednez-Calderas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Hern\u00e1ndez-Saintmart\u00edn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Rosasrosas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Palacio-N\u00fa\u00f1ez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Olivera-M\u00e9ndez",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Therya",
+                "volume": "7",
+                "issue": "",
+                "pages": "241--255",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MarT\u00ednez-Calderas, J. M., A. D. hern\u00e1ndez-sainTMarT\u00edn, O. C. rosas- rosas, J. palaCio-n\u00fa\u00f1ez, J. A. villordo-galv\u00e1n, and A. olivera- M\u00e9ndez. 2016. Potential distribution of margay (Leopardus wiedii, Schinz 1821) in Northeastern Mexico. Therya 7:241-255.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Potential distribution of the ocelot (Leopardus pardalis) in Northeastern Mexico",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Mart\u00ednez-Calderas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Rosas-Rosas",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Palacion\u00fa\u00f1ez",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Mart\u00ednez-Montoya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Tarango-Ar\u00e1mbula",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Therya",
+                "volume": "6",
+                "issue": "",
+                "pages": "545--558",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MarT\u00ednez-Calderas, J. M., O. C. rosas-rosas, J. palaCio- n\u00fa\u00f1ez, J. F. MarT\u00ednez-MonToya, G. olMos-oropeza, and L. A. Tarango-ar\u00e1Mbula. 2015. Potential distribution of the ocelot (Leopardus pardalis) in Northeastern Mexico. Therya 6:545-558.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "Notes on the biology and status of the small wild cats in Venezuela",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Mondolfi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "125--146",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MondolFi, E. 1986. Notes on the biology and status of the small wild cats in Venezuela. Pp. 125-146 in Cats of the world: biology, con- servation and management (S. D. Miller and D. D. Everet, eds.).",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "National Wildlife Federation's",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Washington",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Washington, D.C.: National Wildlife Federation's.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Notes on continuous stochastic phenomena",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Moran",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1950,
+                "venue": "Biometrika",
+                "volume": "37",
+                "issue": "",
+                "pages": "17--23",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Moran, P. A. 1950. Notes on continuous stochastic phenomena. Biometrika 37:17-23.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Ecology driving genetic variation: a comparative phylogeography of jungle cat (Felis chaus) and leopard cat (Prionailurus bengalensis) in India",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Mukherjee",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "A. Krishnan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Tamma",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Home",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Navya",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Joseph",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "U",
+                        "middle": [
+                            "Ramakrishnan"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "PLoS One",
+                "volume": "5",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MukherJee, S., A. krishnan, K. TaMMa, C. hoMe, R. navya, S. Joseph, A. das, and U. raMakrishnan. 2010. Ecology driving genetic variation: a comparative phylogeography of jungle cat (Felis chaus) and leopard cat (Prionailurus bengalensis) in India. PLoS One 5:13724.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Neotropical cats: ecology and conservation",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "G ;"
+                        ],
+                        "last": "Oliveira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S\u00e3o",
+                        "middle": [],
+                        "last": "Edufma",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Luiz",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Brazil",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Oliveira",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Herpailurus yagouaroundi. Mammalian Species",
+                "volume": "578",
+                "issue": "",
+                "pages": "1--6",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "oliveira, T. G. 1994. Neotropical cats: ecology and conservation. EDUFMA, S\u00e3o Luiz, Brazil. oliveira, T. G. 1998a. Herpailurus yagouaroundi. Mammalian Species 578:1-6.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Ocelot ecology and its effect on the small-felid guild in the lowland Neotropics. Pp. 559-580 in Biology and conservation of the wild felids",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "G ; T G"
+                        ],
+                        "last": "Oliveira",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Schipper",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Bianchi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "V"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {
+                    "DOI": [
+                        "10.2305/IUCN.UK.2015-4.RLTS.T11511A50654216.en\u00ef\u00bb\u00bf"
+                    ]
+                },
+                "num": null,
+                "urls": [],
+                "raw_text": "oliveira, T. G., eT al. 2010. Ocelot ecology and its effect on the small-felid guild in the lowland Neotropics. Pp. 559-580 in Biology and conservation of the wild felids (D. W. Macdonald and A. J. Loveridge, eds.). Oxford University Press, Oxford, New York. oliveira, T. G., A. paviolo, J. sChipper, R. bianChi, E. payan, and S. V. CarvaJal. 2015. Leopardus wiedii. The IUCN Red List of Threatened Species 2015: e.T11511A50654216. http://dx.doi. org/10.2305/IUCN.UK.2015-4.RLTS.T11511A50654216.en. Accessed 20 June 2016.",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Terrestrial ecoregions of the world: a new map of life on Earth",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Olson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Bioscience",
+                "volume": "51",
+                "issue": "",
+                "pages": "933--938",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "olson, D. M., eT al. 2001. Terrestrial ecoregions of the world: a new map of life on Earth. Bioscience 51:933-938.",
+                "links": null
+            },
+            "BIBREF43": {
+                "ref_id": "b43",
+                "title": "Predicting the impacts of climate change on the distribution of species: are bioclimate envelope models useful?",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Pearson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Dawson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2003,
+                "venue": "Global Ecology and Biogeography",
+                "volume": "12",
+                "issue": "",
+                "pages": "361--371",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "pearson, R. G., and T. P. daWson. 2003. Predicting the impacts of cli- mate change on the distribution of species: are bioclimate envelope models useful? Global Ecology and Biogeography 12:361-371.",
+                "links": null
+            },
+            "BIBREF44": {
+                "ref_id": "b44",
+                "title": "Predicting species distributions from small numbers of occurrence records: a test case using cryptic geckos in Madagascar",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Pearson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Raxworthy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Nakamura",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Peterson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Journal of Biogeography",
+                "volume": "34",
+                "issue": "",
+                "pages": "102--117",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "pearson, R. G., C. J. raxWorThy, M. nakaMura, and A. T. peTerson. 2007. Predicting species distributions from small numbers of occurrence records: a test case using cryptic geckos in Madagascar. Journal of Biogeography 34:102-117.",
+                "links": null
+            },
+            "BIBREF45": {
+                "ref_id": "b45",
+                "title": "Maximum entropy modeling of species geographic distributions",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Philips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "Ecological Modelling",
+                "volume": "190",
+                "issue": "",
+                "pages": "231--259",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "philips, S. J., R. P. anderson, and R. E. sChapired. 2006. Maximum entropy modeling of species geographic distributions. Ecological Modelling 190:231-259.",
+                "links": null
+            },
+            "BIBREF46": {
+                "ref_id": "b46",
+                "title": "Modeling of species distributions with Maxent: new extensions and a comprehensive evaluation",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Phillips",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Dudik",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Ecography",
+                "volume": "31",
+                "issue": "",
+                "pages": "161--175",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "phillips, S. J., and M. dudik. 2008. Modeling of species distributions with Maxent: new extensions and a comprehensive evaluation. Ecography 31:161-175.",
+                "links": null
+            },
+            "BIBREF47": {
+                "ref_id": "b47",
+                "title": "Sample selection bias and presence-only distribution models: implications for background and pseudoabsence data",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Phillips",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Ecological Applications",
+                "volume": "19",
+                "issue": "",
+                "pages": "181--197",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "phillips, S. J., eT al. 2009. Sample selection bias and presence-only distribution models: implications for background and pseudo- absence data. Ecological Applications 19:181-197.",
+                "links": null
+            },
+            "BIBREF48": {
+                "ref_id": "b48",
+                "title": "Physiology on a landscape scale: plantanimal interactions",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Porter",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Sabo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Tracy",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "O",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Reichman",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "Ramankutty"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "Integrative and Comparative Biology",
+                "volume": "42",
+                "issue": "",
+                "pages": "431--453",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "porTer, W. P., J. L. sabo, C. R. TraCy, O. J. reiChMan, and N. raMankuTTy. 2002. Physiology on a landscape scale: plant- animal interactions. Integrative and Comparative Biology 42:431-453.",
+                "links": null
+            },
+            "BIBREF49": {
+                "ref_id": "b49",
+                "title": "Ecological niche modeling of the sympatric giant and red pandas on a mountain-range scale",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "Qi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Y",
+                        "middle": [],
+                        "last": "Hu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "X",
+                        "middle": [],
+                        "last": "Gu",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Wei",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Biodiversity and Conservation",
+                "volume": "18",
+                "issue": "",
+                "pages": "2127--2141",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Qi, D., Y. hu, X. gu, M. li, and F. Wei. 2009. Ecological niche mod- eling of the sympatric giant and red pandas on a mountain-range scale. Biodiversity and Conservation 18:2127-2141.",
+                "links": null
+            },
+            "BIBREF50": {
+                "ref_id": "b50",
+                "title": "Distribucion Geogr\u00e1fica y Ecol\u00f3gica de Jaguarundi (Puma yagouaroundi) en el Estado de",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "P C"
+                        ],
+                        "last": "Quibrera",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Quibrera, W. P. C. 2011. Distribucion Geogr\u00e1fica y Ecol\u00f3gica de Jaguarundi (Puma yagouaroundi) en el Estado de San Luis Potosi.",
+                "links": null
+            },
+            "BIBREF51": {
+                "ref_id": "b51",
+                "title": "Institucion de Ensenanza e Investigacion en Ciencias Agricolas",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Thesis",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "M.C. thesis, Institucion de Ensenanza e Investigacion en Ciencias Agricolas, Montecillo, Texcoco, Mexico. JOURNAL OF MAMMALOGY",
+                "links": null
+            },
+            "BIBREF52": {
+                "ref_id": "b52",
+                "title": "R: a language and environment for statistical computing",
+                "authors": [
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "R Core Team",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "R Core TeaM. 2015. R: a language and environment for statistical computing [Internet].",
+                "links": null
+            },
+            "BIBREF53": {
+                "ref_id": "b53",
+                "title": "R Foundation for Statistical Computing",
+                "authors": [],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Vienna, Austria: R Foundation for Statistical Computing. http://www.R-project.org/.",
+                "links": null
+            },
+            "BIBREF54": {
+                "ref_id": "b54",
+                "title": "Botanical richness and endemicity patterns of Borneo derived from species distribution models",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Raes",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Roos",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Slik",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Steege",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Ecography",
+                "volume": "32",
+                "issue": "",
+                "pages": "180--192",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "raes, N., M. C. roos, J. W. slik, E. loon, and H. sTeege. 2009. Botanical richness and endemicity patterns of Borneo derived from species distribution models. Ecography 32:180-192.",
+                "links": null
+            },
+            "BIBREF55": {
+                "ref_id": "b55",
+                "title": "The Brazilian Atlantic Forest: how much is left, and how is the remaining forest distributed? Implications for conservation",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Ribeiro",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Metzger",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Martensen",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Hirota",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Biological Conservation",
+                "volume": "142",
+                "issue": "",
+                "pages": "1141--1153",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "ribeiro, M. C., J. P. MeTzger, A. C. MarTensen, F. J. ponzoni, and M. M. hiroTa. 2009. The Brazilian Atlantic Forest: how much is left, and how is the remaining forest distributed? Implications for con- servation. Biological Conservation 142:1141-1153.",
+                "links": null
+            },
+            "BIBREF56": {
+                "ref_id": "b56",
+                "title": "The Anolis lizards of Bimini: resource partitioning in a complex fauna",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "W"
+                        ],
+                        "last": "Schoener",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1968,
+                "venue": "Ecology",
+                "volume": "49",
+                "issue": "",
+                "pages": "704--726",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "sChoener, T. W. 1968. The Anolis lizards of Bimini: resource parti- tioning in a complex fauna. Ecology 49:704-726.",
+                "links": null
+            },
+            "BIBREF57": {
+                "ref_id": "b57",
+                "title": "Biogeography of polymorphic phenotypes: Mapping and ecological modelling of coat colour variants in an elusive Neotropical cat, the jaguarundi (Puma yagouaroundi)",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Silva",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2016,
+                "venue": "Journal of Zoology",
+                "volume": "299",
+                "issue": "",
+                "pages": "295--303",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "silva, L. G., eT al. 2016. Biogeography of polymorphic phenotypes: Mapping and ecological modelling of coat colour variants in an elusive Neotropical cat, the jaguarundi (Puma yagouaroundi). Journal of Zoology 299:295-303.",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Mapping black panthers: macroecological modeling of melanism in leopards (Panthera pardus)",
+                "authors": [
+                    {
+                        "first": "L",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Silva",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2017,
+                "venue": "PLoS One",
+                "volume": "12",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "silva, L. G., eT al. 2017. Mapping black panthers: macroecological modeling of melanism in leopards (Panthera pardus). PLoS One 12:e0170378.",
+                "links": null
+            },
+            "BIBREF59": {
+                "ref_id": "b59",
+                "title": "Interpretation of models of fundamental ecological niches and species distributional areas",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Sober\u00f3n",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Peterson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "Biodiversity Informatics",
+                "volume": "2",
+                "issue": "",
+                "pages": "1--10",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "sober\u00f3n, J., and A. T. peTerson. 2005. Interpretation of models of fundamental ecological niches and species distributional areas. Biodiversity Informatics 2: 1-10.",
+                "links": null
+            },
+            "BIBREF60": {
+                "ref_id": "b60",
+                "title": "Wild cats of the world",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Sunquist",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Sunquist",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2002,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "sunQuisT, M., and F. sunQuisT. 2002. Wild cats of the world. University of Chicago Press, Chicago, Illinois.",
+                "links": null
+            },
+            "BIBREF61": {
+                "ref_id": "b61",
+                "title": "Jaguarundi (Puma yagouaroundi) (Geoffroy, 1803) (Carnivora, Felidae) food habits in a mosaic of Atlantic Rainforest and eucalypt plantations of southeastern brazil",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "T\u00f3foli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [
+                            "Z"
+                        ],
+                        "last": "Setz",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "Brazilian Journal of Biology",
+                "volume": "69",
+                "issue": "",
+                "pages": "871--877",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "T\u00f3Foli, C. F., F. rohe, and E. Z. seTz. 2009. Jaguarundi (Puma yagouaroundi) (Geoffroy, 1803) (Carnivora, Felidae) food habits in a mosaic of Atlantic Rainforest and eucalypt plan- tations of southeastern brazil. Brazilian Journal of Biology 69:871-877.",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "Molecular data reveal complex hybridization and a cryptic species of Neotropical wild cat",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Trigo",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "Current Biology",
+                "volume": "23",
+                "issue": "",
+                "pages": "2528--2533",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Trigo, T. C., eT al. 2013. Molecular data reveal complex hybridiza- tion and a cryptic species of Neotropical wild cat. Current Biology 23:2528-2533.",
+                "links": null
+            },
+            "BIBREF63": {
+                "ref_id": "b63",
+                "title": "Neotropical wild cats susceptibility to climate change",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Vale",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Cerqueira",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2015,
+                "venue": "Oecologia Australis",
+                "volume": "19",
+                "issue": "",
+                "pages": "63--88",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "vale, M. M., M. L. lorini, and R. CerQueira. 2015. Neotropical wild cats susceptibility to climate change. Oecologia Australis 19:63-88.",
+                "links": null
+            },
+            "BIBREF64": {
+                "ref_id": "b64",
+                "title": "Environmental niche equivalency versus conservatism: quantitative approaches to niche evolution",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Warren",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Turelli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2008,
+                "venue": "Evolution",
+                "volume": "62",
+                "issue": "",
+                "pages": "2868--2883",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Warren, D. L., R. E. glor, and M. Turelli. 2008. Environmental niche equivalency versus conservatism: quantitative approaches to niche evolution. Evolution 62:2868-2883.",
+                "links": null
+            },
+            "BIBREF65": {
+                "ref_id": "b65",
+                "title": "ENMTools: a toolbox for comparative studies of environmental niche models",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Warren",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Turelli",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2010,
+                "venue": "Ecography",
+                "volume": "33",
+                "issue": "",
+                "pages": "607--611",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Warren, D. L., R. E. glor, and M. Turelli. 2010. ENMTools: a toolbox for comparative studies of environmental niche models. Ecography 33:607-611.",
+                "links": null
+            },
+            "BIBREF66": {
+                "ref_id": "b66",
+                "title": "Ecological niche modeling in maxent: the importance of model complexity and the performance of model selection criteria",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Warren",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Seifert",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "Ecological Applications",
+                "volume": "21",
+                "issue": "",
+                "pages": "335--342",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Warren, D. L., and S. N. seiFerT. 2011. Ecological niche model- ing in maxent: the importance of model complexity and the per- formance of model selection criteria. Ecological Applications 21: 335-342.",
+                "links": null
+            },
+            "BIBREF67": {
+                "ref_id": "b67",
+                "title": "Order Carnivora. Pp. 532-628 in Mammal species of the world: a taxonomic and geographic reference",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Wozencraft",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "WozenCraFT, W. C. 2005. Order Carnivora. Pp. 532-628 in Mammal species of the world: a taxonomic and geographic reference (D. E. Wilson and D. M. Reeder, eds.). 3rd ed. The Johns Hopkins University Press, Baltimore, Maryland.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "uris": null,
+                "text": "-Suitability maps estimated with Maxent for (a) margay (Leopardus wiedii) and (b) jaguarundi (Puma yagouaroundi) based on analyses of the noncorrelated environmental predictors selected for each species. Circles represent the detection locations included in the final database, after filtering to reduce sampling bias (see \"Materials and Methods\").",
+                "type_str": "figure",
+                "num": null
+            },
+            "FIGREF1": {
+                "uris": null,
+                "text": "-Performance of the models using a priori classes of equal breadth (bins) of relative habitat suitability (RHS) for margay (Leopardus wiedii; black) and jaguarundi (Puma yagouaroundi; gray). The top panel (a) represents the relationship between values of areaadjusted frequency (AAF) and RHS, tested using Spearman rank correlation tests (r s ). The gray vertical arrow indicates the 1st bin with an AAF value higher than 1 (= moderate habitat suitability), and the black arrow indicates the 1st bin with an AAF value higher than 5 (= high habitat suitability). The bottom panel (b) depicts the number of presence locations as distributed among the classes of RHS scores.",
+                "type_str": "figure",
+                "num": null
+            },
+            "FIGREF2": {
+                "uris": null,
+                "text": "-Distribution of the 4 classes of relative habitat suitability (RHS) scores defined for (a) margay (Leopardus wiedii) and (b) jaguarundi (Puma yagouaroundi)",
+                "type_str": "figure",
+                "num": null
+            },
+            "TABREF0": {
+                "content": "<table><tr><td>Variables</td><td colspan=\"2\">Percent contribution of</td></tr><tr><td/><td colspan=\"2\">the variable</td></tr><tr><td/><td>Margay</td><td>Jaguarundi</td></tr><tr><td>Annual mean temperature-Bio01</td><td/><td>12.7</td></tr><tr><td>Isothermality-Bio03</td><td/><td>21.2</td></tr><tr><td>Temperature seasonality-Bio04</td><td>38.4</td><td/></tr><tr><td>Min temperature of coldest month-Bio06</td><td>32.2</td><td/></tr><tr><td>Mean temperature of coldest quarter-Bio11</td><td/><td>44.6</td></tr><tr><td>Annual precipitation-Bio12</td><td>9.8</td><td/></tr><tr><td>AUC TRAIN</td><td>0.964</td><td>0.945</td></tr><tr><td>AUC TEST</td><td>0.932</td><td>0.897</td></tr></table>",
+                "text": "-Variables presenting the largest contribution to the ecological niche models estimated for margay (Leopardus wiedii) and jaguarundi (Puma yagouaroundi). Only the 3 variables with the largest contribution for each species' model by the relative contribution and jackknife tests are shown. Mean AUC (area under the curve) values for training (AUC TRAIN ) and test (AUC TEST ) data for each species' model are also shown.",
+                "type_str": "table",
+                "num": null
+            }
+        }
+    }
+}

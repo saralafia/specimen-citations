@@ -1,0 +1,2861 @@
+{
+    "paper_id": "Zelditchetal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:38:53.982813Z"
+    },
+    "title": "HOMOLOGY, CHARACTERS, AND MORPHOMETRIC DATA",
+    "authors": [
+        {
+            "first": "Miriam",
+            "middle": [
+                "Leah"
+            ],
+            "last": "Zelditch",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Donald",
+            "middle": [
+                "L"
+            ],
+            "last": "Swiderski",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "William",
+            "middle": [
+                "L"
+            ],
+            "last": "Fink",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Arbor",
+            "middle": [],
+            "last": "Michigan",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "L",
+            "middle": [],
+            "last": "William",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "",
+            "middle": [],
+            "last": "Fink",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        }
+    ],
+    "year": "",
+    "abstract": "",
+    "pdf_parse": {
+        "paper_id": "Zelditchetal",
+        "_pdf_hash": "",
+        "abstract": [],
+        "body_text": [
+            {
+                "text": "The use of quantitative shape data in phylogenetic studies has been challenged on several grounds, the most important being that hypotheses of homology cannot apply to them. Two premises underlie that argument: (1) quantitative data comprise a single homogeneous class, and (2) qualitative and quantitative data are fundamentally different. The first premise is problematic because some morphometric variables are constrained to compare homologous features of organisms, whereas others are not. Those that are so constrained, including traditional measurement data, shape coordinates and partial warps, yield features that can be assessed for their similarities and differences, and the resulting hypotheses of homology can be tested for their congruence with the cladogram. Those variables that are not so constrained, including most outline-based variables as well as multivariate constructs such as principal components and canonical variates, may be useful tools discriminating and sorting taxa by overall similarities in shape, but not for discovering characters. The second premise is also problematic because the same logic and methods apply to both qualitative and quantitative data alike. Thus, if care is taken to ensure that morphometric comparisons are framed in terms of homology, there is no barrier to using quantitative variables in phylogenetic studies, especially those produced by geometric morphometrics. Not only are they tools for describing shape differences, they are also tools for understanding the evolutionary history of shape.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "Geometric morphometric analyses hold great promise for studies of the evolution of shape. This holds especially true for complex organisms, such as trilobites, whose shapes cannot be described by a few simple ratios. Use of these tools is also attractive for the study of phylogeny, allowing shape features to be described in a precise, quantitative language. However, phylogenetic analyses of morphometric data are highly controversial, complicating any attempt to place comparative studies of shape in an explicitly phylogenetic framework. Further, such obstacles can preclude testing a variety of biological hypotheses that require tracing the evolution of form, including hypotheses about heterochrony or the evolutionary relationship between form and function. One of the major rationales for excluding morphometric from phylogenetic studies has been the claim that hypotheses of homology cannot apply to them (Bookstein, 1994; Cranston and Humphries, 1988; Pimentel and Riggins, 1987) . This claim has been rejected by ourselves (Fink and Zelditch, 1995; Swiderski et aI., 1998; Zelditch et aI., 1995) , for at least some kinds of morphometric data, as well as by other authors (e.g., Rae, 1998) . Considering the central role that homology plays in comparative biology, these arguments demand careful attention.",
+                "cite_spans": [
+                    {
+                        "start": 915,
+                        "end": 932,
+                        "text": "(Bookstein, 1994;",
+                        "ref_id": "BIBREF6"
+                    },
+                    {
+                        "start": 933,
+                        "end": 962,
+                        "text": "Cranston and Humphries, 1988;",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 963,
+                        "end": 990,
+                        "text": "Pimentel and Riggins, 1987)",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 1035,
+                        "end": 1060,
+                        "text": "(Fink and Zelditch, 1995;",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1061,
+                        "end": 1084,
+                        "text": "Swiderski et aI., 1998;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1085,
+                        "end": 1107,
+                        "text": "Zelditch et aI., 1995)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1191,
+                        "end": 1201,
+                        "text": "Rae, 1998)",
+                        "ref_id": "BIBREF30"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "Most of arguments conflict on several points but share an important and problematic assumption: morphometric data comprise a single, homogeneous class. A second assumption is that qualitative and quantitative data are categorically distinct. Taken together, these two premises organize arguments about morphometric data, which are often cast in terms of quantitative versus qualitative data. This organization may seem intuitively reasonable if only because the distinction between qualitative and quantitative seems so obvious and familiar. Yet, the distinction between qualitative and quantitative may be trivial in the context of systematics. And in that same context, the perception of morphometric data as a homogeneous class may be simplistic.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "The distinction between qualitative and quantitative is trivial if the reasoning by which we propose and test hypotheses of homology applies equally well to both. And the perceived homogeneity of morphometric data would be simplistic if morphometric variables differ from each other in properties crucial to systematic studies. To explore these possibilities, we first articulate how hypotheses of homology are formulated and tested for qualitative data, then tum to quantitative data, asking if that same reasoning applies them. We begin with simple cases, gradually complicating them by considering variation, ontogenetic change and morphological complexity. Initially, we focus on a particularly simple morphometric approach, that of shape coordinates (Bookstein, 1986 (Bookstein, , 1991 . We then review several kinds of morphometric variables, distinguishing between those that use homology as the primary basis of comparison and those that replace homology by another criterion of comparability. We conclude that those using homology as the basis of comparison are suited to phylogenetic studies, and fulfil the promise of rigorous and sensitive tools for the study of shape.",
+                "cite_spans": [
+                    {
+                        "start": 755,
+                        "end": 771,
+                        "text": "(Bookstein, 1986",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 772,
+                        "end": 790,
+                        "text": "(Bookstein, , 1991",
+                        "ref_id": "BIBREF5"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": null
+            },
+            {
+                "text": "By \"homology\" we mean similarity due to common ancestry, indicated by synapomorphies congruent with the cladogram (i.e., \"taxic\" homology sensu Patterson, 1982) . Characters that are homologous in this sense diagnose monophyletic groups. A different concept of homology often appears in the morphometrics literature, largely because of an important technical problem confronting morphometric studies. The problem is that the concept traditionally applies to parts of an organism, but measurements are typically made between individual anatomical loci. For example, the concept of homology, as traditionally defined, would apply to structures like the cranidium, but actual measurements are made between anatomical points on the cranidium, such as at intersections of furrows. This may seem both obvious and unproblematic, but it involves an interpolation between the sampled points. Some workers in morphometrics have introduced the concept of a \"homology function\" for the function that does this interpolation, and which ostensibly extends the \"point homology\" to regions between them (e.g., Bookstein et aI., 1985) . That function might even be used to determine which structures are homologous to which, in accord with the operational tradition of Numerical Taxonomy (e.g., Hansell et aI., 1980; Jardine, 1967; Key, 1967) . As a result of this specialized concept of homology, it may seem that systematics and morphometrics require distinctly different concepts of homology, in particular, an operational concept is needed in morphometrics, in contrast to the conventional phylogenetic concept needed in systematics (David and Laurin, 1996) . And it may also seem that morphometrics has revived either an operational concept of homology in specific (Donoghue, 1992) , or the philosophy of phenetics in general (Crowe, 1994) . But even if \"homology\" has sometimes been defined differently in systematics and morphometrics, it does not mean that different concepts are actually required by those two fields. The question is whether the phylogenetic concept of homology can be applied to quantified shape data. Some systematists (Cranston and Humphries, 1988; Pimentel and Riggins, 1987 ) and a notable morphometric ian (Bookstein, 1994) apparently agree it cannot.",
+                "cite_spans": [
+                    {
+                        "start": 144,
+                        "end": 160,
+                        "text": "Patterson, 1982)",
+                        "ref_id": "BIBREF26"
+                    },
+                    {
+                        "start": 1094,
+                        "end": 1117,
+                        "text": "Bookstein et aI., 1985)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1278,
+                        "end": 1299,
+                        "text": "Hansell et aI., 1980;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1300,
+                        "end": 1314,
+                        "text": "Jardine, 1967;",
+                        "ref_id": "BIBREF19"
+                    },
+                    {
+                        "start": 1315,
+                        "end": 1325,
+                        "text": "Key, 1967)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1620,
+                        "end": 1644,
+                        "text": "(David and Laurin, 1996)",
+                        "ref_id": "BIBREF12"
+                    },
+                    {
+                        "start": 1753,
+                        "end": 1769,
+                        "text": "(Donoghue, 1992)",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 1814,
+                        "end": 1827,
+                        "text": "(Crowe, 1994)",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 2130,
+                        "end": 2160,
+                        "text": "(Cranston and Humphries, 1988;",
+                        "ref_id": "BIBREF10"
+                    },
+                    {
+                        "start": 2161,
+                        "end": 2187,
+                        "text": "Pimentel and Riggins, 1987",
+                        "ref_id": "BIBREF27"
+                    },
+                    {
+                        "start": 2221,
+                        "end": 2238,
+                        "text": "(Bookstein, 1994)",
+                        "ref_id": "BIBREF6"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "HOMOLOGY",
+                "sec_num": null
+            },
+            {
+                "text": "The fact that systematists and morphometricians draw the same damning conclusion alike may seem especially compelling. Clearly, that conclusion does not rest on a single line of argument or on a single set of assumptions. However, the agreement among authors is superficial because the arguments have little in common aside from the words: \"homology\" and \"morphometric data.\" For example, Pimentel and Riggins argue that the conventional phylogenetic concept of homology cannot be applied to the abstract, simple, vague measurements of length and width, and that ratios are even more problematic because the concept of homology would have to apply, separately, to each dimension. In a different vein, Bookstein (1984) , who takes a very unconventional approach to the concept of homology, denies that the concept can be applied to configurations of landmarks on a curved shape space by virtue of that curvature. And still others approach the issue from yet another perspective, focusing on continuity of the morphometric variables and the assumptions sometimes invoked when coding them (e.g., Chappill, 1989; Rae, 1998; Simon, 1983; Theile, 1993) .",
+                "cite_spans": [
+                    {
+                        "start": 701,
+                        "end": 717,
+                        "text": "Bookstein (1984)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1093,
+                        "end": 1108,
+                        "text": "Chappill, 1989;",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 1109,
+                        "end": 1119,
+                        "text": "Rae, 1998;",
+                        "ref_id": "BIBREF30"
+                    },
+                    {
+                        "start": 1120,
+                        "end": 1132,
+                        "text": "Simon, 1983;",
+                        "ref_id": "BIBREF32"
+                    },
+                    {
+                        "start": 1133,
+                        "end": 1146,
+                        "text": "Theile, 1993)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "HOMOLOGY",
+                "sec_num": null
+            },
+            {
+                "text": "The arguments supporting the view that morphometric data are unsuited to phylogenetic studies have been reviewed and found wanting (Zelditch, et aI., 1995; Zelditch et aI., 2000a) . They are dismissed partly because some objections ostensibly directed at quantified shape data apply equally well to all shape data, or perhaps even to all data, not to quantified size and shape data exclusively (Zelditch et aI., 2000a) . For example, the critique of simplistic descriptions by Pimentel and Riggins can be extended to all simplistic descriptions, whether qualitative or quantitative. Similarly, the objections directed against coding features that overlap among taxa are not specific to morphometric data because overlap is revealed, not caused, by quantification. That argument can be extended to the use of all overlapping features, not just those discerned by quantitative studies. Such arguments are not about morphometric data in particular. The arguments are also dismissed partly because other objections are too specific to bear on morphometric data per se. They concern specific kinds of variables and cannot be generalized. For example, the criticisms directed at using principal component scores as characters concern the definition of those scores; such criticisms disqualify only variables computed under that definition and so are not general (Zelditch et aI., 1995) . And still other arguments are wanting because they focus on matters tangential to phylogenetic inference; they concern concepts or methods not employed in phylogenetic studies (e.g., the arguments found in Bookstein, 1984) . However, even if we can dismiss all these arguments, that does not provide support for the converse claim, i.e., that the concept of homology can be applied to morphometric data. To support the converse, we must show it is strong in its own right, and that is our major objective herein.",
+                "cite_spans": [
+                    {
+                        "start": 131,
+                        "end": 155,
+                        "text": "(Zelditch, et aI., 1995;",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 156,
+                        "end": 179,
+                        "text": "Zelditch et aI., 2000a)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 394,
+                        "end": 418,
+                        "text": "(Zelditch et aI., 2000a)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1356,
+                        "end": 1379,
+                        "text": "(Zelditch et aI., 1995)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1588,
+                        "end": 1604,
+                        "text": "Bookstein, 1984)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "HOMOLOGY",
+                "sec_num": null
+            },
+            {
+                "text": "To justify the argument that the concept of homology can be applied to morphometric data, we will show that the same reasoning and the same tests of homology (i.e., similarity, conjunction and congruence [Patterson, 1982] ), can be applied to qualitative and quantitative data alike. We first articulate the reasoning by which hypotheses of homology are proposed and tested for qualitative shape data, using this as the basis for our examination of morphometric data. We then examine quantified shape data.",
+                "cite_spans": [
+                    {
+                        "start": 204,
+                        "end": 221,
+                        "text": "[Patterson, 1982]",
+                        "ref_id": "BIBREF26"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "HOMOLOGY",
+                "sec_num": null
+            },
+            {
+                "text": "We begin with the simplest case to concentrate on the logic involved in an inference of homology. Our first example is a collection of triangles ( Fig. 1 ). Figure 1 . A collection of triangles, each representing the shape of morphology of a taxon. This is the simplest possible case because triangles are the simplest forms that have shape, and because individuals within each taxon do not vary in shape.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 147,
+                        "end": 153,
+                        "text": "Fig. 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 157,
+                        "end": 165,
+                        "text": "Figure 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Proposing and Testing Hypotheses of Homology: Qualitative Shape Data The Simplest Possible Case",
+                "sec_num": null
+            },
+            {
+                "text": "The ftrst step is to ensure that the shapes are comparable. By this we mean that the triangles themselves must be comparable to each other, as triangles, and also that the sides and angles are properly compared to each other. It would not make sense to compare the shapes of Figure 2 because even though two of the points are similarly located, the third is at the anterior insertion of the B Figure 2 . Two incomparable triangles, representing shapes of different organismal parts. A: the vertices of the triangle are the anterior point of the head. taken where the two premaxillary bones articulate at the midline, the anterior base of the dorsal fin and the posterior termination of the hypural bones of the caudal skeleton. B: the vertices of the triangle are the anterior point of the head, taken where the two premaxillary bones articulate at the midline, the posterior base of the dorsal fin and the posterior termination of the hypural bones of the caudal skeleton. dorsal fin in one form ( Fig. 2A ), but at the posterior insertion of the dorsal fin in the other (Fig. 2B ). Regardless of any similarities we might discern in those shapes, we could not conclude that they are homologous. We would not be comparing the shapes of homologous parts. Similarly, it would not make sense to compare the shapes of differently oriented triangles (Fig. 3) . In that case, the vertices of both triangles are located at the same anatomical locations, but the sides or angles are not properly matched. If compared as drawn, differences in shape would be perceived-but the two triangles do not differ when placed in a common orientation. Thus, the first step in any comparison of shapes is to ensure that the comparisons are pinned down by the same anatomicalloci, and that like sides or like angles are matched to like. The second step of the analysis is to compare shapes, seeking their similarities and differences. We can mentally superimpose the triangles, scaling them to a common size to avoid being distracted by differences in size (size can be compared, just like shape, and changes in size might be correlated with changes in shape, but size should not complicate comparisons of shape). From this comparison, we would determine that the data in Figure 1 comprise two A B Figure 4 . The second step in a systematic analysis. A: Shapes are mentally superimposed on each other, revealing a difference in height relative to the length of the base; B: Similar shapes are grouped with each other and separated from those that differ. morphs ( Fig. 4) , differing in the height of the triangle relative to the base (i.e., aspect ratio). That analysis is straightforward, but it involves a combination of observation and inference. Also, it presumes that the heights and baselines of the triangle are comparable, even though we only ensured that the whole triangles and the three vertices are comparable. Thus, we make judgments of similarity and difference based on observations, but such judgments also involve assumption of comparability, and in making those judgments, we require criteria for deciding whether shapes are similar or different. Moreover, in our judgments of similarity and difference, we are postulating homology (for the shared feature) and novelty (for the feature differing between them). Judgments of similarity and homology are intrinsically systematic judgments, not simply matters of observation.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 275,
+                        "end": 283,
+                        "text": "Figure 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 393,
+                        "end": 401,
+                        "text": "Figure 2",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 999,
+                        "end": 1006,
+                        "text": "Fig. 2A",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1072,
+                        "end": 1080,
+                        "text": "(Fig. 2B",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1346,
+                        "end": 1354,
+                        "text": "(Fig. 3)",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 2251,
+                        "end": 2259,
+                        "text": "Figure 1",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2277,
+                        "end": 2285,
+                        "text": "Figure 4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2543,
+                        "end": 2550,
+                        "text": "Fig. 4)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Proposing and Testing Hypotheses of Homology: Qualitative Shape Data The Simplest Possible Case",
+                "sec_num": null
+            },
+            {
+                "text": "The third step is to formalize these judgments by coding the morphs (Fig.  5 ). The hypothesis of homology is formalized by coding putatively homologous features as the same. The hypothesis of novelty is formalized by coding the putatively novel state as different from the primitive state. Although polarity is not definitively inferred until the next step, meaning it is not determined a priori, we usually code the feature present in the outgroup(s) as 0, provisionally hypothesizing that this condition is the primitive one.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 68,
+                        "end": 76,
+                        "text": "(Fig.  5",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Proposing and Testing Hypotheses of Homology: Qualitative Shape Data The Simplest Possible Case",
+                "sec_num": null
+            },
+            {
+                "text": "The fourth step is to infer the c1adogram using parsimony, which minimizes the number of hypotheses of homology that must be reinterpreted as homoplasies. By rooting the tree, the characters are polarized (which tests hypotheses of novelty) and the similarities shared by monophyletic groups are determined Figure 5 . The third step in a systematic analysis. Similar shapes are coded as similar, either as 0 or 1. By convention, the outgroup is coded as 0, and hypothesized to have the primitive state, although the polarity of the feature is not inferred until the tree is rooted. according to their congruence with the cladogram (which tests hypotheses of homology). In the case shown in Figure 6 , we would conclude that aspect ratio increased (i.e., that\" 1\" is the derived condition) and that this aspect of shape is homologous. Aspect ratio is inferred to increase a single time, and it is a feature diagnosing a monophyletic group. However, in the case shown in Figure 7 , aspect ratio increased twice, so the similarity in that derived feature is homoplasic (although, within each of the two clades, the increased aspect ratio is homologous). B Figure 6 . The distribution of two shapes, A and B, on the cladogram. Based on this cladogram, B is the derived shape; because it arises only once and characterizes a monophyletic group, it is homologous.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 307,
+                        "end": 315,
+                        "text": "Figure 5",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 690,
+                        "end": 698,
+                        "text": "Figure 6",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 969,
+                        "end": 977,
+                        "text": "Figure 7",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1153,
+                        "end": 1161,
+                        "text": "Figure 6",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Proposing and Testing Hypotheses of Homology: Qualitative Shape Data The Simplest Possible Case",
+                "sec_num": null
+            },
+            {
+                "text": "For simple cases such as this, the reasoning is straightforward. In more realistic cases, the same four steps would be taken, but it may not be so easy to judge similarity and difference, nor to describe the features that differ.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Proposing and Testing Hypotheses of Homology: Qualitative Shape Data The Simplest Possible Case",
+                "sec_num": null
+            },
+            {
+                "text": "Judgments of similarity are complicated by several factors; the most important of which are (1) variability, (2) ontogenetic change, and (3) the A B Figure 7 . The distribution of two shapes, A and B, on the cladogram. Based on this cladogram, B evolved twice, hence the similarity in that feature is homoplasic rather than homologous. complexity of morphology. The fIrst two factors complicate analyses because a single form cannot represent the shape of a taxon. There are differences among individuals at the same age or ontogenetic stage and each individual changes shape over the course of ontogeny. The third factor, the complexity of morphology, means that we cannot represent real organisms as single triangles. To evaluate the implications of each of these three factors, we discuss them separately.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 149,
+                        "end": 157,
+                        "text": "Figure 7",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Factors Complicating Judgments of Similarity",
+                "sec_num": null
+            },
+            {
+                "text": "Shape is often quite variable within species, even if we compare shapes at a single ontogenetic stage. Sometimes, this variation does not preclude A B Figure 8 . Two variable samples of shapes. A. Two distinct mOl-phs can be discerned, even though each one varies. B: A continuum of variation in shape. judging similarities and differences among taxa; distinctions may be clear even if individuals vary (Fig. 8A ). But in other cases, taxa overlap in their ranges of variation so that individuals seem to lie along an unbroken continuum ( Fig. 8B) . In cases like Figure 8A , individual variation poses no problems for interpretations of novelty and homology (except we might wonder whether the pattern is an artifact of small sample sizes). In cases like Figure  8B , it is not obvious whether to treat the shapes as different (that is, to postulate the origin of a novelty) or to treat them as similar (that is, to postulate homology) or to omit the data as too ambiguous to support any interpretation.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 151,
+                        "end": 159,
+                        "text": "Figure 8",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 403,
+                        "end": 411,
+                        "text": "(Fig. 8A",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 539,
+                        "end": 547,
+                        "text": "Fig. 8B)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 564,
+                        "end": 573,
+                        "text": "Figure 8A",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 756,
+                        "end": 766,
+                        "text": "Figure  8B",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Variation",
+                "sec_num": null
+            },
+            {
+                "text": "Another c\u2022omplicating factor is the dynamic nature of shape. Shape is not a static feature of organisms; morphology has an ontogeny ( Fig. 9 ). If comparisons between species include individuals from several ontogenetic stages, the ranges may overlap broadly. But if comparisons are restricted to comparable stages, gaps between species ranges may become evident. Figurel0 shows a case in which juveniles differ in shape among taxa, but no such distinction is evident when samples comprise multiple stages. So long as the comparison is restricted to juveniles, it reveals a novelty, i.e., the shallowbodied juvenile, but when the comparison includes juveniles, subadults and adults, the distribution of the feature appears to be continuous.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 134,
+                        "end": 140,
+                        "text": "Fig. 9",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Ontogenetic Dynamics of Shape",
+                "sec_num": null
+            },
+            {
+                "text": "Although the ontogenetic dynamics of shape can complicate assessments of similarity, they can also be informative in their own right. The ontogenetic transformations in shape might be at least as informative as static shapes because they capture an entire morphology, not the morphology of a single ontogenetic stage. Instead of comparing static morphologies we could compare the ontogenetic trajectories by arranging individuals into ontogenetic series, then describing and comparing the ontogenetic transformations in shape (Fig. 11) . In this example, we could distinguish two modes of Figure 9 . The ontogeny of shape. As age increases, size and aspect ratio also increase. ontogenetic change: (1) an increase in size accompanied by an increase in aspect ratio; and (2) an increase in size alone. The taxa sharing one of the ontogenetic modes would be coded as similar, and differentiated from those that A B Figure 10 . A comparison of shapes complicated by ontogenetic changes in fonn. A: Comparisons are made among juveniles 0). B: Comparisons span three ontogenetic states, juveniles G), subadults (sa) and adults (a).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 526,
+                        "end": 535,
+                        "text": "(Fig. 11)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 589,
+                        "end": 597,
+                        "text": "Figure 9",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 913,
+                        "end": 922,
+                        "text": "Figure 10",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Ontogenetic Dynamics of Shape",
+                "sec_num": null
+            },
+            {
+                "text": "share the other. The hypothesis of homology, in this case, applies to a shared ontogenetic mode, and that hypothesis would be tested by congruence with the cladogram, just like any hypothesis of homology. Figure 11 . A comparison of two ontogenetic series. The taxa coded as 0 increase in size but do not change shape; those coded as 1 both increase in size and aspect ratio. OG=outgroup.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 205,
+                        "end": 214,
+                        "text": "Figure 11",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Ontogenetic Dynamics of Shape",
+                "sec_num": null
+            },
+            {
+                "text": "Few comparisons reveal differences as simple as that of the aspect ratio shown in the previous examples. Organisms often have morphologies more complex than triangles and even when morphology is a simple triangle, shape can differ in more than just aspect ratio. In assessing similarities and differences of the triangles shown in Figure 12 , we must decide whether to look at triangular shape as a whole or to subdivide that whole into individual dimensions. That decision has profound implications. If we view shape as a single unitary feature, we would perceive three different variants in Figure 12 , and code them as three states of \"shape\" (0-1-2). This coding implies the hypothesis that each shape is a homologous feature for the taxa that share it, but no hypothesis is formalized regarding relationships among taxa that differ in shape ( Fig. 13A ). Alternatively, we can treat aspect ratio as one feature, comparing only that among taxa, and then treat the shearing of the triangle as a second feature, comparing only that among taxa. If we take this second approach we would recognize two binary (two-state) characters, one with a derived state shared by shapes Band C, the other with a derived state that is unique to C (Fig. 13B ). The first approach loses information by ignoring the similarity between B and C in aspect ratio, but it reduces the risk of homoplasy because it uses a stringent criterion of similarity. The second approach extracts more phylogenetic information from shape, but at the risk of introducing homoplasy. Given the c1adogram shown in Figure 14 , the increase in aspect B Figure 14 . The distribution of three triangular morphs on a cladogram. Shapes B and C diagnose monophyletic groups. One clade, comprising taxa with shape C, is characterized by an increased aspect ratio and shearing. Another clade, comprising taxa with shape B, is characterized by an increased aspect ratio. The increased aspect ratio is homoplasic. ratio occurred twice, once alone and once in conjunction with shearing. By treating the whole shape as a single character, the two independent increases in aspect ratio (one associated with shearing) would not be misconstrued as a single homologous feature. But given the cladogram in Figure 15 , the increase in aspect ratio occurred only once, followed by shearing. By B B B Figure 15 . The distribution of three triangular morphs on a cladogram. Shapes B and C diagnose nested monophyletic groups. The clade containing taxa with shapes B and C is characterized by an increased aspect ratio; the clade containing taxa with shape C is characterized by shearing. subdividing the whole into individual dimensions, which allows us to recognize the increase in aspect ratio separately from the shearing, we discern an informative similarity. A still more complex example is shown in Figure 16 . Given these quadrilaterals, it is less obvious how shapes should be dissected. One possibility is to describe each quadrilateral as a whole, in which case we would perceive three distinctly different shapes (Fig. 16A ). These would be coded as a single multi state character, 0-1-2, which have nothing in common and thus provide no phylogenetic information. Another possibility is to dissect the quadrilateral into two triangles, right and left, and compare each of them separately (Fig. 16B ), in which case we would obtain two binary characters. Using that approach, we would recognize that quadrilaterals A and C share the shape of the triangle on the left, and quadrilaterals Band C share the shape of the triangle on the right. Still a third approach is to compare the locations of each vertex (Fig. 16C ). Using that approach, each little vector that links comparable vertices has two dimensions, which can be compared separately, yielding four binary characters: (1) the downward displacement of the vertex of the triangle on the left, (2) the leftward displacements of that same vertex, (3) the upward displacement of the vertex of the triangle on the right and (4) the rightward displacements of that same vertex.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 331,
+                        "end": 340,
+                        "text": "Figure 12",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 593,
+                        "end": 602,
+                        "text": "Figure 12",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 848,
+                        "end": 856,
+                        "text": "Fig. 13A",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1233,
+                        "end": 1242,
+                        "text": "(Fig. 13B",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1575,
+                        "end": 1584,
+                        "text": "Figure 14",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1612,
+                        "end": 1621,
+                        "text": "Figure 14",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2249,
+                        "end": 2258,
+                        "text": "Figure 15",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2341,
+                        "end": 2350,
+                        "text": "Figure 15",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2844,
+                        "end": 2853,
+                        "text": "Figure 16",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 3063,
+                        "end": 3072,
+                        "text": "(Fig. 16A",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 3338,
+                        "end": 3347,
+                        "text": "(Fig. 16B",
+                        "ref_id": "FIGREF3"
+                    },
+                    {
+                        "start": 3655,
+                        "end": 3664,
+                        "text": "(Fig. 16C",
+                        "ref_id": "FIGREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Complexity of Morphological Data",
+                "sec_num": null
+            },
+            {
+                "text": "Again, each approach has advantages and disadvantages. The disadvantage of the first approach, the one using a stringent criterion of similarity, which is applied to the shape as a whole, becomes more obvious as complexity increases. Because whole complex shapes are unlikely to be similar in all details, treating shapes as wholes could produce an uninformative suite of character states. The contrasting approach, i.e., reductionism, also becomes more problematic as complexity increases because it requires assuming that each individual feature is phylogenetic ally independent. If that assumption is false, the results may overstate the support for a clade. For example, had we analyzed each dimension at each vertex of the quadrilaterals as an independent character, we would find two dimensions supporting the hypothesis that the taxa with shapes Band C form a monophyletic group (Fig. 17 A) . Yet, both of these involve displacements of the same vertex. Not only are they phylogenetically correlated but also they describe change of the same anatomical feature. For that reason, even if we begin by comparing the individual dimensions separately, we might choose to recode the two characters as a single one ( Fig. 17B ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 886,
+                        "end": 897,
+                        "text": "(Fig. 17 A)",
+                        "ref_id": "FIGREF4"
+                    },
+                    {
+                        "start": 1217,
+                        "end": 1225,
+                        "text": "Fig. 17B",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Complexity of Morphological Data",
+                "sec_num": null
+            },
+            {
+                "text": "Of the three factors complicating judgments of similarity, morphological complexity is the most difficult to address, especially when we consider more realistic examples. Even these quadrilaterals are unrealistically simple. In the course of dissecting whole organisms into individual characters, systematic judgment becomes crucial because these dissections are not merely matters of observation. Several recent discussions of character analysis agree on one crucial point: characters are constructed, not directly observed (Mickevich and Weller, 1990; Pleijel, 1995; Pogue and Mickevich, 1980; Wilkinson, 1995) . Wilkinson (1995) suggests that characters ought to represent real units of biological organization. Wilkinson's ideal is somewhat unrealistic because different morphologists, looking at the same organisms, may come to very different conclusions regarding those units. Units could be defined in terms of integrated complexes, or by whether the components are developmentally integrated, or structurally connected, or ecologically interacting. There are numerous possible lines of dissection, and anyone may seem arbitrary (Davis, 1949) . From a historical perspective, units are not arbitrary if they are individual historical novelties. However, individuality and historical reality are not self-evident from an inspection of forms. They are both inferences based on the phylogenetic analysis, an analysis that cannot begin without characters. These difficult, and potentially arbitrary, aspects of character analysis may not be generally appreciated because character construction is rarely discussed in the systematic literature.",
+                "cite_spans": [
+                    {
+                        "start": 525,
+                        "end": 553,
+                        "text": "(Mickevich and Weller, 1990;",
+                        "ref_id": "BIBREF25"
+                    },
+                    {
+                        "start": 554,
+                        "end": 568,
+                        "text": "Pleijel, 1995;",
+                        "ref_id": "BIBREF28"
+                    },
+                    {
+                        "start": 569,
+                        "end": 595,
+                        "text": "Pogue and Mickevich, 1980;",
+                        "ref_id": "BIBREF29"
+                    },
+                    {
+                        "start": 596,
+                        "end": 612,
+                        "text": "Wilkinson, 1995)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 615,
+                        "end": 631,
+                        "text": "Wilkinson (1995)",
+                        "ref_id": "BIBREF36"
+                    },
+                    {
+                        "start": 1136,
+                        "end": 1149,
+                        "text": "(Davis, 1949)",
+                        "ref_id": "BIBREF13"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Complexity of Morphological Data",
+                "sec_num": null
+            },
+            {
+                "text": "Having reviewed the logic of an analysis of qualitative data, we tum to quantitative data, asking whether the same logic applies. If so, qualitative and quantitative data should not be regarded as categorically distinct. To address this question, we use one particularly simple kind of morphometric variable, shape coordinates (Bookstein, 1986 (Bookstein, , 1991 . Later, in the section \"Classes of Morphometric Variables and Homology,\" we consider whether our conclusions regarding shape coordinates apply to all morphometric variables. Two features, each interpreted as an independent character, support the hypothesis; B: The same two features, now reinterpreted as a single character, support the hypothesis.",
+                "cite_spans": [
+                    {
+                        "start": 327,
+                        "end": 343,
+                        "text": "(Bookstein, 1986",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 344,
+                        "end": 362,
+                        "text": "(Bookstein, , 1991",
+                        "ref_id": "BIBREF5"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Proposing and Testing Hypotheses of Homology: Quantitative Data",
+                "sec_num": null
+            },
+            {
+                "text": "The first step in quantitative analyses of forms, just like the first step in qualitative analyses of forms, is to ensure comparability. This step precedes any morphometric analysis because it precedes the comparisons of shape. The recognition of comparable structures, and the designation of comparable points, involves the same reasoning as used in the qualitative analysis; no distinctly morphometric protocol serves this purpose. Just as we looked for homologous anatomical loci on homologous parts in the qualitative analysis, we do so in a quantitative analysis. In the morphometrics literature, these points are usually called \"landmarks\" (e.g., Bookstein, 1991) .",
+                "cite_spans": [
+                    {
+                        "start": 653,
+                        "end": 669,
+                        "text": "Bookstein, 1991)",
+                        "ref_id": "BIBREF5"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Revisiting the simplest possible example",
+                "sec_num": null
+            },
+            {
+                "text": "The second step in a quantitative analysis of forms does involve distinctly morphometric protocols. To compare shapes quantitatively, we can construct shape coordinates by assigning values to the coefficients of two points, 0,0 and 1,0 ( Fig. 18A ). These serve as the ends of the baseline. The x,y coefficients of the third point, called shape coordinates, are then computed. All the information about the shape of a triangle lies in the coordinates of the third point in relation to the standardized baseline. When the triangles are superimposed at their baselines, a vector extending between the apical points ( Fig.  18B ) can represent the difference between the shapes. As evident by the vertically directed vector, the difference between the triangles lies in the height of the triangle relative to the baseline. This same difference can also be shown as a scatter-plot whose axes are defined by the baseline; the x-axis lies along the baseline, the y-axis is perpendicular to it (Fig. 18C ). This shows that the points differ in one direction, the vertical (i.e., on the y-axis). Both depictions agree, and they also agree with the qualitative analysis: the two triangles differ in aspect ratio.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 238,
+                        "end": 246,
+                        "text": "Fig. 18A",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 615,
+                        "end": 624,
+                        "text": "Fig.  18B",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 987,
+                        "end": 996,
+                        "text": "(Fig. 18C",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Revisiting the simplest possible example",
+                "sec_num": null
+            },
+            {
+                "text": "The third step of the analysis is to code the characters according to our hypotheses of novelty and homology, which are formulated exactly as they were in the case of qualitative data. This involves no distinctly morphometric procedure; we have already determined that there are two morphs, so we code them as 0 and 1. And the fourth step of the analysis is also identical to the fourth step of the qualitative analysis-inferring the cladogram (by parsimony) using all the characters. And each hypothesis of homology is tested (just as it was in the qualitative analysis) by congruence ofthe character with the cladogram.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Revisiting the simplest possible example",
+                "sec_num": null
+            },
+            {
+                "text": "The only difference between the qualitative and quantitative analyses lies in the second step-the method for describing and comparing shapes. Obviously, this is not a minor difference, but it does not alter the logic of the systematic analysis. It simply allows us to compare the shapes rigorously, objectively and explicitly. When it comes to judgments of homology, both the formulation of initial hypotheses and the testing of them, the same reasoning and methods apply to both classes of data. For that reason, they are not Figure 18 . Shape coordinates calculated using the two-point registration. A: Two triangles drawn to a common baseline, whose coordinates are fixed at 0,0 and 1,0; B: The displacement of the third vertex relative to the baseline, depicted by a vector; C: That same vector on a scatterplot with axes defined by the baseline (the x-axis is aligned with the baseline, the y-axis is perpendicular to it).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 527,
+                        "end": 536,
+                        "text": "Figure 18",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Revisiting the simplest possible example",
+                "sec_num": null
+            },
+            {
+                "text": "0,0 1,0 A 0,0 1,0 B \u2022 \u2022 0,0 1,0 c",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Revisiting the simplest possible example",
+                "sec_num": null
+            },
+            {
+                "text": "actually two classes of data-instead, they are one class of data, shape data, expressed in two different languages.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Revisiting the simplest possible example",
+                "sec_num": null
+            },
+            {
+                "text": "Variation complicates quantitative studies, as it does qualitative ones. However, with quantitative methods, variation can be analyzed objectively and explicitly. For example, we can depict the variability of triangular height as a scatter-plot of shape coordinates. Sometimes these plots will reveal distinct morphs ( Fig. 19A ), but sometimes they may reveal extensively overlapping ranges ( Fig. 19B ) and sometimes they may reveal a more ambiguous pattern in which the ranges overlap less extensively and average shapes seem fairly distinct (Fig. 19C ). Any judgments based on these plots involve some degree of subjectivity because there is no generally accepted criterion for deciding just how different morphs (or ranges) must be. Systematists disagree, not only because they disagree on how to decide whether morphs are different but also because they disagree on whether overlapping features should be included in phylogenetic studies (see Swiderski et aI, 1998 for a discussion of several views). Considering the subjectivity of the decision, and the controversial nature of each one, plots like Figure 19 are especially useful-they make the basis for any judgment explicit. Quantification itself should not affect the criteria applied, or the rationale for including or excluding the data because, presumably, the same reasoning is applied to qualitative and quantitative data alike.",
+                "cite_spans": [
+                    {
+                        "start": 949,
+                        "end": 970,
+                        "text": "Swiderski et aI, 1998",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 319,
+                        "end": 327,
+                        "text": "Fig. 19A",
+                        "ref_id": "FIGREF5"
+                    },
+                    {
+                        "start": 394,
+                        "end": 402,
+                        "text": "Fig. 19B",
+                        "ref_id": "FIGREF5"
+                    },
+                    {
+                        "start": 545,
+                        "end": 554,
+                        "text": "(Fig. 19C",
+                        "ref_id": "FIGREF5"
+                    },
+                    {
+                        "start": 1106,
+                        "end": 1115,
+                        "text": "Figure 19",
+                        "ref_id": "FIGREF5"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Revisiting the Complication of Variation",
+                "sec_num": null
+            },
+            {
+                "text": "It may seem that quantification is particularly useful in cases of overlapping ranges, such as those shown in Figures 19B and C . Despite the overlap, taxa may be statistically distinct in their average shapes, a conclusion documented by calculating means and variances. However, the ability to calculate these parameters is not the most useful outcome of quantification. Having the evidence of overlap is equally or perhaps even more useful. Even systematists who oppose differentiating taxa based on subtle differences in average form can make use of the information in these plots, if only to determine whether taxa actually do overlap. Moreover, quantification can reveal deficiencies of sampling, such as excessively small samples. When variation is extensive and differences are subtle (and samples are small) it may be unwise to draw any conclusions at all regarding novelties or homology.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 110,
+                        "end": 127,
+                        "text": "Figures 19B and C",
+                        "ref_id": "FIGREF5"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Revisiting the Complication of Variation",
+                "sec_num": null
+            },
+            {
+                "text": "Ontogenetic change complicates quantitative studies of shape, just as it does qualitative studies. However, quantitative methods are useful in that comparisons can be adjusted for differences in age (or size) and, more importantly, ontogenetic transformations can be compared quantitatively. Ontogenies are often difficult to describe accurately because those descriptions require synthesizing visual impressions of changes in many interrelated features across hundreds of specimens. Using quantitative methods, accurate syntheses are possible as shown in Figure 20 , which depicts ontogenetic changes in the location of 14 shape coordinates in four taxa. Each vector depicts the change in location of a shape coordinate, estimated by regression of shape coordinates on body size. Ontogenetic changes in those locations can be compared statistically by Multivariate Analysis of Covariance, and similarities among ontogenetic changes can be interpreted just like similarities in (static) shape. For example, we would interpret the lack of ontogenetic deepening of the body at the anterior base of the dorsal fin as a similarity shared by Pygocentrus nattereri (and two species of Pygocentrus [not shown]) and Serrasalmus elongatus. In contrast, both the outgroup (Pygopristis) and S. gouldingi exhibit ontogenetic deepening at that point. This suggests a novelty in ontogeny, as well as a homologous feature that can be tested by congruence with the cladogram. Given the cladogram shown in Figure 21 , this feature could have arisen independently in Serrasalmus elongatus and Pygocentrus, or it could be a homologous feature of the clade containing Serrasalmus and Pygocentrus, one lost in S. gouldingi. Despite the ambiguity of the data, the logic of interpretation is clear, and it is precisely the same logic by which qualitative shape data are interpreted. Figure 20 provides a realistic view of the complexity of morphological data. Unfortunately, quantification cannot automatically reduce this complexity. At best, quantitative methods can summarize these ontogenetic transformations objectively and precisely. It can also permit us to decompose those changes into geometrically (and/or statistically) independent morphometric variables. The particular methods used for those purposes have important implications (discussed in detail, below), but the variables are simply that-variables. They can be, but need not be, individual characters. They are decompositions based on geometric or statistical criteria. Conceivably, none of the variables represents a character. We cannot determine how many characters there are in such data from any quantitative protocol because no formal rule translates morphometric variables into characters. It is not possible to generate characters automatically by a purely morphometric analysis because characters are not geometric or statistical decompositions. Rather, they are historical inferences. Quantification, like qualitative anatomy, supplies tools for morphological description, which can be used to describe similarities and differences we perceive in ontogenies of shape. But those tools are not sufficient to discern independent evolutionary novelties. We might dissect the forms of Figure 20 in keeping with ontogenetic correlations over several triangles, but phylogenetic correlations are detected only by phylogenetic analysis.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 556,
+                        "end": 565,
+                        "text": "Figure 20",
+                        "ref_id": "FIGREF7"
+                    },
+                    {
+                        "start": 1489,
+                        "end": 1498,
+                        "text": "Figure 21",
+                        "ref_id": "FIGREF8"
+                    },
+                    {
+                        "start": 1860,
+                        "end": 1869,
+                        "text": "Figure 20",
+                        "ref_id": "FIGREF7"
+                    },
+                    {
+                        "start": 3235,
+                        "end": 3244,
+                        "text": "Figure 20",
+                        "ref_id": "FIGREF7"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Revisiting the Complication of Ontogenetic Change",
+                "sec_num": null
+            },
+            {
+                "text": "Because the credibility of our phylogenetic hypothesis depends on the quality of our descriptions, methods that enhance the accuracy, objectivity and sensitivity of our descriptions increase the credibility of phylogenetic hypotheses. Limiting the role of morphometrics to that of descriptive anatomy does not diminish this value. Rather, such restrictions may even enhance the value of morphometries by avoiding excessive claims, such as the presence of a direct correspondence between shape similarity and phylogenetic relationships among taxa.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Revisiting the Complexity of Morphological Data",
+                "sec_num": null
+            },
+            {
+                "text": "P. nattereri '. \u2022 '-'e -. .... ... -. \u2022 \u2022 ..... \u2022 . ... \u2022 ~ --\u2022 ; ~ . . ---,.,. T --\u2022 ....",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Pygopristis denticu/ata",
+                "sec_num": null
+            },
+            {
+                "text": "S. e/ongatus ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Serrasa/mus gou/dingi",
+                "sec_num": null
+            },
+            {
+                "text": "-.\\ 1 \\ ~ l \u2022 -. \" . ~ ... ~ . ~ ...",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Serrasa/mus gou/dingi",
+                "sec_num": null
+            },
+            {
+                "text": "The languages of qualitative and quantitative analysis are clearly different. But the same reasoning applies to qualitative and quantitative data when it comes to proposing and testing hypotheses of homology. Regardless of the data, we begin by ensuring the comparability of the features, we then compare them to discern similarities and differences, and we then formalize the hypotheses of novelty and homology and finally we test those hypotheses in the context of a cladogram. Moreover, the same three factors complicate assessments of similarity in qualitative and quantitative data alike, i.e., variation, ontogenetic change and morphological complexity. Morphometric studies are partiCularly useful for coping with the first two complicating factors because quantification of shape allows more objective and rigorous description of variation and ontogenetic change. Otherwise, there is little difference between analyses of qualitative and quantitative data. The language of description does not impinge on the criteria by which we judge comparability or similarities and differences, or on the methods by which we infer cladograms from those similarities. Our examples of quantitative analyses using shape coordinates show that quantification does not require a change in the way comparative studies are performed. However, shape coordinates are only one kind of morphometric variable. Other variables might be less amenable to phylogenetic reasoning. If so, there may be real distinctions among classes of morphometric data. In the next section, we consider what those distinctions might be.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Reconsidering the Distinction Between Qualitative and Quantitative Data",
+                "sec_num": null
+            },
+            {
+                "text": "Morphometric data are usually divided into two classes: (1) landmarks and (2) outlines. Landmark data are discrete anatomical loci, arguably homologous from specimen to specimen, the kind of data we have considered so far. Much of traditional morphometries, as well as most of geometric morphometries, is based on landmarks. In traditional morphometries, distances measured between landmarks are measured and analyzed (Fig. 22A) , although traditional morphometries is not restricted to landmark-based measurements because some variables may be defined without reference to homologous landmarks, such as \"greatest cranidial width,\" a measurement that could be located on different structures on different organisms. In geometric morphometries, landmark locations are analyzed directly (Fig. 22B) . Outline data are boundary curves (Fig. 22C) . In outline-based studies, a function is usually fitted to the curves and the coefficients of that function are analyzed.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 418,
+                        "end": 428,
+                        "text": "(Fig. 22A)",
+                        "ref_id": "FIGREF9"
+                    },
+                    {
+                        "start": 785,
+                        "end": 795,
+                        "text": "(Fig. 22B)",
+                        "ref_id": "FIGREF9"
+                    },
+                    {
+                        "start": 831,
+                        "end": 841,
+                        "text": "(Fig. 22C)",
+                        "ref_id": "FIGREF9"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "HOMOLOGY AND CLASSES OF MORPHOMETRIC VARIABLES",
+                "sec_num": null
+            },
+            {
+                "text": "The two classes of data, i.e., landmarks and outlines, are mathematically distinct, occupying different mathematical spaces in which different metrics are used to measure distances among shapes. However, some workers deny that this distinction matters when it comes to addressing biological questions (MacLeod, 1999; McLellan and Endler, 1998) . MacLeod, for example, calls the distinction illusory and damaging to the entire enterprise of morphometries. However, our concern is with systematic studies of morphometric data in particular; in this context, whether the distinction between landmarks and outlines is illusory and damaging depends on whether hypotheses of homology can be formulated and tested for landmark and outline data alike. This depends partly on the properties of the raw data (i.e., digitized landmarks or outlines) also on the calculations used to compute variables from the raw data. A variety of calculations could be used, including algebraic manipulations such as extracting principal components. In this section, we first ask whether hypotheses of homology can be formulated for outline-based data, as a general class, and then consider the same question for a variety of landmark-based variables. We then examine three multivariate constructs: principal components, canonical variates and multivariate (ontogenetic) regressions.",
+                "cite_spans": [
+                    {
+                        "start": 301,
+                        "end": 316,
+                        "text": "(MacLeod, 1999;",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 317,
+                        "end": 343,
+                        "text": "McLellan and Endler, 1998)",
+                        "ref_id": "BIBREF24"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "HOMOLOGY AND CLASSES OF MORPHOMETRIC VARIABLES",
+                "sec_num": null
+            },
+            {
+                "text": "Outlines are boundary curves around the periphery of a structure. Typically, the focus of study is the topography of the outline as a whole (i.e., elongation, angularity, roughness). Indeed, some advocates of outline methods define \"shape\" as the outline (Lestrel, 1997; Lohmann and Schweitzer, 1990) . Traditional methods of outline description (e.g., Fourier analysis, conventional eigenshape analysis) do not compare the locations of individual points along the outline on a one-to-one basis. Rather, they produce a summary description of the outline, which is the subject of subsequent analyses. Because the digitized points have no particular significance to the comparison of outlines, individual specimens are commonly represented by different numbers of points on the outline. The issue of whether the digitized points are homologous across all specimens is not considered relevant to the comparison of outlines.",
+                "cite_spans": [
+                    {
+                        "start": 255,
+                        "end": 270,
+                        "text": "(Lestrel, 1997;",
+                        "ref_id": "BIBREF21"
+                    },
+                    {
+                        "start": 271,
+                        "end": 300,
+                        "text": "Lohmann and Schweitzer, 1990)",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Outlines",
+                "sec_num": null
+            },
+            {
+                "text": "3 \",-_ _ 4..v lO'~ \u2022 \u2022 \u2022 \u2022 \u2022\u2022\u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 A B",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Outlines",
+                "sec_num": null
+            },
+            {
+                "text": "In most studies of biological outlines, an effort is made to ensure that the comparisons are made among outlines of homologous structures. However, because the homology of the digitized points is irrelevant to the analysis, nothing intrinsic to these methods requires that the criterion for judging comparability of outlines (or parts of outlines) is homology. Outline-based methods invoke criteria of comparability other than biological homology (e.g., a best fitting ellipse for each form with all specimens aligned by the centroids and major axes ofthose ellipses [Ferson et aI., 1985] ). As we have pointed out (Zelditch et aI., 1995) , nothing intrinsic to these methods prevents comparisons like that shown in Figure 23 . Similarities among these three shapes might exist, but those similarities do not imply homology. They are not similarities of comparable (i.e., homologous) structures. When comparisons are made among incomparable structures, similarities in shape cannot be construed as homologous shape characters, regardless of their distribution on a cladogram. In this case, we can determine that the shape characters are not homologous a priori because the homology of a shape character is subsidiary to the homology of the parts. We would not claim that \"oblong\" is a homologous feature when comparing a cranidium in one taxon to a pygidium in another.",
+                "cite_spans": [
+                    {
+                        "start": 567,
+                        "end": 588,
+                        "text": "[Ferson et aI., 1985]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 615,
+                        "end": 638,
+                        "text": "(Zelditch et aI., 1995)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 716,
+                        "end": 725,
+                        "text": "Figure 23",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Outlines",
+                "sec_num": null
+            },
+            {
+                "text": "Even in less outrageous comparisons, nothing in the outline-based methods ensures that comparisons are based on homology. Outline-based methods define comparability by criteria other than homology of anatomical loci, usually by criteria internal to the morphometric method (which vary among methods). Because these alternative criteria form the framework of comparison, any phylogenetic analysis of outlines is suspect, even when it is reasonable to infer (from other evidence) that the outlines are peripheries of homologous structures.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Outlines",
+                "sec_num": null
+            },
+            {
+                "text": "Recently, MacLeod (1999) criticized this argument and Figure 23 , on several grounds. One of his arguments is that it is incorrect to claim that outlinebased methods fail to incorporate information about biological homology and so fail to distinguish between fundamentally different object classes. He also points out that outline-based analyses can be constrained by homology, and he also argues that landmark-based comparisons can be absurd because landmarks can be defined by geometry rather than homology. In addition, he claims that comparisons unconstrained by homology might be appropriate in some contexts, like functional morphology. We regard these arguments as misdirected. First, being able to distinguish among fundamentally different object classes is not an issue as that does not involve an issue of homology, just of shape difference. Second, we do not claim that outline methods cannot incorporate information about homology; we only point out that they do not depend on it. Our hypothetical example may seem outrageous, but these methods have been used to compare shapes of sand grains (Ehrlich and Weinberg, 1970) and printed letters (Zahn and Roskies, 1972) , and those analyses do not incorporate considerations of biological homology. The crux of our argument was that the failure to incorporate homology, for whatever reason, is fatal to an evolutionary comparative analysis. It may be possible to infer the hydrodynamic properties of an ichthyosaur by comparing its outline to those of a shark and a swordfish, but it would be a mistake to infer evolutionary transformations from that analysis.",
+                "cite_spans": [
+                    {
+                        "start": 1105,
+                        "end": 1133,
+                        "text": "(Ehrlich and Weinberg, 1970)",
+                        "ref_id": "BIBREF15"
+                    },
+                    {
+                        "start": 1154,
+                        "end": 1178,
+                        "text": "(Zahn and Roskies, 1972)",
+                        "ref_id": "BIBREF37"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 54,
+                        "end": 63,
+                        "text": "Figure 23",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Outlines",
+                "sec_num": null
+            },
+            {
+                "text": "MacLeod also implies that landmark-based studies may be flawed because classical methods of inferring homology are applied to entire structures, not to infinitesimally small geometric points. MacLeod does not show that these classical approaches must be modified if they are to be applied to points. Rather, he claims that geometric criteria can be used to define and recognize landmarks, and that these are not the criteria used to recognize homology. This argument is off target. No doubt purely geometric criteria can be used to define landmarks, but we argued that evolutionary comparisons require that biological homology be the criterion for comparability. That criterion can be applied to individual anatomical loci. The modem evolutionary concept of scapula potato chip chocolate chip cookie Figure 23 . Three shapes that are comparable by outline-based methods: a scapula. a potato chip. and a chocolate chip cookie homology refers to descent with modification from a common ancestral form, which applies to features at any scale, including that of landmarks. Our argument is that similarities in shape cannot be construed as homologous characters (of shape) if they are shapes of incomparable structures. A somewhat more pertinent claim by MacLeod is that the homology of landmarks is sometimes uncertain (Fig. 24) . On the surface, this is a reasonable statement: poor judgment applied to identifying landmarks will lead to inappropriate and even absurd shape comparisons. However, our criticism of conventional outline methods is that they provide no opportunity for systematists to exercise such judgments. Furthermore, the ambiguity depicted in Figure 24 concerns the comparability of the structures on the proximal end of the rib. The location of the landmark in the derived taxa is uncertain because the homology of the novel proximal structures is uncertain. This is not a problem peculiar to landmark-based methods; when the homology of the structures is uncertain, so is the homology of the landmarks on them.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 800,
+                        "end": 809,
+                        "text": "Figure 23",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1315,
+                        "end": 1324,
+                        "text": "(Fig. 24)",
+                        "ref_id": "FIGREF10"
+                    },
+                    {
+                        "start": 1659,
+                        "end": 1668,
+                        "text": "Figure 24",
+                        "ref_id": "FIGREF10"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Outlines",
+                "sec_num": null
+            },
+            {
+                "text": "These criticisms of MacLeod's arguments do not mean that we reject the notion of combining landmarks and outlines, as in his hybrid method of extended eigenshape analysis. This variant of eigenshape analysis is problematic (for reasons discussed below in our section on principal component analysis), but the use of landmarks in outline-based studies may overcome the fatal flaw of purely outline-based methods. If the landmarks are closely spaced and pin down comparable segments of boundary curves, then the regions may be cpmparable, just like any region between landmarks. Other hybrid methods that incorporate both outlines and landmarks such as Bookstein's method of edgels (Bookstein and Green, 1993) , are also being developed. No hybrid method has yet been applied to any systematic question (as of this writing) and they all require further developments in software, but the idea of combining landmarks and outlines is promising. However, before using one of these hybrid methods, it is important to determine whether the comparisons are reasonable in terms of homology. Adding landmarks to dissect an outline into homologous segments improves upon methods that ignore homology, but it does not necessarily mean that the resultant shape variables refer to homologous features.",
+                "cite_spans": [
+                    {
+                        "start": 680,
+                        "end": 707,
+                        "text": "(Bookstein and Green, 1993)",
+                        "ref_id": "BIBREF8"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Outlines",
+                "sec_num": null
+            },
+            {
+                "text": "We have already shown that hypotheses of homology can be formulated and tested for one type of landmark data, shape coordinates. A more familiar kind of landmark-based data is conventional measurements of lengths and widths, and the ratios among them. These can be comparable, but they need not be. The measurements are comparable when the endpoints of the measured segments are homologous landmarks. The measurements are not comparable when the endpoints are not defined by landmarks (e.g., measurements such as \"greatest cranidial width,\" which may occur at different parts of the organism). Even when endpoints are homologous landmarks, some factors can complicate the assessment of similarities and differences of these measurements. Size is one such factor because lengths increase with increasing body size (even if shapes do not differ), so comparison may require adjusting for differences in overall body size. Size adjustment itself is a complex issue, partly because that adjustment sometimes relies on ratios, which cause problems for statistical analysis (Atchley and Anderson, 1978 ; Atchley et aI., 1976). Also, size adjustment often does not address all questions about the independence of the measurements. Moreover, suites of length measurements are generally less effective for describing shape than geometric approaches. Nevertheless, if the endpoints are landmarks, the comparability of the measurements can be ensured, and the measurements can be assessed for similarities and differences, and hypotheses of their homology can be tested for congruence with the cladogram.",
+                "cite_spans": [
+                    {
+                        "start": 1067,
+                        "end": 1094,
+                        "text": "(Atchley and Anderson, 1978",
+                        "ref_id": "BIBREF1"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Landmarks",
+                "sec_num": null
+            },
+            {
+                "text": "Partial warps are another kind of landmark data. Like shape coordinates, partial warps are geometric shape variables. They are especially useful in cases like that shown in Figure 20 , in which multiple triangles overlap on the form. Due to their spatial organization, it is unlikely that the triangles change independently of each other. Partial warps provide a method for analyzing the spatial covariances among them. The method has been described in detail elsewhere (e.g., Bookstein, 1989; 1991; Swiderski, 1993; Zelditch et aI., 1992 ) so herein we only discuss the features of the method that bear directly on phylogenetic studies. Perhaps the most important of these features is that the method models shape change as a deformation, i.e., a smooth mapping of points in one form to corresponding points in another form. The partial warps describe a change in shape, not individual shapes. That is, rather than measuring each shape separately, and then asking how those measurements differ, the difference between the shapes is the object of measurement. As such, the method is inherently comparative. Another important feature of the method is that the deformation can be geometrically decomposed, yielding progressively more localized components (Fig. 25 ). These components are the partial warps. Although they are purely geometric constructs, they provide a basis for describing change.",
+                "cite_spans": [
+                    {
+                        "start": 477,
+                        "end": 493,
+                        "text": "Bookstein, 1989;",
+                        "ref_id": "BIBREF4"
+                    },
+                    {
+                        "start": 494,
+                        "end": 499,
+                        "text": "1991;",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 500,
+                        "end": 516,
+                        "text": "Swiderski, 1993;",
+                        "ref_id": "BIBREF33"
+                    },
+                    {
+                        "start": 517,
+                        "end": 538,
+                        "text": "Zelditch et aI., 1992",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 173,
+                        "end": 182,
+                        "text": "Figure 20",
+                        "ref_id": "FIGREF7"
+                    },
+                    {
+                        "start": 1253,
+                        "end": 1261,
+                        "text": "(Fig. 25",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Landmarks",
+                "sec_num": null
+            },
+            {
+                "text": "Partial warps cannot be interpreted as separately meaningful; an individual partial warp does not depict the effects of a single biological processes nor does it represent an individual evolutionary novelty. Partial warps are purely geometric constructs; the number of them is determined by the number of landmarks, and the axes themselves are determined by the anatomical spacing of landmarks in one form-the one that undergoes the deformation. Their interpretation is complicated by the fact that partial warps at high spatial scale need to be considered when interpreting more localized ones. For example, a localized partial warp, such as that describing the elongation of the postorbital region relative to the eye and snout, must be interpreted in context of a less localized one, such as the elongation of the midbody relative to the head and caudal region. Taken together (as they must be when both contribute to the description of a shape change) the change in the head would involve a combination of the relative elongation of the postorbital region relative to the eye and snout, and the shortening of the head (and caudal body) relative to midbody. Because the postorbital region is part of the head, it is shortened as part of the general shortening of the head (relative to the midbody) even though it is elongated relative to the eye and snout. The localized component describes the change in the head not already described by the component at larger spatial scale, which means that the general shortening of the head 3 . .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Landmarks",
+                "sec_num": null
+            },
+            {
+                "text": "......... --~ 1 4 .. _ .. \u2022 .. t ~ \u2022 ...-.. - .. ~ \u2022 . . .... Midbody Form \u2022 .... \u2022 ' \" , ~ ~'\" ~ ~~ \u2022 .... '- \u2022 2 ... .. , Posterior Body Form , \u2022 II \u2022 \u2022 11\" 1",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Landmarks",
+                "sec_num": null
+            },
+            {
+                "text": "Postorbital Form Figure 25 . The decomposition of a deformation by its partial warps; shown are three partial warps, one at high spatial scale, the other two at lower spatial scale.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 17,
+                        "end": 26,
+                        "text": "Figure 25",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Landmarks",
+                "sec_num": null
+            },
+            {
+                "text": "relative to the midbody must be taken into account before concentrating on what remains to be described.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Landmarks",
+                "sec_num": null
+            },
+            {
+                "text": "Partial warps are geometric constructs and while independent, their independence is geometric, not phylogenetic. Taken on its own, an individual partial warp need not describe an evolutionary novelty. It may be the case that a single partial warp diagnoses a monophyletic group, but such cases are probably rare. Thus, individual partial warps cannot be equated to characters. Nevertheless, they are still useful in the discovery of characters because they are functions of homologous points. The components themselves (not just the landmarks) are comparable from specimen to specimen and partial warps can be analyzed like any other data; for example, we can look at scatter-plots of partial warp scores just as we examined scatter-plots of shape coordinates. So long as the same reference is used in all comparisons, partial warps describe modifications of homologous features. This is true regardless of the how the particular reference form is chosen.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Landmarks",
+                "sec_num": null
+            },
+            {
+                "text": "It may be important (and problematic) that the partial warps depend on a reference form. Considering that the reference form determines the variables themselves, that choice could affect the characters discerned in the analysis and thereby affect the phylogenetic conclusions (Fink and Zelditch, 1995) . This is most likely to be the case if individual partial warps are examined one by one, as done by Fink and Zelditch, 1995 because each individual dimension is analyzed separately, and these are determined by the reference form. Only one published study has examined the impact of this choice on phylogenetic conclusions (Adams and Rosenberg, 1998) . In that study, outgroups were used as the reference forms, and four analyses were done, each with a different outgroup and thus each with a different reference form. Ontogenetic transformations were examined, partial warp by partial warp, to determine whether that individual shape variable undergoes an ontogenetic change, following the initial steps ofthe protocol presented in Fink and Zelditch (1995) . According to that protocol, three possibilities are considered for each partial warp: (1) no ontogenetic change; (2) ontogenetic change in the positive direction; and (3) ontogenetic change in the negative direction. Similarities among taxa with respect to these possibilities are hypothesized to be homologous, differences are hypothesized to be novelties. The data are analyzed by parsimony, and the characters are examined for their phylogenetic independence using one of the three tests devised by Fink and Zelditch, according to which features are construed as correlated if two or more variables show the same kind of change (e.g., a gain, a loss, or a change in the sign of an ontogenetic allometric coefficient) at more than one node. Adams and Rosenberg conclude that the choice of reference does affect phylogenetic conclusions. However, they varied both the outgroup and the reference form simultaneously, thus completely confounding these two factors. As a result, we cannot tell whether it is the choice of the reference form, or the choice of outgroup (or both) that affect their conclusions (Zelditch and Fink, 1998) . Moreover, their conflicting results may reflect the sparse phylogenetic information in their shape data.",
+                "cite_spans": [
+                    {
+                        "start": 276,
+                        "end": 301,
+                        "text": "(Fink and Zelditch, 1995)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 403,
+                        "end": 426,
+                        "text": "Fink and Zelditch, 1995",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 625,
+                        "end": 652,
+                        "text": "(Adams and Rosenberg, 1998)",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 1035,
+                        "end": 1059,
+                        "text": "Fink and Zelditch (1995)",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1148,
+                        "end": 1151,
+                        "text": "(1)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2168,
+                        "end": 2193,
+                        "text": "(Zelditch and Fink, 1998)",
+                        "ref_id": "BIBREF40"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Landmarks",
+                "sec_num": null
+            },
+            {
+                "text": "To explore the effects of the reference form on phylogenetic conclusions, without confounding outgroups and reference forms, we herein reexamine the piranha data published in Fink and Zelditch, 1995. In that analysis, we used the outgroup juvenile as the biological reference for all comparisons (although each ontogeny was described as the change from each species' own juvenile). Three other reference forms were also used: a) the outgroup adult shape, b) the consensus form calculated from all the specimens (favored by some workers on statistical grounds [e.g., Rohlf, 1998 ]), and c) the highly modified juvenile shape of Serrasalmus elongatus (included simply to examine the consequences of a poor choice in that it represents a highly derived form and is far from the statistical centroid). Each reference form was used to calculate the partial warp scores and each set of partial warps was analyzed by parsimony twice (holding the outgroup constant), first in conjunction with all the other available data, and second by themselves. The phylogenetic conclusion based on all the data is not affected by the choice of the reference form, but relationships among species of Pygocentrus based solely on shape data are differently resolved depending on the choice of reference form (Fig. 26) . This is consistent with our hypothesis that strongly supported relationships are not affected by the choice of reference form, in contrast to those that receive little support from the data. This issue requires more extensive analysis, especially if there are several equally plausible choices of reference form (such as multiple outgroups). Also, this issue requires analysis using more sophisticated protocols for characterizing ontogenies of shape, such as multivariate regression (discussed in detail below). However, it would not be surprising to find that the basis of comparison, and the particular variables examined, can affect phylogenetic conclusions.",
+                "cite_spans": [
+                    {
+                        "start": 175,
+                        "end": 199,
+                        "text": "Fink and Zelditch, 1995.",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 566,
+                        "end": 577,
+                        "text": "Rohlf, 1998",
+                        "ref_id": "BIBREF31"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1285,
+                        "end": 1294,
+                        "text": "(Fig. 26)",
+                        "ref_id": "FIGREF11"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Landmarks",
+                "sec_num": null
+            },
+            {
+                "text": "In this section, we examine three multivariate constructs, two of which are functions of the sample variance-covariance matrices (principal components and canonical variates) and one of which is a function of the covariance between size and shape (the multivariate regression of shape on size). The question is whether the concept of homology can be applied to these constructs.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Multivariate Constructs",
+                "sec_num": null
+            },
+            {
+                "text": "Principal Component Analysis and Canonical Variates Analysis are two of the most widely used tools in traditional and geometric morphometrics. Their primary purpose is construct a morphospace of orthogonal axes, having fewer dimensions than the number of variables actually measured. This reduction in dimensionality is accomplished by a rigid rotation of the data such that the first dimension of the new coordinate system lies along the longest dimension of the sample. For example, the bivariate ellipse of two measurements is _------\"\"'apila\"\" \"\"~lJ:s\"\" The cladograrn implied by all the data, including partial warp data, and also implied by analysis of partial warps alone, using the average adult Pygopristis denticulata as the reference; B: the cladograrn implied by analysis of partial warps alone, using the average juvenile P. denticulata as the reference; C: the consensus cladograrn implied by analysis of partial warps alone, using the consensus form as the reference.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Principal Component Analysis and Canonical Variates Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "shown in Figure 27 ; the major axis of that ellipse is the first principal component; the next longest axis orthogonal to the first is the second principal component. Although there are just as many principal components as there are measurements, usually it takes only a few to describe most of the variation within the sample. Individual observations can then be plotted in this new coordinate system, by calculating scores for each specimen; the scores are projections of the data for that specimen onto principal components. Canonical variates are axes aligned with the dimensions of greatest dissimilarity among samples, taking into account the within-sample variance.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 9,
+                        "end": 18,
+                        "text": "Figure 27",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Principal Component Analysis and Canonical Variates Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Principal components (and canonical variates) are functions of phenetic distances among specimens. They provide a basis for comparison according y , x PC2 PC1 Figure 27 . Principal components for an analysis of two variables, x and y. The longest axis of the ellipse of variation defines the first principal component (PC 1), the next longest axis, constrained to be statistically orthogonal to the first, defines the second principal component (PC2).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 159,
+                        "end": 168,
+                        "text": "Figure 27",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Principal Component Analysis and Canonical Variates Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "to the dimensions that (maximally) distinguish specimens. As such, the methods are useful in studies concerned with phenetic distances among taxa, but not necessarily for evolutionary studies of shape transformations. Sometimes, scatter-plots suggest clusters of taxa that correspond to monophyletic groups, but they need not. And sometimes they suggest trends that might be interpretable as evolutionary, but they need not. For example, Figure 28 shows four shapes: A, B, C and D and the relationships among taxa that have these four shapes. The first principal component (Fig. 29A ) differentiates shapes A and B from C and D; these two pairs of shapes differ in the morphological direction depicted by the deformed grid, a pronounced deepening and relative shortening of the \"head\" (especially anteriorly) as well as a slight constriction of the ventral part of the head. The second component largely describes what differentiates D from the others, and also what differentiates B from A; this is a dimension of relative deepening of the head, especially posteriorly.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 438,
+                        "end": 447,
+                        "text": "Figure 28",
+                        "ref_id": "FIGREF12"
+                    },
+                    {
+                        "start": 573,
+                        "end": 582,
+                        "text": "(Fig. 29A",
+                        "ref_id": "FIGREF13"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Principal Component Analysis and Canonical Variates Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Neither component separately, nor the two taken together, effectively captures the evolutionary transformation from A to B (a general shallowing of the body relative to its length). Compared to the other taxa, the difference between these two is too subtle to be a major axis of phenetic disparity. In the case of the change from B to C, the first component gives a reasonably accurate description of a historical transformation, which is not surprising because that change is so profound that it approximates the major axis of disparity. Taken together, the first two components capture much of the difference between C and D, which again is not surprising because the difference between D and the other three taxa dominates the second component. But the historical transformations in shape are not necessarily along the axes that discriminate among them all.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Principal Component Analysis and Canonical Variates Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "The most troubling feature of Principal Component Analysis is that components depend strictly on the dimensions of disparity-these, after all, are the basis of comparison. As a result, the exclusion of any shape from the analysis could transform that basis. For example, if shape C is omitted from the analysis, we get a different pair of components (Fig. 29B) , even though we are still comparing shapes A, Band D, and even though we are comparing shapes in terms of the same raw data (the same six landmarks). Nevertheless, the basis of comparison is altered. Because that basis is a function of all the taxa included in the analysis, we cannot compare a subset of taxa according to what differentiates them in particular but rather must use the morphospace determined by the entire sample. Dimensions that might be relevant for a particular pair of taxa may be spread across several components that are trivial in context of the entire sample. Normally, if we are trying to compare taxa with respect to comparable features, we would not define comparability of features according to what differs most among most taxa. Instead, we would define them according to what is homologous. And normally, we are not especially interested in what most differentiates taxa. Although we are seeking evidence of evolutionary novelties, they are not equivalent to axes of greatest disparity over the whole assortment of shapes.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 350,
+                        "end": 360,
+                        "text": "(Fig. 29B)",
+                        "ref_id": "FIGREF13"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Principal Component Analysis and Canonical Variates Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Axes of variance and disparity can provide useful depictions of the dimensions of greatest overall dissimilarity, but they are unlikely to correspond to characters. That is because characters are dimensions along the branches of a cladogram, not lines along which a collection of taxa maximally differ. There is no reason to suppose that any dimensions of change lie along any principal components or even that they lie along a combination of the first few principal components. Principal component scores (like canonical variate scores) cannot be viewed as homologous features of organisms because a homologue is not a function of phenetic disparity; it is an intrinsic feature of an organism and not conditional on the dimensions of greatest dissimilarity among shapes. While axes of phenetic disparity may describe changes in homologous features, the components themselves are not homologous in their own right and similarities in scores do not suggest homologous novelties. For those reasons, the scores cannot be coded and analyzed like conventional phylogenetic data. The scores do contain information about morphological diversity, and similarities and differences in the scores might even provide insights into characters. They might even serve as a starting point for a historical, morphological analysis. Unfortunately, it is not obvious how to transform these phenetic studies into historical, evolutionary ones.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Principal Component Analysis and Canonical Variates Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Another multivariate technique useful for summarizing changes in overall shape is multivariate regression. This method presumes that there is a separately measured independent variable on which shape is regressed. In phylogenetic studies, this assumption is rarely met except in comparisons of ontogeny. In the case of ontogenetic analyses, body size is the independent variable and the shape covariates are the ontogenetic changes in shape. Of all multivariate constructs, the shape variables correlated with size provide the most promising data for phylogenetic studies of ontogenetic data. We suspect that analyses based on multivariate descriptions of ontogenetic shape change are preferable to those based on individual partial warps because they are multivariate. Howe.ver, these too must be decomposed to find informative similarities. Figure 30 shows ontogenetic regressions of shape on size for four species of piranhas, highlighting the ontogeny of the body profile implied by changes in location of shape coordinates (Fig. 30A ) and depicted as a deformation based on the thin-plate spline (Fig. 30B) . In this analysis, the four species include the outgroup, Pygopristis denticulata, and three species of Serrasalmus, all shallow-bodied as juveniles. Given these ontogenetic trajectories, we can ask whether taxa undergo similar transformations in shape, i.e., whether these ontogenetic trajectories are in the same direction. This comparison of directions is particularly useful for studies of heterochrony because the hypothesis of heterochrony presumes that taxa share a common direction of change (i.e., the same ontogenetic trajectory of shape) differing solely in rate or timing of progress along it. In this comparison, S. gouldingi and S. manueli undergo considerably more shape change than does S. elongatus (over a comparable phase of developmental time) but these taxa differ in more than just magnitude. They also differ in the directions of change. The angle between the ontogenetic vectors of S. gouldingi and S. elongatus is 41.5 0 , which is statistically significantly different from value of 0 0 , the value expected ifvectors are in the same direction (the statistical analysis is based on a resampling procedure, explained in Zelditch et aI., 2000b) . Not only do S. gouldingi and S. manueli differ significantly from S. elongatus, they also differ significantly from each other, although that angle is only 26.10.",
+                "cite_spans": [
+                    {
+                        "start": 2258,
+                        "end": 2281,
+                        "text": "Zelditch et aI., 2000b)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 843,
+                        "end": 852,
+                        "text": "Figure 30",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1028,
+                        "end": 1037,
+                        "text": "(Fig. 30A",
+                        "ref_id": "FIGREF1"
+                    },
+                    {
+                        "start": 1101,
+                        "end": 1111,
+                        "text": "(Fig. 30B)",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Multivariate Regression",
+                "sec_num": null
+            },
+            {
+                "text": "These graphical depictions of ontogenetic change in overall shape are potentially useful for phylogenetic studies. However, neither the whole vector of allometric coefficients, nor their individual components, are necessarily characters. That is, we would not treat a whole ontogenetic trajectory as one character, nor treat a rate of growth of a single morphometric variable as a character. Were we to take the first approach we could not discern similarities among taxa because all these ontogenetic vectors are different. Were we to take the second approach, we would virtually equate the variables to characters. Nevertheless, the trajectories are still comparable as ontogenetic transformations of homologous features, and as such, they are useful for phylogenetic studies.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Multivariate Regression",
+                "sec_num": null
+            },
+            {
+                "text": "One similarity among all four of these species is that they deepen ontogenetically, but they differ in where this deepening occurs. In Pygopristis, that deepening occurs to a similar extent dorsally and ventrally, and there is no striking regional differentiation in relative rates of deepening along the anteroposterior axis. But in the three Serrasalmus, the body deepens dorsally more than ventrally, and the extent of deepening increases quite abruptly near the supraoccipital process, then decreases posteriorly. Moreover, all three Serrasalmus, even S. elongatus, deepen anterodorsally to a greater extent than does Pygopristis. Ventrally, they either deepen to a similar extent as Pygopristis (S. manueli and S. gouldingi) or to a lesser extent (S. elongatus). S. gouldingi and S. manueli differ from S. elongatus in the extent of deepening, both dorsally and ventrally, a difference especially pronounced in the anterior back, between the tip of the supraoccipital process and the anterior insertion of the dorsal fin. In this region, the ontogeny of S. elongatus is similar to that seen in Pygopristis (even to the extent of deepening). While the (increased) extent of deepening in S. gouldingi and S. manueli is a shared feature, these species differ from each other (as well as from S. elongatus) in the ontogeny of ventroposterior body proportions. The difference between this pair of species can be depicted explicitly, by superimposing their ontogenetic trajectories on the same juvenile shape (Fig. 31) . In S. gouldingi, posterior body depth is slightly positively allometric anterior to the caudal peduncle, whereas in S. manueli, that region is negatively allometric. In the positive allometry of this region, S. gouldingi resembles Pygopristis (in S. elongatus, depth in this region is virtually isometric).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 1508,
+                        "end": 1517,
+                        "text": "(Fig. 31)",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Multivariate Regression",
+                "sec_num": null
+            },
+            {
+                "text": "Because we have only one outgroup, some interpretations are ambiguous; we cannot determine whether the features shared by the three species of Serrasalmus are novelties of that group, or instead are novelties of Pygopristis. Nevertheless, we can find a character distinguishing Pygopristis from Serrasalmus, which implies an increase (in Serrasalmus) of the extent of deepening dorsally, and the acquisition of regional differentiation in relative rates of deepening along the anteroposterior axis. These might be two characters, but they might constitute a single feature: a general increase in the extent of dorsal deepening with regional differentiation along the anteroposterior body axis, specifically, an increasing extent of deepening near the supraoccipital process, succeeded by the decreasing extent posteriorly. In addition to that character, we can also find a shared derived features of the ontogenies of S. manueli and S. gouldingi: an increased extent of deepening, especially in the anterior back, and an increase in extent of deepening of the posterior head, especially suborbitally.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Multivariate Regression",
+                "sec_num": null
+            },
+            {
+                "text": "Using morphometric methods for such purely descriptive purposes may seem to undermine their systematic value. Perhaps most importantly, using them to obtain descriptions that are subsequently compared and decomposed in a qualitative manner may seem to retreat from quantitative morphology. Yet, the purpose of morphometrics is description. It permits us to articulate morphological similarities and differences, giving us a precise and objective language. Even though we do not compare taxa in terms of the quantified parameters specifically, such as growth rates at individual landmarks, or regression coefficients of partial warps, we use them to aid in our discovery of characters.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Multivariate Regression",
+                "sec_num": null
+            },
+            {
+                "text": "The classification of morphometric variables has been based on simple dichotomies, such as type of raw data (i.e., outlines vs.landmarks) or geometric vs. traditional, but these are less useful for systematists than a scheme emphasizing homology. The revised classification would distinguish classes of data according to whether they depend on biological homology. At present, outline-based methods are largely unconstrained by homology, but should S. manueli vs. S. gouldingi --...... Figure 31 . A comparison ontogenetic transformations in body profile of Serrasalmus gouldingi and S. manueli, both drawn on the same juvenile form. Ontogenetic trajectories of S. gouldingi are shown in dotted lines. Shaded regions depict those expanding to a greater extent in S. gouldingi than in S. manueli. they come to rely on homology as the criterion for matching forms, and should they permit comparisons among shapes without respect to their degree of overall morphometric dissimilarity, they too would be homology-based. While landmark-based data usually rely on biological homology, they need not be fully homology-based because they might use a function of overall morphometric dissimilarity as the basis for comparisons. Whether the data are traditional or geometric has little bearing on this because the criticisms directed at Principal Component Analysis apply equally to the geometric analogue of that method (Relative Warps Analysis). Both can begin with homologous landmarks, but a phenetic distance function intrudes into the comparison of shapes.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 486,
+                        "end": 495,
+                        "text": "Figure 31",
+                        "ref_id": "FIGREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Revising the Classification of Morphometric Variables",
+                "sec_num": null
+            },
+            {
+                "text": "The revised classification is at odds with recent attempts to promote a less divisive approach to the treatment of morphometric data. Some workers have argued that all data can be useful, depending on the specifics of the questions and the shapes (e.g., MacLeod, 1999; McLellan and Endler, 1998) . But not all data are equally useful for phylogenetic studies. Data that disregard homology can certainly discriminate among shapes, but even if useful for that purpose, those discriminators are not characters. Should we want to determine that our sample comprises distinct shapes, they are useful. But once we make that determination, we need to identify novel shape features of homologous structures. That identification is not simply a matter of discrimination because the analysis must be restricted to homologous structures, and it requires structuring comparisons so as to discern evolutionary novelties, not dimensions of maximal dissimilarity. Methods unable to ensure that comparisons are made among homologous structures may serve the purpose of discrimination but they cannot aid in the discovery of characters. Distinguishing among methods according to whether they aid in the discovery of characters is divisive, but not needlessly so.",
+                "cite_spans": [
+                    {
+                        "start": 254,
+                        "end": 268,
+                        "text": "MacLeod, 1999;",
+                        "ref_id": "BIBREF23"
+                    },
+                    {
+                        "start": 269,
+                        "end": 295,
+                        "text": "McLellan and Endler, 1998)",
+                        "ref_id": "BIBREF24"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "\u00a5 \u2022",
+                "sec_num": null
+            },
+            {
+                "text": "Of all the arguments challenging the use of morphometric data in phylogenetic studies, the most damning has been that the concept of homology cannot apply to them. And yet, some morphometric variables do describe shapes of comparable features, and these can be assessed for their similarities and differences, and those assessments can be formalized by coding, and the resulting hypotheses of homology and novelty can be tested for their congruence with the cladogram. Thus, the conventional phylogenetic concept of homology is just as applicable to them as to qualitative shape features. Such morphometric variables, including traditional measurement data, the geometric shape coordinates and the partial warps, supply a basis of comparison useful in the discovery of characters even if the variables cannot be automatically equated to characters. That they cannot be so equated is important; morphometric methods merely supply dimensions of comparison, defining them without regard to history or taxa. But that is true whether the data are quantitative or qualitative. When it comes to the issue of homology, we cannot see any fundamental distinction between quantitative and qualitative data.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "CONCLUSIONS",
+                "sec_num": null
+            },
+            {
+                "text": "Although quantitative and qualitative data are not fundamentally distinct, some analytic methods disregard homology, replacing it by another basis of comparison. Thus, we accept the potential legitimacy of morphometric variables in phylogenetic studies, but we cannot automatically extend that acceptance to all morphometric variables. If homology is replaced by some substitute (e.g., dimensions of a superimposed ellipse or dimensions of phenetic disparity), the resulting variables will differ sharply from qualitative data. These variables are not interpretable as characters, and might not even aid in the discovery of them. The variables produced by such methods could coincide with comparable features, and axes of phenetic disparity could coincide with independent evolutionary novelties. However, systematists should not rely on these coincidences because they are accidental, being neither the likely nor intended results of the methods.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "CONCLUSIONS",
+                "sec_num": null
+            },
+            {
+                "text": "When care is taken to ensure that morphometric comparisons are framed in terms of homology, there is no barrier to using the quantitative variables produced by geometric morphometrics in subsequent phylogenetic analyses. These morphometric variables (e.g., shape coordinates, partial warps, multivariate regressions of shape on size) have great potential. They can be quite useful as objective tools for detecting subtle differences among individuals, for discerning differences in distributions of a variable feature and for describing ontogeny. However, the greatest utility of these variables, and their greatest attraction, is as tools that explicitly address the geometric aspects of morphology. In that respect, they are tools for describing shape differences and for understanding the evolutionary history of shape.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "CONCLUSIONS",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "Partial funding for this work was provided by NSF DEB-9509195. We thank C. 1. Humphries for a helpful critique and H. D. Sheets for methods and the software used to compare ontogenies statistically, and to explicitly superimpose ontogenies of shape coordinates graphically. We also thank the symposium organizers for the opportunity to participate in this discussion.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACKNOWLEDGMENTS",
+                "sec_num": null
+            },
+            {
+                "text": ".1111111111111 B Figure 30 . Ontogenetic regressions of shape on size for four species of piranhas; A: changes in outlines inferred from shape coordinates (shaded regions depict ontogenetic changes in profile); B: depicted as deformations.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 17,
+                        "end": 26,
+                        "text": "Figure 30",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "annex",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Partial-warps, phylogeny, and ontogeny: A comment on Fink and Zelditch (1995)",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Adams",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Rosenberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Systematic Biology",
+                "volume": "47",
+                "issue": "",
+                "pages": "167--172",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Adams, D.C., and Rosenberg, M.S. Partial-warps, phylogeny, and ontogeny: A comment on Fink and Zelditch (1995). Systematic Biology 1998; 47: 167-172.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Ratios and the statistical analysis of biological data. Systematic",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Atchley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Anderson",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1978,
+                "venue": "Zoology",
+                "volume": "27",
+                "issue": "",
+                "pages": "71--78",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Atchley, W.R., and Anderson, D. Ratios and the statistical analysis of biological data. System- atic Zoology 1978; 27:71-78.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Statistical properties of ratios. I. Empirical results",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Atchley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Gaskins",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Anderson",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1976,
+                "venue": "Systematic Zoology",
+                "volume": "25",
+                "issue": "",
+                "pages": "137--148",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Atchley, W.R., Gaskins, C. T., and Anderson, D. Statistical properties of ratios. I. Empirical re- sults. Systematic Zoology 1976; 25:137-148.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Size and shape spaces for landmark data in two dimensions",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "Statistical Science",
+                "volume": "1",
+                "issue": "",
+                "pages": "181--242",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bookstein, F.L. Size and shape spaces for landmark data in two dimensions. Statistical Science 1986; 1:181-242.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "Principal warps: thin-plate splines and the decomposition of deformations",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+                "volume": "11",
+                "issue": "",
+                "pages": "567--585",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bookstein, F.L. Principal warps: thin-plate splines and the decomposition of deformations. IEEE Transactions on Pattern Analysis and Machine Intelligence 1989; 11:567-585.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Morphometric Tools/or Landmark Data: Geometry and Biology",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bookstein, F.L. Morphometric Tools/or Landmark Data: Geometry and Biology. Cambridge: Cambridge University Press, 1991.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Can biometrical shape be a homologous character?",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Homology: The Hierarchical Basis o/Comparative Biology",
+                "volume": "",
+                "issue": "",
+                "pages": "198--227",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bookstein, F.L. Can biometrical shape be a homologous character? In Homology: The Hier- archical Basis o/Comparative Biology, B. K. Hall, ed., p. 198-227. New York: Academic Press, 1994.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "A feature space for edgels in images with landmarks",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "D K"
+                        ],
+                        "last": "Green",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Journal of Mathematical Imaging and Vision",
+                "volume": "3",
+                "issue": "",
+                "pages": "231--261",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bookstein, F.L., and Green, W.D.K. A feature space for edgels in images with landmarks. Jour- nal of Mathematical Imaging and Vision 1993; 3:231-261.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Quantitative characters in phylogenetic analysis",
+                "authors": [
+                    {
+                        "first": "La",
+                        "middle": [],
+                        "last": "Chappill",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "Cladistics",
+                "volume": "5",
+                "issue": "",
+                "pages": "217--234",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Chappill, lA. Quantitative characters in phylogenetic analysis. Cladistics 1989; 5:217-234.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Cladistics and computers: A chironomid conundum?",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Cranston",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Humphries",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "Cladistics",
+                "volume": "4",
+                "issue": "",
+                "pages": "72--92",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cranston, P.S., and Humphries, C.l Cladistics and computers: A chironomid conundum? Cla- distics 1988; 4:72-92.",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "phylogenetic models and cladistics: Means to an end or much ado abot nothing?",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Crowe",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Morphometrics",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "Cladistics",
+                "volume": "10",
+                "issue": "",
+                "pages": "77--84",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Crowe, T. Morphometrics, phylogenetic models and cladistics: Means to an end or much ado abot nothing? Cladistics 1994; 10:77-84.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Morphometrics and cladistics: measuring phylogeny in the sea urchin Echinocardium",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "David",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Laurin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1996,
+                "venue": "Evolution",
+                "volume": "50",
+                "issue": "",
+                "pages": "348--359",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "David, B., and Laurin, B. Morphometrics and cladistics: measuring phylogeny in the sea ur- chin Echinocardium. Evolution 1996; 50:348-359.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Comparative anatomy and the evolution of vertebrates",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Davis",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1949,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Davis, D.D. Comparative anatomy and the evolution of vertebrates. In Genetics, Paleontology and Evolution, G. L. Jepsen, E. Mayr, and G. G. Simpson, eds. Princeton: Princeton Univer- sity Press, 1949.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Keywords in Evolutionary Biology",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Donoghue",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Homology",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Donoghue, MJ. Homology. In Keywords in Evolutionary Biology, E. F. Keller and E. A. Lloyd, eds. Cambridge, MA: Harvard University Press, 1992.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "An exact method for the characterization of grain shape",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Ehrlich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "&",
+                        "middle": [],
+                        "last": "Weinberg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1970,
+                "venue": "Journal of Sedimentary Petrology",
+                "volume": "40",
+                "issue": "",
+                "pages": "205--212",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ehrlich, R., and Weinberg, &. An exact method for the characterization of grain shape. Jour- nal of Sedimentary Petrology 1970; 40:205-212.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Measuring shape variation of two-dimensional outlines",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Ferson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Rohlf",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "K"
+                        ],
+                        "last": "Koehn",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1985,
+                "venue": "Systematic Zoology",
+                "volume": "34",
+                "issue": "",
+                "pages": "59--68",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Ferson, S., Rohlf, FJ., and Koehn, R.K. Measuring shape variation of two-dimensional out- lines. Systematic Zoology 1985; 34:59-68.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Phylogenetic analysis of ontogenetic shape transformations: A reassessment of the piranha genus Pygocentrus (Teleostei)",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Fink",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Zelditch",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Systematic Biology",
+                "volume": "44",
+                "issue": "",
+                "pages": "343--360",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Fink, W.L., and Zelditch, M.L. Phylogenetic analysis of ontogenetic shape transformations: A reassessment of the piranha genus Pygocentrus (Teleostei). Systematic Biology 1995; 44:343- 360.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Operational point homology by Cartesian transformation to standard shape-examples from setal positions in phytoseiid mites",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "I C"
+                        ],
+                        "last": "Hansell",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Rowell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "Systematic Zoology",
+                "volume": "29",
+                "issue": "",
+                "pages": "43--49",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hansell, R.I.C., Bookstein, F.L., and Rowell, HJ. Operational point homology by Cartesian transformation to standard shape-examples from setal positions in phytoseiid mites. System- atic Zoology 1980; 29:43-49.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "The concept of homology in biology",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Jardine",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1967,
+                "venue": "British Journal for the Philosophy of Science",
+                "volume": "18",
+                "issue": "",
+                "pages": "125--139",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jardine, N. The concept of homology in biology. British Journal for the Philosophy of Science 1967; 18:125-139.",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Fourier Descriptors and Their Applications in Biology, P. E. Lestrel",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Lestrel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Introduction",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "3--21",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lestrel, P.E. Introduction. In Fourier Descriptors and Their Applications in Biology, P. E. Lestrel, ed., p. 3-21. Cambridge: Cambridge University Press, 1997.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "On eigenshape analysis",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Lohmann",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "N"
+                        ],
+                        "last": "Schweitzer",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Proceedings of the Michigan Morphometries Workshop",
+                "volume": "",
+                "issue": "",
+                "pages": "147--166",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lohmann, G.P., and Schweitzer, P.N. On eigenshape analysis. In Proceedings of the Michigan Morphometries Workshop, EJ. Rohlf and P.L. Bookstein, eds., Vol. Special Publication 2, pp. 147-166. Ann Arbor: University of Michigan Museum of Zoology, 1990.",
+                "links": null
+            },
+            "BIBREF23": {
+                "ref_id": "b23",
+                "title": "Generalizing and extending the eigenshape method of shape space visualization and analysis",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Macleod",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "Paleobiology",
+                "volume": "25",
+                "issue": "",
+                "pages": "197--138",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "MacLeod, N. Generalizing and extending the eigenshape method of shape space visualization and analysis. Paleobiology 1999; 25:197-138.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "The relative success of some methods for measuring and describing the shape of complex objects",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [],
+                        "last": "Mclellan",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "La",
+                        "middle": [],
+                        "last": "Endler",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Systematic Biology",
+                "volume": "47",
+                "issue": "",
+                "pages": "264--282",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "McLellan, T., and Endler, lA. The relative success of some methods for measuring and describ- ing the shape of complex objects. Systematic Biology 1998; 47:264-282.",
+                "links": null
+            },
+            "BIBREF25": {
+                "ref_id": "b25",
+                "title": "Evolutionary character analysis: Tracing character change on a cladogram",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Mickevich",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Weller",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "Cladistics",
+                "volume": "6",
+                "issue": "",
+                "pages": "137--170",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Mickevich, M.P., and Weller, S.J. Evolutionary character analysis: Tracing character change on a cladogram. Cladistics 1990; 6: 137-170.",
+                "links": null
+            },
+            "BIBREF26": {
+                "ref_id": "b26",
+                "title": "Morphological characters and homology",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Patterson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1982,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "21--74",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Patterson, C. Morphological characters and homology. In Problems of Phylogenetic Recon- struction, K.A. Joysey and A.E. Friday, eds., p. 21-74. London: Academic Press, 1982.",
+                "links": null
+            },
+            "BIBREF27": {
+                "ref_id": "b27",
+                "title": "The nature of cladistic data",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Pimentel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "Riggins",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1987,
+                "venue": "Cladistics",
+                "volume": "3",
+                "issue": "",
+                "pages": "201--209",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pimentel, RA., and Riggins, R The nature of cladistic data. Cladistics 1987; 3:201-209.",
+                "links": null
+            },
+            "BIBREF28": {
+                "ref_id": "b28",
+                "title": "On character coding for phylogeny reconstruction",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Pleijel",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Cladistics",
+                "volume": "11",
+                "issue": "",
+                "pages": "305--315",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pleijel, P. On character coding for phylogeny reconstruction. Cladistics 1995; 11:305-315.",
+                "links": null
+            },
+            "BIBREF29": {
+                "ref_id": "b29",
+                "title": "Character definitions and character state delineations: The bete noire of phylogenetic inference",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "G"
+                        ],
+                        "last": "Pogue",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Mickevich",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "Cladistics",
+                "volume": "6",
+                "issue": "",
+                "pages": "319--364",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Pogue, M.G., and Mickevich, M.P. Character definitions and character state delineations: The bete noire of phylogenetic inference. Cladistics 1980; 6:319-364.",
+                "links": null
+            },
+            "BIBREF30": {
+                "ref_id": "b30",
+                "title": "The logical basis for the use of continuous characters in phylogenetic systematics",
+                "authors": [
+                    {
+                        "first": "T",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Rae",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Cladistics",
+                "volume": "14",
+                "issue": "",
+                "pages": "221--228",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rae, T.C. The logical basis for the use of continuous characters in phylogenetic systematics. Cladistics 1998; 14:221-228.",
+                "links": null
+            },
+            "BIBREF31": {
+                "ref_id": "b31",
+                "title": "On applications of geometric morphometrics to studies of ontogeny and phylogeny",
+                "authors": [
+                    {
+                        "first": "E",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Rohlf",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Systematic Biology",
+                "volume": "47",
+                "issue": "",
+                "pages": "147--158",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rohlf, EJ. On applications of geometric morphometrics to studies of ontogeny and phylogeny. Systematic Biology 1998; 47:147-158.",
+                "links": null
+            },
+            "BIBREF32": {
+                "ref_id": "b32",
+                "title": "A new coding procedure for morphometric data with an example from periodical cicada wing veins",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Simon",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1983,
+                "venue": "Numerical Taxonomy, l Felsenstein",
+                "volume": "",
+                "issue": "",
+                "pages": "378--283",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Simon, C. A new coding procedure for morphometric data with an example from periodical cicada wing veins. In Numerical Taxonomy, l Felsenstein, ed., p. 378-283. Berlin: Springer- Verlag, 1983.",
+                "links": null
+            },
+            "BIBREF33": {
+                "ref_id": "b33",
+                "title": "Morphological evolution of the scapula in tree squirrels, chipmunks, and ground squirrels (Sciuridae): An analysis using thin-plate splines",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Swiderski",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Evolution",
+                "volume": "47",
+                "issue": "",
+                "pages": "1854--1873",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Swiderski, D.L. Morphological evolution of the scapula in tree squirrels, chipmunks, and ground squirrels (Sciuridae): An analysis using thin-plate splines. Evolution 1993; 47: 1854- 1873.",
+                "links": null
+            },
+            "BIBREF34": {
+                "ref_id": "b34",
+                "title": "Why morphometrics isn't special: Coding quantitative data for phylogenetic analysis",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Swiderski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Zelditch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Fink",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Systematic Biology",
+                "volume": "47",
+                "issue": "",
+                "pages": "508--519",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Swiderski, D.L., Zelditch, M.L., and Fink, w.L. Why morphometrics isn't special: Coding quantitative data for phylogenetic analysis. Systematic Biology 1998; 47:508-519.",
+                "links": null
+            },
+            "BIBREF35": {
+                "ref_id": "b35",
+                "title": "The holy grail of the perfect character: The cladistic treatment of morphometric data",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [],
+                        "last": "Thiele",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1993,
+                "venue": "Cladistics",
+                "volume": "9",
+                "issue": "",
+                "pages": "275--304",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Thiele, K. The holy grail of the perfect character: The cladistic treatment of morphometric data. Cladistics 1993; 9: 275-304.",
+                "links": null
+            },
+            "BIBREF36": {
+                "ref_id": "b36",
+                "title": "A comparison of two methods of character construction",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Wilkinson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Cladistics",
+                "volume": "11",
+                "issue": "",
+                "pages": "297--308",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Wilkinson, M. A comparison of two methods of character construction. Cladistics 1995; 11 :297-308.",
+                "links": null
+            },
+            "BIBREF37": {
+                "ref_id": "b37",
+                "title": "Fourier descriptors for plane closed curves",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [
+                            "T"
+                        ],
+                        "last": "Zahn",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "Z"
+                        ],
+                        "last": "Roskies",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1972,
+                "venue": "IEEE Transactions on Computing",
+                "volume": "21",
+                "issue": "",
+                "pages": "269--281",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zahn, C.T., and Roskies, RZ. Fourier descriptors for plane closed curves. IEEE Transactions on Computing 1972; 21:269-281.",
+                "links": null
+            },
+            "BIBREF38": {
+                "ref_id": "b38",
+                "title": "Ontogeny of integrated skull growth in the cotton rat Sigmodonfulviventer",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Zelditch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Bookstein",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Lundrigan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "Evolution",
+                "volume": "46",
+                "issue": "",
+                "pages": "1164--1180",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zelditch, M.L., Bookstein, P.L., and Lundrigan, B.L. Ontogeny of integrated skull growth in the cotton rat Sigmodonfulviventer. Evolution 1992; 46:1164-1180.",
+                "links": null
+            },
+            "BIBREF39": {
+                "ref_id": "b39",
+                "title": "Morphometrics, homology and phylogenetics: Quantified characters as synapomorphies",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Zelditch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Fink",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Swiderski",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1995,
+                "venue": "Systematic Biology",
+                "volume": "44",
+                "issue": "",
+                "pages": "179--189",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zelditch, M.L., Fink, W. L., and Swiderski, D.L. Morphometrics, homology and phylogenetics: Quantified characters as synapomorphies. Systematic Biology 1995; 44: 179-189.",
+                "links": null
+            },
+            "BIBREF40": {
+                "ref_id": "b40",
+                "title": "Ontogeny and phylogeny: A reply to Adams and Rosenberg",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Zelditch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Fink",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "Systematic Biology",
+                "volume": "47",
+                "issue": "",
+                "pages": "345--348",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zelditch, M.L., and Fink, w.L. Ontogeny and phylogeny: A reply to Adams and Rosenberg. Systematic Biology 1998; 47: 345-348.",
+                "links": null
+            },
+            "BIBREF41": {
+                "ref_id": "b41",
+                "title": "Discovery of phylogenetic characters in morphometric data. In Morphological Data in Phylogenetic Analysis: Recent Progress and Unresolved Problems",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Zelditch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Swiderski",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Fink",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "J. Wiens",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zelditch, M.L., Swiderski, D.L., and Fink, w.L. Discovery of phylogenetic characters in mor- phometric data. In Morphological Data in Phylogenetic Analysis: Recent Progress and Unre- solved Problems, J. Wiens. Washington, D. C.: Smithsonian Press, 2000a. (In press).",
+                "links": null
+            },
+            "BIBREF42": {
+                "ref_id": "b42",
+                "title": "Spatiotemporal reorganization of growth rates in the evolution of ontogeny",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Zelditch",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Sheets",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Fink",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2000,
+                "venue": "Evolution",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Zelditch, M.L., Sheets, H.D., and Fink, w.L. Spatiotemporal reorganization of growth rates in the evolution of ontogeny. Evolution 2000b (in press).",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF1": {
+                "num": null,
+                "text": "Comparable triangles in different orientations. Compared as drawn, the shapes will appear different; compared in the same orientation, the shapes are similar.",
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF2": {
+                "num": null,
+                "text": "12. A comparison among three triangular morphs.A B Two approaches to coding the three triangular morphs. A: A character with three states; each interpreted as a homolog of three taxa. B: Two binary characters. The increase in aspect ratio is interpreted as a shared derived feature of six taxa. A second character, shearing of the triangle, is nested within the ftrst.",
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF3": {
+                "num": null,
+                "text": "Increasing morphological complexity; a comparison of quadrilaterals. A: Three quadrilateral morphs; 8: each quadrilateral is divided into two triangles. left (I) and right (r); C: Comparing A to C, and A to 8, by mentally superimposing the morphs.",
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF4": {
+                "num": null,
+                "text": "Two interpretations of the characters supporting the monophyly of taxa B and C. A:",
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF5": {
+                "num": null,
+                "text": "Distributions of shapes depicted by scatterplots of shape coordinates. A: The ranges of shapes are disjunct; B: The shapes lie along a continuum; C: The ranges of shapes overlap but their means are distinct.",
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF7": {
+                "num": null,
+                "text": "Ontogenetic changes in body shape of four species of piranhas. depicted as changes in the locations of shape coordinates; the magnitude and direction of change is calculated by multivariate regression of the shape coordinates on log transformed centroid size.",
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF8": {
+                "num": null,
+                "text": "The lack of ontogenetic deepening of the body, examined at the anterior base of the dorsal fin, mapped onto a cladogram of piranhas.",
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF9": {
+                "num": null,
+                "text": "Three types of morphometric data: A: traditional measurements, which are usually measurements of length between landmarks; B: a configuration of landmarks; C: outlines.",
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF10": {
+                "num": null,
+                "text": "The ambiguous homology of some anatomical loci; given the primitive morphology and three derived forms. there are three possible interpretations of the correspondence among landmarks (drawn after MacLeod. 1999).",
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF11": {
+                "num": null,
+                "text": ". ______ -..r==.\",._\". , I.' .... -.... ----~\".. . . \" . , . \" c Cladograms for five species of piranhas. based on different reference forms. A:",
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF12": {
+                "num": null,
+                "text": "Four shapes, A, B, C, and D; the relationships among taxa having those shapes are shown on the cladogram.",
+                "uris": null,
+                "type_str": "figure"
+            },
+            "FIGREF13": {
+                "num": null,
+                "text": "Principal components analysis of the four shapes shown inFigure 28; shown are scatterplots and dimensions of variation depicted as a deformation; A: The sample includes all four shapes; B: Shape D omitted from the analysis.",
+                "uris": null,
+                "type_str": "figure"
+            }
+        }
+    }
+}

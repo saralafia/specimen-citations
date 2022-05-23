@@ -1,0 +1,1406 @@
+{
+    "paper_id": "Becketal",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2021-10-07T18:21:23.433232Z"
+    },
+    "title": "Animal Scavenging and Scattering and the Implications for Documenting the Deaths of Undocumented Border Crossers in the Sonoran Desert *, \u2020",
+    "authors": [
+        {
+            "first": "Jess",
+            "middle": [],
+            "last": "Beck",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "South University",
+                "location": {
+                    "postCode": "1085, 48109",
+                    "settlement": "Ann Arbor",
+                    "region": "MI"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Ian",
+            "middle": [],
+            "last": "Ostericher",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Newman Building",
+                "location": {
+                    "addrLine": "Dublin 4",
+                    "settlement": "Belfield",
+                    "country": "Ireland"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Gregory",
+            "middle": [],
+            "last": "Sollish",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "South University",
+                "location": {
+                    "postCode": "1085, 48109",
+                    "settlement": "Ann Arbor",
+                    "region": "MI"
+                }
+            },
+            "email": ""
+        },
+        {
+            "first": "Jason",
+            "middle": [],
+            "last": "De Le On",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "South University",
+                "location": {
+                    "postCode": "1085, 48109",
+                    "settlement": "Ann Arbor",
+                    "region": "MI"
+                }
+            },
+            "email": "jpdeleon@umich.edu"
+        }
+    ],
+    "year": "",
+    "abstract": "Since 1998, over 5500 people have died while attempting to cross the U.S.-Mexico border without authorization. These deaths have primarily occured in the Arizona desert. Despite the high volume of deaths, little experimental work has been conducted on Sonoran Desert taphonomy. In this study, pig carcasses were used as proxies for human remains and placed in different depositional contexts (i.e., direct sunlight and shade) that replicate typical sites of migrant death. Decomposition was documented through daily site visits, motion-sensitive cameras and GIS mapping, while skeletal preservation was investigated through the collection of the remains and subsequent faunal analysis. Our results suggest that vultures and domestic dogs are underappreciated members of the Sonoran scavenging guild and may disperse skeletal remains and migrant possessions over 25 m from the site of death. The impact of scavengers and the desert environment on the decomposition process has significant implications for estimating death rates and identifying human remains along the Arizona/Mexico border.",
+    "pdf_parse": {
+        "paper_id": "Becketal",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Since 1998, over 5500 people have died while attempting to cross the U.S.-Mexico border without authorization. These deaths have primarily occured in the Arizona desert. Despite the high volume of deaths, little experimental work has been conducted on Sonoran Desert taphonomy. In this study, pig carcasses were used as proxies for human remains and placed in different depositional contexts (i.e., direct sunlight and shade) that replicate typical sites of migrant death. Decomposition was documented through daily site visits, motion-sensitive cameras and GIS mapping, while skeletal preservation was investigated through the collection of the remains and subsequent faunal analysis. Our results suggest that vultures and domestic dogs are underappreciated members of the Sonoran scavenging guild and may disperse skeletal remains and migrant possessions over 25 m from the site of death. The impact of scavengers and the desert environment on the decomposition process has significant implications for estimating death rates and identifying human remains along the Arizona/Mexico border.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Since the mid-1990s, the United States government has employed an enforcement strategy along the U.S.-Mexico border known as Prevention through Deterrence (PTD) (1:64-5) . This strategy involves placing hyper-security measures (e.g., high fencing, motion sensor cameras, lighting systems, field agents) in unauthorized crossing areas surrounding urban ports of entry in an attempt to funnel migrants toward more hostile terrain such as the Sonora Desert of Arizona, where security is less intense, but crossing conditions are more difficult (2) . Those who enter through the desert often walk for long distances (e.g., upwards of 70 miles) while simultaneously negotiating a rugged landscape characterized by extreme conditions where summer temperatures often exceed 100\u00b0F and winter temperatures can reach freezing. These environmental obstacles are intended to act as a \"deterrent\" to migration. Two decades of research has shown that PTD has failed to deter migrants (e.g., ref. 3 ), but has succeeded in shaping border crossing into a well-organized, dangerous, and violent social process (4) . Since 1998, over 5500 people have died while trying to cross into the United States (5: Table 1 ) and the border-based humanitarian group Derechos Humanos estimates that at least 2649 people have perished in the Sonoran Desert region since 2000 (6) . These fatality counts are likely low estimates given that people die in remote areas and their remains often go undiscovered (1: Appendix V).",
+                "cite_spans": [
+                    {
+                        "start": 161,
+                        "end": 169,
+                        "text": "(1:64-5)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 541,
+                        "end": 544,
+                        "text": "(2)",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 982,
+                        "end": 983,
+                        "text": "3",
+                        "ref_id": "BIBREF2"
+                    },
+                    {
+                        "start": 1093,
+                        "end": 1096,
+                        "text": "(4)",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 1344,
+                        "end": 1347,
+                        "text": "(6)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1187,
+                        "end": 1194,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "Despite the high number of migrant fatalities that are known to occur in the Arizona Desert, there have been no organized attempts by federal or state agencies to recover bodies (7) . Corpses that are recovered are usually reported to law enforcement by migrants themselves or stumbled upon by hikers, humanitarian workers, or researchers. Often times these human remains are found in a fragmented state after environmental conditions and animals have begun to destroy the body, as in the case of these skeletal elements discovered by the senior author in 2011 ( Fig. 1 ). Animal scavenging behavior thus often complicates the identification of bodies or renders their recovery impossible. Still, much is unknown about what actually happens to corpses left exposed to the desert environment.",
+                "cite_spans": [
+                    {
+                        "start": 178,
+                        "end": 181,
+                        "text": "(7)",
+                        "ref_id": "BIBREF6"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 563,
+                        "end": 569,
+                        "text": "Fig. 1",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "To date, only two publications have focused on corpse decomposition and taphonomy in southern Arizona (8, 9) , both of which were written prior to the era of PTD border crossings. These articles draw exclusively on data from a retrospective investigation of coroner reports. While scavengers are mentioned in these studies, their presence is only inferred from skeletal analyses, and there are no data from direct observations of animals interacting with bodies. It is important to also note that neither study mentions vultures, a long recognized member of the Sonoran scavenging guild (10) . Given the highly politicized nature of migrant deaths and the disagreement among the federal government, humanitarian groups, and social science researchers regarding how to properly calculate migrant fatalities (11:32-3) , examining the impacts of scavenging animals on the bodies of border crossers and discussing the implications of these impacts for estimating death rates and identifying remains are crucial to improving our understanding of this clandestine social phenomenon. The aim of this research was to document the decomposition process in Southern Arizona, including the extent and timing of scavenging activity, the identification of various avian and mammalian fauna involved in the process, and the ways in which animals may impact the ability of law enforcement to locate and identify skeletal remains.",
+                "cite_spans": [
+                    {
+                        "start": 102,
+                        "end": 105,
+                        "text": "(8,",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 106,
+                        "end": 108,
+                        "text": "9)",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 587,
+                        "end": 591,
+                        "text": "(10)",
+                        "ref_id": "BIBREF9"
+                    },
+                    {
+                        "start": 806,
+                        "end": 815,
+                        "text": "(11:32-3)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            },
+            {
+                "text": "This research was conducted as part of the Undocumented Migration Project (UMP), a long-term anthropological study directed by De Le on that employs a combination of ethnography, archeology, and forensic science to examine the process of unauthorized border crossings between Mexico and the United States. The research presented here was carried out twelve miles north of the Mexican border near the small town of Arivaca, Arizona between June and July of 2012. Three female juvenile pigs (Sus scrofa domesticus), each weighing c. 60 pounds (27 kg), were purchased from the University of Arizona Meat Science Laboratory and transported to Arivaca. Following approved federal, state, and university protocols, these animals were killed on-site by a licensed animal handler who fired a 22 caliber bullet into their brains. These protocols are outlined in the University of Michigan University Committee on Use and Care of Animals project number PRO00003934. After death, all three pigs were dressed in clothes similar to those worn by migrants (i.e., jeans, dark colored shirts, and socks) and personal effects were placed in their pockets in the form of wallets with identification inside and slips of paper with phone numbers written on them. A necklace was placed around one pig's neck (Sun). Many migrant bodies recovered from the desert are fragmentary, and personal effects such as identification cards, personal adornments, and slips of paper with the phone numbers of family members are often used to identify bodies. Our use of pigs in the following experiment draws on the large corpus of previous experimental research that employs these animals as a standard proxy for human bodies in decomposition studies (e.g., 12,13). ",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Materials and Methods",
+                "sec_num": null
+            },
+            {
+                "text": "These pigs were placed in an open area behind the UMP field house on the outskirts of Arivaca. This three acre plot was minimally enclosed by a three-strand barbed wire fence that allowed mammalian and avian scavengers relatively free access to the carcasses, similar to what would be experienced in the open desert. One animal (Sun Pig) was placed in direct sunlight in a completely exposed area at the top of small hill ( Fig. 2A ). Another animal (Shade Pig) was placed out of a direct line of sight from Sun Pig underneath a mesquite tree c. 500 m downhill (Fig. 2B ). To create additional shade, a blue tarp was strung above Shade Pig. The rationale underlying these two taphonomic scenarios was that it is typical for migrants to die while either (i) walking on exposed trails or (ii) resting underneath the meager shade provided by the Sonoran vegetation. A third pig was used as a control and placed in a cage under the shade of a mesquite tree. The Sun and Shade Pigs were monitored using motion sensor cameras placed at different angles (Moultrie Model MFH-DGS-M100 and Bushnell Model 119466). The cameras were set to shoot thirty seconds of video along with three still photographs at intervals of thirty seconds whenever motion was detected. Both camera types recorded date and time on the still photographs, which were crucial for documenting the timing of scavenging activity. In addition, these cameras were equipped with infrared sensors and were able to capture images of nocturnal activity.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 424,
+                        "end": 431,
+                        "text": "Fig. 2A",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 561,
+                        "end": 569,
+                        "text": "(Fig. 2B",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "S12 JOURNAL OF FORENSIC SCIENCES",
+                "sec_num": null
+            },
+            {
+                "text": "Camera footage was supplemented by daily visits to inspect the condition of the animals, during which time photographs and detailed notes were taken. On two occasions (after intense scavenging had occurred), a systematic survey was conducted to identify all remaining skeletal elements and personal effects within 100 m of the initial deposition site of Sun Pig. Pin flags were used to mark the location of items and a digital total station (Topcon Model 3200-NW) was used to plot the location of remaining skeletal elements and personal effects. This occurred during the fourth and fifth weeks after death. Similarly, Shade Pig's remains were surveyed and mapped with the total station during the fifth week after death. At the end of 5 weeks, bones from the Sun and Shade Pigs were collected, defleshed, and transported to the University of Michigan. In the fall of 2012, an analysis of the remaining bones was conducted to identify which skeletal elements were preserved and to determine whether there were any differences in preservation. In addition, accumulated degree-days (ADD) were calculated up until the moment of skeletonization for Sun and Shade pig using methods reported by Megyesi et al. (14) . ADD are reported below and listed in Table 1 . A spatial analysis of the dispersal patterns of Sun and Shade Pig's remains were conducted using ARC GIS version 10.1. The points were imported into ArcMap 10.1 from an Excel file containing spatial (X,Y,Z coordinates based on a site datum point tied to a GPS location) and anatomical data (bone type). The map was analyzed using basic spatial statistics tools from the Spatial Statistics Toolbox in ArcGIS 10.1. The Standard Distance Tool was used to visualize the concentration and dispersal of skeletal elements at 1 standard deviation and the directional distribution (or Standard Deviational Ellipse) helps show the relative direction of the dispersal. Additionally, the distance of each element moved over the course of the experiment was measured in ArcMap 10.1 using the Near Tool (in Analysis Tools) with an input feature consisting of points taken around the perimeter of the original carcass location in the case of Shade Pig and from a single center point in the case of Sun Pig. Each element was measured to the nearest point of the input feature.",
+                "cite_spans": [
+                    {
+                        "start": 1189,
+                        "end": 1208,
+                        "text": "Megyesi et al. (14)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1248,
+                        "end": 1255,
+                        "text": "Table 1",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "S12 JOURNAL OF FORENSIC SCIENCES",
+                "sec_num": null
+            },
+            {
+                "text": "We report the results of our analyses in three sections. Part one summarizes the animal scavenging activities for all three pigs as documented by motion sensor cameras and field observations. Part two summarizes the results of the skeletal analyses of the bones remaining after 5 weeks of scavenging and compares preservation rates between Sun and Shade Pig. Part three highlights the results of spatial analyses of remaining bone fragments and personal effects at the end of 6 weeks for Sun and Shade Pigs. All three experiments described below began on June 15th, 2012.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Results",
+                "sec_num": null
+            },
+            {
+                "text": "Scavenging Activity-Sun Pig-Turkey vultures (Cathartes aura) were observed in nearby trees on the first day of this experiment and it was anticipated that they would begin feeding on the carcass quickly. However, all scavengers had minimal contact with Sun Pig for several weeks and during this period the carcass passed through the early and advanced decomposition stages described by Galloway (9: Table 1) heavily on smell, to locate it. The first scavenging animal to make close contact with Sun Pig was a coyote (Canis latrans) 5 days after death (58.33 ADD). For three consecutive nights, a solitary coyote circled the carcass and sniffed it. Seven days after death (72.78 ADD), a domestic dog (Canis lupus familiaris) from one of the nearby residences was caught on camera chewing part of the intestines that had ruptured through the stomach lining. Given that many migrants often die near rural residences while seeking help, the impact of this nontraditional scavenging animal on the carcass should not be considered an anomaly or an error in our research design. Instead, we argue that dogs are an underappreciated member of the Sonoran Desert scavenging guild and their taphonomic impact on the remains of border crossers may be quite significant. Nine days after death (91.94 ADD), coyotes were recorded eating portions of Sun Pig's lower back. However, canine and coyote scavenging was still relatively minimal and neither group moved the carcass from its initial placement nor disarticulated any part of the animal. Essentially, these mammalian scavengers simply removed the small bits of flesh that were easily accessible.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 399,
+                        "end": 407,
+                        "text": "Table 1)",
+                        "ref_id": "TABREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Animal Scavenging",
+                "sec_num": null
+            },
+            {
+                "text": "Turkey vultures were observed on the first day of this experiment, perched in a tree in close proximity to the Sun Pig site. However, it was not until thirteen days (139.17 ADD) after death that a vulture was recorded approaching the carcass. A solitary bird was documented circling the carcass on the 13th, 14th, and 15th day after death, but did not make any direct contact with the pig. At 12:49 am on July 1st (17 days after death; 210.28 ADD), two coyotes were filmed briefly feeding off the carcass (Fig. 3A) . Seven hours later, at 7:38 am, six vultures were observed feeding on the Sun Pig. An hour later at 8:49 am, eight vultures were observed feeding ( Fig. 3B ) and this activity continued until the sun set. By 7:23 am on the morning of July 2nd (243.06 ADD) the carcass was completely skeletonized and disarticulated ( Fig. 3C ). In addition, the clothing and personal effects were widely dispersed and pulled out of range of the cameras. For 2 days after the initial skeletonization, vultures were recorded circling the area where the pig was deposited and moving skeletal elements across the site (Fig. 3D ).",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 505,
+                        "end": 514,
+                        "text": "(Fig. 3A)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 664,
+                        "end": 671,
+                        "text": "Fig. 3B",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 833,
+                        "end": 840,
+                        "text": "Fig. 3C",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1113,
+                        "end": 1121,
+                        "text": "(Fig. 3D",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Animal Scavenging",
+                "sec_num": null
+            },
+            {
+                "text": "Scavenging Activity-Shade Pig-Two turkey vultures were observed 15-20 feet away from the Shade Pig only five hours after its initial deposition, although they did not approach the carcass. The first animals to come into contact with the animal were domestic dogs. A single dog visited the Shade Pig twice, at 1:54 pm and 7:06 pm, only 2 days after death (36.11 ADD). The same dog returned four more times over the course of the experiment, on June 19 (58.33 ADD), June 22 (81.94 ADD) (when it was followed by a second domestic dog), June 30 (176.67 ADD), July 2 (243.06 ADD), and July 10 (330.28 ADD), for a total of seven individual visits over a 24 day period ( Fig. 4) . Neither dog was observed scavenging from the carcass, although one canine did move it slightly with its paws when sniffing it. Dogs and coyotes both use scent-marking as a form of territorial defense (15, 16) . If the Shade Pig was located within the home range of free-ranging domestic dogs using olfactory cues to demarcate their territory, it may serve to explain the absence of coyotes from this taphonomic context. Two days after the carcass has been skeletonized, vultures were observed moving skeletal elements such as this vertebra. Note that all time-stamped footage from the sun camera should read \"2012\" rather than \"2011\".",
+                "cite_spans": [
+                    {
+                        "start": 874,
+                        "end": 878,
+                        "text": "(15,",
+                        "ref_id": "BIBREF14"
+                    },
+                    {
+                        "start": 879,
+                        "end": 882,
+                        "text": "16)",
+                        "ref_id": "BIBREF15"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 664,
+                        "end": 671,
+                        "text": "Fig. 4)",
+                        "ref_id": "FIGREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Animal Scavenging",
+                "sec_num": null
+            },
+            {
+                "text": "begin until 22 days after death, at 6:27 pm on July 7th (308.89 ADD). For the next 5 days (July 7-12), between two to eight vultures intermittently arrived to scavenge from the carcass, making up to four visits to the animal per day. On July 8 (315.83 ADD), vultures removed the pants the pig had been clothed in, but were unable to dislodge the shirt (Fig. 5 ). This may explain why the vultures initially appeared to focus on the caudal half of the carcass, as it was slightly easier to access.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 352,
+                        "end": 359,
+                        "text": "(Fig. 5",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "S14 JOURNAL OF FORENSIC SCIENCES",
+                "sec_num": null
+            },
+            {
+                "text": "On July 10, 25 days after death (330.28 ADD), the usual cohort of turkey vultures were joined by one black vulture (Coragyps atratus), as well as two large corvids (Corvus corax). These secondary scavengers spent much of their time around the periphery of the carcass and were not observed directly feeding on the remains. Full skeletonization of Shade Pig was observed by 6 pm on July 10th, but vultures were spotted for 2 days afterward circling the area and moving skeletal elements across the site.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "S14 JOURNAL OF FORENSIC SCIENCES",
+                "sec_num": null
+            },
+            {
+                "text": "Scavenging Activity-Control Pig-One control animal was dressed and placed in a large metal cage in a semi-shaded area. Our intent was to monitor the rate of decomposition without the interference of scavenging animals. After only a few days, vultures became interested in the carcass and began to stick their heads through the metal frame and tear at the socks, which were less than a foot from the cage edge. All attempts were made to move the carcass away from the cage edges to prevent vultures from further disturbing it or tearing at the clothing. Because we did not expect any significant scavenging activity near the control, no cameras were placed around the animal. Unfortunately, at the end of 3 weeks the carcass had softened and vultures were able to pull a significant amount of the body through the metal crate. After a month, only the legs (which were encased in the pants) and the mandible remained inside the cage. The rest of carcass had been skeletonized and dispersed around the cage.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "S14 JOURNAL OF FORENSIC SCIENCES",
+                "sec_num": null
+            },
+            {
+                "text": "Faunal analysis of the recovered remains suggests the existence of broad preservational trends in bodies deposited in this desert environment. First, larger and more proximal appendicular bones are those most likely to be recovered. For the Sun Pig, six of 12 limb bones (50%) were recovered, while eight of 12 limb bones (67%) were collected for the Shade Pig (Fig. 6) . Smaller, more distal bones such as the metacarpals, carpals, metatarsals, tarsals, and phalanges did not preserve for either specimen.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 361,
+                        "end": 369,
+                        "text": "(Fig. 6)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Skeletal Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Second, with the exception of the cranium, the axial skeleton was well preserved in both specimens (Fig. 7) . For ribs, percentage completion was calculated according to the counts listed in Sisson and Grossman (17) , using the lowest bound of the range, which produced an expected count of 28 ribs total. Their vertebral formula was also used to calculate vertebral completion, with lower estimates favored to ensure consistency, producing a formula of C 7 , T 14 , L 5 , or 26 vertebrae total. Because the speci- BECK ET AL. . ANIMAL SCAVENGING SONORAN DESERT S15 mens were sub-adult, vertebral centra were not yet fused to neural arches. Only vertebrae with complete neural arches were counted as present, although four vertebral centra from the Shade Pig survived the skeletonization process.",
+                "cite_spans": [
+                    {
+                        "start": 191,
+                        "end": 215,
+                        "text": "Sisson and Grossman (17)",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 99,
+                        "end": 107,
+                        "text": "(Fig. 7)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Skeletal Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Cranial completion for the Shade Pig was superior to that of the Sun Pig. The entire mandible, orbit, and vault were preserved for this specimen. Additionally, a total of 17 smaller, disarticulated cranial bones were preserved (Table 2) . Notably, the temporal, frontal, and parietal bones were still articulated on the left side. For the Sun Pig cranial preservation was symmetrical as only the left and right lateral parts of the occipital bone were preserved. Dental completion followed a similar pattern to cranial preservation (Table 3) . No teeth were preserved for the Sun Pig. Because of its subadult age, the Shade Pig presented a mixture of permanent and deciduous dentition, as outlined in Table  3 below. Italicized teeth are those that were in the process of erupting at time of death. Aside from the deciduous incisor, preservation of both the upper and the lower dental arcade was symmetrical.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 227,
+                        "end": 236,
+                        "text": "(Table 2)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 532,
+                        "end": 541,
+                        "text": "(Table 3)",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 701,
+                        "end": 709,
+                        "text": "Table  3",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Skeletal Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Third, initial orientation of the carcasses had little effect on preservation. To ascertain whether taphonomic destruction was asymmetrical, all bones or portions of bones that could be assigned to the left or right side were compared for both specimens (Table 4 ). Midline bones like the vertebrae were not included in the analysis of symmetry unless preservation was partial and the surviving portion could be sided. On the whole, the preservation of both carcasses was symmetrical, with neither side more prone to loss. Despite the initial deposition of both carcasses on their left sides, element preservation showed no clear side bias (Fig. 8) .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 254,
+                        "end": 262,
+                        "text": "(Table 4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 640,
+                        "end": 648,
+                        "text": "(Fig. 8)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Skeletal Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Finally, there was variability in preservation along a cranialcaudal gradient (the equivalent of a superior-inferior gradient along a human body plan). In both specimens, the cervical vertebrae were the most poorly preserved, the lumbar vertebrae demonstrated the second highest degree of preservation, and the thoracic vertebrae were well preserved (Fig. 9) . This preservational patterning is taphonomically intriguing, as poor representation of cervical vertebrae may be an artifact of carnivorous activity localized around the cranium, specifically scavenger attempts to access fatty brain tissue. Further support for this hypothesis is the recovery of the lateral part of the occipital bone for both the sun and the Shade Pig, suggesting a particular focus on the region around the foramen magnum. Similarly, the medium level of lumbar preservation likely reflects the vultures' preferred method of ingress into a decomposing carcass-generally through pulling organs and soft-tissue out of the aperture created by the anus (see 18:S23). Localized and rigorous defleshing around the caudal region would likely lead some of the lumbar vertebrae to disarticulate more readily. The relatively poor preservation of thoracic vertebrae in the Shade Pig is surprising, particularly given the high degree of completion of the rib cage for this carcass. However, this may be related to relatively poor TABLE 2--Preservation of Cranial Bones: Shade Pig. Cranial preservation was slightly asymmetrical, with more bones present on the left side. The left palatine bone received a 0.5 completion score as part of the bone was broken off during the decomposition process. A \"N\" indicates bones for which only a midline portion was preserved. These midline bones were not included in the analysis of preservational symmetry. vertebral preservation as a whole in this specimen. Of the preserved spine, 6 of 12 (50%) of the bones are thoracic vertebrae.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 350,
+                        "end": 358,
+                        "text": "(Fig. 9)",
+                        "ref_id": "FIGREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Skeletal Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Skeletal elements were mapped 21 days after death and collected 33 days after death for Sun Pig. Shade Pig was mapped twice; first 26 days after death and then again 30 days after death. Shade Pig's bones were collected 33 days after death. The bone counts that we present in our faunal analysis differ slightly from those shown in the spatial data. This inconsistency is the result of two issues. First, we mapped Shade Pig on two separate occasions, and the visibility of skeletal elements changed daily because of both the environmental conditions (e.g., rain fall) and the movement of bones by scavengers. In addition, for both Shade and Sun Pig, some skeletal elements went missing between the time of final mapping and when the physical collection of bones was carried out.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Spatial Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "Seventy-two bones were recovered from the Shade Pig, and 78 bones were recovered from the Sun Pig, while six artifacts were mapped for each specimen, suggesting relatively equal levels of scavenger exploitation. The analysis of element type by distance from carcass also suggests a similar pattern of net dispersal. For each pig, the majority of anatomical elements were moved 1-5 m away from the original site of deposition Table 5 . The main difference between the two depositional contexts was in the number of elements moved short or long distances. In the shade deposition site, more elements remained close to the area where the body was originally placed, while in the open (sunny) deposition site, more than one quarter of the recovered elements were mapped at distances more than 5 m from the body (Figs 10-12 ). However, this difference in dispersal signatures is likely linked to different local micro-environments; The Shade Pig was placed underneath a tree that may have acted as a partial barrier to element dispersal while providing a more protected environment for scavenging. Additionally, Shade Pig was placed in a topographic low point, whereas Sun Pig was placed atop a small hill. The greatest elevation change between elements of Shade Pig's scatter was about 2 m and c. 3 m in the case of Sun Pig.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 425,
+                        "end": 432,
+                        "text": "Table 5",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 807,
+                        "end": 818,
+                        "text": "(Figs 10-12",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Spatial Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "The maximum dispersal distance for an anatomical element in the Sun Pig exceeds that of the Shade Pig by 7 m (27 and 20 m respectively), further evidencing the dispersal circumscription presented by natural barriers. In both contexts, there was a clear directionality to element dispersal-in the shaded context, elements fan out from the tree, while in the sunny context, elements move down the nearest slope and out into the open. Overall, this patterning is consistent with observations of vulture scavenging behavior and much of the dispersal is likely attributable to this taxon. During the course of the study vultures were observed scavenging in groups of 2-8 individuals and often moved elements at a small scales (<1 m) while feeding or negotiating the difficulties posed by clothing. Movement of elements 1-5 m away may represent attempts by individuals to isolate their portion of the carcass to feed at a distance from conspecifics, a behavior that has been previously observed in turkey vultures (19) . Relocation of elements more than 5 m away from the original site of deposition suggests deliberate movement away from a central feeding locale and may involve continued vulture activity or that of scavengers not observed by the surveillance cameras.",
+                "cite_spans": [
+                    {
+                        "start": 1008,
+                        "end": 1012,
+                        "text": "(19)",
+                        "ref_id": "BIBREF18"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Spatial Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "The dispersal distances documented in this experiment suggest that the lighter thoracic and spinal elements are the bones most likely to be found in the immediate vicinity of a body-for the Shade Pig, 96% of thoracic elements were found within 5 m of the deposition site Table 6 , while for the Sun Pig, 84% of the thoracic elements were found in the same radius Table 7 . Similarly, 96% and 84% of the mapped spinal elements were found within 5 m of the deposition site for the Shade Pig and Sun Pig, respectively. Cranial elements were more evenly dispersed, with at least 33% recovered more than 5 m away from the body. Because subadult pigs were used when conducting this experiment, most cranial bones were disarticulated along sutures. For scavengers dealing with humans, it is likely that cranial disarticulation would be more difficult, particularly in an adult human cranium with closed sutures; in such a situation, we could expect cranial elements to be less dispersed. Finally, long bones and limb elements were those most likely to be moved a significant distance from the deposition site. For the Shade Pig, over half of the recovered limb elements were found more than 5 m away from the body, while for the Sun Pig, 66% of the mapped limb elements were found more than 5 m away from the initial site of deposition. Limbs provide relatively large, easily transportable \"packets\" of muscle tissue and fat, particularly when compared to the ribs or vertebrae. Accordingly, this spatial patterning is likely reflective of individual scavengers \"foraging optimally\", removing high-calorie, easily disarticulated elements from the carcass to deflesh and consume them away from conspecifics.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 271,
+                        "end": 278,
+                        "text": "Table 6",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 363,
+                        "end": 370,
+                        "text": "Table 7",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Spatial Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "A final important discovery was the dispersal distances of the artifacts (such as clothing and slips of paper) associated with the bodies. Surprisingly, a high proportion of items were moved more than 5 m from the original site of deposition (Fig. 13) . For the shaded context, the objects dispersed farthest from the original site of deposition were two artifacts, a 3 by 5 inch note card with a phone number written on it that was originally placed in the jean pocket and the shirt of the pig, which moved 19 and 20 m, respectively. All other personal effects (water bottle, pants and both socks) were within 7.5 m of the original location. For the sunny context, a shirt was moved 22 m away from the deposition site, while other items (water bottle, necklace, pants, and both socks) moved no more than 6.5 m from their original location. The note card placed in Shade Pig's pocket was not recovered during our survey. Such findings suggest that associated artifacts may be moved a fairly long distance away from the areas where individuals have died and that some objects, which could be the most useful for identification (i.e., a phone number written on a piece of paper) may disappear completely. ",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 242,
+                        "end": 251,
+                        "text": "(Fig. 13)",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Spatial Analysis",
+                "sec_num": null
+            },
+            {
+                "text": "The purpose of this preliminary study was to document the process of corpse decomposition and taphonomy in the Sonoran Desert to enhance our understanding of the impact of local ecology on the reporting of migrant deaths along the U.S.-Mexico border. Data were collected on skeletal preservation of remains, scavenger activity and spatial distribution of elements and associated artifacts. Motion sensor cameras recorded a wide range of local fauna (Table 8) interacting with the Sus scrofa carcasses, including scavengers such as turkey vultures, black vultures, ravens, coyotes, domestic dogs, and \"peripheral\" fauna such as cattle, domestic cats, and doves. The recurring presence of domestic dogs is intriguing, especially as this taxon may be discouraging coyote scavenging in areas in close proximity to human habitation. Given that migrant corpses are often found near rural residences, domestic dogs may be contributing to the disarticulation and consumption of human bodies in southern Arizona. Our results also confirm that vultures are an underappreciated member of the Sonoran scavenging guild-members of this taxon are the primary agents responsible for defleshing and dispersing skeletal elements in this desert. We found that the tempo of scavenging was similar for both the sunny and shaded sites: An initial period of relatively limited scavenger activity was followed by preliminary investigations by vultures or canids, culminating in a rapid period (1-3 days) of vulture feeding that led to decimation of the soft tissue and skeletonization and dispersal of the remains. Importantly, our research contributes to a growing literature (12, 18, 20) that has begun to illustrate the differential impact of vultures on decomposition relative to their position in local ecosystems.",
+                "cite_spans": [
+                    {
+                        "start": 1653,
+                        "end": 1657,
+                        "text": "(12,",
+                        "ref_id": "BIBREF11"
+                    },
+                    {
+                        "start": 1658,
+                        "end": 1661,
+                        "text": "18,",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 1662,
+                        "end": 1665,
+                        "text": "20)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 449,
+                        "end": 458,
+                        "text": "(Table 8)",
+                        "ref_id": "TABREF4"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Skeletal preservation data are significant because they allow us to predict what elements are most likely to be recovered from bodies deposited in a desert environment. Prior studies of the taphonomy of arid environments have focused primarily on the rate and trajectory of the decomposition process itself (8, 9) , while research on the scavenging behavior of vultures has targeted the spatial patterning and tempo of dispersal of remains (18, 20) . However, preservational data for bodies deposited in a desert environment are lacking, likely because the bulk of previous research has been conducted through retroactive reviews of coroner reports or in enclosed scientific facilities that ensure high rates of skeletal recovery. Our results make a significant contribution to the problem of migrant deaths, as they suggest new strategies for aiding the location and identification of human remains in the Sonoran Desert.",
+                "cite_spans": [
+                    {
+                        "start": 307,
+                        "end": 310,
+                        "text": "(8,",
+                        "ref_id": "BIBREF7"
+                    },
+                    {
+                        "start": 311,
+                        "end": 313,
+                        "text": "9)",
+                        "ref_id": "BIBREF8"
+                    },
+                    {
+                        "start": 440,
+                        "end": 444,
+                        "text": "(18,",
+                        "ref_id": "BIBREF17"
+                    },
+                    {
+                        "start": 445,
+                        "end": 448,
+                        "text": "20)",
+                        "ref_id": "BIBREF19"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Skeletal and spatial analysis of the mapped carcasses suggest that elements of the axial skeleton will likely be well preserved and remain close (<5 m) to the initial site of deposition 5 weeks after death. Limb bones are also likely to be recovered, although these will be dispersed at a greater distance from the body (>5 m). Cranial elements, particularly those of younger individuals, will also likely be widely dispersed (>5 m). Although crania for both pigs were highly disarticulated, elements of the dentition were recovered for the Sun Pig after 5 weeks, despite the dispersal of the crania. However, given that the recovery time for human bodies can be as long as several years post-mortem, it is unclear how much of the skull would remain after more prolonged exposure to the elements and animal scavenging. Exposure to multiple seasons of rain may also further displace bones from the initial death site. In particular, our findings suggest that the cranium and dentition, the skeletal regions most useful for forensic identification, are unlikely to be well preserved in a desert environment if a body is recovered more than 2 months after death; In such cases, recourse to DNA analysis may be required to identify the remains.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "Similarly, artifacts such as jewelry, clothing, and documents that are associated with the body and that could be used to help identify individuals were moved significant distances-up to 22 m in one case-making it difficult to link these items to skeletal elements. This finding is troubling for at least two reasons. First, law enforcement that are called to recover bodies often have limited time and insufficient training to conduct a full systematic survey of an area where remains are found. These surveys are usually fairly informal, do not last more than a few minutes, and focus only on the immediate area where bones or corpses are located (De Le on field observations; R. Kee personal communication). Our results suggest that in cases where a body has been skeletonized and disarticulated, the survey area for locating additional bones and personal effects should minimally be 100 square meters and possibly more depending on the original point of death. Second, when skeletal elements that can be used to identify a body (e.g., skull and teeth) are missing, all items (e.g., shoes and clothes) located <100 square meters from the remaining bones could be potential clues to a person's identity and should thus be collected and associated with remaining bone fragments. Often times, these personal effects are vital to the identification of fragmented bodies (21) .",
+                "cite_spans": [
+                    {
+                        "start": 1369,
+                        "end": 1373,
+                        "text": "(21)",
+                        "ref_id": "BIBREF20"
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Discussion",
+                "sec_num": null
+            },
+            {
+                "text": "In a recent review of forensic taphonomy research, Sorg et al. (22:489) comment that \"scavengers may not only alter bodies but also may change scenes or obliterate evidence.\" Our data unfortunately confirm this statement and suggest that vultures in particular may have serious impacts on bodies left exposed to the Sonoran Desert environment (Fig. 14) and complicate (or render impossible) the identification of corpses. Given that migrants usually travel with minimal (or no) identification (see 23) , scavenger activity that destroys body parts and widely disperses personal effects and bones is likely contributing to the growing number of unidentified bodies that are recovered in Southern Arizona each year. Moreover, migrants may die in remote areas where their corpses lay on exposed terrain for long periods of time. Scavenging animals and the desert environment are likely destroying many bodies before they can be recovered. This means that current estimates of migrant fatalities in this region are undercounting the actual number of people who have died while trying to cross the border since the start of PTD. We have only presented two depositional scenarios (direct sun light and shade) and studies of other death contexts (e.g., washes or ravines where bodies are subject to seasonal water flow or situations where migrants cover companions who die en route with brush and rocks) are much needed. In addition, we only report data for a 5-week period following death and more longitudinal studies need to be undertaken to better understand how bodies preserve at different times of the year, over long periods of time, and through multiple seasons. Still, we hope that the preliminary data presented here will serve as an impetus for more large-scale taphonomic experiments that can improve our understanding of the varying rates of body decomposition and skeletal disarticulation in this highly politicized desert environment.",
+                "cite_spans": [
+                    {
+                        "start": 63,
+                        "end": 71,
+                        "text": "(22:489)",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 498,
+                        "end": 501,
+                        "text": "23)",
+                        "ref_id": "BIBREF22"
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 343,
+                        "end": 352,
+                        "text": "(Fig. 14)",
+                        "ref_id": "FIGREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Conclusion",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "The authors would like to thank Sophia Yackshaw, Robyn Dennis, Cameron Gokee, Danny McGuire, Richard Redding, and Emily Holt. In addition, we would like to acknowledge the three animals that were killed and used in this research.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Acknowledgments",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "Senate and the Committee on the Judiciary, House of Representatives, illegal immigration: southwest border strategy results inconclusive; more evaluation needed",
+                "authors": [],
+                "year": 1997,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Government Accountability Office. Report to the Committee on the Judi- ciary, U.S. Senate and the Committee on the Judiciary, House of Repre- sentatives, illegal immigration: southwest border strategy results inconclusive; more evaluation needed, 1997; http://www.gao.gov/archive/ 1998/gg98021.pdf (accessed October 13, 2014).",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Death at the border: efficacy and unintended consequences of US immigration control policy",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Cornelius",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "Popul Dev Rev",
+                "volume": "7",
+                "issue": "4",
+                "pages": "661--85",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cornelius W. Death at the border: efficacy and unintended consequences of US immigration control policy. Popul Dev Rev 2001;7(4):661-85.",
+                "links": null
+            },
+            "BIBREF2": {
+                "ref_id": "b2",
+                "title": "Does border enforcement deter unauthorized immigration? The case of Mexican migration to the U.S. of America",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [],
+                        "last": "Cornelius",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Salehyan",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2007,
+                "venue": "Regul Gover",
+                "volume": "1",
+                "issue": "",
+                "pages": "139--53",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cornelius W, Salehyan I. Does border enforcement deter unauthorized immigration? The case of Mexican migration to the U.S. of America. Regul Gover 2007;1:139-53.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Better to be hot than caught\": excavating the conflicting roles of migrant material culture",
+                "authors": [
+                    {
+                        "first": "De",
+                        "middle": [],
+                        "last": "Le On",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Am Anthropol",
+                "volume": "114",
+                "issue": "3",
+                "pages": "477--95",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "De Le on J. \"Better to be hot than caught\": excavating the conflicting roles of migrant material culture. Am Anthropol 2012;114(3):477-95.",
+                "links": null
+            },
+            "BIBREF4": {
+                "ref_id": "b4",
+                "title": "How many more deaths? The moral case for a temporary worker program. National Foundation for American Policy Brief",
+                "authors": [
+                    {
+                        "first": "Anderson",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Anderson S. How many more deaths? The moral case for a temporary worker program. National Foundation for American Policy Brief, March 2013. Arlington, VA: National Foundation for American Policy, 2013.",
+                "links": null
+            },
+            "BIBREF6": {
+                "ref_id": "b6",
+                "title": "Humanitarian crisis: migrant deaths on the U.S.-Mexican border. San Diego and Mexico City: American Civil Liberties Union of San Diego and Mexico's National Commission on Human Rights",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Jimenez",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jimenez M. Humanitarian crisis: migrant deaths on the U.S.-Mexican border. San Diego and Mexico City: American Civil Liberties Union of San Diego and Mexico's National Commission on Human Rights, 2009.",
+                "links": null
+            },
+            "BIBREF7": {
+                "ref_id": "b7",
+                "title": "Decay rates of human remains in an arid environment",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Galloway",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Birkby",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Jones",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "T",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Henry",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "B",
+                        "middle": [
+                            "O"
+                        ],
+                        "last": "Parks",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1989,
+                "venue": "J Forensic Sci",
+                "volume": "34",
+                "issue": "3",
+                "pages": "607--623",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Galloway A, Birkby WH, Jones M, Henry TE, Parks BO. Decay rates of human remains in an arid environment. J Forensic Sci 1989;34 (3):607-16.",
+                "links": null
+            },
+            "BIBREF8": {
+                "ref_id": "b8",
+                "title": "The process of decomposition: a model from the Arizona Sonoran Desert",
+                "authors": [
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Galloway",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1997,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "139--50",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Galloway A. The process of decomposition: a model from the Arizona Sonoran Desert. In: Haglund WD, Sorg MH, editors. Forensic taphon- omy: the postmortem fate of human remains. Boca Raton, FL: CRC Press, 1997;139-50.",
+                "links": null
+            },
+            "BIBREF9": {
+                "ref_id": "b9",
+                "title": "Turkey Vulture (Cathartes aura)",
+                "authors": [
+                    {
+                        "first": "D",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Kirk",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Mossman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1998,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Kirk DA, Mossman MJ. Turkey Vulture (Cathartes aura). In: Poole A, Gill F, editors. The birds of North America, No. 339. Ithaca, NY: The Birds of North America Online, 1998.",
+                "links": null
+            },
+            "BIBREF10": {
+                "ref_id": "b10",
+                "title": "Border security: immigration enforcement between ports of entry",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Rosenblum",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Congressional Research Service Report for Congress",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Rosenblum M. Border security: immigration enforcement between ports of entry. Congressional Research Service Report for Congress, 2012;",
+                "links": null
+            },
+            "BIBREF11": {
+                "ref_id": "b11",
+                "title": "Taphonomy of child-sized remains: a study of scattering and scavenging in Virginia, USA",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Morton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Lord",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2006,
+                "venue": "J Forensic Sci",
+                "volume": "51",
+                "issue": "3",
+                "pages": "475--484",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Morton RJ, Lord WD. Taphonomy of child-sized remains: a study of scattering and scavenging in Virginia, USA. J Forensic Sci 2006;51 (3):475-9.",
+                "links": null
+            },
+            "BIBREF12": {
+                "ref_id": "b12",
+                "title": "Taphonomic effects of Vulture scavenging",
+                "authors": [
+                    {
+                        "first": "N",
+                        "middle": [],
+                        "last": "Reeves",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2009,
+                "venue": "J Forensic Sci",
+                "volume": "54",
+                "issue": "3",
+                "pages": "523--531",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Reeves N. Taphonomic effects of Vulture scavenging. J Forensic Sci 2009;54(3):523-8.",
+                "links": null
+            },
+            "BIBREF13": {
+                "ref_id": "b13",
+                "title": "Using accumulated degree-days to estimate the postmortem interval from decomposed remains",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "S"
+                        ],
+                        "last": "Megyesi",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "S",
+                        "middle": [
+                            "P"
+                        ],
+                        "last": "Nawrocki",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "N",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Haskell",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2005,
+                "venue": "J Forensic Sci",
+                "volume": "50",
+                "issue": "3",
+                "pages": "1--9",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Megyesi MS, Nawrocki SP, Haskell NH. Using accumulated degree-days to estimate the postmortem interval from decomposed remains. J Foren- sic Sci 2005;50(3):1-9.",
+                "links": null
+            },
+            "BIBREF14": {
+                "ref_id": "b14",
+                "title": "Scent-marking in free-ranging coyotes, Canis latrans",
+                "authors": [
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Barrette",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "F",
+                        "middle": [],
+                        "last": "Messier",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1980,
+                "venue": "Anim Behav",
+                "volume": "28",
+                "issue": "",
+                "pages": "814--823",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Barrette C, Messier F. Scent-marking in free-ranging coyotes, Canis latrans. Anim Behav 1980;28:814-9.",
+                "links": null
+            },
+            "BIBREF15": {
+                "ref_id": "b15",
+                "title": "Scent-marking behaviour in a pack of free-ranging domestic dogs",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Cafazzo",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "E",
+                        "middle": [],
+                        "last": "Natoli",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Valsecchi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Ethology",
+                "volume": "118",
+                "issue": "",
+                "pages": "955--66",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cafazzo S, Natoli E, Valsecchi P. Scent-marking behaviour in a pack of free-ranging domestic dogs. Ethology 2012;118:955-66.",
+                "links": null
+            },
+            "BIBREF16": {
+                "ref_id": "b16",
+                "title": "Sisson and Grossman's the anatomy of the domestic animals",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [],
+                        "last": "Sisson",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Getty",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Grossman",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1975,
+                "venue": "",
+                "volume": "2",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sisson S, Getty R, Grossman JD. Sisson and Grossman's the anatomy of the domestic animals. Volume 2, 5th edn. Philadelphia, PA: W.B. Saun- ders Company, 1975.",
+                "links": null
+            },
+            "BIBREF17": {
+                "ref_id": "b17",
+                "title": "Geographic variation in the taphonomic effect of Vulture scavenging: the case for Southern Illinois",
+                "authors": [
+                    {
+                        "first": "G",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Dabbs",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "D",
+                        "middle": [
+                            "C"
+                        ],
+                        "last": "Martin",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "J Forensic Sci",
+                "volume": "58",
+                "issue": "1",
+                "pages": "20--25",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Dabbs GR, Martin DC. Geographic variation in the taphonomic effect of Vulture scavenging: the case for Southern Illinois. J Forensic Sci 2013;58(Suppl 1):S20-5.",
+                "links": null
+            },
+            "BIBREF18": {
+                "ref_id": "b18",
+                "title": "Competition at the carcass: opportunities for social foraging by turkey vultures in southern Ontario",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Prior",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "P",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Weatherhead",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "Can J Zool",
+                "volume": "69",
+                "issue": "6",
+                "pages": "1550--1556",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Prior KA, Weatherhead PJ. Competition at the carcass: opportunities for social foraging by turkey vultures in southern Ontario. Can J Zool 1991;69(6):1550-6.",
+                "links": null
+            },
+            "BIBREF19": {
+                "ref_id": "b19",
+                "title": "Spatial patterning of Vulture scavenged human remains",
+                "authors": [
+                    {
+                        "first": "K",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Spradley",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Hamilton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Giordano",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "Forensic Sci Int",
+                "volume": "219",
+                "issue": "1-3",
+                "pages": "57--63",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Spradley KM, Hamilton MD, Giordano A. Spatial patterning of Vulture scavenged human remains. Forensic Sci Int 2012;219(1-3):57-63.",
+                "links": null
+            },
+            "BIBREF20": {
+                "ref_id": "b20",
+                "title": "Arizona: naming the dead from the desert. BBC News Magazine",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [],
+                        "last": "Reineke",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Reineke R. Arizona: naming the dead from the desert. BBC News Maga- zine, 2013 January 16; http://www.bbc.co.uk/news/magazine-21029783 (accessed July 7, 2013).",
+                "links": null
+            },
+            "BIBREF21": {
+                "ref_id": "b21",
+                "title": "Current research in forensic taphonomy",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "H"
+                        ],
+                        "last": "Sorg",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "W",
+                        "middle": [
+                            "D"
+                        ],
+                        "last": "Haglund",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Wren",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2012,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "477--98",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Sorg MH, Haglund WD, Wren JA. Current research in forensic taphon- omy. In: Dirkmaat D, editor. A companion to forensic anthropology. Hoboken, NJ: John Wiley & Sons Ltd, 2012;477-98.",
+                "links": null
+            },
+            "BIBREF22": {
+                "ref_id": "b22",
+                "title": "By the time I get to Arizona\": citizenship, materiality, and contested identities along the",
+                "authors": [
+                    {
+                        "first": "De",
+                        "middle": [],
+                        "last": "Le On",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [],
+                        "last": "Gokee",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "C",
+                        "middle": [],
+                        "last": "Schubert",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "",
+                        "suffix": ""
+                    }
+                ],
+                "year": null,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "De Le on J, Gokee C, Schubert A. \"By the time I get to Arizona\": citizenship, materiality, and contested identities along the U.S.-Mexico border. Anthropol Q In press.",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "num": null,
+                "text": "including discoloration, skin slippage, bloating, intensive maggot activity, and caving of the abdominal cavity. This delay in scavenging activity is likely the result of rainfall that occurred during the first week of the experiments. Rain may have masked the odor of the carcass and made it difficult for turkey vultures, who rely FIG. 2--(A) Pig placed in direct sunlight. (B) Pig placed in shade.",
+                "type_str": "figure",
+                "uris": null
+            },
+            "FIGREF1": {
+                "num": null,
+                "text": "Ten days after death (103.61 ADD), a turkey vulture approached the Shade Pig at 8:18 am and spent c. 20 min in close proximity to the carcass. However, true scavenging did not FIG. 3--(A) Coyote scavengers observed 17 days after death. (B) The first hour of intense vulture scavenging. (C) 24 h after vulture scavenging began. (D)",
+                "type_str": "figure",
+                "uris": null
+            },
+            "FIGREF2": {
+                "num": null,
+                "text": "-Turkey vultures (Cathartes aura) removing Shade Pig clothing.",
+                "type_str": "figure",
+                "uris": null
+            },
+            "FIGREF3": {
+                "num": null,
+                "text": "-Domestic dog (Canis familiaris) investigating Shade Pig. FIG. 6--Percent completion of appendicular skeleton: Sun Pig and Shade Pig. FIG. 7--Percent completion of elements of axial skeleton.",
+                "type_str": "figure",
+                "uris": null
+            },
+            "FIGREF4": {
+                "num": null,
+                "text": "-Percent completion of spine: Sun Pig and Shade Pig. FIG. 10--Spatial distribution of Sun Pig skeletal elements and personal effects.",
+                "type_str": "figure",
+                "uris": null
+            },
+            "FIGREF5": {
+                "num": null,
+                "text": "-Spatial Distribution of Shade Pig skeletal elements and personal effects. FIG. 12--Percentage of elements dispersed from site of deposition. FIG. 13--Percentage of artifacts dispersed from site of deposition.",
+                "type_str": "figure",
+                "uris": null
+            },
+            "FIGREF6": {
+                "num": null,
+                "text": "-Sun Pig 48 h after initial scavenging. BECK ET AL. . ANIMAL SCAVENGING SONORAN DESERT S19",
+                "type_str": "figure",
+                "uris": null
+            },
+            "TABREF0": {
+                "num": null,
+                "text": "-Accumulated degree-days (ADD) for study period.",
+                "type_str": "table",
+                "content": "<table><tr><td>Date</td><td>Day Post-mortem</td><td>Observed Low\u00b0F</td><td>Observed High\u00b0F</td><td>Observed Low\u00b0C</td><td>Observed High\u00b0C</td><td>Average\u00b0C</td><td>ADD</td></tr><tr><td>15-June</td><td>1</td><td>74</td><td>100</td><td>23.33</td><td>37.78</td><td>30.56</td><td>30.56</td></tr><tr><td>16-June</td><td>2</td><td>16</td><td>68</td><td>\u00c08.89</td><td>20.00</td><td>5.56</td><td>36.11</td></tr><tr><td>17-June</td><td>3</td><td>17</td><td>70</td><td>\u00c08.33</td><td>21.11</td><td>6.39</td><td>42.50</td></tr><tr><td>18-June</td><td>4</td><td>18</td><td>74</td><td>\u00c07.78</td><td>23.33</td><td>7.78</td><td>50.28</td></tr><tr><td>19-June</td><td>5</td><td>19</td><td>74</td><td>\u00c07.22</td><td>23.33</td><td>8.06</td><td>58.33</td></tr><tr><td>20-June</td><td>6</td><td>20</td><td>68</td><td>\u00c06.67</td><td>20.00</td><td>6.67</td><td>65.00</td></tr><tr><td>21-June</td><td>7</td><td>21</td><td>71</td><td>\u00c06.11</td><td>21.67</td><td>7.78</td><td>72.78</td></tr><tr><td>22-June</td><td>8</td><td>22</td><td>75</td><td>\u00c05.56</td><td>23.89</td><td>9.17</td><td>81.94</td></tr><tr><td>23-June</td><td>9</td><td>23</td><td>77</td><td>\u00c05.00</td><td>25.00</td><td>10.00</td><td>91.94</td></tr><tr><td>24-June</td><td>10</td><td>24</td><td>82</td><td>\u00c04.44</td><td>27.78</td><td>11.67</td><td>103.61</td></tr><tr><td>25-June</td><td>11</td><td>25</td><td>81</td><td>\u00c03.89</td><td>27.22</td><td>11.67</td><td>115.28</td></tr><tr><td>26-June</td><td>12</td><td>26</td><td>81</td><td>\u00c03.33</td><td>27.22</td><td>11.94</td><td>127.22</td></tr><tr><td>27-June</td><td>13</td><td>27</td><td>80</td><td>\u00c02.78</td><td>26.67</td><td>11.94</td><td>139.17</td></tr><tr><td>28-June</td><td>14</td><td>28</td><td>79</td><td>\u00c02.22</td><td>26.11</td><td>11.94</td><td>151.11</td></tr><tr><td>29-Jun</td><td>15</td><td>29</td><td>79</td><td>\u00c01.67</td><td>26.11</td><td>12.22</td><td>163.33</td></tr><tr><td>30-June</td><td>16</td><td>30</td><td>82</td><td>\u00c01.11</td><td>27.78</td><td>13.33</td><td>176.67</td></tr><tr><td>01-July</td><td>17</td><td>80</td><td>105</td><td>26.67</td><td>40.56</td><td>33.61</td><td>210.28</td></tr><tr><td>02-July</td><td>18</td><td>79</td><td>103</td><td>26.11</td><td>39.44</td><td>32.78</td><td>243.06</td></tr><tr><td>03-July</td><td>19</td><td>71</td><td>94</td><td>21.67</td><td>34.44</td><td>28.06</td><td>271.11</td></tr><tr><td>04-July</td><td>20</td><td>68</td><td>86</td><td>20.00</td><td>30.00</td><td>25.00</td><td>296.11</td></tr><tr><td>05-July</td><td>21</td><td>5</td><td>69</td><td>\u00c015.00</td><td>20.56</td><td>2.78</td><td>298.89</td></tr><tr><td>06-July</td><td>22</td><td>6</td><td>75</td><td>\u00c014.44</td><td>23.89</td><td>4.72</td><td>303.61</td></tr><tr><td>07-July</td><td>23</td><td>7</td><td>76</td><td>\u00c013.89</td><td>24.44</td><td>5.28</td><td>308.89</td></tr><tr><td>08-July</td><td>24</td><td>8</td><td>81</td><td>\u00c013.33</td><td>27.22</td><td>6.94</td><td>315.83</td></tr><tr><td>09-July</td><td>25</td><td>9</td><td>78</td><td>\u00c012.78</td><td>25.56</td><td>6.39</td><td>322.22</td></tr><tr><td>10-Jul</td><td>26</td><td>10</td><td>83</td><td>\u00c012.22</td><td>28.33</td><td>8.06</td><td>330.28</td></tr><tr><td>11-July</td><td>27</td><td>11</td><td>77</td><td>\u00c011.67</td><td>25.00</td><td>6.67</td><td>336.94</td></tr><tr><td>12-July</td><td>28</td><td>12</td><td>79</td><td>\u00c011.11</td><td>26.11</td><td>7.50</td><td>344.44</td></tr><tr><td>13-July</td><td>29</td><td>13</td><td>72</td><td>\u00c010.56</td><td>22.22</td><td>5.83</td><td>350.28</td></tr><tr><td>14-July</td><td>30</td><td>14</td><td>69</td><td>\u00c010.00</td><td>20.56</td><td>5.28</td><td>355.56</td></tr><tr><td>15-July</td><td>31</td><td>15</td><td>69</td><td>\u00c09.44</td><td>20.56</td><td>5.56</td><td>361.11</td></tr><tr><td>16-July</td><td>32</td><td>16</td><td>70</td><td>\u00c08.89</td><td>21.11</td><td>6.11</td><td>367.22</td></tr><tr><td>17-July</td><td>33</td><td>17</td><td>73</td><td>\u00c08.33</td><td>22.78</td><td>7.22</td><td>374.44</td></tr></table>"
+            },
+            "TABREF1": {
+                "num": null,
+                "text": "",
+                "type_str": "table",
+                "content": "<table><tr><td/><td/><td>Left</td><td>Right</td></tr><tr><td colspan=\"2\">Squamous Part of Occipital Bone</td><td>1</td><td>0</td></tr><tr><td colspan=\"2\">Lateral Part of Occipital Bone</td><td>1</td><td>1</td></tr><tr><td>Incisive Bone</td><td/><td>1</td><td>1</td></tr><tr><td>Zygomatic Bone</td><td/><td>1</td><td>1</td></tr><tr><td>Lacrimal Bone</td><td/><td>1</td><td>1</td></tr><tr><td>Palatine Bone</td><td/><td>0.5</td><td>1</td></tr><tr><td>Nasal Bones</td><td/><td>1</td><td>1</td></tr><tr><td>Temporal Bone</td><td/><td>1</td><td>0</td></tr><tr><td>Frontal Bone</td><td/><td>1</td><td>0</td></tr><tr><td>Parietal Bone</td><td/><td>1</td><td>0</td></tr><tr><td>Pterygoid Bone</td><td/><td>1</td><td>0</td></tr><tr><td>Vomer</td><td/><td>N</td><td>N</td></tr><tr><td>Sphenoid</td><td/><td>N</td><td>N</td></tr><tr><td>Total</td><td/><td>10.5</td><td>6</td></tr><tr><td/><td>Incisors</td><td>Premolars</td><td>Molars</td></tr><tr><td>Upper (L)</td><td>I 1 , Di 2</td><td>Dp 2 , Dp 3 , Dp 4</td><td>M1</td></tr><tr><td>Upper (R)</td><td>I 1 , Di 2</td><td>Dp 2 , Dp 3 , Dp 4</td><td>M1</td></tr><tr><td>Lower (L)</td><td>I 1 , I 2 , Di 3</td><td>Dp 4 , Dp 3 , Dp 2</td><td>M1</td></tr><tr><td>Lower (R)</td><td>I 1 , I 2 , Di 3</td><td>Dp 4 , Dp 3 , Dp 2</td><td>M1</td></tr></table>"
+            },
+            "TABREF2": {
+                "num": null,
+                "text": "-Postcranial element preservation: Sun pig and Shade pig.",
+                "type_str": "table",
+                "content": "<table><tr><td/><td/><td>Sun</td><td>Sun</td><td>Shade</td><td>Shade</td></tr><tr><td>Region</td><td>Element</td><td>(L)</td><td>(R)</td><td>(L)</td><td>(R)</td></tr><tr><td>Shoulder</td><td>Scapula</td><td>0</td><td>1</td><td>1</td><td>1</td></tr><tr><td>Arm</td><td>Humerus</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td/><td>Ulna</td><td>1</td><td>0</td><td>1</td><td>1</td></tr><tr><td/><td>Radius</td><td>1</td><td>0</td><td>1</td><td>0</td></tr><tr><td>Spine</td><td>Cervical Vertebrae</td><td>0</td><td>1</td><td>0</td><td>0</td></tr><tr><td/><td>Thoracic Vertebrae</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td/><td>Lumbar Vertebrae</td><td>0</td><td>2</td><td>0</td><td>0</td></tr><tr><td>Thorax</td><td>Ribs</td><td>12</td><td>13</td><td>12</td><td>13</td></tr><tr><td>Pelvis</td><td>Ilium</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td/><td>Ischium</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td/><td>Pubis</td><td>1</td><td>0.5</td><td>0</td><td>0</td></tr><tr><td>Leg</td><td>Femur</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td/><td>Tibia</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td/><td>Fibula</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td/><td>Long Bone Epiphyses</td><td>1</td><td>1</td><td>0</td><td>0</td></tr><tr><td/><td>Total Sided Bones</td><td>20</td><td>22.5</td><td>19</td><td>20</td></tr><tr><td>Context</td><td colspan=\"2\">Elements &lt; 1 m</td><td/><td colspan=\"2\">Elements &gt; 5 m</td></tr><tr><td>Shade</td><td>19 (26%)</td><td/><td/><td colspan=\"2\">11 (15%)</td></tr><tr><td>Sun</td><td>16 (21%)</td><td/><td/><td colspan=\"2\">22 (28%)</td></tr></table>"
+            },
+            "TABREF3": {
+                "num": null,
+                "text": "-Anatomical region by dispersal distance for the Sun pig.",
+                "type_str": "table",
+                "content": "<table><tr><td>Distance</td><td>Limb</td><td>Thorax</td><td>Spine</td><td>Cranium</td><td>Unknown</td></tr><tr><td>&lt;1 m</td><td>1</td><td>8</td><td>8</td><td>2</td><td>0</td></tr><tr><td>1-5 m</td><td>3</td><td>18</td><td>14</td><td>6</td><td>1</td></tr><tr><td>&gt;5 m</td><td>5</td><td>1</td><td>1</td><td>4</td><td>0</td></tr><tr><td>Distance</td><td>Limb</td><td>Thorax</td><td>Spine</td><td>Cranium</td><td>Unknown</td></tr><tr><td>&lt;1 m</td><td>1</td><td>13</td><td>2</td><td>0</td><td>0</td></tr><tr><td>1-5 m</td><td>5</td><td>14</td><td>19</td><td>0</td><td>2</td></tr><tr><td>&gt;5 m</td><td>12</td><td>5</td><td>4</td><td>0</td><td>1</td></tr></table>"
+            },
+            "TABREF4": {
+                "num": null,
+                "text": "-Scavenging activity around the Sun pig and Shade pig.",
+                "type_str": "table",
+                "content": "<table><tr><td/><td/><td>Date and Time</td><td/><td/><td/><td>Date of</td><td/></tr><tr><td/><td>Date and Time of</td><td>of Initial Animal</td><td>First Vulture</td><td/><td>Date and Time of Initial</td><td>Skeleton-</td><td>Total Vulture</td></tr><tr><td>Subject</td><td>Deposition</td><td>Contact</td><td>Contact</td><td>Other Animal Contact</td><td>Vulture Scavenging</td><td>ization</td><td>Feeding Time</td></tr><tr><td>Sun Pig</td><td colspan=\"2\">6/15/2012 8:30 am June 20th (coyote)</td><td>28 June</td><td>Dogs, cattle</td><td>01 July, 7:38 am</td><td>02 July</td><td>01 July 02-July</td></tr><tr><td colspan=\"3\">Shade Pig 6/15/2012 9:30 am June 17 (dog)</td><td>25 June</td><td>Cat, dogs, cattle, ravens, dove</td><td>07 July, 6:27 pm</td><td>10 July</td><td>07 July-11 July</td></tr></table>"
+            }
+        }
+    }
+}
