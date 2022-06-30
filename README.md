@@ -8,7 +8,7 @@ Code and data in this repository support an ongoing project to analyze specimen 
 ## /data
 Articles from the bibliographies of natural history collections. PDFs are parsed with [GROBID](https://github.com/kermitt2/grobid) software.
 * `bibliography_ummz_json`: 461 articles from the [University of Michigan Museum of Zoology](https://lsa.umich.edu/ummz) bibliography
-* `bibliography_ummz_json`: 46 articles from the [University of Texas Works Progress Administration](https://www.jsg.utexas.edu/vpl/collections/the-works-progress-administration-wpa-collection) bibliography
+* `bibliography_wpa_json`: 46 articles from the [University of Texas Works Progress Administration](https://www.jsg.utexas.edu/vpl/collections/the-works-progress-administration-wpa-collection) bibliography
 
 ## /notebooks
 Demonstration of NER model applied to each bibliography.
