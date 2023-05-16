@@ -1,29 +1,42 @@
-# specimen-ner
+# Specimen Citations
 
-Code and data in this repository support an ongoing project to analyze specimen references in natural history collections [under development]. The goals of this project are to:
-1. develop a named entity recognition (NER) model to detect references to specimen in text
-2. apply the model to extract references to specimen across various natural history collection
-3. analyze specimen citations and co-citations to demonstrate the impact of collections
+This repository supports an ongoing project to surface and analyze specimen citations in natural history collections. The goals of this project are to:
+1. develop a computational model to detect references to specimen in text
+2. apply the model to extract specimen references in academic literature
+3. analyze specimen citations to demonstrate the impact of collections
+
+Resources:
+- [University of Michigan Museum of Zoology](https://lsa.umich.edu/ummz/mammals/publications.html) bibliography
+- [GROBID](https://github.com/kermitt2/grobid) software
+- [Prodigy](https://prodi.gy/docs) software
+- [spaCy](https://spacy.io/usage/training) software
+- [GPT](https://platform.openai.com/docs/models) API
 
 ## /data
-Articles from the bibliographies of natural history collections. PDFs are parsed with [GROBID](https://github.com/kermitt2/grobid) software.
-* `bibliography_ummz_json`: 461 articles from the [University of Michigan Museum of Zoology](https://lsa.umich.edu/ummz) bibliography
-* `bibliography_wpa_json`: 46 articles from the [University of Texas Works Progress Administration](https://www.jsg.utexas.edu/vpl/collections/the-works-progress-administration-wpa-collection) bibliography
+* `bibliography_ummz_json`: 461 papers from from the University of Michigan Museum of Zoology bibliography parsed with with GROBID software
+* `formal_collection_acronym`: list of mammal collections
+* `specimen_truth_deck`: labeled sentences from UMMZ papers for model validation
+* `ummz_bib`: full list of papers from the UMMZ bibliography as of fall 2022
+* `ummz_pattern_matching`: sentences extracted from UMMZ papers labeled in Prodigy software for NER training
 
 ## /notebooks
-Demonstration of NER model applied to each bibliography.
-* `UMMZ_results.ipynb`: notebook for detecting references to specimens in the UMMZ bibliography
-* `WPA_results.ipynb`: notebook for detecting references to specimens in the WPA bibliography
+* `gpt_specimens` : search for specimens using GPT-3
+* `ner_specimens` : train a custom NER model with spaCy to search for specimen codes
+* `regex_specimens` : search for specimens using regular expression pattern matching on mammal collection codes
+* `truth_deck`: compare truth deck sentences (n=374) to RegEx; NER; and GPT using Jaro-Winkler similarity score
+* `ummz_results`: run custom NER model on all available papers in the UMMZ bibliography
 
 ## /output
-Best performing Named Entity Recognition (NER) model trained and evaluated in a [spaCy](https://spacy.io/) pipeline.
-* /model-best: recall (96.4); precision (91.1); F-score (93.7)
+* `/model-best`: best performing Named Entity Recognition (NER) model trained and evaluated in a [spaCy](https://spacy.io/) pipeline with recall (96.4); precision (91.1); F-score (93.7)
 
 ## /results
-Collection-level reports on the frequency of specimen references in articles, specimen predictions, unique specimens references per paper, and total specimen counts.
+* `frequency_ummz`: count of specimens extracted with NER model
+* `predictions_ummz`: row level specimen predictions from NER model
+* `specimens_per_paper_ummz`: grouped specimen predictions per paper from NER model
+* `ummz_specimen_count`: plot of specimen frequencies across available papers in the UMMZ bibliography
 
 ## /train
-Sentences with labeled entities from UMMZ, WPA bibliographies. 1,010 sentences split into 80% training (train.spacy) and 20% test (dev.spacy)
-* config.cfg: Configuration settings for training model in spaCy
-
-
+* `labels`: input labels for training NER model (1,010 sentences)
+* `config`: configuration settings for NER training in spaCy
+* `dev.spacy`: labels held out for evaluating NER model (20%)
+* `train.spacy`: labels used in training NER model (80%)
