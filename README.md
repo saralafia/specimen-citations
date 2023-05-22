@@ -11,9 +11,10 @@ Our initial corpus comes from:
 - an internally curated bibliography from the Smithsonian 
 
 # Findings so far
-- our custom NER model and RegEx outperform ChatGPT. 
+- Custom NER model and RegEx outperform ChatGPT. 
 - Custom NER model was more flexible and generalized well with edge cases, whereas RegEx was less flexible and often missed examples such as code ranges (e.g. "LACM 10203-10207")
 - Specimen citation metrics are lower overall than we expected, but further work is needed to figure out why. Our corpora may simply be too small to capture a holistic picture of a collection's specimen use. This should be a consideration in any future infrastructure or metrics development for tracking specimen citation
+- We suspect ChatGPT performance could be improved with better prompt engineering, but this is a nascent area. A focused study on the perfromance of ChatGPT with different tasks is needed.
 
 # Resources:
 - [University of Michigan Museum of Zoology](https://lsa.umich.edu/ummz/mammals/publications.html) bibliography
